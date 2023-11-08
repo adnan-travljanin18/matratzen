@@ -1,21 +1,21 @@
 {
   "sections": {
-    "50780d5b-b0eb-4b95-92dd-d1cd28db481a": {
+    "e3a08e77-0b14-40d0-a79b-415f40e3fd60": {
       "type": "global-split-image-banner",
       "blocks": {
-        "template--15357004054601__50780d5b-b0eb-4b95-92dd-d1cd28db481a-heading-1": {
+        "template--15357004054601__e3a08e77-0b14-40d0-a79b-415f40e3fd60-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "Image banner"
           }
         },
-        "template--15357004054601__50780d5b-b0eb-4b95-92dd-d1cd28db481a-text-1": {
+        "template--15357004054601__e3a08e77-0b14-40d0-a79b-415f40e3fd60-text-1": {
           "type": "text",
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template."
           }
         },
-        "template--15357004054601__50780d5b-b0eb-4b95-92dd-d1cd28db481a-buttons-1": {
+        "template--15357004054601__e3a08e77-0b14-40d0-a79b-415f40e3fd60-buttons-1": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Button label",
@@ -32,11 +32,13 @@
         }
       },
       "block_order": [
-        "template--15357004054601__50780d5b-b0eb-4b95-92dd-d1cd28db481a-heading-1",
-        "template--15357004054601__50780d5b-b0eb-4b95-92dd-d1cd28db481a-text-1",
-        "template--15357004054601__50780d5b-b0eb-4b95-92dd-d1cd28db481a-buttons-1"
+        "template--15357004054601__e3a08e77-0b14-40d0-a79b-415f40e3fd60-heading-1",
+        "template--15357004054601__e3a08e77-0b14-40d0-a79b-415f40e3fd60-text-1",
+        "template--15357004054601__e3a08e77-0b14-40d0-a79b-415f40e3fd60-buttons-1"
       ],
       "settings": {
+        "image_small": "shopify:\/\/shop_images\/bett1_bodyguard-kindermatratze_hero_kidsgo_de_c2c20efe-128a-4de6-86ea-5c85c632bac9.webp",
+        "image_small_2": "shopify:\/\/shop_images\/bett1_bodyguard_anti-kartell-matratze_4-millionen_slogan_0623_de_at.webp",
         "image_overlay_opacity": 0,
         "height": "tallheight",
         "show_text_box": true,
@@ -47,9 +49,59 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "dd31dae5-f007-4cf9-9b8c-53a36739a65f": {
+      "type": "global-image-banner",
+      "blocks": {
+        "template--15357004054601__dd31dae5-f007-4cf9-9b8c-53a36739a65f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "template--15357004054601__dd31dae5-f007-4cf9-9b8c-53a36739a65f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "template--15357004054601__dd31dae5-f007-4cf9-9b8c-53a36739a65f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "btn_type_1": "",
+            "btn_variant_1": "primary",
+            "btn_size_1": "",
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "btn_type_2": "",
+            "btn_variant_2": "primary",
+            "btn_size_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15357004054601__dd31dae5-f007-4cf9-9b8c-53a36739a65f-heading-1",
+        "template--15357004054601__dd31dae5-f007-4cf9-9b8c-53a36739a65f-text-1",
+        "template--15357004054601__dd31dae5-f007-4cf9-9b8c-53a36739a65f-buttons-1"
+      ],
+      "settings": {
+        "txt_color": "",
+        "enable_overlay": true,
+        "overlay_bg_color": "#000000",
+        "overlay_opacity": 0.5,
+        "height": "tallheight",
+        "desktop_text_box_position": "center",
+        "text_caption_align": "justify-content-center",
+        "text_align": "text-center",
+        "section_padding": false,
+        "txt-bg-color": ""
+      }
     }
   },
   "order": [
-    "50780d5b-b0eb-4b95-92dd-d1cd28db481a"
+    "e3a08e77-0b14-40d0-a79b-415f40e3fd60",
+    "dd31dae5-f007-4cf9-9b8c-53a36739a65f"
   ]
 }
