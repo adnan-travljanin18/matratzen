@@ -133,11 +133,35 @@
         "btn_variant": "primary",
         "btn_size": ""
       }
+    },
+    "8d02d717-406f-4830-aeba-0b71d6433fba": {
+      "type": "global-image-with-text",
+      "settings": {
+        "fluid_layout": false,
+        "column": false,
+        "column_reverse": false,
+        "heading_txt": "",
+        "txt": "<p>Wir haben die BODYGUARD® Anti-Kartell-Matratze entwickelt, um Transparenz in den Matratzendschungel zu bringen. Wir bieten Qualität zum fairen Preis – 365 Tage im Jahr, ohne Streichpreise und Matratzenmärchen. Erfahre mehr über die Anti-Kartell-Geschichte hinter bett1.de und der BODYGUARD® Anti-Kartell-Matratze.<\/p>",
+        "step_heading": "Awesome Sub Heading",
+        "steps_captions": "",
+        "btn_txt": "Jetzt ab 199, - bestellen",
+        "btn_link": "shopify:\/\/products\/matress",
+        "btn_type": "",
+        "btn_variant": "primary",
+        "btn_size": "",
+        "image": "shopify:\/\/shop_images\/bett1_bodyguard-antikartell-matratze_kern-aufgeklapp_Shopware.webp",
+        "url_on_image": "",
+        "section_bg_color": "#FAFAF7",
+        "section_text_color": "#000000",
+        "alignment": "text-left",
+        "image_alignment": "left"
+      }
     }
   },
   "order": [
     "08af8087-4faf-4ef7-95e3-9f5886e1fd08",
     "02d12352-47d3-4865-815f-f107ace0aaeb",
-    "55c37968-0e45-4201-851c-5f84cb221880"
+    "55c37968-0e45-4201-851c-5f84cb221880",
+    "8d02d717-406f-4830-aeba-0b71d6433fba"
   ]
 }
