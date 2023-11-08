@@ -58,7 +58,6 @@
           "header_bg_color": "#ffffff",
           "show_line_separator": false,
           "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/fluid.png",
           "logo_width": 90,
           "menu": "footer"
         }
@@ -147,7 +146,7 @@
       "top-header": {
         "type": "top-header",
         "settings": {
-          "topbar_enabled": true,
+          "topbar_enabled": false,
           "topbar_text": "SAME DAY SHIPPING! ORDER BY 2PM (EASTERN TIME)",
           "topbar_bg_color": "#d29c7d",
           "topbar_text_color": "#ffffff",
