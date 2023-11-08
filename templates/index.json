@@ -31,6 +31,62 @@
         "lead_txt": "",
         "btn_txt": "",
         "btn_url": "",
+        "section_bg_color": "#fafaf7",
+        "section_txt_color": "#222222",
+        "btn_type": "outline",
+        "btn_variant": "primary",
+        "btn_size": ""
+      }
+    },
+    "55c37968-0e45-4201-851c-5f84cb221880": {
+      "type": "global-features-grid",
+      "blocks": {
+        "template--15357004054601__55c37968-0e45-4201-851c-5f84cb221880-content-1": {
+          "type": "content",
+          "settings": {
+            "icon_img": "",
+            "title": "",
+            "txt": ""
+          }
+        },
+        "d18eb0b6-9b02-449c-b36c-cf6c3094f73e": {
+          "type": "content",
+          "settings": {
+            "icon_img": "",
+            "title": "",
+            "txt": ""
+          }
+        },
+        "d35ce9fb-f557-426f-9fd0-8d9b96c4130b": {
+          "type": "content",
+          "settings": {
+            "icon_img": "",
+            "title": "",
+            "txt": ""
+          }
+        },
+        "0b3dc0ce-0cc6-4f06-a116-55078f794c83": {
+          "type": "content",
+          "settings": {
+            "icon_img": "",
+            "title": "",
+            "txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15357004054601__55c37968-0e45-4201-851c-5f84cb221880-content-1",
+        "d18eb0b6-9b02-449c-b36c-cf6c3094f73e",
+        "d35ce9fb-f557-426f-9fd0-8d9b96c4130b",
+        "0b3dc0ce-0cc6-4f06-a116-55078f794c83"
+      ],
+      "settings": {
+        "fluid_layout": false,
+        "grid_size": "3",
+        "heading_txt": "Ausgezeichnet",
+        "lead_txt": "",
+        "btn_txt": "",
+        "btn_url": "",
         "section_bg_color": "#FAFAF7",
         "section_txt_color": "#222222",
         "btn_type": "outline",
@@ -40,6 +96,7 @@
     }
   },
   "order": [
-    "08af8087-4faf-4ef7-95e3-9f5886e1fd08"
+    "08af8087-4faf-4ef7-95e3-9f5886e1fd08",
+    "55c37968-0e45-4201-851c-5f84cb221880"
   ]
 }
