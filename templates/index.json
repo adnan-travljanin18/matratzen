@@ -26,6 +26,10 @@
         "template--15357004054601__08af8087-4faf-4ef7-95e3-9f5886e1fd08-content-1",
         "0ea81006-1faa-4f87-ba8b-2f399cf38436"
       ],
+      "custom_css": [
+        "img {transition: transform .3s ease-in-out}",
+        "img:hover {transform: scale(1.1); transition: transform .3s ease-in-out}"
+      ],
       "settings": {
         "fluid_layout": true,
         "grid_size": "6",
