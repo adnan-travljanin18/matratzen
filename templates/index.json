@@ -27,14 +27,14 @@
         "0ea81006-1faa-4f87-ba8b-2f399cf38436"
       ],
       "custom_css": [
-        "img {transition: transform .3s ease-in-out}",
-        "img:hover {transform: scale(1.1); transition: transform .3s ease-in-out}"
+        "img {transition: transform 0.3s ease-in-out;}",
+        "img:hover {transform: scale(1.1); transition: transform 0.3s ease-in-out;}"
       ],
       "settings": {
         "fluid_layout": true,
         "grid_size": "6",
-        "heading_txt": "",
-        "lead_txt": "",
+        "heading_txt": "Wir sind Matratze.",
+        "lead_txt": "Alles, was du zum Schlafen brauchst.",
         "btn_txt": "",
         "btn_url": "",
         "section_bg_color": "#fafaf7",
