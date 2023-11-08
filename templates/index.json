@@ -136,6 +136,9 @@
     },
     "8d02d717-406f-4830-aeba-0b71d6433fba": {
       "type": "global-image-with-text",
+      "custom_css": [
+        "img {object-fit: scale-down;}"
+      ],
       "settings": {
         "fluid_layout": false,
         "column": false,
