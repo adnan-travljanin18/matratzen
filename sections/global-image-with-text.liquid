@@ -1,6 +1,6 @@
 <section class="section-content image-with-text"  data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_txt_color }}">
     <div class="{% if section.settings.fluid_layout %}container-fluid{% else %}container{% endif %}">
-        <div class="row align-items-center">
+    <div class="row {% if section.settings.column != blank %}flex-column {% endif %} {% if section.settings.column_reverse != blank %}flex-column-reverse {% endif %}align-items-center">
             <div class="col-12 col-md-6 col-lg-7 {% if section.settings.image_alignment == 'left' %}order-md-1{% else %}order-md-2{% endif %}">
                 <div class="banner-img {{ section.settings.height }}">
                     {%- if section.settings.image != blank -%}
@@ -68,6 +68,18 @@
                 "type": "checkbox",
                 "id": "fluid_layout",
                 "label": "Full Width Layout?",
+                "default": false
+            },
+            {
+                "type": "checkbox",
+                "id": "column",
+                "label": "Normal Column?",
+                "default": false
+            },
+            {
+                "type": "checkbox",
+                "id": "column_reverse",
+                "label": "Column Reverse?",
                 "default": false
             },
             {
