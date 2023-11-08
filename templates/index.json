@@ -117,6 +117,10 @@
         "d35ce9fb-f557-426f-9fd0-8d9b96c4130b",
         "0b3dc0ce-0cc6-4f06-a116-55078f794c83"
       ],
+      "custom_css": [
+        ".feature div {max-height: 315px; aspect-ratio: 1\/1;}",
+        "img {height: 100%;}"
+      ],
       "settings": {
         "fluid_layout": false,
         "grid_size": "3",
