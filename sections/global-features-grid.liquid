@@ -23,9 +23,15 @@
                   <div class="feature d-flex flex-column {% if forloop.last == true %} mb-0 {% else %} mb-sm-0 mb-4{% endif %}">
                       <div class="text-center mb-4">
                         {% if block.settings.icon_img != blank %}
-                          <img src="{{ block.settings.icon_img }}" alt="{{ block.settings.title }}"
-                            width="150"
-                            height="150" loading="lazy"/>
+                          {% if block.settings.url_on_image != blank %}
+                            <a href="{{ block.settings.url_on_image }}"><img src="{{ block.settings.icon_img }}" alt="{{ block.settings.title }}"
+                              width="150"
+                              height="150" loading="lazy"/></a>
+                            {% else %}
+                              <img src="{{ block.settings.icon_img }}" alt="{{ block.settings.title }}"
+                                width="150"
+                                height="150" loading="lazy"/>
+                            {% endif %}
                         {% else %}
                           {{ 'image' | placeholder_svg_tag: 'bg-gray-100' }}
                         {% endif %}
@@ -211,7 +217,12 @@
           {
             "type": "text",
             "id": "icon_img",
-            "label": "Icon Image"
+            "label": "Select Image"
+          },
+          {
+            "type": "url",
+            "id": "url_on_image",
+            "label": "Add Url on Image"
           },
           {
             "type": "text",
