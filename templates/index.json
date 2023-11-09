@@ -15,7 +15,7 @@
         "0ea81006-1faa-4f87-ba8b-2f399cf38436": {
           "type": "content",
           "settings": {
-            "icon_img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/2130\/3625\/files\/bett1_bodyguard_anti-kartell-matratze_4-millionen_slogan_0623_de_at.webp?v=1699443053",
+            "icon_img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/2130\/3625\/files\/bett1_bodyguard_anti-kartell-matratze_4-millionen_slogan_0623_de_at_f5783654-e986-41ad-9b04-de68dd259773.webp?v=1699447585",
             "url_on_image": "shopify:\/\/products\/matress",
             "title": "",
             "txt": ""
@@ -134,6 +134,41 @@
         "btn_size": ""
       }
     },
+    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc": {
+      "type": "global-product-slider",
+      "blocks": {
+        "bfcde385-fbd6-4772-b453-7f009898d2a1": {
+          "type": "product_slide",
+          "settings": {
+            "selected_product": "matress",
+            "btn_text": "Details"
+          }
+        },
+        "ed3f47e5-1059-40cd-b361-e0133eec2bb7": {
+          "type": "product_slide",
+          "settings": {
+            "selected_product": "matress",
+            "btn_text": "Details"
+          }
+        },
+        "a9e2dc6c-4e87-4905-8430-9bb115916cf8": {
+          "type": "product_slide",
+          "settings": {
+            "selected_product": "matress",
+            "btn_text": "Details"
+          }
+        }
+      },
+      "block_order": [
+        "bfcde385-fbd6-4772-b453-7f009898d2a1",
+        "ed3f47e5-1059-40cd-b361-e0133eec2bb7",
+        "a9e2dc6c-4e87-4905-8430-9bb115916cf8"
+      ],
+      "settings": {
+        "section_title": "Slider Title",
+        "section_bg_color": "#fafaf7"
+      }
+    },
     "8d02d717-406f-4830-aeba-0b71d6433fba": {
       "type": "global-image-with-text",
       "custom_css": [
@@ -183,41 +218,6 @@
         "image_alignment": "right"
       }
     },
-    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc": {
-      "type": "global-product-slider",
-      "blocks": {
-        "bfcde385-fbd6-4772-b453-7f009898d2a1": {
-          "type": "product_slide",
-          "settings": {
-            "selected_product": "matress",
-            "btn_text": "Details"
-          }
-        },
-        "ed3f47e5-1059-40cd-b361-e0133eec2bb7": {
-          "type": "product_slide",
-          "settings": {
-            "selected_product": "matress",
-            "btn_text": "Details"
-          }
-        },
-        "a9e2dc6c-4e87-4905-8430-9bb115916cf8": {
-          "type": "product_slide",
-          "settings": {
-            "selected_product": "matress",
-            "btn_text": "Details"
-          }
-        }
-      },
-      "block_order": [
-        "bfcde385-fbd6-4772-b453-7f009898d2a1",
-        "ed3f47e5-1059-40cd-b361-e0133eec2bb7",
-        "a9e2dc6c-4e87-4905-8430-9bb115916cf8"
-      ],
-      "settings": {
-        "section_title": "Slider Title",
-        "section_bg_color": "#fafaf7"
-      }
-    },
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5": {
       "type": "global-info-slider",
       "blocks": {
@@ -260,9 +260,9 @@
     "08af8087-4faf-4ef7-95e3-9f5886e1fd08",
     "02d12352-47d3-4865-815f-f107ace0aaeb",
     "55c37968-0e45-4201-851c-5f84cb221880",
+    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
     "8d02d717-406f-4830-aeba-0b71d6433fba",
     "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
-    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5"
   ]
 }
