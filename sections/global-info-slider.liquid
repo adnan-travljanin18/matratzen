@@ -5,7 +5,7 @@
             {% for block in section.blocks %}
                 <div class="swiper-slide d-block custom-card">
                     <div class="d-flex flex-column align-items-center p-5">
-                        <div class="image-info-wrapper" style="{% if block.settings.image != blank %}background: url('{{ block.settings.image | image_url }}') center no-repeat{% else %} background: url('https://placehold.co/600x400') center no-repeat;{% endif %} display: block"></div>
+                        <div class="image-info-wrapper" style="{% if block.settings.image != blank %}background: url('{{ block.settings.image | image_url }}') center no-repeat{% else %} background: url('https://placehold.co/600x400') center no-repeat{% endif %}; display: block"></div>
                         <div class="product-content text-center">
                             <h4>{{ block.settings.slider_title }}</h4>
                             <p>{{ block.settings.slider_text }}</p>
