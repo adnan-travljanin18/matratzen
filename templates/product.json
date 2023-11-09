@@ -77,6 +77,8 @@
         "related-products"
       ],
       "settings": {
+        "scroll_desktop_icon": "shopify:\/\/shop_images\/scroll.png",
+        "scroll_mobile_icon": "shopify:\/\/shop_images\/swipe.png",
         "template_type": "classic-vertical",
         "fluid_layout": false,
         "show_vendor": true,
