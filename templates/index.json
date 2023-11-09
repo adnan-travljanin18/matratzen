@@ -182,6 +182,40 @@
         "alignment": "text-left",
         "image_alignment": "right"
       }
+    },
+    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc": {
+      "type": "global-product-slider",
+      "blocks": {
+        "bfcde385-fbd6-4772-b453-7f009898d2a1": {
+          "type": "product_slide",
+          "settings": {
+            "selected_product": "",
+            "btn_text": "Details"
+          }
+        },
+        "ed3f47e5-1059-40cd-b361-e0133eec2bb7": {
+          "type": "product_slide",
+          "settings": {
+            "selected_product": "",
+            "btn_text": "Details"
+          }
+        },
+        "a9e2dc6c-4e87-4905-8430-9bb115916cf8": {
+          "type": "product_slide",
+          "settings": {
+            "selected_product": "",
+            "btn_text": "Details"
+          }
+        }
+      },
+      "block_order": [
+        "bfcde385-fbd6-4772-b453-7f009898d2a1",
+        "ed3f47e5-1059-40cd-b361-e0133eec2bb7",
+        "a9e2dc6c-4e87-4905-8430-9bb115916cf8"
+      ],
+      "settings": {
+        "section_title": "Slider Title"
+      }
     }
   },
   "order": [
@@ -189,6 +223,7 @@
     "02d12352-47d3-4865-815f-f107ace0aaeb",
     "55c37968-0e45-4201-851c-5f84cb221880",
     "8d02d717-406f-4830-aeba-0b71d6433fba",
-    "01b05a13-2a39-41cc-a2c4-0667b7738f2e"
+    "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
+    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc"
   ]
 }
