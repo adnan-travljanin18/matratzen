@@ -215,7 +215,7 @@
       ],
       "settings": {
         "section_title": "Slider Title",
-        "section_bg_color": "#FAFAF7"
+        "section_bg_color": "#fafaf7"
       }
     },
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5": {
@@ -226,7 +226,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/bett1_made-in-germany_akm-produktseite_205x170__1.webp",
             "slider_title": "Made in Germany",
-            "slider_text": "<p>BODYGUARD®entwickelt in<br\/><strong>Deutschland.<\/strong>Kern geschäumt in<br\/><strong>Deutschland.<\/strong>Bezug genäht in<br\/><strong>Europa und Deutschland.<\/strong>Fertiggestellt zu<br\/><strong>100 % in Deutschland.<\/strong><\/p>"
+            "slider_text": "<p>BODYGUARD®entwickelt in<br\/><strong>Deutschland.<\/strong><\/p><p>Kern geschäumt in<br\/><strong>Deutschland.<\/strong><\/p><p>Bezug genäht in<br\/><strong>Europa und Deutschland.<\/strong><\/p><p>Fertiggestellt zu<br\/><strong>100 % in Deutschland.<\/strong><\/p>"
           }
         },
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2": {
@@ -234,7 +234,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/bett1_icon-2in1_einfach-wenden_startseite_421x421_59aacce1-0f26-42e3-bab6-6f2d326f8821.webp",
             "slider_title": "2 in 1 Matratze",
-            "slider_text": "<p>Eine Matratze.<br\/>Zwei Seiten.<br\/><strong>100 Nächte testen.<\/strong>Schläfst du lieber<br\/>weicher oder fester?<br\/>Finde es heraus.<br\/><strong>In Ruhe.<\/strong><\/p>"
+            "slider_text": "<p>Eine Matratze.<br\/>Zwei Seiten.<br\/><strong>100 Nächte testen.<\/strong><\/p><p>Schläfst du lieber<br\/>weicher oder fester?<br\/>Finde es heraus.<br\/><strong>In Ruhe.<\/strong><\/p>"
           }
         },
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3": {
@@ -242,7 +242,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/bett1_Kundenservice_Illustrationen.webp",
             "slider_title": "Service & Kontakt",
-            "slider_text": "<p>Unser Team ist gern für dich da:<br\/><strong>Tel:<\/strong><a href=\"tel:+4930767317272\"><strong>+49 30 7673172-72<\/strong><\/a>Mo.–Sa. von 8–22 Uhr<br\/>oder per<br\/><strong>E-Mail:<\/strong><a href=\"mailto:kundenservice@bett1.de\"><strong>kundenservice@bett1.de<\/strong><\/a>Antwortzeit beträgt in der Regel 24 Std.<\/p>"
+            "slider_text": "<p>Unser Team ist gern für dich da:<br\/><strong>Tel:<\/strong><a href=\"tel:+4930767317272\"><strong>+49 30 7673172-72<\/strong><\/a><\/p><p>Mo.–Sa. von 8–22 Uhr<br\/>oder per <strong>E-Mail:<\/strong><\/p><p><a href=\"mailto:kundenservice@bett1.de\"><strong>kundenservice@bett1.de<\/strong><\/a><\/p><p>Antwortzeit beträgt in der Regel 24 Std.<\/p>"
           }
         }
       },
@@ -252,7 +252,7 @@
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3"
       ],
       "settings": {
-        "section_bg_color": "#FAFAF7"
+        "section_bg_color": "#fafaf7"
       }
     }
   },
