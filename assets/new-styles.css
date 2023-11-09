@@ -1,0 +1,45 @@
+
+
+@media screen and (min-width: 768px) {
+    .scroll-desktop-icon {
+        width: 50px;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        z-index: 2;
+        animation: MoveUpDown 1s linear infinite;
+    }
+    .scroll-mobile-icon {
+        display: none;
+    }
+    @keyframes MoveUpDown {
+        0%, 100% {
+            top: 5%;
+        }
+        50% {
+            top: 8%;
+        }
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .scroll-mobile-icon {
+        width: 50px;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        z-index: 2;
+        animation: MoveRightLeft 1s linear infinite;
+    }
+    .scroll-desktop-icon {
+        display: none;
+    }
+    @keyframes MoveRightLeft {
+        0%, 100% {
+            right: 5%;
+        }
+        50% {
+            right: 6.5%;
+        }
+    }
+}
+

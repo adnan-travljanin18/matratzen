@@ -150,7 +150,7 @@
                                                         {%- if block.settings.image.width >= 1200 -%}<source media="(min-width: 991px)" srcset="{{ block.settings.image | image_url: width: 1200 }}">{%- endif -%}
                                                         {%- if block.settings.image.width >= 991 -%}<source media="(min-width: 768px)" srcset="{{ block.settings.image | image_url: width: 991 }}">{%- endif -%}
 
-                                                        <img src="{{ block.settings.image | image_url:width: 50 }}" {% if forloop.index != 1 %} loading="lazy" {% else %} fetchpriority="high"{% endif %}
+                                                        <img src="{{ block.settings.image | image_url: width: 50 }}" {% if forloop.index != 1 %} loading="lazy" {% else %} fetchpriority="high"{% endif %}
                                                         alt="{{ block.settings.image.alt | default: block.settings.heading | escape }}"
                                                         width="{{ block.settings.image.width }}" 
                                                         height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round }}" >
