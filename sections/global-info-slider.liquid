@@ -1,0 +1,104 @@
+<section class="py-5" style="background:{{ section.settings.section_bg_color }};">
+  <div class="container">
+      <div class="swiper-container overflow-hidden">
+        <div class="swiper-wrapper card-wrapper">
+            {% for block in section.blocks %}
+                <div class="swiper-slide d-block custom-card">
+                    <div class="d-flex flex-column align-items-center p-5">
+                        <div class="ratio ratio-1x1 image-slider-wrapper">
+                            {% if block.settings.image != blank %}
+                                <img src="{{ block.settings.image | image_url }}" alt="Slider image" width="150" height="150" loading="lazy" class="info-image-slider">
+                            {% else %} 
+                                {{ 'image' | placeholder_svg_tag: 'bg-gray-100' }}
+                            {% endif %}
+                        </div>
+                        <div class="product-content text-center">
+                            <h4>{{ block.settings.slider_title }}</h4>
+                            <p>{{ block.settings.slider_text }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<style>
+.info-image-slider {
+    height: 100%;
+}
+.image-slider-wrapper {
+    max-height: 250px;
+    aspect-ratio: 1/1;
+}
+.image-slider-wrapper svg {
+    height: 100%;
+    width: 100%;
+}
+.product-content {
+    margin-top: 20px;
+}
+
+</style>
+
+<script src="{{ 'info-slider.js' | asset_url }}" defer></script>
+
+{% schema %} 
+{
+  "name": "Info Slider",
+  "settings": [
+    {
+        "type": "color",
+        "id": "section_bg_color",
+        "label": "Background Color",
+        "default": "#FAFAF7"
+    }
+  ],
+  "max_blocks": 3,
+  "blocks": [
+    {
+      "name": "Info Slide",
+      "type": "info_slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Select a Image",
+          "id": "image",
+          "info": "Choose an Image to show on slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Title to Slider",
+          "id": "slider_title",
+          "info": "Write something to display as a title in the slider",
+          "default": "Info Slider Title"
+        },
+        {
+          "type": "richtext",
+          "label": "Add Text to Slider",
+          "id": "slider_text",
+          "info": "Write something to display as text in the slider",
+          "default": "<p>This is just some text for the info slider.<p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Info Slider",
+      "category": "Custom",
+      "blocks": [
+        {
+            "type": "info_slide"
+        },
+        {
+            "type": "info_slide"
+        },
+        {
+            "type": "info_slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

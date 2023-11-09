@@ -1,4 +1,4 @@
-<section class="py-5">
+<section class="py-5" style="background:{{ section.settings.section_bg_color }};">
   <div class="container">
       <h2 class="text-center mb-5">{{ section.settings.section_title }}</h2>
       <div class="swiper-container overflow-hidden">
@@ -58,7 +58,7 @@
 
 {% schema %} 
 {
-  "name": "Product Showcase",
+  "name": "Product Slider",
   "settings": [
     {
       "type": "text",
@@ -66,11 +66,17 @@
       "id": "section_title",
       "info": "Add a title to the slider section.",
       "default": "Slider Title"
+    },
+    {
+        "type": "color",
+        "id": "section_bg_color",
+        "label": "Background Color",
+        "default": "#FAFAF7"
     }
   ],
   "blocks": [
     {
-      "name": "Slide",
+      "name": "Product Slide",
       "type": "product_slide",
       "settings": [
         {
@@ -92,7 +98,18 @@
   "presets": [
     {
       "name": "Custom Product Slider",
-      "category": "Custom"
+      "category": "Custom",
+      "blocks": [
+        {
+            "type": "product_slide"
+        },
+        {
+            "type": "product_slide"
+        },
+        {
+            "type": "product_slide"
+        }
+      ]
     }
   ]
 }
