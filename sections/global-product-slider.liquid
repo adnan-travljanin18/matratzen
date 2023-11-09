@@ -1,4 +1,4 @@
-<section class="bg-gray three-box">
+<section class="py-5">
   <div class="container">
       <h2 class="text-center mb-5">{{ section.settings.section_title }}</h2>
       <div class="swiper-container overflow-hidden">
@@ -14,9 +14,17 @@
                     {% endif %}
                 </div>
                 <div class="product-content text-center">
-                  <h3>{{ block.settings.selected_product.title }}</h3>
-                  <p>{{ block.settings.selected_product.description }}</p>
-                  <a href="{{ block.settings.selected_product.url }}" class="btn btn-primary">{{ block.settings.btn_text }}</a>
+                    {% if block.settings.selected_product != blank %}
+                        <h4>{{ block.settings.selected_product.title }}</h4>
+                    {% else %} 
+                        <h4>Product Title</h4>
+                    {% endif %}
+                    {% if block.settings.selected_product != blank %}
+                        <p>{{ block.settings.selected_product.description }}</p>
+                    {% else %}
+                        <p>This is a product description.</p>
+                    {% endif %}
+                  <a href="{{ block.settings.selected_product.url }}" class="btn btn-primary product-slider-btn">{{ block.settings.btn_text }}</a>
                 </div>
             </div>
           </div>
@@ -36,9 +44,14 @@
     max-height: 250px;
     aspect-ratio: 1/1;
 }
-.product-content {
-    padding: 0 30px;
+.image-slider-wrapper svg {
+    height: 100%;
+    width: 100%;
 }
+.product-content {
+    margin-top: 20px;
+}
+
 </style>
 
 <script src="{{ 'product-slider.js' | asset_url }}" defer></script>
