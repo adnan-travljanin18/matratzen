@@ -1,0 +1,86 @@
+<section class="bg-gray three-box">
+  <div class="container">
+      <h2 class="text-center mb-5">{{ section.settings.section_title }}</h2>
+      <div class="swiper-container overflow-hidden">
+      <div class="swiper-wrapper card-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide d-block custom-card">
+            <div class="d-flex flex-column align-items-center bg-red p-5">
+                <div class="ratio ratio-1x1 image-slider-wrapper">
+                    {% if block.settings.selected_product != blank %}
+                        <img src="{{ block.settings.selected_product.images[0] | image_url }}" alt="{{ block.settings.selected_product.title }}" width="150" height="150" loading="lazy" class="product-image-slider">
+                    {% else %} 
+                        {{ 'image' | placeholder_svg_tag: 'bg-gray-100' }}
+                    {% endif %}
+                </div>
+                <div class="product-content text-center">
+                  <h3>{{ block.settings.selected_product.title }}</h3>
+                  <p>{{ block.settings.selected_product.description }}</p>
+                  <a href="{{ block.settings.selected_product.url }}" class="btn btn-primary">{{ block.settings.btn_text }}</a>
+                </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+</section>
+
+<style>
+.product-image-slider {
+    height: 100%;
+}
+.bg-red {
+    background-color: #f2f2f2;
+}
+.image-slider-wrapper {
+    max-height: 250px;
+    aspect-ratio: 1/1;
+}
+.product-content {
+    padding: 0 30px;
+}
+</style>
+
+<script src="{{ 'product-slider.js' | asset_url }}" defer></script>
+
+{% schema %} 
+{
+  "name": "Product Showcase",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Add Title to Slider",
+      "id": "section_title",
+      "info": "Add a title to the slider section.",
+      "default": "Slider Title"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Slide",
+      "type": "product_slide",
+      "settings": [
+        {
+          "type": "product",
+          "label": "Select a Product",
+          "id": "selected_product",
+          "info": "Choose a product to showcase in this slide."
+        },
+        {
+          "type": "textarea",
+          "label": "Add Text to Button",
+          "id": "btn_text",
+          "info": "Add a label to button that open's product detail page.",
+          "default": "Details"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Product Slider",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
