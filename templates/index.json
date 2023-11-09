@@ -154,7 +154,7 @@
         "btn_size": "",
         "image": "shopify:\/\/shop_images\/bett1_bodyguard-antikartell-matratze_kern-aufgeklapp_Shopware.webp",
         "url_on_image": "",
-        "section_bg_color": "#FAFAF7",
+        "section_bg_color": "#fafaf7",
         "section_text_color": "#000000",
         "alignment": "text-left",
         "image_alignment": "left"
@@ -177,10 +177,44 @@
         "btn_size": "",
         "image": "shopify:\/\/shop_images\/bett1_bodyguard_boxspring-matratze_slogan_de_1023.webp",
         "url_on_image": "",
-        "section_bg_color": "#FAFAF7",
+        "section_bg_color": "#fafaf7",
         "section_text_color": "#000000",
         "alignment": "text-left",
         "image_alignment": "right"
+      }
+    },
+    "65969199-4443-42d2-a70f-aa31487c3897": {
+      "type": "global-product-slider",
+      "blocks": {
+        "3c6aec97-2fc5-451f-8582-c0693a40354c": {
+          "type": "product_slide",
+          "settings": {
+            "selected_product": "",
+            "btn_text": "Details"
+          }
+        },
+        "ec1dec0b-0a31-432d-ba3c-bad060063df5": {
+          "type": "product_slide",
+          "settings": {
+            "selected_product": "",
+            "btn_text": "Details"
+          }
+        },
+        "57b6e08e-4ec6-449f-8116-45c82e983477": {
+          "type": "product_slide",
+          "settings": {
+            "selected_product": "",
+            "btn_text": "Details"
+          }
+        }
+      },
+      "block_order": [
+        "3c6aec97-2fc5-451f-8582-c0693a40354c",
+        "ec1dec0b-0a31-432d-ba3c-bad060063df5",
+        "57b6e08e-4ec6-449f-8116-45c82e983477"
+      ],
+      "settings": {
+        "section_title": "Slider Title"
       }
     }
   },
@@ -189,6 +223,7 @@
     "02d12352-47d3-4865-815f-f107ace0aaeb",
     "55c37968-0e45-4201-851c-5f84cb221880",
     "8d02d717-406f-4830-aeba-0b71d6433fba",
-    "01b05a13-2a39-41cc-a2c4-0667b7738f2e"
+    "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
+    "65969199-4443-42d2-a70f-aa31487c3897"
   ]
 }
