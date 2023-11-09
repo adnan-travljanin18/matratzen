@@ -19,7 +19,7 @@
         {% if blocks_size > 0 %}
           <div class="row">
               {% for block in section.blocks %}
-              <div class="{% if section.settings.grid_size == '6' %} col-12 col-lg-6{% endif %}{% unless section.settings.grid_size == '12' %} col-6{% endunless %} col-md-{{ section.settings.grid_size }}" {{ block.shopify_attributes }} data-block-id="{{ block.id }}">
+              <div class="{% if section.settings.grid_size == '6' %}col-12 col-lg-6 {% else if %}{% unless section.settings.grid_size == '12' %} col-6{% endunless %} col-md-{{ section.settings.grid_size }}{% endif %}" {{ block.shopify_attributes }} data-block-id="{{ block.id }}">
                   <div class="feature d-flex flex-column {% if forloop.last == true %} mb-0 {% else %} mb-sm-0 mb-4{% endif %}">
                       <div class="text-center mb-4">
                         {% if block.settings.icon_img != blank %}
