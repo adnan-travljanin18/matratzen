@@ -1,5 +1,15 @@
 
-
+.image-info-wrapper {
+    padding: 100px;
+    background-size: contain!important;
+}
+.info-content, .product-content {
+    margin-top: 20px;
+}
+.image-slider-wrapper {
+    padding: 100px;
+    background-size: cover!important;
+}
 @media screen and (min-width: 768px) {
     .scroll-desktop-icon {
         width: 50px;
