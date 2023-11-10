@@ -1,5 +1,37 @@
 {
   "sections": {
+    "1dec5bfe-e70e-44fa-87cf-6408772cedfe": {
+      "type": "global-video-with-text",
+      "custom_css": [
+        "video {width: 100%;}",
+        ".video-button-wrapper {display: none;}"
+      ],
+      "settings": {
+        "fluid_layout": true,
+        "muted": true,
+        "controls": false,
+        "loop": true,
+        "title": "Willkommen bei Serenity.",
+        "subtitle": "<p>Entdecke Serenity: Wo Träume sich entfalten und Gemütlichkeit sich festsetzt.<\/p>",
+        "btn_txt": "",
+        "btn_link": "",
+        "btn_type": "",
+        "btn_variant": "primary",
+        "btn_size": "",
+        "poster_type": "video",
+        "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7779ba1620942f0b8fe092b01d93386.mp4",
+        "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7779ba1620942f0b8fe092b01d93386.mp4",
+        "fluid_video_layout": true,
+        "video_type": "local",
+        "placement": "grid",
+        "video_id": "",
+        "mobile_video_id": "",
+        "section_bg_color": "#FAFAF7",
+        "section_text_color": "#212529",
+        "alignment": "text-center",
+        "video_alignment": "justify-content-center"
+      }
+    },
     "08af8087-4faf-4ef7-95e3-9f5886e1fd08": {
       "type": "global-features-grid",
       "blocks": {
@@ -272,48 +304,16 @@
       "settings": {
         "section_bg_color": "#ffffff"
       }
-    },
-    "1dec5bfe-e70e-44fa-87cf-6408772cedfe": {
-      "type": "global-video-with-text",
-      "custom_css": [
-        "video {width: 100%;}",
-        "btn {display: none;}"
-      ],
-      "settings": {
-        "fluid_layout": true,
-        "muted": true,
-        "controls": false,
-        "loop": true,
-        "title": "Awesome Heading",
-        "subtitle": "<p>Lipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar ac tortor imperdiet commodo.<\/p>",
-        "btn_txt": "",
-        "btn_link": "",
-        "btn_type": "",
-        "btn_variant": "primary",
-        "btn_size": "",
-        "poster_type": "video",
-        "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7779ba1620942f0b8fe092b01d93386.mp4",
-        "mobile_bg_video": "",
-        "fluid_video_layout": true,
-        "video_type": "local",
-        "placement": "grid",
-        "video_id": "",
-        "mobile_video_id": "",
-        "section_bg_color": "#FAFAF7",
-        "section_text_color": "#000000",
-        "alignment": "text-center",
-        "video_alignment": "justify-content-center"
-      }
     }
   },
   "order": [
+    "1dec5bfe-e70e-44fa-87cf-6408772cedfe",
     "08af8087-4faf-4ef7-95e3-9f5886e1fd08",
     "02d12352-47d3-4865-815f-f107ace0aaeb",
     "55c37968-0e45-4201-851c-5f84cb221880",
     "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
     "8d02d717-406f-4830-aeba-0b71d6433fba",
     "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
-    "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
-    "1dec5bfe-e70e-44fa-87cf-6408772cedfe"
+    "5463b940-fa41-47d7-909f-6aa8aab0b3c5"
   ]
 }
