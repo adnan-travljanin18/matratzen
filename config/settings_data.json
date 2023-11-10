@@ -32,6 +32,9 @@
     "sections": {
       "header": {
         "type": "header",
+        "custom_css": [
+          ".navbar-brand img {width: 100%;}"
+        ],
         "settings": {
           "fluid_header": false,
           "enable_sticky_header": true,
