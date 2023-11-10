@@ -33,7 +33,10 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".navbar-brand img {width: 100%;}"
+          ".navbar-brand img {width: 100%;}",
+          ".navbar-brand {padding: 20px 0;}",
+          ".navbar-main .nav-item.active > .nav-link {color: #fff;}",
+          ".navbar-main .nav-item .nav-link:hover {color: #fff;}"
         ],
         "settings": {
           "fluid_header": false,
@@ -42,7 +45,7 @@
           "show_line_separator": false,
           "logo_svg": "",
           "logo": "shopify:\/\/shop_images\/Serenity_Logo_V2_2x_a1cd42fe-7fd1-42b6-8946-61b0cbccf7ae.png",
-          "logo_width": 120,
+          "logo_width": 90,
           "menu": "footer"
         }
       },
