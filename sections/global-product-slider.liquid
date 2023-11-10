@@ -18,7 +18,9 @@
                     {% else %}
                         <p>This is a product description.</p>
                     {% endif %}
-                  <a href="{{ block.settings.selected_product.url }}" class="btn btn-primary product-slider-btn">{{ block.settings.btn_text }}</a>
+                  {% if block.settings.btn_text != blank %}
+                    <a href="{{ block.settings.selected_product.url }}" class="btn btn{% if block.settings.btn_type == 'outline' %}-{% endif %}{{ block.settings.btn_type }}-{{ block.settings.btn_variant }} {{ block.settings.btn_size }} product-slider-btn">{{ block.settings.btn_text }}</a>
+                  {% endif %}
                 </div>
             </div>
           </div>
@@ -71,6 +73,66 @@
           "id": "btn_text",
           "info": "Add a label to button that open's product detail page.",
           "default": "Details"
+        },
+        {
+          "type": "select",
+          "id": "btn_type",
+          "label": "Button Type",
+          "options": [
+              {
+                  "value": "outline",
+                  "label": "Outline"
+              },
+              {
+                  "value": "",
+                  "label": "Solid"
+              }
+          ],
+          "default": ""
+        },
+        {
+          "type": "select",
+          "id": "btn_variant",
+          "label": "Button Variant",
+          "options": [
+              {
+                  "value": "primary",
+                  "label": "Primary"
+              },
+              {
+                  "value": "secondary",
+                  "label": "Secondary"
+              },
+              {
+                  "value": "white",
+                  "label": "White"
+              },
+              {
+                  "value": "dark",
+                  "label": "Dark"
+              }
+          ],
+          "default": "primary"
+        },
+        {
+          "type": "select",
+          "id": "btn_size",
+          "label": "Button Size",
+          "options": [
+              {
+                  "value": "",
+                  "label": "Default"
+              },
+              {
+                  "value": "btn-sm",
+                  "label": "Small"
+              },
+              {
+                  "value": "btn-lg",
+                  "label": "Large"
+              }
+          ],
+          "default": ""
         }
       ]
     }
