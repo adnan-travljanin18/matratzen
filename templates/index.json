@@ -4,7 +4,8 @@
       "type": "global-video-with-text",
       "custom_css": [
         "video {width: 100%;}",
-        ".video-button-wrapper {display: none;}"
+        ".video-button-wrapper {display: none;}",
+        ".container-fluid {padding: 0;}"
       ],
       "settings": {
         "fluid_layout": true,
