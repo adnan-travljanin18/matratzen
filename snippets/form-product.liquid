@@ -20,8 +20,8 @@
         {%- if settings.enable_swatches -%}
           <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url | within: collection }}" data-type="variant-radios">
             {%- for option in product.options_with_values -%}
-                <fieldset class="js product-form__input mb-4 {% if option.name == 'Color' or option.name == 'color' %}color-swatch{% endif %}" data-optionindex="{{ forloop.index }}">
-                    <legend class="form__label fw-medium text-uppercase font-size-sm mb-2">{{ option.name }}: <span class="selected-option">{{ option.selected_value }}</span></legend>
+                <fieldset class="js product-form__input my-3 {% if option.name == 'Color' or option.name == 'color' %}color-swatch{% endif %}" data-optionindex="{{ forloop.index }}">
+                    <legend class="form__label fw-medium text-uppercase font-size-md mb-2">{{ option.name }}: <span class="selected-option">{{ option.selected_value }}</span></legend>
                     <ul class="list-unstyled d-flex my-0 py-0 flex-wrap">
                         {%- for value in option.values -%}
                             {%- capture swatchID -%}swatch-{{ product.id }}{% if format %}-{{ format }}{% endif %}-{{ option.name | handleize }}-{{ value | handleize }}{%- endcapture -%}
