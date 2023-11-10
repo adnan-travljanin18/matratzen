@@ -76,6 +76,9 @@
         "product-tabs",
         "related-products"
       ],
+      "custom_css": [
+        ".list-unstyled {gap: 1rem;}"
+      ],
       "settings": {
         "scroll_desktop_icon": "shopify:\/\/shop_images\/scroll.png",
         "scroll_mobile_icon": "shopify:\/\/shop_images\/swipe.png",
