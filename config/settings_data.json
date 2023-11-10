@@ -1,8 +1,11 @@
 {
   "current": {
-    "body_color": "#75cfd0",
+    "body_color": "#000000",
+    "heading_color": "#000000",
     "color_secondary": "#F8F0EC",
     "button_border-width": "1px",
+    "bg_color_btn_primary": "#88d6dc",
+    "bg_hover_color_btn_primary": "#90e7ed",
     "txt_color_btn_secondary": "#ffffff",
     "bg_color_btn_secondary": "#88d6dc",
     "bg_hover_color_btn_secondary": "#90e7ed",
@@ -65,7 +68,7 @@
           "fluid_footer": false,
           "footer_top_bg_color": "#90e7ed",
           "footer_top_txt_color": "#ffffff",
-          "footer_top_link_color": "#ffffff",
+          "footer_top_link_color": "#000000",
           "footer_bottom_bg_color": "#75cfd0",
           "footer_bottom_txt_color": "#ffffff",
           "footer_logo_svg": "",

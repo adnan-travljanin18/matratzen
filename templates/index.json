@@ -163,7 +163,7 @@
         "btn_txt": "",
         "btn_url": "",
         "section_bg_color": "#ffffff",
-        "section_txt_color": "#75cfd0",
+        "section_txt_color": "#000000",
         "btn_type": "outline",
         "btn_variant": "primary",
         "btn_size": ""
@@ -238,7 +238,7 @@
         "btn_txt": "Jetzt ab 199, - bestellen",
         "btn_link": "shopify:\/\/products\/matress",
         "btn_type": "",
-        "btn_variant": "secondary",
+        "btn_variant": "primary",
         "btn_size": "",
         "image": "shopify:\/\/shop_images\/bett1_bodyguard_anti-kartell-matratze_haertegrade.webp",
         "url_on_image": "",
@@ -262,7 +262,7 @@
         "btn_txt": "Zur BODYGUARD® Boxspring Matratze",
         "btn_link": "shopify:\/\/products\/matress",
         "btn_type": "",
-        "btn_variant": "secondary",
+        "btn_variant": "primary",
         "btn_size": "",
         "image": "shopify:\/\/shop_images\/bett1_bodyguard_boxspring-matratze_slogan_de_1023.webp",
         "url_on_image": "",
@@ -306,9 +306,7 @@
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3"
       ],
       "custom_css": [
-        "h4 {color: #75cfd0;}",
-        "p {color: #75cfd0;}",
-        "a {color: #75cfd0;}"
+
       ],
       "settings": {
         "section_bg_color": "#ffffff"

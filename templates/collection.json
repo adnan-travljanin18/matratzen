@@ -17,7 +17,6 @@
       "type": "template-collection",
       "custom_css": [
         ".list-unstyled {gap: 1rem;}",
-        ".card-product .swatch input:checked + label {background: #75cfd0; border-color: #75cfd0;}",
         ".card-product .card-img > a {padding-top: 100%;}",
         ".card-product .card-img > a img {object-fit: contain;}"
       ],
