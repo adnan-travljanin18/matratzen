@@ -177,6 +177,9 @@
         "ed3f47e5-1059-40cd-b361-e0133eec2bb7",
         "a9e2dc6c-4e87-4905-8430-9bb115916cf8"
       ],
+      "custom_css": [
+        ".btn-outline-white:hover {color: #75cfd0;}"
+      ],
       "settings": {
         "section_title": "Slider Title",
         "section_bg_color": "#ffffff"
