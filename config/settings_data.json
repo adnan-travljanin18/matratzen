@@ -30,28 +30,6 @@
     "sections": {
       "header": {
         "type": "header",
-        "blocks": {
-          "121df697-f913-49f3-b503-4268235000d0": {
-            "type": "megamenu",
-            "settings": {
-              "title": "Men",
-              "link_text": "Shop Now",
-              "link_url": "shopify:\/\/collections\/men"
-            }
-          },
-          "791f0d9a-5f5f-4938-af7d-0811b105b3ff": {
-            "type": "megamenu",
-            "settings": {
-              "title": "Women",
-              "link_text": "Shop Now",
-              "link_url": "shopify:\/\/collections\/women"
-            }
-          }
-        },
-        "block_order": [
-          "121df697-f913-49f3-b503-4268235000d0",
-          "791f0d9a-5f5f-4938-af7d-0811b105b3ff"
-        ],
         "settings": {
           "fluid_header": false,
           "enable_sticky_header": true,
