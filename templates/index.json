@@ -28,7 +28,7 @@
         "video_id": "",
         "mobile_video_id": "",
         "section_bg_color": "rgba(0,0,0,0)",
-        "section_text_color": "#212529",
+        "section_text_color": "#ffffff",
         "alignment": "text-center",
         "video_alignment": "justify-content-center"
       }
@@ -101,7 +101,7 @@
         "image": "shopify:\/\/shop_images\/bett1_bodyguard_boxspring-matratze_slogan_de_1023.webp",
         "url_on_image": "shopify:\/\/products\/matress",
         "section_bg_color": "#ffffff",
-        "section_text_color": "#000000",
+        "section_text_color": "#75cfd0",
         "alignment": "text-center",
         "image_alignment": "left"
       }
@@ -162,8 +162,8 @@
         "lead_txt": "",
         "btn_txt": "",
         "btn_url": "",
-        "section_bg_color": "#75cfd0",
-        "section_txt_color": "#222222",
+        "section_bg_color": "#ffffff",
+        "section_txt_color": "#75cfd0",
         "btn_type": "outline",
         "btn_variant": "primary",
         "btn_size": ""
@@ -212,7 +212,9 @@
         "a9e2dc6c-4e87-4905-8430-9bb115916cf8"
       ],
       "custom_css": [
-        ".btn-outline-white:hover {color: #75cfd0;}"
+        ".btn-outline-white:hover {color: #75cfd0;}",
+        "h4 {color: #fff;}",
+        "p {color: #fff;}"
       ],
       "settings": {
         "section_title": "Slider Title",
@@ -235,13 +237,13 @@
         "steps_captions": "",
         "btn_txt": "Jetzt ab 199, - bestellen",
         "btn_link": "shopify:\/\/products\/matress",
-        "btn_type": "outline",
-        "btn_variant": "white",
+        "btn_type": "",
+        "btn_variant": "secondary",
         "btn_size": "",
         "image": "shopify:\/\/shop_images\/bett1_bodyguard_anti-kartell-matratze_haertegrade.webp",
         "url_on_image": "",
-        "section_bg_color": "#75cfd0",
-        "section_text_color": "#212529",
+        "section_bg_color": "#ffffff",
+        "section_text_color": "#75cfd0",
         "alignment": "text-left",
         "image_alignment": "left"
       }
@@ -264,8 +266,8 @@
         "btn_size": "",
         "image": "shopify:\/\/shop_images\/bett1_bodyguard_boxspring-matratze_slogan_de_1023.webp",
         "url_on_image": "",
-        "section_bg_color": "#75cfd0",
-        "section_text_color": "#000000",
+        "section_bg_color": "#ffffff",
+        "section_text_color": "#75cfd0",
         "alignment": "text-left",
         "image_alignment": "right"
       }
@@ -302,6 +304,10 @@
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-1",
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2",
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3"
+      ],
+      "custom_css": [
+        "h4 {color: #75CFD0;}",
+        "p {color: #75CFD0;}"
       ],
       "settings": {
         "section_bg_color": "#ffffff"
