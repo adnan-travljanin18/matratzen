@@ -100,10 +100,6 @@
     margin-top: 0 !important;
 }
 
-.card-product .product-form .form__label {
-    display: none;
-}
-
 .card-product  .quickshop--button{
     display: block;
 }

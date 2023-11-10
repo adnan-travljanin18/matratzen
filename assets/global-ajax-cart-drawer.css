@@ -194,10 +194,6 @@
     margin-top: 0 !important;
 }
 
-.product-form .form__label {
-    display: none;
-}
-
 .progress {
     display: -webkit-box;
     display: -ms-flexbox;
