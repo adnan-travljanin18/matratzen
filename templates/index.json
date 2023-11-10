@@ -293,7 +293,7 @@
         "btn_size": "",
         "poster_type": "video",
         "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7779ba1620942f0b8fe092b01d93386.mp4",
-        "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7779ba1620942f0b8fe092b01d93386.mp4",
+        "mobile_bg_video": "",
         "fluid_video_layout": true,
         "video_type": "local",
         "placement": "grid",
