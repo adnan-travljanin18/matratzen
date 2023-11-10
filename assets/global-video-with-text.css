@@ -19,28 +19,6 @@
     font-size: 2rem;
 }
 
-.video-section,
-.content-section {
-    position: relative;
-    padding-top: 120%;
-}
-@media (min-width: 576px) {
-    .video-section,
-    .content-section {
-        padding-top: 56.66%;
-    }
-}
-
-.video-section iframe,
-.video-section video,
-.content-section .poster-image {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .content-section .poster-image img {
     width: 100%;
     height: 100%;

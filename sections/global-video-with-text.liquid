@@ -58,7 +58,7 @@
                     {% if section.settings.subtitle != blank %}
                         <div class="mb-3 mb-lg-5">{{ section.settings.subtitle }}</div>
                     {% endif %}
-                    <div>
+                    <div class="video-button-wrapper">
                         {% if section.settings.fluid_video_layout %}
                             <a data-trigger-videobtn href="#" class="btn btn{% if section.settings.btn_type == 'outline' %}-{% endif %}{{ section.settings.btn_type }}-{{ section.settings.btn_variant }} {{ section.settings.btn_size }}" title="{{ 'sections.video-with-text.play_video' | t }}">{{ 'sections.video-with-text.play_video' | t }}</a>
                         {% endif %}
