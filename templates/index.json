@@ -143,7 +143,10 @@
           "settings": {
             "card_bg": "#75cfd0",
             "selected_product": "matress",
-            "btn_text": "Details"
+            "btn_text": "Details",
+            "btn_type": "outline",
+            "btn_variant": "white",
+            "btn_size": ""
           }
         },
         "ed3f47e5-1059-40cd-b361-e0133eec2bb7": {
@@ -151,7 +154,10 @@
           "settings": {
             "card_bg": "#75cfd0",
             "selected_product": "matress",
-            "btn_text": "Details"
+            "btn_text": "Details",
+            "btn_type": "outline",
+            "btn_variant": "white",
+            "btn_size": ""
           }
         },
         "a9e2dc6c-4e87-4905-8430-9bb115916cf8": {
@@ -159,7 +165,10 @@
           "settings": {
             "card_bg": "#75cfd0",
             "selected_product": "matress",
-            "btn_text": "Details"
+            "btn_text": "Details",
+            "btn_type": "outline",
+            "btn_variant": "white",
+            "btn_size": ""
           }
         }
       },
