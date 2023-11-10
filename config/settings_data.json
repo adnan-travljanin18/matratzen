@@ -38,25 +38,29 @@
         "settings": {
           "fluid_header": false,
           "enable_sticky_header": true,
-          "header_bg_color": "#ffffff",
+          "header_bg_color": "#90e7ed",
           "show_line_separator": false,
           "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/sintex.png",
+          "logo": "shopify:\/\/shop_images\/Serenity_Logo_V2_2x_a1cd42fe-7fd1-42b6-8946-61b0cbccf7ae.png",
           "logo_width": 120,
           "menu": "footer"
         }
       },
       "footer": {
         "type": "footer",
+        "custom_css": [
+          ".btn {background-color: transparent; border-color: #fff;}",
+          ".small {color: #fff !important;}"
+        ],
         "settings": {
           "fluid_footer": false,
-          "footer_top_bg_color": "#88d6dc",
-          "footer_top_txt_color": "#000000",
-          "footer_top_link_color": "#000000",
+          "footer_top_bg_color": "#90e7ed",
+          "footer_top_txt_color": "#ffffff",
+          "footer_top_link_color": "#ffffff",
           "footer_bottom_bg_color": "#75cfd0",
-          "footer_bottom_txt_color": "#000000",
+          "footer_bottom_txt_color": "#ffffff",
           "footer_logo_svg": "",
-          "footer_logo": "shopify:\/\/shop_images\/sintex.png",
+          "footer_logo": "shopify:\/\/shop_images\/Serenity_Logo_V2_2x_a1cd42fe-7fd1-42b6-8946-61b0cbccf7ae.png",
           "logo_max_width": 165,
           "col_1_text": "",
           "col_2_heading": "Customer Care",
