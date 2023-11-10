@@ -1,5 +1,10 @@
 <section class="section-content image-with-text"  data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_txt_color }}">
     <div class="{% if section.settings.fluid_layout %}container-fluid{% else %}container{% endif %}">
+        {% if section.settings.heading_txt != blank %}
+            {% if section.settings.heading_above == true %}
+                <h3 class="mb-3 text-center">{{ section.settings.heading_txt }}</h3> 
+            {% endif %}
+        {% endif %}
     <div class="row {% if section.settings.column != blank %}flex-column {% endif %} {% if section.settings.column_reverse != blank %}flex-column-reverse {% endif %}align-items-center">
             <div class="col-12 col-md-6 col-lg-7 {% if section.settings.image_alignment == 'left' %}order-md-1{% else %}order-md-2{% endif %}">
                 <div class="banner-img {{ section.settings.height }}">
@@ -50,8 +55,9 @@
             <div class="col-12 col-md-6 col-lg-5 mt-4 mt-md-0 {% if section.settings.image_alignment == 'left' %}order-md-2{% else %}order-md-1{% endif %}">
                 <div class="inside-block {{ section.settings.alignment }}">
                     {% if section.settings.heading_txt != blank %}
-                        <h3 class="mb-3">{{ section.settings.heading_txt }}</h3> 
-                    {% endif %}
+                        {% if section.settings.heading_above == false %}
+                            <h3 class="mb-3">{{ section.settings.heading_txt }}</h3> 
+                        {% endif %}                    {% endif %}
                     {% if section.settings.txt != blank %}
                         <div class="mb-3 mb-lg-5">{{ section.settings.txt }}</div>
                     {% endif %}    
@@ -112,6 +118,12 @@
                 "id": "heading_txt",
                 "label": "Heading Text",
                 "default": "Awesome Heading"
+            },
+            {
+                "type": "checkbox",
+                "id": "heading_above",
+                "label": "Heading above Section",
+                "default": false
             },
             {
                 "type": "richtext",
