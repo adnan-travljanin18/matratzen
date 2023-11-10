@@ -16,7 +16,12 @@
     "product-grid": {
       "type": "template-collection",
       "custom_css": [
-        ".list-unstyled {gap: 1rem;}"
+        ".list-unstyled {gap: 1rem;}",
+        ".card-product .swatch input:checked + label {background: #75cfd0; border-color: #75cfd0;}",
+        ".card-product .card-img > a {padding-top: 100%;}",
+        ".card-product .card-img > a img {object-fit: contain;}",
+        ".btn-outline-dark {color: #75cfd0; border-color: #75cfd0;}",
+        ".btn-outline-dark:hover {background-color: #75cfd0; color: #fff; border-color: #75cfd0;}"
       ],
       "settings": {
         "products_per_page": 16,
