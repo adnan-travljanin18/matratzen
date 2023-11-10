@@ -275,6 +275,9 @@
     },
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe": {
       "type": "global-video-with-text",
+      "custom_css": [
+        "video {width: 100%;}"
+      ],
       "settings": {
         "fluid_layout": true,
         "muted": true,
