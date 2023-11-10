@@ -61,7 +61,9 @@
       "footer": {
         "type": "footer",
         "custom_css": [
+          "#newsletterFooterCustomerEmail {border-color: #fff;}",
           ".btn {background-color: transparent; border-color: #fff;}",
+          ".btn:hover {background-color: #fff; color: #75cfd0; border-color: #75cfd0;}",
           ".small {color: #fff !important;}"
         ],
         "settings": {
