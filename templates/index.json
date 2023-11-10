@@ -276,7 +276,8 @@
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe": {
       "type": "global-video-with-text",
       "custom_css": [
-        "video {width: 100%;}"
+        "video {width: 100%;}",
+        "btn {display: none;}"
       ],
       "settings": {
         "fluid_layout": true,
@@ -292,7 +293,7 @@
         "btn_size": "",
         "poster_type": "video",
         "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7779ba1620942f0b8fe092b01d93386.mp4",
-        "mobile_bg_video": "",
+        "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7779ba1620942f0b8fe092b01d93386.mp4",
         "fluid_video_layout": true,
         "video_type": "local",
         "placement": "grid",
