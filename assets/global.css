@@ -571,13 +571,13 @@ progress {
 
 @media (min-width: 768px) {
     .section-content {
-        padding: 3rem 0;
+        padding: 2rem 0;
     }
 }
 
 @media (min-width: 992px) {
     .section-content {
-        padding: 5rem 0;
+        padding: 3rem 0;
     }
 }
 
