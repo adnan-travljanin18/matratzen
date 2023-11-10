@@ -119,7 +119,7 @@
         "0b3dc0ce-0cc6-4f06-a116-55078f794c83"
       ],
       "custom_css": [
-        "img {max-height: 315px;}"
+        "img {max-height: 250px;}"
       ],
       "settings": {
         "fluid_layout": false,
