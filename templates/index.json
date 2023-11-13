@@ -175,33 +175,33 @@
         "bfcde385-fbd6-4772-b453-7f009898d2a1": {
           "type": "product_slide",
           "settings": {
-            "card_bg": "#75cfd0",
+            "card_bg": "#ffffff",
             "selected_product": "matress",
             "btn_text": "Details",
-            "btn_type": "outline",
-            "btn_variant": "white",
+            "btn_type": "",
+            "btn_variant": "primary",
             "btn_size": ""
           }
         },
         "ed3f47e5-1059-40cd-b361-e0133eec2bb7": {
           "type": "product_slide",
           "settings": {
-            "card_bg": "#75cfd0",
+            "card_bg": "#ffffff",
             "selected_product": "matress",
             "btn_text": "Details",
-            "btn_type": "outline",
-            "btn_variant": "white",
+            "btn_type": "",
+            "btn_variant": "primary",
             "btn_size": ""
           }
         },
         "a9e2dc6c-4e87-4905-8430-9bb115916cf8": {
           "type": "product_slide",
           "settings": {
-            "card_bg": "#75cfd0",
+            "card_bg": "#ffffff",
             "selected_product": "matress",
             "btn_text": "Details",
-            "btn_type": "outline",
-            "btn_variant": "white",
+            "btn_type": "",
+            "btn_variant": "primary",
             "btn_size": ""
           }
         }
@@ -212,13 +212,11 @@
         "a9e2dc6c-4e87-4905-8430-9bb115916cf8"
       ],
       "custom_css": [
-        ".btn-outline-white:hover {color: #75cfd0;}",
-        "h4 {color: #fff;}",
-        "p {color: #fff;}"
+
       ],
       "settings": {
         "section_title": "Slider Title",
-        "section_bg_color": "#ffffff"
+        "section_bg_color": "#eef6fa"
       }
     },
     "8d02d717-406f-4830-aeba-0b71d6433fba": {

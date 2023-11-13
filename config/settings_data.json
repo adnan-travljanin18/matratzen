@@ -1,14 +1,14 @@
 {
   "current": {
-    "body_color": "#000000",
+    "body_color": "#122230",
     "heading_color": "#000000",
     "color_secondary": "#F8F0EC",
     "button_border-width": "1px",
-    "bg_color_btn_primary": "#88d6dc",
-    "bg_hover_color_btn_primary": "#90e7ed",
+    "bg_color_btn_primary": "#406c93",
+    "bg_hover_color_btn_primary": "#345878",
     "txt_color_btn_secondary": "#ffffff",
-    "bg_color_btn_secondary": "#88d6dc",
-    "bg_hover_color_btn_secondary": "#90e7ed",
+    "bg_color_btn_secondary": "#406c93",
+    "bg_hover_color_btn_secondary": "#345878",
     "type_input_font_weight": "300",
     "favicon": "shopify:\/\/shop_images\/Serenity_Symbol_2x_086fd905-d738-4818-ac6e-e74a9c54ef27.png",
     "main_logo_socials": "shopify:\/\/shop_images\/wp3850825-4k-pc-wallpapers.jpg",
@@ -43,14 +43,14 @@
         "custom_css": [
           ".navbar-brand img {width: 100%;}",
           ".navbar-brand {padding: 20px 0;}",
-          ".navbar-main .nav-item.active > .nav-link {color: #fff;}",
-          ".navbar-main .nav-item .nav-link:hover {color: #fff;}",
-          ".navbar-main .nav-item .nav-link {color: #000;}"
+          ".navbar-main .nav-item.active > .nav-link {color: #406c93;}",
+          ".navbar-main .nav-item .nav-link:hover {color: #406c93;}",
+          ".navbar-main .nav-item .nav-link {color: #122230e6;}"
         ],
         "settings": {
           "fluid_header": false,
           "enable_sticky_header": true,
-          "header_bg_color": "#90e7ed",
+          "header_bg_color": "#dfeef7",
           "show_line_separator": false,
           "logo_svg": "",
           "logo": "shopify:\/\/shop_images\/Serenity_Logo_V2_2x_a1cd42fe-7fd1-42b6-8946-61b0cbccf7ae.png",
@@ -62,17 +62,16 @@
         "type": "footer",
         "custom_css": [
           "#newsletterFooterCustomerEmail {border-color: #fff;}",
-          ".btn {background-color: transparent; border-color: #fff;}",
-          ".btn:hover {background-color: #fff; color: #75cfd0; border-color: #75cfd0;}",
-          ".small {color: #fff !important;}"
+          ".btn {background-color: #406c93; border-color: #406c93;}",
+          ".btn:hover {background-color: #345878; border-color: #345878;}"
         ],
         "settings": {
           "fluid_footer": false,
-          "footer_top_bg_color": "#90e7ed",
-          "footer_top_txt_color": "#ffffff",
-          "footer_top_link_color": "#000000",
-          "footer_bottom_bg_color": "#75cfd0",
-          "footer_bottom_txt_color": "#ffffff",
+          "footer_top_bg_color": "#dfeef7",
+          "footer_top_txt_color": "#1f3951",
+          "footer_top_link_color": "#1f3951",
+          "footer_bottom_bg_color": "#dfeef7",
+          "footer_bottom_txt_color": "#1f3951",
           "footer_logo_svg": "",
           "footer_logo": "shopify:\/\/shop_images\/Serenity_Logo_V2_2x_a1cd42fe-7fd1-42b6-8946-61b0cbccf7ae.png",
           "logo_max_width": 165,
