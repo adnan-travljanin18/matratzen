@@ -1,0 +1,224 @@
+
+<button type="button" class="btn btn-primary" onClick="openQuizModal()">
+  Open Quiz
+</button>
+
+<div class="modal" id="quizModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Quiz Section</h5>
+        <button type="button" class="close" id="closeQuizBtn" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="quiz-container">
+            <div class="swiper-wrapper">
+                {% for block in section.blocks %}
+                {% assign question = block.settings.question %}
+                {% assign answer_option1 = block.settings.answer_option1 %}
+                {% assign answer_option2 = block.settings.answer_option2 %}
+                {% assign question_id = 'question_' | append: forloop.index %}
+
+                {% if question != blank %}
+                    <div class="swiper-slide">
+                    <div class="question-block" data-question="{{ question }}" id="{{ question_id }}">
+                        <h3>{{ question }}:</h3>
+                        <label><input type="radio" name="q{{ forloop.index }}" value="{{ answer_option1 }}"> {{ answer_option1 }}</label>
+                        <label><input type="radio" name="q{{ forloop.index }}" value="{{ answer_option2 }}"> {{ answer_option2 }}</label>
+                    </div>
+                    </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            <div class="navigation-buttons">
+                <button type="button" class="btn btn-primary" id="backBtn">Back</button>
+                <button type="button" class="btn btn-primary" id="nextBtn" disabled>Next</button>
+            </div>
+        </div>
+
+        <h3>Email Address:</h3>
+        <input type="email" id="email" required>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="submitBtn">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function recordAnswer(questionId, answer, answerId) {
+    console.log(`Question ID: ${questionId}, Selected Answer: ${answer}, Answer ID: ${answerId}`);
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var mySwiper;
+
+    function initializeSwiper() {
+      mySwiper = new Swiper('.quiz-container', {
+        direction: 'horizontal',
+        slidesPerView: 1,
+        spaceBetween: 10,
+        effect: "fade",  // Add the fade effect
+        fadeEffect: {
+          crossFade: true  // Enable cross fade
+        },
+      });
+
+      mySwiper.on('slideChange', function () {
+        hidePreviousSlides();
+      });
+
+      const questionBlocks = document.querySelectorAll('.question-block');
+      const nextBtn = document.getElementById('nextBtn');
+      const backBtn = document.getElementById('backBtn');
+
+      let currentSlide = 0;
+
+      questionBlocks.forEach((questionBlock, questionIndex) => {
+        const questionId = `question_${questionIndex + 1}`;
+        const radioInputs = questionBlock.querySelectorAll('input[type="radio"]');
+        const answerOptionsCount = radioInputs.length;
+
+        radioInputs.forEach((radioInput, answerIndex) => {
+          const answerId = `${questionId}_answer_${answerIndex + 1}`;
+
+          radioInput.addEventListener('change', function () {
+            if (radioInput.checked) {
+              recordAnswer(questionId, radioInput.value, answerId);
+              nextBtn.disabled = false; // Enable the "Next" button
+            }
+          });
+        });
+      });
+
+      nextBtn.addEventListener('click', function () {
+        currentSlide++;
+        mySwiper.slideTo(currentSlide);
+        nextBtn.disabled = true; // Disable the "Next" button after moving to the next slide
+      });
+
+      backBtn.addEventListener('click', function () {
+        currentSlide--;
+        mySwiper.slideTo(currentSlide);
+      });
+    }
+
+    function hidePreviousSlides() {
+      const activeIndex = mySwiper.activeIndex;
+      const allSlides = document.querySelectorAll('.swiper-slide');
+
+      allSlides.forEach((slide, index) => {
+        if (index < activeIndex) {
+          slide.style.display = 'none';
+        } else {
+          slide.style.display = 'block';
+        }
+      });
+    }
+
+    window.openQuizModal = function () {
+      var modal = document.getElementById('quizModal');
+      modal.classList.add('show');
+      modal.style.display = 'block';
+      document.body.classList.add('modal-open');
+
+      modal.addEventListener('click', function (event) {
+        if (event.target === modal) {
+          closeQuizModal();
+        }
+      });
+
+      initializeSwiper();
+    }
+
+    function closeQuizModal() {
+      var modal = document.getElementById('quizModal');
+      modal.classList.remove('show');
+      modal.style.display = 'none';
+      document.body.classList.remove('modal-open');
+      modal.removeEventListener('click', closeQuizModal);
+    }
+
+    document.getElementById('submitBtn').addEventListener('click', function () {
+      const email = document.getElementById('email').value;
+      console.log('Email:', email);
+
+      const selectedAnswers = [];
+      const questionBlocks = document.querySelectorAll('.question-block');
+
+      questionBlocks.forEach((questionBlock, questionIndex) => {
+        const questionId = `question_${questionIndex + 1}`;
+
+        const selectedInput = questionBlock.querySelector('input[type="radio"]:checked');
+
+        if (selectedInput) {
+          const answerId = `${questionId}_answer_${selectedInput.dataset.answerIndex}`;
+          selectedAnswers.push({ question: questionId, answer: selectedInput.value });
+          console.log('Question:', questionId, 'Selected Answer:', selectedInput.value);
+        } else {
+          alert('Please answer all questions before submitting.');
+          return; // Stop processing if any question is unanswered
+        }
+      });
+
+      saveDataToLocal(email, selectedAnswers);
+      closeQuizModal();
+    });
+
+    function saveDataToLocal(email, selectedAnswers) {
+      if (typeof Storage !== 'undefined') {
+        localStorage.setItem('quizData', JSON.stringify({ email, selectedAnswers }));
+        console.log('Data saved to local storage.');
+      } else {
+        console.log('Local storage is not supported.');
+      }
+    }
+
+    initializeSwiper();
+  });
+</script>
+
+{% schema %}
+{
+    "name": "Quiz Section",
+    "settings": [
+        {
+            "type": "text",
+            "label": "Title",
+            "id": "title"
+        }
+    ],
+    "blocks": [
+    {
+        "type": "questions",
+        "name": "Questions",
+        "settings": [
+        {
+            "type": "text",
+            "label": "Question",
+            "id": "question"
+        },
+        {
+            "type": "text",
+            "label": "Answer (Option 1)",
+            "id": "answer_option1"
+        },
+        {
+            "type": "text",
+            "label": "Answer (Option 2)",
+            "id": "answer_option2"
+        }
+        ]
+    }
+    ],
+    "presets": [
+    {
+        "name": "Quiz Section",
+        "category": "Custom"
+    }
+    ]
+}
+{% endschema %}
