@@ -312,6 +312,37 @@
     },
     "a7fc9583-e925-4bfb-a4af-a9e314793d73": {
       "type": "quiz-section",
+      "blocks": {
+        "f7ad1a35-e3df-4db6-b461-8c0fbbc48035": {
+          "type": "questions",
+          "settings": {
+            "question": "What Side of the Bed do you sleep on?",
+            "answer_option1": "Right",
+            "answer_option2": "Left"
+          }
+        },
+        "f9446d8b-6111-49c3-8004-87aa6860bada": {
+          "type": "questions",
+          "settings": {
+            "question": "What kind of matress do you prefer?",
+            "answer_option1": "Harder",
+            "answer_option2": "Softer"
+          }
+        },
+        "46aca84b-dae2-4376-8218-064b084e4a51": {
+          "type": "questions",
+          "settings": {
+            "question": "What is Your Height",
+            "answer_option1": "175cm>",
+            "answer_option2": "<175cm"
+          }
+        }
+      },
+      "block_order": [
+        "f7ad1a35-e3df-4db6-b461-8c0fbbc48035",
+        "f9446d8b-6111-49c3-8004-87aa6860bada",
+        "46aca84b-dae2-4376-8218-064b084e4a51"
+      ],
       "settings": {
         "title": ""
       }
