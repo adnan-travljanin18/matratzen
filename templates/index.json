@@ -309,6 +309,12 @@
       "settings": {
         "section_bg_color": "#ffffff"
       }
+    },
+    "a7fc9583-e925-4bfb-a4af-a9e314793d73": {
+      "type": "quiz-section",
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
@@ -319,6 +325,7 @@
     "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
     "8d02d717-406f-4830-aeba-0b71d6433fba",
     "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
-    "5463b940-fa41-47d7-909f-6aa8aab0b3c5"
+    "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
+    "a7fc9583-e925-4bfb-a4af-a9e314793d73"
   ]
 }
