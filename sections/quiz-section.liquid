@@ -1,4 +1,3 @@
-
 <button type="button" class="btn btn-primary" onClick="openQuizModal()">
   Open Quiz
 </button>
@@ -14,35 +13,38 @@
       </div>
       <div class="modal-body">
         <div class="quiz-container">
-            <div class="swiper-wrapper">
-                {% for block in section.blocks %}
-                {% assign question = block.settings.question %}
-                {% assign answer_option1 = block.settings.answer_option1 %}
-                {% assign answer_option2 = block.settings.answer_option2 %}
-                {% assign question_id = 'question_' | append: forloop.index %}
+          <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+            {% assign question = block.settings.question %}
+            {% assign answer_option1 = block.settings.answer_option1 %}
+            {% assign answer_option2 = block.settings.answer_option2 %}
+            {% assign question_id = 'question_' | append: forloop.index %}
 
-                {% if question != blank %}
-                    <div class="swiper-slide">
-                    <div class="question-block" data-question="{{ question }}" id="{{ question_id }}">
-                        <h3>{{ question }}:</h3>
-                        <label><input type="radio" name="q{{ forloop.index }}" value="{{ answer_option1 }}"> {{ answer_option1 }}</label>
-                        <label><input type="radio" name="q{{ forloop.index }}" value="{{ answer_option2 }}"> {{ answer_option2 }}</label>
-                    </div>
-                    </div>
-                {% endif %}
-                {% endfor %}
+            {% if question != blank %}
+            <div class="swiper-slide">
+              <div class="question-block" data-question="{{ question }}" id="{{ question_id }}">
+                <h3>{{ question }}:</h3>
+                <label><input type="radio" name="q{{ forloop.index }}" value="{{ answer_option1 }}"> {{ answer_option1 }}</label>
+                <label><input type="radio" name="q{{ forloop.index }}" value="{{ answer_option2 }}"> {{ answer_option2 }}</label>
+              </div>
             </div>
-            <div class="navigation-buttons">
-                <button type="button" class="btn btn-primary" id="backBtn">Back</button>
-                <button type="button" class="btn btn-primary" id="nextBtn" disabled>Next</button>
+            {% endif %}
+            {% endfor %}
+            <div class="swiper-slide">
+              <div class="email-block">
+                <h3>Email Address:</h3>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="button" class="btn btn-primary" id="submitBtn">Submit</button>
+              </div>
             </div>
+          </div>
         </div>
-
-        <h3>Email Address:</h3>
-        <input type="email" id="email" required>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" id="submitBtn">Submit</button>
+        <div class="navigation-buttons">
+          <button type="button" class="btn btn-primary" id="backBtn">Back</button>
+          <button type="button" class="btn btn-primary" id="nextBtn">Next</button>
+        </div>
       </div>
     </div>
   </div>
@@ -76,6 +78,7 @@
       const backBtn = document.getElementById('backBtn');
 
       let currentSlide = 0;
+      updateButtonStatus();
 
       questionBlocks.forEach((questionBlock, questionIndex) => {
         const questionId = `question_${questionIndex + 1}`;
@@ -95,16 +98,27 @@
       });
 
       nextBtn.addEventListener('click', function () {
-        currentSlide++;
-        mySwiper.slideTo(currentSlide);
-        nextBtn.disabled = true; // Disable the "Next" button after moving to the next slide
-      });
+      currentSlide++;
+      mySwiper.slideTo(currentSlide);
+      updateButtonStatus();
+    });
 
-      backBtn.addEventListener('click', function () {
-        currentSlide--;
-        mySwiper.slideTo(currentSlide);
-      });
+    backBtn.addEventListener('click', function () {
+      currentSlide--;
+      mySwiper.slideTo(currentSlide);
+      updateButtonStatus();
+    });
     }
+    function updateButtonStatus() {
+    const nextBtn = document.getElementById('nextBtn');
+    const backBtn = document.getElementById('backBtn');
+
+    // Disable "Back" button if on the first slide
+    backBtn.disabled = mySwiper.activeIndex === 0;
+
+    // Disable "Next" button if on the last slide
+    nextBtn.disabled = mySwiper.activeIndex === mySwiper.slides.length - 1;
+  }
 
     function hidePreviousSlides() {
       const activeIndex = mySwiper.activeIndex;
@@ -141,6 +155,7 @@
       document.body.classList.remove('modal-open');
       modal.removeEventListener('click', closeQuizModal);
     }
+    document.getElementById('closeQuizBtn').addEventListener('click', closeQuizModal);
 
     document.getElementById('submitBtn').addEventListener('click', function () {
       const email = document.getElementById('email').value;
@@ -189,6 +204,11 @@
             "type": "text",
             "label": "Title",
             "id": "title"
+        },
+        {
+            "type": "text",
+            "label": "Last Slide Title",
+            "id": "last_slide_title"
         }
     ],
     "blocks": [
