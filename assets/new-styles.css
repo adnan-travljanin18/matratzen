@@ -5,7 +5,7 @@
 .info-content, .product-content {
     margin-top: 20px;
 }
-.video-with-text {
+.video-with-text video {
     filter: brightness(0.7);
 }
 @media screen and (min-width: 768px) {
