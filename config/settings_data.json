@@ -50,7 +50,7 @@
         "settings": {
           "fluid_header": false,
           "enable_sticky_header": true,
-          "header_bg_color": "#dfeef7",
+          "header_bg_color": "#b4e3ff",
           "show_line_separator": false,
           "logo_svg": "",
           "logo": "shopify:\/\/shop_images\/Serenity_Logo_V2_2x_a1cd42fe-7fd1-42b6-8946-61b0cbccf7ae.png",
@@ -67,7 +67,7 @@
         ],
         "settings": {
           "fluid_footer": false,
-          "footer_top_bg_color": "#dfeef7",
+          "footer_top_bg_color": "#b4e3ff",
           "footer_top_txt_color": "#1f3951",
           "footer_top_link_color": "#1f3951",
           "footer_bottom_bg_color": "#dfeef7",
