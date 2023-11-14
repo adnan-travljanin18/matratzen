@@ -28,7 +28,7 @@
         "video_id": "",
         "mobile_video_id": "",
         "section_bg_color": "rgba(0,0,0,0)",
-        "section_text_color": "#212529",
+        "section_text_color": "#ffffff",
         "alignment": "text-center",
         "video_alignment": "justify-content-center"
       }
