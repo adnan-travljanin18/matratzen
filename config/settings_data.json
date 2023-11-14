@@ -43,17 +43,17 @@
         "custom_css": [
           ".navbar-brand img {width: 100%;}",
           ".navbar-brand {padding: 20px 0;}",
-          ".navbar-main .nav-item.active > .nav-link {color: #406c93;}",
-          ".navbar-main .nav-item .nav-link:hover {color: #406c93;}",
-          ".navbar-main .nav-item .nav-link {color: #122230e6;}"
+          ".navbar-main .nav-item.active > .nav-link {color: #DFEEF7;}",
+          ".navbar-main .nav-item .nav-link:hover {color: #DFEEF7;}",
+          ".navbar-main .nav-item .nav-link {color: #fff;}"
         ],
         "settings": {
           "fluid_header": false,
           "enable_sticky_header": true,
-          "header_bg_color": "#b4e3ff",
+          "header_bg_color": "#6490b2",
           "show_line_separator": false,
           "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/Asset_7_2x_e0c505e4-0761-46a3-bda9-760af67ef33f.png",
+          "logo": "shopify:\/\/shop_images\/Asset_8_2x_70abe26a-cdf8-4778-bbd7-12eff4fd66d5.png",
           "logo_width": 100,
           "menu": "footer"
         }
@@ -67,9 +67,9 @@
         ],
         "settings": {
           "fluid_footer": false,
-          "footer_top_bg_color": "#b4e3ff",
-          "footer_top_txt_color": "#1f3951",
-          "footer_top_link_color": "#1f3951",
+          "footer_top_bg_color": "#6490b2",
+          "footer_top_txt_color": "#ffffff",
+          "footer_top_link_color": "#ffffff",
           "footer_bottom_bg_color": "#dfeef7",
           "footer_bottom_txt_color": "#1f3951",
           "footer_logo_svg": "",
