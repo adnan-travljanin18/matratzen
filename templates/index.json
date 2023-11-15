@@ -152,6 +152,7 @@
         "d35ce9fb-f557-426f-9fd0-8d9b96c4130b",
         "0b3dc0ce-0cc6-4f06-a116-55078f794c83"
       ],
+      "disabled": true,
       "custom_css": [
         "img {max-height: 250px;}"
       ],
@@ -216,7 +217,8 @@
       ],
       "settings": {
         "section_title": "Entdecke den Komfort von Serenity",
-        "section_bg_color": "#ffffff"
+        "section_bg_color": "#ffffff",
+        "card_border_radius": 15
       }
     },
     "8d02d717-406f-4830-aeba-0b71d6433fba": {
