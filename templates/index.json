@@ -272,42 +272,24 @@
         "card_border_radius": 15
       }
     },
-    "a7fc9583-e925-4bfb-a4af-a9e314793d73": {
-      "type": "quiz-section",
+    "17000644654d855a54": {
+      "type": "apps",
       "blocks": {
-        "f7ad1a35-e3df-4db6-b461-8c0fbbc48035": {
-          "type": "questions",
+        "b4e2e4b4-60f6-488f-aff7-653a240244cf": {
+          "type": "shopify:\/\/apps\/shop-quiz-product-recommender\/blocks\/inline-quiz\/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
           "settings": {
-            "question": "What Side of the Bed do you sleep on?",
-            "answer_option1": "Right",
-            "answer_option2": "Left"
-          }
-        },
-        "f9446d8b-6111-49c3-8004-87aa6860bada": {
-          "type": "questions",
-          "settings": {
-            "question": "What kind of matress do you prefer?",
-            "answer_option1": "Harder",
-            "answer_option2": "Softer"
-          }
-        },
-        "46aca84b-dae2-4376-8218-064b084e4a51": {
-          "type": "questions",
-          "settings": {
-            "question": "What is Your Height",
-            "answer_option1": "175cm>",
-            "answer_option2": "<175cm"
+            "quiz_id": "",
+            "quiz_height": 600,
+            "quiz_autoscroll": true,
+            "quiz_fixed_height": true
           }
         }
       },
       "block_order": [
-        "f7ad1a35-e3df-4db6-b461-8c0fbbc48035",
-        "f9446d8b-6111-49c3-8004-87aa6860bada",
-        "46aca84b-dae2-4376-8218-064b084e4a51"
+        "b4e2e4b4-60f6-488f-aff7-653a240244cf"
       ],
       "settings": {
-        "title": "",
-        "last_slide_title": ""
+        "include_margins": true
       }
     },
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5": {
@@ -359,7 +341,7 @@
     "8d02d717-406f-4830-aeba-0b71d6433fba",
     "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
     "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
-    "a7fc9583-e925-4bfb-a4af-a9e314793d73",
+    "17000644654d855a54",
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5"
   ]
 }
