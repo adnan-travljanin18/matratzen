@@ -40,12 +40,6 @@
           </div>
         </div>
       </div>
-      <div class="modal-footer">
-        <div class="navigation-buttons">
-          <button type="button" class="btn btn-primary" id="backBtn">Back</button>
-          <button type="button" class="btn btn-primary" id="nextBtn">Next</button>
-        </div>
-      </div>
     </div>
   </div>
 </div>
@@ -63,9 +57,9 @@
         direction: 'horizontal',
         slidesPerView: 1,
         spaceBetween: 10,
-        effect: "fade",  // Add the fade effect
+        effect: "fade",
         fadeEffect: {
-          crossFade: true  // Enable cross fade
+          crossFade: true
         },
       });
 
@@ -74,51 +68,28 @@
       });
 
       const questionBlocks = document.querySelectorAll('.question-block');
-      const nextBtn = document.getElementById('nextBtn');
-      const backBtn = document.getElementById('backBtn');
-
-      let currentSlide = 0;
-      updateButtonStatus();
 
       questionBlocks.forEach((questionBlock, questionIndex) => {
         const questionId = `question_${questionIndex + 1}`;
         const radioInputs = questionBlock.querySelectorAll('input[type="radio"]');
-        const answerOptionsCount = radioInputs.length;
 
         radioInputs.forEach((radioInput, answerIndex) => {
-          const answerId = `${questionId}_answer_${answerIndex + 1}`;
-
-          radioInput.addEventListener('change', function () {
-            if (radioInput.checked) {
-              recordAnswer(questionId, radioInput.value, answerId);
-              nextBtn.disabled = false; // Enable the "Next" button
-            }
-          });
+            radioInput.addEventListener('change', function () {
+                if (radioInput.checked) {
+                    recordAnswer(questionId, radioInput.value, answerIndex + 1);
+                    
+                    // Check if there is another question, then move to the next slide
+                    if (questionIndex < questionBlocks.length - 1) {
+                        mySwiper.slideTo(questionIndex + 1);
+                    } else {
+                        // If it's the last question, move to the next slide which is the email input
+                        mySwiper.slideTo(questionBlocks.length);
+                    }
+                }
+            });
         });
       });
-
-      nextBtn.addEventListener('click', function () {
-      currentSlide++;
-      mySwiper.slideTo(currentSlide);
-      updateButtonStatus();
-    });
-
-    backBtn.addEventListener('click', function () {
-      currentSlide--;
-      mySwiper.slideTo(currentSlide);
-      updateButtonStatus();
-    });
     }
-    function updateButtonStatus() {
-    const nextBtn = document.getElementById('nextBtn');
-    const backBtn = document.getElementById('backBtn');
-
-    // Disable "Back" button if on the first slide
-    backBtn.disabled = mySwiper.activeIndex === 0;
-
-    // Disable "Next" button if on the last slide
-    nextBtn.disabled = mySwiper.activeIndex === mySwiper.slides.length - 1;
-  }
 
     function hidePreviousSlides() {
       const activeIndex = mySwiper.activeIndex;
@@ -170,12 +141,12 @@
         const selectedInput = questionBlock.querySelector('input[type="radio"]:checked');
 
         if (selectedInput) {
-          const answerId = `${questionId}_answer_${selectedInput.dataset.answerIndex}`;
+          const answerIndex = parseInt(selectedInput.name.substring(1));
           selectedAnswers.push({ question: questionId, answer: selectedInput.value });
           console.log('Question:', questionId, 'Selected Answer:', selectedInput.value);
         } else {
-          alert('Please answer all questions before submitting.');
-          return; // Stop processing if any question is unanswered
+          // No need to display an error message
+          return;
         }
       });
 
@@ -209,6 +180,11 @@
             "type": "text",
             "label": "Last Slide Title",
             "id": "last_slide_title"
+        },
+        {
+            "type": "collection",
+            "label": "Select Collection",
+            "id": "collections"
         }
     ],
     "blocks": [

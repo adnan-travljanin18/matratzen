@@ -168,6 +168,11 @@
           <!--end of row-->
       </div>
       <!--end of container-->
+      <div class="scrollToTop">
+            <div class="inner">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+        </div>
   </div>
 </footer>
 
@@ -186,7 +191,75 @@
         transform: translateY(-50%);
         background-color:{{ section.settings.footer_bottom_txt_color }} ;
     }
+    .scrollToTop {
+    display: none;
+    height: 50px;
+    width: 50px;
+    background-color:#dfeef7;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    z-index: 999;
+    display: none;
+    opacity: 0;
+    animation: fadeInOut 0.5s ease-in-out forwards;
+}
+
+.scrollToTop .inner {
+    height: 80%;
+    width: 80%;
+    background-color: #6490b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 </style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var scrollToTop = document.querySelector(".scrollToTop");
+
+        let calcScrollValue = () => {
+            let pos = document.body.scrollTop || document.documentElement.scrollTop;
+            let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let percentVal = Math.round((Math.floor(pos) * 100) / calcHeight);
+
+            if (pos > 10) {
+                // Show the button
+                scrollToTop.style.display = "flex";
+            } else {
+                // Hide the button
+                scrollToTop.style.display = "none";
+            }
+
+            scrollToTop.style.background = `conic-gradient(from 0deg, #fd9 ${percentVal}%, white ${percentVal}%)`;
+        }
+
+        scrollToTop.addEventListener("click", function () {
+            // Use document.documentElement for cross-browser compatibility
+            document.documentElement.scrollTop = 0;
+        });
+
+        window.addEventListener("scroll", calcScrollValue);
+        calcScrollValue(); // Call this to set the initial state
+    });
+</script>
 
 {% schema %}
     {
