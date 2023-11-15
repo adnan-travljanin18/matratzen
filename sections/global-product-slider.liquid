@@ -5,7 +5,7 @@
       <div class="swiper-wrapper card-wrapper">
         {% for block in section.blocks %}
           <div class="swiper-slide d-block custom-card">
-            <div class="d-flex flex-column align-items-center p-5" style="border: 1px solid {{ block.settings.card_border_color }};">
+            <div class="d-flex flex-column align-items-center p-5" style="border: 1px solid {{ block.settings.card_border_color }}; border-radius: {{ section.settings.card_border_radius }}px">
             <div class="image-slider-wrapper" style="{% if block.settings.selected_product.images[0] != blank %}background: url('{{ block.settings.selected_product.images[0] | image_url }}') center no-repeat{% else %} background: url('https://placehold.co/600x400') center no-repeat{% endif %}; display: block"></div>
                 <div class="product-content text-center">
                     {% if block.settings.selected_product != blank %}
@@ -47,6 +47,13 @@
         "id": "section_bg_color",
         "label": "Background Color",
         "default": "#FFFFFF"
+    },
+    {
+        "type": "number",
+        "id": "card_border_radius",
+        "label": "Product Card Border Radius",
+        "default": 15,
+        "info": "Enter a Border Radius value here. ( in px )"
     }
   ],
   "blocks": [
