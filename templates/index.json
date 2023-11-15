@@ -278,7 +278,7 @@
         "b4e2e4b4-60f6-488f-aff7-653a240244cf": {
           "type": "shopify:\/\/apps\/shop-quiz-product-recommender\/blocks\/inline-quiz\/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
           "settings": {
-            "quiz_id": "",
+            "quiz_id": "rkHEOD",
             "quiz_height": 600,
             "quiz_autoscroll": true,
             "quiz_fixed_height": true
