@@ -8,6 +8,9 @@
 .video-with-text video {
     filter: brightness(0.7);
 }
+.btn {
+    border-radius: 10px;
+}
 @media screen and (min-width: 768px) {
     .scroll-desktop-icon {
         width: 50px;
