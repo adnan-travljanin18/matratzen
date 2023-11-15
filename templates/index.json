@@ -215,7 +215,7 @@
 
       ],
       "settings": {
-        "section_title": "Slider Title",
+        "section_title": "Entdecke den Komfort von Serenity",
         "section_bg_color": "#eef6fa"
       }
     },
@@ -344,7 +344,8 @@
         "46aca84b-dae2-4376-8218-064b084e4a51"
       ],
       "settings": {
-        "title": ""
+        "title": "",
+        "last_slide_title": ""
       }
     }
   },
