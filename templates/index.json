@@ -100,8 +100,8 @@
         "btn_size": "",
         "image": "shopify:\/\/shop_images\/bett1_bodyguard_boxspring-matratze_slogan_de_1023.webp",
         "url_on_image": "shopify:\/\/products\/matress",
-        "section_bg_color": "#ffffff",
-        "section_text_color": "#75cfd0",
+        "section_bg_color": "#f2f2f2",
+        "section_text_color": "#ffffff",
         "alignment": "text-center",
         "image_alignment": "left"
       }
@@ -170,57 +170,6 @@
         "btn_size": ""
       }
     },
-    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc": {
-      "type": "global-product-slider",
-      "blocks": {
-        "bfcde385-fbd6-4772-b453-7f009898d2a1": {
-          "type": "product_slide",
-          "settings": {
-            "card_border_color": "#406c93",
-            "selected_product": "matress",
-            "btn_text": "Details",
-            "btn_type": "outline",
-            "btn_variant": "primary",
-            "btn_size": ""
-          }
-        },
-        "ed3f47e5-1059-40cd-b361-e0133eec2bb7": {
-          "type": "product_slide",
-          "settings": {
-            "card_border_color": "#406c93",
-            "selected_product": "matress",
-            "btn_text": "Details",
-            "btn_type": "outline",
-            "btn_variant": "primary",
-            "btn_size": ""
-          }
-        },
-        "a9e2dc6c-4e87-4905-8430-9bb115916cf8": {
-          "type": "product_slide",
-          "settings": {
-            "card_border_color": "#406c93",
-            "selected_product": "matress",
-            "btn_text": "Details",
-            "btn_type": "outline",
-            "btn_variant": "primary",
-            "btn_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "bfcde385-fbd6-4772-b453-7f009898d2a1",
-        "ed3f47e5-1059-40cd-b361-e0133eec2bb7",
-        "a9e2dc6c-4e87-4905-8430-9bb115916cf8"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "section_title": "Entdecke den Komfort von Serenity",
-        "section_bg_color": "#dfeef7",
-        "card_border_radius": 15
-      }
-    },
     "8d02d717-406f-4830-aeba-0b71d6433fba": {
       "type": "global-image-with-text",
       "custom_css": [
@@ -272,44 +221,55 @@
         "image_alignment": "right"
       }
     },
-    "5463b940-fa41-47d7-909f-6aa8aab0b3c5": {
-      "type": "global-info-slider",
+    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc": {
+      "type": "global-product-slider",
       "blocks": {
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-1": {
-          "type": "info_slide",
+        "bfcde385-fbd6-4772-b453-7f009898d2a1": {
+          "type": "product_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bett1_made-in-germany_akm-produktseite_205x170__1.webp",
-            "slider_title": "Made in Germany",
-            "slider_text": "<p>BODYGUARD®entwickelt in<br\/><strong>Deutschland.<\/strong><\/p><p>Kern geschäumt in<br\/><strong>Deutschland.<\/strong><\/p><p>Bezug genäht in<br\/><strong>Europa und Deutschland.<\/strong><\/p><p>Fertiggestellt zu<br\/><strong>100 % in Deutschland.<\/strong><\/p>"
+            "card_border_color": "#406c93",
+            "selected_product": "matress",
+            "btn_text": "Details",
+            "btn_type": "outline",
+            "btn_variant": "primary",
+            "btn_size": ""
           }
         },
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2": {
-          "type": "info_slide",
+        "ed3f47e5-1059-40cd-b361-e0133eec2bb7": {
+          "type": "product_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bett1_icon-2in1_einfach-wenden_startseite_421x421_59aacce1-0f26-42e3-bab6-6f2d326f8821.webp",
-            "slider_title": "2 in 1 Matratze",
-            "slider_text": "<p>Eine Matratze.<br\/>Zwei Seiten.<br\/><strong>100 Nächte testen.<\/strong><\/p><p>Schläfst du lieber<br\/>weicher oder fester?<br\/>Finde es heraus.<br\/><strong>In Ruhe.<\/strong><\/p>"
+            "card_border_color": "#406c93",
+            "selected_product": "matress",
+            "btn_text": "Details",
+            "btn_type": "outline",
+            "btn_variant": "primary",
+            "btn_size": ""
           }
         },
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3": {
-          "type": "info_slide",
+        "a9e2dc6c-4e87-4905-8430-9bb115916cf8": {
+          "type": "product_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bett1_Kundenservice_Illustrationen.webp",
-            "slider_title": "Service & Kontakt",
-            "slider_text": "<p>Unser Team ist gern für dich da:<br\/><strong>Tel:<\/strong><a href=\"tel:+4930767317272\"><strong>+49 30 7673172-72<\/strong><\/a><\/p><p>Mo.–Sa. von 8–22 Uhr<br\/>oder per <strong>E-Mail:<\/strong><\/p><p><a href=\"mailto:kundenservice@bett1.de\"><strong>kundenservice@bett1.de<\/strong><\/a><\/p><p>Antwortzeit beträgt in der Regel 24 Std.<\/p>"
+            "card_border_color": "#406c93",
+            "selected_product": "matress",
+            "btn_text": "Details",
+            "btn_type": "outline",
+            "btn_variant": "primary",
+            "btn_size": ""
           }
         }
       },
       "block_order": [
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-1",
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2",
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3"
+        "bfcde385-fbd6-4772-b453-7f009898d2a1",
+        "ed3f47e5-1059-40cd-b361-e0133eec2bb7",
+        "a9e2dc6c-4e87-4905-8430-9bb115916cf8"
       ],
       "custom_css": [
 
       ],
       "settings": {
-        "section_bg_color": "#ffffff"
+        "section_title": "Entdecke den Komfort von Serenity",
+        "section_bg_color": "#f2f2f2",
+        "card_border_radius": 15
       }
     },
     "a7fc9583-e925-4bfb-a4af-a9e314793d73": {
@@ -349,6 +309,46 @@
         "title": "",
         "last_slide_title": ""
       }
+    },
+    "5463b940-fa41-47d7-909f-6aa8aab0b3c5": {
+      "type": "global-info-slider",
+      "blocks": {
+        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-1": {
+          "type": "info_slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bett1_made-in-germany_akm-produktseite_205x170__1.webp",
+            "slider_title": "Made in Germany",
+            "slider_text": "<p>BODYGUARD®entwickelt in<br\/><strong>Deutschland.<\/strong><\/p><p>Kern geschäumt in<br\/><strong>Deutschland.<\/strong><\/p><p>Bezug genäht in<br\/><strong>Europa und Deutschland.<\/strong><\/p><p>Fertiggestellt zu<br\/><strong>100 % in Deutschland.<\/strong><\/p>"
+          }
+        },
+        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2": {
+          "type": "info_slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bett1_icon-2in1_einfach-wenden_startseite_421x421_59aacce1-0f26-42e3-bab6-6f2d326f8821.webp",
+            "slider_title": "2 in 1 Matratze",
+            "slider_text": "<p>Eine Matratze.<br\/>Zwei Seiten.<br\/><strong>100 Nächte testen.<\/strong><\/p><p>Schläfst du lieber<br\/>weicher oder fester?<br\/>Finde es heraus.<br\/><strong>In Ruhe.<\/strong><\/p>"
+          }
+        },
+        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3": {
+          "type": "info_slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bett1_Kundenservice_Illustrationen.webp",
+            "slider_title": "Service & Kontakt",
+            "slider_text": "<p>Unser Team ist gern für dich da:<br\/><strong>Tel:<\/strong><a href=\"tel:+4930767317272\"><strong>+49 30 7673172-72<\/strong><\/a><\/p><p>Mo.–Sa. von 8–22 Uhr<br\/>oder per <strong>E-Mail:<\/strong><\/p><p><a href=\"mailto:kundenservice@bett1.de\"><strong>kundenservice@bett1.de<\/strong><\/a><\/p><p>Antwortzeit beträgt in der Regel 24 Std.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-1",
+        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2",
+        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "section_bg_color": "#f2f2f2"
+      }
     }
   },
   "order": [
@@ -356,10 +356,10 @@
     "08af8087-4faf-4ef7-95e3-9f5886e1fd08",
     "02d12352-47d3-4865-815f-f107ace0aaeb",
     "55c37968-0e45-4201-851c-5f84cb221880",
-    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
     "8d02d717-406f-4830-aeba-0b71d6433fba",
     "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
-    "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
-    "a7fc9583-e925-4bfb-a4af-a9e314793d73"
+    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
+    "a7fc9583-e925-4bfb-a4af-a9e314793d73",
+    "5463b940-fa41-47d7-909f-6aa8aab0b3c5"
   ]
 }
