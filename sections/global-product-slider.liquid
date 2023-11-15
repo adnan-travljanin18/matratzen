@@ -14,7 +14,7 @@
                         <h4>Product Title</h4>
                     {% endif %}
                     {% if block.settings.selected_product != blank %}
-                        <p>{{ block.settings.selected_product.description }}</p>
+                        <p>{{ block.settings.selected_product.description | truncate: 160 }}</p>
                     {% else %}
                         <p>This is a product description.</p>
                     {% endif %}
