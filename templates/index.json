@@ -264,7 +264,7 @@
         "a9e2dc6c-4e87-4905-8430-9bb115916cf8"
       ],
       "custom_css": [
-
+        "h4 {color: #6490b2;}"
       ],
       "settings": {
         "section_title": "Entdecke den Komfort von Serenity",
@@ -344,7 +344,7 @@
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3"
       ],
       "custom_css": [
-
+        "h4 {color: #6490b2;}"
       ],
       "settings": {
         "section_bg_color": "#f2f2f2"
