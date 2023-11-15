@@ -16,6 +16,7 @@
         },
         "fcbf423b-3c83-4097-901c-ca70b8b80e5c": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
