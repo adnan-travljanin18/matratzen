@@ -334,6 +334,24 @@
       "settings": {
         "section_bg_color": "#f2f2f2"
       }
+    },
+    "1700176077bfdca992": {
+      "type": "apps",
+      "blocks": {
+        "7560abac-3c0a-4908-a612-bd6274d984cf": {
+          "type": "shopify:\/\/apps\/veeform-product-quiz-builder\/blocks\/app-block\/35886e51-37e3-4978-a765-359cc73afebe",
+          "settings": {
+            "quizId": "1ew990sn",
+            "height": 600
+          }
+        }
+      },
+      "block_order": [
+        "7560abac-3c0a-4908-a612-bd6274d984cf"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -345,6 +363,7 @@
     "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
     "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
     "17000644654d855a54",
-    "5463b940-fa41-47d7-909f-6aa8aab0b3c5"
+    "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
+    "1700176077bfdca992"
   ]
 }
