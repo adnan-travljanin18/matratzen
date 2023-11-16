@@ -280,8 +280,8 @@
           "settings": {
             "quiz_id": "rkHEOD",
             "quiz_height": 600,
-            "quiz_autoscroll": false,
-            "quiz_fixed_height": false
+            "quiz_autoscroll": true,
+            "quiz_fixed_height": true
           }
         }
       },
