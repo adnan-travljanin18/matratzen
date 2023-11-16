@@ -272,24 +272,19 @@
         "card_border_radius": 15
       }
     },
-    "17000644654d855a54": {
+    "1700176077bfdca992": {
       "type": "apps",
       "blocks": {
-        "b4e2e4b4-60f6-488f-aff7-653a240244cf": {
-          "type": "shopify:\/\/apps\/shop-quiz-product-recommender\/blocks\/inline-quiz\/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
+        "7560abac-3c0a-4908-a612-bd6274d984cf": {
+          "type": "shopify:\/\/apps\/veeform-product-quiz-builder\/blocks\/app-block\/35886e51-37e3-4978-a765-359cc73afebe",
           "settings": {
-            "quiz_id": "rkHEOD",
-            "quiz_height": 600,
-            "quiz_autoscroll": true,
-            "quiz_fixed_height": true
+            "quizId": "1ew990sn",
+            "height": 600
           }
         }
       },
       "block_order": [
-        "b4e2e4b4-60f6-488f-aff7-653a240244cf"
-      ],
-      "custom_css": [
-
+        "7560abac-3c0a-4908-a612-bd6274d984cf"
       ],
       "settings": {
         "include_margins": true
@@ -334,24 +329,6 @@
       "settings": {
         "section_bg_color": "#f2f2f2"
       }
-    },
-    "1700176077bfdca992": {
-      "type": "apps",
-      "blocks": {
-        "7560abac-3c0a-4908-a612-bd6274d984cf": {
-          "type": "shopify:\/\/apps\/veeform-product-quiz-builder\/blocks\/app-block\/35886e51-37e3-4978-a765-359cc73afebe",
-          "settings": {
-            "quizId": "1ew990sn",
-            "height": 600
-          }
-        }
-      },
-      "block_order": [
-        "7560abac-3c0a-4908-a612-bd6274d984cf"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -362,8 +339,7 @@
     "8d02d717-406f-4830-aeba-0b71d6433fba",
     "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
     "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
-    "17000644654d855a54",
-    "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
-    "1700176077bfdca992"
+    "1700176077bfdca992",
+    "5463b940-fa41-47d7-909f-6aa8aab0b3c5"
   ]
 }
