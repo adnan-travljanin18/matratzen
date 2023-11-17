@@ -282,20 +282,22 @@
             "height": 800
           }
         },
-        "55bbfd5b-7f59-4260-944b-7a96b17eca8f": {
-          "type": "shopify:\/\/apps\/involve-me\/blocks\/dynamic\/af4e671e-b5ea-45de-a606-5e30263d3fa7",
+        "77deb394-fca6-4cc3-bae8-aed05c4431ce": {
+          "type": "shopify:\/\/apps\/veeform-product-quiz-builder\/blocks\/button-popup\/35886e51-37e3-4978-a765-359cc73afebe",
           "settings": {
-            "url": "https:\/\/praella.involve.me\/what-mattress-is-best-for-you-e69c",
-            "width": 0,
-            "height": 800,
-            "transparent_background": false,
-            "loadingBackgroundColor": "#ffffff"
+            "quizId": "#vf-1ew990sn-p-r",
+            "popup_type": "p",
+            "slider_side": "r",
+            "button_text": "Click me",
+            "button_color": "#0066ff",
+            "font_size": 16,
+            "border_radius": 8
           }
         }
       },
       "block_order": [
         "7560abac-3c0a-4908-a612-bd6274d984cf",
-        "55bbfd5b-7f59-4260-944b-7a96b17eca8f"
+        "77deb394-fca6-4cc3-bae8-aed05c4431ce"
       ],
       "settings": {
         "include_margins": true
