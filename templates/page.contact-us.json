@@ -3,6 +3,22 @@
     "main": {
       "type": "template-contact-page",
       "settings": {
+        "page": "contact",
+        "fluid_layout": true,
+        "section_bg_color": "#ffffff",
+        "section_txt_color": "#000000",
+        "heading": "",
+        "txt": "",
+        "image": "shopify:\/\/shop_images\/bett1_Kundenservice_Illustrationen.webp",
+        "email_heading": "Email Us",
+        "email_name": "customerservice@serenity.com",
+        "social_heading": "Connect with Us",
+        "show_social_links": true,
+        "social_icon_facebook": true,
+        "social_icon_pinterest": true,
+        "social_icon_twitter": true,
+        "social_icon_instagram": true,
+        "social_icon_youtube": true
       }
     }
   },
