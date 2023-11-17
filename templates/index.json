@@ -275,13 +275,6 @@
     "1700176077bfdca992": {
       "type": "apps",
       "blocks": {
-        "7560abac-3c0a-4908-a612-bd6274d984cf": {
-          "type": "shopify:\/\/apps\/veeform-product-quiz-builder\/blocks\/app-block\/35886e51-37e3-4978-a765-359cc73afebe",
-          "settings": {
-            "quizId": "1ew990sn",
-            "height": 800
-          }
-        },
         "77deb394-fca6-4cc3-bae8-aed05c4431ce": {
           "type": "shopify:\/\/apps\/veeform-product-quiz-builder\/blocks\/button-popup\/35886e51-37e3-4978-a765-359cc73afebe",
           "settings": {
@@ -296,7 +289,6 @@
         }
       },
       "block_order": [
-        "7560abac-3c0a-4908-a612-bd6274d984cf",
         "77deb394-fca6-4cc3-bae8-aed05c4431ce"
       ],
       "settings": {
