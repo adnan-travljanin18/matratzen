@@ -4,7 +4,7 @@
     <div id="productTabs" data-product-tabs>
       <ul class="tabs d-flex list-unstyled text-uppercase fw-medium" role="tablist">
         {% if block.settings.enable_descripion_tab and product.description != blank %}
-        <li class="tablink open" role="tab">
+        <li class="tablink open description" role="tab">
           <a class="nav-link" data-toggle="tab" href="#description" data-tabcontent="#description" aria-expanded="true">{{ 'products.product.description' | t }}</a>
         </li>
         {% endif %}
