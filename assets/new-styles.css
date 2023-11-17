@@ -8,6 +8,29 @@
 .video-with-text video {
     filter: brightness(0.7);
 }
+.description-parent {
+    position: relative;
+  }
+.description-parent::before {
+    content: "";
+    position: absolute;
+    border: 1px solid #50c878;
+    bottom: 0;
+    width: 100%;
+    left: -25px;
+}
+.description-parent::after {
+    content: "";
+    width: 20rem;
+    position: absolute;
+    height: 1px;
+    border: 2px solid #50c878;
+    border-radius: 100%;
+    height: 20rem;
+    top: calc(100% - 10rem);
+    left: calc(100% - 10rem);
+    background-color: white;
+}
 @media screen and (min-width: 768px) {
     .scroll-desktop-icon {
         width: 50px;
