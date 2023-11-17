@@ -1,4 +1,4 @@
-<div data-section-id="{{ section.id }}" data-template="product" class="overflow-x-hidden{% if product.has_only_default_variant %}only-default-variant{% endif %}">
+<div data-section-id="{{ section.id }}" data-template="product" class="{% if product.has_only_default_variant %}only-default-variant{% endif %}">
   {%- liquid 
     assign productExcludeTag = settings.product_exclude_tag_text
     assign fluid_layout = section.settings.fluid_layout
@@ -9,7 +9,7 @@
       cycle 1, 2
     endcapture
   -%}
-  <section class="section-content" data-product-container>
+  <section class="section-content overflow-x-hidden p-0" data-product-container>
     <div class="{% if fluid_layout %}container-fluid{% else %}container{% endif %}">
         <div class="row">
             {% render 'breadcrumbs' %}
