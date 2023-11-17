@@ -32,6 +32,19 @@
     left: calc(100% - 3.5rem);
     background-color: white;
 }
+#shopify-block-77deb394-fca6-4cc3-bae8-aed05c4431ce {
+  background-image: url('https://cdn.shopify.com/s/files/1/0591/2130/3625/files/blue-matress.jpg?v=1699609198'); /* Add the path to your background image */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .scroll-desktop-icon {
         width: 50px;
