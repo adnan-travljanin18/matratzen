@@ -70,7 +70,8 @@
         "related-products"
       ],
       "custom_css": [
-        ".list-unstyled {gap: 1rem;}"
+        ".list-unstyled {gap: 1rem;}",
+        ".shopify-sectio {overflow-x: hidden;}"
       ],
       "settings": {
         "scroll_desktop_icon": "shopify:\/\/shop_images\/scroll.png",
