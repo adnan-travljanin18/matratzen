@@ -281,10 +281,20 @@
             "quizId": "1ew990sn",
             "height": 600
           }
+        },
+        "b5eef51a-be38-44f9-93ed-2c9132877ba1": {
+          "type": "shopify:\/\/apps\/shop-quiz-product-recommender\/blocks\/inline-quiz\/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
+          "settings": {
+            "quiz_id": "rkHEOD",
+            "quiz_height": 600,
+            "quiz_autoscroll": true,
+            "quiz_fixed_height": false
+          }
         }
       },
       "block_order": [
-        "7560abac-3c0a-4908-a612-bd6274d984cf"
+        "7560abac-3c0a-4908-a612-bd6274d984cf",
+        "b5eef51a-be38-44f9-93ed-2c9132877ba1"
       ],
       "settings": {
         "include_margins": true
