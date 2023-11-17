@@ -334,6 +334,14 @@
       "settings": {
         "section_bg_color": "#f2f2f2"
       }
+    },
+    "add57642-99b3-450a-b701-2c83862dbaa4": {
+      "type": "quiz-section",
+      "settings": {
+        "title": "",
+        "last_slide_title": "",
+        "collections": ""
+      }
     }
   },
   "order": [
@@ -345,6 +353,7 @@
     "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
     "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
     "1700176077bfdca992",
-    "5463b940-fa41-47d7-909f-6aa8aab0b3c5"
+    "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
+    "add57642-99b3-450a-b701-2c83862dbaa4"
   ]
 }
