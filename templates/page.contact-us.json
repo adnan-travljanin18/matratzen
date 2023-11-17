@@ -2,13 +2,17 @@
   "sections": {
     "main": {
       "type": "template-contact-page",
+      "custom_css": [
+        ".small-contact-title {display: none;}",
+        ".social-links a {background-color: #406c93;}"
+      ],
       "settings": {
         "page": "contact",
         "fluid_layout": true,
         "section_bg_color": "#ffffff",
         "section_txt_color": "#000000",
-        "heading": "",
-        "txt": "",
+        "heading": "Contact",
+        "txt": "Contact us using our contact form",
         "image": "shopify:\/\/shop_images\/bett1_Kundenservice_Illustrationen.webp",
         "email_heading": "Email Us",
         "email_name": "customerservice@serenity.com",
