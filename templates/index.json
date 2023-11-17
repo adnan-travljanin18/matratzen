@@ -281,10 +281,21 @@
             "quizId": "1ew990sn",
             "height": 800
           }
+        },
+        "55bbfd5b-7f59-4260-944b-7a96b17eca8f": {
+          "type": "shopify:\/\/apps\/involve-me\/blocks\/dynamic\/af4e671e-b5ea-45de-a606-5e30263d3fa7",
+          "settings": {
+            "url": "https:\/\/praella.involve.me\/what-mattress-is-best-for-you-e69c",
+            "width": 0,
+            "height": 800,
+            "transparent_background": false,
+            "loadingBackgroundColor": "#ffffff"
+          }
         }
       },
       "block_order": [
-        "7560abac-3c0a-4908-a612-bd6274d984cf"
+        "7560abac-3c0a-4908-a612-bd6274d984cf",
+        "55bbfd5b-7f59-4260-944b-7a96b17eca8f"
       ],
       "settings": {
         "include_margins": true
