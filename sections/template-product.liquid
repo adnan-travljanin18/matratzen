@@ -1,4 +1,4 @@
-<div data-section-id="{{ section.id }}" data-template="product" class="{% if product.has_only_default_variant %}only-default-variant{% endif %}">
+<div data-section-id="{{ section.id }}" data-template="product" class="overflow-x-hidden{% if product.has_only_default_variant %}only-default-variant{% endif %}">
   {%- liquid 
     assign productExcludeTag = settings.product_exclude_tag_text
     assign fluid_layout = section.settings.fluid_layout
