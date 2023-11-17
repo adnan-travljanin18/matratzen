@@ -278,7 +278,7 @@
         "77deb394-fca6-4cc3-bae8-aed05c4431ce": {
           "type": "shopify:\/\/apps\/veeform-product-quiz-builder\/blocks\/button-popup\/35886e51-37e3-4978-a765-359cc73afebe",
           "settings": {
-            "quizId": "#vf-1ew990sn-p-r",
+            "quizId": "1ew990sn",
             "popup_type": "p",
             "slider_side": "r",
             "button_text": "Click me",
