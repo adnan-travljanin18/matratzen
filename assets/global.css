@@ -11525,16 +11525,6 @@ textarea.form-control-lg {
     transition: opacity ease-in-out 0.25s;
 }
 
-.tablink.open .nav-link,
-.tablink .nav-link:hover .nav-link {
-    color: var(--bs-color-primary);
-}
-
-.tablink.open .nav-link:after,
-.tablink:hover .nav-link:after {
-    background: var(--bs-color-primary);
-}
-
 .tabcontent {
     display: none;
 }
