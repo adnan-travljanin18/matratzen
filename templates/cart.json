@@ -2,8 +2,11 @@
   "sections": {
     "cart-items": {
       "type": "template-cart",
+      "custom_css": [
+        ".progress-bar {background-color: #6490b2;}"
+      ],
       "settings": {
-        "show_vendor": true,
+        "show_vendor": false,
         "show_back_btn": true
       }
     }
