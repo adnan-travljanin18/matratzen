@@ -55,7 +55,7 @@
     </noscript>
     <div class="row">
       <div class="col-12 d-flex">
-          <button class="btn btn-outline-dark btn-sm flex-grow-1 px-2"
+            <button class="btn {% if current_variant.available %}btn-primary{% else %} btn-outline-dark{% endif %} btn-sm flex-grow-1 px-2"
               type="submit"
               name="add"
               aria-label="{{ 'products.product.add_to_cart' | t | escape }}"
