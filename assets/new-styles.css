@@ -1,3 +1,6 @@
+.cart-drawer .progress-bar, .cart-page .progress-bar {
+    background-color: #6490b2;
+}
 .image-info-wrapper, .image-slider-wrapper {
     padding: 100px;
     background-size: contain!important;
