@@ -2,7 +2,11 @@
   "current": {
     "body_color": "#122230",
     "heading_color": "#000000",
+    "link_hover_color": "#6490b2",
+    "color_primary": "#000000",
     "color_secondary": "#F8F0EC",
+    "color_almond": "#FAE2CC",
+    "color_primary_100": "#6490b2",
     "type_header_font": "Poppins",
     "type_secondary_font": "Poppins",
     "type_body_font": "Poppins",
@@ -134,7 +138,8 @@
         "type": "mobile-nav-drawer",
         "settings": {
           "logo_svg": "",
-          "logo_width": 100,
+          "logo": "shopify:\/\/shop_images\/Asset_8_2x_70abe26a-cdf8-4778-bbd7-12eff4fd66d5.png",
+          "logo_width": 70,
           "main_menu_linklist": "footer",
           "secondary_menu_linklist": "main-menu",
           "mobilemenu_style": "slide-submenu",
