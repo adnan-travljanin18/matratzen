@@ -5,36 +5,43 @@
     - localPosition: pass in the position in which the form is coming up to create specific IDs
 {%- endcomment -%}
 
-<div class="disclosure">
-  <button
-    type="button"
-    class="disclosure__button localization-form__select localization-selector link link--text caption-large"
-    aria-expanded="false"
-    aria-controls="{{ localPosition }}List"
-    aria-describedby="{{ localPosition }}Label"
-  >
-    <span>{{ localization.language.endonym_name | capitalize }}</span>
-    {% render 'icon-caret' %}
-  </button>
-  <div class="disclosure__list-wrapper" hidden>
-    <ul id="{{ localPosition }}List" role="list" class="disclosure__list list-unstyled">
-      {%- for language in localization.available_languages -%}
-        <li class="disclosure__item" tabindex="-1">
-          <a
-            class="link link--text disclosure__link caption-large{% if language.iso_code == localization.language.iso_code %} disclosure__link--active{% endif %} focus-inset"
-            href="#"
-            hreflang="{{ language.iso_code }}"
-            lang="{{ language.iso_code }}"
-            {% if language.iso_code == localization.language.iso_code %}
-              aria-current="true"
-            {% endif %}
-            data-value="{{ language.iso_code }}"
-          >
-            {{ language.endonym_name | capitalize }}
-          </a>
-        </li>
-      {%- endfor -%}
-    </ul>
+<div class="language-picker">
+  <div class="language-list">
+    {%- for language in localization.available_languages -%}
+      <button
+        type="button"
+        class="language-button{% if language.iso_code == localization.language.iso_code %} active{% endif %}"
+        aria-current="{% if language.iso_code == localization.language.iso_code %}true{% endif %}"
+        data-value="{{ language.iso_code }}"
+        onclick="updateLanguage('{{ language.iso_code }}')"
+      >
+        {{ language.short_iso_code | default: language.iso_code | capitalize }}
+      </button>
+      {%- unless forloop.last -%}
+        <span class="separator">/</span>
+      {%- endunless -%}
+    {%- endfor -%}
   </div>
 </div>
 <input type="hidden" name="locale_code" value="{{ localization.language.iso_code }}">
+
+<script>
+  function updateLanguage(selectedLanguage) {
+    const form = document.querySelector('.localization-form');
+    const input = form.querySelector('input[name="locale_code"]');
+    
+    // Update active state
+    document.querySelectorAll('.language-button').forEach(button => {
+      button.classList.remove('active');
+    });
+    
+    const activeButton = document.querySelector(`.language-button[data-value="${selectedLanguage}"]`);
+    activeButton.classList.add('active');
+    
+    // Set the selected language in the form input
+    input.value = selectedLanguage;
+
+    // Submit the form or perform any other necessary actions
+    if (form) form.submit();
+  }
+</script>

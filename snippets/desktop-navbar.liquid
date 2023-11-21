@@ -110,7 +110,8 @@
       {% endfor %}
   </ul>
   <ul class="navbar-nav navbar-icon-links align-items-center ms-auto">
-    <noscript class="small-hide medium-hide">
+    <div class="language-picker-wrapper">
+        <noscript class="small-hide medium-hide">
         {%- form 'localization', id: 'HeaderLanguageMobileFormNoScript', class: 'localization-form' -%}
             <div class="localization-form__select">
             <h2 class="visually-hidden" id="HeaderLanguageMobileLabelNoScript">{{ 'localization.language_label' | t }}</h2>
@@ -135,6 +136,7 @@
             </div>
         {%- endform -%}
     </localization-form>
+    </div>
       {%- if settings.enable_search -%}
           <li class="nav-item" role="menuitem">
               <a href="{{ routes.search_url }}" class="nav-link modal__toggle open-searchform" aria-haspopup="dialog" aria-label="{{ 'general.search.title' | t }}">

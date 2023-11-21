@@ -1,3 +1,23 @@
+.language-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.language-button.active {
+    color: #406c93; /* Highlight the active button */
+}
+.separator {
+  margin: 0 5px;
+}
+.navbar-mobile:not(.navbar-mobile-secondary) {
+    border-top: none!important;
+}
 .cart-drawer .progress-bar, .cart-page .progress-bar {
     background-color: #6490b2;
 }
@@ -91,5 +111,17 @@
         50% {
             right: 6.5%;
         }
+    }
+}
+@media screen and (min-width: 992px) {
+    .language-button {
+        color: #fff;
+    }
+
+    .language-button.active {
+        color: #406c93; /* Highlight the active button */
+    }
+    .separator {
+        color: #fff;
     }
 }
