@@ -18,7 +18,7 @@
         {{ language.short_iso_code | default: language.iso_code | capitalize }}
       </button>
       {%- unless forloop.last -%}
-        <span class="separator">/</span>
+        <span class="separator">|</span>
       {%- endunless -%}
     {%- endfor -%}
   </div>
