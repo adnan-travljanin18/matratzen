@@ -9,7 +9,7 @@
       "login_form_submit": "Enter",
       "modal": "Password modal",
       "signup_form_success": "We will send you an email right before we open!",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"link underlined-link\">Log in here</a>",
+      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"link underlined-link\">Log in here<\/a>",
       "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
     },
     "social": {
@@ -297,9 +297,9 @@
       "address1": "Address 1",
       "address2": "Address 2",
       "city": "City",
-      "country": "Country/region",
+      "country": "Country\/region",
       "province": "Province",
-      "zip": "Postal/ZIP code",
+      "zip": "Postal\/ZIP code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add address",
@@ -410,5 +410,28 @@
     "update_country": "TODO",
     "language_label": "TODO",
     "update_language": "TODO"
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "sold_out": "Pay out",
+        "back_to_collection": "Back to {{ title }}"
+      }
+    },
+    "article": {
+      "by_author": "by {{ author }}",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "name": "Surname",
+      "email": "E-mail",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "signup_form_email_label": "E-mail"
+    }
   }
 }
