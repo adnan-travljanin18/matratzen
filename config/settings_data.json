@@ -10,6 +10,7 @@
     "type_header_font": "Poppins",
     "type_secondary_font": "Poppins",
     "type_body_font": "Poppins",
+    "type_button_font": "Poppins",
     "button_border-radius": "10px",
     "button_border-width": "1px",
     "bg_color_btn_primary": "#406c93",
