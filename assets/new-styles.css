@@ -11,10 +11,12 @@
 }
 .sidebar-blog .card {
     border-color: #406c93;
+    border-radius: 10px;
 }
 .sidebar-blog .card-header {
     background: #6490b2;
     color: #fff;
+    border-radius: 10px 10px 0 0;
 }
 .sidebar-blog .card-body span {
     color: #122230;
