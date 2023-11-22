@@ -6,6 +6,9 @@
     max-height: 400px;
     object-fit: cover;
 }
+.blog-cards img {
+    border-radius: 10px;
+}
 .blog-cards h4 a {
     color: #6490b2;
 }
