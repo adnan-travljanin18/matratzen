@@ -25,7 +25,7 @@
                     <div class="col-lg-9">
                       <div class="row justify-content-center">
                         {% for article in blog.articles %}
-                        <div class="{% if fluid_layout %}col-sm-4{% else %}col-sm-6 {% endif %} mb-5 d-flex align-items-stretch">
+                        <div class="{% if fluid_layout %}col-sm-4{% else %}col-sm-6 {% endif %}first-child mb-5 d-flex align-items-stretch">
                             {% render 'card-article-style', article: article %}
                         </div>
                         {% endfor %}

@@ -1,13 +1,10 @@
-.blog-cards {
-    text-align: center;
-    border: 1px solid #406c93!important;
-    padding: 30px;
-    border-radius: 10px;
+.first-child:first-child {
+    max-width: 100%;
+    flex: 0 100%;
 }
-.blog-cards .card-img {
-    max-width: 300px;
-    max-height: 300px;
-    margin: 0 auto;
+.first-child:first-child img {
+    max-height: 400px;
+    object-fit: cover;
 }
 .language-button {
     background: none;
