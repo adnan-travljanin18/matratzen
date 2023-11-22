@@ -6,6 +6,19 @@
     max-height: 400px;
     object-fit: cover;
 }
+.blog-cards h4 a {
+    color: #6490b2;
+}
+.sidebar-blog .card {
+    border-color: #406c93;
+}
+.sidebar-blog .card-header {
+    background: #6490b2;
+    color: #fff;
+}
+.sidebar-blog .card-body span {
+    color: #122230;
+}
 .language-button {
     background: none;
     border: none;
