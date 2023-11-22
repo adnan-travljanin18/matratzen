@@ -39,7 +39,7 @@
         "fluid_layout": false,
         "enable_sidebar": true,
         "sidebar_is_sticky": true,
-        "items_per_page": 12
+        "items_per_page": 13
       }
     }
   },
