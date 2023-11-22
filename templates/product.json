@@ -39,11 +39,11 @@
             "product_tabs_layout": "tabify",
             "enable_descripion_tab": true,
             "enable_custom_tab_1": false,
-            "tab_1_title": "Tab Title 1",
+            "tab_1_title": "Spezifikationen",
             "tab_1_content": "",
-            "enable_custom_tab_2": false,
-            "tab_2_title": "Tab Title 2",
-            "tab_2_content": ""
+            "enable_custom_tab_2": true,
+            "tab_2_title": "Spezifikationen",
+            "tab_2_content": "<p>Test tes test<\/p>"
           }
         },
         "related-products": {
