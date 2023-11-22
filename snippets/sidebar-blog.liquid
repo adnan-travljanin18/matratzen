@@ -75,9 +75,9 @@
             <div class="card-body">
               {% for tag in blog.all_tags %}
                 {% if current_tags contains tag %}
-                  <span class="badge badge-pill badge-dark">{{ tag }}</span>
+                  <span class="badge badge-pill badge-primary-100 text-white p-2">{{ tag }}</span>
                 {% else %}
-                  <span class="badge badge-pill badge-light">{{ tag | link_to_tag: tag }}</span>
+                  <span class="badge badge-pill p-2">{{ tag | link_to_tag: tag }}</span>
                 {% endif %}
               {% endfor %}
             </div>
