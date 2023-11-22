@@ -1,6 +1,6 @@
 {% assign article_image = article.image.src | image_url: width: 100, height: 100 %}
 
-<div class="card bg-white article-card border-0">
+<div class="card bg-white article-card blog-cards">
   {% unless article_image contains 'no-image' %}
         <a href="{{ article.url }}" class="card-img d-block">
             <img

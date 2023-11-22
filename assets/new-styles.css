@@ -1,3 +1,14 @@
+.blog-cards {
+    text-align: center;
+    border: 1px solid #406c93!important;
+    padding: 30px;
+    border-radius: 10px;
+}
+.blog-cards .card-img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+}
 .language-button {
     background: none;
     border: none;
