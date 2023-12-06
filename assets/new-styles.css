@@ -39,7 +39,7 @@
     justify-content: space-between;
 }
 .language-button.active {
-    color: #406c93; /* Highlight the active button */
+    color: #000; /* Highlight the active button */
 }
 .separator {
   margin: 0 5px;
@@ -148,7 +148,7 @@
     }
 
     .language-button.active {
-        color: #406c93; /* Highlight the active button */
+        color: #000; /* Highlight the active button */
     }
     .separator {
         color: #fff;
