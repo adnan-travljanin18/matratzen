@@ -275,10 +275,10 @@
     "add57642-99b3-450a-b701-2c83862dbaa4": {
       "type": "quiz-section",
       "settings": {
-        "title": "Find your perfect mattress with  our personalized quiz.",
-        "subtitle": "Answer a few questions and discover your best match!",
+        "title": "Finden Sie Ihre perfekte Matratze mit unserem personalisierten Quiz.",
+        "subtitle": "Beantworten Sie ein paar Fragen und finden Sie heraus, wer am besten zu Ihnen passt!",
         "background_image": "shopify:\/\/shop_images\/blue-matress.jpg",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "btn_text": "Quiz Starten",
         "btn_type": "",
         "btn_variant": "primary",
