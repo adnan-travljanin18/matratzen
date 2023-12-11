@@ -148,7 +148,7 @@
     }
 
     .language-button.active {
-        color: #000; /* Highlight the active button */
+        border-bottom: 1px solid;
     }
     .separator {
         color: #fff;
