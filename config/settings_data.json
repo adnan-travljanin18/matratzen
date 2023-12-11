@@ -64,8 +64,8 @@
           "header_bg_color": "#6490b2",
           "show_line_separator": false,
           "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/Asset_8_2x_70abe26a-cdf8-4778-bbd7-12eff4fd66d5.png",
-          "logo_width": 100,
+          "logo": "shopify:\/\/shop_images\/SE_Dark_72px.png",
+          "logo_width": 150,
           "menu": "main-menu"
         }
       },
@@ -84,7 +84,7 @@
           "footer_bottom_bg_color": "#dfeef7",
           "footer_bottom_txt_color": "#1f3951",
           "footer_logo_svg": "",
-          "footer_logo": "shopify:\/\/shop_images\/Asset_8_2x_70abe26a-cdf8-4778-bbd7-12eff4fd66d5.png",
+          "footer_logo": "shopify:\/\/shop_images\/SE_Dark_72px.png",
           "logo_max_width": 165,
           "col_1_text": "",
           "col_2_heading": "Customer Care",
@@ -141,7 +141,7 @@
         "type": "mobile-nav-drawer",
         "settings": {
           "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/Asset_8_2x_70abe26a-cdf8-4778-bbd7-12eff4fd66d5.png",
+          "logo": "shopify:\/\/shop_images\/SE_Dark_72px.png",
           "logo_width": 70,
           "main_menu_linklist": "footer",
           "secondary_menu_linklist": "main-menu",
