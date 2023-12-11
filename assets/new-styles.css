@@ -148,6 +148,7 @@
     }
 
     .language-button.active {
+        color: #fff;
         border-bottom: 1px solid;
     }
     .separator {
