@@ -362,20 +362,11 @@
             "slider_title": "Ultimativer Schlafkomfort",
             "slider_text": "<p>Die ultimative Komfort-Matratze: ein Meisterwerk des Schlafs. Mit zwei Seiten für individuellen Luxus. Entdecke pure Bequemlichkeit und erlebe himmlischen Schlaf. Deine Nächte werden nie mehr dieselben sein.<\/p>"
           }
-        },
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3": {
-          "type": "info_slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bett1_Kundenservice_Illustrationen.webp",
-            "slider_title": "Service & Kontakt",
-            "slider_text": "<p>Unser Team ist gern für dich da:<br\/><strong>Tel:<\/strong><a href=\"tel:+4930767317272\"><strong>+49 30 7673172-72<\/strong><\/a><\/p><p>Mo.–Sa. von 8–22 Uhr<br\/>oder per <strong>E-Mail:<\/strong><\/p><p><a href=\"mailto:kundenservice@bett1.de\"><strong>kundenservice@bett1.de<\/strong><\/a><\/p><p>Antwortzeit beträgt in der Regel 24 Std.<\/p>"
-          }
         }
       },
       "block_order": [
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-1",
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2",
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3"
+        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2"
       ],
       "custom_css": [
         "h4 {color: #6490b2;}"
