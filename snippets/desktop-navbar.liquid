@@ -102,7 +102,7 @@
               </li>    
           {% else %}
               <li class="nav-item {% if link.active %} active{% endif %}" role="menuitem">
-                  <a class="nav-link text-uppercase {{ link.handle }}" href="{{ link.url }}" is="simple-menu-item" title="{{ link.title }}" aria-label="{{ link.title }}">
+                  <a class="nav-link {{ link.handle }}" href="{{ link.url }}" is="simple-menu-item" title="{{ link.title }}" aria-label="{{ link.title }}">
                       {{ link.title }}
                   </a>
               </li>
