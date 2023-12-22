@@ -382,6 +382,40 @@
       "settings": {
         "section_bg_color": "#f2f2f2"
       }
+    },
+    "0bfa310b-968b-4956-9641-bbeff517cfe6": {
+      "type": "global-info-slider",
+      "blocks": {
+        "template--15357004054601__0bfa310b-968b-4956-9641-bbeff517cfe6-info_slide-1": {
+          "type": "info_slide",
+          "settings": {
+            "slider_title": "Info Slider Title",
+            "slider_text": "<p>This is just some text for the info slider.<p>"
+          }
+        },
+        "template--15357004054601__0bfa310b-968b-4956-9641-bbeff517cfe6-info_slide-2": {
+          "type": "info_slide",
+          "settings": {
+            "slider_title": "Info Slider Title",
+            "slider_text": "<p>This is just some text for the info slider.<p>"
+          }
+        },
+        "template--15357004054601__0bfa310b-968b-4956-9641-bbeff517cfe6-info_slide-3": {
+          "type": "info_slide",
+          "settings": {
+            "slider_title": "Info Slider Title",
+            "slider_text": "<p>This is just some text for the info slider.<p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15357004054601__0bfa310b-968b-4956-9641-bbeff517cfe6-info_slide-1",
+        "template--15357004054601__0bfa310b-968b-4956-9641-bbeff517cfe6-info_slide-2",
+        "template--15357004054601__0bfa310b-968b-4956-9641-bbeff517cfe6-info_slide-3"
+      ],
+      "settings": {
+        "section_bg_color": "#FAFAF7"
+      }
     }
   },
   "order": [
@@ -394,6 +428,7 @@
     "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
     "add57642-99b3-450a-b701-2c83862dbaa4",
     "3599e68e-8848-44e6-825d-96aefe7934a7",
-    "5463b940-fa41-47d7-909f-6aa8aab0b3c5"
+    "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
+    "0bfa310b-968b-4956-9641-bbeff517cfe6"
   ]
 }
