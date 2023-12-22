@@ -331,7 +331,6 @@
         "884bcb5d-1924-4c62-9d2a-69430d65ad20",
         "ea531b3d-fd32-4661-b1d5-20ef50222941"
       ],
-      "disabled": true,
       "settings": {
         "fluid_layout": true,
         "heading_txt": "Kundenbewertungen",
@@ -377,6 +376,7 @@
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2",
         "2ef27828-25e7-4a4c-a013-9ff417122877"
       ],
+      "disabled": true,
       "custom_css": [
         "h4 {color: #6490b2;}"
       ],
