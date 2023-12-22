@@ -179,12 +179,12 @@
         "fluid_layout": false,
         "column": false,
         "column_reverse": false,
-        "heading_txt": "Eine Matratze gegen das Kartell",
+        "heading_txt": "Ihr Traumschlaf beginnt hier!",
         "heading_above": true,
         "txt": "<p>Die TranquilHaven Serenity Matratze bietet einen erholsamen Schlaf inmitten von Ruhe und Gelassenheit. Mit einer sorgfältig gestalteten Struktur und hochwertigen Materialien bietet diese Matratze ein luxuriöses Liegeerlebnis. Die einzigartige Kombination aus stützenden Schichten und einer sanften Oberfläche schafft eine harmonische Schlafumgebung, die Ihre Nächte zu einem friedlichen Rückzugsort macht. Genießen Sie die Ruhe und Gelassenheit, die die TranquilHaven Serenity Matratze Ihnen für einen tiefen und erholsamen Schlaf bietet.<\/p>",
         "step_heading": "",
         "steps_captions": "",
-        "btn_txt": "Jetzt ab 199, - bestellen",
+        "btn_txt": "Hier Bestellen",
         "btn_link": "shopify:\/\/products\/matress",
         "btn_type": "",
         "btn_variant": "primary",
@@ -208,8 +208,8 @@
         "txt": "<p>Die Friedvolle Zuflucht Glückseligkeit Matratze bietet ein wahrhaft seliges Schlafvergnügen. Ihre sorgfältige Konstruktion und hochwertigen Materialien schaffen eine himmlische Liegefläche. Die perfekte Balance zwischen stützenden Schichten und einer sanften Oberfläche schenkt Ihnen einen erholsamen Schlaf, der von Gelassenheit und Harmonie geprägt ist. Tauchen Sie ein in den Luxus und die Wohltat der Friedvollen Zuflucht Glückseligkeit Matratze und lassen Sie Ihren Schlaf zu einem regenerierenden Erlebnis werden.<\/p>",
         "step_heading": "",
         "steps_captions": "",
-        "btn_txt": "Zur BODYGUARD® Boxspring Matratze",
-        "btn_link": "shopify:\/\/products\/matress",
+        "btn_txt": "Hier Bestellen",
+        "btn_link": "shopify:\/\/products\/copy-of-ruheoase-harmony-matratze",
         "btn_type": "",
         "btn_variant": "primary",
         "btn_size": "",
@@ -292,16 +292,16 @@
           "type": "info_slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/bett1_made-in-germany_akm-produktseite_205x170__1.webp",
-            "slider_title": "Made in Germany",
-            "slider_text": "<p>BODYGUARD®entwickelt in<br\/><strong>Deutschland.<\/strong><\/p><p>Kern geschäumt in<br\/><strong>Deutschland.<\/strong><\/p><p>Bezug genäht in<br\/><strong>Europa und Deutschland.<\/strong><\/p><p>Fertiggestellt zu<br\/><strong>100 % in Deutschland.<\/strong><\/p>"
+            "slider_title": "Hergestellt in Deutschland",
+            "slider_text": "<p>Willkommen in der Welt der Serenity Matratzen – entwickelt in Deutschland, Kern geschäumt in Deutschland, Bezug genäht in Europa und Deutschland. Fertiggestellt zu 100 % in Deutschland.<\/p>"
           }
         },
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2": {
           "type": "info_slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/bett1_icon-2in1_einfach-wenden_startseite_421x421_59aacce1-0f26-42e3-bab6-6f2d326f8821.webp",
-            "slider_title": "2 in 1 Matratze",
-            "slider_text": "<p>Eine Matratze.<br\/>Zwei Seiten.<br\/><strong>100 Nächte testen.<\/strong><\/p><p>Schläfst du lieber<br\/>weicher oder fester?<br\/>Finde es heraus.<br\/><strong>In Ruhe.<\/strong><\/p>"
+            "slider_title": "Ultimativer Schlafkomfort",
+            "slider_text": "<p>Die ultimative Komfort-Matratze: ein Meisterwerk des Schlafs. Mit zwei Seiten für individuellen Luxus. Entdecke pure Bequemlichkeit und erlebe himmlischen Schlaf. Deine Nächte werden nie mehr dieselben sein.<\/p>"
           }
         },
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-3": {
