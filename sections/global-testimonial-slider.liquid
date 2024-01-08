@@ -1,0 +1,98 @@
+<section class="bg-gray py-md-5 py-4 testimonial-section">
+    <div class="container">
+      <div>
+        <h1 class="text-center">{{ section.settings.section_heading }}</h1>
+      </div>
+        <div class="text-center swiper testimonial-slider py-lg-5 py-4">
+            <div class="swiper-wrapper">
+              {% for block in section.blocks %}
+                <div class="swiper-slide flex-column slide-background">
+                    {% case block.type %}
+                      {% when 'slide' %}
+                        <div class="slide d-flex justify-content-center rating-stars" {{ block.shopify_attributes }}>
+                          {% assign num_images = block.settings.rating | plus: 0 %}
+                          {% if num_images > 0 %}
+                            {% for i in (1..num_images) %}
+                              <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/star.svg" alt="Image {{ i }}" />
+                            {% endfor %}
+                          {% else %}
+                            <p>No rating selected.</p>
+                          {% endif %}
+                        </div>
+                    {% endcase %}
+
+                  <blockquote class="testimonial-text">{{ block.settings.slide_content }}</blockquote>
+                  <p class="font-orange">- {{ block.settings.person_name }}</p>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+    </div>
+</section>
+
+<script src="{{ 'testimonial-slider.js' | asset_url }}" async></script>
+
+{% schema %}
+    {
+        "name": "Testimonial Slider",
+        "settings": [
+            {
+                "type": "text",
+                "id": "section_heading",
+                "label": "Title",
+                "default": "The Welcome Box"
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Slide",
+                "type": "slide",
+                "settings": [
+                    {
+                        "type": "select",
+                        "id": "rating",
+                        "label": "Star Rating",
+                        "options": [
+                          {
+                            "value": "1",
+                            "label": "1"
+                          },
+                          {
+                            "value": "2",
+                            "label": "2"
+                          },
+                          {
+                            "value": "3",
+                            "label": "3"
+                          },
+                          {
+                            "value": "4",
+                            "label": "4"
+                          },
+                          {
+                            "value": "5",
+                            "label": "5"
+                          }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "id": "slide_content",
+                        "label": "Add Testimonial"
+                    },
+                    {
+                        "type": "text",
+                        "id": "person_name",
+                        "label": "Name of Testimonial"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "category": "Content",
+                "name": "Testimonial Slider"
+            }
+        ]
+    }
+{% endschema %}
