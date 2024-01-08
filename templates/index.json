@@ -285,63 +285,50 @@
         "btn_size": ""
       }
     },
-    "3599e68e-8848-44e6-825d-96aefe7934a7": {
-      "type": "global-testimonial",
+    "f2503673-38d7-4661-bf3a-9739442844fd": {
+      "type": "global-testimonial-slider",
       "blocks": {
-        "3dbc4090-69df-4710-85ae-b186bc6d84d5": {
-          "type": "logowidthtext",
+        "7a4b0fe3-bb61-4927-9fa2-c34f22da7f1e": {
+          "type": "slide",
           "settings": {
-            "quote_logo": "",
-            "title": "<p>Die Matratze hat mein Schlafverhalten revolutioniert! Begeisterte Kundin.<\/p>",
-            "author_name": "Lisa",
-            "alignment": "text-center"
+            "rating": "5",
+            "slide_content": "Die Matratze hat mein Schlafverhalten revolutioniert! Begeisterte Kundin.",
+            "person_name": "Lisa"
           }
         },
-        "4dafb66e-bbc6-4a8c-8eb3-3f3843466a5f": {
-          "type": "logowidthtext",
+        "0a712682-9fe8-465c-9c53-dbfa3a0e39f7": {
+          "type": "slide",
           "settings": {
-            "quote_logo": "",
-            "title": "<p>Maximaler Komfort und erholsame Nächte. Danke für die Traummatratze!<\/p>",
-            "author_name": "Max",
-            "alignment": "text-center"
+            "rating": "5",
+            "slide_content": "Maximaler Komfort und erholsame Nächte. Danke für die Traummatratze!",
+            "person_name": "Max"
           }
         },
-        "884bcb5d-1924-4c62-9d2a-69430d65ad20": {
-          "type": "logowidthtext",
+        "9c094fa4-6e14-4482-aa2b-1b3d12c903c7": {
+          "type": "slide",
           "settings": {
-            "quote_logo": "",
-            "title": "<p>Sowohl fest als auch weich – die perfekte Matratze! Schwört darauf.<\/p>",
-            "author_name": "Sarah",
-            "alignment": "text-center"
+            "rating": "5",
+            "slide_content": "Sowohl fest als auch weich – die perfekte Matratze! Schwört darauf.",
+            "person_name": "Sarah"
           }
         },
-        "ea531b3d-fd32-4661-b1d5-20ef50222941": {
-          "type": "logowidthtext",
+        "8c910a7b-7fa5-4b62-89ec-0c396c54e651": {
+          "type": "slide",
           "settings": {
-            "quote_logo": "",
-            "title": "<p>Ich schlafe wie auf Wolken. Unsere Matratze hat meine Erwartungen übertroffen.<\/p>",
-            "author_name": "David",
-            "alignment": "text-center"
+            "rating": "5",
+            "slide_content": "Ich schlafe wie auf Wolken. Unsere Matratze hat meine Erwartungen übertroffen.",
+            "person_name": "David"
           }
         }
       },
       "block_order": [
-        "3dbc4090-69df-4710-85ae-b186bc6d84d5",
-        "4dafb66e-bbc6-4a8c-8eb3-3f3843466a5f",
-        "884bcb5d-1924-4c62-9d2a-69430d65ad20",
-        "ea531b3d-fd32-4661-b1d5-20ef50222941"
+        "7a4b0fe3-bb61-4927-9fa2-c34f22da7f1e",
+        "0a712682-9fe8-465c-9c53-dbfa3a0e39f7",
+        "9c094fa4-6e14-4482-aa2b-1b3d12c903c7",
+        "8c910a7b-7fa5-4b62-89ec-0c396c54e651"
       ],
       "settings": {
-        "fluid_layout": true,
-        "heading_txt": "Kundenbewertungen",
-        "lead_txt": "<p>Was unsere Kunden über uns sagen<\/p>",
-        "section_bg_color": "#FFFFFF",
-        "section_text_color": "#000000",
-        "enable": true,
-        "overlay_color": "#000",
-        "opacity": 0.4,
-        "nav_arrows": true,
-        "nav_dots": true
+        "section_heading": "Kundenbewertungen"
       }
     },
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5": {
@@ -350,7 +337,7 @@
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-1": {
           "type": "info_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bett1_made-in-germany_akm-produktseite_205x170__1.webp",
+            "image": "shopify:\/\/shop_images\/315748-P8TAKF-604-removebg-preview_1.png",
             "slider_title": "Hergestellt in Deutschland",
             "slider_text": "<p>Willkommen in der Welt der Serenity Matratzen – entwickelt in Deutschland, Kern geschäumt in Deutschland, Bezug genäht in Europa und Deutschland. Fertiggestellt zu 100 % in Deutschland.<\/p>"
           }
@@ -366,6 +353,7 @@
         "2ef27828-25e7-4a4c-a013-9ff417122877": {
           "type": "info_slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/support-icon-can-be-used-600nw-1887496465-removebg-preview.png",
             "slider_title": "Service & Contact",
             "slider_text": "<p>Unser Team ist gern für dich da:<br\/><strong>Tel:<\/strong><a href=\"tel:+4930767317272\"><strong>+49 30 7673172-72<\/strong><\/a><\/p><p>Mo.–Sa. von 8–22 Uhr<br\/>oder per <strong>E-Mail:<\/strong><\/p><p><a href=\"mailto:info@serenitybett.de\" title=\"mailto:info@serenitybett.de\">info@serenitybett.de<\/a><\/p><p>Antwortzeit beträgt in der Regel 24 Std.<\/p>"
           }
@@ -376,7 +364,6 @@
         "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2",
         "2ef27828-25e7-4a4c-a013-9ff417122877"
       ],
-      "disabled": true,
       "custom_css": [
         "h4 {color: #6490b2;}"
       ],
@@ -394,7 +381,7 @@
     "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
     "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
     "add57642-99b3-450a-b701-2c83862dbaa4",
-    "3599e68e-8848-44e6-825d-96aefe7934a7",
+    "f2503673-38d7-4661-bf3a-9739442844fd",
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5"
   ]
 }
