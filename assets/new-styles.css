@@ -96,7 +96,12 @@
   color: #fff;
   text-align: center;
 }
-
+.drawer-header {
+    background-color: #131e27!important;
+}
+.drawer-header .icon-close:before {
+    color: #fff!important;
+}
 @media screen and (min-width: 768px) {
     .scroll-desktop-icon {
         width: 50px;
