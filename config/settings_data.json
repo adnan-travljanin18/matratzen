@@ -62,7 +62,7 @@
         "settings": {
           "fluid_header": false,
           "enable_sticky_header": true,
-          "header_bg_color": "#6490b2",
+          "header_bg_color": "#131e27",
           "show_line_separator": false,
           "logo_svg": "",
           "logo": "shopify:\/\/shop_images\/SE_LOGO_72px.png",
@@ -79,7 +79,7 @@
         ],
         "settings": {
           "fluid_footer": false,
-          "footer_top_bg_color": "#6490b2",
+          "footer_top_bg_color": "#131e27",
           "footer_top_txt_color": "#ffffff",
           "footer_top_link_color": "#ffffff",
           "footer_bottom_bg_color": "#dfeef7",
