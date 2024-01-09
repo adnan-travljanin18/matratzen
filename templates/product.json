@@ -103,15 +103,15 @@
         "url_on_image": "",
         "section_bg_color": "#FAFAF7",
         "section_text_color": "#000000",
-        "alignment": "text-left",
-        "image_alignment": "left"
+        "alignment": "text-center",
+        "image_alignment": "right"
       }
     },
     "c0ce41d6-58dd-4fc4-9bc5-fe1960eaafbc": {
       "type": "global-video-with-text",
       "custom_css": [
         "video {width: 100%;}",
-        ".cta-btn {display:none;}"
+        ".cta-btn {display: none;}"
       ],
       "settings": {
         "fluid_layout": false,
@@ -138,11 +138,36 @@
         "alignment": "text-center",
         "video_alignment": "justify-content-center"
       }
+    },
+    "e67f3fe2-af7a-4d00-8389-bd8ce4721002": {
+      "type": "global-image-with-text",
+      "settings": {
+        "fluid_layout": false,
+        "column": false,
+        "column_reverse": false,
+        "heading_txt": "Awesome Heading",
+        "heading_above": false,
+        "txt": "<p>Lipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar ac tortor imperdiet commodo.<\/p>",
+        "step_heading": "Awesome Sub Heading",
+        "steps_captions": "",
+        "btn_txt": "",
+        "btn_link": "",
+        "btn_type": "",
+        "btn_variant": "primary",
+        "btn_size": "",
+        "image": "shopify:\/\/shop_images\/C-10_C-18__layer_diagram_-_no_text_-removebg-preview.png",
+        "url_on_image": "",
+        "section_bg_color": "#FAFAF7",
+        "section_text_color": "#000000",
+        "alignment": "text-left",
+        "image_alignment": "right"
+      }
     }
   },
   "order": [
     "main",
     "7f9410ff-c231-4e7e-9900-62efe09ff4fe",
-    "c0ce41d6-58dd-4fc4-9bc5-fe1960eaafbc"
+    "c0ce41d6-58dd-4fc4-9bc5-fe1960eaafbc",
+    "e67f3fe2-af7a-4d00-8389-bd8ce4721002"
   ]
 }
