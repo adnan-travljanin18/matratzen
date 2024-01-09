@@ -110,7 +110,8 @@
     "c0ce41d6-58dd-4fc4-9bc5-fe1960eaafbc": {
       "type": "global-video-with-text",
       "custom_css": [
-        "video {width: 100%;}"
+        "video {width: 100%;}",
+        ".cta-btn {display:none;}"
       ],
       "settings": {
         "fluid_layout": false,
