@@ -159,7 +159,7 @@
         "url_on_image": "",
         "section_bg_color": "#FAFAF7",
         "section_text_color": "#000000",
-        "alignment": "text-left",
+        "alignment": "text-center",
         "image_alignment": "right"
       }
     }
