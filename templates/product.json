@@ -109,6 +109,9 @@
     },
     "c0ce41d6-58dd-4fc4-9bc5-fe1960eaafbc": {
       "type": "global-video-with-text",
+      "custom_css": [
+        "video {width: 100%;}"
+      ],
       "settings": {
         "fluid_layout": false,
         "muted": true,
@@ -122,12 +125,12 @@
         "btn_variant": "primary",
         "btn_size": "",
         "poster_type": "video",
-        "bg_video": "",
-        "mobile_bg_video": "",
+        "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/05030191ac7b42d9be969c8428fe27b3.mp4",
+        "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/05030191ac7b42d9be969c8428fe27b3.mp4",
         "fluid_video_layout": false,
         "video_type": "local",
         "placement": "grid",
-        "video_id": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/05030191ac7b42d9be969c8428fe27b3.mp4",
+        "video_id": "",
         "mobile_video_id": "",
         "section_bg_color": "#FAFAF7",
         "section_text_color": "#000000",
