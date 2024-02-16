@@ -1,3 +1,26 @@
+.navbar-brand img {
+    width: 100%;
+}
+.navbar-brand {
+    padding: 20px 0;
+}
+.navbar-main .nav-item.active > .nav-link {
+    color: #dfeef7;
+}
+.navbar-main .nav-item .nav-link:hover {
+    color: #dfeef7;
+}
+.navbar-main .nav-item .nav-link {
+    color: #fff;
+}
+.cart-count {
+    background: #dfeef7;
+    color: #1f3951;
+}
+.shopify-section-header-sticky {
+    background: #000;
+}
+
 .first-child:first-child {
     max-width: 100%;
     flex: 0 100%;
