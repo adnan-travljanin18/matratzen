@@ -52,17 +52,12 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".navbar-brand img {width: 100%;}",
-          ".navbar-brand {padding: 20px 0;}",
-          ".navbar-main .nav-item.active > .nav-link {color: #dfeef7;}",
-          ".navbar-main .nav-item .nav-link:hover {color: #dfeef7;}",
-          ".navbar-main .nav-item .nav-link {color: #fff;}",
-          ".cart-count {background: #dfeef7; color: #1f3951;}"
+
         ],
         "settings": {
           "fluid_header": false,
           "enable_sticky_header": true,
-          "header_bg_color": "#131e27",
+          "header_bg_color": "#000000",
           "show_line_separator": false,
           "logo_svg": "",
           "logo": "shopify:\/\/shop_images\/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
