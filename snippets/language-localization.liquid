@@ -6,21 +6,22 @@
 {%- endcomment -%}
 
 <div class="language-picker">
-  <div class="language-list">
-    {%- for language in localization.available_languages -%}
-      <button
-        type="button"
-        class="language-button{% if language.iso_code == localization.language.iso_code %} active{% endif %}"
-        aria-current="{% if language.iso_code == localization.language.iso_code %}true{% endif %}"
-        data-value="{{ language.iso_code }}"
-        onclick="updateLanguage('{{ language.iso_code }}')"
-      >
-        {{ language.short_iso_code | default: language.iso_code | capitalize }}
-      </button>
-      {%- unless forloop.last -%}
-        <span class="separator">|</span>
-      {%- endunless -%}
-    {%- endfor -%}
+  <div class="custom-dropdown">
+    <div class="selected-language" onclick="toggleDropdown()">
+      {{ localization.language.name | default: localization.language.name | capitalize }}
+      <i class="fas fa-angle-down"></i>
+    </div>
+    <ul class="options" id="languageOptions">
+      {%- for language in localization.available_languages -%}
+        <li
+          class="language-option{% if language.iso_code == localization.language.iso_code %} active{% endif %}"
+          data-value="{{ language.iso_code }}"
+          onclick="updateLanguage('{{ language.iso_code }}')"
+        >
+          {{ language.name | default: language.name | capitalize }}
+        </li>
+      {%- endfor -%}
+    </ul>
   </div>
 </div>
 <input type="hidden" name="locale_code" value="{{ localization.language.iso_code }}">
@@ -30,18 +31,100 @@
     const form = document.querySelector('.localization-form');
     const input = form.querySelector('input[name="locale_code"]');
     
-    // Update active state
-    document.querySelectorAll('.language-button').forEach(button => {
-      button.classList.remove('active');
-    });
-    
-    const activeButton = document.querySelector(`.language-button[data-value="${selectedLanguage}"]`);
-    activeButton.classList.add('active');
-    
     // Set the selected language in the form input
     input.value = selectedLanguage;
 
     // Submit the form or perform any other necessary actions
     if (form) form.submit();
+
+    // Hide the dropdown after selecting a language
+    toggleDropdown();
   }
+
+  function toggleDropdown() {
+    const options = document.getElementById('languageOptions');
+    options.classList.toggle('show');
+
+    // Rotate the arrow-down icon
+    const arrowIcon = document.querySelector('.selected-language i');
+    arrowIcon.classList.toggle('rotate-arrow');
+  }
+
+  // Close custom dropdown when clicking outside
+  document.addEventListener('click', function(event) {
+    const dropdown = document.querySelector('.custom-dropdown');
+    if (!dropdown.contains(event.target)) {
+      document.getElementById('languageOptions').classList.remove('show');
+      
+      // Reset arrow rotation
+      const arrowIcon = document.querySelector('.selected-language i');
+      arrowIcon.classList.remove('rotate-arrow');
+    }
+  });
 </script>
+
+<!-- Font Awesome CDN -->
+<script src="https://kit.fontawesome.com/your-font-awesome-kit-id.js" crossorigin="anonymous"></script>
+
+<style>
+  .language-picker {
+    position: relative;
+  }
+
+  .custom-dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .selected-language {
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .options {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 1;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .options.show {
+    display: block;
+    max-height: 200px; /* Set a value greater than the expected height of the options */
+  }
+
+  .language-option {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .language-option:hover {
+    background-color: #f0f0f0;
+  }
+
+  .active {
+    font-weight: bold;
+  }
+  .fa-angle-down {
+    transition: transform 0.3s ease-in-out;
+  }
+  /* Arrow rotation animation */
+  .rotate-arrow {
+    transition: transform 0.3s ease-in-out;
+    transform: rotate(180deg);
+  }
+</style>

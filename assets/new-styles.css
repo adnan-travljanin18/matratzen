@@ -11,7 +11,7 @@
     color: #dfeef7;
 }
 .navbar-main .nav-item .nav-link {
-    color: #fff;
+    color: #fff!important;
 }
 .cart-count {
     background: #dfeef7;
@@ -20,6 +20,7 @@
 .shopify-section-header-sticky {
     background: #000;
 }
+
 
 .first-child:first-child {
     max-width: 100%;

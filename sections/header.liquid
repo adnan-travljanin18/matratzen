@@ -11,7 +11,7 @@
           {%- if request.page_type == 'index' -%}
             <div class="header__heading mb-0 d-none">
           {%- endif -%}
-              <a href="{{ routes.root_url }}" class="navbar-brand me-5 d-none d-lg-block order-lg-1" title="{{ shop.name | escape }}" aria-label="{{ shop.name | escape }}">
+              <a href="{{ routes.root_url }}" class="navbar-brand me-5 d-none" title="{{ shop.name | escape }}" aria-label="{{ shop.name | escape }}">
                 {%- if logo_svg != blank -%}
                   <img src="{{ section.settings.logo_svg }}" alt="{{ shop.name | escape }}" class="img-fluid" height="auto" width="150" loading="lazy" style="width: {{ section.settings.logo_width }}px" >
                 {%- elsif section.settings.logo != blank -%}
