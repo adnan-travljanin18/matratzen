@@ -248,8 +248,8 @@
       "cart_quantity_error_html": "You can only add [quantity] of this item to your cart."
     },
     "footer": {
-      "copyright": "Copyright Text",
-      "all_rights_reserved": "All rights reserved."
+      "copyright": "Serenity",
+      "all_rights_reserved": "All rights reserved by"
     },
     "video-with-text": {
       "play_video": "Play Video",

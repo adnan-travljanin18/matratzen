@@ -20,7 +20,20 @@
 .shopify-section-header-sticky {
     background: #000;
 }
-
+footer .social-links li a {
+    background-color: transparent!important;
+}
+.footer-bottom::after {
+    content: '';
+    color: #fff;
+    width: 90%;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    border-top: 1px solid white;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .first-child:first-child {
     max-width: 100%;

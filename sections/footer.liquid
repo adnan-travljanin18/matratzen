@@ -12,7 +12,7 @@
     <div class="{% if section.settings.fluid_footer %}container-fluid{% else %}container{% endif %}">
         <div class="row">
 
-            <div class="col-xl-3 text-xl-start text-center mb-xl-0 mb-5">
+            {% comment %} <div class="col-xl-3 text-xl-start text-center mb-xl-0 mb-5">
               <a href="{{ routes.root_url }}" title="{{ shop.name | escape }}" aria-label="{{ shop.name | escape }}">
                 {%- if logo_svg != blank -%}
                   <img src="{{ logo_svg }}" alt="{{ shop.name | escape }}" class="img-fluid mb-4" loading="lazy" width="200" height="80" style="max-width: {{ section.settings.logo_max_width }}px"
@@ -33,15 +33,20 @@
               {% if section.settings.col_1_text != blank %}
                 <div class="font-size-sm">{{ section.settings.col_1_text }}</div>
               {% endif %}
+            </div> {% endcomment %}
+            <div class="col-sm-12 col-lg-6">
+                <div>
+                    <h4>Let's take our relationship to the next level</h4>
+                </div>
             </div>
 
-            <div class="col-sm-12 col-lg-7 col-xl-6">
+            <div class="col-sm-12 col-lg-6">
 
               <div class="row text-center text-sm-start">
                   <div class="col-sm-4 col-lg-4">
-                    {% if section.settings.col_2_heading != blank %}
+                    {% comment %} {% if section.settings.col_2_heading != blank %}
                     <h5 class="text-capitalize">{{ section.settings.col_2_heading }}</h5>
-                    {% endif %}
+                    {% endif %} {% endcomment %}
 
                     {% if linklists[footer_linklist_2].links.size > 0 %}
                       <ul class="list-unstyled footer-navigation font-size-md">
@@ -56,7 +61,7 @@
                     {% endif %}
                   </div>
 
-                  <div class="col-sm-4 col-lg-4 mt-3 mt-sm-0">
+                  {% comment %} <div class="col-sm-4 col-lg-4 mt-3 mt-sm-0">
                     {% if section.settings.col_3_heading != blank %}
                     <h5 class="text-capitalize">{{ section.settings.col_3_heading }}</h5>
                     {% endif %}
@@ -89,11 +94,12 @@
                         {% endfor %}
                       </ul>
                     {% endif %}
-                  </div>
+                  </div> {% endcomment %}
               </div>
             </div>
-
+{% comment %}
             <div class="col-lg-5 col-xl-3 text-lg-start text-center mt-lg-0 mt-5">
+                
                 {% if section.settings.col_5_heading != blank %}
                     <h5 class="text-capitalize">{{ section.settings.col_5_heading }}</h5>
                 {% endif %}
@@ -114,15 +120,35 @@
                             <p class="text-danger mt-2 mb-0">{{ form.errors | default_errors }}</p>
                         {% endif %}
                     {% endform %}
-                {% endif %}
+                {% endif %} 
 
+                
+            </div>{% endcomment %}
+            <div class="col-sm-12 col-lg-6">
                 {% if section.settings.col_5_social_heading != blank %}
-                    <h5 class="text-capitalize">{{ section.settings.col_5_social_heading }}</h5>
+                    <p class="text-capitalize m-0">{{ section.settings.col_5_social_heading }}</p>
                 {% endif %}
                 {% if section.settings.show_social_links %}
                     {% render 'social-media-links' %}
                 {% endif %}
             </div>
+            
+            <div class="col-sm-12 col-lg-6 text-lg-start text-center">
+                {% if section.settings.col_5_social_heading != blank %}
+                    <p class="text-capitalize m-0">{{ section.settings.col_5_payment_heading }}</p>
+                {% endif %}
+                {% if section.settings.show_payment_icons %}
+                <ul class="list-inline payment-icons mt-3 mb-0">
+                  {% if section.settings.payment_icon_visa %}<li class="list-inline-item"><img src="{{ 'visa' | payment_type_img_url }}" width="24" height="24" alt="visa" loading="lazy"/></li>{% endif %}
+                  {% if section.settings.payment_icon_mastercard %}<li class="list-inline-item"><img src="{{ 'master' | payment_type_img_url }}" width="24" height="24" alt="master" loading="lazy"/></li>{% endif %}
+                  {% if section.settings.payment_icon_diners %}<li class="list-inline-item"><img src="{{ 'diners_club' | payment_type_img_url }}" width="24" height="24" alt="diners club" loading="lazy"/></li>{% endif %}
+                  {% if section.settings.payment_icon_ae %}<li class="list-inline-item"><img src="{{ 'american_express' | payment_type_img_url }}" width="24" height="24" alt="american express" loading="lazy"/></li>{% endif %}
+                  {% if section.settings.payment_icon_paypal %}<li class="list-inline-item"><img src="{{ 'paypal' | payment_type_img_url }}" width="24" height="24" alt="paypal" loading="lazy"/></li>{% endif %}
+                  {% if section.settings.payment_icon_applepay %}<li class="list-inline-item"><img src="{{ 'apple_pay' | payment_type_img_url }}" width="24" height="24" alt="apple pay" loading="lazy"/></li>{% endif %}
+                  {% if section.settings.payment_icon_amazonpay %}<li class="list-inline-item"> <img src="{{ 'amazon_payments' | payment_type_img_url }}" width="24" height="24" alt="amazon payments" loading="lazy"/></li>{% endif %}
+                </ul>
+                {% endif %}
+              </div>
 
 
         </div>
@@ -131,11 +157,12 @@
     </div>
     <!--end of container-->
   </div>
+  
 
-  <div data-footer-bottom class="footer-bottom py-4" style="background-color: {{ section.settings.footer_bottom_bg_color }}; color: {{ section.settings.footer_bottom_txt_color }};">
+  <div data-footer-bottom class="footer-bottom py-6 position-relative" style="background-color: {{ section.settings.footer_bottom_bg_color }}; color: {{ section.settings.footer_bottom_txt_color }};">
       <div class="{% if section.settings.fluid_footer %}container-fluid{% else %}container{% endif %}">
           <div class="row d-flex align-items-center">
-              <div class="col-xl-8 col-lg-7 mb-lg-0 mb-3 text-center text-lg-start">
+              <div class="col-12 mb-lg-0 mb-3 text-center">
                     <div class="d-xl-flex align-items-center justify-content-between">
                         {% if linklists[bottom_footer_linklist].links.size > 0 %}
                             <ul class="list-unstyled bottom_footer_link d-flex pe-xl-3 mb-lg-0 mb-3 justify-content-lg-end justify-content-center">
@@ -148,21 +175,8 @@
                                 {% endfor %}
                             </ul>
                         {% endif %}
-                        <span class="small text-gray-700">&copy; {{ 'now' | date: "%Y" }} {{ 'sections.footer.copyright' | t }} - {{ 'sections.footer.all_rights_reserved' | t }}</span>
+                        <p class="m-0 text-white-900">{{ 'sections.footer.all_rights_reserved' | t }} &copy; {{ 'sections.footer.copyright' | t }} {{ 'now' | date: "%Y" }}</p>
                     </div>
-              </div>
-              <div class="col-xl-4 col-lg-5 text-lg-end text-center">
-                {% if section.settings.show_payment_icons %}
-                <ul class="list-inline payment-icons mt-3 mt-md-0 mb-0">
-                  {% if section.settings.payment_icon_visa %}<li class="list-inline-item"><img src="{{ 'visa' | payment_type_img_url }}" width="24" height="24" alt="visa" loading="lazy"/></li>{% endif %}
-                  {% if section.settings.payment_icon_mastercard %}<li class="list-inline-item"><img src="{{ 'master' | payment_type_img_url }}" width="24" height="24" alt="master" loading="lazy"/></li>{% endif %}
-                  {% if section.settings.payment_icon_diners %}<li class="list-inline-item"><img src="{{ 'diners_club' | payment_type_img_url }}" width="24" height="24" alt="diners club" loading="lazy"/></li>{% endif %}
-                  {% if section.settings.payment_icon_ae %}<li class="list-inline-item"><img src="{{ 'american_express' | payment_type_img_url }}" width="24" height="24" alt="american express" loading="lazy"/></li>{% endif %}
-                  {% if section.settings.payment_icon_paypal %}<li class="list-inline-item"><img src="{{ 'paypal' | payment_type_img_url }}" width="24" height="24" alt="paypal" loading="lazy"/></li>{% endif %}
-                  {% if section.settings.payment_icon_applepay %}<li class="list-inline-item"><img src="{{ 'apple_pay' | payment_type_img_url }}" width="24" height="24" alt="apple pay" loading="lazy"/></li>{% endif %}
-                  {% if section.settings.payment_icon_amazonpay %}<li class="list-inline-item"> <img src="{{ 'amazon_payments' | payment_type_img_url }}" width="24" height="24" alt="amazon payments" loading="lazy"/></li>{% endif %}
-                </ul>
-                {% endif %}
               </div>
           </div>
           <!--end of row-->
@@ -463,6 +477,11 @@
                 "id": "show_payment_icons",
                 "label": "Show Payment Icons?",
                 "default": true
+            },
+            {
+                "type": "text",
+                "id": "col_5_payment_heading",
+                "label": "Heading"
             },
             {
                 "type": "paragraph",
