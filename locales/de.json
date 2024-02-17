@@ -18,8 +18,8 @@
       "cart_quantity_error_html": "Sie können nur [Menge] dieses Artikels in Ihren Warenkorb legen."
     },
     "footer": {
-      "copyright": "Copyright-Text",
-      "all_rights_reserved": "Alle Rechte vorbehalten."
+      "copyright": "Serenity",
+      "all_rights_reserved": "Alle Rechte vorbehalten bei"
     },
     "video-with-text": {
       "play_video": "Video abspielen",
