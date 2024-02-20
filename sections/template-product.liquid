@@ -12,7 +12,7 @@
   <section class="section-content" data-product-container>
     <div class="{% if fluid_layout %}container-fluid{% else %}container{% endif %}">
         <div class="row">
-            <div class="col-lg-7">
+            <div class="col-lg-6">
                 <div data-type="slider" class="product-images-wrapper pr-lg-4 text-center">
                     {% if section.settings.template_type == 'classic-vertical' %}
                         <div class="row">
@@ -130,7 +130,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-5" id="ProductInfo-{{ section.id }}">
+            <div class="col-lg-6" id="ProductInfo-{{ section.id }}">
                 <div class="product-details-wrapper mt-5 mt-lg-0" data-slider_type="{{ section.settings.slider_type }}">
                   <div class="row">
                       {% render 'breadcrumbs' %}
@@ -167,7 +167,7 @@
                         {% if product.description %}
                             <h5 class="d-none mt-5 mb-2">{{ 'products.product.description' | t }}</h5>
                             <div class="rte short-description">
-                                {{ product.description |  truncatewords: 20, "" }}
+                                {{ product.description |  truncatewords: 10, "" }}
                             </div>
                         {% endif %}
                     {%- when 'product-tabs' -%}
