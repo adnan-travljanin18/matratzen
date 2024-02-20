@@ -124,6 +124,7 @@
         {{ 'product-' | append: current | placeholder_svg_tag: 'img-fluid' }}
     {% endif %}
   </div>
+  {% render 'wishlisthero-collection-product' with product: product buttonMode: 'default' buttonClass: 'wishlisthero-floating' %}
   <div class="card-body px-0">
     <div class="row no-gutter">
         <div class="col-8">
