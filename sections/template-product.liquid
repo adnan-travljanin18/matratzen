@@ -9,16 +9,11 @@
       cycle 1, 2
     endcapture
   -%}
-  <section class="section-content overflow-x-hidden pb-0" data-product-container>
+  <section class="section-content" data-product-container>
     <div class="{% if fluid_layout %}container-fluid{% else %}container{% endif %}">
         <div class="row">
-            {% render 'breadcrumbs' %}
-        </div>
-        <div class="row">
             <div class="col-lg-7">
-                <div data-type="slider" class="product-images-wrapper pr-lg-4 text-center position-relative">
-                  <img src="{{ section.settings.scroll_desktop_icon | image_url }}" alt="scroll-desktop-pic" width="100" height="100" loading="lazy" class="scroll-desktop-icon">
-                  <img src="{{ section.settings.scroll_mobile_icon | image_url }}" alt="scroll-mobile-pic" width="100" height="100" loading="lazy" class="scroll-mobile-icon">
+                <div data-type="slider" class="product-images-wrapper pr-lg-4 text-center">
                     {% if section.settings.template_type == 'classic-vertical' %}
                         <div class="row">
                     {% endif %}
@@ -28,21 +23,17 @@
                         </a>
                         <slider-element class="swiper-container {% if section.settings.template_type == 'classic-vertical' %} col-md-10 order-md-2 {% endif %}" data-main-slider>
                             <div class="swiper swiper-slider product-carousel pdp-carousel" data-nav="product-thumbnails" data-slider='{
-                                  "loop": false,
-                                  "slidesPerView": "1",
-                                  "spaceBetween": 15,
-                                  "grabCursor": true,
-                                  "mousewheel": {
-                                      "enabled": true
-                                  },
-                                  "speed": 1500,
-                                  "effect": "fade",
-                                  "fadeEffect": {
-                                      "crossFade": true
-                                  },
-                                  "pagination": {
-                                      "el": ".swiper-pagination"
-                                  }
+                                    "loop": false,
+                                    "slidesPerView": "1",
+                                    "spaceBetween": 15,
+                                    "grabCursor": true,
+                                    "navigation": {
+                                        "nextEl": ".swiper-button-next",
+                                        "prevEl": ".swiper-button-prev"
+                                    },
+                                    "pagination": {
+                                        "el": ".swiper-pagination"
+                                    }
                                 }' role="tree">
                                 <div class="swiper-wrapper">
                                     {% for media in product.media %}
@@ -73,6 +64,10 @@
                                       {% endif %}
                                     {% endfor %}
                                 </div>
+                                <div class="slider-navigation-wrapper">
+                                  <div class="swiper-button-prev icon-previous" {% if product.images.size <= 1 %}style="display: none !important;"{% endif %}></div>
+                                  <div class="swiper-button-next icon-next" {% if product.images.size <= 1 %}style="display: none !important;"{% endif %}></div>
+                                </div>
                             </div>    
                         </slider-element>
 
@@ -88,7 +83,7 @@
                                       "slideToClickedSlide": true,
                                       "breakpoints": {
                                         "768": {
-                                          "direction":"{% if section.settings.template_type == 'classic-vertical' %}vertical{% else %}horizontal{% endif %}",
+                                          "direction":"{% if section.settings.template_type == 'classic-vertical' %}vertical{%else%}horizontal{% endif %}",
                                           "slidesPerView": "6",
                                           "spaceBetween": 15
                                         }
@@ -137,7 +132,12 @@
 
             <div class="col-lg-5" id="ProductInfo-{{ section.id }}">
                 <div class="product-details-wrapper mt-5 mt-lg-0" data-slider_type="{{ section.settings.slider_type }}">
-                  <h1>{{ product.title }}</h1>
+                  <div class="row">
+                      {% render 'breadcrumbs' %}
+                  </div>
+                  <div>
+                    <h1>{{ product.title }}</h1>
+                  </div>
                   {%- for block in section.blocks -%}
                     {%- case block.type -%}
                     {%- when '@app' -%}
@@ -155,18 +155,19 @@
                         </div>
                     {%- when 'price' -%}
                         <div class="price-wrapper mt-2">
-                            {%- if current_variant.compare_at_price > current_variant.price -%}<s class="h6 text-gray-600 mr-2 money" data-comparePrice>{{ current_variant.compare_at_price | money }}</s>{%- endif -%}
                             <span class="h5 actual-price money" data-currentPrice>{{ current_variant.price | money }}</span>
+                          {%- if current_variant.compare_at_price > current_variant.price -%}<s class="h6 mr-2 money" data-comparePrice>{{ current_variant.compare_at_price | money }}</s>{%- endif -%}
                         </div>
+                        <hr style="border: 1px solid #ECEFF1;">
                         {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large mt-4' -%}
                             <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
                             {{ form | payment_terms }}
                         {%- endform -%}
                     {%- when 'description' -%}
                         {% if product.description %}
-                            <h5 class="mt-5 mb-2">{{ 'products.product.description' | t }}</h5>
-                            <div class="rte">
-                                {{ product.description }}
+                            <h5 class="d-none mt-5 mb-2">{{ 'products.product.description' | t }}</h5>
+                            <div class="rte short-description">
+                                {{ product.description |  truncatewords: 20, "" }}
                             </div>
                         {% endif %}
                     {%- when 'product-tabs' -%}
@@ -183,8 +184,9 @@
                       -%}
                     {%- when 'share' -%}
                         {% if block.settings.show_social_share %}
-                            <div class="d-flex align-items-center mt-5 mb-3">
-                              <p class="me-2 mb-0">{{ 'products.product.share' | t }}</p>
+                            <div class="d-flex align-items-center mt-5 share-wishlist-container">
+                              <div id="wishlist-hero-product-page-button">
+                              </div>
                               {% render 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
                             </div>
                         {% endif %}
@@ -212,17 +214,6 @@
     endfor
   -%}
 </div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-      // Initialize Swiper directly on the element with data attributes
-      var swiperElements = document.querySelectorAll('.swiper-slider');
-      swiperElements.forEach(function (element) {
-        var options = JSON.parse(element.dataset.slider);
-        new Swiper(element, options);
-      });
-    });
-</script>
 
 <script type="application/json" data-productMedia>
   {{ product.media | json }}
@@ -349,11 +340,6 @@
           "default": "Tab Title 1"
         },
         {
-          "type": "page",
-          "id": "tab_1_content",
-          "label": "Tab 1 Content"
-        },
-        {
           "type": "checkbox",
           "id": "enable_custom_tab_2",
           "label": "Enable Custom Tab 2?"
@@ -467,18 +453,6 @@
     {
       "type": "header",
       "content": "Template"
-    },
-    {
-      "type": "image_picker",
-      "id": "scroll_desktop_icon",
-      "label": "Add scroll Icon for Desktop",
-      "info": "Scroll Icon on Image gallery - Desktop"
-    },
-    {
-      "type": "image_picker",
-      "id": "scroll_mobile_icon",
-      "label": "Add scroll Icon for Mobile",
-      "info": "Scroll Icon on Image gallery - Mobile"
     },
     {
       "type": "select",
