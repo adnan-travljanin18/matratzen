@@ -148,3 +148,8 @@
     font-size: 14px;
     color: #607D8B;
 }
+.featured-collection-slider .wishlisthero-floating button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
