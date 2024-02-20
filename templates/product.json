@@ -9,14 +9,18 @@
             "subtitle": ""
           }
         },
-        "3b316236-d91e-4dd0-953a-173c1f40bfcf": {
-          "type": "price",
+        "fcbf423b-3c83-4097-901c-ca70b8b80e5c": {
+          "type": "description",
           "settings": {
           }
         },
-        "fcbf423b-3c83-4097-901c-ca70b8b80e5c": {
-          "type": "description",
-          "disabled": true,
+        "judge_me_reviews_preview_badge_kihFhe": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "3b316236-d91e-4dd0-953a-173c1f40bfcf": {
+          "type": "price",
           "settings": {
           }
         },
@@ -38,9 +42,8 @@
             "product_tabs_fluid_layout": false,
             "product_tabs_layout": "tabify",
             "enable_descripion_tab": true,
-            "enable_custom_tab_1": false,
-            "tab_1_title": "Spezifikationen",
-            "tab_1_content": "",
+            "enable_custom_tab_1": true,
+            "tab_1_title": "Reviews",
             "enable_custom_tab_2": true,
             "tab_2_title": "Spezifikationen",
             "tab_2_content": "<p>Test tes test<\/p>"
@@ -53,8 +56,8 @@
             "related_products_fluid_layout": false,
             "related_products_view": 6,
             "related_products_auto_play": 0,
-            "related_products_heading_txt": "Related Products",
-            "product_type": "related-products",
+            "related_products_heading_txt": "Recommended Products",
+            "product_type": "product-recommendations",
             "related_products_section_bg_color": "#ffffff",
             "related_products_section_color": "#343a40"
           }
@@ -62,8 +65,9 @@
       },
       "block_order": [
         "f74187b8-c891-42b8-9a6b-2c67a497b018",
-        "3b316236-d91e-4dd0-953a-173c1f40bfcf",
         "fcbf423b-3c83-4097-901c-ca70b8b80e5c",
+        "judge_me_reviews_preview_badge_kihFhe",
+        "3b316236-d91e-4dd0-953a-173c1f40bfcf",
         "b253ffff-d04d-43a0-9d68-fabdd77b595a",
         "e53b8574-dd34-4eca-8c40-ac20d2e38598",
         "product-tabs",
@@ -74,100 +78,15 @@
         ".overflow-x-hidden {overflow-x: hidden;}"
       ],
       "settings": {
-        "scroll_desktop_icon": "shopify:\/\/shop_images\/scroll.png",
-        "scroll_mobile_icon": "shopify:\/\/shop_images\/swipe.png",
         "template_type": "classic-vertical",
         "fluid_layout": false,
         "show_vendor": false,
         "enable_dynamic_checkout": false,
         "product_tabs_placement": "below_slider"
       }
-    },
-    "7f9410ff-c231-4e7e-9900-62efe09ff4fe": {
-      "type": "global-image-with-text",
-      "settings": {
-        "fluid_layout": false,
-        "column": false,
-        "column_reverse": false,
-        "heading_txt": "Awesome Heading",
-        "heading_above": false,
-        "txt": "<p>Lipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar ac tortor imperdiet commodo.<\/p>",
-        "step_heading": "Awesome Sub Heading",
-        "steps_captions": "",
-        "btn_txt": "",
-        "btn_link": "",
-        "btn_type": "",
-        "btn_variant": "primary",
-        "btn_size": "",
-        "image": "shopify:\/\/shop_images\/16868-removebg-preview.png",
-        "url_on_image": "",
-        "section_bg_color": "#FAFAF7",
-        "section_text_color": "#000000",
-        "alignment": "text-center",
-        "image_alignment": "right"
-      }
-    },
-    "c0ce41d6-58dd-4fc4-9bc5-fe1960eaafbc": {
-      "type": "global-video-with-text",
-      "custom_css": [
-        "video {width: 100%;}",
-        ".cta-btn {display: none;}"
-      ],
-      "settings": {
-        "fluid_layout": false,
-        "muted": true,
-        "controls": false,
-        "loop": true,
-        "title": "Awesome Heading",
-        "subtitle": "<p>Lipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar ac tortor imperdiet commodo.<\/p>",
-        "btn_txt": "",
-        "btn_link": "",
-        "btn_type": "",
-        "btn_variant": "primary",
-        "btn_size": "",
-        "poster_type": "video",
-        "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/05030191ac7b42d9be969c8428fe27b3.mp4",
-        "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/05030191ac7b42d9be969c8428fe27b3.mp4",
-        "fluid_video_layout": false,
-        "video_type": "local",
-        "placement": "grid",
-        "video_id": "",
-        "mobile_video_id": "",
-        "section_bg_color": "#FAFAF7",
-        "section_text_color": "#000000",
-        "alignment": "text-center",
-        "video_alignment": "justify-content-center"
-      }
-    },
-    "e67f3fe2-af7a-4d00-8389-bd8ce4721002": {
-      "type": "global-image-with-text",
-      "settings": {
-        "fluid_layout": false,
-        "column": false,
-        "column_reverse": false,
-        "heading_txt": "Awesome Heading",
-        "heading_above": false,
-        "txt": "<p>Lipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar ac tortor imperdiet commodo.<\/p>",
-        "step_heading": "Awesome Sub Heading",
-        "steps_captions": "",
-        "btn_txt": "",
-        "btn_link": "",
-        "btn_type": "",
-        "btn_variant": "primary",
-        "btn_size": "",
-        "image": "shopify:\/\/shop_images\/C-10_C-18__layer_diagram_-_no_text_-removebg-preview.png",
-        "url_on_image": "",
-        "section_bg_color": "#FAFAF7",
-        "section_text_color": "#000000",
-        "alignment": "text-center",
-        "image_alignment": "right"
-      }
     }
   },
   "order": [
-    "main",
-    "7f9410ff-c231-4e7e-9900-62efe09ff4fe",
-    "c0ce41d6-58dd-4fc4-9bc5-fe1960eaafbc",
-    "e67f3fe2-af7a-4d00-8389-bd8ce4721002"
+    "main"
   ]
 }
