@@ -91,8 +91,10 @@
                                 {% endfor %}
                                 {% comment %}theme-check-enable LiquidTag{% endcomment %}
                             </div>
-                            <div class="swiper-button-next icon-next"></div>
-                            <div class="swiper-button-prev icon-previous"></div>
+                            {% if collection.products_count > 5 %}
+                                <div class="swiper-button-next icon-next"></div>
+                                <div class="swiper-button-prev icon-previous"></div>
+                            {% endif %}
                         </div>
                     </slider-element>
                 </div>

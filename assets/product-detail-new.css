@@ -118,3 +118,33 @@
 .share-color span {
     color: #607d8b;
 }
+.featured-collection-slider .card-img {
+    max-width: 298px;
+    max-height: 215px;
+}
+.featured-collection-slider .card-img a {
+    height: 100%;
+    width: 100%;
+    position: unset!important;
+    padding-top: 0!important;
+}
+.featured-collection-slider .card-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover!important;
+    position: unset!important;
+    border-radius: 16px;
+}
+.featured-collection-slider .jdgm-preview-badge {
+    display: none!important;
+}
+.featured-collection-slider .card-product .badges {
+    padding: 10px 0 0 10px;
+}
+.featured-collection-slider .price {
+    font-weight: 600;
+}
+.featured-collection-slider .price s {
+    font-size: 14px;
+    color: #607D8B;
+}
