@@ -7,7 +7,7 @@
       ],
       "settings": {
         "show_vendor": false,
-        "show_back_btn": true
+        "show_back_btn": false
       }
     }
   },

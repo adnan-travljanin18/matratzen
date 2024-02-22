@@ -39,7 +39,7 @@
     "enable_custom_klaviyo": false,
     "enable_product_card_swatches": true,
     "show_secondary_image": false,
-    "enable_cart_notes": true,
+    "enable_cart_notes": false,
     "enable_cart_": true,
     "enable_shipping_bar": true,
     "free_shipping_txt": "Congratulations! You get free shipping.",
