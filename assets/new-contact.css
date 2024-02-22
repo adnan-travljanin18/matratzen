@@ -13,3 +13,8 @@
     background-color: #fff;
     color: #131E27;
 }
+@media only screen and (max-width: 575px) {
+    .contact-form-container .contact-links a {
+        font-size: 14px;
+    }
+}
