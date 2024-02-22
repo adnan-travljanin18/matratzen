@@ -1,4 +1,7 @@
 <style>
+    .template-cart #MainContent {
+        min-height: 60vh;
+    }
 /* Cart Page Sticky Payment buttons for mobile view */
 @media (max-width:991px){
     .checkoutbtn-sticky{
@@ -27,21 +30,21 @@
             </div>
 
             <div class="row">
-                <form data-cart-form action="{{ routes.cart_url }}" method="post">
+                <form data-cart-form action="{{ routes.cart_url }}" method="post" class="col-12 col-lg-9">
                     {% if cart.item_count > 0 %}
-                        {% if settings.enable_shipping_bar %}
+                        {% comment %} {% if settings.enable_shipping_bar %}
                             <div class="col-12">
                                 {% render 'cart-free-shipping-bar' %}
                             </div>
-                        {% endif %}
+                        {% endif %} {% endcomment %}
 
                         <div class="col-12">
-                            <div class="cart-header py-2 px-3 bg-gray-100">
+                            <div class="cart-header py-2 px-3">
                                 <div class="row align-items-center">
-                                    <div class="col-4 col-md-6">{{ 'templates.cart.headings.product' | t }}</div>
+                                    <div class="d-none d-md-block col-4 col-md-5">{{ 'templates.cart.headings.product' | t }}</div>
+                                    <div class="d-none d-md-block col-4 col-md-5 text-center">{{ 'templates.cart.headings.quantity' | t }}</div>
                                     <div class="d-none d-md-block col-md-2 text-md-center">{{ 'templates.cart.headings.price' | t }}</div>
-                                    <div class="col-4 col-md-2 text-center">{{ 'templates.cart.headings.quantity' | t }}</div>
-                                    <div class="col-4 col-md-2 text-end">{{ 'templates.cart.headings.total' | t }}</div>
+                                    <div class="col-4 col-md-2 text-end d-none">{{ 'templates.cart.headings.total' | t }}</div>
                                 </div>
                             </div>
                             <div class="cart-body">
@@ -65,7 +68,7 @@
                                         endif
                                     -%}
 
-                                    <div class="cart-items py-4 border-bottom"  data-cart-item data-variant-id="{{ item.id }}">
+                                    <div class="cart-items py-4"  data-cart-item data-variant-id="{{ item.id }}">
                                         <div class="row align-items-center cart-item">
                                             <div class="col-12 mb-3 mb-md-0 col-md-6 cart-product-img">
                                                 <div class="d-flex align-items-center">
@@ -126,16 +129,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-4 col-md-2 text-md-center cart-price">
-                                                {% if item.properties['promo_product'] or item.original_price == 0 %}
-                                                    <span class="m-0 p-0">{{ 'templates.cart.free' | t }}</span>
-                                                {% elsif item.price == 0 %}
-                                                    <s class="text-muted m-0 p-0">{{ item.original_price | money }}</s>
-                                                {% else %}
-                                                    <span class="m-0 p-0">{{ item.price | money }}</span>
-                                                {% endif %}
-                                            </div>
-                                            <div class="col-5 col-md-2 quantity-box">
+                                            
+                                            <div class="col-8 col-md-4 quantity-box">
                                                 <div class="d-flex align-items-center justify-content-center">
                                                     {% if item.properties['promo_product'] or item.line_price == 0 %}
                                                         <span>{{ item.quantity }}</span>
@@ -155,19 +150,28 @@
                                                                 </a>
                                                             </div>
                                                         </div>
-                                                        <a class="my-0 text-danger ms-3"
+                                                        <a class="my-0 ms-3"
                                                             href="#"
                                                             title="{{ 'templates.cart.remove' | t }}"
                                                             aria-label="{{ 'templates.cart.remove' | t }}"
                                                             data-toggle="tooltip"
                                                             data-itemRemove data-index="{{ forloop.index }}"
                                                             data-placement="left">
-                                                            <span class="icon-close"></span>
+                                                            <div class="remove-cart-icon">{% render 'trash-can-svg' %} <span>Remove</span></div>
                                                         </a>
                                                     {% endif %}
                                                 </div>
                                             </div>
-                                            <div class="col-3 col-md-2 text-end cart-total-price">
+                                            <div class="col-4 col-md-2 text-md-center cart-price">
+                                                {% if item.properties['promo_product'] or item.original_price == 0 %}
+                                                    <span class="m-0 p-0">{{ 'templates.cart.free' | t }}</span>
+                                                {% elsif item.price == 0 %}
+                                                    <s class="text-muted m-0 p-0">{{ item.original_price | money }}</s>
+                                                {% else %}
+                                                    <span class="m-0 p-0">{{ item.price | money }}</span>
+                                                {% endif %}
+                                            </div>
+                                            <div class="col-3 col-md-2 text-end cart-total-price d-none">
                                                 {% if item.properties['promo_product'] or item.line_price == 0 %}
                                                     <span class="m-0 p-0">{{ 'templates.cart.free' | t }}</span>
                                                 {% else %}
@@ -207,17 +211,21 @@
                     </div>
                 {% endif %}
 
-                <div class="col-12 col-lg-4 ms-lg-auto me-lg-0 mt-5 mx-auto cart-total {% unless cart.item_count > 0 %}d-none{% endunless %}" data-checkoutBtns>
+                <div class="col-11 col-md-8 col-lg-3 ms-lg-auto me-lg-0 mt-5 mx-auto cart-total {% unless cart.item_count > 0 %}d-none{% endunless %}" data-checkoutBtns>
+                    <div class="cart-total-text-wrapper">
+                        <h5>Order Summary</h5>
+                        <p>The total cost consists of temporary costs, not including shipping costs</p>
+                    </div>
                     <div class="row no-gutters">
                         <div class="col">
-                            <h4 class="text-uppercase my-0">{{ 'templates.cart.total' | t }}:</h4>
+                            <p class="total-text my-0">{{ 'templates.cart.total' | t }}:</p>
                         </div>
                         <div class="col-6 text-end">
-                            <h4 class="my-0" data-cartTotal><span class="money"> {{ cart.total_price | money }}</span></h4>
+                            <p class="my-0" data-cartTotal><span class="money"> {{ cart.total_price | money }}</span></p>
                         </div>
                     </div>
 
-                    <p class="small font-italic mt-3 text-center">{{ 'templates.cart.shipping_at_checkout' | t }}</p>
+                    <p class="mt-3 text-center shipping-text">{{ 'templates.cart.shipping_at_checkout' | t }}</p>
                     <div id="cart-checkoutbtn">
                         <div class="checkoutbtn-sticky">
                             <a href="/checkout" class="btn btn-primary btn-block">{{ 'templates.cart.checkout' | t }}</a>
