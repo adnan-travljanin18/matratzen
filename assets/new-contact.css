@@ -13,6 +13,12 @@
     background-color: #fff;
     color: #131E27;
 }
+.contact-form-container .form-control {
+    border-radius: 50px;
+}
+.contact-form-container .form-control:last-child {
+    border-radius: 16px;
+}
 @media only screen and (max-width: 575px) {
     .contact-form-container .contact-links a {
         font-size: 14px;
