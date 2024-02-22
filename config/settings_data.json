@@ -45,7 +45,7 @@
     "free_shipping_txt": "Congratulations! You get free shipping.",
     "free_shipping_left": "You are ${addMoreForFreeShip} away from free shipping!",
     "checkout_logo_image": "shopify:\/\/shop_images\/SE_LOGO_72px.png",
-    "checkout_logo_position": "center",
+    "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_sidebar_background_color": "#ffffff",
     "checkout_heading_font": "Roboto",
