@@ -3,8 +3,7 @@
     "main": {
       "type": "template-contact-page",
       "custom_css": [
-        ".small-contact-title {display: none;}",
-        ".social-links a {background-color: #406c93;}"
+
       ],
       "settings": {
         "page": "contact",
@@ -12,17 +11,17 @@
         "section_bg_color": "#ffffff",
         "section_txt_color": "#000000",
         "heading": "Contact",
-        "txt": "Contact us using our contact form",
-        "image": "shopify:\/\/shop_images\/pexels-miguel-a-padrinan-1591.jpg",
+        "txt": "Any questions or remarks? Just write us a messaage!",
         "email_heading": "Email Us",
-        "email_name": "customerservice@serenity.com",
+        "email_name": "customerservice@serenitybett.com",
+        "phone_number": "+1 (30) 265 3523",
         "social_heading": "Connect with Us",
-        "show_social_links": true,
-        "social_icon_facebook": true,
-        "social_icon_pinterest": true,
-        "social_icon_twitter": true,
-        "social_icon_instagram": true,
-        "social_icon_youtube": true
+        "show_social_links": false,
+        "social_icon_facebook": false,
+        "social_icon_pinterest": false,
+        "social_icon_twitter": false,
+        "social_icon_instagram": false,
+        "social_icon_youtube": false
       }
     }
   },
