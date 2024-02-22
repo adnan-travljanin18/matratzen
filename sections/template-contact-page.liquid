@@ -2,17 +2,17 @@
     <div style="width: 100%">
         <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=51.6804093%207.815197+(Serenity)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
     </div>
-    <div>
-        <div style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_txt_color }}">
-        <div class="{% if section.settings.fluid_layout %}container-fluid{% else %}container{% endif %}">
-            <div class="row align-items-center no-gutter">
-                <div class="col-12 pt-9 pb-4 text-center px-sm-4">
-                    <h1 class="fw-semibold letter-spacing mb-2">{{ section.settings.heading }}</h1>
-                    <p class="col-xl-5 col-lg-8 mx-auto px-xl-1 px-3 fw-light letter-spacing mb-0">{{ section.settings.txt }}</p>
+    <div class="col-11 mx-auto contact-form-container">
+        <div>
+            <div class="{% if section.settings.fluid_layout %}container-fluid{% else %}container{% endif %}">
+                <div class="row align-items-center no-gutter">
+                    <div class="col-12 pt-9 pb-4 text-center px-sm-4">
+                        <h1 class="fw-semibold letter-spacing mb-2">{{ section.settings.heading }}</h1>
+                        <p class="col-xl-5 col-lg-8 mx-auto px-xl-1 px-3 fw-light letter-spacing mb-0">{{ section.settings.txt }}</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <div class="pb-md-6 pb-9">
         <div class="{% if section.settings.fluid_layout %}container-fluid{% else %}container{% endif %}">
@@ -78,11 +78,11 @@
                         </div>
                         <div class="row">
                             <div class="col-6">
-                                <div>
+                                <div class="col-12 col-md-10 pb-md-6">
                                     <h3>Contact Information</h3>
                                     <p>Fill up the form and our Team will get back to you within 24 hours</p>
                                 </div>
-                                <div class="pe-md-13">
+                                <div class="pe-md-13 pt-md-6">
                                     <a href="tel:{{ section.settings.phone_number }}" class="fw-light letter-spacing font-family-base mb-0">{{ section.settings.phone_number }}</a><br>
                                     <a href="mailto:{{ section.settings.email_name }}" class="fw-light letter-spacing font-family-base mb-0">{{ section.settings.email_name }}</a>
                                 </div>

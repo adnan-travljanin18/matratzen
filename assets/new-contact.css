@@ -1,0 +1,15 @@
+.contact-form-container {
+    transform: translateY(-200px);
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 6px 2px 9px 8px #0000001A;
+    padding: 5%;
+}
+.contact-form-container .btn-primary {
+    background-color: #131E27;
+    border-radius: 50px;
+}
+.contact-form-container .btn-primary:hover {
+    background-color: #fff;
+    color: #131E27;
+}
