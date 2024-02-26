@@ -17,23 +17,11 @@
             "enable_tags": true,
             "tags_title": "Tags"
           }
-        },
-        "social_sharing": {
-          "type": "socials",
-          "settings": {
-            "enable_socials": true,
-            "socials_title": "Connect with Us",
-            "social_icon_facebook": true,
-            "social_icon_twitter": true,
-            "social_icon_googleplus": false,
-            "social_icon_instagram": true
-          }
         }
       },
       "block_order": [
         "recent-articles",
-        "tags",
-        "social_sharing"
+        "tags"
       ],
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/homepage_bedroom_1.jpg",
