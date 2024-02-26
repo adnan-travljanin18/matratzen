@@ -3,6 +3,13 @@
     "main": {
       "type": "template-blog",
       "blocks": {
+        "tags": {
+          "type": "tags",
+          "settings": {
+            "enable_tags": true,
+            "tags_title": "Tags"
+          }
+        },
         "recent-articles": {
           "type": "recent-articles",
           "settings": {
@@ -10,18 +17,11 @@
             "recent_articles_title": "Recent Articles",
             "total_recent_articles": 5
           }
-        },
-        "tags": {
-          "type": "tags",
-          "settings": {
-            "enable_tags": true,
-            "tags_title": "Tags"
-          }
         }
       },
       "block_order": [
-        "recent-articles",
-        "tags"
+        "tags",
+        "recent-articles"
       ],
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/homepage_bedroom_1.jpg",
