@@ -33,8 +33,10 @@
                     </div>                  
                     <div class="col-lg-8">
                       <div class="row justify-content-center">
+                        {% assign total_articles = blog.articles.size %}
+                        {% assign is_odd = total_articles | modulo: 2 %}
                         {% for article in blog.articles %}
-                        <div class="{% if fluid_layout %}col-sm-4{% else %}col-sm-6 {% endif %} mb-5 d-flex align-items-stretch">
+                        <div class="{% if fluid_layout %}col-sm-4{% else %}col-sm-6 {% endif %} mb-5 d-flex align-items-stretch{% if forloop.last and is_odd == 1 %} col-sm-12{% endif %}">
                             {% render 'card-article-style', article: article %}
                         </div>
                         {% endfor %}
