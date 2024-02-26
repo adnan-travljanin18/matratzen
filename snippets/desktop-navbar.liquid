@@ -1,5 +1,5 @@
 
-  <ul class="navbar-nav align-items-center me-auto">
+  <ul class="navbar-nav align-items-center">
       {% for link in linklists[section.settings.menu].links %}
           {% assign child_list_handle = link.title | handleize %}
           
@@ -112,7 +112,7 @@
   {%- if request.page_type == 'index' -%}
     <div class="header__heading mb-0">
   {%- endif -%}
-      <a href="{{ routes.root_url }}" class="navbar-brand me-5 d-none d-lg-block" title="{{ shop.name | escape }}" aria-label="{{ shop.name | escape }}">
+      <a href="{{ routes.root_url }}" class="navbar-brand d-none d-lg-block" title="{{ shop.name | escape }}" aria-label="{{ shop.name | escape }}">
         {%- if logo_svg != blank -%}
           <img src="{{ section.settings.logo_svg }}" alt="{{ shop.name | escape }}" class="img-fluid" height="auto" width="150" loading="lazy" style="width: {{ section.settings.logo_width }}px" >
         {%- elsif section.settings.logo != blank -%}
@@ -133,7 +133,7 @@
     </div>
     <h1 class="d-none">{{ shop.name }}</h1>
   {%- endif -%}
-  <ul class="navbar-nav navbar-icon-links align-items-center ms-auto">
+  <ul class="navbar-nav navbar-icon-links align-items-center">
     <div class="language-picker-wrapper">
         <noscript class="small-hide medium-hide">
             {%- form 'localization', id: 'HeaderLanguageMobileFormNoScript', class: 'localization-form' -%}
