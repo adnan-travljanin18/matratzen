@@ -36,6 +36,7 @@
         "social_sharing"
       ],
       "settings": {
+        "banner_image": "shopify:\/\/shop_images\/homepage_bedroom_1.jpg",
         "fluid_layout": false,
         "enable_sidebar": true,
         "sidebar_is_sticky": true,
