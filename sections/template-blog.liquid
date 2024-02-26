@@ -11,21 +11,30 @@
 
 <div data-section-id="{{ section.id }}">
   {% paginate blog.articles by items_per_page %}
-    <section class="section-content">
+    <section>
+      {% if section.settings.banner_image != blank %}
+        <div class="blog-banner-wrapper">
+          <img src="{{ section.settings.banner_image | image_url }}" alt="News Banner image">
+        </div>
+      {% endif %}
         <div class="{% if fluid_layout %}container-fluid{% else %}container{% endif %}">
-            <div class="row mb-lg-6 mb-md-5 mb-4">
-                <div class="col-12 text-center">
+            {% comment %} <div class="row">
+                <div class="col-12">
                     <h1 class="page-title">{{ blog_title }}</h1>
+                    
                 </div>
-            </div>
+            </div> {% endcomment %}
 
             {% if sidebar_enabled %}
                 {% comment %} layout with sidebar {% endcomment %}
-                <div class="row">
-                    <div class="col-lg-9">
+                    <div class="row">
+                      <div class="col-12 my-4">
+                        <h2 class="page-title">{{ blog_title }}</h2>
+                    </div>                  
+                    <div class="col-lg-8">
                       <div class="row justify-content-center">
                         {% for article in blog.articles %}
-                        <div class="{% if fluid_layout %}col-sm-4{% else %}col-sm-6 {% endif %}first-child mb-5 d-flex align-items-stretch">
+                        <div class="{% if fluid_layout %}col-sm-4{% else %}col-sm-6 {% endif %} mb-5 d-flex align-items-stretch">
                             {% render 'card-article-style', article: article %}
                         </div>
                         {% endfor %}
@@ -38,7 +47,7 @@
                         </div>
                       {% endif %}
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                       {% render 'sidebar-blog' %}
                     </div>
                 </div>
@@ -76,6 +85,11 @@
       {
         "type": "header",
         "content": "Layout"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "Banner Image"
       },
       {
         "type": "checkbox",

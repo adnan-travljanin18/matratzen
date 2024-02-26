@@ -35,6 +35,23 @@
             </div>
           </div>
         {% endif %}
+
+        {% comment %} tags list {% endcomment %}
+
+        {% if block.settings.enable_tags %}
+          <div class="card card-tags mb-4">
+            <div class="card-header">{{ block.settings.tags_title }}</div>
+            <div class="card-body">
+              {% for tag in blog.all_tags %}
+                {% if current_tags contains tag %}
+                  <span class="badge badge-pill badge-primary-100 text-white p-2">{{ tag }}</span>
+                {% else %}
+                  <span class="badge badge-pill p-2">{{ tag | link_to_tag: tag }}</span>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
     
         {% comment %} recent articles {% endcomment %}
         {% if block.settings.enable_recent_articles %}
@@ -47,39 +64,24 @@
                     <li class="list-group-item">
                         <div class="d-flex">
                             <div class="flex-shrink-0">
-                            <a href="{{ article.url }}" class="d-block" title="{{ article.title }}" aria-label="{{ article.title }}">
+                            <a href="{{ article.url }}" class="d-block blog-sidebar-img" title="{{ article.title }}" aria-label="{{ article.title }}">
                                 {% unless article_image contains 'no-image' %}
-                                <img class="d-flex mr-3" src="{{ article.image | image_url: width: 60, height: 60, crop: 'center' }}" class="img-fluid" alt="{{ article.title }}" loading="lazy"
+                                <img class="d-flex mr-3" src="{{ article.image | image_url }}" class="img-fluid" alt="{{ article.title }}" loading="lazy"
                                   width="{{ article.image.width }}"
                                   height="{{ article.image.width | divided_by: article.image.aspect_ratio }}">
                                 {% endunless %}
                             </a>
                             </div>
-                            <div class="flex-grow-1 ms-3">
-                            <h6 class="mt-0 mb-2"><a href="{{ article.url }}">{{ article.title }}</a></h6>
-                            <p class="py-0">{{ article.content | strip_html | truncatewords: 8 }}</p>
+                            <div class="flex-grow-1 d-flex flex-column justify-content-evenly ms-3">
+                              <div class="small text-muted">
+                                  <time datetime="{{ article.published_at | date: "%d/%m/%Y" }}"> {{ article.published_at | date: "%d/%m/%Y" }}</time><span> | by {{ article.author }}</span>
+                              </div>
+                              <h5 class="mt-0 mb-2"><a href="{{ article.url }}">{{ article.title }}</a></h5>
                             </div>
                         </div>
                     </li>
                     {% endfor %}
                 </ul>
-            </div>
-          </div>
-        {% endif %}
-    
-    
-        {% comment %} tags list {% endcomment %}
-        {% if block.settings.enable_tags %}
-          <div class="card card-tags mb-4">
-            <div class="card-header">{{ block.settings.tags_title }}</div>
-            <div class="card-body">
-              {% for tag in blog.all_tags %}
-                {% if current_tags contains tag %}
-                  <span class="badge badge-pill badge-primary-100 text-white p-2">{{ tag }}</span>
-                {% else %}
-                  <span class="badge badge-pill p-2">{{ tag | link_to_tag: tag }}</span>
-                {% endif %}
-              {% endfor %}
             </div>
           </div>
         {% endif %}

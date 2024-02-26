@@ -50,16 +50,17 @@ footer .social-links li a {
     color: #6490b2;
 }
 .sidebar-blog .card {
-    border-color: #406c93;
-    border-radius: 10px;
+    border: 0;
 }
 .sidebar-blog .card-header {
-    background: #6490b2;
-    color: #fff;
-    border-radius: 10px 10px 0 0;
+    border: 0;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 .sidebar-blog .card-body span {
     color: #122230;
+    background-color: transparent;
 }
 .language-button {
     background: none;

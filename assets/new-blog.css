@@ -1,0 +1,62 @@
+.blog-banner-wrapper {
+    max-height: 618px;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+.blog-banner-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.template-blog .card-img {
+    max-height: 240px;
+    min-height: 240px;
+}
+.template-blog .card-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.template-blog .blog-tag-bubble {
+    border: 1px solid #90A4AE; 
+    border-radius: 50px; 
+    padding: 10px 20px; 
+    font-size: 12px; 
+    text-transform: capitalize; 
+    width: fit-content;
+    color: #90A4AE;
+}
+.template-blog .text-muted {
+    font-size: 12px;
+    margin-top: 15px;
+}
+.template-blog .gap-2 {
+    gap: 0.5rem;
+}
+.sidebar-blog .card-tags .card-body {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.sidebar-blog .badge-pill {
+    border: 1px solid #90A4AE; 
+    border-radius: 50px; 
+    padding: 10px 20px!important; 
+    font-size: 12px; 
+    text-transform: capitalize; 
+    width: fit-content;
+}
+.sidebar-blog .badge-pill a {
+    color: #90A4AE!important;
+}
+.sidebar-blog .list-group-item {
+    margin-bottom: 20px;
+}
+.blog-sidebar-img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.blog-sidebar-img img {
+    border-radius: 16px;
+}
