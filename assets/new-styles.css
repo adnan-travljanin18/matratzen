@@ -4,6 +4,9 @@
 .jdgm-carousel-title, .jdgm-all-reviews-rating-wrapper {
     text-align: center!important;
 }
+h2.jdgm-carousel-title {
+    text-align: center!important;
+}
 .jdgm-carousel-title-and-link .jdgm-all-reviews-rating {
     display: none!important;
 }
