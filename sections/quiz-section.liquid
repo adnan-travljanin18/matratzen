@@ -88,7 +88,7 @@
             </div>
             <div class="col-12 col-lg-6 text-center text-lg-end">
                 {% if section.settings.btn_txt != blank %}
-                    <button role="button" data-vf-id="1ew990sn" data-vf-p-type="p" data-vf-p-side="r" data-vf-trigger="click"  class="btn btn-primary btn-quiz">{{ section.settings.btn_txt }}<span><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span></button>
+                    <button role="button" data-vf-id="1ew990sn" data-vf-p-type="p" data-vf-p-side="r" data-vf-trigger="click"  class="btn btn-primary btn-quiz underline-btn">{{ section.settings.btn_txt }}<span><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span></button>
                 {% endif %}
             </div>
         </div>
@@ -96,6 +96,37 @@
 </section>
 
 <style>
+    .underline-btn {
+        text-decoration: none;
+        position: relative;
+        transition: color 0.3s;
+        overflow: hidden;
+    }
+
+    .underline-btn:hover {
+        color: #6490b2;
+        background: transparent;
+        border-radius: 0;
+
+    }
+
+    .underline-btn::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #6490b2;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .underline-btn:hover::before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
     .collection-grid-blocks .card-collection img {
     height: 100%;
     width: 100%;
