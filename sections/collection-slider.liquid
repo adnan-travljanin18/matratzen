@@ -1,0 +1,119 @@
+{% comment %} <section data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_txt_color }}">
+    <div class="w-100 h-50-vh position-absolute mx-5-percent mw-90vw"> 
+        <div class="swiper mySwiper custom-circle-border-radius">
+            <div class="swiper-wrapper">
+                {%- for block in section.blocks -%}
+                <div class="swiper-slide px-10 d-flex justify-content-center">
+                    <div class="custom-container container py-16">
+                        <div class="row justify-content-around">
+                            <div class="col-12 col-md-3 d-flex justify-content-center flex-column align-items-center text-start">
+                                <h2 class="mb-3 collection-slider-h2">
+                                    {%- if block.settings.collection.title != blank -%}
+                                        {{- block.settings.collection.title | escape -}}
+                                    {%- else -%}
+                                        {{ 'onboarding.collection_title' | t }}
+                                    {%- endif -%}
+                                </h2>            
+                                <h4 class="mb-3 mb-lg-5 collection-slider-h4">
+                                    {%- if block.settings.collection.description != blank -%}
+                                        {{- block.settings.collection.description | escape -}}
+                                    {%- else -%}
+                                        {{ 'onboarding.collection_title' | t }}
+                                    {%- endif -%}
+                                </h4>
+                                {% if section.settings.cs-button-img != blank %}
+                                    <button {% if section.settings.btn_link %} href="{{ section.settings.btn_link }}" {% endif %}class="btn">
+                                        <img src="{{ section.settings.cs-button-img }}" alt="Collection slider button image" width="100" height="100"/>
+                                    </button>
+                                {% endif %}
+                            </div>
+                            <div class="col-12 col-md-8"> 
+                                {%- if block.settings.collection.image != blank -%}
+                                    <img 
+                                        srcset="
+                                        {%- if block.settings.collection.image.width >= 360 -%}{{ block.settings.collection.image | image_url: width: 360 }} 360w,{%- endif -%}
+                                        {%- if block.settings.collection.image.width >= 535 -%}{{ block.settings.collection.image | image_url: width: 535 }} 535w,{%- endif -%}
+                                        {%- if block.settings.collection.image.width >= 750 -%}{{ block.settings.collection.image | image_url: width: 750 }} 750w,{%- endif -%}
+                                        {{ block.settings.collection.image | image_url }} {{ block.settings.collection.image.width }}w"
+                                        src="{{ block.settings.collection.image | image_url: width: 50 }}"
+                                        sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | minus: 100 | divided_by: 3 }}px, (min-width: 768px) calc((100vw - 130px) / 2), 50vw"
+                                        alt="{{ block.settings.collection.image.alt | default: block.settings.collection.title | escape }}"
+                                        height="{{ block.settings.collection.image.height }}"
+                                        width="{{ block.settings.collection.image.width }}"
+                                        loading="lazy" >
+                                {%- else -%} 
+                                    {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}   
+                                {%- endif -%}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {%- endfor -%}
+            </div>
+            <div class="swiper-pagination d-flex justify-content-center flex-md-column"></div>
+        </div>
+ </div>
+</section>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+    direction: 'horizontal',
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+    },
+    // autoplay: {
+    //     delay: 4000, // milliseconds
+    //     disableOnInteraction: false, // keep autoplay even when user interacts with slider
+    // },
+    breakpoints: {
+        768: {
+            direction: 'vertical'
+        }
+    }
+});
+
+</script>
+
+{% schema %}
+    {
+        "name": "Collection slider",
+        "class": "collection-slider-style",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Button"
+            },
+            {
+                "type": "image_picker",
+                "id": "cs-button-img",
+                "label": "Default collection slider button image"
+            },
+            {
+                "type": "url",
+                "id": "cs_btn_link",
+                "label": "Button Link"
+            }
+        ],
+        "blocks": [
+             {
+                "name": "Collection slider item",
+                "type": "featured_collection",
+                "settings": [
+                    {
+                    "type": "collection",
+                    "id": "collection",
+                    "label": "Collection"
+                    }
+                ]
+                }
+         ],
+        "presets": [
+            {
+                "name": "Collection slider",
+                "category": "Content"
+            }
+        ]
+    }
+{% endschema %} {% endcomment %}
