@@ -1,127 +1,371 @@
-<section class="parallax-section" style="color: {{ section.settings.text_color }}; background-image: url('{{ section.settings.background_image | image_url }}')">
-    <div>
-        <h2>{{ section.settings.title }}</h2>
-        <br>
-        <h4>{{ section.settings.subtitle }}</h4>
+<section class="section-content banner-image-with-text"  data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_text_color }}">
+    <div class="{% if section.settings.fluid_layout %}container-fluid{% else %}container{% endif %}">
+        {% if section.settings.heading_txt != blank %}
+            {% if section.settings.heading_above == true %}
+                <h3 class="mb-3 text-center">{{ section.settings.heading_txt }}</h3> 
+            {% endif %}
+        {% endif %}
+    <div class="row {% if section.settings.column != blank %}flex-column {% endif %} {% if section.settings.column_reverse != blank %}flex-column-reverse {% endif %}align-items-center">
+            <div class="col-12 col-lg-5 order-lg-2">
+                <div class="banner-img-border {{ section.settings.height }}" style="color:{{ section.settings.border_color }}">
+                    {%- if section.settings.image != blank -%}
+                        {% if section.settings.url_on_image != blank %}
+                            <a href="{{ section.settings.url_on_image }}">
+                                <img
+                                    srcset="
+                                    {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                                    {%- if section.settings.image.width >= 520 -%}{{ section.settings.image | image_url: width: 520 }} 520w,{%- endif -%}
+                                    {%- if section.settings.image.width >= 650 -%}{{ section.settings.image | image_url: width: 650 }} 650w,{%- endif -%}
+                                    {%- if section.settings.image.width >= 780 -%}{{ section.settings.image | image_url: width: 780 }} 780w,{%- endif -%}
+                                    {%- if section.settings.image.width >= 900 -%}{{ section.settings.image | image_url: width: 900 }} 900w,{%- endif -%}
+                                    {%- if section.settings.image.width >= 1000 -%}{{ section.settings.image | image_url: width: 1000 }} 1000w,{%- endif -%}"
+                                    src="{{ section.settings.image | image_url: width: 50 }}"
+                                    sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), 100vw"
+                                    alt="{{ section.settings.image.alt | escape }}"
+                                    class="w-100"
+                                    loading="lazy"
+                                    width="{{ section.settings.image.width | divided_by: 3 }}"
+                                    height="{{ section.settings.image.height | divided_by: 3 }}"
+                                >
+                            </a>
+                        {% else %}
+                            <img
+                                srcset="
+                                {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                                {%- if section.settings.image.width >= 520 -%}{{ section.settings.image | image_url: width: 520 }} 520w,{%- endif -%}
+                                {%- if section.settings.image.width >= 650 -%}{{ section.settings.image | image_url: width: 650 }} 650w,{%- endif -%}
+                                {%- if section.settings.image.width >= 780 -%}{{ section.settings.image | image_url: width: 780 }} 780w,{%- endif -%}
+                                {%- if section.settings.image.width >= 900 -%}{{ section.settings.image | image_url: width: 900 }} 900w,{%- endif -%}
+                                {%- if section.settings.image.width >= 1000 -%}{{ section.settings.image | image_url: width: 1000 }} 1000w,{%- endif -%}"
+                                src="{{ section.settings.image | image_url: width: 50 }}"
+                                sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), 100vw"
+                                alt="{{ section.settings.image.alt | escape }}"
+                                class="w-100"
+                                loading="lazy"
+                                width="{{ section.settings.image.width | divided_by: 3 }}"
+                                height="{{ section.settings.image.height | divided_by: 3 }}"
+                            >
+                        {% endif %}
+                    {%- else -%}
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                    {%- endif -%}
+
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 col-xl-6 mt-4 mt-md-0 order-lg-1">
+                <div class="inside-block">
+                    {% if section.settings.step_heading != blank %}
+                        <h6 class="mb-2 mb-md-3 text-center text-lg-end text-uppercase" style="color:{{ section.settings.border_color }}">{{ section.settings.step_heading }}</h6>
+                    {% endif %}
+                    {% if section.settings.heading_txt != blank %}
+                        {% if section.settings.heading_above == false %}
+                            <h1 class="mb-3 banner-image-with-text-heading text-center text-lg-end">{{ section.settings.heading_txt }}</h1> 
+                        {% endif %}                    
+                    {% endif %}  
+                    {% if section.settings.steps_captions != blank %}
+                        {% assign caption = section.settings.steps_captions | newline_to_br | strip_newlines | split: '<br />' %}
+                        <ul class="list-unstyled mb-5">
+                            {% for cap in caption %}
+                                <li class="mb-2 mb-md-3">{{ cap }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
     </div>
-    <br>
-    <button role="button" data-vf-id="1ew990sn" data-vf-p-type="p" data-vf-p-side="r" data-vf-trigger="click"  class="btn btn{% if section.settings.btn_type == 'outline' %}-{% endif %}{{ section.settings.btn_type }}-{{ section.settings.btn_variant }} {{ section.settings.btn_size }} product-slider-btn">{{ section.settings.btn_text }}</button>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                {% if section.settings.step_heading != blank %}
+                    <h6 class="text-center text-lg-start text-uppercase">{{ section.settings.step_heading }}</h6>
+                {% endif %}
+                {% if section.settings.txt != blank %}
+                    <div class="text-center text-lg-start">{{ section.settings.txt }}</div>
+                {% endif %}  
+            </div>
+            <div class="col-12 col-lg-6 text-center text-lg-end">
+                {% if section.settings.btn_txt != blank %}
+                    <button role="button" data-vf-id="1ew990sn" data-vf-p-type="p" data-vf-p-side="r" data-vf-trigger="click"  class="btn btn-primary btn-quiz">{{ section.settings.btn_txt }}<span><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span></button>
+                {% endif %}
+            </div>
+        </div>
+    </div>
 </section>
 
 <style>
-.parallax-section {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    .collection-grid-blocks .card-collection img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
 }
-    </style>
-<script src="https://app.veeform.com/external/onsite.js" async></script>
+.banner-image-with-text {
+    padding: 2rem;
+}
+.banner-img-border img {
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    border-radius: 16px;
+}
+.banner-image-with-text-heading {
+    font-size: 2rem;
+}
+.btn-quiz {
+    background: transparent;
+    border: 0;
+    color: #131e27;
+}
+
+@media only screen and (min-width: 992px) {
+    .banner-image-with-text {
+        padding: 9rem 0 16rem 0;
+    }
+    .banner-img-border::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 6vw;
+        border: 1px solid;
+        z-index: 0;
+        left: 9vw;
+        border-radius: 16px 16px 190px 16px;
+    }
+    .banner-image-with-text-heading {
+        font-size: 3.5rem;
+    }
+    .banner-img-border img {
+        border-radius: 190px 16px 16px 16px;
+    }
+    .banner-img-border {
+        position: relative;
+        z-index: 1;
+        max-width: 407px;
+        height: 368px;
+    }
+}
+</style>
+ 
 
 {% schema %}
-{
-    "name": "Quiz Section",
-    "settings": [
-        {
-            "type": "text",
-            "label": "Title",
-            "id": "title"
-        },
-        {
-            "type": "text",
-            "label": "Subtitle",
-            "id": "subtitle"
-        },
-        {
-            "type": "image_picker",
-            "label": "Select a Background Image",
-            "id": "background_image"
-        },
-        {
-            "type": "color",
-            "label": "Text Color",
-            "id": "text_color",
-            "default": "#FFFFFF"
-        },
-        {
-          "type": "textarea",
-          "label": "Add Text to Button",
-          "id": "btn_text",
-          "info": "Add a label to button that open's product detail page.",
-          "default": "Details"
-        },
-        {
-          "type": "select",
-          "id": "btn_type",
-          "label": "Button Type",
-          "options": [
-              {
-                  "value": "outline",
-                  "label": "Outline"
-              },
-              {
-                  "value": "",
-                  "label": "Solid"
-              }
-          ],
-          "default": ""
-        },
-        {
-          "type": "select",
-          "id": "btn_variant",
-          "label": "Button Variant",
-          "options": [
-              {
-                  "value": "primary",
-                  "label": "Primary"
-              },
-              {
-                  "value": "secondary",
-                  "label": "Secondary"
-              },
-              {
-                  "value": "white",
-                  "label": "White"
-              },
-              {
-                  "value": "dark",
-                  "label": "Dark"
-              }
-          ],
-          "default": "primary"
-        },
-        {
-          "type": "select",
-          "id": "btn_size",
-          "label": "Button Size",
-          "options": [
-              {
-                  "value": "",
-                  "label": "Default"
-              },
-              {
-                  "value": "btn-sm",
-                  "label": "Small"
-              },
-              {
-                  "value": "btn-lg",
-                  "label": "Large"
-              }
-          ],
-          "default": ""
-        }
-    ],
-    "presets": [
     {
         "name": "Quiz Section",
-        "category": "Custom"
+        "class": "quiz-section-style",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Layout"
+            },
+            {
+                "type": "checkbox",
+                "id": "fluid_layout",
+                "label": "Full Width Layout?",
+                "default": false
+            },
+            {
+                "type": "checkbox",
+                "id": "column",
+                "label": "Normal Column?",
+                "default": false
+            },
+            {
+                "type": "checkbox",
+                "id": "column_reverse",
+                "label": "Column Reverse?",
+                "default": false
+            },
+            {
+                "type": "header",
+                "content": "Content"
+            },
+            {
+                "type": "textarea",
+                "id": "heading_txt",
+                "label": "Heading Text",
+                "default": "Awesome Heading"
+            },
+            {
+                "type": "checkbox",
+                "id": "heading_above",
+                "label": "Heading above Section",
+                "default": false
+            },
+            {
+                "type": "richtext",
+                "id": "txt",
+                "label": "Text",
+                "default": "<p>Lipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar ac tortor imperdiet commodo.</p>"
+            },
+            {
+                "type": "text",
+                "id": "step_heading",
+                "label": "Step Heading",
+                "default": "Awesome Sub Heading"
+            },
+            {
+                "type": "textarea",
+                "id": "steps_captions",
+                "label": "Details List",
+                "info":"Each entry must be on a new line."
+            },
+            {
+                "type": "header",
+                "content": "Button"
+            },
+            {
+                "type": "text",
+                "id": "btn_txt",
+                "label": "Button Text"
+            },  
+            {
+                "type": "url",
+                "id": "btn_link",
+                "label": "Button Link"
+            },      
+            {
+                "type": "select",
+                "id": "btn_type",
+                "label": "Button Type",
+                "options": [
+                    {
+                        "value": "outline",
+                        "label": "Outline"
+                    },
+                    {
+                        "value": "",
+                        "label": "Solid"
+                    }
+                ],
+                "default": ""
+            },
+            {
+                "type": "select",
+                "id": "btn_variant",
+                "label": "Button Variant",
+                "options": [
+                    {
+                        "value": "primary",
+                        "label": "Primary"
+                    },
+                    {
+                        "value": "secondary",
+                        "label": "Secondary"
+                    },
+                    {
+                        "value": "white",
+                        "label": "White"
+                    },
+                    {
+                        "value": "dark",
+                        "label": "Dark"
+                    }
+                ],
+                "default": "primary"
+            },
+            {
+                "type": "select",
+                "id": "btn_size",
+                "label": "Button Size",
+                "options": [
+                    {
+                        "value": "",
+                        "label": "Default"
+                    },
+                    {
+                        "value": "btn-sm",
+                        "label": "Small"
+                    },
+                    {
+                        "value": "btn-lg",
+                        "label": "Large"
+                    }
+                ],
+                "default": ""
+            },
+            {
+                "type": "header",
+                "content": "Image"
+            },
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Select Image",
+                "info": "For Better Viewing Use Example dimentions: 775*735 ( Aspect Ratio: 1.05 )"
+            },
+            {
+                "type": "url",
+                "id": "url_on_image",
+                "label": "Add Url on Image"
+            },
+            {
+                "type":"header",
+                "content":"styling"
+            },
+            {
+                "type": "color",
+                "id": "section_bg_color",
+                "label": "Background Color",
+                "default": "#131E27"
+            },
+            {
+                "type": "color",
+                "id": "section_text_color",
+                "label": "Text Color",
+                "default": "#fff"
+            },
+            {
+                "type": "color",
+                "id": "border_color",
+                "label": "Border Color",
+                "default": "#6490B2"
+            },
+            {
+                "type": "select",
+                "id": "alignment",
+                "label": "Text Alignment",
+                "options": [
+                    {
+                        "value": "text-center",
+                        "label": "Center"
+                    },
+                    {
+                        "value": "text-left",
+                        "label": "Left"
+                    },
+                    {
+                        "value": "text-end",
+                        "label": "Right"
+                    }
+                ],
+                "default": "text-left"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Quiz Section",
+                "category": "Custom"
+            }
+        ]
     }
-    ]
-}
 {% endschema %}
+
+<style>
+    .inside-block ul li:before{
+        content: "\f149";
+        display: inline-block;
+        font-family: "Ionicons";
+        color:var(--bs-color-primary);
+        text-rendering: auto;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin-right: 0.9rem;
+        font-size: 1.8rem;
+        vertical-align: middle;
+    }
+</style>
