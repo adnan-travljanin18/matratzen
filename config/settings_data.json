@@ -226,10 +226,10 @@
         ],
         "settings": {
           "title": "Collections",
-          "section_bg_color": "#FAFAF7",
-          "section_txt_color": "#343a40",
-          "grid_size": "3",
-          "image_ratio": "square",
+          "section_bg_color": "#ffffff",
+          "section_txt_color": "#131e27",
+          "grid_size": "4",
+          "image_ratio": "landscape",
           "enable_overlay": true,
           "overlay_bg_color": "#000000",
           "overlay_opacity": 0.5
