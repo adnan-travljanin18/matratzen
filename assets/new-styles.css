@@ -1,3 +1,9 @@
+.jdgm-carousel-title, .jdgm-carousel-number-of-reviews {
+    text-align: center;
+}
+.jdgm-carousel-title-and-link .jdgm-all-reviews-rating {
+    display: none;
+}
 .navbar-brand img {
     width: 100%;
 }
