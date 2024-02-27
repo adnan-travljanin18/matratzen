@@ -275,14 +275,25 @@
     "add57642-99b3-450a-b701-2c83862dbaa4": {
       "type": "quiz-section",
       "settings": {
-        "title": "Finden Sie Ihre perfekte Matratze mit unserem personalisierten Quiz.",
-        "subtitle": "Beantworten Sie ein paar Fragen und finden Sie heraus, wer am besten zu Ihnen passt!",
-        "background_image": "shopify:\/\/shop_images\/blue-matress.jpg",
-        "text_color": "#ffffff",
-        "btn_text": "Quiz Starten",
+        "fluid_layout": false,
+        "column": false,
+        "column_reverse": false,
+        "heading_txt": "Find Your <b>Perfect<br>Mattress<\/b><i>With <br>Our <\/i>Personalized<br><b>Quiz!<b><\/b><\/b>",
+        "heading_above": false,
+        "txt": "<p>Click the link to start the process<\/p>",
+        "step_heading": "Serenity Mattress",
+        "steps_captions": "",
+        "btn_txt": "Start Quiz Now",
+        "btn_link": "",
         "btn_type": "",
         "btn_variant": "primary",
-        "btn_size": ""
+        "btn_size": "",
+        "image": "shopify:\/\/shop_images\/homepage_bedroom_1.jpg",
+        "url_on_image": "",
+        "section_bg_color": "#ffffff",
+        "section_text_color": "#131e27",
+        "border_color": "#6490B2",
+        "alignment": "text-left"
       }
     },
     "f2503673-38d7-4661-bf3a-9739442844fd": {
