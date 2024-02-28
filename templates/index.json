@@ -33,245 +33,6 @@
         "video_alignment": "justify-content-center"
       }
     },
-    "08af8087-4faf-4ef7-95e3-9f5886e1fd08": {
-      "type": "global-features-grid",
-      "blocks": {
-        "template--15357004054601__08af8087-4faf-4ef7-95e3-9f5886e1fd08-content-1": {
-          "type": "content",
-          "settings": {
-            "icon_img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/2130\/3625\/files\/bett1_bodyguard-kindermatratze_hero_kidsgo_de.webp?v=1699442969",
-            "url_on_image": "shopify:\/\/products\/matress",
-            "title": "",
-            "txt": ""
-          }
-        },
-        "0ea81006-1faa-4f87-ba8b-2f399cf38436": {
-          "type": "content",
-          "settings": {
-            "icon_img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/2130\/3625\/files\/bett1_bodyguard_anti-kartell-matratze_4-millionen_slogan_0623_de_at.webp?v=1699532296",
-            "url_on_image": "shopify:\/\/products\/matress",
-            "title": "",
-            "txt": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15357004054601__08af8087-4faf-4ef7-95e3-9f5886e1fd08-content-1",
-        "0ea81006-1faa-4f87-ba8b-2f399cf38436"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "img {transition: transform 0.3s ease-in-out;}",
-        "img:hover {transform: scale(1.1); transition: transform 0.3s ease-in-out;}"
-      ],
-      "settings": {
-        "fluid_layout": true,
-        "grid_size": "6",
-        "heading_txt": "Wir sind Matratze.",
-        "lead_txt": "Alles, was du zum Schlafen brauchst.",
-        "btn_txt": "",
-        "btn_url": "",
-        "section_bg_color": "#75cfd0",
-        "section_txt_color": "#222222",
-        "btn_type": "outline",
-        "btn_variant": "primary",
-        "btn_size": ""
-      }
-    },
-    "02d12352-47d3-4865-815f-f107ace0aaeb": {
-      "type": "global-image-with-text",
-      "custom_css": [
-        "img {transition: transform 0.3s ease-in-out;}",
-        "img:hover {transform: scale(1.1); transition: transform 0.3s ease-in-out;}"
-      ],
-      "settings": {
-        "fluid_layout": false,
-        "column": false,
-        "column_reverse": true,
-        "heading_txt": "RuheOase Harmony Matratze",
-        "heading_above": false,
-        "txt": "<p>Wo Träume in vollkommener Harmonie erwachen<\/p>",
-        "step_heading": "",
-        "steps_captions": "",
-        "btn_txt": "",
-        "btn_link": "",
-        "btn_type": "",
-        "btn_variant": "primary",
-        "btn_size": "",
-        "image": "shopify:\/\/shop_images\/png-clipart-mattress-bed-frame-product-mattresse-angle-mattress-removebg-preview.png",
-        "url_on_image": "shopify:\/\/products\/matress",
-        "section_bg_color": "#f2f2f2",
-        "section_text_color": "#ffffff",
-        "alignment": "text-center",
-        "image_alignment": "left"
-      }
-    },
-    "55c37968-0e45-4201-851c-5f84cb221880": {
-      "type": "global-features-grid",
-      "blocks": {
-        "template--15357004054601__55c37968-0e45-4201-851c-5f84cb221880-content-1": {
-          "type": "content",
-          "settings": {
-            "icon_img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/2130\/3625\/files\/bett1_handelsblatt_sehr-hohe-zufriedenheit.svg?v=1699453205",
-            "url_on_image": "",
-            "title": "",
-            "txt": ""
-          }
-        },
-        "d18eb0b6-9b02-449c-b36c-cf6c3094f73e": {
-          "type": "content",
-          "settings": {
-            "icon_img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/2130\/3625\/files\/bett1_kidsgo_siegel.svg?v=1699453204",
-            "url_on_image": "",
-            "title": "",
-            "txt": ""
-          }
-        },
-        "d35ce9fb-f557-426f-9fd0-8d9b96c4130b": {
-          "type": "content",
-          "settings": {
-            "icon_img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/2130\/3625\/files\/bett1_focus-dt_hoechste-kundenzufriedenheit_2023.svg?v=1699453204",
-            "url_on_image": "",
-            "title": "",
-            "txt": ""
-          }
-        },
-        "0b3dc0ce-0cc6-4f06-a116-55078f794c83": {
-          "type": "content",
-          "settings": {
-            "icon_img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/2130\/3625\/files\/bett1_focus-dt_schlafkomfort_hoechste-empfehlung_2023.svg?v=1699453204",
-            "url_on_image": "",
-            "title": "",
-            "txt": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15357004054601__55c37968-0e45-4201-851c-5f84cb221880-content-1",
-        "d18eb0b6-9b02-449c-b36c-cf6c3094f73e",
-        "d35ce9fb-f557-426f-9fd0-8d9b96c4130b",
-        "0b3dc0ce-0cc6-4f06-a116-55078f794c83"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "img {max-height: 250px;}"
-      ],
-      "settings": {
-        "fluid_layout": false,
-        "grid_size": "3",
-        "heading_txt": "Ausgezeichnet",
-        "lead_txt": "",
-        "btn_txt": "",
-        "btn_url": "",
-        "section_bg_color": "#ffffff",
-        "section_txt_color": "#000000",
-        "btn_type": "outline",
-        "btn_variant": "primary",
-        "btn_size": ""
-      }
-    },
-    "8d02d717-406f-4830-aeba-0b71d6433fba": {
-      "type": "global-image-with-text",
-      "custom_css": [
-        "img {object-fit: scale-down;}"
-      ],
-      "settings": {
-        "fluid_layout": false,
-        "column": false,
-        "column_reverse": false,
-        "heading_txt": "Ihr Traumschlaf beginnt hier!",
-        "heading_above": true,
-        "txt": "<p>Die TranquilHaven Serenity Matratze bietet einen erholsamen Schlaf inmitten von Ruhe und Gelassenheit. Mit einer sorgfältig gestalteten Struktur und hochwertigen Materialien bietet diese Matratze ein luxuriöses Liegeerlebnis. Die einzigartige Kombination aus stützenden Schichten und einer sanften Oberfläche schafft eine harmonische Schlafumgebung, die Ihre Nächte zu einem friedlichen Rückzugsort macht. Genießen Sie die Ruhe und Gelassenheit, die die TranquilHaven Serenity Matratze Ihnen für einen tiefen und erholsamen Schlaf bietet.<\/p>",
-        "step_heading": "",
-        "steps_captions": "",
-        "btn_txt": "Hier Bestellen",
-        "btn_link": "shopify:\/\/products\/matress",
-        "btn_type": "",
-        "btn_variant": "primary",
-        "btn_size": "",
-        "image": "shopify:\/\/shop_images\/png-clipart-mattress-pads-bed-frame-product-mattress-mattress-bed-frame-removebg-preview.png",
-        "url_on_image": "",
-        "section_bg_color": "#ffffff",
-        "section_text_color": "#75cfd0",
-        "alignment": "text-left",
-        "image_alignment": "left"
-      }
-    },
-    "01b05a13-2a39-41cc-a2c4-0667b7738f2e": {
-      "type": "global-image-with-text",
-      "settings": {
-        "fluid_layout": false,
-        "column": false,
-        "column_reverse": false,
-        "heading_txt": "",
-        "heading_above": false,
-        "txt": "<p>Die Friedvolle Zuflucht Glückseligkeit Matratze bietet ein wahrhaft seliges Schlafvergnügen. Ihre sorgfältige Konstruktion und hochwertigen Materialien schaffen eine himmlische Liegefläche. Die perfekte Balance zwischen stützenden Schichten und einer sanften Oberfläche schenkt Ihnen einen erholsamen Schlaf, der von Gelassenheit und Harmonie geprägt ist. Tauchen Sie ein in den Luxus und die Wohltat der Friedvollen Zuflucht Glückseligkeit Matratze und lassen Sie Ihren Schlaf zu einem regenerierenden Erlebnis werden.<\/p>",
-        "step_heading": "",
-        "steps_captions": "",
-        "btn_txt": "Hier Bestellen",
-        "btn_link": "shopify:\/\/products\/copy-of-ruheoase-harmony-matratze",
-        "btn_type": "",
-        "btn_variant": "primary",
-        "btn_size": "",
-        "image": "shopify:\/\/shop_images\/png-clipart-mattress-box-spring-bed-frame-product-design-spring-sale-tags-furniture-mattress-removebg-preview.png",
-        "url_on_image": "",
-        "section_bg_color": "#ffffff",
-        "section_text_color": "#75cfd0",
-        "alignment": "text-left",
-        "image_alignment": "right"
-      }
-    },
-    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc": {
-      "type": "global-product-slider",
-      "blocks": {
-        "bfcde385-fbd6-4772-b453-7f009898d2a1": {
-          "type": "product_slide",
-          "settings": {
-            "card_border_color": "#406c93",
-            "selected_product": "matress",
-            "btn_text": "Details",
-            "btn_type": "outline",
-            "btn_variant": "primary",
-            "btn_size": ""
-          }
-        },
-        "ed3f47e5-1059-40cd-b361-e0133eec2bb7": {
-          "type": "product_slide",
-          "settings": {
-            "card_border_color": "#406c93",
-            "selected_product": "copy-of-ruheoase-harmony-matratze",
-            "btn_text": "Details",
-            "btn_type": "outline",
-            "btn_variant": "primary",
-            "btn_size": ""
-          }
-        },
-        "a9e2dc6c-4e87-4905-8430-9bb115916cf8": {
-          "type": "product_slide",
-          "settings": {
-            "card_border_color": "#406c93",
-            "selected_product": "copy-of-copy-of-copy-of-copy-of-ruheoase-harmony-matratze",
-            "btn_text": "Details",
-            "btn_type": "outline",
-            "btn_variant": "primary",
-            "btn_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "bfcde385-fbd6-4772-b453-7f009898d2a1",
-        "ed3f47e5-1059-40cd-b361-e0133eec2bb7",
-        "a9e2dc6c-4e87-4905-8430-9bb115916cf8"
-      ],
-      "custom_css": [
-        "h4 {color: #6490b2;}"
-      ],
-      "settings": {
-        "section_title": "Entdecke den Komfort von Serenity",
-        "section_bg_color": "#f2f2f2",
-        "card_border_radius": 15
-      }
-    },
     "add57642-99b3-450a-b701-2c83862dbaa4": {
       "type": "quiz-section",
       "settings": {
@@ -292,94 +53,62 @@
         "url_on_image": "",
         "section_bg_color": "#ffffff",
         "section_text_color": "#131e27",
-        "border_color": "#6490B2",
+        "border_color": "#6490b2",
         "alignment": "text-left"
-      }
-    },
-    "f2503673-38d7-4661-bf3a-9739442844fd": {
-      "type": "global-testimonial-slider",
-      "blocks": {
-        "7a4b0fe3-bb61-4927-9fa2-c34f22da7f1e": {
-          "type": "slide",
-          "settings": {
-            "rating": "5",
-            "slide_content": "Die Matratze hat mein Schlafverhalten revolutioniert! Begeisterte Kundin.",
-            "person_name": "Lisa"
-          }
-        },
-        "0a712682-9fe8-465c-9c53-dbfa3a0e39f7": {
-          "type": "slide",
-          "settings": {
-            "rating": "5",
-            "slide_content": "Maximaler Komfort und erholsame Nächte. Danke für die Traummatratze!",
-            "person_name": "Max"
-          }
-        },
-        "9c094fa4-6e14-4482-aa2b-1b3d12c903c7": {
-          "type": "slide",
-          "settings": {
-            "rating": "5",
-            "slide_content": "Sowohl fest als auch weich – die perfekte Matratze! Schwört darauf.",
-            "person_name": "Sarah"
-          }
-        },
-        "8c910a7b-7fa5-4b62-89ec-0c396c54e651": {
-          "type": "slide",
-          "settings": {
-            "rating": "5",
-            "slide_content": "Ich schlafe wie auf Wolken. Unsere Matratze hat meine Erwartungen übertroffen.",
-            "person_name": "David"
-          }
-        }
-      },
-      "block_order": [
-        "7a4b0fe3-bb61-4927-9fa2-c34f22da7f1e",
-        "0a712682-9fe8-465c-9c53-dbfa3a0e39f7",
-        "9c094fa4-6e14-4482-aa2b-1b3d12c903c7",
-        "8c910a7b-7fa5-4b62-89ec-0c396c54e651"
-      ],
-      "settings": {
-        "section_heading": "Kundenbewertungen"
       }
     },
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5": {
       "type": "global-info-slider",
       "blocks": {
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-1": {
-          "type": "info_slide",
+        "info_slide_create_FUtiwP": {
+          "type": "info_slide_create",
           "settings": {
-            "image": "shopify:\/\/shop_images\/315748-P8TAKF-604-removebg-preview_1.png",
-            "slider_title": "Hergestellt in Deutschland",
-            "slider_text": "<p>Willkommen in der Welt der Serenity Matratzen – entwickelt in Deutschland, Kern geschäumt in Deutschland, Bezug genäht in Europa und Deutschland. Fertiggestellt zu 100 % in Deutschland.<\/p>"
+            "image": "shopify:\/\/shop_images\/germany_badge.png",
+            "slider_title": "Hergestellt in Deutchland",
+            "icon-checkbox": true,
+            "slider_text_one": "BODYGUARD ® Developed in Germany.",
+            "slider_text_two": "Core foamed in Germany.",
+            "slider_text_three": "Cover sawn in Europe and Germany.",
+            "slider_text_four": "Completed 100% in Germany."
           }
         },
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2": {
-          "type": "info_slide",
+        "info_slide_2in1_wkecWQ": {
+          "type": "info_slide_2in1",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mattress-icon-new_1.png",
-            "slider_title": "Ultimativer Schlafkomfort",
-            "slider_text": "<p>Die ultimative Komfort-Matratze: ein Meisterwerk des Schlafs. Mit zwei Seiten für individuellen Luxus. Entdecke pure Bequemlichkeit und erlebe himmlischen Schlaf. Deine Nächte werden nie mehr dieselben sein.<\/p>"
+            "image": "shopify:\/\/shop_images\/badge.png",
+            "slider_title": "2 In 1 Mattress",
+            "icon-checkbox": true,
+            "slider_text_one": "A mattress. Two sides.",
+            "slider_text_two": "Tested for 100 nights.",
+            "slider_text_three": "Would you rather sleep? Softer or firmer?",
+            "slider_text_four": "Find out. In peace."
           }
         },
-        "2ef27828-25e7-4a4c-a013-9ff417122877": {
-          "type": "info_slide",
+        "info_slide_contact_gD7aPb": {
+          "type": "info_slide_contact",
           "settings": {
-            "image": "shopify:\/\/shop_images\/support-icon-can-be-used-600nw-1887496465-removebg-preview.png",
+            "image": "shopify:\/\/shop_images\/Badge_1.png",
             "slider_title": "Service & Contact",
-            "slider_text": "<p>Unser Team ist gern für dich da:<br\/><strong>Tel:<\/strong><a href=\"tel:+4930767317272\"><strong>+49 30 7673172-72<\/strong><\/a><\/p><p>Mo.–Sa. von 8–22 Uhr<br\/>oder per <strong>E-Mail:<\/strong><\/p><p><a href=\"mailto:info@serenitybett.de\" title=\"mailto:info@serenitybett.de\">info@serenitybett.de<\/a><\/p><p>Antwortzeit beträgt in der Regel 24 Std.<\/p>"
+            "icon-checkbox": true,
+            "slider_text_one": "Phone: +49 30 7673172 72",
+            "slider_text_two": "Work time: Mo-Sa 08-22h",
+            "slider_text_three": "Email: info@serenitybett.de",
+            "slider_text_four": "Address: Street name, 71000, Germany"
           }
         }
       },
       "block_order": [
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-1",
-        "template--15357004054601__5463b940-fa41-47d7-909f-6aa8aab0b3c5-info_slide-2",
-        "2ef27828-25e7-4a4c-a013-9ff417122877"
+        "info_slide_create_FUtiwP",
+        "info_slide_2in1_wkecWQ",
+        "info_slide_contact_gD7aPb"
       ],
       "custom_css": [
         "h4 {color: #6490b2;}"
       ],
       "settings": {
-        "section_bg_color": "#f2f2f2"
+        "section_bg_color": "#ffffff",
+        "info_title": "Transform Your Sleep Experience",
+        "info_subline_text": "The Ultimate in Comfort and Support."
       }
     },
     "1709033461d5da508c": {
@@ -402,14 +131,7 @@
   },
   "order": [
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe",
-    "08af8087-4faf-4ef7-95e3-9f5886e1fd08",
-    "02d12352-47d3-4865-815f-f107ace0aaeb",
-    "55c37968-0e45-4201-851c-5f84cb221880",
-    "8d02d717-406f-4830-aeba-0b71d6433fba",
-    "01b05a13-2a39-41cc-a2c4-0667b7738f2e",
-    "7caf8d58-71b1-4887-b0f3-af1b1c7016dc",
     "add57642-99b3-450a-b701-2c83862dbaa4",
-    "f2503673-38d7-4661-bf3a-9739442844fd",
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
     "1709033461d5da508c"
   ]
