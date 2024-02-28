@@ -18,6 +18,16 @@ document.addEventListener('DOMContentLoaded', function () {
         slidesPerView: 1,
         spaceBetween: 20,
       }
-    }
+    },
+    touchEventsTarget: 'container',
+    touchEvents: true,
+    on: {
+      init: function () {
+        this.touchEventsData.allowTouchCallbacks = true;
+      },
+      touchStart: function () {
+        this.touchEventsData.allowTouchCallbacks = true;
+      },
+    },
   });
 });
