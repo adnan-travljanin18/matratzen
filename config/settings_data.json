@@ -39,14 +39,19 @@
     "enable_custom_klaviyo": false,
     "enable_product_card_swatches": true,
     "show_secondary_image": false,
-    "enable_cart_notes": true,
+    "enable_cart_notes": false,
     "enable_cart_": true,
     "enable_shipping_bar": true,
     "free_shipping_txt": "Congratulations! You get free shipping.",
     "free_shipping_left": "You are ${addMoreForFreeShip} away from free shipping!",
     "checkout_logo_image": "shopify:\/\/shop_images\/SE_LOGO_72px.png",
-    "checkout_accent_color": "#000000",
-    "checkout_button_color": "#000000",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Roboto",
+    "checkout_accent_color": "#6490b2",
+    "checkout_button_color": "#122230",
     "enable_login": true,
     "sections": {
       "header": {
@@ -163,6 +168,71 @@
           "topbar_text_color": "#ffffff",
           "topbar_height": 40,
           "topbar_font_size": "15px"
+        }
+      },
+      "global-image-with-text-banner": {
+        "type": "global-image-with-text-banner",
+        "settings": {
+          "fluid_layout": false,
+          "column": false,
+          "column_reverse": false,
+          "heading_txt": "Find Your Perfect<br>Mattress <i>With<br>Our<\/i> Personalized<br>Quiz",
+          "heading_above": false,
+          "txt": "",
+          "step_heading": "Serenity mattress",
+          "steps_captions": "",
+          "btn_txt": "",
+          "btn_link": "",
+          "btn_type": "",
+          "btn_variant": "primary",
+          "btn_size": "",
+          "image": "shopify:\/\/shop_images\/homepage_bedroom_1.jpg",
+          "url_on_image": "",
+          "section_bg_color": "#131E27",
+          "section_text_color": "#fff",
+          "border_color": "#6490B2",
+          "alignment": "text-left"
+        }
+      },
+      "collection-grid": {
+        "type": "collection-grid",
+        "blocks": {
+          "featured_collection_jyPEHt": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "matratzen",
+              "section_txt_color": "#131e27"
+            }
+          },
+          "featured_collection_8eQNaY": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "matratzen",
+              "section_txt_color": "#131e27"
+            }
+          },
+          "featured_collection_njgedL": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "matratzen",
+              "section_txt_color": "#131e27"
+            }
+          }
+        },
+        "block_order": [
+          "featured_collection_jyPEHt",
+          "featured_collection_8eQNaY",
+          "featured_collection_njgedL"
+        ],
+        "settings": {
+          "title": "Collections",
+          "section_bg_color": "#ffffff",
+          "section_txt_color": "#131e27",
+          "grid_size": "4",
+          "image_ratio": "landscape",
+          "enable_overlay": true,
+          "overlay_bg_color": "#000000",
+          "overlay_opacity": 0.5
         }
       }
     },
