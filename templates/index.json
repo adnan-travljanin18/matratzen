@@ -127,12 +127,61 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "global_product_slider_JtAzG4": {
+      "type": "global-product-slider",
+      "blocks": {
+        "product_slide_t67Efi": {
+          "type": "product_slide",
+          "settings": {
+            "card_border_color": "#406c93",
+            "selected_product": "",
+            "btn_text": "Details",
+            "btn_type": "",
+            "btn_variant": "primary",
+            "btn_size": ""
+          }
+        },
+        "product_slide_7PkiGd": {
+          "type": "product_slide",
+          "settings": {
+            "card_border_color": "#406c93",
+            "selected_product": "",
+            "btn_text": "Details",
+            "btn_type": "",
+            "btn_variant": "primary",
+            "btn_size": ""
+          }
+        },
+        "product_slide_6QgmwL": {
+          "type": "product_slide",
+          "settings": {
+            "card_border_color": "#406c93",
+            "selected_product": "",
+            "btn_text": "Details",
+            "btn_type": "",
+            "btn_variant": "primary",
+            "btn_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_slide_t67Efi",
+        "product_slide_7PkiGd",
+        "product_slide_6QgmwL"
+      ],
+      "settings": {
+        "section_title": "Slider Title",
+        "section_bg_color": "#FFFFFF",
+        "card_border_radius": 15
+      }
     }
   },
   "order": [
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe",
     "add57642-99b3-450a-b701-2c83862dbaa4",
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
-    "1709033461d5da508c"
+    "1709033461d5da508c",
+    "global_product_slider_JtAzG4"
   ]
 }
