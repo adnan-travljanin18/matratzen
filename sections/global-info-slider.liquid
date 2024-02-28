@@ -1,21 +1,65 @@
-<section class="section-content" style="background:{{ section.settings.section_bg_color }};">
+<section class="section-content info-slider-section" style="background:{{ section.settings.section_bg_color }};">
   <div class="container">
-      <div class="swiper-container overflow-hidden">
-        <div class="swiper-wrapper card-wrapper">
-            {% for block in section.blocks %}
-                <div class="swiper-slide d-block custom-card">
-                    <div class="d-flex flex-column align-items-center p-5">
-                        <div class="image-info-wrapper" style="{% if block.settings.image != blank %}background: url('{{ block.settings.image | image_url }}') center no-repeat{% else %} background: url('https://placehold.co/600x400') center no-repeat{% endif %}; display: block"></div>
-                        <div class="info-content text-center">
-                            <h4>{{ block.settings.slider_title }}</h4>
-                            <p>{{ block.settings.slider_text }}</p>
-                        </div>
-                    </div>
+    <h3>{{ section.settings.info_title }}</h3>
+    <p>{{ section.settings.info_subline_text }}</p>
+    <div class="swiper-container swiper-container-info overflow-hidden">
+      <div class="swiper-wrapper card-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide h-auto custom-card">
+            <div class="d-flex flex-column h-100 px-3 py-5 info-card">
+              <div class="row align-items-center">
+                <div class="col-3">
+                  <img src="{{ block.settings.image | image_url }}" alt="Info slider image">
                 </div>
-            {% endfor %}
-        </div>
+                <div class="col-9 p-0">
+                  <p class="m-0 text-start">{{ block.settings.slider_title }}</p>
+                </div>
+              </div>
+              {% if block.type == 'info_slide_create' %}
+                <div class="info-content">
+                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608" alt="Arrow right" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_one }}</span>
+                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608" alt="Arrow right" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_two }}</span>
+                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608" alt="Arrow right" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_three }}</span>
+                  <span class="d-flex align-items-center py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608" alt="Arrow right" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_four }}</span>
+                </div>
+              {% elsif block.type == 'info_slide_2in1' %}
+                  <div class="info-content">
+                    <span class="d-flex align-items-center py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/lamp-desk.png?v=1709128208" alt="Lamp" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_one }}</span>
+                    <span class="d-flex align-items-center border-bottom gray-100 py-2">{{ block.settings.slider_text_two }}</span>
+                    <span class="d-flex align-items-center py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/moon.png?v=1709128208" alt="Moon" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_three }}</span>
+                    <span class="d-flex align-items-center py-2">{{ block.settings.slider_text_four }}</span>
+                  </div>
+              {% else %}
+                <div class="info-content">
+                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/phone-outgoing.png?v=1709128208" alt="Phone" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_one }}</span>
+                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/stopwatch-edit.png?v=1709128208" alt="Clock" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_two }}</span>
+                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/envelope.png?v=1709128209" alt="Email" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_three }}</span>
+                  <span class="d-flex align-items-center py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/location-pin-check.png?v=1709128209" alt="Location" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_four }}</span>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
     </div>
+  </div>
 </section>
+<style>
+  
+  .info-slider-section .swiper-container {
+    color: #546E7A;
+  }
+
+  .info-slider-section .info-card {
+    border: 1px solid #546E7A;
+    border-radius: 16px;
+  }
+  .info-slider-section .info-content {
+    font-size: 16px;
+    text-align: left;
+  }
+
+</style>
 
 <script src="{{ 'info-slider.js' | asset_url }}" async></script>
 
@@ -24,17 +68,31 @@
   "name": "Info Slider",
   "settings": [
     {
-        "type": "color",
-        "id": "section_bg_color",
-        "label": "Background Color",
-        "default": "#FAFAF7"
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "text",
+      "label": "Add Heading to Info Slider",
+      "id": "info_title",
+      "info": "Write something to display as a heading in the slider",
+      "default": "Transform Your Sleep Experience"
+    },
+    {
+      "type": "text",
+      "label": "Add Subheading to Slider",
+      "id": "info_subline_text",
+      "info": "Write something to display as a subheading in the slider",
+      "default": "The Ultimate in Comfort and Support."
     }
   ],
   "max_blocks": 3,
   "blocks": [
     {
-      "name": "Info Slide",
-      "type": "info_slide",
+      "name": "Info Slide Create",
+      "type": "info_slide_create",
       "settings": [
         {
           "type": "image_picker",
@@ -50,11 +108,144 @@
           "default": "Info Slider Title"
         },
         {
-          "type": "richtext",
+          "type": "checkbox",
+          "default": false,
+          "id": "icon-checkbox",
+          "label": "Arrow Checkbox"
+        },
+        {
+          "type": "text",
           "label": "Add Text to Slider",
-          "id": "slider_text",
+          "id": "slider_text_one",
           "info": "Write something to display as text in the slider",
-          "default": "<p>This is just some text for the info slider.<p>"
+          "default": "This is just some text for the info slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Text to Slider",
+          "id": "slider_text_two",
+          "info": "Write something to display as text in the slider",
+          "default": "This is just some text for the info slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Text to Slider",
+          "id": "slider_text_three",
+          "info": "Write something to display as text in the slider",
+          "default": "This is just some text for the info slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Text to Slider",
+          "id": "slider_text_four",
+          "info": "Write something to display as text in the slider",
+          "default": "This is just some text for the info slider."
+        }
+      ]
+    },
+    {
+      "name": "Info Slide 2 in 1",
+      "type": "info_slide_2in1",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Select a Image",
+          "id": "image",
+          "info": "Choose an Image to show on slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Title to Slider",
+          "id": "slider_title",
+          "info": "Write something to display as a title in the slider",
+          "default": "Info Slider Title"
+        },
+        {
+          "type": "checkbox",
+          "default": false,
+          "id": "icon-checkbox",
+          "label": "Arrow Checkbox"
+        },
+        {
+          "type": "text",
+          "label": "Add Text to Slider",
+          "id": "slider_text_one",
+          "info": "Write something to display as text in the slider",
+          "default": "This is just some text for the info slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Text to Slider",
+          "id": "slider_text_two",
+          "info": "Write something to display as text in the slider",
+          "default": "This is just some text for the info slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Text to Slider",
+          "id": "slider_text_three",
+          "info": "Write something to display as text in the slider",
+          "default": "This is just some text for the info slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Text to Slider",
+          "id": "slider_text_four",
+          "info": "Write something to display as text in the slider",
+          "default": "This is just some text for the info slider."
+        }
+      ]
+    },
+    {
+      "name": "Info Slide Contact",
+      "type": "info_slide_contact",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Select a Image",
+          "id": "image",
+          "info": "Choose an Image to show on slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Title to Slider",
+          "id": "slider_title",
+          "info": "Write something to display as a title in the slider",
+          "default": "Info Slider Title"
+        },
+        {
+          "type": "checkbox",
+          "default": false,
+          "id": "icon-checkbox",
+          "label": "Arrow Checkbox"
+        },
+        {
+          "type": "text",
+          "label": "Add Text to Slider",
+          "id": "slider_text_one",
+          "info": "Write something to display as text in the slider",
+          "default": "This is just some text for the info slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Text to Slider",
+          "id": "slider_text_two",
+          "info": "Write something to display as text in the slider",
+          "default": "This is just some text for the info slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Text to Slider",
+          "id": "slider_text_three",
+          "info": "Write something to display as text in the slider",
+          "default": "This is just some text for the info slider."
+        },
+        {
+          "type": "text",
+          "label": "Add Text to Slider",
+          "id": "slider_text_four",
+          "info": "Write something to display as text in the slider",
+          "default": "This is just some text for the info slider."
         }
       ]
     }
@@ -62,18 +253,7 @@
   "presets": [
     {
       "name": "Custom Info Slider",
-      "category": "Custom",
-      "blocks": [
-        {
-            "type": "info_slide"
-        },
-        {
-            "type": "info_slide"
-        },
-        {
-            "type": "info_slide"
-        }
-      ]
+      "category": "Custom"
     }
   ]
 }
