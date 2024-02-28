@@ -131,17 +131,6 @@
     "global_product_slider_JtAzG4": {
       "type": "global-product-slider",
       "blocks": {
-        "product_slide_t67Efi": {
-          "type": "product_slide",
-          "settings": {
-            "card_border_color": "#406c93",
-            "selected_product": "",
-            "btn_text": "Details",
-            "btn_type": "",
-            "btn_variant": "primary",
-            "btn_size": ""
-          }
-        },
         "product_slide_7PkiGd": {
           "type": "product_slide",
           "settings": {
@@ -163,12 +152,23 @@
             "btn_variant": "primary",
             "btn_size": ""
           }
+        },
+        "product_slide_tPFKKX": {
+          "type": "product_slide",
+          "settings": {
+            "card_border_color": "#406c93",
+            "selected_product": "",
+            "btn_text": "Details",
+            "btn_type": "",
+            "btn_variant": "primary",
+            "btn_size": ""
+          }
         }
       },
       "block_order": [
-        "product_slide_t67Efi",
         "product_slide_7PkiGd",
-        "product_slide_6QgmwL"
+        "product_slide_6QgmwL",
+        "product_slide_tPFKKX"
       ],
       "settings": {
         "section_title": "Slider Title",
