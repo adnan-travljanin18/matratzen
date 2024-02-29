@@ -1,0 +1,16 @@
+.subscribe-section-padding {
+    padding: 10% 0;
+}
+.subscribe-section-button {
+    padding: 12px 20px 12px 20px;
+    border-radius: 64px;
+    max-height: 59px;
+    color: #fff;
+    background-color: rgba(19, 30, 39, 1);
+}
+
+.subscribe-section-input-field {
+    padding: 12px 20px 12px 20px;
+    border-radius: 64px;
+    border: 1px solid rgba(207, 216, 220, 1);
+}

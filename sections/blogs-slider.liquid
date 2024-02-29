@@ -1,6 +1,7 @@
 <link href="{{ 'blogs-slider.css' | asset_url }}" rel="stylesheet" type="text/css">
+
 <section data-section-id="{{ section.id }}" class="section-blogs-slider" id="{{ section.settings.heading | handleize }}">
-    <div class="container accordion-margins">
+    <div class="container blogs-margins">
         <div class="row">
             <div class="col-6">
                 <div class="block-heading">
@@ -12,8 +13,10 @@
                     <p class="fw-light letter-spacing">{{ section.settings.description }}</p>
                 </div>
             </div>
-            <div class="col-12 py-12 position-relative">
-                    <div class="blog-slider slider-container py-3 d-block">
+            <div class="col-12 py-0 py-sm-12 position-relative">
+                <div class="background-color d-block" style="height: 50%; background-color: rgba(19, 30, 39, 1); position: absolute; bottom: 0; left: 0; width: 100%; z-index: -1;"></div>
+                
+                    <div class="blog-slider slider-container py-10 d-block">
                         <div class="blog-slider blog-swiper swiper mySwiper">
                             <div class="swiper-wrapper">
                                 {% for block in section.blocks %}
@@ -23,7 +26,7 @@
                                             {% assign blog = blogs[selected_blog] %}
                                             {% for article in blog.articles %}
                                                  <div class="ps swiper-slide " >
-                                                    <div class="custom-container container py-16">
+                                                    <div class="blog-padding custom-container container py-16">
                                                         <div class="row flex-column justify-content-around">
                                                             <div class="col-12 pb-4">
                                                                 <div class="blog-slider-img-wrapper">
@@ -35,7 +38,7 @@
                                                                 </div>
                                                                 
                                                             </div>
-                                                            <div class="row col-12 d-flex justify-content-center align-items-center text-start padding-r-0">
+                                                            <div class="row col-12 d-flex justify-content-center align-items-center text-start padding-r-0 text-white">
                                                                 <h5 class="col-12 ps heading-5">{{ article.title }}</h5>
                                                                 <h5 class="mb-3 mb-lg-5 heading-6">{{ blog.handle }}</h5>
                                                             </div>
@@ -51,7 +54,11 @@
                            
                         </div>
                     </div>
-                    <div class="position-absolute right-50">
+                    <div class="pagination-container row ">
+                    <div class="blog-swiper swiper-pagination text-white d-flex padding-left-30 "></div>
+                    <div class="blogs-slider-horizontal-line d-block padding-bottom-slider-pagination-line"></div>
+                    </div>
+                    <div class="position-absolute right-50 padding-bottom-slider-buttons">
                         <div class="blog-slider swiper-button-next" tab-index="0"></div>   
                         <div class="blog-slider swiper-button-prev"></div>
                     </div>
@@ -65,14 +72,23 @@
       document.addEventListener('DOMContentLoaded', function () {
         const swiper = new Swiper(document.querySelector('.blog-swiper'), {
             spaceBetween: 10,
+            slidesPerView: 1,
             navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
             },
             pagination: {
                 el: ".swiper-pagination",
+                type: "custom",
+                renderCustom: function (swiper, current, total) {
+                    return formatPaginationNumber(current) + ' / ' + formatPaginationNumber(total);
+            },
+
             },
             breakpoints:{
+                576:{
+                    slidesPerView: 2,
+                },
                 768:{
                     slidesPerView: 2,
                 },
@@ -85,6 +101,9 @@
             if (nextButton) {
                 nextButton.setAttribute('aria-disabled', 'false');
             } 
+            function formatPaginationNumber(number) {
+                return number < 10 ? '0' + number : number;
+            }
         });
 </script>
 

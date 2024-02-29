@@ -1,0 +1,116 @@
+<link rel="stylesheet" href="{{ 'subscribe-section.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<section class="" data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }};">
+    <div class="container subscribe-section-padding ">
+        <div class="row justify-content-around align-items-center"> <!-- Adjusted classes -->
+            <div class="col-12 col-xl-4 col-lg-5 col-md-6 mt-4">
+                    <div class="text-center"> <!-- Adjusted column width -->
+                        {% if section.settings.subtitle != blank %}
+                            <h5 class="mb-6 mb-lg-8">{{ section.settings.subtitle }}</h5>
+                        {% endif %}
+                        {% if section.settings.title != blank %}
+                            <h2 class="mb-2">{{ section.settings.title }}</h2>
+                        {% endif %}
+                        {% if section.settings.paragraph != blank %}
+                            <p class="mb-6 mb-lg-8">{{ section.settings.paragraph }}</p>        
+                        {% endif %}
+                        <div class="text-content-wrapper">
+                            {% if section.settings.button-text != blank %}
+                                <div class="subscription">
+                                    <input class="subscribe-section-input-field" type="email" placeholder="{{ section.settings.input-field-text }}">
+                                    <button class="subscribe-section-button" type="submit">{{ section.settings.button-text }}</button>
+                                </div>
+                            {% endif %}
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+    {
+      "name": "Subscribe section",
+      "class": "subscribe-section",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Main heading"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "paragraph",
+          "label": "Paragraph"
+        },
+        {
+            "type": "header",
+            "content": "Main subscribe button"
+        },
+        {
+            "type": "text",
+            "id": "input-field-text",
+            "default": "Enter mail address",
+            "label": "Subscribtion input field text"
+        },
+        {
+            "type": "text",
+            "id": "button-text",
+            "default": "Subscribe Now",
+            "label": "Subscribtion button text"
+        },
+            {
+            "type": "header",
+            "content": "Images"
+            },
+            {
+                "type": "image_picker",
+                "id": "image1",
+                "label": "Select first image",
+                "info": "For Better Viewing Use Example dimentions: 775*735 ( Aspect Ratio: 1.05 )"
+            },
+            {
+                "type": "image_picker",
+                "id": "image2",
+                "label": "Select second image"
+            },
+            {
+                "type": "image_picker",
+                "id": "image3",
+                "label": "Select third image"
+            },
+            {
+                "type": "image_picker",
+                "id": "image4",
+                "label": "Select fourth image"
+            },
+        {
+            "type":"header",
+            "content":"styling"
+        },
+        {
+            "type": "color",
+            "id": "section_bg_color",
+            "label": "Background Color",
+            "default": "#fcfbf9"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Subscribe section",
+          "category": "Content"
+        }
+      ]
+    }
+    {% endschema %}
+    
