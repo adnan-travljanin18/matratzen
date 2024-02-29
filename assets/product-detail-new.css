@@ -166,4 +166,7 @@
     .product-thumbnails {
         margin-top: 20px;
     }
+    .quantity-buybtn-wrapper {
+        gap: 1rem;
+    }
 }
