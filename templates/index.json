@@ -33,6 +33,40 @@
         "video_alignment": "justify-content-center"
       }
     },
+    "custom_accordion_T6Tqr6": {
+      "type": "custom-accordion",
+      "blocks": {
+        "question_wG9cFw": {
+          "type": "question",
+          "settings": {
+            "title": "<p>Qualität und Sicherheit: Die Gewissheit hinter RuheOase Matratzen<\/p>",
+            "answer": "<p>Qualität und Sicherheit: Die Gewissheit hinter RuheOase Matratzen<\/p>"
+          }
+        },
+        "question_DJj4TU": {
+          "type": "question",
+          "settings": {
+            "title": "<p>ma<\/p>",
+            "answer": "<p>Qualität und Sicherheit: Die Gewissheit hinter RuheOase Matratzen<\/p>"
+          }
+        },
+        "question_GhxUVC": {
+          "type": "question",
+          "settings": {
+            "title": "<p>adada<\/p>",
+            "answer": "<p>Qualität und Sicherheit: Die Gewissheit hinter RuheOase Matratzen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_wG9cFw",
+        "question_DJj4TU",
+        "question_GhxUVC"
+      ],
+      "settings": {
+        "heading": "FAQ"
+      }
+    },
     "blogs_slider_8MkkA7": {
       "type": "blogs-slider",
       "blocks": {
@@ -149,6 +183,7 @@
   },
   "order": [
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe",
+    "custom_accordion_T6Tqr6",
     "blogs_slider_8MkkA7",
     "add57642-99b3-450a-b701-2c83862dbaa4",
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
