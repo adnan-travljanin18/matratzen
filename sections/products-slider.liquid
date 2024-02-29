@@ -26,7 +26,7 @@
 </div>
 
 {% for block in section.blocks %}
-<div class="slider-container p-xs-sm-5 py-md-5">
+<div class="ps slider-container p-xs-sm-5 py-md-5">
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             {% if block.settings.collection != blank %}
@@ -278,7 +278,7 @@ function toggleSliderContainer(containers, selectedIndex, swipers) {
 
 {% schema %}
     {
-        "name": "t:sections.product-slider.name",
+        "name": "product-slider",
         "class": "product-slider-style",
         "settings": [
             {

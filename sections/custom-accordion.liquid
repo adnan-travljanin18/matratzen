@@ -1,0 +1,207 @@
+
+<link href="{{ 'custom-accordion.css' | asset_url }}" rel="stylesheet" type="text/css">
+<section data-section-id="{{ section.id }}" class="section-accordion" id="{{ section.settings.heading | handleize }}">
+    <div class="container accordion-margins">
+        <div class="row">
+            <div class="col-6">
+                <div class="block-heading">
+                    <h4 class="fw-medium lh-base letter-spacing mb-0">{{ section.settings.heading }}</h4>
+                </div>
+            </div>
+            <div class="col-12">
+                <div>
+                    <div>
+                        {% for block in section.blocks %}
+                            {% if block.settings.title != blank and block.settings.answer != blank %}
+                             <div class="accordion-button-hover row py-5">
+                                <a href="#" class=" col-6 border-bottom border-gray-100 d-flex align-items-center pe-2 justify-content-between" title="Open {{ block.settings.title | strip_html }}" rel="nofollow" aria-label="Open {{ block.settings.title | strip_html }}" role="button" aria-expanded="false" onclick="toggleContent(event, {{ forloop.index }})">
+                                    <h6 class="font-size-lg lh-base fw-normal font-family-base letter-spacing mb-0">{{ block.settings.title }}</h6>
+                                    <span class="icon-class icon-full-arrow-right d-block"></span>
+                                </a>
+                                <div class="col-6" id="content-text-{{ forloop.index }}" data-type="content" style="display: {% if forloop.first %} block {% else %} none {% endif %};">
+                                    <div class="fw-light letter-spacing rpt-5 pt-4">{{ block.settings.answer }}</div>
+                                </div> 
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container border-bottom border-gray-100 d-block"></div>
+</section>
+
+<script>
+    var currentOpenIndex = 0; // Initialize to 0 to open the first content
+    function toggleContent(event, index) {
+        event.preventDefault(); // Prevent default link behavior
+        
+        // Ensure the index is a valid number
+        if (typeof index !== 'number') {
+            console.error("Invalid index:", index);
+            return;
+        }
+        
+        var contentDiv = document.getElementById('content-text-' + index);
+        if (!contentDiv) {
+            console.error("Content div not found for index:", index);
+            return;
+        }
+        
+        // Close the currently open content if it's not the first accordion
+        if (currentOpenIndex !== null && currentOpenIndex !== index) {
+            var currentContentDiv = document.getElementById('content-text-' + currentOpenIndex);
+            if (currentContentDiv) {
+                currentContentDiv.style.display = 'none';
+                // Reset rotation for the previously active button
+                var prevButton = document.querySelector('[aria-expanded="true"] .icon-arrow-down');
+                if (prevButton) {
+                    prevButton.style.transform = 'rotate(0deg)';
+                }
+            }
+        }
+        
+        // If the clicked content is already open and it's not the first one, just return
+        if (currentOpenIndex === index && contentDiv.style.display === 'block' && index !== 1) {
+            return;
+        }
+        // DOADATI NA USLOV AKO JE DIV PORED DISPLAY BLOCK ONDA IDE ROTACIJA, AKO JE DISPLAY NONE ONDA DA ROTIRA NAZAD SVE OSTALE STRELICE
+
+        // Open the clicked content
+        contentDiv.style.display = 'block';
+        // Rotate the icon for the active button
+        var currentButton = event.target.children[1];
+
+        if (currentButton) {
+            currentButton.style.transform = 'rotate(45deg)';
+        }
+        
+        // If all are closed, open the clicked content
+        if (currentOpenIndex === null) {
+            contentDiv.style.display = 'block';
+        }
+        
+        // Close the first accordion on first change
+        if (currentOpenIndex === 0) {
+            var firstContentDiv = document.getElementById('content-text-1');
+            if (firstContentDiv) {
+                firstContentDiv.style.display = 'none';
+            }
+        }
+        
+        currentOpenIndex = index;
+    }
+</script>
+
+{% schema %}
+  {
+    "name": "Custom Accordion",
+    "class": "dynamic-faq-block",
+    "settings": [
+		{
+            "type": "text",
+            "id": "heading",
+            "label": "Block Title",
+            "default": "FAQ"
+        }
+	],
+    "blocks": [
+        {
+            "type": "question",
+            "name": "FAQ",
+            "settings": [
+                {
+                    "type": "richtext",
+                    "id": "title",
+                    "label": "Question"
+                },
+                {
+                    "type": "richtext",
+                    "id": "answer",
+                    "label": "Answer"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Custom Accordion",
+            "category": "Content"
+        }
+    ]
+}
+{% endschema %}
+
+{% comment %} {% if section.settings.enable %}
+    <section data-section-id="{{ section.id }}"  class="pb-11 section-faq" id="{{ section.settings.heading | handleize }}">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block-heading">
+                        <h4 class="fw-medium lh-base letter-spacing mb-0">{{ section.settings.heading }}</h4>
+                    </div>
+                    <div data-faq-section>
+                        <custom-accordion {{ block.shopify_attributes }} data-accordionType="single">
+                            {% for block in section.blocks %}
+                                {% if block.settings.accordion-details != blank %}
+                                    <div>
+                                        <div class="accordion__container border-bottom border-gray-100 py-5">
+                                            <a class="accordion__toggle d-flex align-items-center pe-2 justify-content-between" href="#" title="Open {{ block.settings.title | strip_html }}" rel="nofollow" aria-label="Open {{ block.settings.title | strip_html }}" role="button" aria-expanded="false" aria-controls="faq-{{ section.settings.heading | handleize }}-{{ forloop.index }}">
+                                                <h6 class="font-size-lg lh-base fw-normal font-family-base letter-spacing mb-0">{{ block.settings.accordion-details }}</h6>
+                                                <span class="icon-arrow-down d-block"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </custom-accordion>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+{% endif %}
+
+<script>
+
+</script>
+
+{% schema %}
+    {
+      "name": "Custom accordion",
+      "class": "dynamic-accordion-block",
+      "settings": [
+          {
+              "type": "checkbox",
+              "id": "enable",
+              "label": "Enable?"
+          },
+          {
+              "type": "text",
+              "id": "heading",
+              "label": "Block Title",
+              "default": "About Hatmony A"
+          }
+      ],
+      "blocks": [
+          {
+              "type": "text",
+              "name": "Details",
+              "settings": [
+                  {
+                      "type": "text",
+                      "id": "accordion-details",
+                      "label": "Accordion details"
+                  }
+              ]
+          }
+      ],
+      "presets": [
+          {
+              "name": "Custom Accordion",
+              "category": "Content"
+          }
+      ]
+  }
+  {% endschema %} {% endcomment %}

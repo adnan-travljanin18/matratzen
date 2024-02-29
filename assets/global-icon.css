@@ -79,6 +79,22 @@
 .icon-arrow-left:before {
   content: "\e917";
 }
+.icon-full-arrow-right:before {
+  content: "";
+  display: inline-block;
+  width: 20px; /* Adjust the width according to your image */
+  height: 16px; /* Adjust the height according to your image */
+  background-image: url('https://cdn.shopify.com/s/files/1/0817/9308/9823/files/arrow-right.png?v=1709137763'); /* Replace 'path/to/your/image.png' with the path to your image */
+  background-size: cover;
+}
+.icon-full-arrow-south-east:before {
+  content: "";
+  display: inline-block;
+  width: 20px; /* Adjust the width according to your image */
+  height: 20px; /* Adjust the height according to your image */
+  background-image: url('https://cdn.shopify.com/s/files/1/0817/9308/9823/files/arrow-down-right.png?v=1709137767'); /* Replace 'path/to/your/image.png' with the path to your image */
+  background-size: cover;
+}
 .icon-play:before {
   content: "\e918";
 }
