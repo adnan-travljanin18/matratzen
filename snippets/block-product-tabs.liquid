@@ -1,7 +1,7 @@
-{% if block.settings.product_tabs_layout == 'tabify' %}
+
 <custom-tabs class="bg-white d-block overflow-hidden pt-6" {{ block.shopify_attributes }}>
   <div class="{% if block.settings.product_tabs_fluid_layout %}container-fluid{% else %}container{% endif %}">
-    <div id="productTabs" data-product-tabs>
+    <div id="productTabs" class="d-none d-md-block" data-product-tabs>
       <ul class="tabs d-flex list-unstyled text-uppercase fw-medium description-parent" role="tablist">
         {% if block.settings.enable_descripion_tab and product.description != blank %}
         <li class="tablink open" role="tab">
@@ -45,10 +45,10 @@
       </div>
     </div>
 </custom-tabs>
-{% else %}
-<custom-accordion class="bg-white d-block pb-10" {{ block.shopify_attributes }} data-accordionType="multiple">
+
+<custom-accordion class="bg-white d-block pb-4" {{ block.shopify_attributes }} data-accordionType="multiple">
   <div class="{% if block.settings.product_tabs_fluid_layout %}container-fluid{% else %}container{% endif %}">
-    <div id="productAccordion" data-product-accordion>
+    <div id="productAccordion" class="d-block d-md-none" data-product-accordion>
       {% if block.settings.enable_descripion_tab and product.description != blank %}
         <div class="accordion__container py-3 border-bottom">
           <a class="accordion__toggle d-flex h6 text-uppercase mb-0" href="#" title="Open {{ 'products.product.description' | t }}" rel="nofollow" aria-label="Open {{ 'products.product.description' | t }}" role="button" aria-expanded="false" aria-controls="accordion_description">
@@ -80,7 +80,12 @@
             <span class="icon-arrow-down ms-auto font-size-lg lh-1"></span>
           </a>
           <div class="accordion__block toggle-content" id="accordion_customTab1" data-type="content">
-            <div class="rte pt-5">{{ pages[block.settings.tab_1_content].content }}</div>
+            <!-- Start of Judge.me code --> 
+            <div style='clear:both'></div> 
+            <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-id='{{ product.id }}'> 
+              {{ product.metafields.judgeme.widget }} 
+            </div> 
+          <!-- End of Judge.me code -->
           </div>
         </div>
       {% endif %}
@@ -88,4 +93,4 @@
     </div>
   </div>
 </custom-accordion>
-{% endif %}
+

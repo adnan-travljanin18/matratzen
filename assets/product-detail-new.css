@@ -1,6 +1,3 @@
-.product-section slider-element {
-    height: 698px;
-}
 .product-section slider-element .product-carousel {
     height: 100%;
 }
@@ -122,7 +119,6 @@
     align-items: start;
 }
 .featured-collection-slider .card-img {
-    max-width: 298px;
     max-height: 215px;
     aspect-ratio: 1/1;
 }
@@ -139,6 +135,7 @@
     position: unset!important;
     border-radius: 16px;
 }
+
 .featured-collection-slider .jdgm-preview-badge {
     display: none!important;
 }
@@ -156,4 +153,17 @@
     top: 0;
     right: 0;
     position: absolute!important;
+}
+@media only screen and (min-width:768px) {
+    .product-section slider-element {
+        height: 698px;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    .slider-navigation-wrapper {
+        display: none;
+    }
+    .product-thumbnails {
+        margin-top: 20px;
+    }
 }
