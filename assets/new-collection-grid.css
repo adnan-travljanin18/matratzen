@@ -7,7 +7,7 @@
 .banner-image-with-text {
     padding: 2rem;
 }
-.banner-img-border img {
+.banner-img-border-collection img {
     height: 100%;
     object-fit: cover;
     position: relative;
@@ -22,7 +22,7 @@
     .banner-image-with-text {
         padding: 9rem 0 16rem 0;
     }
-    .banner-img-border::after {
+    .banner-img-border-collection::after {
         content: '';
         position: absolute;
         width: 100%;
@@ -36,10 +36,10 @@
     .banner-image-with-text-heading {
         font-size: 3.5rem;
     }
-    .banner-img-border img {
+    .banner-img-border-collection img {
         border-radius: 190px 16px 16px 16px;
     }
-    .banner-img-border {
+    .banner-img-border-collection {
         position: relative;
         z-index: 1;
         max-width: 407px;
