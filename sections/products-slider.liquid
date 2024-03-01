@@ -21,13 +21,13 @@
 
 <div class="tab btn-group justify-content-start row d-row gap-3 justify-content-md-normal justify-content-center margin-x-1" role="group">
     {% for block in section.blocks %}
-    <button type="button" class="btn tab-button products-category-button col-5 col-md-3 col-lg-2 col-xxxl-1">{{ block.settings.products-category-button-text }}</button>
+    <button type="button" class="btn tab-button products-category-button col-5 col-md-3 col-lg-2">{{ block.settings.products-category-button-text }}</button>
     {% endfor %}
 </div>
 
 {% for block in section.blocks %}
 <div class="ps slider-container p-xs-sm-5 py-md-5">
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper mySwiper-product">
         <div class="swiper-wrapper">
             {% if block.settings.collection != blank %}
             {% assign _collection = collections[block.settings.collection] %}
@@ -64,11 +64,7 @@
                                 {%- endif -%}
                             </h5>
                             <h5 class="mb-3 mb-lg-5 heading-6">
-                                {%- if product.description != blank -%}
-                                    {{- product.description | escape -}}
-                                {%- else -%}
-                                    {{ 'onboarding.collection_title' | t }}
-                                {%- endif -%}
+                                <p class="text-capitalize">{{ _collection.handle }}</p>
                             </h5>
                         </div>
                     </div>
@@ -119,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function initializeSwipers(containers) {
     const swipers = [];
     containers.forEach(container => {
-        const swiper = new Swiper(container.querySelector('.mySwiper'), {
+        const swiper = new Swiper(container.querySelector('.mySwiper-product'), {
             slidesPerView: 1,
             spaceBetween: 0,
             loop: true,
@@ -159,122 +155,6 @@ function toggleSliderContainer(containers, selectedIndex, swipers) {
     });
 }
 </script>
-{% comment %} <section data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }};">
-    <div class="container">
-        <div class="row d-flex justify-content-between">
-            <div class="col-md-4">
-                <h2 class="mb-3 collection-slider-h2">
-                    {%- if section.settings.title != blank -%}
-                        {{- section.settings.title | escape -}}
-                    {%- else -%}
-                        {{ 'onboarding.collection_title' | t }}
-                    {%- endif -%}
-                </h2>  
-            </div>
-            <div class="col-md-2">
-                {% if section.settings.products-slider-button-text != blank %}
-                <button {% if section.settings.products-slider-button-link %} href="{{ section.settings.products-slider-button-link }}" {% endif %}class="products-slider-button">
-                    {{ section.settings.products-slider-button-text }}
-                </button>
-                {% endif %}
-            </div>
-        </div>
-        <div class="d-flex flex-row btn-group py-4">
-            {%- for block in section.blocks -%}
-                <custom-tabs class="bg-white d-block overflow-x-hidden pt-6">
-                    <div class="">
-                        <div id="productTabs" data-product-tabs>
-                            <ul class="tabs d-flex list-unstyled text-uppercase fw-medium description-parent" role="tablist">
-                                <li class="tablink open" role="tab">
-                                    <a class="nav-link" data-toggle="tab" href="#description" data-tabcontent="#description" aria-expanded="true">{{ block.settings.products-category-button-text }}</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content text-left" id="productTabsContent">
-                                <div class="swiper mySwiper">
-                                    <div class="swiper-wrapper">
-                                        <div class="tab-pane tabcontent open" id="description" role="tabpanel">
-                                            {%- for block in section.blocks -%}
-                                                {% if block.settings.collection != blank %}
-                                                    {% assign _collection = collections[block.settings.collection] %}
-                                                    {%- for product in _collection.products %}
-                                                        <div class="swiper-slide px-10 d-flex justify-content-center">
-                                                            <div class="custom-container container py-16">
-                                                                <div class="row justify-content-around">
-                                                                    <div class="col-12 col-md-8"> 
-                                                                        {%- if product.featured_media != blank -%}
-                                                                            <img 
-                                                                                srcset="
-                                                                                    {%- if product.featured_media.width >= 360 -%}{{ product.featured_media | image_url: width: 360 }} 360w,{%- endif -%}
-                                                                                    {%- if product.featured_media.width >= 535 -%}{{ product.featured_media | image_url: width: 535 }} 535w,{%- endif -%}
-                                                                                    {%- if product.featured_media.width >= 750 -%}{{ product.featured_media | image_url: width: 750 }} 750w,{%- endif -%}
-                                                                                    {{ product.featured_media | image_url }} {{ product.featured_media.width }}w"
-                                                                                src="{{ product.featured_media | image_url: width: 50 }}"
-                                                                                sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | minus: 100 | divided_by: 3 }}px, (min-width: 768px) calc((100vw - 130px) / 2), 50vw"
-                                                                                alt="{{ product.featured_media.alt | default: product.title | escape }}"
-                                                                                height="{{ product.featured_media.height }}"
-                                                                                width="{{ product.featured_media.width }}"
-                                                                                loading="lazy" >
-                                                                        {%- else -%} 
-                                                                            {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}   
-                                                                        {%- endif -%}
-                                                                    </div>
-                                                                    <div class="col-12 col-md-3 d-flex justify-content-center flex-column align-items-center text-start">
-                                                                        <h5 class="mb-3 heading-5">
-                                                                            {%- if product.title != blank -%}
-                                                                                {{- product.title | escape -}}
-                                                                            {%- else -%}
-                                                                                {{ 'onboarding.collection_title' | t }}
-                                                                            {%- endif -%}
-                                                                        </h5>            
-                                                                        <h5 class="mb-3 mb-lg-5 heading-5">
-                                                                            {%- if product.description != blank -%}
-                                                                                {{- product.description | escape -}}
-                                                                            {%- else -%}
-                                                                                {{ 'onboarding.collection_title' | t }}
-                                                                            {%- endif -%}
-                                                                        </h5>
-                                                                        <h5 class="mb-3 mb-lg-5 heading-5">
-                                                                            {%- if product.price != blank -%}
-                                                                                {{- product.price | money -}}
-                                                                            {%- endif -%}
-                                                                        </h5>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    {% endfor %}
-                                                {% endif %}
-                                            {%- endfor -%}
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane tabcontent" id="custom-tab-1" role="tabpanel">
-                                </div>
-                                <div class="tab-pane tabcontent" id="custom-tab-2" role="tabpanel">
-                                    <div class="rpt-5 py-5 px-lg-6">{{ block.settings.tab_2_content }}</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </custom-tabs>
-            {%- endfor -%}
-        </div>
-    </div>
-</section>
-
-<script>
-        var swiper = new Swiper(".mySwiper", {
-            direction: 'horizontal',
-            loop: true,
-            autoHeight: true,
-            slidesPerView: 3,
-            spaceBetween: 30,
-            autoplay: {
-                delay: 54000, // milliseconds
-                disableOnInteraction: false, // keep autoplay even when user interacts with slider
-            }
-        }); 
-</script> {% endcomment %}
 
 {% schema %}
     {
@@ -322,11 +202,6 @@ function toggleSliderContainer(containers, selectedIndex, swipers) {
                     "type": "collection",
                     "id": "collection",
                     "label": "Collection"
-                    },
-                    {
-                    "type": "product",
-                    "id": "product",
-                    "label": "Product"
                     }
                 ]
             }
