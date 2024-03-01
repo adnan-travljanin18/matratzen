@@ -1,6 +1,6 @@
 <link href="{{ 'blogs-slider.css' | asset_url }}" rel="stylesheet" type="text/css">
 
-<section data-section-id="{{ section.id }}" class="section-blogs-slider" id="{{ section.settings.heading | handleize }}">
+<section data-section-id="{{ section.id }}" class="section-blogs-slider position-relative" id="{{ section.settings.heading | handleize }}">
     <div class="container blogs-margins gblo">
         <div class="row">
             <div class="col-6">
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="col-12 py-0 py-sm-12 position-relative">
-                <div class="background-color d-block" style="height: 50%; background-color: rgba(19, 30, 39, 1); position: absolute; bottom: 0; left: 0; width: 100%; z-index: -1;"></div>
+                {% comment %} <div class="background-color d-block" style="height: 50%; background-color: rgba(19, 30, 39, 1); position: absolute; bottom: 0; left: 0; width: 100%; z-index: -1;"></div> {% endcomment %}
                 
                     <div class="blog-slider slider-container py-10 d-block">
                         <div class="blog-slider blog-swiper swiper mySwiper">
@@ -55,8 +55,8 @@
                         </div>
                     </div>
                     <div class="pagination-container row ">
-                    <div class="blog-swiper swiper-pagination text-white d-flex padding-left-30 "></div>
-                    <div class="blogs-slider-horizontal-line d-block padding-bottom-slider-pagination-line"></div>
+                        <div class="blog-swiper-pagination swiper-pagination text-white d-flex padding-left-30 "></div>
+                        <div class="blogs-slider-horizontal-line d-block padding-bottom-slider-pagination-line"></div>
                     </div>
                     <div class="position-absolute right-50 padding-bottom-slider-buttons">
                         <div class="blog-slider swiper-button-next" tab-index="0"></div>   
@@ -70,41 +70,42 @@
 
 <script>
       document.addEventListener('DOMContentLoaded', function () {
-        const swiper = new Swiper(document.querySelector('.blog-swiper'), {
+        const swiper = new Swiper('.blog-swiper', {
             spaceBetween: 10,
             slidesPerView: 1,
             navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
             pagination: {
-                el: ".swiper-pagination",
+                el: ".blog-swiper-pagination", // Update to the correct class
                 type: "custom",
                 renderCustom: function (swiper, current, total) {
                     return formatPaginationNumber(current) + ' / ' + formatPaginationNumber(total);
+                },
             },
-
-            },
-            breakpoints:{
-                576:{
+            breakpoints: {
+                576: {
                     slidesPerView: 2,
                 },
-                768:{
+                768: {
                     slidesPerView: 2,
                 },
-                1100:{
+                1100: {
                     slidesPerView: 3,
                 }
             }
         });
+
         const nextButton = document.querySelector('.swiper-button-next');
-            if (nextButton) {
-                nextButton.setAttribute('aria-disabled', 'false');
-            } 
-            function formatPaginationNumber(number) {
-                return number < 10 ? '0' + number : number;
-            }
-        });
+        if (nextButton) {
+            nextButton.setAttribute('aria-disabled', 'false');
+        }
+
+        function formatPaginationNumber(number) {
+            return number < 10 ? '0' + number : number;
+        }
+    });
 </script>
 
 {% schema %}
