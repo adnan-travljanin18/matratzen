@@ -1,4 +1,4 @@
-{% comment %} <section data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_txt_color }}">
+<section data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_txt_color }}">
     <div class="w-100 h-50-vh position-absolute mx-5-percent mw-90vw"> 
         <div class="swiper mySwiper custom-circle-border-radius">
             <div class="swiper-wrapper">
@@ -63,10 +63,6 @@
         el: ".swiper-pagination",
         clickable: true
     },
-    // autoplay: {
-    //     delay: 4000, // milliseconds
-    //     disableOnInteraction: false, // keep autoplay even when user interacts with slider
-    // },
     breakpoints: {
         768: {
             direction: 'vertical'
@@ -116,4 +112,4 @@
             }
         ]
     }
-{% endschema %} {% endcomment %}
+{% endschema %}
