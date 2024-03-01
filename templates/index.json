@@ -3,19 +3,19 @@
     "hero_banner_kG4AmQ": {
       "type": "hero-banner",
       "blocks": {
-        "featured_collection_XFdBWB": {
+        "featured_collection_GAXic8": {
           "type": "featured_collection",
           "settings": {
             "collection": "matratzen"
           }
         },
-        "featured_collection_nQ7a7g": {
+        "featured_collection_AYtdj9": {
           "type": "featured_collection",
           "settings": {
-            "collection": "matratzen"
+            "collection": "shop-all"
           }
         },
-        "featured_collection_yJ7DLn": {
+        "featured_collection_C8KKxm": {
           "type": "featured_collection",
           "settings": {
             "collection": "matratzen"
@@ -23,9 +23,9 @@
         }
       },
       "block_order": [
-        "featured_collection_XFdBWB",
-        "featured_collection_nQ7a7g",
-        "featured_collection_yJ7DLn"
+        "featured_collection_GAXic8",
+        "featured_collection_AYtdj9",
+        "featured_collection_C8KKxm"
       ],
       "settings": {
         "fluid_layout": true,
@@ -47,7 +47,7 @@
         "placement": "grid",
         "video_id": "",
         "mobile_video_id": "",
-        "section_bg_color": "#fff",
+        "section_bg_color": "#ffffff",
         "section_text_color": "#000000",
         "alignment": "text-center",
         "video_alignment": "justify-content-center",
