@@ -14,7 +14,7 @@
                         {% for block in section.blocks %}
                             {% if block.settings.title != blank and block.settings.answer != blank %}
                              <div class="accordion-button-hover row py-5">
-                                <a href="#" class=" col-6 border-bottom border-gray-100 d-flex align-items-center pe-2 justify-content-between" title="Open {{ block.settings.title | strip_html }}" rel="nofollow" aria-label="Open {{ block.settings.title | strip_html }}" role="button" aria-expanded="false" onclick="toggleContent(event, {{ forloop.index }})">
+                                <a href="#" class=" col-6 border-bottom border-gray-100 d-flex align-items-center pe-2 justify-content-between arrow-positioning" title="Open {{ block.settings.title | strip_html }}" rel="nofollow" aria-label="Open {{ block.settings.title | strip_html }}" role="button" aria-expanded="false" onclick="toggleContent(event, {{ forloop.index }})">
                                     <h6 class="font-size-lg lh-base fw-normal font-family-base letter-spacing mb-0">{{ block.settings.title }}</h6>
                                     <span class="icon-class icon-full-arrow-right d-block"></span>
                                 </a>
@@ -33,66 +33,53 @@
 </section>
 
 <script>
-    var currentOpenIndex = 0; // Initialize to 0 to open the first content
-    function toggleContent(event, index) {
-        event.preventDefault(); // Prevent default link behavior
-        
-        // Ensure the index is a valid number
-        if (typeof index !== 'number') {
-            console.error("Invalid index:", index);
-            return;
+    // Function to set the initial active state
+    function setInitialActiveState() {
+        // Add 'active' class to the first anchor tag
+        var firstAnchor = document.querySelector('.accordion-button-hover a');
+        if (firstAnchor) {
+            firstAnchor.classList.add('active');
         }
-        
-        var contentDiv = document.getElementById('content-text-' + index);
-        if (!contentDiv) {
-            console.error("Content div not found for index:", index);
-            return;
-        }
-        
-        // Close the currently open content if it's not the first accordion
-        if (currentOpenIndex !== null && currentOpenIndex !== index) {
-            var currentContentDiv = document.getElementById('content-text-' + currentOpenIndex);
-            if (currentContentDiv) {
-                currentContentDiv.style.display = 'none';
-                // Reset rotation for the previously active button
-                var prevButton = document.querySelector('[aria-expanded="true"] .icon-arrow-down');
-                if (prevButton) {
-                    prevButton.style.transform = 'rotate(0deg)';
-                }
-            }
-        }
-        
-        // If the clicked content is already open and it's not the first one, just return
-        if (currentOpenIndex === index && contentDiv.style.display === 'block' && index !== 1) {
-            return;
-        }
-        // DOADATI NA USLOV AKO JE DIV PORED DISPLAY BLOCK ONDA IDE ROTACIJA, AKO JE DISPLAY NONE ONDA DA ROTIRA NAZAD SVE OSTALE STRELICE
-
-        // Open the clicked content
-        contentDiv.style.display = 'block';
-        // Rotate the icon for the active button
-        var currentButton = event.target.children[1];
-
-        if (currentButton) {
-            currentButton.style.transform = 'rotate(45deg)';
-        }
-        
-        // If all are closed, open the clicked content
-        if (currentOpenIndex === null) {
-            contentDiv.style.display = 'block';
-        }
-        
-        // Close the first accordion on first change
-        if (currentOpenIndex === 0) {
-            var firstContentDiv = document.getElementById('content-text-1');
-            if (firstContentDiv) {
-                firstContentDiv.style.display = 'none';
-            }
-        }
-        
-        currentOpenIndex = index;
     }
+
+    // Function to toggle content
+    function toggleContent(event, index) {
+        // Prevent the default anchor tag behavior (e.g., navigating to a new page)
+        event.preventDefault();
+
+        // Remove 'active' class from all anchor tags
+        document.querySelectorAll('.accordion-button-hover a').forEach(function (element) {
+            element.classList.remove('active');
+        });
+
+        // Add 'active' class to the clicked anchor tag
+        event.currentTarget.classList.add('active');
+
+        // Hide all content-text elements
+        document.querySelectorAll('[data-type="content"]').forEach(function (element) {
+            element.style.display = 'none';
+        });
+
+        // Show the selected content-text element
+        var contentElement = document.getElementById('content-text-' + index);
+        if (contentElement) {
+            contentElement.style.display = 'block';
+        }
+    }
+
+    // Set initial active state when the page loads
+    document.addEventListener('DOMContentLoaded', setInitialActiveState);
 </script>
+
+<style>
+    .arrow-positioning .icon-full-arrow-right {
+        transition: transform 0.3s ease-in-out;
+    }
+    .arrow-positioning.active .icon-full-arrow-right {
+        transform: rotate(45deg);
+    }
+</style>
+
 
 {% schema %}
   {
