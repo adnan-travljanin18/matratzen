@@ -1,5 +1,107 @@
 {
   "sections": {
+    "hero_banner_kG4AmQ": {
+      "type": "hero-banner",
+      "blocks": {
+        "featured_collection_XFdBWB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "matratzen"
+          }
+        },
+        "featured_collection_nQ7a7g": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "matratzen"
+          }
+        },
+        "featured_collection_yJ7DLn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "matratzen"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_XFdBWB",
+        "featured_collection_nQ7a7g",
+        "featured_collection_yJ7DLn"
+      ],
+      "settings": {
+        "fluid_layout": true,
+        "muted": true,
+        "controls": false,
+        "loop": true,
+        "logo_image": "shopify:\/\/shop_images\/logo_image.png",
+        "hero_baner_small_image": "shopify:\/\/shop_images\/hero-banner-right-room.jpg",
+        "btn_txt": "Discover Our Insights",
+        "btn_link": "shopify:\/\/collections\/frontpage",
+        "btn_type": "",
+        "btn_variant": "white",
+        "btn_size": "",
+        "poster_type": "video",
+        "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0c232487e0ce4124b62dba2a844f57a9.mp4",
+        "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0c232487e0ce4124b62dba2a844f57a9.mp4",
+        "fluid_video_layout": true,
+        "video_type": "local",
+        "placement": "grid",
+        "video_id": "",
+        "mobile_video_id": "",
+        "section_bg_color": "#fff",
+        "section_text_color": "#000000",
+        "alignment": "text-center",
+        "video_alignment": "justify-content-center",
+        "bcs_btn_link": ""
+      }
+    },
+    "products_slider_ccTP8t": {
+      "type": "products-slider",
+      "blocks": {
+        "featured_collection_w4FBQE": {
+          "type": "featured_collection",
+          "settings": {
+            "products-category-button-text": "Show All",
+            "collection": "matratzen",
+            "product": ""
+          }
+        },
+        "featured_collection_nBmpN8": {
+          "type": "featured_collection",
+          "settings": {
+            "products-category-button-text": "Mattress",
+            "collection": "frontpage",
+            "product": ""
+          }
+        },
+        "featured_collection_F87krh": {
+          "type": "featured_collection",
+          "settings": {
+            "products-category-button-text": "Sheets",
+            "collection": "matratzen",
+            "product": ""
+          }
+        },
+        "featured_collection_ahNJAz": {
+          "type": "featured_collection",
+          "settings": {
+            "products-category-button-text": "Topper",
+            "collection": "matratzen",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_w4FBQE",
+        "featured_collection_nBmpN8",
+        "featured_collection_F87krh",
+        "featured_collection_ahNJAz"
+      ],
+      "settings": {
+        "title": "Serenity Products",
+        "products-slider-button-text": "Shop All",
+        "products-slider-button-link": "shopify:\/\/collections"
+      }
+    },
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe": {
       "type": "global-video-with-text",
       "custom_css": [
@@ -39,32 +141,40 @@
         "question_wG9cFw": {
           "type": "question",
           "settings": {
-            "title": "<p>Qualität und Sicherheit: Die Gewissheit hinter RuheOase Matratzen<\/p>",
-            "answer": "<p>Qualität und Sicherheit: Die Gewissheit hinter RuheOase Matratzen<\/p>"
+            "title": "<p>About Harmony A<\/p>",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultricies lacus, non posuere risus. Aliquam ac tellus in magna aliquam consectetur. Duis auctor venenatis dapibus. Nulla nisi dolor, rutrum non nisi vitae, vulputate mollis turpis. Maecenas odio mi, faucibus eget semper vel, porttitor vitae sapien.<\/p>"
           }
         },
         "question_DJj4TU": {
           "type": "question",
           "settings": {
-            "title": "<p>ma<\/p>",
-            "answer": "<p>Qualität und Sicherheit: Die Gewissheit hinter RuheOase Matratzen<\/p>"
+            "title": "<p>About Harmony B<\/p>",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultricies lacus, non posuere risus. Aliquam ac tellus in magna aliquam consectetur. Duis auctor venenatis dapibus. Nulla nisi dolor, rutrum non nisi vitae, vulputate mollis turpis. Maecenas odio mi, faucibus eget semper vel, porttitor vitae sapien.<\/p>"
           }
         },
         "question_GhxUVC": {
           "type": "question",
           "settings": {
-            "title": "<p>adada<\/p>",
-            "answer": "<p>Qualität und Sicherheit: Die Gewissheit hinter RuheOase Matratzen<\/p>"
+            "title": "<p>About Harmony C<\/p>",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultricies lacus, non posuere risus. Aliquam ac tellus in magna aliquam consectetur. Duis auctor venenatis dapibus. Nulla nisi dolor, rutrum non nisi vitae, vulputate mollis turpis. Maecenas odio mi, faucibus eget semper vel, porttitor vitae sapien.<\/p>"
+          }
+        },
+        "question_BeMfBY": {
+          "type": "question",
+          "settings": {
+            "title": "<p>About Harmony D<\/p>",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultricies lacus, non posuere risus. Aliquam ac tellus in magna aliquam consectetur. Duis auctor venenatis dapibus. Nulla nisi dolor, rutrum non nisi vitae, vulputate mollis turpis. Maecenas odio mi, faucibus eget semper vel, porttitor vitae sapien.<\/p>"
           }
         }
       },
       "block_order": [
         "question_wG9cFw",
         "question_DJj4TU",
-        "question_GhxUVC"
+        "question_GhxUVC",
+        "question_BeMfBY"
       ],
       "settings": {
-        "heading": "FAQ"
+        "heading": "Harmony Oasis Details"
       }
     },
     "blogs_slider_8MkkA7": {
@@ -182,6 +292,8 @@
     }
   },
   "order": [
+    "hero_banner_kG4AmQ",
+    "products_slider_ccTP8t",
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe",
     "custom_accordion_T6Tqr6",
     "blogs_slider_8MkkA7",
