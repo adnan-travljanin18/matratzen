@@ -1,0 +1,17 @@
+$xsmobile: 'screen and (max-width:375px)';
+$smobile: 'screen and (max-width:480px)';
+$mobile: 'screen and (max-width:767px)';
+$medium: 'screen and (max-width:991px)';
+$large: 'screen and (max-width:1199px)';
+$xl: 'screen and (max-width:1499px)';
+// ------
+$min-mobile: 'screen and (min-width:768px)';
+$min-medium: 'screen and (min-width:992px)';
+$min-large: 'screen and (min-width:1200px)';
+$min-xl: 'screen and (min-width:1500px)';
+
+@mixin break($range) {
+	@media #{$range} {
+		@content;
+	}
+}
