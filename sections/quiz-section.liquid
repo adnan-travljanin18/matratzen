@@ -1,57 +1,21 @@
-<section class="section-content banner-image-with-text"  data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_text_color }}">
+<section 
+    class="section-content banner-image-with-text" 
+    data-section-id="{{ section.id }}" 
+    style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_text_color }}"
+>
     <div class="{% if section.settings.fluid_layout %}container-fluid{% else %}container{% endif %}">
         {% if section.settings.heading_txt != blank %}
             {% if section.settings.heading_above == true %}
                 <h3 class="mb-3 text-center">{{ section.settings.heading_txt }}</h3> 
             {% endif %}
         {% endif %}
-    <div class="row {% if section.settings.column != blank %}flex-column {% endif %} {% if section.settings.column_reverse != blank %}flex-column-reverse {% endif %}align-items-center">
-            <div class="col-12 col-lg-5 order-lg-2">
-                <div class="banner-img-border {{ section.settings.height }}" style="color:{{ section.settings.border_color }}">
-                    {%- if section.settings.image != blank -%}
-                        {% if section.settings.url_on_image != blank %}
-                            <a href="{{ section.settings.url_on_image }}">
-                                <img
-                                    srcset="
-                                    {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-                                    {%- if section.settings.image.width >= 520 -%}{{ section.settings.image | image_url: width: 520 }} 520w,{%- endif -%}
-                                    {%- if section.settings.image.width >= 650 -%}{{ section.settings.image | image_url: width: 650 }} 650w,{%- endif -%}
-                                    {%- if section.settings.image.width >= 780 -%}{{ section.settings.image | image_url: width: 780 }} 780w,{%- endif -%}
-                                    {%- if section.settings.image.width >= 900 -%}{{ section.settings.image | image_url: width: 900 }} 900w,{%- endif -%}
-                                    {%- if section.settings.image.width >= 1000 -%}{{ section.settings.image | image_url: width: 1000 }} 1000w,{%- endif -%}"
-                                    src="{{ section.settings.image | image_url: width: 50 }}"
-                                    sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), 100vw"
-                                    alt="{{ section.settings.image.alt | escape }}"
-                                    class="w-100"
-                                    loading="lazy"
-                                    width="{{ section.settings.image.width | divided_by: 3 }}"
-                                    height="{{ section.settings.image.height | divided_by: 3 }}"
-                                >
-                            </a>
-                        {% else %}
-                            <img
-                                srcset="
-                                {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-                                {%- if section.settings.image.width >= 520 -%}{{ section.settings.image | image_url: width: 520 }} 520w,{%- endif -%}
-                                {%- if section.settings.image.width >= 650 -%}{{ section.settings.image | image_url: width: 650 }} 650w,{%- endif -%}
-                                {%- if section.settings.image.width >= 780 -%}{{ section.settings.image | image_url: width: 780 }} 780w,{%- endif -%}
-                                {%- if section.settings.image.width >= 900 -%}{{ section.settings.image | image_url: width: 900 }} 900w,{%- endif -%}
-                                {%- if section.settings.image.width >= 1000 -%}{{ section.settings.image | image_url: width: 1000 }} 1000w,{%- endif -%}"
-                                src="{{ section.settings.image | image_url: width: 50 }}"
-                                sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), 100vw"
-                                alt="{{ section.settings.image.alt | escape }}"
-                                class="w-100"
-                                loading="lazy"
-                                width="{{ section.settings.image.width | divided_by: 3 }}"
-                                height="{{ section.settings.image.height | divided_by: 3 }}"
-                            >
-                        {% endif %}
-                    {%- else -%}
-                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-                    {%- endif -%}
+    
+        <div class="row {% if section.settings.column != blank %}flex-column {% endif %} {% if section.settings.column_reverse != blank %}flex-column-reverse {% endif %}align-items-center">
 
-                </div>
+            <div class="col-12 col-lg-5 order-lg-2">
+                {% render 'img-border-offset', section: section %}
             </div>
+            
             <div class="col-12 col-lg-5 col-xl-6 mt-4 mt-md-0 order-lg-1">
                 <div class="inside-block">
                     {% if section.settings.step_heading != blank %}
@@ -72,9 +36,11 @@
                     {% endif %}
                 </div>
             </div>
+
         </div>
     </div>
 </section>
+
 <section>
     <div class="container">
         <div class="row">
@@ -132,52 +98,11 @@
     object-fit: cover;
     border-radius: 16px;
 }
-.banner-image-with-text {
-    padding: 2rem;
-}
-.banner-img-border img {
-    height: 100%;
-    object-fit: cover;
-    position: relative;
-    z-index: 1;
-    border-radius: 16px;
-}
-.banner-image-with-text-heading {
-    font-size: 2rem;
-}
+
 .btn-quiz {
     background: transparent;
     border: 0;
     color: #131e27;
-}
-
-@media only screen and (min-width: 992px) {
-    .banner-image-with-text {
-        padding: 9rem 0 12rem 0;
-    }
-    .banner-img-border::after {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 6vw;
-        border: 1px solid;
-        z-index: 0;
-        left: 9vw;
-        border-radius: 16px 16px 190px 16px;
-    }
-    .banner-image-with-text-heading {
-        font-size: 3.5rem;
-    }
-    .banner-img-border img {
-        border-radius: 190px 16px 16px 16px;
-    }
-    .banner-img-border {
-        position: relative;
-        z-index: 1;
-        max-width: 407px;
-        height: 368px;
-    }
 }
 </style>
  
