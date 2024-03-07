@@ -5,9 +5,9 @@
                 <h3 class="mb-3 text-center">{{ section.settings.heading_txt }}</h3> 
             {% endif %}
         {% endif %}
-    <div class="row {% if section.settings.column != blank %}flex-column {% endif %} {% if section.settings.column_reverse != blank %}flex-column-reverse {% endif %}align-items-center">
+    <div class="row align-items-center">
             <div class="col-12 col-lg-5 order-lg-2">
-                <div class="banner-img-border-collection {{ section.settings.height }}" style="color:{{ section.settings.border_color }}">
+                <div class="banner-img-border {{ section.settings.height }}" style="color:{{ section.settings.border_color }}">
                     {%- if section.settings.image != blank -%}
                         {% if section.settings.url_on_image != blank %}
                             <a href="{{ section.settings.url_on_image }}">
@@ -288,7 +288,6 @@
     .inside-block ul li:before{
         content: "\f149";
         display: inline-block;
-        font-family: "Ionicons";
         color:var(--bs-color-primary);
         text-rendering: auto;
         line-height: 1;
