@@ -16,20 +16,18 @@
     "product-grid": {
       "type": "template-collection",
       "custom_css": [
-        ".list-unstyled {gap: 1rem;}",
-        ".card-product .card-img > a {padding-top: 100%;}",
-        ".card-product .card-img > a img {object-fit: contain;}"
+
       ],
       "settings": {
         "products_per_page": 16,
-        "product_per_row": "3",
+        "product_per_row": "4",
         "pagination_type": "loadmore",
         "enable_sub_collections": false,
         "sub_collections": [
 
         ],
         "enable_filtering": true,
-        "filter_type": "horizontal-filters",
+        "filter_type": "default",
         "price_filter_layout": "range_slider",
         "price_filter_values": "",
         "enable_custom_pagination": true,
