@@ -159,6 +159,7 @@ Template Product Collection
     right: 10px;
     background: #ffffff7a;
     border-radius: 50%;
+    z-index: 1;
 }
 
 
