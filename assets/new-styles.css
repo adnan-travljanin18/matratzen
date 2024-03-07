@@ -130,6 +130,38 @@ footer .social-links li a {
 .drawer-header .icon-close:before {
     color: #fff!important;
 }
+.info-slider-section .swiper-container {
+    color: #546E7A;
+}
+
+.info-slider-section .info-card {
+    border: 1px solid #546E7A;
+    border-radius: 16px;
+}
+.info-slider-section .info-content {
+    font-size: 16px;
+    text-align: left;
+}
+.info-slider-section .swiper-pagination-bullet-active {
+    background: #6490b2!important;
+}
+
+/* -=-=-==-=-==--=-=- 
+Template Product Collection
+-=-=--==-==-===-==-=--*/
+
+.template-collection .card-img img {
+    border-radius: 16px;
+}
+.template-collection .wishlist-hero-custom-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ffffff7a;
+    border-radius: 50%;
+}
+
+
 @media screen and (min-width: 768px) {
     
 }

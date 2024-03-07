@@ -1,7 +1,7 @@
 <section class="section-content info-slider-section" style="background:{{ section.settings.section_bg_color }};">
   <div class="container">
-    <h3>{{ section.settings.info_title }}</h3>
-    <p>{{ section.settings.info_subline_text }}</p>
+    <h3 class="text-center">{{ section.settings.info_title }}</h3>
+    <p class="text-center">{{ section.settings.info_subline_text }}</p>
     <div class="swiper-container swiper-container-info overflow-hidden">
       <div class="swiper-wrapper card-wrapper">
         {% for block in section.blocks %}
@@ -41,50 +41,39 @@
           </div>
         {% endfor %}
       </div>
+      <div class="swiper-pagination position-relative mt-3"></div>
     </div>
   </div>
 </section>
-<style>
-  
-  .info-slider-section .swiper-container {
-    color: #546E7A;
-  }
 
-  .info-slider-section .info-card {
-    border: 1px solid #546E7A;
-    border-radius: 16px;
-  }
-  .info-slider-section .info-content {
-    font-size: 16px;
-    text-align: left;
-  }
-
-</style>
-{% comment %} <script src="{{ 'info-slider.js' | asset_url }}" defer></script> {% endcomment %}
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-  var swiper = new Swiper(".swiper-container-info", {
-    slidesPerView: 3,
-    spaceBetween: 20,
-    autoplay: {
-      delay: 2000, // Adjust the delay as needed
-    },
-    breakpoints: {
-      992: {
-        slidesPerView: 3,
-        spaceBetween: 20,
+    var swiper = new Swiper(".swiper-container-info", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 2000,
       },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
       },
-      0: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      }
-    }
+      breakpoints: {
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+      },
+    });
   });
-});
 </script>
 {% schema %} 
 {
