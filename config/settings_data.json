@@ -10,7 +10,7 @@
     "type_header_font": "Urbanist",
     "type_secondary_font": "Urbanist",
     "type_body_font": "Roboto",
-    "type_button_font": "Urbanist",
+    "type_button_font": "Roboto",
     "button_font_size": "1rem",
     "button_border-radius": "10px",
     "button_border-width": "1px",
