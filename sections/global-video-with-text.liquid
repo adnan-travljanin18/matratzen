@@ -52,19 +52,16 @@
                     {% if section.settings.fluid_video_layout %}
                         <div class="col-xl-6 col-lg-7 col-md-8 px-md-0">
                     {% endif %}
-                    {% if section.settings.title != blank %}
-                        <h2 class="mb-2">{{ section.settings.title }}</h2>
-                    {% endif %}
                     {% if section.settings.subtitle != blank %}
                         <div class="mb-3 mb-lg-5">{{ section.settings.subtitle }}</div>
                     {% endif %}
+                    {% if section.settings.title != blank %}
+                        <h2 class="py-3 title-border-y mb-7 mt-4">{{ section.settings.title }}</h2>
+                    {% endif %}
                     <div class="video-button-wrapper">
-                        {% if section.settings.fluid_video_layout %}
-                            <a data-trigger-videobtn href="#" class="btn btn{% if section.settings.btn_type == 'outline' %}-{% endif %}{{ section.settings.btn_type }}-{{ section.settings.btn_variant }} {{ section.settings.btn_size }}" title="{{ 'sections.video-with-text.play_video' | t }}">{{ 'sections.video-with-text.play_video' | t }}</a>
-                        {% endif %}
                         {% if section.settings.btn_txt != blank %}
-                            <a {% if section.settings.btn_link %} href="{{ section.settings.btn_link_second }}" {% endif %}class="btn btn{% if section.settings.btn_type == 'outline' %}-{% endif %}{{ section.settings.btn_type }}-{{ section.settings.btn_variant }} {{ section.settings.btn_size }}" title="{{ section.settings.btn_txt }}">{{ section.settings.btn_txt }}</a>
-                        {% endif %}
+                        <a {% if section.settings.btn_link %} href="{{ section.settings.btn_link }}" {% endif %}class="hero-button btn {{ section.settings.btn_size }}" title="{{ section.settings.btn_txt }}">{{ section.settings.btn_txt }}</a>
+                    {% endif %}
                     </div>
                     {% if section.settings.fluid_video_layout %}
                         </div>
@@ -137,46 +134,6 @@
                 "type": "url",
                 "id": "btn_link",
                 "label": "Button Link"
-            },
-            {
-                "type": "select",
-                "id": "btn_type",
-                "label": "Button Type",
-                "options": [
-                    {
-                        "value": "outline",
-                        "label": "Outline"
-                    },
-                    {
-                        "value": "",
-                        "label": "Solid"
-                    }
-                ],
-                "default": ""
-            },
-            {
-                "type": "select",
-                "id": "btn_variant",
-                "label": "Button Variant",
-                "options": [
-                    {
-                        "value": "primary",
-                        "label": "Primary"
-                    },
-                    {
-                        "value": "secondary",
-                        "label": "Secondary"
-                    },
-                    {
-                        "value": "white",
-                        "label": "White"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "default": "primary"
             },
             {
                 "type": "select",

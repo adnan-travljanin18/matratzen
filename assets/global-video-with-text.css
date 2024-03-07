@@ -60,3 +60,8 @@
 .custom-video-container.video--playing .play__button{
     display: none;
 }
+
+.title-border-y {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
