@@ -11878,3 +11878,36 @@ svg.icon.icon-caret {
     right: 0;
     width: 100%;
 }
+
+.jdgm-carousel__right-arrow, .jdgm-carousel__left-arrow {
+    border: none !important;
+    border-style: none !important;
+    -webkit-transform: none !important;
+    transform: rotate(0deg) !important;
+}
+.jdgm-carousel__right-arrow:before {
+    content: "";
+    display: inline-block;
+    width: 0.87rem;
+    height: 1.5rem;
+    background-image: url(https://cdn.shopify.com/s/files/1/0591/2130/3625/files/angle-right.png?v=1709815589);
+    background-size: cover;
+}
+
+.jdgm-carousel__left-arrow:before {
+    content: "";
+    display: inline-block;
+    width: 0.87rem;
+    height: 1.5rem;
+    background-image: url(https://cdn.shopify.com/s/files/1/0591/2130/3625/files/angle-left.png?v=1709815582);
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .jdgm-carousel-wrapper .jdgm-carousel__right-arrow {
+        margin-right: -35px !important;
+    }
+    .jdgm-carousel-wrapper .jdgm-carousel__left-arrow {
+        margin-left: -35px !important;
+    }
+}

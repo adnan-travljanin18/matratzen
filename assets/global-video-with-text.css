@@ -53,9 +53,11 @@
 .custom-video-container.video--paused .show--video .cta-btn{
     display: block;
 }
+
 .custom-video-container.video--paused .pause__button{
     display: block;
 }
+
 .custom-video-container.video--paused .play__button,
 .custom-video-container.video--playing .play__button{
     display: none;
@@ -64,4 +66,17 @@
 .title-border-y {
     border-bottom: 1px solid;
     border-top: 1px solid;
+}
+
+.video-with-text video {
+    width: 100%;
+}
+
+.video-with-text .container-fluid {
+    padding: 0;
+}
+
+.title-borders-alignment {
+    width: fit-content;
+    margin: 0 auto;
 }

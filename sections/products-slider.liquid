@@ -1,96 +1,97 @@
 <section data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }};">
-    <div class="container product-slider-container slider-padding-top margin-y margin-slider-y-custom">
-    <div class="row d-flex justify-content-between margin-x-1 pt-sm-8 pt-md-0">
-        <div class="col-sm-12 col-md-8 col-lg-6 p-0 d-flex justify-content-md-normal justify-content-center">
-            <h2 class="mb-3 collection-slider-h2">
-                {%- if section.settings.title != blank -%}
-                    {{- section.settings.title | escape -}}
-                {%- else -%}
-                    {{ 'onboarding.collection_title' | t }}
-                {%- endif -%}
-            </h2>  
-        </div>
-        <div class="d-md-block d-none col-md-3 col-lg-3 col-xl-2 p-0 text-end">
-            {% if section.settings.products-slider-button-text != blank %}
-            <button {% if section.settings.products-slider-button-link %} href="{{ section.settings.products-slider-button-link }}" {% endif %}class="products-slider-button">
-                {{ section.settings.products-slider-button-text }}
-            </button>
+  <div class="container product-slider-container slider-padding-top margin-y margin-slider-y-custom">
+    <div class="row d-flex justify-content-between margin-x-1-percent pt-8 pt-sm-8 pt-md-0">
+      <div class="col-sm-12 col-md-8 col-lg-6 p-0 d-flex justify-content-md-normal justify-content-center">
+        <h2 class="collection-slider-h2 mb-4 mb-sm-7">
+          {%- if section.settings.title != blank -%}
+            {{- section.settings.title | escape -}}
+          {%- else -%}
+            {{ 'onboarding.collection_title' | t }}
+          {%- endif -%}
+        </h2>
+      </div>
+      <div class="col-md-3 col-lg-3 col-xl-2 d-md-block d-none p-0 text-end">
+        {% if section.settings.products-slider-button-text != blank %}
+          <button
+            {% if section.settings.products-slider-button-link %}
+            href="{{ section.settings.products-slider-button-link }}"
             {% endif %}
-        </div>
+            class="products-slider-button">
+            {{ section.settings.products-slider-button-text }}
+          </button>
+        {% endif %}
+      </div>
     </div>
 
-<div class="tab btn-group justify-content-start row gap-3 justify-content-md-normal justify-content-center margin-x-1" role="group">
+    <div class="tab btn-group justify-content-start row gap-3 justify-content-md-normal justify-content-center margin-x-1-percent mb-1 mb-sm-3" role="group">
+      {% for block in section.blocks %}
+        <button type="button" class="btn tab-button products-category-button col-5 col-md-3 col-lg-2 text-capitalize letter-spacing-inherit">{{ block.settings.products-category-button-text }}</button>
+      {% endfor %}
+    </div>
+
     {% for block in section.blocks %}
-    <button type="button" class="btn tab-button products-category-button col-5 col-md-3 col-lg-2">{{ block.settings.products-category-button-text }}</button>
-    {% endfor %}
-</div>
-
-{% for block in section.blocks %}
-<div class="ps slider-container slider-container-product p-xs-sm-5 py-md-5">
-    <div class="swiper mySwiper mySwiper-product">
-        <div class="swiper-wrapper">
+      <div class="ps slider-container slider-container-product p-xs-sm-5 py-md-5">
+        <div class="swiper mySwiper mySwiper-product">
+          <div class="swiper-wrapper">
             {% if block.settings.collection != blank %}
-            {% assign _collection = collections[block.settings.collection] %}
-            {% for product in _collection.products %}
-            <div class="ps swiper-slide">
-                <div class="custom-container container py-16">
+              {% assign _collection = collections[block.settings.collection] %}
+              {% for product in _collection.products %}
+                <div class="ps swiper-slide">
+                  <div class="custom-container container py-16">
                     <div class="row flex-column justify-content-around">
-                        {% comment %} <div class="col-12">
-                            {% if product.featured_media != blank %}
-                            <img class="border-radius-16" srcset="{%- if product.featured_media.width >= 360 -%}{{ product.featured_media | image_url: width: 360 }} 360w,{%- endif -%}{%- if product.featured_media.width >= 535 -%}{{ product.featured_media | image_url: width: 535 }} 535w,{%- endif -%}{%- if product.featured_media.width >= 750 -%}{{ product.featured_media | image_url: width: 750 }} 750w,{%- endif -%}{{ product.featured_media | image_url }} {{ product.featured_media.width }}w" src="{{ product.featured_media | image_url: width: 50 }}" sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | minus: 100 | divided_by: 3 }}px, (min-width: 768px) calc((100vw - 130px) / 2), 50vw" alt="{{ product.featured_media.alt | default: product.title | escape }}" height="{{ product.featured_media.height }}" width="{{ product.featured_media.width }}" loading="lazy">
-                            {% else %}
-                            {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                            {% endif %}
-                        </div> {% endcomment %}
-                        <div class="col-12 pb-4">
-                            {% if product.featured_media != blank %}
-                            <div class="featured-media" style="background: url('{{ product.featured_media | image_url }}');"></div>
-                            {% else %}
-                            {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                            {% endif %}
-                        </div>
+                      <div class="col-12 pb-4">
+                        {% if product.featured_media != blank %}
+                          <div class="featured-media" style="background: url('{{ product.featured_media | image_url }}');"></div>
+                        {% else %}
+                          {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                        {% endif %}
+                      </div>
 
-                        <div class="row col-12 d-flex justify-content-center align-items-center text-start padding-r-0">
-                            <h5 class="col-9 ps heading-5">
-                                {%- if product.title != blank -%}
-                                    {{- product.title | escape -}}
-                                {%- else -%}
-                                    {{ 'onboarding.collection_title' | t }}
-                                {%- endif -%}
-                            </h5>            
-                            <h5 class="col-3 ps heading-5 text-end padding-r-0">
-                                {%- if product.price != blank -%}
-                                    {{- product.price | money -}}
-                                {%- endif -%}
-                            </h5>
-                            <h5 class="mb-3 mb-lg-5 heading-6">
-                                <p class="text-capitalize">{{ _collection.handle }}</p>
-                            </h5>
-                        </div>
+                      <div class="row col-12 d-flex justify-content-center align-items-center text-start padding-r-0">
+                        <h5 class="col-9 ps heading-5">
+                          {%- if product.title != blank -%}
+                            {{- product.title | escape -}}
+                          {%- else -%}
+                            {{ 'onboarding.collection_title' | t }}
+                          {%- endif -%}
+                        </h5>
+                        <h5 class="col-3 ps heading-5 text-end padding-r-0">
+                          {%- if product.price != blank -%}
+                            {{- product.price | money -}}
+                          {%- endif -%}
+                        </h5>
+                        <h5 class="mb-3 mb-lg-5 heading-6">
+                          <p class="text-capitalize">{{ _collection.handle }}</p>
+                        </h5>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-            {% endfor %}
+              {% endfor %}
             {% endif %}
+          </div>
         </div>
-    </div>
-</div>
-{% endfor %}
-<div class="row d-flex justify-content-between margin-x-1 mx-sm-5 pb-xs-sm-8">
-        <div class="d-block d-md-none p-0 text-end">
-            {% if section.settings.products-slider-button-text != blank %}
-            <button {% if section.settings.products-slider-button-link %} href="{{ section.settings.products-slider-button-link }}" {% endif %}class="products-slider-button col-12">
-                {{ section.settings.products-slider-button-text }}
-            </button>
+      </div>
+    {% endfor %}
+    <div class="row d-flex justify-content-between margin-x-1-percent mx-sm-5 pb-xs-sm-8">
+      <div class="d-block d-md-none p-0 text-end">
+        {% if section.settings.products-slider-button-text != blank %}
+          <button
+            {% if section.settings.products-slider-button-link %}
+            href="{{ section.settings.products-slider-button-link }}"
             {% endif %}
-        </div>
+            class="products-slider-button col-12">
+            {{ section.settings.products-slider-button-text }}
+          </button>
+        {% endif %}
+      </div>
     </div>
-    </div>
+  </div>
 </section>
 
 <script>
 
-document.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener('DOMContentLoaded', function () {
 
     const sliderContainers = document.querySelectorAll('.slider-container-product');
 
@@ -110,9 +111,9 @@ document.addEventListener('DOMContentLoaded', function () {
             this.classList.add('active');
         });
     });
-});
+  });
 
-function initializeSwipers(containers) {
+  function initializeSwipers(containers) {
     const swipers = [];
     containers.forEach(container => {
         const swiper = new Swiper(container.querySelector('.mySwiper-product'), {
@@ -138,9 +139,9 @@ function initializeSwipers(containers) {
         container.style.display = 'none'; // Hide all slider containers initially
     });
     return swipers;
-}
+  }
 
-function toggleSliderContainer(containers, selectedIndex, swipers) {
+  function toggleSliderContainer(containers, selectedIndex, swipers) {
     containers.forEach((container, index) => {
         if (index === selectedIndex) {
             container.style.display = 'block'; // Show the selected slider container
@@ -153,64 +154,62 @@ function toggleSliderContainer(containers, selectedIndex, swipers) {
             }
         }
     });
-}
+  }
 </script>
 
 {% schema %}
-    {
-        "name": "product-slider",
-        "class": "product-slider-style",
+  {
+    "name": "product-slider",
+    "class": "product-slider-style",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Main heading"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Products slider heading",
+        "label": "Products slider heading"
+      },
+      {
+        "type": "header",
+        "content": "Main button"
+      },
+      {
+        "type": "text",
+        "id": "products-slider-button-text",
+        "default": "shop",
+        "label": "Products slider shop button text"
+      }, {
+        "type": "url",
+        "id": "products-slider-button-link",
+        "label": "Products slider shop button link"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Collection slider item",
+        "type": "featured_collection",
         "settings": [
-            {
-                "type": "header",
-                "content": "Main heading"
-            },
-            {
+          {
             "type": "text",
-            "id": "title",
-            "default": "Products slider heading",
-            "label": "Products slider heading"
-            },
-            {
-                "type": "header",
-                "content": "Main button"
-            },
-            {
-            "type": "text",
-            "id": "products-slider-button-text",
-            "default": "shop",
+            "id": "products-category-button-text",
+            "default": "Show All",
             "label": "Products slider shop button text"
-            },
-            {
-            "type": "url",
-            "id": "products-slider-button-link",
-            "label": "Products slider shop button link"
-            }
-        ],
-        "blocks": [
-             {
-                "name": "Collection slider item",
-                "type": "featured_collection",
-                "settings": [
-                    {
-                    "type": "text",
-                    "id": "products-category-button-text",
-                    "default": "Show All",
-                    "label": "Products slider shop button text"
-                    },
-                    {
-                    "type": "collection",
-                    "id": "collection",
-                    "label": "Collection"
-                    }
-                ]
-            }
-         ],
-        "presets": [
-            {
-                "name": "Product collection slider",
-                "category": "Content"
-            }
+          }, {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+          }
         ]
-    }
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product collection slider",
+        "category": "Content"
+      }
+    ]
+  }
 {% endschema %}

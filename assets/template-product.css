@@ -127,3 +127,17 @@
 .custom-video-container.video--playing .play__button{
     display: none;
 }
+.template-product.swiper-button-next,
+.template-product.swiper-button-prev {
+    background-color: #fff; 
+    height: 3rem;
+    width: 3rem;
+}
+.template-product.swiper-button-next::after,
+.template-product.swiper-button-prev::after {
+    color: rgba(144, 164, 174, 1); 
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 1rem !important;
+}
