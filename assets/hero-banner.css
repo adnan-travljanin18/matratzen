@@ -64,7 +64,7 @@
 }
 .max-h-1024 {
     max-height: 1024px;
-  }
+}
 .object-fit-cover{
     object-fit: cover;
 }
@@ -90,15 +90,16 @@
     max-height: 59px;
 }
 .hero-banner-right-image {
-    max-width: 30vw;
-    max-height: 44vh;
+    width: 26vw;
+    max-width: 35rem;
+    max-height: 35rem;
     border-radius: 0px 50% 50% 0px;
 }
 .hero-banner-right-image-positioning {
-    top: 11%;
-    left: 66%;
+    top: 4%;
+    left: 82%;
     right: 0;
-    margin: 0 auto;
+    z-index: -1;
 }
 .z-index-2 {
     z-index: 2;
@@ -131,6 +132,13 @@
 }
 .p- {
     padding: 4rem 2rem !important;
+}
+
+.letter-spacing-inherit {
+    letter-spacing: inherit;
+}
+.max-width-logo {
+    max-width: 75rem;
 }
 @media (max-width: 767px) {
     .hero-button {

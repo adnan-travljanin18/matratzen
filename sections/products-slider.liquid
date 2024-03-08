@@ -1,8 +1,8 @@
 <section data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }};">
     <div class="container product-slider-container slider-padding-top margin-y margin-slider-y-custom">
-    <div class="row d-flex justify-content-between margin-x-1 pt-sm-8 pt-md-0">
+    <div class="row d-flex justify-content-between margin-x-1-percent pt-8 pt-sm-8 pt-md-0">
         <div class="col-sm-12 col-md-8 col-lg-6 p-0 d-flex justify-content-md-normal justify-content-center">
-            <h2 class="mb-3 collection-slider-h2">
+            <h2 class="collection-slider-h2 mb-4 mb-sm-7">
                 {%- if section.settings.title != blank -%}
                     {{- section.settings.title | escape -}}
                 {%- else -%}
@@ -10,7 +10,7 @@
                 {%- endif -%}
             </h2>  
         </div>
-        <div class="d-md-block d-none col-md-3 col-lg-3 col-xl-2 p-0 text-end">
+        <div class="col-md-3 col-lg-3 col-xl-2 d-md-block d-none p-0 text-end">
             {% if section.settings.products-slider-button-text != blank %}
             <button {% if section.settings.products-slider-button-link %} href="{{ section.settings.products-slider-button-link }}" {% endif %}class="products-slider-button">
                 {{ section.settings.products-slider-button-text }}
@@ -19,9 +19,9 @@
         </div>
     </div>
 
-<div class="tab btn-group justify-content-start row gap-3 justify-content-md-normal justify-content-center margin-x-1" role="group">
+<div class="tab btn-group justify-content-start row gap-3 justify-content-md-normal justify-content-center margin-x-1-percent mb-1 mb-sm-3" role="group">
     {% for block in section.blocks %}
-    <button type="button" class="btn tab-button products-category-button col-5 col-md-3 col-lg-2">{{ block.settings.products-category-button-text }}</button>
+    <button type="button" class="btn tab-button products-category-button col-5 col-md-3 col-lg-2 text-capitalize letter-spacing-inherit">{{ block.settings.products-category-button-text }}</button>
     {% endfor %}
 </div>
 
@@ -76,7 +76,7 @@
     </div>
 </div>
 {% endfor %}
-<div class="row d-flex justify-content-between margin-x-1 mx-sm-5 pb-xs-sm-8">
+<div class="row d-flex justify-content-between margin-x-1-percent mx-sm-5 pb-xs-sm-8">
         <div class="d-block d-md-none p-0 text-end">
             {% if section.settings.products-slider-button-text != blank %}
             <button {% if section.settings.products-slider-button-link %} href="{{ section.settings.products-slider-button-link }}" {% endif %}class="products-slider-button col-12">

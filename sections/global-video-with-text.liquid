@@ -56,11 +56,11 @@
                         <div class="mb-3 mb-lg-5">{{ section.settings.subtitle }}</div>
                     {% endif %}
                     {% if section.settings.title != blank %}
-                        <h2 class="py-3 title-border-y mb-7 mt-4">{{ section.settings.title }}</h2>
+                        <h2 class="py-3 title-border-y title-borders-alignment mt-4 mb-7 ">{{ section.settings.title }}</h2>
                     {% endif %}
                     <div class="video-button-wrapper">
                         {% if section.settings.btn_txt != blank %}
-                        <a {% if section.settings.btn_link %} href="{{ section.settings.btn_link }}" {% endif %}class="hero-button btn {{ section.settings.btn_size }}" title="{{ section.settings.btn_txt }}">{{ section.settings.btn_txt }}</a>
+                        <a {% if section.settings.btn_link %} href="{{ section.settings.btn_link }}" {% endif %}class="hero-button btn {{ section.settings.btn_size }}" title="{{ section.settings.btn_txt }}" style="color:{{ section.settings.btn_text_color }}">{{ section.settings.btn_txt }}<span><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span></a>
                     {% endif %}
                     </div>
                     {% if section.settings.fluid_video_layout %}
@@ -134,6 +134,12 @@
                 "type": "url",
                 "id": "btn_link",
                 "label": "Button Link"
+            },
+            {
+                "type": "color",
+                "id": "btn_text_color",
+                "label": "Button Text Color",
+                "default": "#ffffff"
             },
             {
                 "type": "select",

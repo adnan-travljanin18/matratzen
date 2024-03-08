@@ -65,8 +65,8 @@
                                     {% endfor %}
                                 </div>
                                 <div class="slider-navigation-wrapper">
-                                  <div class="swiper-button-prev icon-previous" {% if product.images.size <= 1 %}style="display: none !important;"{% endif %}></div>
-                                  <div class="swiper-button-next icon-next" {% if product.images.size <= 1 %}style="display: none !important;"{% endif %}></div>
+                                  <div class="template-product swiper-button-prev" {% if product.images.size <= 1 %}style="display: none !important;"{% endif %} id="slide-prev-button"></div>
+                                  <div class="template-product swiper-button-next" {% if product.images.size <= 1 %}style="display: none !important;"{% endif %} id="slide-next-button"></div>
                                 </div>
                             </div>    
                         </slider-element>
@@ -219,6 +219,16 @@
   {{ product.media | json }}
 </script>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Remove the 'swiper-button-disabled' class from the next button
+    var nextButton = document.getElementById("slide-next-button");
+    if (nextButton) {
+        nextButton.classList.remove("swiper-button-disabled");
+        nextButton.removeAttribute("aria-disabled");
+    }
+});
+</script>
 {% schema %}
 {
   "name": "t:sections.template-product.name",
