@@ -1,195 +1,192 @@
 {
-  "current": {
-    "body_color": "#122230",
-    "heading_color": "#000000",
-    "link_hover_color": "#6490b2",
-    "color_primary": "#000000",
-    "color_secondary": "#F8F0EC",
-    "color_almond": "#FAE2CC",
-    "color_primary_100": "#6490b2",
-    "type_header_font": "Poppins",
-    "type_secondary_font": "Poppins",
-    "type_body_font": "Poppins",
-    "type_button_font": "Poppins",
-    "button_border-radius": "10px",
-    "button_border-width": "1px",
-    "bg_color_btn_primary": "#406c93",
-    "bg_hover_color_btn_primary": "#345878",
-    "txt_color_btn_secondary": "#ffffff",
-    "bg_color_btn_secondary": "#406c93",
-    "bg_hover_color_btn_secondary": "#345878",
-    "type_input_font": "Poppins",
-    "type_input_font_weight": "300",
-    "favicon": "shopify:\/\/shop_images\/SE_LOGO_72px_b2f708d5-a16d-4d93-81dc-56c6c1960041.png",
-    "main_logo_socials": "shopify:\/\/shop_images\/wp3850825-4k-pc-wallpapers.jpg",
-    "enable_cart_drawer": true,
-    "enable_search": true,
-    "enable_swatches": true,
-    "enable_quickshop": false,
-    "enable_search_article": false,
-    "no_image_replacement": "shopify:\/\/shop_images\/mlouye-brick-macaron-s1.jpg",
-    "product_exclude_tag_text": "hidden",
-    "enable_custom_video": true,
-    "enable_custom_accrodion": true,
-    "enable_custom_tabify": true,
-    "enable_custom_select": true,
-    "enable_custom_notification": true,
-    "enable_custom_countdown": true,
-    "enable_newletter": false,
-    "enable_custom_klaviyo": false,
-    "enable_product_card_swatches": true,
-    "show_secondary_image": false,
-    "enable_cart_notes": true,
-    "enable_cart_": true,
-    "enable_shipping_bar": true,
-    "free_shipping_txt": "Congratulations! You get free shipping.",
-    "free_shipping_left": "You are ${addMoreForFreeShip} away from free shipping!",
-    "checkout_logo_image": "shopify:\/\/shop_images\/SE_LOGO_72px.png",
-    "checkout_accent_color": "#000000",
-    "checkout_button_color": "#000000",
-    "enable_login": true,
-    "sections": {
-      "header": {
-        "type": "header",
-        "custom_css": [
-
-        ],
-        "settings": {
-          "fluid_header": false,
-          "enable_sticky_header": true,
-          "header_bg_color": "#000000",
-          "show_line_separator": false,
-          "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
-          "logo_width": 150,
-          "menu": "main-menu"
-        }
-      },
-      "footer": {
-        "type": "footer",
-        "custom_css": [
-          "#newsletterFooterCustomerEmail {border-color: #fff;}",
-          ".btn {background-color: #406c93; border-color: #406c93;}",
-          ".btn:hover {background-color: #345878; border-color: #345878;}"
-        ],
-        "settings": {
-          "fluid_footer": false,
-          "footer_top_bg_color": "#131e27",
-          "footer_top_txt_color": "#ffffff",
-          "footer_top_link_color": "#ffffff",
-          "footer_bottom_bg_color": "#131e27",
-          "footer_bottom_txt_color": "#ffffff",
-          "footer_logo_svg": "",
-          "footer_logo": "shopify:\/\/shop_images\/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
-          "logo_max_width": 165,
-          "col_1_text": "",
-          "col_2_heading": "Customer Care",
-          "footer_linklist_col_2": "footer",
-          "col_3_heading": "Info",
-          "footer_linklist_col_3": "",
-          "col_4_heading": "Discover",
-          "footer_linklist_col_4": "",
-          "col_5_heading": "Subscribe",
-          "col_5_txt": "Get monthly updates and free resources.",
-          "show_newsletter": true,
-          "show_social_links": true,
-          "col_5_social_heading": "Follow Us on Social Media:",
-          "social_icon_facebook": true,
-          "social_icon_twitter": true,
-          "social_icon_instagram": true,
-          "social_icon_youtube": true,
-          "bottom_footer_linklist": "",
-          "show_payment_icons": true,
-          "col_5_payment_heading": "Available payments",
-          "payment_icon_visa": true,
-          "payment_icon_mastercard": true,
-          "payment_icon_ae": true,
-          "payment_icon_diners": true,
-          "payment_icon_paypal": true,
-          "payment_icon_applepay": true,
-          "payment_icon_amazonpay": true
-        }
-      },
-      "newsletter": {
-        "type": "newsletter",
-        "settings": {
-          "enabled": false,
-          "is_hidden_on_mobile": false,
-          "popup_delay": 1,
-          "popup_period_until": 7,
-          "heading": "Subscribe to Newsletter",
-          "text": "<p>Subscribe and get exclusive offers!<\/p>",
-          "footer_notes": "<p>No SPAM! We not share your email to any 3rd part companies!<\/p>",
-          "btn_txt": "Subscribe",
-          "template_type": "image_bg",
-          "bg_color_outer": "#ffffff",
-          "bg_color_inner": "#ffffff",
-          "txt_color": "#222222"
-        }
-      },
-      "app-optimization": {
-        "type": "app-optimization",
-        "settings": {
-          "enable": true,
-          "debug_enable": false
-        }
-      },
-      "mobile-nav-drawer": {
-        "type": "mobile-nav-drawer",
-        "settings": {
-          "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
-          "logo_width": 100,
-          "main_menu_linklist": "footer",
-          "secondary_menu_linklist": "main-menu",
-          "mobilemenu_style": "slide-submenu",
-          "mobile_nav_show_social_links": true,
-          "social_icon_facebook": true,
-          "social_icon_twitter": true,
-          "social_icon_instagram": true
-        }
-      },
-      "search-layer": {
-        "type": "search-layer",
-        "settings": {
-        }
-      },
-      "top-header": {
-        "type": "top-header",
-        "settings": {
-          "topbar_enabled": false,
-          "topbar_text": "SAME DAY SHIPPING! ORDER BY 2PM (EASTERN TIME)",
-          "topbar_bg_color": "#d29c7d",
-          "topbar_text_color": "#ffffff",
-          "topbar_height": 40,
-          "topbar_font_size": "15px"
-        }
-      }
-    },
-    "content_for_index": [
-
-    ],
-    "blocks": {
-      "14509899274852873868": {
-        "type": "shopify:\/\/apps\/veeform-product-quiz-builder\/blocks\/link-popup\/35886e51-37e3-4978-a765-359cc73afebe",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "7870687481494312845": {
-        "type": "shopify:\/\/apps\/wishlist-hero\/blocks\/app-embed\/a9a5079b-59e8-47cb-b659-ecf1c60b9b72",
-        "disabled": false,
-        "settings": {
-          "additionalWLButtonCssClasses": "",
-          "additionalWLCartBubbleCssClasses": ""
-        }
-      }
-    }
-  }
+	"current": {
+		"body_color": "#122230",
+		"heading_color": "#000000",
+		"link_color": "#212121",
+		"link_hover_color": "#6490b2",
+		"color_primary": "#000000",
+		"color_secondary": "#F8F0EC",
+		"color_almond": "#FAE2CC",
+		"color_primary_100": "#6490b2",
+		"type_header_font": "Urbanist",
+		"type_secondary_font": "Urbanist",
+		"type_body_font": "Roboto",
+		"type_button_font": "Roboto",
+		"button_font_size": "1rem",
+		"button_border-radius": "10px",
+		"button_border-width": "1px",
+		"bg_color_btn_primary": "#406c93",
+		"bg_hover_color_btn_primary": "#345878",
+		"txt_color_btn_secondary": "#ffffff",
+		"bg_color_btn_secondary": "#406c93",
+		"bg_hover_color_btn_secondary": "#345878",
+		"txt_color_btn_white": "#212121",
+		"bg_hover_color_btn_dark": "#ffffff",
+		"type_input_font": "Poppins",
+		"type_input_font_weight": "300",
+		"favicon": "shopify://shop_images/SE_LOGO_72px_b2f708d5-a16d-4d93-81dc-56c6c1960041.png",
+		"main_logo_socials": "shopify://shop_images/wp3850825-4k-pc-wallpapers.jpg",
+		"enable_cart_drawer": true,
+		"enable_search": true,
+		"enable_swatches": true,
+		"enable_quickshop": false,
+		"enable_search_article": false,
+		"no_image_replacement": "shopify://shop_images/mlouye-brick-macaron-s1.jpg",
+		"product_exclude_tag_text": "hidden",
+		"enable_custom_video": true,
+		"enable_custom_accrodion": true,
+		"enable_custom_tabify": true,
+		"enable_custom_select": true,
+		"enable_custom_notification": true,
+		"enable_custom_countdown": true,
+		"enable_newletter": false,
+		"enable_custom_klaviyo": false,
+		"enable_product_card_swatches": true,
+		"show_secondary_image": false,
+		"enable_cart_notes": true,
+		"enable_cart_": true,
+		"enable_shipping_bar": true,
+		"free_shipping_txt": "Congratulations! You get free shipping.",
+		"free_shipping_left": "You are ${addMoreForFreeShip} away from free shipping!",
+		"checkout_logo_image": "shopify://shop_images/SE_LOGO_72px.png",
+		"checkout_accent_color": "#000000",
+		"checkout_button_color": "#000000",
+		"enable_login": true,
+		"sections": {
+			"header": {
+				"type": "header",
+				"custom_css": [],
+				"settings": {
+					"fluid_header": false,
+					"enable_sticky_header": true,
+					"header_bg_color": "#000000",
+					"show_line_separator": false,
+					"logo_svg": "",
+					"logo": "shopify://shop_images/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
+					"logo_width": 150,
+					"menu": "main-menu"
+				}
+			},
+			"footer": {
+				"type": "footer",
+				"custom_css": [
+					"#newsletterFooterCustomerEmail {border-color: #fff;}",
+					".btn {background-color: #406c93; border-color: #406c93;}",
+					".btn:hover {background-color: #345878; border-color: #345878;}"
+				],
+				"settings": {
+					"fluid_footer": false,
+					"footer_top_bg_color": "#131e27",
+					"footer_top_txt_color": "#ffffff",
+					"footer_top_link_color": "#ffffff",
+					"footer_bottom_bg_color": "#131e27",
+					"footer_bottom_txt_color": "#ffffff",
+					"footer_logo_svg": "",
+					"footer_logo": "shopify://shop_images/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
+					"logo_max_width": 165,
+					"col_1_text": "",
+					"col_2_heading": "Customer Care",
+					"footer_linklist_col_2": "footer",
+					"col_3_heading": "Info",
+					"footer_linklist_col_3": "",
+					"col_4_heading": "Discover",
+					"footer_linklist_col_4": "",
+					"col_5_heading": "Subscribe",
+					"col_5_txt": "Get monthly updates and free resources.",
+					"show_newsletter": true,
+					"show_social_links": true,
+					"col_5_social_heading": "Follow Us on Social Media:",
+					"social_icon_facebook": true,
+					"social_icon_twitter": true,
+					"social_icon_instagram": true,
+					"social_icon_youtube": true,
+					"bottom_footer_linklist": "",
+					"show_payment_icons": true,
+					"col_5_payment_heading": "Available payments",
+					"payment_icon_visa": true,
+					"payment_icon_mastercard": true,
+					"payment_icon_ae": true,
+					"payment_icon_diners": true,
+					"payment_icon_paypal": true,
+					"payment_icon_applepay": true,
+					"payment_icon_amazonpay": true
+				}
+			},
+			"newsletter": {
+				"type": "newsletter",
+				"settings": {
+					"enabled": false,
+					"is_hidden_on_mobile": false,
+					"popup_delay": 1,
+					"popup_period_until": 7,
+					"heading": "Subscribe to Newsletter",
+					"text": "<p>Subscribe and get exclusive offers!</p>",
+					"footer_notes": "<p>No SPAM! We not share your email to any 3rd part companies!</p>",
+					"btn_txt": "Subscribe",
+					"template_type": "image_bg",
+					"bg_color_outer": "#ffffff",
+					"bg_color_inner": "#ffffff",
+					"txt_color": "#222222"
+				}
+			},
+			"app-optimization": {
+				"type": "app-optimization",
+				"settings": {
+					"enable": true,
+					"debug_enable": false
+				}
+			},
+			"mobile-nav-drawer": {
+				"type": "mobile-nav-drawer",
+				"settings": {
+					"logo_svg": "",
+					"logo": "shopify://shop_images/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
+					"logo_width": 100,
+					"main_menu_linklist": "footer",
+					"secondary_menu_linklist": "main-menu",
+					"mobilemenu_style": "slide-submenu",
+					"mobile_nav_show_social_links": true,
+					"social_icon_facebook": true,
+					"social_icon_twitter": true,
+					"social_icon_instagram": true
+				}
+			},
+			"search-layer": {
+				"type": "search-layer",
+				"settings": {}
+			},
+			"top-header": {
+				"type": "top-header",
+				"settings": {
+					"topbar_enabled": false,
+					"topbar_text": "SAME DAY SHIPPING! ORDER BY 2PM (EASTERN TIME)",
+					"topbar_bg_color": "#d29c7d",
+					"topbar_text_color": "#ffffff",
+					"topbar_height": 40,
+					"topbar_font_size": "15px"
+				}
+			}
+		},
+		"content_for_index": [],
+		"blocks": {
+			"14509899274852873868": {
+				"type": "shopify://apps/veeform-product-quiz-builder/blocks/link-popup/35886e51-37e3-4978-a765-359cc73afebe",
+				"disabled": false,
+				"settings": {}
+			},
+			"14060646107696862457": {
+				"type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+				"disabled": false,
+				"settings": {}
+			},
+			"7870687481494312845": {
+				"type": "shopify://apps/wishlist-hero/blocks/app-embed/a9a5079b-59e8-47cb-b659-ecf1c60b9b72",
+				"disabled": false,
+				"settings": {
+					"additionalWLButtonCssClasses": "",
+					"additionalWLCartBubbleCssClasses": ""
+				}
+			}
+		}
+	}
 }
