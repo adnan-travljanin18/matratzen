@@ -1,22 +1,24 @@
 {
-	"name": "iotty-theme",
-	"version": "1.0.0",
-	"description": "Theming",
-	"author": "SEAPIXEL",
-	"license": "UNLICENSED",
-	"private": true,
-	"devDependencies": {
-		"autoprefixer": "^6.7.2",
-		"gulp": "^4.0.2",
-		"gulp-notify": "^3.0.0",
-		"gulp-plumber": "^1.1.0",
-		"gulp-postcss": "^6.2.0",
-		"gulp-rename": "^1.2.2",
-		"gulp-sass": "^5.1.0",
-		"gulp-watch": "^4.3.11",
-		"sass": "^1.49.9"
-	},
-	"dependencies": {
-		"gulp-clean-css": "^4.3.0"
-	}
+    "name": "iotty-theme",
+    "version": "1.0.0",
+    "description": "Theming",
+    "author": "SEAPIXEL",
+    "license": "UNLICENSED",
+    "private": true,
+    "devDependencies": {
+        "@shopify/prettier-plugin-liquid": "^1.4.4",
+        "autoprefixer": "^6.7.2",
+        "gulp": "^4.0.2",
+        "gulp-notify": "^3.0.0",
+        "gulp-plumber": "^1.1.0",
+        "gulp-postcss": "^6.2.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^5.1.0",
+        "gulp-watch": "^4.3.11",
+        "prettier": "^3.2.5",
+        "sass": "^1.49.9"
+    },
+    "dependencies": {
+        "gulp-clean-css": "^4.3.0"
+    }
 }
