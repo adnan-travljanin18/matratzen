@@ -1,73 +1,45 @@
-<section class="section-content banner-image-with-text"  data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_text_color }}">
+<section 
+    class="section-content banner-image-with-text" 
+    data-section-id="{{ section.id }}" 
+    style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_text_color }}"
+>
     <div class="{% if section.settings.fluid_layout %}container-fluid{% else %}container{% endif %}">
-        <div class="row align-items-center">
-                <div class="col-12 col-lg-5 order-lg-2">
-                    <div class="banner-img-border {{ section.settings.height }}" style="color:{{ section.settings.border_color }}">
-                        {%- if section.settings.image != blank -%}
-                            {% if section.settings.url_on_image != blank %}
-                                <a href="{{ section.settings.url_on_image }}">
-                                    <img
-                                        srcset="
-                                        {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-                                        {%- if section.settings.image.width >= 520 -%}{{ section.settings.image | image_url: width: 520 }} 520w,{%- endif -%}
-                                        {%- if section.settings.image.width >= 650 -%}{{ section.settings.image | image_url: width: 650 }} 650w,{%- endif -%}
-                                        {%- if section.settings.image.width >= 780 -%}{{ section.settings.image | image_url: width: 780 }} 780w,{%- endif -%}
-                                        {%- if section.settings.image.width >= 900 -%}{{ section.settings.image | image_url: width: 900 }} 900w,{%- endif -%}
-                                        {%- if section.settings.image.width >= 1000 -%}{{ section.settings.image | image_url: width: 1000 }} 1000w,{%- endif -%}"
-                                        src="{{ section.settings.image | image_url: width: 50 }}"
-                                        sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), 100vw"
-                                        alt="{{ section.settings.image.alt | escape }}"
-                                        class="w-100"
-                                        loading="lazy"
-                                        width="{{ section.settings.image.width | divided_by: 3 }}"
-                                        height="{{ section.settings.image.height | divided_by: 3 }}"
-                                    >
-                                </a>
-                            {% else %}
-                                <img
-                                    srcset="
-                                    {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-                                    {%- if section.settings.image.width >= 520 -%}{{ section.settings.image | image_url: width: 520 }} 520w,{%- endif -%}
-                                    {%- if section.settings.image.width >= 650 -%}{{ section.settings.image | image_url: width: 650 }} 650w,{%- endif -%}
-                                    {%- if section.settings.image.width >= 780 -%}{{ section.settings.image | image_url: width: 780 }} 780w,{%- endif -%}
-                                    {%- if section.settings.image.width >= 900 -%}{{ section.settings.image | image_url: width: 900 }} 900w,{%- endif -%}
-                                    {%- if section.settings.image.width >= 1000 -%}{{ section.settings.image | image_url: width: 1000 }} 1000w,{%- endif -%}"
-                                    src="{{ section.settings.image | image_url: width: 50 }}"
-                                    sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), 100vw"
-                                    alt="{{ section.settings.image.alt | escape }}"
-                                    class="w-100"
-                                    loading="lazy"
-                                    width="{{ section.settings.image.width | divided_by: 3 }}"
-                                    height="{{ section.settings.image.height | divided_by: 3 }}"
-                                >
-                            {% endif %}
-                        {%- else -%}
-                            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-                        {%- endif -%}
+        {% if section.settings.heading_txt != blank %}
+            {% if section.settings.heading_above == true %}
+                <h3 class="mb-3 text-center">{{ section.settings.heading_txt }}</h3> 
+            {% endif %}
+        {% endif %}
+    
+        <div class="row {% if section.settings.column != blank %}flex-column {% endif %} {% if section.settings.column_reverse != blank %}flex-column-reverse {% endif %}align-items-center">
 
-                    </div>
-                </div>
-                <div class="col-12 col-lg-5 col-xl-6 mt-4 mt-md-0 order-lg-1">
-                    <div class="inside-block">
-                        {% if section.settings.step_heading != blank %}
-                            <h6 class="mb-2 mb-md-3 text-center text-lg-end text-uppercase" style="color:{{ section.settings.border_color }}">{{ section.settings.step_heading }}</h6>
-                        {% endif %}
-                        {% if section.settings.heading_txt != blank %}
-                                <h1 class="mb-3 text-lg-end banner-image-with-text-heading text-center ">{{ section.settings.heading_txt }}</h1> 
-                        {% endif %}  
-                        {% if section.settings.steps_captions != blank %}
-                            {% assign caption = section.settings.steps_captions | newline_to_br | strip_newlines | split: '<br />' %}
-                            <ul class="list-unstyled mb-5">
-                                {% for cap in caption %}
-                                    <li class="mb-2 mb-md-3">{{ cap }}</li>
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
-                    </div>
+            <div class="col-12 col-lg-5 order-lg-2">
+                {% render 'img-border-offset', section: section %}
+            </div>
+            
+            <div class="col-12 col-lg-5 col-xl-6 mt-4 mt-md-0 order-lg-1">
+                <div class="inside-block">
+                    {% if section.settings.step_heading != blank %}
+                        <h6 class="mb-2 mb-md-3 text-center text-lg-end text-uppercase" style="color:{{ section.settings.border_color }}">{{ section.settings.step_heading }}</h6>
+                    {% endif %}
+                    {% if section.settings.heading_txt != blank %}
+                        {% if section.settings.heading_above == false %}
+                            <h1 class="mb-3 banner-image-with-text-heading text-center text-lg-end">{{ section.settings.heading_txt }}</h1> 
+                        {% endif %}                    
+                    {% endif %}  
+                    {% if section.settings.steps_captions != blank %}
+                        {% assign caption = section.settings.steps_captions | newline_to_br | strip_newlines | split: '<br />' %}
+                        <ul class="list-unstyled mb-5">
+                            {% for cap in caption %}
+                                <li class="mb-2 mb-md-3">{{ cap }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
                 </div>
             </div>
+
         </div>
 </section>
+
 <section>
     <div class="container">
         <div class="row">
@@ -87,6 +59,51 @@
         </div>
     </div>
 </section>
+
+<style>
+    .underline-btn {
+        text-decoration: none;
+        position: relative;
+        transition: color 0.3s;
+        overflow: hidden;
+    }
+
+    .underline-btn:hover {
+        color: #6490b2;
+        background: transparent;
+        border-radius: 0;
+
+    }
+    .underline-btn::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #6490b2;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .underline-btn:hover::before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+    .collection-grid-blocks .card-collection img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.btn-quiz {
+    background: transparent;
+    border: 0;
+    color: #131e27;
+}
+</style>
  
 
 {% schema %}

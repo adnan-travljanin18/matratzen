@@ -1,0 +1,59 @@
+// Section quiz
+// =-=-=-=-=-=-=-=-=-=-
+
+.underline-btn {
+	text-decoration: none;
+	position: relative;
+	transition: color 0.3s;
+	overflow: hidden;
+
+	&:before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		bottom: 0;
+		left: 0;
+		background-color: #6490b2;
+		visibility: hidden;
+		transform: scaleX(0);
+		transition: all 0.3s ease-in-out;
+	}
+
+	&:hover {
+		color: #6490b2;
+		background: transparent;
+		border-radius: 0;
+
+		:before {
+			visibility: visible;
+			transform: scaleX(1);
+		}
+	}
+}
+
+.banner-image-with-text {
+	padding: 2rem;
+}
+
+.banner-image-with-text-heading {
+	font-size: 2rem;
+}
+.btn-quiz {
+	background: transparent;
+	border: 0;
+	color: #131e27;
+}
+
+@media only screen and (min-width: 992px) {
+	.banner-image-with-text {
+		padding: 9rem 0 12rem 0;
+	}
+
+	.banner-image-with-text-heading {
+		font-size: 3.5rem;
+	}
+}
+
+// Section hero slider
+// =-=-=-=-=-=-=-=-=-=-

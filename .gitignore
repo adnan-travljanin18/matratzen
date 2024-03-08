@@ -4,6 +4,14 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 
+node_modules
+package-lock.json
+.DS_Store
+assets/main.min.css
+
+.env
+.env.*
+
 # Other files and folders
 .settings/
 

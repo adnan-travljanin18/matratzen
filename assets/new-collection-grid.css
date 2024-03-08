@@ -30,10 +30,10 @@
 }
 
 .collection-grid-blocks .card-collection img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 16px;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 16px;
 }
 
 .btn-quiz {
@@ -51,7 +51,10 @@
     position: relative;
     z-index: 1;
     border-radius: 16px;
+.banner-image-with-text {
+	padding: 2rem;
 }
+
 .banner-image-with-text-heading {
     font-size: 2rem;
     font-family: 'the-seasons';
@@ -84,4 +87,14 @@
         max-width: 407px;
         height: 368px;
     }
+	font-size: 2rem;
+}
+
+@media only screen and (min-width: 992px) {
+	.banner-image-with-text {
+		padding: 9rem 0 16rem 0;
+	}
+	.banner-image-with-text-heading {
+		font-size: 3.5rem;
+	}
 }

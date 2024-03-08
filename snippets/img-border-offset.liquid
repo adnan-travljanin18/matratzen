@@ -1,0 +1,13 @@
+<div class="img-border-offset">
+    {%- if section.settings.image != blank -%}
+        {% render 
+            'image-walker', 
+            image: section.settings.image, 
+            alt: section.settings.heading_txt, 
+            size: '800', 
+            classes: 'w-100 border-radius top-left-lg' 
+        %}
+    {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+    {%- endif -%}
+</div>

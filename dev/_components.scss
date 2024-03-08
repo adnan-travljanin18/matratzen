@@ -1,0 +1,44 @@
+.img-border-offset {
+	position: relative;
+	z-index: 1;
+	padding-right: 15%;
+	padding-bottom: 15%;
+
+	&:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		bottom: 0;
+		right: 0;
+		width: 85%;
+		height: 85%;
+		border: 1px solid purple;
+		border-radius: 1rem 1rem $border-radious-lg 1rem;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	@include break($medium) {
+		padding-right: 10%;
+		padding-bottom: 10%;
+
+		&:after {
+			width: 90%;
+			height: 90%;
+			border-radius: 1rem 1rem $border-radious-md 1rem;
+		}
+	}
+
+	@include break($mobile) {
+		padding-right: 5%;
+		padding-bottom: 5%;
+
+		&:after {
+			width: 95%;
+			height: 95%;
+			border-radius: 1rem 1rem $border-radious-sm 1rem;
+		}
+	}
+}

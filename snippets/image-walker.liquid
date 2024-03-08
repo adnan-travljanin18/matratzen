@@ -1,0 +1,16 @@
+<img
+    srcset="
+        {{ image | image_url: width: 380 }} 380w,
+        {{ image | image_url: width: 798 }} 798w,
+        {{ image | image_url: width: 1246 }} 1246w,
+        {{ image | image_url: width: 1946 }} 1946w,
+        {{ image | image_url: width: 2258 }} 2258w
+    "
+    src="{% if size %}{{ image | image_url: width: size }}{% else %}{{ image | image_url: 'master' }}{% endif %}"
+    sizes="{% if sizes %}{{ sizes }}{% else %}auto{% endif %}"
+    alt="{{ alt | escape }}"
+    class="{{ classes }}"
+    width="{{ image.width }}"
+    height="{{ image.height }}"
+    loading="lazy"
+>

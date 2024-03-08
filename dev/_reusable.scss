@@ -1,0 +1,31 @@
+.border-radius {
+	border-radius: 1rem;
+
+	&.top-left-lg {
+		border-top-left-radius: $border-radious-lg;
+	}
+
+	&.bottom-right-lg {
+		border-bottom-right-radius: $border-radious-lg;
+	}
+
+	@include break($medium) {
+		&.top-left-lg {
+			border-top-left-radius: $border-radious-md;
+		}
+
+		&.bottom-right-lg {
+			border-bottom-right-radius: $border-radious-md;
+		}
+	}
+
+	@include break($mobile) {
+		&.top-left-lg {
+			border-top-left-radius: $border-radious-sm;
+		}
+
+		&.bottom-right-lg {
+			border-bottom-right-radius: $border-radious-sm;
+		}
+	}
+}
