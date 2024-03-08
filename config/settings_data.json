@@ -2,6 +2,7 @@
   "current": {
     "body_color": "#122230",
     "heading_color": "#000000",
+    "link_color": "#212121",
     "link_hover_color": "#6490b2",
     "color_primary": "#000000",
     "color_secondary": "#F8F0EC",
