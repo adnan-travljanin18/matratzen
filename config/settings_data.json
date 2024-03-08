@@ -20,6 +20,8 @@
     "txt_color_btn_secondary": "#ffffff",
     "bg_color_btn_secondary": "#406c93",
     "bg_hover_color_btn_secondary": "#345878",
+    "txt_color_btn_white": "#212121",
+    "bg_hover_color_btn_dark": "#ffffff",
     "type_input_font": "Poppins",
     "type_input_font_weight": "300",
     "favicon": "shopify:\/\/shop_images\/SE_LOGO_72px_b2f708d5-a16d-4d93-81dc-56c6c1960041.png",
