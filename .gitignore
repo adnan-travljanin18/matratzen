@@ -7,7 +7,7 @@ bin-release/
 node_modules
 package-lock.json
 .DS_Store
-./assets/seapixel.min.css
+assets/main.min.css
 
 .env
 .env.*

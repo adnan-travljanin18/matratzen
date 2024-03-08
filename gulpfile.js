@@ -34,7 +34,7 @@ const css = function () {
 			})
 		)
 		.pipe(cleanCSS({ compatibility: 'ie8' }))
-		.pipe(rename('seapixel.min.css'))
+		.pipe(rename('main.min.css'))
 		.pipe(gulp.dest('./assets/'))
 		.pipe(
 			notify({
