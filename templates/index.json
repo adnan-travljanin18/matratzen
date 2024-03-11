@@ -59,6 +59,13 @@
     "products_slider_ccTP8t": {
       "type": "products-slider",
       "blocks": {
+        "featured_collection_w4FBQE": {
+          "type": "featured_collection",
+          "settings": {
+            "products-category-button-text": "Show All",
+            "collection": "matratzen"
+          }
+        },
         "featured_collection_nBmpN8": {
           "type": "featured_collection",
           "settings": {
@@ -82,6 +89,7 @@
         }
       },
       "block_order": [
+        "featured_collection_w4FBQE",
         "featured_collection_nBmpN8",
         "featured_collection_F87krh",
         "featured_collection_ahNJAz"
