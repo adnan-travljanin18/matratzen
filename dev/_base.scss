@@ -1,17 +1,23 @@
 body {
-	color: $dark;
+    color: $dark;
 }
 
 h1,
 h2,
 h3 {
-	font-family: Urbanist;
-	line-height: 1.1em;
-	letter-spacing: 0em;
-	font-weight: 600;
-	color: $dark;
+    font-family: Urbanist;
+    line-height: 1.1em;
+    letter-spacing: 0em;
+    font-weight: 600;
+    color: $dark;
 }
 
 h2 {
-	font-size: 58px;
+    font-size: 58px;
+}
+
+@include media-breakpoint-down(sm) {
+    h2 {
+        color: red !important;
+    }
 }
