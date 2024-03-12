@@ -103,9 +103,7 @@
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe": {
       "type": "global-video-with-text",
       "custom_css": [
-        "video {width: 100%;}",
-        ".video-button-wrapper {display: none;}",
-        ".container-fluid {padding: 0;}"
+
       ],
       "settings": {
         "fluid_layout": true,
@@ -116,8 +114,6 @@
         "subtitle": "<p>Maximieren Sie Ihren Komfort, Umarmen Sie Jeden Traum<\/p>",
         "btn_txt": "Button",
         "btn_link": "",
-        "btn_type": "",
-        "btn_variant": "primary",
         "btn_size": "",
         "poster_type": "video",
         "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/53df34a096674de0aba3aaa7e36f6f84.mp4",
@@ -197,20 +193,11 @@
       "type": "quiz-section",
       "settings": {
         "fluid_layout": false,
-        "column": false,
-        "column_reverse": false,
         "heading_txt": "Find Your <b>Perfect<br>Mattress<\/b><i> With <br>Our <\/i>Personalized<br><b>Quiz!<b><\/b><\/b>",
-        "heading_above": false,
         "txt": "<p>Click the link to start the process<\/p>",
         "step_heading": "Serenity Mattress",
-        "steps_captions": "",
         "btn_txt": "Start Quiz Now",
-        "btn_link": "",
-        "btn_type": "",
-        "btn_variant": "primary",
-        "btn_size": "",
         "image": "shopify:\/\/shop_images\/homepage_bedroom_1.jpg",
-        "url_on_image": "",
         "section_bg_color": "#ffffff",
         "section_text_color": "#131e27",
         "border_color": "#6490b2",

@@ -141,6 +141,15 @@
 .max-width-logo {
     max-width: 75rem;
 }
+
+@media (max-width: 991px) {
+    .desktop-img-view {
+        display: none;
+        }
+        .mobile-img-view {
+        display: block;
+        }
+}
 @media (max-width: 767px) {
     .hero-button {
         border-radius: 64px;
@@ -170,7 +179,12 @@
     }
 }
 @media (min-width: 992px) {
-    
+    .desktop-img-view {
+        display: block;
+        }
+        .mobile-img-view {
+        display: none;
+        }
 }
 @media (min-width: 1200px) {
     .top-positioning {

@@ -91,6 +91,7 @@
                     {% endif %}
                     {%- if section.settings.logo_image != blank -%}
                         <img
+                            class="desktop-img-view"
                             srcset="
                                 {%- if section.settings.logo_image.width >= 350 -%}{{ section.settings.logo_image | image_url: width: 350 }} 350w,{%- endif -%}
                                 {%- if section.settings.logo_image.width >= 550 -%}{{ section.settings.logo_image | image_url: width: 550 }} 550w,{%- endif -%}
@@ -105,6 +106,27 @@
                             alt="{{ section.settings.logo_image.alt | default: section.settings.title | escape }}"
                             width="{{ section.settings.logo_image.width }}"
                             height="{{ section.settings.logo_image.width | divided_by: section.settings.logo_image.aspect_ratio | round }}"
+                        >
+                    {%- else -%}
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                    {%- endif -%}
+                    {%- if section.settings.logo_mobile_image != blank -%}
+                        <img
+                            class="mobile-img-view"
+                            srcset="
+                                {%- if section.settings.logo_mobile_image.width >= 350 -%}{{ section.settings.logo_mobile_image | image_url: width: 350 }} 350w,{%- endif -%}
+                                {%- if section.settings.logo_mobile_image.width >= 550 -%}{{ section.settings.logo_mobile_image | image_url: width: 550 }} 550w,{%- endif -%}
+                                {%- if section.settings.logo_mobile_image.width >= 750 -%}{{ section.settings.logo_mobile_image | image_url: width: 750 }} 750w,{%- endif -%}
+                                {%- if section.settings.logo_mobile_image.width >= 991 -%}{{ section.settings.logo_mobile_image | image_url: width: 991 }} 991w,{%- endif -%}
+                                {%- if section.settings.logo_mobile_image.width >= 1200 -%}{{ section.settings.logo_mobile_image | image_url: width: 1200 }} 1200w,{%- endif -%}
+                                {%- if section.settings.logo_mobile_image.width >= 1500 -%}{{ section.settings.logo_mobile_image | image_url: width: 1500 }} 1500w{%- endif -%}
+                            "
+                            src="{{ section.settings.logo_mobile_image | image_url: width: 50 }}"
+                            loading="lazy"
+                            sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw"
+                            alt="{{ section.settings.logo_mobile_image.alt | default: section.settings.title | escape }}"
+                            width="{{ section.settings.logo_mobile_image.width }}"
+                            height="{{ section.settings.logo_mobile_image.width | divided_by: section.settings.logo_image.aspect_ratio | round }}"
                         >
                     {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -295,6 +317,15 @@
             "type": "image_picker",
             "id": "logo_image",
             "label": "Select Logo Image"
+        },
+        {
+            "type": "paragraph",
+            "content": "Mobile Logo Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "logo_mobile_image",
+            "label": "Select Mobile Logo Image"
         },
         {
             "type": "paragraph",

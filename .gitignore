@@ -25,3 +25,4 @@ assets/main.min.css
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
 config/settingS_data.json
+config/settings_data.json
