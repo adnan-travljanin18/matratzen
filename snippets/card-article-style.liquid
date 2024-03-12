@@ -2,47 +2,41 @@
 
 <div class="card bg-white article-card border-0 blog-cards">
   {% unless article_image contains 'no-image' %}
-        <a href="{{ article.url }}" class="card-img d-block">
-            <img
-                srcset="
-                    {%- if article.image.src.width >= 360 -%}{{ article.image.src | image_url: width: 360 }} 360w,{%- endif -%}
-                    {%- if article.image.src.width >= 533 -%}{{ article.image.src | image_url: width: 533 }} 533w,{%- endif -%}
-                    {%- if article.image.src.width >= 720 -%}{{ article.image.src | image_url: width: 720 }} 720w,{%- endif -%}
-                    {{ article.image.src | image_url }} {{ article.image.src.width }}w"
-                src="{{ article.image.src | image_url: width: 50 }}"
-                sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | minus: 100 | divided_by: 3 }}px, (min-width: 768px) calc((100vw - 130px) / 2), 50vw"
-                alt="{{ article.image.src.alt | escape }}"
-                class="motion-reduce w-100" loading="lazy"
-                width="{{ article.image.width }}"
-                height="{{ article.image.height }}"
-            >
-        </a>
-    {% else %}
-        {% if settings.no_image_replacement != blank %}
-            <a href="{{ article.url }}" class="card-img d-block">
-                <img srcset="{{ settings.no_image_replacement | image_url: width: 578, crop: 'center', format: 'pjpg' }}"
-                    loading="lazy"
-                    src="{{ settings.no_image_replacement | image_url }}"
-                    alt="{{ settings.no_image_replacement.alt | default: article.title | escape }}"
-                    width="{{ settings.no_image_replacement.width }}"
-                    height="{{ settings.no_image_replacement.width | divided_by: settings.no_image_replacement.aspect_ratio }}" >
-            </a>
-        {% endif %}
-    {% endunless %}
+    <a href="{{ article.url }}" class="card-img d-block">
+      <div style="background-image: url({{ article.image | image_url }});" class="d-block article-bg-image"></div>
+    </a>
+  {% else %}
+    {% if settings.no_image_replacement != blank %}
+      <a href="{{ article.url }}" class="card-img d-block">
+        <img
+          srcset="{{ settings.no_image_replacement | image_url: width: 578, crop: 'center', format: 'pjpg' }}"
+          loading="lazy"
+          src="{{ settings.no_image_replacement | image_url }}"
+          alt="{{ settings.no_image_replacement.alt | default: article.title | escape }}"
+          width="{{ settings.no_image_replacement.width }}"
+          height="{{ settings.no_image_replacement.width | divided_by: settings.no_image_replacement.aspect_ratio }}">
+      </a>
+    {% endif %}
+  {% endunless %}
 
-    <div class="card-body px-0">
-        <h4 class="h5 text-capitalize"><a href="{{ article.url }}">{{ article.title }}</a></h4>
-        
+  <div class="card-body px-0">
+    <h4 class="h5 text-capitalize">
+      <a href="{{ article.url }}">{{ article.title }}</a>
+    </h4>
+
+  </div>
+  <div class="card-footer bg-transparent border-top border-primary-100 px-0">
+    {% comment %} <a href="{{ article.url }}" class="btn btn-outline-primary">Read More</a> {% endcomment %}
+    <div class="mt-3 d-flex flex-wrap gap-2">
+      {% for tag in article.tags %}
+        <a href="/blogs/news/tagged/{{ tag }}" class="blog-tag-bubble">{{ tag }}</a>
+      {% endfor %}
     </div>
-    <div class="card-footer bg-transparent border-top border-primary-100 px-0">
-        {% comment %} <a href="{{ article.url }}" class="btn btn-outline-primary">Read More</a> {% endcomment %}
-        <div class="mt-3 d-flex flex-wrap gap-2">
-            {% for tag in article.tags %}
-                <a href="/blogs/news/tagged/{{ tag }}" class="blog-tag-bubble">{{ tag }}</a>
-            {% endfor %}
-        </div>
-        <div class="small text-muted">
-            <time datetime="{{ article.published_at | date: "%d/%m/%Y" }}"> {{ article.published_at | date: "%d/%m/%Y" }}</time><span> | by {{ article.author }}</span>
-        </div>
+    <div class="small text-muted">
+      <time datetime="{{ article.published_at | date: "%d/%m/%Y" }}">
+        {{ article.published_at | date: "%d/%m/%Y" }}</time>
+      <span>
+        | by {{ article.author }}</span>
     </div>
+  </div>
 </div>

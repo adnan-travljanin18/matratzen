@@ -55,5 +55,39 @@
 	}
 }
 
-// Section hero slider
+// Product Detail Image Slider
 // =-=-=-=-=-=-=-=-=-=-
+.pdp-carousel {
+	.swiper-button-next {
+		background: #fff;
+		color: #121212;
+		width: 42px;
+		&::before {
+			content: '';
+		}
+		&::after {
+			font-size: 1rem;
+		}
+	}
+	.swiper-button-prev {
+		background: #fff;
+		color: #121212;
+		width: 42px;
+		&::before {
+			content: '';
+		}
+		&::after {
+			font-size: 1rem;
+		}
+	}
+}
+
+// Blog
+// =-=-=-=-=-=-=-=-=-=-
+
+.article-bg-image {
+	padding: 50%; 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	border-radius: 16px;
+}

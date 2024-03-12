@@ -15,6 +15,7 @@
 }
 .contact-form-container .form-control {
     border-radius: 50px;
+    font-family: 'Roboto';
 }
 .contact-form-container .form-control:last-child {
     border-radius: 16px;

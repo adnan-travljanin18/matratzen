@@ -13,9 +13,9 @@
     opacity: 0.4;
 }
 .collection-hero__banner .fancy-heading h1 {
-    font-family: 'the-seasons';
-    font-style: italic;
+    font-family: 'Urbanist';
     font-weight: 700;
+    font-size: 64px;
 }
 @media (min-width: 768px) {
     .collection-hero__banner{

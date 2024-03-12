@@ -65,7 +65,12 @@
     border-left: none;
     font-size: 18px;
     margin: 0;
-    padding-left: 25px 
+    padding-left: 25px;
+    font-family: 'Roboto';
+}
+.product-section .quantity:focus {
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
 }
 .product-section .quantity-wrapper {
     max-width: unset;
