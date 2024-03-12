@@ -91,3 +91,12 @@
 	background-repeat: no-repeat; 
 	border-radius: 16px;
 }
+.article-tag-hover {
+	&:hover {
+		background-color: #6490b2!important;
+		color: #fff!important;
+		a {
+			color: #fff!important;
+		}
+	}
+}

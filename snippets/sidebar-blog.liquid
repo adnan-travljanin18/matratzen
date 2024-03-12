@@ -64,7 +64,7 @@
             {% if current_tags contains tag %}
               <span class="badge badge-pill badge-primary-100 text-white p-2">{{ tag }}</span>
             {% else %}
-              <span class="badge badge-pill p-2">{{ tag | link_to_tag: tag }}</span>
+              <span class="badge badge-pill p-2 article-tag-hover">{{ tag | link_to_tag: tag }}</span>
             {% endif %}
           {% endfor %}
         </div>
