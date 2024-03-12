@@ -1,31 +1,48 @@
-
 <link href="{{ 'custom-accordion.css' | asset_url }}" rel="stylesheet" type="text/css">
 <section data-section-id="{{ section.id }}" class="section-accordion" id="{{ section.settings.heading | handleize }}">
     <div class="container accordion-margins">
         <div class="row">
-            <div class="col-6">
-                <div class="block-heading">
-                    <h4 class="fw-medium lh-base letter-spacing mb-0">{{ section.settings.heading }}</h4>
+            <div class="col-sm-12 col-md-8 d-flex justify-content-md-normal justify-content-center">
+                <div class="mb-4 mb-sm-7">
+                    <h2 class="fw-medium lh-base letter-spacing mb-0">{{ section.settings.heading }}</h2>
                 </div>
             </div>
             <div class="col-12">
-                <div>
-                    <div>
-                        {% for block in section.blocks %}
-                            {% if block.settings.title != blank and block.settings.answer != blank %}
-                             <div class="accordion-button-hover row py-5">
-                                <a href="#" class=" col-6 border-bottom border-gray-100 d-flex align-items-center pe-2 justify-content-between arrow-positioning" title="Open {{ block.settings.title | strip_html }}" rel="nofollow" aria-label="Open {{ block.settings.title | strip_html }}" role="button" aria-expanded="false" onclick="toggleContent(event, {{ forloop.index }})">
-                                    <h6 class="font-size-lg lh-base fw-normal font-family-base letter-spacing mb-0">{{ block.settings.title }}</h6>
-                                    <span class="icon-class icon-full-arrow-right d-block"></span>
-                                </a>
-                                <div class="col-6" id="content-text-{{ forloop.index }}" data-type="content" style="display: {% if forloop.first %} block {% else %} none {% endif %};">
-                                    <div class="fw-light letter-spacing rpt-5 pt-4">{{ block.settings.answer }}</div>
-                                </div> 
+                {% for block in section.blocks %}
+                    {% assign accordions-title = block.settings['accordion-title'] %}
+                    {% if accordions-title != blank and block.settings['accordion-text'] != blank %}
+                        <div class="row px-3 px-md-3 accordion-button-hover ">
+                            <a
+                                href="#"
+                                class="col-12 col-md-6 px-md-0 justify-content-between border-bottom py-4 border-gray-100 d-flex align-items-center justify-content-between arrow-positioning"
+                                title="Open {{ accordions-title | strip_html }}"
+                                rel="nofollow"
+                                aria-label="Open {{ accordions-title | strip_html }}"
+                                role="button"
+                                aria-expanded="false"
+                                onclick="toggleContent(event, {{ forloop.index }})"
+                            >
+                                <h5
+                                    class="lh-base fw-normal letter-spacing mb-0"
+                                    style="color:{{ section.settings.section_text_color }}"
+                                >
+                                    {{ accordions-title | strip_html }}
+                                </h5>
+                                <span class="icon-class icon-full-arrow-right d-block"></span>
+                            </a>
+                            <div
+                                class="col-12 col-md-6 ps-0 ps-md-7"
+                                id="content-text-{{ forloop.index }}"
+                                data-type="content"
+                                style="display: {% if forloop.first %} block {% else %} none {% endif %}; color:{{ section.settings.section_text_color }}"
+                            >
+                                <div class="fw-light letter-spacing p-3 p-md-0 pt-md-3">
+                                    {{ block.settings['accordion-text'] }}
+                                </div>
                             </div>
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-                </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>
@@ -80,33 +97,40 @@
     }
 </style>
 
-
 {% schema %}
-  {
+{
     "name": "Custom Accordion",
-    "class": "dynamic-faq-block",
+    "class": "dynamic-accordion-block",
     "settings": [
-		{
+        {
             "type": "text",
             "id": "heading",
             "label": "Block Title",
-            "default": "FAQ"
+            "default": "Harmony Oasis Details"
+        },
+        {
+            "type": "color",
+            "id": "section_text_color",
+            "label": "Section Text Color",
+            "default": "rgba(69, 90, 100, 1)"
         }
-	],
+    ],
     "blocks": [
         {
             "type": "question",
-            "name": "FAQ",
+            "name": "Accordion",
             "settings": [
                 {
-                    "type": "richtext",
-                    "id": "title",
-                    "label": "Question"
+                    "type": "text",
+                    "id": "accordion-title",
+                    "label": "Accordion Title",
+                    "default": "About Harmony A"
                 },
                 {
-                    "type": "richtext",
-                    "id": "answer",
-                    "label": "Answer"
+                    "type": "text",
+                    "id": "accordion-text",
+                    "label": "Accordion Text",
+                    "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
                 }
             ]
         }
@@ -119,76 +143,3 @@
     ]
 }
 {% endschema %}
-
-{% comment %} {% if section.settings.enable %}
-    <section data-section-id="{{ section.id }}"  class="pb-11 section-faq" id="{{ section.settings.heading | handleize }}">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="block-heading">
-                        <h4 class="fw-medium lh-base letter-spacing mb-0">{{ section.settings.heading }}</h4>
-                    </div>
-                    <div data-faq-section>
-                        <custom-accordion {{ block.shopify_attributes }} data-accordionType="single">
-                            {% for block in section.blocks %}
-                                {% if block.settings.accordion-details != blank %}
-                                    <div>
-                                        <div class="accordion__container border-bottom border-gray-100 py-5">
-                                            <a class="accordion__toggle d-flex align-items-center pe-2 justify-content-between" href="#" title="Open {{ block.settings.title | strip_html }}" rel="nofollow" aria-label="Open {{ block.settings.title | strip_html }}" role="button" aria-expanded="false" aria-controls="faq-{{ section.settings.heading | handleize }}-{{ forloop.index }}">
-                                                <h6 class="font-size-lg lh-base fw-normal font-family-base letter-spacing mb-0">{{ block.settings.accordion-details }}</h6>
-                                                <span class="icon-arrow-down d-block"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                {% endif %}
-                            {% endfor %}
-                        </custom-accordion>
-                    </div>
-                </div>
-            </div>  
-        </div>
-    </section>
-{% endif %}
-
-<script>
-
-</script>
-
-{% schema %}
-    {
-      "name": "Custom accordion",
-      "class": "dynamic-accordion-block",
-      "settings": [
-          {
-              "type": "checkbox",
-              "id": "enable",
-              "label": "Enable?"
-          },
-          {
-              "type": "text",
-              "id": "heading",
-              "label": "Block Title",
-              "default": "About Hatmony A"
-          }
-      ],
-      "blocks": [
-          {
-              "type": "text",
-              "name": "Details",
-              "settings": [
-                  {
-                      "type": "text",
-                      "id": "accordion-details",
-                      "label": "Accordion details"
-                  }
-              ]
-          }
-      ],
-      "presets": [
-          {
-              "name": "Custom Accordion",
-              "category": "Content"
-          }
-      ]
-  }
-  {% endschema %} {% endcomment %}

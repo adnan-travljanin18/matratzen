@@ -13,5 +13,11 @@ h3 {
 }
 
 h2 {
-	font-size: 58px;
+	font-size: 48px;
+}
+
+@include break($mobile) {
+	h2 {
+		font-size: 32px;
+	}
 }

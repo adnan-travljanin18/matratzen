@@ -1,215 +1,303 @@
 <section data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }};">
-  <div class="container product-slider-container slider-padding-top margin-y margin-slider-y-custom">
-    <div class="row d-flex justify-content-between margin-x-1-percent pt-8 pt-sm-8 pt-md-0">
-      <div class="col-sm-12 col-md-8 col-lg-6 p-0 d-flex justify-content-md-normal justify-content-center">
-        <h2 class="collection-slider-h2 mb-4 mb-sm-7">
-          {%- if section.settings.title != blank -%}
-            {{- section.settings.title | escape -}}
-          {%- else -%}
-            {{ 'onboarding.collection_title' | t }}
-          {%- endif -%}
-        </h2>
-      </div>
-      <div class="col-md-3 col-lg-3 col-xl-2 d-md-block d-none p-0 text-end">
-        {% if section.settings.products-slider-button-text != blank %}
-          <button
-            {% if section.settings.products-slider-button-link %}
-            href="{{ section.settings.products-slider-button-link }}"
-            {% endif %}
-            class="products-slider-button">
-            {{ section.settings.products-slider-button-text }}
-          </button>
-        {% endif %}
-      </div>
-    </div>
-
-    <div class="tab btn-group justify-content-start row gap-3 justify-content-md-normal justify-content-center margin-x-1-percent mb-1 mb-sm-3" role="group">
-      {% for block in section.blocks %}
-        <button type="button" class="btn tab-button products-category-button col-5 col-md-3 col-lg-2 text-capitalize letter-spacing-inherit">{{ block.settings.products-category-button-text }}</button>
-      {% endfor %}
-    </div>
-
-    {% for block in section.blocks %}
-      <div class="ps slider-container slider-container-product p-xs-sm-5 py-md-5">
-        <div class="swiper mySwiper mySwiper-product">
-          <div class="swiper-wrapper">
-            {% if block.settings.collection != blank %}
-              {% assign _collection = collections[block.settings.collection] %}
-              {% for product in _collection.products %}
-                <div class="ps swiper-slide">
-                  <div class="custom-container container py-16">
-                    <div class="row flex-column justify-content-around">
-                      <div class="col-12 pb-4">
-                        {% if product.featured_media != blank %}
-                          <div class="featured-media" style="background: url('{{ product.featured_media | image_url }}');"></div>
-                        {% else %}
-                          {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
+    <div class="container product-slider-container slider-padding-top margin-y margin-slider-y-custom">
+        <div class="d-flex justify-content-center justify-content-md-between pt-8 pt-sm-8 pt-md-0">
+            <div class="col-sm-12 col-md-8 col-lg-6 p-0 d-flex">
+                <h2 class="mb-4 mb-sm-7">
+                    {%- if section.settings.title != blank -%}
+                        {{- section.settings.title | escape -}}
+                    {%- else -%}
+                        {{ 'onboarding.collection_title' | t }}
+                    {%- endif -%}
+                </h2>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-2 d-md-block d-none p-0 text-end">
+                {% if section.settings['products-slider-button-text'] != blank %}
+                    <button
+                        {% if section.settings['products-slider-button-link'] %}
+                            href="{{ section.settings.products-slider-button-link }}"
                         {% endif %}
-                      </div>
-
-                      <div class="row col-12 d-flex justify-content-center align-items-center text-start padding-r-0">
-                        <h5 class="col-9 ps heading-5">
-                          {%- if product.title != blank -%}
-                            {{- product.title | escape -}}
-                          {%- else -%}
-                            {{ 'onboarding.collection_title' | t }}
-                          {%- endif -%}
-                        </h5>
-                        <h5 class="col-3 ps heading-5 text-end padding-r-0">
-                          {%- if product.price != blank -%}
-                            {{- product.price | money -}}
-                          {%- endif -%}
-                        </h5>
-                        <h5 class="mb-3 mb-lg-5 heading-6">
-                          <p class="text-capitalize">{{ _collection.handle }}</p>
-                        </h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              {% endfor %}
-            {% endif %}
-          </div>
+                        class="btn btn{% if section.settings.btn_type == 'outline' %}-{% endif %}{{ section.settings.btn_type }}-{{ section.settings.btn_variant }} products-slider-button text-capitalize letter-spacing-normal"
+                    >
+                        {{ section.settings['products-slider-button-text'] }}
+                    </button>
+                {% endif %}
+            </div>
         </div>
-      </div>
-    {% endfor %}
-    <div class="row d-flex justify-content-between margin-x-1-percent mx-sm-5 pb-xs-sm-8">
-      <div class="d-block d-md-none p-0 text-end">
-        {% if section.settings.products-slider-button-text != blank %}
-          <button
-            {% if section.settings.products-slider-button-link %}
-            href="{{ section.settings.products-slider-button-link }}"
-            {% endif %}
-            class="products-slider-button col-12">
-            {{ section.settings.products-slider-button-text }}
-          </button>
-        {% endif %}
-      </div>
+
+        <ul
+            class="nav nav-pills justify-content-center justify-content-md-normal mb-3 products-category "
+            id="pills-tab"
+            role="tablist"
+        >
+            {% for block in section.blocks %}
+                {% assign button_id = block.settings['products-category-button-text'] | downcase | replace: ' ', '-' %}
+                <button
+                    class="nav-link {% if forloop.first %}active{% endif %} products-category-button"
+                    id="pills-{{ button_id }}-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-{{ button_id }}"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-{{ button_id }}"
+                    aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+                >
+                    {{ block.settings['products-category-button-text'] }}
+                </button>
+            {% endfor %}
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+            {% for block in section.blocks %}
+                {% assign button_id = block.settings['products-category-button-text'] | downcase | replace: ' ', '-' %}
+                <div
+                    class="tab-pane fade {% if forloop.first %}show active{% endif %} product-slider"
+                    id="pills-{{ button_id }}"
+                    role="tabpanel"
+                    aria-labelledby="pills-{{ button_id }}-tab"
+                >
+                    <div class="ps slider-container slider-container-product p-xs-sm-5 py-md-5">
+                        <div class="swiper mySwiper mySwiper-product">
+                            <div class="swiper-wrapper">
+                                {% if block.settings.collection != blank %}
+                                    {% assign _collection = collections[block.settings.collection] %}
+                                    {% for product in _collection.products %}
+                                        <div class="ps swiper-slide">
+                                            <div class="custom-container container py-16">
+                                                <div class="row flex-column justify-content-around">
+                                                    <div class="col-12 pb-4">
+                                                        {% if product.featured_media != blank %}
+                                                            <a
+                                                                href="{{ product.url | within: collection }}"
+                                                                class="d-block product-link"
+                                                            >
+                                                                <div
+                                                                    class="featured-media"
+                                                                    style="background: url('{{ product.featured_media | image_url }}');"
+                                                                ></div>
+                                                            </a>
+                                                            {% render 'wishlisthero-collection-product' with product: product buttonMode: 'icon_only' buttonClass: 'wishlisthero-floating' %}
+                                                        {% else %}
+                                                            {{
+                                                                'collection-1'
+                                                                | placeholder_svg_tag: 'placeholder-svg'
+                                                            }}
+                                                        {% endif %}
+                                                    </div>
+
+                                                    <div class="row col-12 d-flex justify-content-center align-items-center text-start padding-r-0">
+                                                        <h5 class="col-9 ps heading-5">
+                                                            <a
+                                                                class="product-link lh-base"
+                                                                role="button"
+                                                                href="{{ product.url | within: collection }}"
+                                                            >
+                                                                {%- if product.title != blank -%}
+                                                                    {{- product.title | escape -}}
+                                                                {%- else -%}
+                                                                    {{ 'onboarding.collection_title' | t }}
+                                                                {%- endif -%}
+                                                            </a>
+                                                        </h5>
+                                                        <h5 class="col-3 ps heading-5 text-end padding-r-0">
+                                                            {%- if product.price != blank -%}
+                                                                {{- product.price | money -}}
+                                                            {%- endif -%}
+                                                        </h5>
+                                                        <h5 class="mb-3 mb-lg-5 heading-6">
+                                                            <p class="text-capitalize">{{ _collection.handle }}</p>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="row d-flex justify-content-between mx-sm-5 pb-xs-sm-8">
+            <div class="d-block d-md-none p-0 text-end">
+                {% if section.settings['products-slider-button-text'] != blank %}
+                    <button
+                        {% if section.settings['products-slider-button-link'] %}
+                            href="{{ section.settings.products-slider-button-link }}"
+                        {% endif %}
+                        class="btn btn{% if section.settings.btn_type == 'outline' %}-{% endif %}{{ section.settings.btn_type }}-{{ section.settings.btn_variant }} col-12 products-slider-button text-capitalize letter-spacing-normal"
+                    >
+                        {{ section.settings['products-slider-button-text'] }}
+                    </button>
+                {% endif %}
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const sliderContainers = document.querySelectorAll('.slider-container-product');
+        const navLinks = document.querySelectorAll('.nav-link.products-category-button');
+        const tabPanes = document.querySelectorAll('.tab-pane.product-slider');
 
-  document.addEventListener('DOMContentLoaded', function () {
+        // Initialize Swiper sliders
+        const swipers = initializeSwipers(sliderContainers);
+        const tabLinks = document.querySelectorAll('.nav-link[data-bs-toggle="tab"]');
 
-    const sliderContainers = document.querySelectorAll('.slider-container-product');
-
-    // Initialize Swiper sliders
-    const swipers = initializeSwipers(sliderContainers);
-
-    sliderContainers[0].style.display = 'block';
-    // Toggle slider container on tab click
-    const tabButtons = document.querySelectorAll('.tab-button');
-    tabButtons.forEach((button, index) => {
-        button.addEventListener('click', function () {
-            toggleSliderContainer(sliderContainers, index, swipers);
-            buttons.forEach(function(btn) {
-                btn.classList.remove('active');
-            });
-            // Add active class to the clicked button
-            this.classList.add('active');
-        });
-    });
-  });
-
-  function initializeSwipers(containers) {
-    const swipers = [];
-    containers.forEach(container => {
-        const swiper = new Swiper(container.querySelector('.mySwiper-product'), {
-            slidesPerView: 1,
-            spaceBetween: 0,
-            loop: false,
-            autoplay: {
-                delay: 5000, // autoplay delay in milliseconds
-                disableOnInteraction: false, // enable autoplay even after user interaction
-            },
-            pagination: false, // disable pagination
-            navigation: false, // disable navigation buttons
-            breakpoints:{
-                768:{
-                    slidesPerView: 2,
-                },
-                1100:{
-                    slidesPerView: 3,
-                }
-            }
-        });
-        swipers.push(swiper);
-        container.style.display = 'none'; // Hide all slider containers initially
-    });
-    return swipers;
-  }
-
-  function toggleSliderContainer(containers, selectedIndex, swipers) {
-    containers.forEach((container, index) => {
-        if (index === selectedIndex) {
-            container.style.display = 'block'; // Show the selected slider container
-            swipers[index].update(); // Update Swiper slider when container is shown
-        } else {
-            container.style.display = 'none'; // Hide other slider containers
-            // If there's a swiper associated with the container, stop its autoplay
-            if (swipers[index]) {
-                swipers[index].autoplay.stop();
-            }
+        // Show the first tab pane and corresponding slider container
+        if (tabPanes.length > 0 && navLinks.length > 0) {
+            tabPanes[0].classList.add('show', 'active');
+            navLinks[0].classList.add('active'); // Add 'active' class to the first nav link
         }
+
+        // Add click event listener to nav links
+        navLinks.forEach((link, index) => {
+            link.addEventListener('click', function () {
+                // Hide all tab panes and remove 'show' and 'active' classes
+                tabPanes.forEach(pane => {
+                    pane.classList.remove('show', 'active');
+                });
+
+                // Show the selected tab pane and add 'show' and 'active' classes
+                if (tabPanes[index]) {
+                    tabPanes[index].classList.add('show', 'active');
+
+                    // Update Swiper slider when container is shown
+                    swipers[index].update();
+                }
+
+                // Remove 'active' class from all nav links
+                navLinks.forEach(navLink => navLink.classList.remove('active'));
+                // Add 'active' class to the clicked nav link
+                link.classList.add('active');
+            });
+        });
     });
-  }
+
+    function initializeSwipers(containers) {
+        const swipers = [];
+        containers.forEach(container => {
+            const swiper = new Swiper(container.querySelector('.mySwiper-product'), {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                loop: false,
+                autoplay: {
+                    delay: 5000, // autoplay delay in milliseconds
+                    disableOnInteraction: false // enable autoplay even after user interaction
+                },
+                pagination: false, // disable pagination
+                navigation: false, // disable navigation buttons
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2
+                    },
+                    1100: {
+                        slidesPerView: 3
+                    }
+                }
+            });
+            swipers.push(swiper);
+        });
+        return swipers;
+    }
 </script>
 
 {% schema %}
-  {
+{
     "name": "product-slider",
     "class": "product-slider-style",
     "settings": [
-      {
-        "type": "header",
-        "content": "Main heading"
-      },
-      {
-        "type": "text",
-        "id": "title",
-        "default": "Products slider heading",
-        "label": "Products slider heading"
-      },
-      {
-        "type": "header",
-        "content": "Main button"
-      },
-      {
-        "type": "text",
-        "id": "products-slider-button-text",
-        "default": "shop",
-        "label": "Products slider shop button text"
-      }, {
-        "type": "url",
-        "id": "products-slider-button-link",
-        "label": "Products slider shop button link"
-      }
+        {
+            "type": "header",
+            "content": "Main heading"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "default": "Products slider heading",
+            "label": "Products slider heading"
+        },
+        {
+            "type": "header",
+            "content": "Main button"
+        },
+        {
+            "type": "text",
+            "id": "products-slider-button-text",
+            "default": "shop",
+            "label": "Products slider shop button text"
+        },
+        {
+            "type": "select",
+            "id": "btn_type",
+            "label": "Button Type",
+            "options": [
+                {
+                    "value": "outline",
+                    "label": "Outline"
+                },
+                {
+                    "value": "",
+                    "label": "Solid"
+                }
+            ],
+            "default": "outline"
+        },
+        {
+            "type": "select",
+            "id": "btn_variant",
+            "label": "Button Variant",
+            "options": [
+                {
+                    "value": "primary",
+                    "label": "Primary"
+                },
+                {
+                    "value": "secondary",
+                    "label": "Secondary"
+                },
+                {
+                    "value": "white",
+                    "label": "White"
+                },
+                {
+                    "value": "dark",
+                    "label": "Dark"
+                }
+            ],
+            "default": "dark"
+        },
+        {
+            "type": "url",
+            "id": "products-slider-button-link",
+            "label": "Products slider shop button link"
+        }
     ],
     "blocks": [
-      {
-        "name": "Collection slider item",
-        "type": "featured_collection",
-        "settings": [
-          {
-            "type": "text",
-            "id": "products-category-button-text",
-            "default": "Show All",
-            "label": "Products slider shop button text"
-          }, {
-            "type": "collection",
-            "id": "collection",
-            "label": "Collection"
-          }
-        ]
-      }
+        {
+            "name": "Collection slider item",
+            "type": "featured_collection",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "products-category-button-text",
+                    "default": "Show All",
+                    "label": "Products slider shop button text"
+                },
+                {
+                    "type": "collection",
+                    "id": "collection",
+                    "label": "Collection"
+                }
+            ]
+        }
     ],
     "presets": [
-      {
-        "name": "Product collection slider",
-        "category": "Content"
-      }
+        {
+            "name": "Product collection slider",
+            "category": "Content"
+        }
     ]
-  }
+}
 {% endschema %}

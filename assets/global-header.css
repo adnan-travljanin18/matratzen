@@ -203,13 +203,6 @@
         }
     }
     
-    .navbar-main .navbar-icon-links .nav-item:first-child{
-        padding-left: 0 !important;
-    }
-    .navbar-main .navbar-icon-links .nav-item:last-child  {
-        padding-right: 0 !important;
-    }
-    
     .navbar-main .nav-item .nav-link {
         padding: 0;
         color: var(--bs-body-color);
