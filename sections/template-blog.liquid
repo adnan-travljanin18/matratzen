@@ -11,8 +11,10 @@
   <div data-section-id="{{ section.id }}"> {% paginate blog.articles by items_per_page %}
     <section>
       {% if section.settings.banner_image != blank %}
-        <div class="position-relative blog-banner-wrapper">
-          <img src="{{ section.settings.banner_image | image_url }}" alt="News Banner image">
+        <div class="position-relative banner-height" style="background: url({{ section.settings.banner_image | image_url }}) center/cover no-repeat;">
+          <div class="col-12 banner-text-centered">
+            <h2 class="page-title">{{ blog_title }}</h2>
+          </div>
         </div>
       {% endif %}
       <div class="{% if fluid_layout %}container-fluid{% else %}container{% endif %}">
@@ -20,9 +22,7 @@
         {% if sidebar_enabled %}
           {% comment %} layout with sidebar {% endcomment %}
           <div class="row">
-            <div class="col-12 my-4">
-              <h2 class="page-title">{{ blog_title }}</h2>
-            </div>
+
             <div class="col-lg-8">
               <div class="row justify-content-center">
                 {% assign total_articles = blog.articles.size %}

@@ -14,43 +14,16 @@
     style="background-color: {{ section.settings.footer_top_bg_color }}; color: {{ section.settings.footer_top_txt_color }};">
     <div class="{% if section.settings.fluid_footer %}container-fluid{% else %}container{% endif %}">
       <div class="row">
-
-        {% comment %} <div class="col-xl-3 text-xl-start text-center mb-xl-0 mb-5">
-                                                                                                                                                <a href="{{ routes.root_url }}" title="{{ shop.name | escape }}" aria-label="{{ shop.name | escape }}">
-                                                                                                                                                  {%- if logo_svg != blank -%}
-                                                                                                                                                    <img src="{{ logo_svg }}" alt="{{ shop.name | escape }}" class="img-fluid mb-4" loading="lazy" width="200" height="80" style="max-width: {{ section.settings.logo_max_width }}px"
-                                                                                                                                                    width="{{ section.settings.logo_max_width }}"
-                                                                                                                                                    height="40">
-                                                                                                                                                  {%- elsif section.settings.footer_logo != blank -%}
-                                                                                                                                                    <img srcset="{{ section.settings.footer_logo | image_url: width: 500 }}"
-                                                                                                                                                      src="{{ section.settings.footer_logo | image_url }}"
-                                                                                                                                                      loading="lazy" class="img-fluid mb-4"
-                                                                                                                                                      width="{{ section.settings.footer_logo.width }}"
-                                                                                                                                                      height="{{ section.settings.footer_logo.height }}"
-                                                                                                                                                      alt="{{ section.settings.footer_logo.alt | default: shop.name | escape }}"
-                                                                                                                                                      style="max-width: {{ section.settings.logo_max_width }}px" >
-                                                                                                                                                  {%- else -%}
-                                                                                                                                                    <span class="h5 text-primary">{{ shop.name }}</span>
-                                                                                                                                                  {%- endif -%}
-                                                                                                                                                </a>
-                                                                                                                                                {% if section.settings.col_1_text != blank %}
-                                                                                                                                                  <div class="font-size-sm">{{ section.settings.col_1_text }}</div>
-                                                                                                                                                {% endif %}
-                                                                                                                    </div> {% endcomment %}
         <div class="col-sm-12 col-lg-6">
           <div>
-            <h4>Let's take our relationship to the next level</h4>
+            <h4 class="text-center text-lg-start">Let's take our relationship to the next level</h4>
           </div>
         </div>
 
         <div class="col-sm-12 col-lg-6">
 
-          <div class="row text-center text-sm-start">
-            <div class="col-sm-4 col-lg-4">
-              {% comment %} {% if section.settings.col_2_heading != blank %}
-                                                                                                                                                                                                                                    <h5 class="text-capitalize">{{ section.settings.col_2_heading }}</h5>
-                                                                                                                                                                                                          {% endif %} {% endcomment %}
-
+          <div class="text-center text-lg-start">
+            <div class="col-12 col-lg-4">
               {% if linklists[footer_linklist_2].links.size > 0 %}
                 <ul class="list-unstyled footer-navigation font-size-md">
                   {% for link in linklists[footer_linklist_2].links %}
@@ -67,71 +40,9 @@
                 </ul>
               {% endif %}
             </div>
-
-          {% comment %} <div class="col-sm-4 col-lg-4 mt-3 mt-sm-0">
-                                                                                                                                                                                {% if section.settings.col_3_heading != blank %}
-                                                                                                                                                                                <h5 class="text-capitalize">{{ section.settings.col_3_heading }}</h5>
-                                                                                                                                                                                {% endif %}
-
-                                                                                                                                                                                {% if linklists[footer_linklist_3].links.size > 0 %}
-                                                                                                                                                                                  <ul class="list-unstyled footer-navigation font-size-md">
-                                                                                                                                                                                    {% for link in linklists[footer_linklist_3].links %}
-                                                                                                                                                                                       <li class="{% unless forloop.index == 1 %}my-2{% endunless %}">
-                                                                                                                                                                                        <a href="{{ link.url }}" style="color: {{ section.settings.footer_top_link_color }};" title="{{ link.title }}" aria-label="{{ link.title }}">
-                                                                                                                                                                                          <span>{{ link.title }}</span>
-                                                                                                                                                                                        </a>
-                                                                                                                                                                                      </li>
-                                                                                                                                                                                    {% endfor %}
-                                                                                                                                                                                  </ul>
-                                                                                                                                                                                {% endif %}
-                                                                                                                                                                              </div>
-
-                                                                                                                                                                              <div class="col-sm-4 col-lg-4 mt-3 mt-sm-0">
-                                                                                                                                                                                {% if section.settings.col_4_heading != blank %}
-                                                                                                                                                                                <h5 class="text-capitalize">{{ section.settings.col_4_heading }}</h5>
-                                                                                                                                                                                {% endif %}
-                                                                                                                                                                                {% if linklists[footer_linklist_4].links.size > 0 %}
-                                                                                                                                                                                  <ul class="list-unstyled footer-navigation font-size-md">
-                                                                                                                                                                                    {% for link in linklists[footer_linklist_4].links %}
-                                                                                                                                                                                       <li class="{% unless forloop.index == 1 %}my-2{% endunless %}">
-                                                                                                                                                                                        <a href="{{ link.url }}" style="color: {{ section.settings.footer_top_link_color }};" title="{{ link.title }}" aria-label="{{ link.title }}">
-                                                                                                                                                                                          <span>{{ link.title }}</span>
-                                                                                                                                                                                        </a>
-                                                                                                                                                                                      </li>
-                                                                                                                                                                                    {% endfor %}
-                                                                                                                                                                                  </ul>
-                                                                                                                                                                                {% endif %}
-                                                                                                                                                    </div> {% endcomment %}
           </div>
         </div>
-        {% comment %}
-          <div class="col-lg-5 col-xl-3 text-lg-start text-center mt-lg-0 mt-5">
-
-          {% if section.settings.col_5_heading != blank %}
-          <h5 class="text-capitalize">{{ section.settings.col_5_heading }}</h5>
-          {% endif %}
-
-          {% if section.settings.col_5_txt != blank %}
-          <p class="mb-4">{{ section.settings.col_5_txt }}</p>
-          {% endif %}
-          {% if section.settings.show_newsletter %}
-          {% form 'customer', id: 'NewsletterFooter' %}
-          <div class="input-group mb-5">
-          <input type="email" name="contact[email]" aria-label="email" id="newsletterFooterCustomerEmail" class="form-control" placeholder="{{ 'general.social.newsletter_form.newsletter_email' | t }}" value="{% if customer %}{{ customer.email }}{% endif %}" autocorrect="off" autocapitalize="off" required>
-          <input type="hidden" name="contact[tags]" value="newsletter">
-          <button type="submit" name="btnSubmit" aria-label="submit" class="btn btn-primary btn-sm">
-          {{ 'general.social.newsletter_form.button' | t }}
-          </button>
-          </div>
-          {% if form.errors %}
-          <p class="text-danger mt-2 mb-0">{{ form.errors | default_errors }}</p>
-          {% endif %}
-          {% endform %}
-          {% endif %}
-
-          </div>
-        {% endcomment %}
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-sm-12 col-lg-6 text-center text-lg-start">
           {% if section.settings.col_5_social_heading != blank %}
             <p class="text-capitalize m-0">{{ section.settings.col_5_social_heading }}</p>
           {% endif %}
@@ -221,9 +132,9 @@
     class="footer-bottom py-6 position-relative"
     style="background-color: {{ section.settings.footer_bottom_bg_color }}; color: {{ section.settings.footer_bottom_txt_color }};">
     <div class="{% if section.settings.fluid_footer %}container-fluid{% else %}container{% endif %}">
-      <div class="row d-flex align-items-center">
+      <div>
         <div class="col-12 mb-lg-0 mb-3 text-center">
-          <div class="d-xl-flex align-items-center justify-content-between">
+          <div>
             {% if linklists[bottom_footer_linklist].links.size > 0 %}
               <ul class="list-unstyled bottom_footer_link d-flex pe-xl-3 mb-lg-0 mb-3 justify-content-lg-end justify-content-center">
                 {% for link in linklists[section.settings.bottom_footer_linklist].links %}

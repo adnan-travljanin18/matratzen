@@ -39,7 +39,7 @@
         {% endif %}
         {% if block.settings.enable_custom_tab_2 %}
         <div class="tab-pane tabcontent" id="custom-tab-2" role="tabpanel">
-          <div class="rpt-5 py-5 px-lg-6">{{ block.settings.tab_2_content }}</div>
+          <div class="rpt-5 py-5 px-lg-6">{{ product.metafields.custom.specifications |  metafield_tag }}</div>
         </div>
         {% endif %}
       </div>
@@ -68,7 +68,7 @@
             <span class="icon-arrow-down ms-auto font-size-lg lh-1"></span>
           </a>
           <div class="accordion__block toggle-content" id="accordion_customTab2" data-type="content">
-            <div class="rpt-5">{{ block.settings.tab_2_content }}</div>
+            <div class="rpt-5">{{ product.metafields.custom.specifications |  metafield_tag }}</div>
           </div>
         </div>
       {% endif %}
