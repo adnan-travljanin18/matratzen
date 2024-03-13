@@ -2,7 +2,7 @@
 
 {% assign logo_svg = section.settings.logo_svg %}
 <{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
-  <header class="site-header {% if section.settings.show_line_separator %}border-bottom{% endif %}" style="background-color: {{ section.settings.header_bg_color }};">
+  <header class="site-header {% if section.settings.show_line_separator %}border-bottom{% endif %}">
     {%- comment -%}Desktop Menu{%- endcomment -%}
     {%- if section.settings.menu != blank -%}
       <nav class="navbar navbar-main navbar-expand-lg py-0" role="menubar" aria-label="Main Navigation">

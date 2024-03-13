@@ -1,272 +1,369 @@
 <section class="section-content info-slider-section" style="background:{{ section.settings.section_bg_color }};">
-  <div class="container">
-    <h3 class="text-center">{{ section.settings.info_title }}</h3>
-    <p class="text-center">{{ section.settings.info_subline_text }}</p>
-    <div class="swiper-container swiper-container-info overflow-hidden">
-      <div class="swiper-wrapper card-wrapper">
-        {% for block in section.blocks %}
-          <div class="swiper-slide h-auto custom-card">
-            <div class="d-flex flex-column h-100 px-3 py-5 info-card">
-              <div class="row align-items-center">
-                <div class="col-3">
-                  <img src="{{ block.settings.image | image_url }}" alt="Info slider image">
-                </div>
-                <div class="col-9 p-0">
-                  <p class="m-0 text-start">{{ block.settings.slider_title }}</p>
-                </div>
-              </div>
-              {% if block.type == 'info_slide_create' %}
-                <div class="info-content">
-                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608" alt="Arrow right" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_one }}</span>
-                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608" alt="Arrow right" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_two }}</span>
-                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608" alt="Arrow right" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_three }}</span>
-                  <span class="d-flex align-items-center py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608" alt="Arrow right" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_four }}</span>
-                </div>
-              {% elsif block.type == 'info_slide_2in1' %}
-                  <div class="info-content">
-                    <span class="d-flex align-items-center py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/lamp-desk.png?v=1709128208" alt="Lamp" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_one }}</span>
-                    <span class="d-flex align-items-center border-bottom gray-100 py-2" style="margin-left:35px">{{ block.settings.slider_text_two }}</span>
-                    <span class="d-flex align-items-center py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/moon.png?v=1709128208" alt="Moon" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_three }}</span>
-                    <span class="d-flex align-items-center py-2" style="margin-left:35px">{{ block.settings.slider_text_four }}</span>
-                  </div>
-              {% else %}
-                <div class="info-content">
-                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/phone-outgoing.png?v=1709128208" alt="Phone" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_one }}</span>
-                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/stopwatch-edit.png?v=1709128208" alt="Clock" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_two }}</span>
-                  <span class="d-flex align-items-center border-bottom gray-100 py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/envelope.png?v=1709128209" alt="Email" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_three }}</span>
-                  <span class="d-flex align-items-center py-2">{% if block.settings.icon-checkbox %}<img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/location-pin-check.png?v=1709128209" alt="Location" style="max-width:25px; margin-right: 10px"> {% endif %} {{ block.settings.slider_text_four }}</span>
-                </div>
-              {% endif %}
+    <div class="container">
+        <h3 class="text-center">{{ section.settings.info_title }}</h3>
+        <p class="text-center">{{ section.settings.info_subline_text }}</p>
+        <div class="mt-6 swiper-container swiper-container-info overflow-hidden">
+            <div class="swiper-wrapper card-wrapper">
+                {% for block in section.blocks %}
+                    <div class="swiper-slide h-auto custom-card">
+                        <div class="d-flex flex-column h-100 px-3 py-5 info-card">
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <img src="{{ block.settings.image | image_url }}" alt="Info slider image">
+                                </div>
+                                <div class="col-9 p-0">
+                                    <p class="m-0 text-start">{{ block.settings.slider_title }}</p>
+                                </div>
+                            </div>
+                            {% if block.type == 'info_slide_create' %}
+                                <div class="info-content">
+                                    <span class="d-flex align-items-center border-bottom gray-100 py-2">
+                                        {%- if block.settings['icon-checkbox'] -%}
+                                            <img
+                                                src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608"
+                                                alt="Arrow right"
+                                                style="max-width:25px; margin-right: 10px"
+                                            >
+                                        {% endif %}
+                                        {{ block.settings.slider_text_one -}}
+                                    </span>
+                                    <span class="d-flex align-items-center border-bottom gray-100 py-2">
+                                        {%- if block.settings['icon-checkbox'] -%}
+                                            <img
+                                                src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608"
+                                                alt="Arrow right"
+                                                style="max-width:25px; margin-right: 10px"
+                                            >
+                                        {% endif %}
+                                        {{ block.settings.slider_text_two -}}
+                                    </span>
+                                    <span class="d-flex align-items-center border-bottom gray-100 py-2">
+                                        {%- if block.settings['icon-checkbox'] -%}
+                                            <img
+                                                src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608"
+                                                alt="Arrow right"
+                                                style="max-width:25px; margin-right: 10px"
+                                            >
+                                        {% endif %}
+                                        {{ block.settings.slider_text_three -}}
+                                    </span>
+                                    <span class="d-flex align-items-center py-2">
+                                        {%- if block.settings['icon-checkbox'] -%}
+                                            <img
+                                                src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/arrow-right-small.png?v=1709124608"
+                                                alt="Arrow right"
+                                                style="max-width:25px; margin-right: 10px"
+                                            >
+                                        {% endif %}
+                                        {{ block.settings.slider_text_four -}}
+                                    </span>
+                                </div>
+                            {% elsif block.type == 'info_slide_2in1' %}
+                                <div class="info-content">
+                                    <span class="d-flex align-items-center py-2">
+                                        {%- if block.settings['icon-checkbox'] -%}
+                                            <img
+                                                src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/lamp-desk.png?v=1709128208"
+                                                alt="Lamp"
+                                                style="max-width:25px; margin-right: 10px"
+                                            >
+                                        {% endif %}
+                                        {{ block.settings.slider_text_one -}}
+                                    </span>
+                                    <span
+                                        class="d-flex align-items-center border-bottom gray-100 py-2"
+                                        style="margin-left:35px"
+                                    >
+                                        {{- block.settings.slider_text_two -}}
+                                    </span>
+                                    <span class="d-flex align-items-center py-2">
+                                        {%- if block.settings['icon-checkbox'] -%}
+                                            <img
+                                                src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/moon.png?v=1709128208"
+                                                alt="Moon"
+                                                style="max-width:25px; margin-right: 10px"
+                                            >
+                                        {% endif %}
+                                        {{ block.settings.slider_text_three -}}
+                                    </span>
+                                    <span class="d-flex align-items-center py-2" style="margin-left:35px">
+                                        {{- block.settings.slider_text_four -}}
+                                    </span>
+                                </div>
+                            {% else %}
+                                <div class="info-content">
+                                    <span class="d-flex align-items-center border-bottom gray-100 py-2">
+                                        {%- if block.settings['icon-checkbox'] -%}
+                                            <img
+                                                src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/phone-outgoing.png?v=1709128208"
+                                                alt="Phone"
+                                                style="max-width:25px; margin-right: 10px"
+                                            >
+                                        {% endif %}
+                                        {{ block.settings.slider_text_one -}}
+                                    </span>
+                                    <span class="d-flex align-items-center border-bottom gray-100 py-2">
+                                        {%- if block.settings['icon-checkbox'] -%}
+                                            <img
+                                                src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/stopwatch-edit.png?v=1709128208"
+                                                alt="Clock"
+                                                style="max-width:25px; margin-right: 10px"
+                                            >
+                                        {% endif %}
+                                        {{ block.settings.slider_text_two -}}
+                                    </span>
+                                    <span class="d-flex align-items-center border-bottom gray-100 py-2">
+                                        {%- if block.settings['icon-checkbox'] -%}
+                                            <img
+                                                src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/envelope.png?v=1709128209"
+                                                alt="Email"
+                                                style="max-width:25px; margin-right: 10px"
+                                            >
+                                        {% endif %}
+                                        {{ block.settings.slider_text_three -}}
+                                    </span>
+                                    <span class="d-flex align-items-center py-2">
+                                        {%- if block.settings['icon-checkbox'] -%}
+                                            <img
+                                                src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/location-pin-check.png?v=1709128209"
+                                                alt="Location"
+                                                style="max-width:25px; margin-right: 10px"
+                                            >
+                                        {% endif %}
+                                        {{ block.settings.slider_text_four -}}
+                                    </span>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
             </div>
-          </div>
-        {% endfor %}
-      </div>
-      <div class="swiper-pagination position-relative mt-3"></div>
+            <div class="swiper-pagination position-relative mt-3"></div>
+        </div>
     </div>
-  </div>
 </section>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var swiper = new Swiper(".swiper-container-info", {
-      slidesPerView: 3,
-      spaceBetween: 20,
-      autoplay: {
-        delay: 2000,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        992: {
-          slidesPerView: 3,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        0: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-      },
+    document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.swiper-container-info', {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            autoplay: {
+                delay: 2000
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            breakpoints: {
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                }
+            }
+        });
     });
-  });
 </script>
-{% schema %} 
+{% schema %}
 {
-  "name": "Info Slider",
-  "settings": [
-    {
-      "type": "color",
-      "id": "section_bg_color",
-      "label": "Background Color",
-      "default": "#fff"
-    },
-    {
-      "type": "text",
-      "label": "Add Heading to Info Slider",
-      "id": "info_title",
-      "info": "Write something to display as a heading in the slider",
-      "default": "Transform Your Sleep Experience"
-    },
-    {
-      "type": "text",
-      "label": "Add Subheading to Slider",
-      "id": "info_subline_text",
-      "info": "Write something to display as a subheading in the slider",
-      "default": "The Ultimate in Comfort and Support."
-    }
-  ],
-  "max_blocks": 3,
-  "blocks": [
-    {
-      "name": "Info Slide Create",
-      "type": "info_slide_create",
-      "settings": [
+    "name": "Info Slider",
+    "settings": [
         {
-          "type": "image_picker",
-          "label": "Select a Image",
-          "id": "image",
-          "info": "Choose an Image to show on slider."
+            "type": "color",
+            "id": "section_bg_color",
+            "label": "Background Color",
+            "default": "#fff"
         },
         {
-          "type": "text",
-          "label": "Add Title to Slider",
-          "id": "slider_title",
-          "info": "Write something to display as a title in the slider",
-          "default": "Info Slider Title"
+            "type": "text",
+            "label": "Add Heading to Info Slider",
+            "id": "info_title",
+            "info": "Write something to display as a heading in the slider",
+            "default": "Transform Your Sleep Experience"
         },
         {
-          "type": "checkbox",
-          "default": false,
-          "id": "icon-checkbox",
-          "label": "Arrow Checkbox"
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_one",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_two",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_three",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_four",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
+            "type": "text",
+            "label": "Add Subheading to Slider",
+            "id": "info_subline_text",
+            "info": "Write something to display as a subheading in the slider",
+            "default": "The Ultimate in Comfort and Support."
         }
-      ]
-    },
-    {
-      "name": "Info Slide 2 in 1",
-      "type": "info_slide_2in1",
-      "settings": [
+    ],
+    "max_blocks": 3,
+    "blocks": [
         {
-          "type": "image_picker",
-          "label": "Select a Image",
-          "id": "image",
-          "info": "Choose an Image to show on slider."
+            "name": "Info Slide Create",
+            "type": "info_slide_create",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "label": "Select a Image",
+                    "id": "image",
+                    "info": "Choose an Image to show on slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Title to Slider",
+                    "id": "slider_title",
+                    "info": "Write something to display as a title in the slider",
+                    "default": "Info Slider Title"
+                },
+                {
+                    "type": "checkbox",
+                    "default": false,
+                    "id": "icon-checkbox",
+                    "label": "Arrow Checkbox"
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_one",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_two",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_three",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_four",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                }
+            ]
         },
         {
-          "type": "text",
-          "label": "Add Title to Slider",
-          "id": "slider_title",
-          "info": "Write something to display as a title in the slider",
-          "default": "Info Slider Title"
+            "name": "Info Slide 2 in 1",
+            "type": "info_slide_2in1",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "label": "Select a Image",
+                    "id": "image",
+                    "info": "Choose an Image to show on slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Title to Slider",
+                    "id": "slider_title",
+                    "info": "Write something to display as a title in the slider",
+                    "default": "Info Slider Title"
+                },
+                {
+                    "type": "checkbox",
+                    "default": false,
+                    "id": "icon-checkbox",
+                    "label": "Arrow Checkbox"
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_one",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_two",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_three",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_four",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                }
+            ]
         },
         {
-          "type": "checkbox",
-          "default": false,
-          "id": "icon-checkbox",
-          "label": "Arrow Checkbox"
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_one",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_two",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_three",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_four",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
+            "name": "Info Slide Contact",
+            "type": "info_slide_contact",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "label": "Select a Image",
+                    "id": "image",
+                    "info": "Choose an Image to show on slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Title to Slider",
+                    "id": "slider_title",
+                    "info": "Write something to display as a title in the slider",
+                    "default": "Info Slider Title"
+                },
+                {
+                    "type": "checkbox",
+                    "default": false,
+                    "id": "icon-checkbox",
+                    "label": "Arrow Checkbox"
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_one",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_two",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_three",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                },
+                {
+                    "type": "text",
+                    "label": "Add Text to Slider",
+                    "id": "slider_text_four",
+                    "info": "Write something to display as text in the slider",
+                    "default": "This is just some text for the info slider."
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "Info Slide Contact",
-      "type": "info_slide_contact",
-      "settings": [
+    ],
+    "presets": [
         {
-          "type": "image_picker",
-          "label": "Select a Image",
-          "id": "image",
-          "info": "Choose an Image to show on slider."
-        },
-        {
-          "type": "text",
-          "label": "Add Title to Slider",
-          "id": "slider_title",
-          "info": "Write something to display as a title in the slider",
-          "default": "Info Slider Title"
-        },
-        {
-          "type": "checkbox",
-          "default": false,
-          "id": "icon-checkbox",
-          "label": "Arrow Checkbox"
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_one",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_two",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_three",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
-        },
-        {
-          "type": "text",
-          "label": "Add Text to Slider",
-          "id": "slider_text_four",
-          "info": "Write something to display as text in the slider",
-          "default": "This is just some text for the info slider."
+            "name": "Custom Info Slider",
+            "category": "Custom"
         }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Custom Info Slider",
-      "category": "Custom"
-    }
-  ]
+    ]
 }
 {% endschema %}

@@ -1,5 +1,5 @@
 <section
-    class="{% unless section.settings.fluid_layout %}section-content{% endunless %} video-with-text"
+    class="{% unless section.settings.fluid_layout %}section-content{% endunless %} video-with-text video-with-text-position"
     data-section-id="{{ section.id }}"
     style="background:{{ section.settings.section_bg_color }};"
 >
@@ -49,7 +49,7 @@
                                     muted
                                     loop
                                     data-mobileSrc="{{ section.settings.mobile_bg_video }}"
-                                    class="hero-video object-fit-cover w-100 h-100 max-h-1024"
+                                    class="hero-video object-fit-cover w-100 h-100 max-h-1130"
                                 >
                                     <source src="{{ section.settings.bg_video }}" type="video/mp4">
                                 </video>
@@ -87,7 +87,7 @@
                     style="color:{{ section.settings.section_text_color }}"
                 >
                     {% if section.settings.fluid_video_layout %}
-                        <div class="col-lg-8 col-md-10 position-relative max-width-logo px-md-0">
+                        <div class="col-8 col-lg-8 position-relative max-width-logo px-md-0">
                     {% endif %}
                     {%- if section.settings.logo_image != blank -%}
                         <img
@@ -129,7 +129,7 @@
                             height="{{ section.settings.logo_mobile_image.width | divided_by: section.settings.logo_image.aspect_ratio | round }}"
                         >
                     {%- else -%}
-                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        <div class="mobile-img-view">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
                     {%- endif -%}
                     {%- if section.settings.hero_baner_small_image != blank -%}
                         <div class="position-absolute hero-banner-right-image-positioning d-lg-block d-none">
@@ -195,7 +195,7 @@
                     <div class="hb swiper-slide d-flex justify-content-center">
                         <div class="w-100 p-4-2 collection-slider-wrapper">
                             <div class="d-flex flex-column flex-md-row m-0-auto justify-content-center">
-                                <div class="col-12 col-md-3 d-flex justify-content-center flex-column align-items-md-normal text-left align-items-center pb-4 pb-md-0">
+                                <div class="col-12 col-md-4 d-flex justify-content-center flex-column align-items-md-normal text-left align-items-center pb-4 pb-md-0">
                                     <h2 class="mb-3 collection-slider-h2">
                                         {%- if block.settings.collection.title != blank -%}
                                             {{- block.settings.collection.title | escape -}}
