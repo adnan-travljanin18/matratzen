@@ -1,98 +1,121 @@
 <link href="{{ 'blogs-slider.css' | asset_url }}" rel="stylesheet" type="text/css">
 
-<section data-section-id="{{ section.id }}" class="section-blogs-slider position-relative" id="{{ section.settings.heading | handleize }}">
+<section
+    data-section-id="{{ section.id }}"
+    class="section-blogs-slider position-relative"
+    id="{{ section.settings.heading | handleize }}"
+>
     <div class="container blogs-margins gblo">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-sm-6 pb-4 pb-sm-0">
                 <div class="block-heading">
                     <h4 class="fw-medium lh-base letter-spacing mb-0">{{ section.settings.heading }}</h4>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-sm-6">
                 <div class="block-description">
                     <p class="fw-light letter-spacing">{{ section.settings.description }}</p>
                 </div>
             </div>
-            <div class="col-12 py-0 py-sm-12 position-relative">
+            <div class="col-12 py-0 pt-sm-4 pb-sm-12 position-relative">
                 {% comment %} <div class="background-color d-block" style="height: 50%; background-color: rgba(19, 30, 39, 1); position: absolute; bottom: 0; left: 0; width: 100%; z-index: -1;"></div> {% endcomment %}
-                
-                    <div class="blog-slider slider-container py-10 d-block">
-                        <div class="blog-slider blog-swiper swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                {% for block in section.blocks %}
-                                    {% if block.type == 'blog' %}
-                                        {% assign selected_blog = block.settings.selected_blog %}
-                                        {% if selected_blog %}
-                                            {% assign blog = blogs[selected_blog] %}
-                                            {% for article in blog.articles %}
-                                                 <div class="ps swiper-slide " >
-                                                    <div class="blog-padding custom-container container py-16">
-                                                        <div class="row flex-column justify-content-around">
-                                                            <div class="col-12 pb-4">
-                                                                <div class="blog-slider-img-wrapper">
-                                                                    {% if article.image %}
-                                                                        <img class="featured-blog-media" src="{{ article.image | image_url }}" alt="article-image" height="100" width="100">
-                                                                    {% else %}
-                                                                        {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                                                                    {% endif %}
-                                                                </div>
-                                                                
+
+                <div class="d-block pt-4 pb-10 py-sm-10 blog-slider slider-container">
+                    <div class="swiper mySwiper blog-slider blog-swiper">
+                        <div class="swiper-wrapper">
+                            {% for block in section.blocks %}
+                                {% if block.type == 'blog' %}
+                                    {% assign selected_blog = block.settings.selected_blog %}
+                                    {% if selected_blog %}
+                                        {% assign blog = blogs[selected_blog] %}
+                                        {% for article in blog.articles %}
+                                            <div
+                                                class="ps swiper-slide"
+                                            >
+                                                <div class="blog-padding custom-container container py-16">
+                                                    <div class="row flex-column justify-content-around">
+                                                        <div class="col-12 pb-4">
+                                                            <div class="blog-slider-img-wrapper">
+                                                                {% if article.image %}
+                                                                    <img
+                                                                        class="featured-blog-media"
+                                                                        src="{{ article.image | image_url }}"
+                                                                        alt="article-image"
+                                                                        height="100"
+                                                                        width="100"
+                                                                    >
+                                                                {% else %}
+                                                                    {{
+                                                                        'collection-1'
+                                                                        | placeholder_svg_tag: 'placeholder-svg'
+                                                                    }}
+                                                                {% endif %}
                                                             </div>
-                                                            <div class="row col-12 d-flex justify-content-center align-items-center text-start padding-r-0 text-white">
-                                                                <h5 class="col-12 ps heading-5">{{ article.title }}</h5>
-                                                                <h5 class="mb-3 mb-lg-5 heading-6">{{ blog.handle | capitalize }}</h5>
-                                                            </div>
-                                                        
-                                                            </div>    
+                                                        </div>
+                                                        <div
+                                                            class="row col-12 d-flex justify-content-center align-items-center text-start padding-r-0"
+                                                        >
+                                                            <h5
+                                                                class="col-12 ps heading-5"
+                                                                style="color:{{ section.settings.section_text_color }};"
+                                                            >
+                                                                {{ article.title }}
+                                                            </h5>
+                                                            <h5
+                                                                class="mb-3 mb-lg-5 heading-6"
+                                                                style="color:{{ section.settings.section_text_color }};"
+                                                            >
+                                                                {{ blog.handle | capitalize }}
+                                                            </h5>
                                                         </div>
                                                     </div>
-                                                {% endfor %}
-                                            {% endif %}
-                                        {% endif %}
-                                    {% endfor %}
-                            </div>
-                           
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
-                    <div class="pagination-container row ">
-                        <div class="blog-swiper-pagination swiper-pagination text-white d-flex padding-left-30 "></div>
-                        <div class="blogs-slider-horizontal-line d-block padding-bottom-slider-pagination-line"></div>
-                    </div>
-                    <div class="position-absolute right-50 padding-bottom-slider-buttons">
-                        <div class="blog-slider swiper-button-next" tab-index="0"></div>   
-                        <div class="blog-slider swiper-button-prev"></div>
-                    </div>
+                </div>
+                <div class="pagination-container row">
+                    <div class="blog-swiper-pagination swiper-pagination text-white d-flex padding-left-30 "></div>
+                    <div class="blogs-slider-horizontal-line d-block padding-bottom-slider-pagination-line"></div>
+                </div>
+                <div class="position-absolute right-50 padding-bottom-slider-buttons">
+                    <div class="blog-slider swiper-button-next" tab-index="0"></div>
+                    <div class="blog-slider swiper-button-prev"></div>
+                </div>
             </div>
         </div>
     </div>
-    
 </section>
 
 <script>
-      document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function () {
         const swiper = new Swiper('.blog-swiper', {
             spaceBetween: 10,
             slidesPerView: 1,
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
             },
             pagination: {
-                el: ".blog-swiper-pagination", // Update to the correct class
-                type: "custom",
+                el: '.blog-swiper-pagination', // Update to the correct class
+                type: 'custom',
                 renderCustom: function (swiper, current, total) {
                     return formatPaginationNumber(current) + ' / ' + formatPaginationNumber(total);
-                },
+                }
             },
             breakpoints: {
                 576: {
-                    slidesPerView: 2,
+                    slidesPerView: 2
                 },
                 768: {
-                    slidesPerView: 2,
+                    slidesPerView: 2
                 },
                 1100: {
-                    slidesPerView: 3,
+                    slidesPerView: 2.75
                 }
             }
         });
@@ -109,7 +132,7 @@
 </script>
 
 {% schema %}
-  {
+{
     "name": "Blogs Slider",
     "class": "blogs-slider",
     "settings": [
@@ -117,39 +140,45 @@
             "type": "header",
             "content": "Blog slider"
         },
-		{
+        {
             "type": "text",
             "id": "heading",
             "label": "Block Title",
             "default": "Read Our Latest News"
         },
         {
-             "type": "text",
-             "id": "description",
-             "label": "Description",
-             "default":"Discover our latest collection of clothing, shoes, and accessories that are perfect for any occasion. From casual wear to formal attire, we have everything you need to revamp your wardrobe and stay on trend."
+            "type": "text",
+            "id": "description",
+            "label": "Description",
+            "default": "Discover our latest collection of clothing, shoes, and accessories that are perfect for any occasion. From casual wear to formal attire, we have everything you need to revamp your wardrobe and stay on trend."
+        },
+        {
+            "type": "color",
+            "id": "section_text_color",
+            "label": "Section Text Color",
+            "default": "#ffffff"
         }
-	],
+    ],
     "max_blocks": 1,
     "blocks": [
+        {
+            "name": "Blog slider item",
+            "type": "blog",
+            "settings": [
                 {
-                "name": "Blog slider item",
-                "type": "blog",
-                "settings": [
-                    {
                     "type": "header",
                     "content": "Blog"
-                    },
-                    {
+                },
+                {
                     "type": "blog",
                     "id": "selected_blog",
                     "label": "Select Blog",
                     "info": "Choose the blog you want to display in this block."
                 }
             ]
-            }
-         ],
-    
+        }
+    ],
+
     "presets": [
         {
             "name": "Blogs Slider",

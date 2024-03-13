@@ -1,7 +1,4 @@
 .products-slider-button {
-    border: 1px solid rgba(144, 164, 174, 1);
-    color: rgba(55, 71, 79, 1);
-    background-color: white !important;
     padding: 16px 32px 16px 32px;
     border-radius: 64px;
     max-height: 59px;
@@ -28,16 +25,20 @@
 }
 .products-category-button {
     padding: 12px 20px 12px 20px;
-    border-radius: 64px;
+    border-radius: 64px !important;
     max-height: 59px;
-}
-.btn-group .tab-button .btn.active {
-    background-color: rgba(37, 49, 76, 1);
-    color: #fff;
-  }
-.btn-group .tab-button .btn:not(.active) {
     background-color: #fff;
     color: rgba(84, 110, 122, 1);
+}
+.products-category-button.nav-link.active{
+    background-color: rgba(37, 49, 76, 1) !important;
+    color: #fff !important;
+}
+.products-category-button.active {
+    font-weight: 400 !important;
+}
+.nav.products-category {
+    --bs-nav-link-hover-color: rgba(37, 49, 76, 1) !important;
 }
 .border-radius-16 {
     border-radius: 16px;
@@ -83,7 +84,7 @@
 .padding-r-0 {
     padding-right: 0 !important;
 }
-.margin-x-1 {
+.margin-x-1-percent {
     margin: 0 1%;
 }
 .slider-padding-top {
@@ -101,6 +102,24 @@
 }
 .tab-button .products-slider-button.first {
     margin-left: 0;
+}
+.wishlist-hero-custom-button {
+    position: absolute;
+    top: 10px;
+    right: 26px;
+    background: #ffffff7a;
+    border-radius: 50%;
+    z-index: 1;
+}
+.wishlist-hero-custom-button svg[data-prefix="fas"] {
+    color: rgba(244, 67, 54, 1); 
+}
+
+.letter-spacing-normal {
+    letter-spacing: normal;
+}
+.homepage-video-element {
+    min-height: 37.5rem;
 }
 @media (max-width: 768px) {
     .p-xs-sm-5 {
@@ -121,15 +140,18 @@
 }
 @media (min-width: 768px) {
     .slider-padding-top {
-        padding-top: 39vh;
+        padding-top: 18rem;
     }
     .justify-content-md-normal {
         justify-content: normal !important;
-      }
+    }
+    .justify-content-md-between {
+        justify-content: between !important;
+    }
 }
 @media (min-width: 992px) {
     .slider-padding-top {
-        padding-top: 35vh;
+        padding-top: 22rem;
     }
     .margin-y {
         margin: 120px 0;
@@ -138,9 +160,14 @@
         margin: 0 auto !important;
     } */
 }
+@media (min-width: 1200px) {
+    .slider-padding-top {
+        padding-top: 26rem;
+    }
+}
 @media (min-width: 1400px) {
     .slider-padding-top {
-        padding-top: 34vh;
+        padding-top: 28rem;
     }
 }
 @media (min-width: 1800px) {
