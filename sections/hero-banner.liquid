@@ -129,7 +129,7 @@
                             height="{{ section.settings.logo_mobile_image.width | divided_by: section.settings.logo_image.aspect_ratio | round }}"
                         >
                     {%- else -%}
-                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        <div class="mobile-img-view">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
                     {%- endif -%}
                     {%- if section.settings.hero_baner_small_image != blank -%}
                         <div class="position-absolute hero-banner-right-image-positioning d-lg-block d-none">
