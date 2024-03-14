@@ -45,7 +45,7 @@
     "show_secondary_image": false,
     "enable_cart_notes": false,
     "enable_cart_": true,
-    "enable_shipping_bar": true,
+    "enable_shipping_bar": false,
     "free_shipping_txt": "Congratulations! You get free shipping.",
     "free_shipping_left": "You are ${addMoreForFreeShip} away from free shipping!",
     "checkout_logo_image": "shopify:\/\/shop_images\/SE_LOGO_72px.png",
