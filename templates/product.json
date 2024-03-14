@@ -56,7 +56,7 @@
             "related_products_fluid_layout": false,
             "related_products_view": 6,
             "related_products_auto_play": 0,
-            "related_products_heading_txt": "Recommended Products",
+            "related_products_heading_txt": "Recommended<br> Products",
             "product_type": "related-products",
             "related_products_section_bg_color": "#ffffff",
             "related_products_section_color": "#343a40"
