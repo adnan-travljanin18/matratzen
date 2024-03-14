@@ -156,10 +156,18 @@
     font-size: 14px;
     color: #607D8B;
 }
-.featured-collection-slider .wishlisthero-floating button {
-    top: 0;
-    right: 0;
-    position: absolute!important;
+#productAccordion .accordion__toggle {
+    font-size: 1.1rem;
+}
+.wishlisthero-floating:hover {
+    background-color: #ffffff7a!important;
+}
+.wishlisthero-floating:hover svg {
+    color: #f44336;
+}
+.featured-collection-slider .wishlist-hero-custom-button {
+    top: 5px;
+    right: 10px;
 }
 @media only screen and (min-width:768px) {
     .product-section slider-element {
@@ -175,5 +183,8 @@
     }
     .quantity-buybtn-wrapper {
         gap: 1rem;
+    }
+    .product-section .product-thumb--image {
+        height: auto;
     }
 }
