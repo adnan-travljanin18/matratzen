@@ -38,14 +38,7 @@
           </div>
 
           <div class="nav navbar-mobile w-100 d-flex align-items-center list-unstyled py-3 d-lg-none">
-            <div class="col-4 col-sm-4 px-0 text-left navbar-icon-links">
-                <div class="nav-item">
-                    <a class="nav-link" href="#" id="mobile-menu" title="menu" rel="nofollow" aria-label="Menu" role="button" aria-expanded="false" aria-controls="mobile-menu-drawer">
-                        <span class="icon-menu"></span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-4 col-sm-4 text-center">
+            <div class="col-8 col-sm-8">
                 {%- if request.page_type == 'index' -%}
                 <div class="header__heading mb-0">
                 {%- endif -%}
@@ -99,6 +92,13 @@
                         {%- endif -%}
                         </a>
                     </li>
+                    <div class="px-2 text-left navbar-icon-links">
+                      <div class="nav-item">
+                          <a class="nav-link" href="#" id="mobile-menu" title="menu" rel="nofollow" aria-label="Menu" role="button" aria-expanded="false" aria-controls="mobile-menu-drawer">
+                              <span class="icon-menu"></span>
+                          </a>
+                      </div>
+                  </div>
                 </ul>
             </div>
           </div>

@@ -119,6 +119,16 @@
 #wishlisthero-product-page-button-container button {
     padding: 0!important;
 }
+#wishlisthero-product-page-button-container button span {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+#wishlisthero-product-page-button-container button span svg[data-prefix="fas"] {
+    color: rgba(244, 67, 54, 1); 
+}
+
 .share-color span {
     color: #607d8b;
 }
@@ -126,8 +136,7 @@
     align-items: start;
 }
 .featured-collection-slider .card-img {
-    max-height: 215px;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1.5/1;
 }
 .featured-collection-slider .card-img a {
     height: 100%;
