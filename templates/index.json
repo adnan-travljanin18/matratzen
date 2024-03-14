@@ -146,21 +146,21 @@
         "question_DJj4TU": {
           "type": "question",
           "settings": {
-            "accordion-title": "About Harmony A",
+            "accordion-title": "About Harmony B",
             "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         },
         "question_GhxUVC": {
           "type": "question",
           "settings": {
-            "accordion-title": "About Harmony A",
+            "accordion-title": "About Harmony C",
             "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         },
         "question_BeMfBY": {
           "type": "question",
           "settings": {
-            "accordion-title": "About Harmony A",
+            "accordion-title": "About Harmony D",
             "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         }
@@ -173,7 +173,7 @@
       ],
       "settings": {
         "heading": "Harmony Oasis Details",
-        "section_text_color": "rgba(69, 90, 100, 1)"
+        "section_text_color": "#455a64"
       }
     },
     "blogs_slider_8MkkA7": {
