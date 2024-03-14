@@ -3,7 +3,7 @@
     "main": {
       "type": "template-contact-page",
       "custom_css": [
-
+        ".pxFormGenerator input {padding: 10px;}"
       ],
       "settings": {
         "page": "contact",
