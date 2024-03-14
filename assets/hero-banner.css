@@ -197,6 +197,9 @@
         top: 84%;
         transform: translateX(3%);
     }
+    .hero-collection-slider .swiper-pagination {
+        gap: 1rem;
+    }
 }
 @media (min-width: 1200px) {
     .top-positioning {
