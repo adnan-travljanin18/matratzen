@@ -4,12 +4,6 @@
     style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_text_color }}"
 >
     <div class="{% if section.settings.fluid_layout %}container-fluid{% else %}container{% endif %}">
-        {% if section.settings.heading_txt != blank %}
-            {% if section.settings.heading_above == true %}
-                <h3 class="mb-3 text-center">{{ section.settings.heading_txt }}</h3>
-            {% endif %}
-        {% endif %}
-
         <div class="row {% if section.settings.column != blank %}flex-column {% endif %} {% if section.settings.column_reverse != blank %}flex-column-reverse {% endif %}align-items-center">
             <div class="col-12 col-lg-5 order-lg-2">
                 {% render 'img-border-offset', section: section %}
@@ -19,18 +13,16 @@
                 <div class="inside-block">
                     {% if section.settings.step_heading != blank %}
                         <h6
-                            class="mb-2 mb-md-3 text-center text-lg-end text-uppercase"
+                            class="mb-2 mb-md-3 text-center text-lg-end text-uppercase letter-wider"
                             style="color:{{ section.settings.border_color }}"
                         >
                             {{ section.settings.step_heading }}
                         </h6>
                     {% endif %}
                     {% if section.settings.heading_txt != blank %}
-                        {% if section.settings.heading_above == false %}
-                            <h1 class="mb-3 banner-image-with-text-heading text-center text-lg-end">
-                                {{ section.settings.heading_txt }}
-                            </h1>
-                        {% endif %}
+                        <h1 class="mb-3 banner-image-with-text-heading text-center text-lg-end font-the-seasons">
+                            {{ section.settings.heading_txt }}
+                        </h1>
                     {% endif %}
                     {% if section.settings.steps_captions != blank %}
                         {% assign caption = section.settings.steps_captions
@@ -55,7 +47,9 @@
         <div class="row">
             <div class="col-12 col-lg-6">
                 {% if section.settings.step_heading != blank %}
-                    <h6 class="text-center text-lg-start text-uppercase">{{ section.settings.step_heading }}</h6>
+                    <h6 class="text-center text-lg-start text-uppercase letter-wider">
+                        {{ section.settings.step_heading }}
+                    </h6>
                 {% endif %}
                 {% if section.settings.txt != blank %}
                     <div class="text-center text-lg-start">{{ section.settings.txt }}</div>

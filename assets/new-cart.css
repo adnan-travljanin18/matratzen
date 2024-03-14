@@ -21,6 +21,7 @@
     margin: 0;
     font-size: 18px;
     text-align: center!important;
+    font-family: 'Roboto';
 }
 .template-cart .remove-cart-icon {
     text-align: center;

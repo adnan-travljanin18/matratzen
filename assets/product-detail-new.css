@@ -95,12 +95,14 @@
     border-bottom-right-radius: 50%;
     background: transparent;
     border-left: none;
+    border-color: #dee2e6;
 }
 .input-group-prepend .btn {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     background: transparent;
     border-right: none;
+    border-color: #dee2e6;
 }
 .share-wishlist-container {
     gap: 15px;

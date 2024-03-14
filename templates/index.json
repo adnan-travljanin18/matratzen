@@ -36,6 +36,7 @@
         "controls": false,
         "loop": true,
         "logo_image": "shopify:\/\/shop_images\/logo_image.png",
+        "logo_mobile_image": "shopify:\/\/shop_images\/logo_without_ellipse.png",
         "hero_baner_small_image": "shopify:\/\/shop_images\/hero-banner-right-room.jpg",
         "btn_txt": "Discover Our Insights",
         "btn_link": "shopify:\/\/collections\/frontpage",
@@ -97,6 +98,8 @@
       "settings": {
         "title": "Serenity Products",
         "products-slider-button-text": "Shop All",
+        "btn_type": "outline",
+        "btn_variant": "dark",
         "products-slider-button-link": "shopify:\/\/collections"
       }
     },
@@ -111,9 +114,11 @@
         "controls": false,
         "loop": true,
         "title": "Erleben Sie Serenity – Ihr Schlafparadies",
+        "btn_title_color": "#ffffff",
         "subtitle": "<p>Maximieren Sie Ihren Komfort, Umarmen Sie Jeden Traum<\/p>",
         "btn_txt": "Button",
         "btn_link": "",
+        "btn_text_color": "#ffffff",
         "btn_size": "",
         "poster_type": "video",
         "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/53df34a096674de0aba3aaa7e36f6f84.mp4",
@@ -123,7 +128,6 @@
         "placement": "grid",
         "video_id": "",
         "mobile_video_id": "",
-        "section_bg_color": "#f2f2f2",
         "section_text_color": "#ffffff",
         "alignment": "text-center",
         "video_alignment": "justify-content-center"
@@ -135,29 +139,29 @@
         "question_wG9cFw": {
           "type": "question",
           "settings": {
-            "title": "<p>About Harmony A<\/p>",
-            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultricies lacus, non posuere risus. Aliquam ac tellus in magna aliquam consectetur. Duis auctor venenatis dapibus. Nulla nisi dolor, rutrum non nisi vitae, vulputate mollis turpis. Maecenas odio mi, faucibus eget semper vel, porttitor vitae sapien.<\/p>"
+            "accordion-title": "About Harmony A",
+            "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         },
         "question_DJj4TU": {
           "type": "question",
           "settings": {
-            "title": "<p>About Harmony B<\/p>",
-            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultricies lacus, non posuere risus. Aliquam ac tellus in magna aliquam consectetur. Duis auctor venenatis dapibus. Nulla nisi dolor, rutrum non nisi vitae, vulputate mollis turpis. Maecenas odio mi, faucibus eget semper vel, porttitor vitae sapien.<\/p>"
+            "accordion-title": "About Harmony B",
+            "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         },
         "question_GhxUVC": {
           "type": "question",
           "settings": {
-            "title": "<p>About Harmony C<\/p>",
-            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultricies lacus, non posuere risus. Aliquam ac tellus in magna aliquam consectetur. Duis auctor venenatis dapibus. Nulla nisi dolor, rutrum non nisi vitae, vulputate mollis turpis. Maecenas odio mi, faucibus eget semper vel, porttitor vitae sapien.<\/p>"
+            "accordion-title": "About Harmony C",
+            "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         },
         "question_BeMfBY": {
           "type": "question",
           "settings": {
-            "title": "<p>About Harmony D<\/p>",
-            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultricies lacus, non posuere risus. Aliquam ac tellus in magna aliquam consectetur. Duis auctor venenatis dapibus. Nulla nisi dolor, rutrum non nisi vitae, vulputate mollis turpis. Maecenas odio mi, faucibus eget semper vel, porttitor vitae sapien.<\/p>"
+            "accordion-title": "About Harmony D",
+            "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         }
       },
@@ -168,7 +172,8 @@
         "question_BeMfBY"
       ],
       "settings": {
-        "heading": "Harmony Oasis Details"
+        "heading": "Harmony Oasis Details",
+        "section_text_color": "#455a64"
       }
     },
     "blogs_slider_8MkkA7": {
@@ -186,7 +191,8 @@
       ],
       "settings": {
         "heading": "Read Our Latest News",
-        "description": "Discover our latest collection of clothing, shoes, and accessories that are perfect for any occasion. From casual wear to formal attire, we have everything you need to revamp your wardrobe and stay on trend."
+        "description": "Discover our latest collection of clothing, shoes, and accessories that are perfect for any occasion. From casual wear to formal attire, we have everything you need to revamp your wardrobe and stay on trend.",
+        "section_text_color": "#ffffff"
       }
     },
     "add57642-99b3-450a-b701-2c83862dbaa4": {

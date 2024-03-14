@@ -26,7 +26,8 @@
   content: "\e904";
 }
 .icon-close:before {
-  content: "\e905";
+  content: '';
+  /* content: "\e905"; */
 }
 .icon-facebook:before {
   content: "\e906";

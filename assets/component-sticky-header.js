@@ -12,12 +12,15 @@ class StickyHeader extends HTMLElement {
       this.header = document.getElementById('shopify-section-header');
       this.headerBounds = {};
       this.currentScrollTop = 0;
+
+      this.header.classList.add('custom-class');
   
       this.onScrollHandler = this.onScroll.bind(this);
   
       window.addEventListener('scroll', this.onScrollHandler, false);
   
       this.createObserver();
+      this.header.classList.add('normal-header');
     }
   
     /**
@@ -47,7 +50,13 @@ class StickyHeader extends HTMLElement {
      */
     onScroll() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  
+    
+      if (scrollTop === 0) {
+        this.header.classList.add('normal-header');
+      } else {
+        this.header.classList.remove('normal-header');
+      }
+    
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         requestAnimationFrame(this.hide.bind(this));
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
@@ -55,7 +64,7 @@ class StickyHeader extends HTMLElement {
       } else if (scrollTop <= this.headerBounds.top) {
         requestAnimationFrame(this.reset.bind(this));
       }
-  
+    
       this.currentScrollTop = scrollTop;
     }
   

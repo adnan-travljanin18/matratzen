@@ -1,3 +1,20 @@
+.video-with-text-position {
+    position: relative;
+    bottom: 105px;
+}
+.custom-class {
+    background: #121212;
+}
+.template-index .normal-header {
+    background: transparent;
+}
+.normal-header {
+    background: #121212;
+}
+.nav-link .active {
+    background-color: #fff!important;
+    color: #121212!important;
+}
 .jdgm-carousel-number-of-reviews {
     text-align: center!important;
 }
@@ -60,7 +77,7 @@ footer .social-links li a {
     border-radius: 10px;
 }
 .blog-cards h4 a {
-    color: #6490b2;
+    color: #37474F;
 }
 .sidebar-blog .card {
     border: 0;
