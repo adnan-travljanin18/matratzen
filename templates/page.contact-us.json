@@ -23,9 +23,16 @@
         "social_icon_instagram": false,
         "social_icon_youtube": false
       }
+    },
+    "1710437302591f91b8": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1710437302591f91b8"
   ]
 }
