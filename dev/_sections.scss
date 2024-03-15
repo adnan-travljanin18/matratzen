@@ -105,6 +105,7 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
 }
+
 .article-tag-hover {
 	&:hover {
 		background-color: #6490b2!important;
@@ -189,5 +190,16 @@
 @include break($min-medium) {
 	.subscribe-section-input-field, .subscribe-section-button  {
 		padding: .5rem 1.5rem!important;
+@media only screen and (min-width:575px) {
+	.article-card {
+		.card-body {
+			height: 98px;
+		}
+	}
+	.article-line-clamp {
+		-webkit-line-clamp: 2;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
 	}
 }

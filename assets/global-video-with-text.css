@@ -80,3 +80,11 @@
     width: fit-content;
     margin: 0 auto;
 }
+.video-button {
+    border: 0;
+    border-color: transparent;
+}
+.video-button:active {
+    border: 0;
+    border-color: transparent;
+}

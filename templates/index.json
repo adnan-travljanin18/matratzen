@@ -264,6 +264,17 @@
         "info_subline_text": "The Ultimate in Comfort and Support."
       }
     },
+    "subscribe_section_T8fVwj": {
+      "type": "subscribe-section",
+      "settings": {
+        "subtitle": "adsad",
+        "title": "adasdsad",
+        "paragraph": "dadadas",
+        "input-field-text": "Enter mail address",
+        "button-text": "Subscribe Now",
+        "section_bg_color": "#fcfbf9"
+      }
+    },
     "1709033461d5da508c": {
       "type": "apps",
       "blocks": {
@@ -290,6 +301,7 @@
     "blogs_slider_8MkkA7",
     "add57642-99b3-450a-b701-2c83862dbaa4",
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
+    "subscribe_section_T8fVwj",
     "1709033461d5da508c"
   ]
 }
