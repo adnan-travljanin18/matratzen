@@ -27,13 +27,13 @@
     transform: rotate(270deg);
 }
 .section-accordion .accordion-button:not(.collapsed) {
-    background-color: transparent!important;
+    background-color: #c1d3e073 !important;
 }
 .section-accordion .accordion-button:focus {
     box-shadow: none;
 }
 .section-accordion .nav-link.active {
-    background-color: transparent!important;
+    background-color: #c1d3e073 !important;
     color: #121212!important;
     font-weight: 300;
 }
@@ -49,7 +49,7 @@
     border-radius: 0!important;
     font-size: 24px;
     font-family: 'Urbanist';
-    padding: 20px 0;
+    padding: 20px 0 20px 15px;
     color: #455A64;
 }
 .section-accordion .tab-pane.active {
