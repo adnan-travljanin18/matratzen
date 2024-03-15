@@ -78,10 +78,10 @@
         ],
         "settings": {
           "fluid_footer": false,
-          "footer_top_bg_color": "#131e27",
+          "footer_top_bg_color": "#121212",
           "footer_top_txt_color": "#ffffff",
           "footer_top_link_color": "#ffffff",
-          "footer_bottom_bg_color": "#131e27",
+          "footer_bottom_bg_color": "#121212",
           "footer_bottom_txt_color": "#ffffff",
           "footer_logo_svg": "",
           "footer_logo": "shopify:\/\/shop_images\/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
@@ -174,11 +174,12 @@
           "fluid_layout": false,
           "heading_txt": "Find Your <b>Perfect<br>Mattress<\/b><i> With <br>Our <\/i>Personalized<br><b>Quiz!<b><\/b><\/b>",
           "step_heading": "Serenity Mattress",
+          "btn_txt": "Start Quiz Now",
           "image": "shopify:\/\/shop_images\/homepage_bedroom_1.jpg",
           "url_on_image": "",
-          "section_bg_color": "#131E27",
-          "section_text_color": "#fff",
-          "border_color": "#6490B2",
+          "section_bg_color": "#131e27",
+          "section_text_color": "#ffffff",
+          "border_color": "#6490b2",
           "alignment": "text-left"
         }
       },
@@ -189,21 +190,21 @@
             "type": "featured_collection",
             "settings": {
               "collection": "matratzen",
-              "section_txt_color": "#FFFFFF"
+              "section_txt_color": "#ffffff"
             }
           },
           "featured_collection_JfJbzn": {
             "type": "featured_collection",
             "settings": {
               "collection": "matratzen",
-              "section_txt_color": "#FFFFFF"
+              "section_txt_color": "#ffffff"
             }
           },
           "featured_collection_yAX3Ah": {
             "type": "featured_collection",
             "settings": {
               "collection": "matratzen",
-              "section_txt_color": "#FFFFFF"
+              "section_txt_color": "#ffffff"
             }
           }
         },
