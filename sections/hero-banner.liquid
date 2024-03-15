@@ -1,7 +1,9 @@
 <section
     class="{% unless section.settings.fluid_layout %}section-content{% endunless %} video-with-text video-with-text-position"
     data-section-id="{{ section.id }}"
-    style="background:{{ section.settings.section_bg_color }};"
+    {% if section.settings.section_bg_color != blank %}
+        style="background:{{ section.settings.section_bg_color}};"
+    {% endif %}
 >
     <div class="position-relative {% if section.settings.fluid_layout %}container-fluid p-0{% else %}container{% endif %}">
         <div class="custom-video-container {% if section.settings.fluid_video_layout %} full-video-layout position-relative{% else %}row align-items-center{% endif %}">
@@ -83,11 +85,11 @@
             </div>
             <div class="{% if section.settings.fluid_video_layout %}position-absolute z-index-2 full-video-photo text-center{% else %}col-12 col-md-6 col-lg-5 mt-4 mt-md-0{% endif %}">
                 <div
-                    class="inside-block {{ section.settings.alignment }} {% if section.settings.fluid_video_layout %}d-flex {{ section.settings.video_alignment }}{% endif %}"
+                    class="inside-block {{ section.settings.alignment }} {% if section.settings.fluid_video_layout %}d-flex {{ section.settings.video_alignment }}{% endif %} pb-3 pb-lg-0"
                     style="color:{{ section.settings.section_text_color }}"
                 >
                     {% if section.settings.fluid_video_layout %}
-                        <div class="col-8 col-lg-8 position-relative max-width-logo px-md-0">
+                        <div class="col-11 col-md-10 col-lg-9 col-xl-8 position-relative max-width-logo px-md-0">
                     {% endif %}
                     {%- if section.settings.logo_image != blank -%}
                         <img
@@ -188,13 +190,13 @@
         </div>
     </div>
 
-    <div class="container w-100 hero-collection-slider position-absolute position-relative-xs-sm mw-xs-sm-100 mx-xs-sm-0 top-positioning p-xs-sm-0">
+    <div class="container w-100 hero-collection-slider position-absolute position-relative-xs-sm mw-xs-sm-100 mx-xs-sm-0 top-positioning  pt-5 pt-md-0">
         <div class="swiper mySwiper mySwiper-hero custom-circle-border-radius">
             <div class="swiper-wrapper">
                 {%- for block in section.blocks -%}
                     <div class="hb swiper-slide d-flex justify-content-center">
-                        <div class="w-100 p-4-2 collection-slider-wrapper">
-                            <div class="d-flex flex-column flex-md-row m-0-auto justify-content-center">
+                        <div class="w-100 collection-slider-wrapper">
+                            <div class="row d-flex flex-column flex-md-row justify-content-center">
                                 <div class="col-12 col-md-4 d-flex justify-content-center flex-column align-items-md-normal text-left align-items-center pb-4 pb-md-0">
                                     <h2 class="mb-3 collection-slider-h2">
                                         {%- if block.settings.collection.title != blank -%}
@@ -212,9 +214,9 @@
                                     </h4>
                                     {% if block.settings.btn_text != blank %}
                                         <a class="letter-wider" href="{{ block.settings.collection.url }}">
-                                            {{- block.settings.btn_text -}}
-                                            <span
-                                                ><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span
+                                            <span>
+                                                {{- block.settings.btn_text -}}
+                                                <i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span
                                         ></a>
                                     {% endif %}
                                 </div>

@@ -3,7 +3,7 @@
     class="section-accordion"
     id="{{ section.settings.heading | handleize }}"
 >
-    <div class="container accordion-margins">
+    <div class="container section-content">
         <div class="col-sm-12 col-md-8 d-flex justify-content-md-normal justify-content-center">
             <div class="mb-4 mb-sm-7">
                 <h2 class="fw-medium lh-base letter-spacing mb-0">{{ section.settings.heading }}</h2>
@@ -68,7 +68,7 @@
             <div class="tab-content col-6" id="v-pills-tabContent">
                 {% for block in section.blocks %}
                     <div
-                        class="tab-pane fade{% if forloop.first %} show active{% endif %}"
+                        class="tab-pane fade{% if forloop.first %} show active{% endif %} pe-3"
                         id="v-pills-{{ block.settings.accordion-title | handleize }}"
                         role="tabpanel"
                         aria-labelledby="v-pills-{{ block.settings.accordion-title | handleize }}-tab"

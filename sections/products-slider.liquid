@@ -1,6 +1,11 @@
-<section data-section-id="{{ section.id }}" style="background:{{ section.settings.section_bg_color }};">
-    <div class="container product-slider-container slider-padding-top margin-y margin-slider-y-custom">
-        <div class="d-flex justify-content-center justify-content-md-between pt-8 pt-sm-8 pt-md-0">
+<section
+    data-section-id="{{ section.id }}"
+    {% if section.settings.section_bg_color != blank %}
+        style="background:{{ section.settings.section_bg_color}};"
+    {% endif %}
+>
+    <div class="container product-slider-container slider-padding-top">
+        <div class="d-flex justify-content-center justify-content-md-between pt-0">
             <div class="col-md-8 col-lg-6 p-0 d-flex">
                 <h2 class="mb-4 mb-sm-7">
                     {%- if section.settings.title != blank -%}

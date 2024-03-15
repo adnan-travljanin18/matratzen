@@ -18,13 +18,6 @@
   object-fit: cover;
 }
 .collection-slider-h2 {
-  color: rgba(33, 33, 33, 1);
-  font-family: Urbanist;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 50px;
-  letter-spacing: 0em;
-  text-align: left;
 }
 .collection-slider-h4 {
   color: rgba(84, 110, 122, 1);
@@ -52,7 +45,7 @@
 }
 .collection-slider-wrapper {
   background-color: #fff;
-  padding: 10%;
+  padding: 3rem 5.5rem;
 }
 .custom-circle-border-radius {
     border-radius: 50px;
@@ -114,6 +107,13 @@
     }
     .hero-collection-slider .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
       top: auto;
-      bottom: 0;
-  }
+    }
+    .collection-slider-wrapper {
+      background-color: #fff;
+      padding: 2rem;
+    }
+    .hero-collection-slider .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: var(--swiper-pagination-right, 0px) !important;
+      gap: 1rem !important;
+    }
 }

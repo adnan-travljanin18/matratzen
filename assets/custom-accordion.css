@@ -10,9 +10,6 @@
     background-color: #fff; /* Set background color */
     /* Add other styles like padding and margin */
 }
-.accordion-margins {
-    margin: 120px auto;
-}
 #accordion-button-hover a:hover {
     color:black !important;
 }
@@ -54,9 +51,4 @@
 }
 .section-accordion .tab-pane.active {
     font-weight: 300;
-}
-@media (max-width: 992px) {
-    .accordion-margins {
-        margin: 80px auto;
-    }
 }

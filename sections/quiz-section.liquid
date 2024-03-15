@@ -5,7 +5,7 @@
 >
     <div class="{% if section.settings.fluid_layout %}container-fluid{% else %}container{% endif %}">
         <div class="row {% if section.settings.column != blank %}flex-column {% endif %} {% if section.settings.column_reverse != blank %}flex-column-reverse {% endif %}align-items-center">
-            <div class="col-12 col-lg-5 order-lg-2">
+            <div class="col-12 col-lg-5 order-lg-2 d-none d-lg-block">
                 {% render 'img-border-offset', section: section %}
             </div>
 
@@ -42,7 +42,7 @@
     </div>
 </section>
 
-<section>
+<section class="section-content-bottom">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6">

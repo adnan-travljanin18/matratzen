@@ -7,7 +7,7 @@
 
     .mobile-nav-drawer {
         position: fixed;
-        z-index: 1170;
+        z-index: 1200; /* Because the icon from the wishlist has z-index: 10000001; but we override it to be 1199 */
         top: 0;
         left: 0;
         display: block;
@@ -54,7 +54,7 @@
     }
 
     .navbar-mobile .navbar-nav .nav-item .nav-link{
-        padding: 0.5rem 0.5rem 0.5rem 1rem;
+        padding: 1.5rem 0.5rem 1.5rem 1rem;
     }
     .navbar-mobile .navbar-nav .nav-item .nav-link > [class^="icon-"]{
         width: 24px;

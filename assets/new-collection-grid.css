@@ -42,8 +42,8 @@
     color: #131e27;
 }
 
-.banner-image-with-text {
-    padding: 2rem;
+.quiz-section-style .banner-image-with-text {
+    padding: 5rem 2rem 2rem 2rem;
 }
 .banner-img-border img {
     height: 100%;
@@ -51,6 +51,8 @@
     position: relative;
     z-index: 1;
     border-radius: 16px;
+}
+
 .banner-image-with-text {
 	padding: 2rem;
 }
@@ -87,7 +89,6 @@
         max-width: 407px;
         height: 368px;
     }
-	font-size: 2rem;
 }
 
 @media only screen and (min-width: 992px) {

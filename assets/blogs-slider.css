@@ -13,7 +13,7 @@
     content: '';
 }
 .blog-slider .swiper-slide:nth-child(even) {
- padding:0 !important;
+    padding:0 !important;
 }
 .blog-slider .swiper-slide:nth-child(odd) .blog-padding {
     padding-top: 20%;
@@ -27,22 +27,22 @@
     z-index: 10 !important;
     background-color: transparent; 
     border: 1px solid rgba(144, 164, 174, 1); 
-    height: 48px;
-    width: 48px;
+    height: 3rem;
+    width: 3rem;
 }
 
 .blog-slider.swiper-button-next {
-    left: 10px !important; /* Adjust this value as needed */
+    left: 0.625rem !important; /* Adjust this value as needed */
     right: auto !important;
 }
 
 .blog-slider.swiper-button-prev {
-    right: 10px !important; /* Adjust this value as needed */
+    right: 10px !important;
     left: auto !important;
 }
 
 .featured-blog-media {
-    border-radius: 16px;
+    border-radius: 1rem;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -51,7 +51,7 @@
     right: 50%;
 }
 .padding-left-30 {
-    padding-left: 30px;
+    padding-left: 1.875rem;
 }
 .blog-slider.swiper-button-next::after,
 .blog-slider.swiper-button-prev::after {
@@ -59,17 +59,17 @@
     font-size: x-large;
 }
 .blogs-margins {
-    margin-top: 120px;
+    margin-top: 7.5rem;
 }
 .blog-swiper-pagination {
-    bottom: 100px;
+    bottom: 6.25rem;
 }
 .blogs-slider-horizontal-line {
-    width: 40px;
+    width: 2.5rem;
     height: 1px;
     background-color: rgba(100, 144, 178, 1);
-    margin-left: 130px;
-    bottom: 112px !important;
+    margin-left: 8.125rem;
+    bottom: 7rem !important;
     position: absolute;
 }
 .pagination-container {
@@ -81,28 +81,28 @@
     .blog-slider .swiper-button-next,
     .blog-slider .swiper-button-prev {
         top: auto;
-        bottom: 20px; /* Adjust this value as needed */
+        bottom: 1.25rem;
         transform: none;
     }
     .blogs-margins {
-        margin-top: 80px;
+        margin-top: 5rem;
     }
 }
 
 @media (max-width: 576px) {
     .padding-bottom-slider-buttons {
-        bottom: 30px !important;
+        bottom: 1.875rem !important;
     }
     .padding-bottom-slider-pagination-line  {
-        bottom: 40px !important;
+        bottom: 2.5rem !important;
     }
     .blogs-slider-horizontal-line {
-        margin-left: 38px;
+        margin-left: 2.375rem;
     }
     .blog-swiper.swiper-pagination {
-        bottom: 38px !important;
+        bottom: 2.375rem !important;
     }
     .blog-swiper-pagination {
-        bottom: 48px;
+        bottom: 3rem;
     }
 }

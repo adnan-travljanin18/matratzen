@@ -12,10 +12,21 @@ h3 {
 }
 
 h2 {
-	font-size: 48px;
+	font-size: 2rem;
 }
-@include break($mobile) {
+
+@include break($min-mobile) {
 	h2 {
-		font-size: 32px;
+		font-size: 2.5rem;
+	}
+}
+@include break($min-medium) {
+	h2 {
+		font-size: 2.75;
+	}
+}
+@include break($min-large) {
+	h2 {
+		font-size: 3rem;
 	}
 }

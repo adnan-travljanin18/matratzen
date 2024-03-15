@@ -7,7 +7,7 @@
 {% comment %}<noscript>{{ 'global-video-with-text.css' | asset_url | stylesheet_tag }}</noscript>{% endcomment %}
 
 <section
-    class="{% unless section.settings.fluid_layout %}section-content{% endunless %} video-with-text"
+    class="section-content-bottom {% unless section.settings.fluid_layout %}section-content{% endunless %}video-with-text"
     data-section-id="{{ section.id }}"
     style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_txt_color }}"
 >
