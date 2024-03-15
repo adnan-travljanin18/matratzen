@@ -221,7 +221,7 @@ Quiz Button
     background: transparent;
     border-radius: 0;
 }
-.banner-image-with-text .underline-btn::before {
+.all-collection-banner .underline-btn::before {
     background-color: #fff;
 }
 .underline-btn::before {
