@@ -12,6 +12,7 @@
         "section_txt_color": "#000000",
         "heading": "Contact",
         "txt": "Any questions or remarks? Just write us a messaage!",
+        "custom_html": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"ObSRZQv3-Lag8vRNZwirAA\"><\/div>",
         "email_heading": "Email Us",
         "email_name": "customerservice@serenitybett.com",
         "phone_number": "+1 (30) 265 3523",
@@ -23,16 +24,9 @@
         "social_icon_instagram": false,
         "social_icon_youtube": false
       }
-    },
-    "1710437302591f91b8": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
-    "main",
-    "1710437302591f91b8"
+    "main"
   ]
 }
