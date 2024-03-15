@@ -78,10 +78,10 @@
         ],
         "settings": {
           "fluid_footer": false,
-          "footer_top_bg_color": "#131e27",
+          "footer_top_bg_color": "#121212",
           "footer_top_txt_color": "#ffffff",
           "footer_top_link_color": "#ffffff",
-          "footer_bottom_bg_color": "#131e27",
+          "footer_bottom_bg_color": "#121212",
           "footer_bottom_txt_color": "#ffffff",
           "footer_logo_svg": "",
           "footer_logo": "shopify:\/\/shop_images\/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
