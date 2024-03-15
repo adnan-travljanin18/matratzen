@@ -1,4 +1,4 @@
-.blog-slider .swiper-slide:nth-child(2n+1) .blog-slider-img-wrapper {
+.blog-slider .swiper-slide .blog-slider-img-wrapper {
     height: 322px;
     max-width: 516px;
 }
@@ -11,12 +11,6 @@
     width: 100%;
     z-index: -1;
     content: '';
-}
-.blog-slider .swiper-slide:nth-child(even) {
-    padding:0 !important;
-}
-.blog-slider .swiper-slide:nth-child(odd) .blog-padding {
-    padding-top: 20%;
 }
 
 .blog-slider.swiper-button-next,

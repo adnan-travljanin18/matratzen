@@ -143,6 +143,7 @@
     width: 100%;
     position: unset!important;
     padding-top: 0!important;
+    aspect-ratio: 1.2/1;
 }
 .featured-collection-slider .card-img img {
     height: 100%;

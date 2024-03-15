@@ -4,17 +4,12 @@
     style="background:{{ section.settings.section_bg_color }}; color:{{ section.settings.section_text_color }}"
 >
     <div class="{% if section.settings.fluid_layout %}container-fluid{% else %}container{% endif %}">
-        {% if section.settings.heading_txt != blank %}
-            {% if section.settings.heading_above == true %}
-                <h3 class="mb-3 text-center">{{ section.settings.heading_txt }}</h3>
-            {% endif %}
-        {% endif %}
         <div class="row {% if section.settings.column != blank %}flex-column {% endif %} {% if section.settings.column_reverse != blank %}flex-column-reverse {% endif %}align-items-center">
-            <div class="col-12 col-lg-5 order-lg-2">
+            <div class="col-12 col-lg-6 order-lg-2">
                 {% render 'img-border-offset', section: section %}
             </div>
-            <div class="col-12 col-lg-6 mt-4 mt-md-0 order-lg-1">
-                <div class="inside-block">
+            <div class="col-12 col-lg-6 mt-4 mt-lg-0 order-lg-1">
+                <div class="inside-block text-center text-lg-end">
                     {% if section.settings.step_heading != blank %}
                         <h6
                             class="mb-2 mb-md-3 text-center text-lg-end text-uppercase letter-wider"
@@ -27,6 +22,19 @@
                         <h2 class="text-white mb-3 text-center text-lg-end font-the-seasons">
                             {{ section.settings.heading_txt }}
                         </h2>
+                    {% endif %}
+                    {% if section.settings.btn_txt != blank %}
+                        <button
+                            role="button"
+                            data-vf-id="1ew990sn"
+                            data-vf-p-type="p"
+                            data-vf-p-side="r"
+                            data-vf-trigger="click"
+                            class="btn btn-primary btn-quiz underline-btn px-0 text-white"
+                        >
+                            {{ section.settings.btn_txt -}}
+                            <span><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span>
+                        </button>
                     {% endif %}
                 </div>
             </div>
@@ -64,6 +72,11 @@
             "id": "step_heading",
             "label": "Step Heading",
             "default": "Awesome Sub Heading"
+        },
+        {
+            "type": "text",
+            "id": "btn_txt",
+            "label": "Button Text"
         },
         {
             "type": "header",
