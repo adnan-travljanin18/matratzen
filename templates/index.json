@@ -267,11 +267,13 @@
     "subscribe_section_T8fVwj": {
       "type": "subscribe-section",
       "settings": {
-        "subtitle": "adsad",
-        "title": "adasdsad",
-        "paragraph": "dadadas",
+        "subtitle": "SERENITY",
+        "title": "Stay In The Loop",
+        "paragraph": "Subscribe to our newsletter for exclusive updates, offers, and insider news. Join our community of savvy shoppers!",
         "input-field-text": "Enter mail address",
         "button-text": "Subscribe Now",
+        "image": "shopify:\/\/shop_images\/subscription_img.png",
+        "heading_txt": "Subscribe image",
         "section_bg_color": "#fcfbf9"
       }
     },
