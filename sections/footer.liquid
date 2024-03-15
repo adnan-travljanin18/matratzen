@@ -27,6 +27,18 @@
                         <div class="col-12 col-lg-4">
                             {% if linklists[footer_linklist_2].links.size > 0 %}
                                 <ul class="list-unstyled footer-navigation font-size-md">
+                                    {%- if settings.enable_search -%}
+                                        <li class="nav-item mb-2">
+                                            <a
+                                                href="{{ routes.search_url }}"
+                                                class="nav-link modal__toggle open-searchform"
+                                                aria-haspopup="dialog"
+                                                aria-label="{{ 'general.search.title' | t }}"
+                                            >
+                                                <span>Suche</span>
+                                            </a>
+                                        </li>
+                                    {%- endif -%}
                                     {% for link in linklists[footer_linklist_2].links %}
                                         <li class="{% unless forloop.index == 1 %}my-2{% endunless %}">
                                             <a

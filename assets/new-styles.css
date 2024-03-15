@@ -3,13 +3,13 @@
     bottom: 105px;
 }
 .custom-class {
-    background: #121212;
+    background: #131E27;
 }
 .template-index .normal-header {
     background: transparent;
 }
 .normal-header {
-    background: #121212;
+    background: #131E27;
 }
 .nav-link .active {
     background-color: #fff!important;
@@ -71,7 +71,7 @@ h2.jdgm-carousel-title {
     color: #fff;
 }
 .shopify-section-header-sticky {
-    background: #000;
+    background: #131E27;
 }
 footer .social-links li a {
     background-color: transparent!important;
