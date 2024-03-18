@@ -64,19 +64,7 @@
     flex: 0 0 auto;
 }
 
-.cart-drawer .cart-body .cart-items > .cart-item .cart-price{
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 25%;
-    text-align: left !important;
-}
-.cart-drawer .cart-body .cart-items > .cart-item .quantity-box{
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 50%;
-}
+
 .cart-drawer .cart-body .cart-items > .cart-item .quantity-box .quantity-wrapper label{
     display: none;
 }

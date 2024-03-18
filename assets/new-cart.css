@@ -52,6 +52,16 @@
     color: #121212;
     border-color: #121212;
 }
+.btn-drawer-cart:active {
+    background-color: #121212!important;
+    border-color: #121212!important;
+}
+.show-cart-btn {
+    border: 0!important;
+}
+.show-cart-btn:active {
+    border: 0!important;
+}
 .drawer-cart-header {
     background-color: #121212;
 }

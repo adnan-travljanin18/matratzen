@@ -18,7 +18,7 @@
         </a>
     </div>
 
-    <div class="row {% if cart.item_count <= 0 %} empty_cart {% endif %}">
+    <div class="{% if cart.item_count <= 0 %} empty_cart {% endif %}">
         <form data-cart-form action="{{ routes.cart_url }}" method="post">
             {% if cart.item_count > 0 %}
                 {% if settings.enable_shipping_bar %}
@@ -159,7 +159,7 @@
                                             <span class="m-0 p-0"> {{ item.price | money }} </span>
                                         {% endif %}
                                     </div>
-                                    <div class="col-5 col-md-2 quantity-box">
+                                    <div class="col-9 quantity-box">
                                         <div class="d-flex align-items-center justify-content-center">
                                             {% if item.properties.promo_product %}
                                                 <input
@@ -244,7 +244,7 @@
                                                     </div>
                                                 </div>
                                                 <a
-                                                    class="my-0 text-danger ms-3"
+                                                    class="my-0 ms-3"
                                                     href="#"
                                                     title="{{ 'templates.cart.remove' | t }}"
                                                     aria-label="{{ 'templates.cart.remove' | t }}"
@@ -253,7 +253,10 @@
                                                     data-index="{{ forloop.index }}"
                                                     data-placement="left"
                                                 >
-                                                    <span class="icon-close"></span>
+                                                    <div class="remove-cart-icon">
+                                                        {% render 'trash-can-svg' %}
+                                                        <span>{{ 'templates.cart.remove' | t }}</span>
+                                                    </div>
                                                 </a>
                                             {% endif %}
                                         </div>
@@ -349,7 +352,9 @@
             <a href="/checkout" class="btn btn-primary btn-block btn-drawer-cart">
                 {{- 'templates.cart.checkout' | t -}}
             </a>
-            <a href="/cart" class="btn d-block m-auto text-capitalize">{{ 'templates.cart.View_Shopping_cart' | t }}</a>
+            <a href="/cart" class="btn d-block m-auto text-capitalize show-cart-btn">
+                {{- 'templates.cart.View_Shopping_cart' | t -}}
+            </a>
 
             {% if additional_checkout_buttons %}
                 <span class="additional-checkout-buttons">

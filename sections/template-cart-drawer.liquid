@@ -17,7 +17,7 @@
                     </a>
                 </div>
 
-                <div class="row">
+                <div class="class">
                     <form data-cart-form action="{{ routes.cart_url }}" method="post">
                         {% if cart.item_count > 0 %}
                             {% if settings.enable_shipping_bar %}
@@ -63,7 +63,7 @@
                                         -%}
 
                                         <div
-                                            class="cart-items py-4 px-md-3 border-bottom"
+                                            class="cart-items py-4 px-3 px-md-3 border-bottom"
                                             data-cart-item
                                             data-variant-id="{{ item.id }}"
                                         >
@@ -159,7 +159,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="col-5 col-md-2 quantity-box drawer-quantity-box">
+                                                <div class="col-9 quantity-box drawer-quantity-box">
                                                     <div class="d-flex align-items-center justify-content-center">
                                                         {% if item.properties.promo_product or item.line_price == 0 %}
                                                             <input
@@ -244,7 +244,7 @@
                                                                 </div>
                                                             </div>
                                                             <a
-                                                                class="my-0 text-danger ms-3"
+                                                                class="my-0 ms-3"
                                                                 href="#"
                                                                 title="{{ 'templates.cart.remove' | t }}"
                                                                 aria-label="{{ 'templates.cart.remove' | t }}"
@@ -253,7 +253,10 @@
                                                                 data-index="{{ forloop.index }}"
                                                                 data-placement="left"
                                                             >
-                                                                <span class="icon-close"></span>
+                                                                <div class="remove-cart-icon">
+                                                                    {% render 'trash-can-svg' %}
+                                                                    <span>{{ 'templates.cart.remove' | t }}</span>
+                                                                </div>
                                                             </a>
                                                         {% endif %}
                                                     </div>
