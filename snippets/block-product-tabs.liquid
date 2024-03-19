@@ -24,7 +24,7 @@
       <div class="tab-content text-left" id="productTabsContent">
         {% if block.settings.enable_descripion_tab and product.description %}
         <div class="tab-pane tabcontent open" id="description" role="tabpanel">
-          <div class="rte py-5">{{ product.description }}</div>
+          <div class="rte py-5 px-lg-3">{{ product.description }}</div>
         </div>
         {% endif %}
         {% if block.settings.enable_custom_tab_1 %}
@@ -39,7 +39,7 @@
         {% endif %}
         {% if block.settings.enable_custom_tab_2 %}
         <div class="tab-pane tabcontent" id="custom-tab-2" role="tabpanel">
-          <div class="rpt-5 py-5">{{ product.metafields.custom.specifications |  metafield_tag }}</div>
+          <div class="rpt-5 py-5 px-lg-3">{{ product.metafields.custom.specifications |  metafield_tag }}</div>
         </div>
         {% endif %}
       </div>
