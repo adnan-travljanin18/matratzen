@@ -41,6 +41,7 @@
                                             "slidesPerView": "1",
                                             "spaceBetween": 15,
                                             "grabCursor": true,
+                                            "zoom": true,
                                             "navigation": {
                                                 "nextEl": ".swiper-button-next",
                                                 "prevEl": ".swiper-button-prev"
@@ -61,18 +62,20 @@
                                                     data-mediaID="{{ image.id }}"
                                                     role="treeitem"
                                                 >
-                                                    <img
-                                                        src="{{ image.src | image_url }}"
-                                                        {% if forloop.index != 1 %}
-                                                            loading="lazy"
-                                                        {% else %}
-                                                            fetchpriority="high"
-                                                        {% endif %}
-                                                        data-variant-title="{{ image.alt | escape }}"
-                                                        alt="{{ image.alt | escape }}"
-                                                        width="{{ image.src.width }}"
-                                                        height="{{ image.src.width | divided_by: image.src.aspect_ratio | round }}"
-                                                    >
+                                                    <div class="swiper-zoom-container">
+                                                        <img
+                                                            src="{{ image.src | image_url }}"
+                                                            {% if forloop.index != 1 %}
+                                                                loading="lazy"
+                                                            {% else %}
+                                                                fetchpriority="high"
+                                                            {% endif %}
+                                                            data-variant-title="{{ image.alt | escape }}"
+                                                            alt="{{ image.alt | escape }}"
+                                                            width="{{ image.src.width }}"
+                                                            height="{{ image.src.width | divided_by: image.src.aspect_ratio | round }}"
+                                                        >
+                                                    </div>
                                                 </div>
                                             {% elsif media.media_type == 'external_video'
                                                 or media.media_type == 'video'
