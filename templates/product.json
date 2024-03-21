@@ -49,6 +49,12 @@
             "tab_2_content": "<p>Test tes test<\/p>"
           }
         },
+        "layer_slider_tCXKDe": {
+          "type": "layer-slider",
+          "settings": {
+            "enable_layer_slider": true
+          }
+        },
         "related-products": {
           "type": "related-products",
           "settings": {
@@ -71,6 +77,7 @@
         "b253ffff-d04d-43a0-9d68-fabdd77b595a",
         "e53b8574-dd34-4eca-8c40-ac20d2e38598",
         "product-tabs",
+        "layer_slider_tCXKDe",
         "related-products"
       ],
       "custom_css": [
