@@ -286,6 +286,10 @@
         </div>
     </section>
 
+    {% if block.settings.enable_layer_slider %}
+        {% render 'block-product-layer-slider' %}
+    {% endif %}
+
     {%- liquid
         for block in section.blocks
             case block.type
@@ -293,6 +297,11 @@
                     if block.settings.enable_product_tabs and section.settings.product_tabs_placement == 'below_slider'
                         render 'block-product-tabs', block: block
                     endif
+                when 'layer-slider'
+                    if block.settings.enable_layer_slider
+                        render 'block-product-layer-slider', block: block
+                    endif
+
                 when 'related-products'
                     if block.settings.enable_related_products
                         render 'block-related-products', block: block
@@ -541,6 +550,18 @@
                     "id": "related_products_section_color",
                     "label": "Text Color",
                     "default": "#343a40"
+                }
+            ]
+        },
+        {
+            "type": "layer-slider",
+            "name": "Layer Slider",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "checkbox",
+                    "id": "enable_layer_slider",
+                    "label": "Enable Custom Layer Slider"
                 }
             ]
         }

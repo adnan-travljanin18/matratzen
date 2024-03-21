@@ -1,0 +1,154 @@
+{% if block.settings.enable_layer_slider %}
+    <div class="container">
+        <div class="position-relative row" id="custom-tab-3" role="tabpanel">
+            <div class="slider-container col-12 col-lg-8">
+                {% assign slides = product.metafields.custom.mattress_layers_slider.value | reverse %}
+                {% for metaobject in slides %}
+                    <div class="slide slide-{{ forloop.index }}">
+                        <img src="{{ metaobject.image.value | image_url }}">
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center col-12 col-lg-4">
+                {% for metaobject in slides %}
+                    <h2 class="slider-text">{{ metaobject.description.value }}</h2>
+                {% endfor %}
+                <div class="slider-nav">
+                    <button class="prev-btn layer-btn" disabled>
+                        <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/angle-left.png?v=1709815582">
+                    </button>
+                    <button class="next-btn layer-btn">
+                        <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/angle-right.png?v=1709815589">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
+
+<style>
+    .slider-container {
+        position: relative;
+        height: 600px;
+        overflow: hidden;
+    }
+    .slide {
+        position: absolute;
+        width: fit-content;
+        transition: top 0.5s ease, opacity 0.5s ease; /* Add opacity transition */
+        opacity: 1; /* Set initial opacity to 1 */
+    }
+    .slide-1 {
+        top: 75px;
+        z-index: 5;
+    }
+    .slide-2 {
+        top: 100px;
+        z-index: 4;
+    }
+    .slide-3 {
+        top: 125px;
+        z-index: 3;
+    }
+    .slide-4 {
+        top: 150px;
+        z-index: 2;
+    }
+    .slide-5 {
+        top: 175px;
+        z-index: 1;
+    }
+    .hidden-slide {
+        top: -250px;
+        opacity: 0;
+    }
+    .layer-btn {
+        background-color: transparent;
+        border: 1px solid rgba(144, 164, 174, 1);
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+    }
+
+    /* Adjust top positions of slides as per your requirement */
+    .slide:nth-child(1) {
+        top: 75px;
+    }
+
+    .prev-btn,
+    .next-btn {
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .prev-btn[disabled],
+    .next-btn[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+    @media only screen and (max-width: 575px) {
+        .slider-container {
+            height: 450px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .slider-container {
+            height: 510px;
+        }
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var slideIndex = 0;
+        var totalSlides = $('.slide').length;
+
+        // Initially hide all slider texts except for the text of the first slide
+        $('.slider-text').not('.slide-1').hide();
+
+        // Set initial slide to be visible
+        $('.slide').eq(slideIndex).css('opacity', 1);
+        $('.slider-text').eq(slideIndex).show(); // Show text for the first slide
+
+        // Hide previous button initially
+        $('.prev-btn').prop('disabled', true);
+
+        $('.next-btn').click(function () {
+            if (slideIndex < totalSlides - 1) {
+                $('.slide').eq(slideIndex).addClass('hidden-slide').animate({ opacity: 0 }, 500);
+                $('.slider-text').eq(slideIndex).hide(); // Hide previous slider text
+                slideIndex++;
+                $('.slide')
+                    .eq(slideIndex)
+                    .removeClass('hidden-slide')
+                    .animate({ top: $('.slide').eq(slideIndex).css('top'), opacity: 1 }, 500);
+                $('.slider-text').eq(slideIndex).show(); // Show current slider text
+                $('.prev-btn').prop('disabled', false);
+                if (slideIndex === totalSlides - 1) {
+                    $(this).prop('disabled', true);
+                }
+            }
+        });
+
+        $('.prev-btn').click(function () {
+            if (slideIndex > 0) {
+                $('.slide')
+                    .eq(slideIndex)
+                    .addClass('hidden-slide')
+                    .animate({ top: $('.slide').eq(slideIndex).css('top'), opacity: 1 }, 500);
+                $('.slider-text').eq(slideIndex).hide(); // Hide previous slider text
+                slideIndex--;
+                $('.slide')
+                    .eq(slideIndex)
+                    .removeClass('hidden-slide')
+                    .animate({ top: $('.slide').eq(slideIndex).css('top'), opacity: 1 }, 500);
+                $('.slider-text').eq(slideIndex).show(); // Show current slider text
+                $('.next-btn').prop('disabled', false);
+                if (slideIndex === 0) {
+                    $(this).prop('disabled', true);
+                }
+            }
+        });
+    });
+</script>
