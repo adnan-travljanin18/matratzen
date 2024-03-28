@@ -39,15 +39,11 @@
     z-index: 1140;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-100%);
-    transition: all .65s cubic-bezier(.19,1,.22,1);
-    transition-timing-function: cubic-bezier(.19,1,.22,1);
   }
   
   .header__search.open__modal {
     opacity: 1;
     visibility: visible;
-    transform: translateY(0);
   }
 
 

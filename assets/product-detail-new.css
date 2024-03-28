@@ -166,6 +166,15 @@
     font-size: 14px;
     color: #607D8B;
 }
+.featured-collection-slider .icon-next, .featured-collection-slider .icon-previous {
+    height: 40px;
+    width: 40px;
+    color: #90a4ae;
+    border: 1px solid #90a4ae;;
+}
+.featured-collection-slider .icon-next::before, .featured-collection-slider .icon-previous::before {
+    content: '';
+}
 #productAccordion .accordion__toggle {
     font-size: 1.1rem;
 }

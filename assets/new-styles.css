@@ -1,6 +1,31 @@
 main {
     min-height: 61vh;
 }
+.collection-filters .btn {
+    background: #121212;
+    color: #fff;
+    border: 1px solid #121212;
+    border-radius: 50px;
+}
+.collection-filters .btn:hover {
+    background: #fff;
+    color: #121212;
+    border: 1px solid #121212;
+}
+.collection-filters .btn:focus {
+    background: #fff;
+}
+#filter-drawer, #sortby-drawer {
+    background: #121212;
+    color: #fff;
+    border: 1px solid #121212;
+    border-radius: 50px;
+}
+#filter-drawer:hover, #sortby-drawer:hover {
+    background: #fff;
+    color: #121212;
+    border: 1px solid #121212;
+}
 .video-with-text-position {
     position: relative;
     bottom: 105px;
@@ -295,8 +320,39 @@ Quiz Button
     background-color: #121212!important;
     border-color: #121212;
 }
+.header__search {
+    scale: 0;
+    transition: .3s;
+}
+.header__search.open__modal {
+    scale: 100%;
+    transition: .3s;
+}
+.search-modal__content .icon-search, .search-modal__content .icon-close {
+    color: #fff;
+}
+.search-modal__content .modal__close-button {
+    height: unset;
+    width: unset;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
 .search__input {
     font-family: 'Roboto';
+    border-radius: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.search__input:focus {
+    background: #131e27;
+    box-shadow: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.search__input::placeholder {
+    color: #fff;
 }
 
 /* =-=-=-=-=-=-=-=-=-

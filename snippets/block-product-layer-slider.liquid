@@ -1,29 +1,31 @@
-{% if block.settings.enable_layer_slider %}
-    <div class="container">
-        <div class="position-relative row" id="custom-tab-3" role="tabpanel">
-            <div class="slider-container col-12 col-lg-8">
-                {% assign slides = product.metafields.custom.mattress_layers_slider.value | reverse %}
-                {% for metaobject in slides %}
-                    <div class="slide slide-{{ forloop.index }}">
-                        <img src="{{ metaobject.image.value | image_url }}">
+{% if product.metafields.custom.enable_layer_slider.value == true %}
+    {% if block.settings.enable_layer_slider %}
+        <div class="container">
+            <div class="position-relative row" id="custom-tab-3" role="tabpanel">
+                <div class="slider-container col-12 col-lg-8">
+                    {% assign slides = product.metafields.custom.mattress_layers_slider.value | reverse %}
+                    {% for metaobject in slides %}
+                        <div class="slide slide-{{ forloop.index }}">
+                            <img src="{{ metaobject.image.value | image_url }}">
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-center col-12 col-lg-4">
+                    {% for metaobject in slides %}
+                        <h2 class="slider-text">{{ metaobject.description.value }}</h2>
+                    {% endfor %}
+                    <div class="slider-nav">
+                        <button class="prev-btn layer-btn" disabled>
+                            <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/angle-left.png?v=1709815582">
+                        </button>
+                        <button class="next-btn layer-btn">
+                            <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/angle-right.png?v=1709815589">
+                        </button>
                     </div>
-                {% endfor %}
-            </div>
-            <div class="d-flex flex-column align-items-center justify-content-center col-12 col-lg-4">
-                {% for metaobject in slides %}
-                    <h2 class="slider-text">{{ metaobject.description.value }}</h2>
-                {% endfor %}
-                <div class="slider-nav">
-                    <button class="prev-btn layer-btn" disabled>
-                        <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/angle-left.png?v=1709815582">
-                    </button>
-                    <button class="next-btn layer-btn">
-                        <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/angle-right.png?v=1709815589">
-                    </button>
                 </div>
             </div>
         </div>
-    </div>
+    {% endif %}
 {% endif %}
 
 <style>

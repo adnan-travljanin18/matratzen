@@ -1,8 +1,8 @@
 {%- comment -%}Desktop Search Modal{%- endcomment -%}
-<search-modal class="header__search" style="display: none;">
+<search-modal class="header__search">
     <div class="searchform">
         <div
-            class="search-modal modal__content bg-white py-5"
+            class="search-modal modal__content custom-class py-4"
             role="dialog"
             aria-modal="true"
             aria-label="{{ 'general.search.placeholder' | t }}"
@@ -14,7 +14,7 @@
                         <div class="field">
                             <label class="visually-hidden-skip" for="Search-In-Modal">Search</label>
                             <input
-                                class="search__input form-control border-bottom border-0 border-gray-800 rounded-0"
+                                class="search__input form-control custom-class"
                                 id="Search-In-Modal"
                                 type="search"
                                 name="q"
