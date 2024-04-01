@@ -1,3 +1,22 @@
+<style>
+    /* Magnifying glass container */
+    .img-magnifier-container {
+        position: relative;
+        cursor: none;
+    }
+
+    /* Magnifying glass icon */
+    .img-magnifier-glass {
+        position: absolute;
+        border: 3px solid #131e27;
+        border-radius: 50%;
+        cursor: none;
+        width: 250px; /* Set the size of the magnifying glass */
+        height: 250px;
+        pointer-events: none; /* Make sure magnifying glass does not interfere with mouse events on the image */
+        display: none; /* Initially hidden */
+    }
+</style>
 <div
     data-section-id="{{ section.id }}"
     data-template="product"
@@ -62,8 +81,11 @@
                                                     data-mediaID="{{ image.id }}"
                                                     role="treeitem"
                                                 >
-                                                    <div class="swiper-zoom-container">
+                                                    <div
+                                                        class="swiper-zoom-container img-magnifier-container"
+                                                    >
                                                         <img
+                                                            id="myimage"
                                                             src="{{ image.src | image_url }}"
                                                             {% if forloop.index != 1 %}
                                                                 loading="lazy"
@@ -75,6 +97,7 @@
                                                             width="{{ image.src.width }}"
                                                             height="{{ image.src.width | divided_by: image.src.aspect_ratio | round }}"
                                                         >
+                                                        <script></script>
                                                     </div>
                                                 </div>
                                             {% elsif media.media_type == 'external_video'
@@ -324,6 +347,93 @@
         }
     });
 </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Function to initialize magnifying glass for a specific image
+        function initializeMagnifier(img) {
+            // Create a magnifying glass element
+            var glass = document.createElement('div');
+            glass.className = 'img-magnifier-glass';
+            img.parentElement.insertBefore(glass, img.nextSibling);
+
+            // Set background image of magnifying glass to be the same as the image
+            glass.style.backgroundImage = "url('" + img.src + "')";
+
+            // Set background size and position to match the image size
+            glass.style.backgroundSize = img.width * 2 + 'px ' + img.height * 2 + 'px';
+            glass.style.backgroundPosition = 'center';
+
+            function moveMagnifier(e) {
+                // Calculate the position of the magnifying glass
+                var pos = getCursorPos(e);
+                var x = pos.x - glass.offsetWidth / 2;
+                var y = pos.y - glass.offsetHeight / 2;
+
+                // Calculate the background position to center the zoomed content with the cursor
+                var bgPosX = (pos.x - img.offsetLeft) * 2 - glass.offsetWidth / 2;
+                var bgPosY = (pos.y - img.offsetTop) * 2 - glass.offsetHeight / 2;
+
+                // Prevent the magnifying glass from being positioned outside the image
+                if (x > img.width - glass.offsetWidth) {
+                    x = img.width - glass.offsetWidth;
+                }
+                if (x < 0) {
+                    x = 0;
+                }
+                if (y > img.height - glass.offsetHeight) {
+                    y = img.height - glass.offsetHeight;
+                }
+                if (y < 0) {
+                    y = 0;
+                }
+
+                // Set the position of the magnifying glass
+                glass.style.left = x + img.offsetLeft + 'px';
+                glass.style.top = y + img.offsetTop + 'px';
+
+                // Set background position of the magnifying glass to center zoomed content with the cursor
+                glass.style.backgroundPosition = '-' + bgPosX + 'px -' + bgPosY + 'px';
+            }
+
+            // Function to get the cursor position
+            function getCursorPos(e) {
+                var a,
+                    x = 0,
+                    y = 0;
+                e = e || window.event;
+
+                // Get the x and y positions of the image
+                a = img.getBoundingClientRect();
+
+                // Calculate the cursor's x and y coordinates relative to the image
+                x = e.pageX - a.left;
+                y = e.pageY - a.top;
+
+                // Consider any page scrolling
+                x = x - window.pageXOffset;
+                y = y - window.pageYOffset;
+                return { x: x, y: y };
+            }
+
+            // Add event listeners for mousemove and mouseout to show and hide the magnifying glass
+            img.addEventListener('mousemove', function (e) {
+                moveMagnifier(e);
+                glass.style.display = 'block';
+            });
+
+            img.addEventListener('mouseout', function () {
+                glass.style.display = 'none';
+            });
+        }
+
+        // Find all images with the id "myimage" and initialize magnifying glass for each of them
+        var images = document.querySelectorAll('#myimage');
+        images.forEach(function (img) {
+            initializeMagnifier(img);
+        });
+    });
+</script>
+
 {% schema %}
 {
     "name": "t:sections.template-product.name",

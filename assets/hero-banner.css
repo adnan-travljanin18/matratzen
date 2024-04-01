@@ -110,7 +110,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: radial-gradient(rgba(100, 144, 178, .5),rgba(19, 30, 39, 1));
+    background: radial-gradient(circle at 75% 25%, rgb(28, 54, 88, 0.95), rgb(28, 54, 88, 0.95), rgb(28, 54, 88, 0.85),rgb(33, 36, 30, 0.85), rgb(19, 26, 35, 0.9), rgb(13, 30, 39, 0.95), rgb(13, 30, 39));
 }
 .top-positioning {
     top: 60vh;
