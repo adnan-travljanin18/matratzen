@@ -46,7 +46,6 @@
                             data-slider='
                                 {
                                         "loop": false,
-                                        "shortSwipes": false,
                                         "slidesPerView": "1",
                                         "spaceBetween": 15,
                                         "grabCursor": true,
@@ -99,10 +98,12 @@
                                 {% endfor %}
                                 {% comment %}theme-check-enable LiquidTag{% endcomment %}
                             </div>
-                            {% if collection.products_count > 5 %}
-                                <div class="swiper-button-next icon-next"></div>
-                                <div class="swiper-button-prev icon-previous"></div>
-                            {% endif %}
+                            {% comment %}
+                                {% if collection.products_count > 5 %}
+                                    <div class="swiper-button-next icon-next"></div>
+                                    <div class="swiper-button-prev icon-previous"></div>
+                                {% endif %}
+                            {% endcomment %}
                         </div>
                     </slider-element>
                 </div>

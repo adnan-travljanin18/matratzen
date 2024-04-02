@@ -11,10 +11,21 @@
         border: 3px solid #131e27;
         border-radius: 50%;
         cursor: none;
-        width: 250px; /* Set the size of the magnifying glass */
-        height: 250px;
+        width: 200px; /* Set the size of the magnifying glass */
+        height: 200px;
         pointer-events: none; /* Make sure magnifying glass does not interfere with mouse events on the image */
         display: none; /* Initially hidden */
+    }
+    .metafield-rich_text_field ul {
+        padding-left: 1rem !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .metafield-rich_text_field li::marker {
+        color: #131e27;
+    }
+    .metafield-rich_text_field li {
+        margin-bottom: 4px;
     }
 </style>
 <div
@@ -272,11 +283,12 @@
                                         {{ form | payment_terms }}
                                     {%- endform -%}
                                 {%- when 'description' -%}
-                                    {% if product.description %}
-                                        <h5 class="d-none mt-5 mb-2">{{ 'products.product.description' | t }}</h5>
+                                    {% if product.metafields.custom.bullet_points != blank %}
                                         <div class="rte short-description">
-                                            {{ product.description | truncate: 200 }}
+                                            {{ product.metafields.custom.bullet_points | metafield_tag }}
                                         </div>
+                                    {% else %}
+                                        <div style="padding: 4.5rem 0; display: block;"></div>
                                     {% endif %}
                                 {%- when 'product-tabs' -%}
                                     {%- liquid
@@ -292,7 +304,7 @@
                                     -%}
                                 {%- when 'share' -%}
                                     {% if block.settings.show_social_share %}
-                                        <div class="d-flex align-items-center mt-5 share-wishlist-container">
+                                        <div class="d-flex align-items-center mt-4 share-wishlist-container">
                                             <div id="wishlist-hero-product-page-button"></div>
                                             {% render 'social-sharing',
                                                 share_title: product.title,
