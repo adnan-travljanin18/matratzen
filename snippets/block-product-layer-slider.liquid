@@ -37,31 +37,51 @@
     .slide {
         position: absolute;
         width: fit-content;
-        transition: top 0.5s ease, opacity 0.5s ease; /* Add opacity transition */
+        transition: top 0.5s ease; /* Add opacity transition */
         opacity: 1; /* Set initial opacity to 1 */
     }
     .slide-1 {
-        top: 75px;
+        top: 75px !important;
         z-index: 5;
     }
     .slide-2 {
-        top: 100px;
+        top: 100px !important;
         z-index: 4;
     }
     .slide-3 {
-        top: 125px;
+        top: 125px !important;
         z-index: 3;
     }
     .slide-4 {
-        top: 150px;
+        top: 150px !important;
         z-index: 2;
     }
     .slide-5 {
-        top: 175px;
+        top: 175px !important;
+        z-index: 1;
+    }
+    .slide-1.active-slide {
+        top: 40px !important;
+        z-index: 5;
+    }
+    .slide-2.active-slide {
+        top: 65px !important;
+        z-index: 4;
+    }
+    .slide-3.active-slide {
+        top: 90px !important;
+        z-index: 3;
+    }
+    .slide-4.active-slide {
+        top: 115px !important;
+        z-index: 2;
+    }
+    .slide-5.active-slide {
+        top: 140px !important;
         z-index: 1;
     }
     .hidden-slide {
-        top: -250px;
+        top: -250px !important;
         opacity: 0;
     }
     .layer-btn {
@@ -110,7 +130,7 @@
         $('.slider-text').not('.slide-1').hide();
 
         // Set initial slide to be visible
-        $('.slide').eq(slideIndex).css('opacity', 1);
+        $('.slide').eq(slideIndex).addClass('active-slide').css('opacity', 1);
         $('.slider-text').eq(slideIndex).show(); // Show text for the first slide
 
         // Hide previous button initially
@@ -118,12 +138,16 @@
 
         $('.next-btn').click(function () {
             if (slideIndex < totalSlides - 1) {
-                $('.slide').eq(slideIndex).addClass('hidden-slide').animate({ opacity: 0 }, 500);
-                $('.slider-text').eq(slideIndex).hide(); // Hide previous slider text
+                var $currentSlide = $('.slide').eq(slideIndex);
+                if ($currentSlide.hasClass('active-slide')) {
+                    $currentSlide.addClass('hidden-slide').removeClass('active-slide').animate({ opacity: 0 }, 500);
+                    $('.slider-text').eq(slideIndex).hide(); // Hide previous slider text
+                }
                 slideIndex++;
                 $('.slide')
                     .eq(slideIndex)
                     .removeClass('hidden-slide')
+                    .addClass('active-slide')
                     .animate({ top: $('.slide').eq(slideIndex).css('top'), opacity: 1 }, 500);
                 $('.slider-text').eq(slideIndex).show(); // Show current slider text
                 $('.prev-btn').prop('disabled', false);
@@ -135,16 +159,22 @@
 
         $('.prev-btn').click(function () {
             if (slideIndex > 0) {
-                $('.slide')
-                    .eq(slideIndex)
-                    .addClass('hidden-slide')
-                    .animate({ top: $('.slide').eq(slideIndex).css('top'), opacity: 1 }, 500);
-                $('.slider-text').eq(slideIndex).hide(); // Hide previous slider text
+                var $currentSlide = $('.slide').eq(slideIndex);
+                if ($currentSlide.hasClass('active-slide')) {
+                    $currentSlide
+                        .removeClass('active-slide')
+                        .animate({ top: $('.slide').eq(slideIndex).css('top'), opacity: 1 }, 500);
+                    $('.slider-text').eq(slideIndex).hide(); // Hide previous slider text
+                }
                 slideIndex--;
-                $('.slide')
-                    .eq(slideIndex)
-                    .removeClass('hidden-slide')
-                    .animate({ top: $('.slide').eq(slideIndex).css('top'), opacity: 1 }, 500);
+                var $prevSlide = $('.slide').eq(slideIndex);
+                if (!$prevSlide.hasClass('active-slide')) {
+                    $prevSlide
+                        .addClass('active-slide')
+                        .css('opacity', 0)
+                        .removeClass('hidden-slide')
+                        .animate({ top: $('.slide').eq(slideIndex).css('top'), opacity: 1 }, 500);
+                }
                 $('.slider-text').eq(slideIndex).show(); // Show current slider text
                 $('.next-btn').prop('disabled', false);
                 if (slideIndex === 0) {
