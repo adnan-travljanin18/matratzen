@@ -44,7 +44,7 @@
             "enable_descripion_tab": true,
             "enable_custom_tab_1": true,
             "tab_1_title": "Reviews",
-            "enable_custom_tab_2": true,
+            "enable_custom_tab_2": false,
             "tab_2_title": "Spezifikationen",
             "tab_2_content": "<p>Test tes test<\/p>"
           }
