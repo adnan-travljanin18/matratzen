@@ -1,6 +1,10 @@
 main {
     min-height: 61vh;
 }
+.cky-revisit-bottom-left {
+  bottom: 60px;
+  left: 8px;
+}
 .collection-filters .btn {
     background: #121212;
     color: #fff;
