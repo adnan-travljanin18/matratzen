@@ -17,14 +17,14 @@
             </div>
             <div class="col-md-3 col-lg-3 col-xl-2 d-md-block d-none p-0 text-end">
                 {% if section.settings['products-slider-button-text'] != blank %}
-                    <button
+                    <a
                         {% if section.settings['products-slider-button-link'] %}
                             href="{{ section.settings.products-slider-button-link }}"
                         {% endif %}
                         class="btn btn{% if section.settings.btn_type == 'outline' %}-{% endif %}{{ section.settings.btn_type }}-{{ section.settings.btn_variant }} products-slider-button text-capitalize letter-spacing-normal"
                     >
                         {{ section.settings['products-slider-button-text'] }}
-                    </button>
+                    </a>
                 {% endif %}
             </div>
         </div>
