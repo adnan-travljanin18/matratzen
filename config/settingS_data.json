@@ -26,6 +26,8 @@
     "type_input_font_weight": "300",
     "favicon": "shopify:\/\/shop_images\/SE_LOGO_72px_b2f708d5-a16d-4d93-81dc-56c6c1960041.png",
     "main_logo_socials": "shopify:\/\/shop_images\/wp3850825-4k-pc-wallpapers.jpg",
+    "social_facebook_link": "https:\/\/facebook.com\/",
+    "social_instagram_link": "https:\/\/instagram.com\/",
     "enable_cart_drawer": true,
     "enable_search": true,
     "enable_swatches": true,
@@ -72,9 +74,7 @@
       "footer": {
         "type": "footer",
         "custom_css": [
-          "#newsletterFooterCustomerEmail {border-color: #fff;}",
-          ".btn {background-color: #406c93; border-color: #406c93;}",
-          ".btn:hover {background-color: #345878; border-color: #345878;}"
+
         ],
         "settings": {
           "fluid_footer": false,
@@ -99,16 +99,16 @@
           "show_social_links": true,
           "col_5_social_heading": "Follow Us on Social Media:",
           "social_icon_facebook": true,
-          "social_icon_twitter": true,
+          "social_icon_twitter": false,
           "social_icon_instagram": true,
-          "social_icon_youtube": true,
+          "social_icon_youtube": false,
           "bottom_footer_linklist": "",
           "show_payment_icons": true,
           "col_5_payment_heading": "Available payments",
           "payment_icon_visa": true,
           "payment_icon_mastercard": true,
-          "payment_icon_ae": true,
-          "payment_icon_diners": true,
+          "payment_icon_ae": false,
+          "payment_icon_diners": false,
           "payment_icon_paypal": true,
           "payment_icon_applepay": true,
           "payment_icon_amazonpay": true

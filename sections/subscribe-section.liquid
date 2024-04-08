@@ -28,16 +28,19 @@
                     <div class="text-content-wrapper">
                         {% if section.settings['button-text'] != blank %}
                             <div class="input-group subscription mb-3">
-                                <input
-                                    type="email"
-                                    class="form-control subscribe-section-input-field"
-                                    placeholder="{{ section.settings.input-field-text }}"
-                                >
-                                <div class="input-group-append">
-                                    <button class="input-group-text subscribe-section-button" type="submit">
-                                        {{ section.settings['button-text'] }}
-                                    </button>
-                                </div>
+                                {% comment %}
+                                    <input
+                                        type="email"
+                                        class="form-control subscribe-section-input-field"
+                                        placeholder="{{ section.settings.input-field-text }}"
+                                    >
+                                    <div class="input-group-append">
+                                        <button class="input-group-text subscribe-section-button" type="submit">
+                                            {{ section.settings['button-text'] }}
+                                        </button>
+                                    </div>
+                                {% endcomment %}
+                                <div id="c1g_contact7944"></div>
                             </div>
 
                             </div>
@@ -51,6 +54,45 @@
         </div>
     </div>
 </section>
+<script
+    src="https://www.cloudonegalaxy.com/cloud/contact/contact.js"
+    data-formId="7944"
+    data-shop="matratzen1.myshopify.com"
+    defer="defer"
+></script>
+
+<style>
+    #c1g_contact7944 {
+        width: 100%;
+    }
+    .c1gFeLabel {
+        display: none;
+    }
+    #c1gFormSubmit {
+        position: relative;
+    }
+    .c1gFormGroup {
+        padding: 0 !important;
+    }
+    .c1gInputLbl {
+        padding: 8px 20px !important;
+        border-radius: 50px !important;
+        border: 1px solid #cfd8dc !important;
+        font-weight: 300 !important;
+        font-family: 'Urbanist' !important;
+    }
+    .c1gFormbtn {
+        padding: 0 !important;
+        position: absolute !important;
+        right: 0 !important;
+        width: fit-content !important;
+        top: 0 !important;
+    }
+    .c1gFormbtn button {
+        padding: 8px 20px !important;
+        border-radius: 50px !important;
+    }
+</style>
 
 {% schema %}
 {
