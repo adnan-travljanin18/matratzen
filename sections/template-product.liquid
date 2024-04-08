@@ -11,8 +11,8 @@
         border: 3px solid #131e27;
         border-radius: 50%;
         cursor: none;
-        width: 200px; /* Set the size of the magnifying glass */
-        height: 200px;
+        width: 15rem; /* Set the size of the magnifying glass */
+        height: 15rem;
         pointer-events: none; /* Make sure magnifying glass does not interfere with mouse events on the image */
         display: none; /* Initially hidden */
     }
@@ -371,31 +371,35 @@
             glass.style.backgroundImage = "url('" + img.src + "')";
 
             // Set background size and position to match the image size
-            glass.style.backgroundSize = img.width * 2 + 'px ' + img.height * 2 + 'px';
+            glass.style.backgroundSize = img.width * 2.2 + 'px ' + img.height * 2.2 + 'px';
             glass.style.backgroundPosition = 'center';
 
             function moveMagnifier(e) {
                 // Calculate the position of the magnifying glass
                 var pos = getCursorPos(e);
-                var x = pos.x - glass.offsetWidth / 2;
-                var y = pos.y - glass.offsetHeight / 2;
+                var x = pos.x - glass.offsetWidth / 2.2;
+                var y = pos.y - glass.offsetHeight / 2.2;
 
                 // Calculate the background position to center the zoomed content with the cursor
-                var bgPosX = (pos.x - img.offsetLeft) * 2 - glass.offsetWidth / 2;
-                var bgPosY = (pos.y - img.offsetTop) * 2 - glass.offsetHeight / 2;
+                var bgPosX = (pos.x - img.offsetLeft) * 2.2 - glass.offsetWidth / 2.2;
+                var bgPosY = (pos.y - img.offsetTop) * 2.2 - glass.offsetHeight / 2.2;
 
                 // Prevent the magnifying glass from being positioned outside the image
-                if (x > img.width - glass.offsetWidth) {
-                    x = img.width - glass.offsetWidth;
-                }
                 if (x < 0) {
                     x = 0;
+                    bgPosX = 0;
                 }
-                if (y > img.height - glass.offsetHeight) {
-                    y = img.height - glass.offsetHeight;
+                if (x > img.width - glass.offsetWidth) {
+                    x = img.width - glass.offsetWidth;
+                    bgPosX = img.width * 2 - glass.offsetWidth;
                 }
                 if (y < 0) {
                     y = 0;
+                    bgPosY = 0;
+                }
+                if (y > img.height - glass.offsetHeight) {
+                    y = img.height - glass.offsetHeight;
+                    bgPosY = img.height * 2 - glass.offsetHeight;
                 }
 
                 // Set the position of the magnifying glass
