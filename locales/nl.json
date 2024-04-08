@@ -74,7 +74,8 @@
         "share_on_pinterest": "Pin op Pinterest"
       },
       "links": {
-        "twitter": "Twitteren"
+        "twitter": "Twitteren",
+        "tiktok": "Tik tik"
       }
     },
     "continue_shopping": "Doorgaan met winkelen",
@@ -108,7 +109,8 @@
     "of": "van",
     "next_slide": "Schuif naar rechts",
     "previous_slide": "Schuif naar links",
-    "loading": "Bezig met laden..."
+    "loading": "Bezig met laden...",
+    "unit_price_separator": "Per"
   },
   "blogs": {
     "article": {
@@ -178,7 +180,8 @@
       "sortby_lable": "Sorteer op",
       "sub_collection": "Collecties",
       "apply_btn": "Toepassen",
-      "load-more": "Meer laden"
+      "load-more": "Meer laden",
+      "product_per_page": "Show :"
     },
     "search": {
       "no_search_term": "Geen zoekterm gevonden",
@@ -212,7 +215,8 @@
       "headings": {
         "price": "Prijs",
         "total": "Totaal",
-        "quantity": "Hoeveelheid"
+        "quantity": "Hoeveelheid",
+        "product": "Product"
       },
       "empty": "Uw winkelwagen is leeg",
       "back_to_shop": "Winkel alles",
@@ -258,7 +262,8 @@
         "with_count": {
           "one": "{{ count }} reactie",
           "other": "{{ count }} reacties"
-        }
+        },
+        "website": "website"
       },
       "modern_navigation": {
         "next": "Volgende"
@@ -346,7 +351,9 @@
       "tracking_company": "Vervoerder",
       "tracking_number": "Volg nummer",
       "subtotal": "Subtotaal",
-      "order_addresses": "Besteladressen"
+      "order_addresses": "Besteladressen",
+      "product": "Product",
+      "sku": "item nummer"
     },
     "orders": {
       "title": "Bestelgeschiedenis",
@@ -383,7 +390,8 @@
       "password_confirm": "Bevestig wachtwoord",
       "submit": "Wachtwoord opnieuw instellen",
       "cancel": "Annuleren"
-    }
+    },
+    "log_in": "Registratie"
   },
   "gift_cards": {
     "issued": {
