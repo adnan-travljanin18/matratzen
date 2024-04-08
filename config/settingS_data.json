@@ -189,29 +189,21 @@
           "featured_collection_tBYKMB": {
             "type": "featured_collection",
             "settings": {
-              "collection": "matratzen",
+              "collection": "serene",
               "section_txt_color": "#ffffff"
             }
           },
           "featured_collection_JfJbzn": {
             "type": "featured_collection",
             "settings": {
-              "collection": "matratzen",
-              "section_txt_color": "#ffffff"
-            }
-          },
-          "featured_collection_yAX3Ah": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "matratzen",
+              "collection": "oasis",
               "section_txt_color": "#ffffff"
             }
           }
         },
         "block_order": [
           "featured_collection_tBYKMB",
-          "featured_collection_JfJbzn",
-          "featured_collection_yAX3Ah"
+          "featured_collection_JfJbzn"
         ],
         "settings": {
           "title": "Shop by <br>Collections",
