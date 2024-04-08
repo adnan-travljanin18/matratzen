@@ -118,13 +118,14 @@
         background: #fff;
         position: fixed;
         width: 100%;
-        top: 65px;
+        top: 114px;
         bottom: 0;
         z-index: 9;
         left: 100%;
-        height: calc(100% - 65px) !important;
+        height: calc(100% - 114px) !important;
         overflow: auto;
         transition: left .25s ease-in-out;
+        border-radius: 0;
     }
 
     .navbar-mobile-slide.navbar-mobile .submenu.open{

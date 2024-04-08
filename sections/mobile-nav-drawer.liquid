@@ -89,7 +89,7 @@
                                     >
                                         {% if section.settings.mobilemenu_style == 'slide-submenu' %}
                                             <a
-                                                class="nav-link d-flex align-items-center close-submenu fw-bold text-uppercase py-3 {{ link.handle }}"
+                                                class="nav-link d-flex align-items-center close-submenu fw-bold py-3 {{ link.handle }}"
                                                 tabindex="0"
                                                 title="{{ link.title }}"
                                                 aria-label="{{ link.title }}"
@@ -125,7 +125,7 @@
                                                     >
                                                         {% if section.settings.mobilemenu_style == 'slide-submenu' %}
                                                             <a
-                                                                class="nav-link d-flex align-items-center close-submenu fw-bold text-uppercase py-3 {% if childlink.active %} active{% endif %} {{ childlink.handle }}"
+                                                                class="nav-link d-flex align-items-center close-submenu fw-bold py-3 {% if childlink.active %} active{% endif %} {{ childlink.handle }}"
                                                                 title="{{ childlink.title }}"
                                                                 aria-label="{{ childlink.title }}"
                                                             >
