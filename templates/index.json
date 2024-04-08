@@ -63,29 +63,29 @@
         "featured_collection_w4FBQE": {
           "type": "featured_collection",
           "settings": {
-            "products-category-button-text": "Show All",
-            "collection": "matratzen"
+            "products-category-button-text": "Alle Anzeigen",
+            "collection": "shop-all"
           }
         },
         "featured_collection_nBmpN8": {
           "type": "featured_collection",
           "settings": {
-            "products-category-button-text": "Mattress",
-            "collection": "frontpage"
+            "products-category-button-text": "Matratzen",
+            "collection": "matratzen"
           }
         },
         "featured_collection_F87krh": {
           "type": "featured_collection",
           "settings": {
-            "products-category-button-text": "Sheets",
-            "collection": "matratzen"
+            "products-category-button-text": "Kindermatratzen",
+            "collection": "kindermatratzen"
           }
         },
         "featured_collection_ahNJAz": {
           "type": "featured_collection",
           "settings": {
             "products-category-button-text": "Topper",
-            "collection": "matratzen"
+            "collection": "topper"
           }
         }
       },
