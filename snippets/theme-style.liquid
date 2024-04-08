@@ -1,150 +1,4 @@
 {% style %}
-    @import url("https://use.typekit.net/abk8xgw.css");
-    @font-face {
-    font-family: 'Futura';
-    src: url('{{ "Futura-Book.woff2" | asset_url }}') format('woff2'),
-        url('{{ "Futura-Book.woff" | asset_url }}') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-    }
-    @font-face {
-    font-family: 'Futura';
-    src: url('{{ "Futura-Book.woff2" | asset_url }}') format('woff2'),
-        url('{{ "Futura-Book.woff" | asset_url }}') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-    font-family: 'Futura';
-    src: url('{{ "FuturaBT-Medium.woff2" | asset_url }}') format('woff2'),
-        url('{{ "FuturaBT-Medium.woff" | asset_url }}') format('woff');
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-    font-family: 'Futura';
-    src: url('{{ "FuturaBT-MediumItalic.woff2" | asset_url }}') format('woff2'),
-        url('{{ "FuturaBT-MediumItalic.woff" | asset_url }}') format('woff');
-        font-weight: 500;
-        font-style: italic;
-        font-display: swap;
-    }
-
-
-    @font-face {
-    font-family: 'Futura';
-    src: url('{{ "Futura-Bold.woff2" | asset_url }}') format('woff2'),
-        url('{{ "Futura-Bold.woff" | asset_url }}') format('woff');
-        font-weight: bold;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-    font-family: 'Futura';
-    src: url('{{ "FuturaBT-BoldItalic.woff2" | asset_url }}') format('woff2'),
-        url('{{ "FuturaBT-BoldItalic.woff" | asset_url }}') format('woff');
-        font-weight: bold;
-        font-style: italic;
-        font-display: swap;
-    }
-
-    @font-face {
-    font-family: 'Futura';
-    src: url('{{ "FuturaBT-Light.woff2" | asset_url }}') format('woff2'),
-        url('{{ "FuturaBT-Light.woff" | asset_url }}') format('woff');
-        font-weight: 300;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-    font-family: 'Futura';
-    src: url('{{ "FuturaBT-LightItalic.woff2" | asset_url }}') format('woff2'),
-        url('{{ "FuturaBT-LightItalic.woff" | asset_url }}') format('woff');
-        font-weight: 300;
-        font-style: italic;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Karla';
-        src: url('{{ "Karla-Bold.woff2" | asset_url }}') format('woff2'),
-            url('{{ "Karla-Bold.woff" | asset_url }}') format('woff');
-        font-weight: 700;
-        font-style: normal;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Karla';
-        src: url('{{ "Karla-Italic.woff2" | asset_url }}') format('woff2'),
-            url('{{ "Karla-Italic.woff" | asset_url }}') format('woff');
-        font-weight: 400;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Karla';
-        src: url('{{ "Karla-BoldItalic.woff2" | asset_url }}') format('woff2'),
-            url('{{ "Karla-BoldItalic.woff" | asset_url }}') format('woff');
-        font-weight: 700;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Karla';
-        src: url('{{ "Karla-LightItalic.woff2" | asset_url }}') format('woff2'),
-            url('{{ "Karla-LightItalic.woff" | asset_url }}') format('woff');
-        font-weight: 300;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Karla';
-        src: url('{{ "Karla-Light.woff2" | asset_url }}') format('woff2'),
-            url('{{ "Karla-Light.woff" | asset_url }}') format('woff');
-        font-weight: 300;
-        font-style: normal;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Karla';
-        src: url('{{ "Karla-Regular.woff2" | asset_url }}') format('woff2'),
-            url('{{ "Karla-Regular.woff" | asset_url }}') format('woff');
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Karla';
-        src: url('{{ "Karla-MediumItalic.woff2" | asset_url }}') format('woff2'),
-            url('{{ "Karla-MediumItalic.woff" | asset_url }}') format('woff');
-        font-weight: 500;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Karla';
-        src: url('{{ "Karla-Medium.woff2" | asset_url }}') format('woff2'),
-            url('{{ "Karla-Medium.woff" | asset_url }}') format('woff');
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-    }
-
-
     @font-face {
     font-family: 'icon-fluid';
     src: url('{{ "icon-fluid.eot" | asset_url }}?rivzg6');
@@ -160,16 +14,16 @@
 
     :root {
 
-        --bs-font-family-base: {{ settings.type_body_font }};
+        --bs-font-family-base: 'Roboto';
         --bs-base-font-style: {{ settings.style_body_font }};
         --bs-font-weight-base: {{ settings.type_body_font_weight }};
         --bs-font-size-base: {{ settings.type_body_font_size }};
         --bs-line-height-base: {{ settings.type_body_line_height }};
         --bs-letter-spacing-base: {{ settings.type_body_letter_spacing }};
 
-        --bs-font-family-secondary: {{ settings.type_secondary_font }};
+        --bs-font-family-secondary: 'Urbanist';
 
-        --bs-font-family-heading: {{ settings.type_header_font }};
+        --bs-font-family-heading: 'Urbanist';
         --bs-heading-style: {{ settings.style_header_font }};
         --bs-headings-font-weight: {{ settings.type_header_font_weight }};
         --bs-line-height-heading: {{ settings.type_heading_line_height }};
@@ -202,7 +56,7 @@
         --bs-h5-font-size-sm:{{ settings.h5_font_size_sm }};
         --bs-h6-font-size-sm:{{ settings.h6_font_size_sm }};
 
-        --bs-font-family-button: {{ settings.type_button_font }};
+        --bs-font-family-button: 'Roboto';
         --bs-font-weight-button: {{ settings.type_button_font_weight }};
         --bs-font-size-button: {{ settings.button_font_size }};
         --bs-line-height-button: {{ settings.button_line-height }};
@@ -221,7 +75,7 @@
         --bs-font-size-button-lg: {{ settings.button_font_size_lg }};
 
 
-        --bs-font-family-input: {{ settings.type_input_font }};
+        --bs-font-family-input: 'Roboto';
         --bs-font-weight-input: {{ settings.type_input_font_weight }};
         --bs-font-size-input: {{ settings.input_font_size }};
         --bs-line-height-input: {{ settings.input_line-height }};
@@ -232,7 +86,7 @@
         --bs-input-text-color: {{ settings.input_text_color }};
         --bs-input-ph-text-color: {{ settings.input_ph_text_color }};
         --bs-input-border-color: {{ settings.input_border_color }};
-        --bs-input-bg-color: {{ settings.input_bg_color }}; 
+        --bs-input-bg-color: {{ settings.input_bg_color }};
         --bs-input-focus-border-color: {{ settings.input_focus_border_color }};
         --bs-input-floating-label-size:{{ settings.floating_label_size }};
 
@@ -282,7 +136,7 @@
         --bs-color-dark: {{ settings.color_dark }};
         --bs-color-alabaster: {{ settings.color_alabaster }};
         --bs-color-almond: {{ settings.color_almond }};
-        
+
 
         --bs-color-primary-100: {{ settings.color_primary_100 }};
         --bs-color-primary-200: {{ settings.color_primary_200 }};

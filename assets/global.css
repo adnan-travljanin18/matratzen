@@ -92,6 +92,7 @@ h6,
 .h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
+    font-family: var(--bs-font-family-heading);
     font-weight: var(--bs-headings-font-weight);
     line-height: var(--bs-line-height-heading);
     font-style: var(--bs-heading-style);
