@@ -1,6 +1,10 @@
 main {
     min-height: 61vh;
 }
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 .cky-revisit-bottom-left {
   bottom: 60px!important;
   left: 8px!important;
