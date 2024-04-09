@@ -30,10 +30,10 @@
         "filter_type": "default",
         "price_filter_layout": "range_slider",
         "price_filter_values": "",
-        "enable_custom_pagination": true,
+        "enable_custom_pagination": false,
         "custom_pagination": "16,24,32",
         "open_single_accordians": true,
-        "enable_sorting": true
+        "enable_sorting": false
       }
     }
   },
