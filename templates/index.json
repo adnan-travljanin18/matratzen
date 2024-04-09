@@ -13,14 +13,14 @@
         "featured_collection_AYtdj9": {
           "type": "featured_collection",
           "settings": {
-            "collection": "matratzen",
+            "collection": "kindermatratzen",
             "btn_text": "BROWSE COLLECTION"
           }
         },
         "featured_collection_C8KKxm": {
           "type": "featured_collection",
           "settings": {
-            "collection": "matratzen",
+            "collection": "topper",
             "btn_text": "BROWSE COLLECTION"
           }
         }
