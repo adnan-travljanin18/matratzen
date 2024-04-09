@@ -2,7 +2,7 @@
     height: 322px;
     max-width: 516px;
 }
-#read-our-latest-news::after {
+.section-blogs-slider ::after {
     height: 55%;
     background-color: rgba(19, 30, 39, 1);
     position: absolute;
