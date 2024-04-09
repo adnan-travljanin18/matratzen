@@ -14,7 +14,7 @@
           "type": "recent-articles",
           "settings": {
             "enable_recent_articles": true,
-            "recent_articles_title": "Recent Articles",
+            "recent_articles_title": "Neueste Artikel",
             "total_recent_articles": 5
           }
         }
