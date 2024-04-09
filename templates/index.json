@@ -7,21 +7,21 @@
           "type": "featured_collection",
           "settings": {
             "collection": "matratzen",
-            "btn_text": "BROWSE COLLECTION"
+            "btn_text": "KOLLEKTION ANSEHEN"
           }
         },
         "featured_collection_AYtdj9": {
           "type": "featured_collection",
           "settings": {
             "collection": "kindermatratzen",
-            "btn_text": "BROWSE COLLECTION"
+            "btn_text": "KOLLEKTION ANSEHEN"
           }
         },
         "featured_collection_C8KKxm": {
           "type": "featured_collection",
           "settings": {
             "collection": "topper",
-            "btn_text": "BROWSE COLLECTION"
+            "btn_text": "KOLLEKTION ANSEHEN"
           }
         }
       },
