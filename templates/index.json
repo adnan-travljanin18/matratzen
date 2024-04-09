@@ -237,12 +237,12 @@
           "type": "info_slide_2in1",
           "settings": {
             "image": "shopify:\/\/shop_images\/badge.png",
-            "slider_title": "2 In 1 Mattress",
+            "slider_title": "2 in 1 Matratze",
             "icon-checkbox": true,
-            "slider_text_one": "A mattress. Two sides.",
-            "slider_text_two": "Tested for 100 nights.",
-            "slider_text_three": "Would you rather sleep? Softer or firmer?",
-            "slider_text_four": "Find out. In peace."
+            "slider_text_one": "Eine Matratze. Zwei Seiten.",
+            "slider_text_two": "Getestet für 100 Nächte.",
+            "slider_text_three": "Möchten Sie lieber schlafen? Weicher oder fester?",
+            "slider_text_four": "Finden Sie es heraus. In Frieden."
           }
         },
         "info_slide_contact_gD7aPb": {
