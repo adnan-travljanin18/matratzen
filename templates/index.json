@@ -139,28 +139,28 @@
         "question_wG9cFw": {
           "type": "question",
           "settings": {
-            "accordion-title": "Über Harmony A",
+            "accordion-title": "Über Oasis",
             "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         },
         "question_DJj4TU": {
           "type": "question",
           "settings": {
-            "accordion-title": "Über Harmony B",
+            "accordion-title": "Über Serenity Ease",
             "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         },
         "question_GhxUVC": {
           "type": "question",
           "settings": {
-            "accordion-title": "Über Harmony C",
+            "accordion-title": "Über Serenia",
             "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         },
         "question_BeMfBY": {
           "type": "question",
           "settings": {
-            "accordion-title": "Über Harmony D",
+            "accordion-title": "Über OasisLux",
             "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         }
@@ -172,7 +172,7 @@
         "question_BeMfBY"
       ],
       "settings": {
-        "heading": "Harmony Oasis Einzelheiten",
+        "heading": "Serenity Einzelheiten",
         "section_text_color": "#455a64"
       }
     },
