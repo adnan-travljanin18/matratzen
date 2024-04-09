@@ -36,20 +36,22 @@
                                                     <div class="row flex-column justify-content-around">
                                                         <div class="col-12 pb-4">
                                                             <div class="blog-slider-img-wrapper">
-                                                                {% if article.image %}
-                                                                    <img
-                                                                        class="featured-blog-media"
-                                                                        src="{{ article.image | image_url }}"
-                                                                        alt="article-image"
-                                                                        height="100"
-                                                                        width="100"
-                                                                    >
-                                                                {% else %}
-                                                                    {{
-                                                                        'collection-1'
-                                                                        | placeholder_svg_tag: 'placeholder-svg'
-                                                                    }}
-                                                                {% endif %}
+                                                                <a href="{{ article.url }}">
+                                                                    {% if article.image %}
+                                                                        <img
+                                                                            class="featured-blog-media"
+                                                                            src="{{ article.image | image_url }}"
+                                                                            alt="article-image"
+                                                                            height="100"
+                                                                            width="100"
+                                                                        >
+                                                                    {% else %}
+                                                                        {{
+                                                                            'collection-1'
+                                                                            | placeholder_svg_tag: 'placeholder-svg'
+                                                                        }}
+                                                                    {% endif %}
+                                                                </a>
                                                             </div>
                                                         </div>
                                                         <div
@@ -59,7 +61,12 @@
                                                                 class="col-12 ps heading-5"
                                                                 style="color:{{ section.settings.section_text_color }};"
                                                             >
-                                                                {{ article.title }}
+                                                                <a
+                                                                    href="{{ article.url }}"
+                                                                    style="color:{{ section.settings.section_text_color }};"
+                                                                >
+                                                                    {{- article.title -}}
+                                                                </a>
                                                             </h5>
                                                             <h5
                                                                 class="mb-3 mb-lg-5 heading-6"
