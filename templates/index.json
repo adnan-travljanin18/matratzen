@@ -249,12 +249,12 @@
           "type": "info_slide_contact",
           "settings": {
             "image": "shopify:\/\/shop_images\/Badge_1.png",
-            "slider_title": "Service & Contact",
+            "slider_title": "Service & Kontakt",
             "icon-checkbox": true,
-            "slider_text_one": "Phone: +49 30 7673172 72",
-            "slider_text_two": "Work time: Mo-Sa 08-22h",
+            "slider_text_one": "Telefon: +49 30 7673172 72",
+            "slider_text_two": "Arbeitszeiten: Mo-Sa 08-22h",
             "slider_text_three": "Email: info@serenitybett.de",
-            "slider_text_four": "Address: Street name, 71000, Germany"
+            "slider_text_four": "Adresse: Name der Straße, 71000, Germany"
           }
         }
       },
