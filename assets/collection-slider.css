@@ -18,6 +18,7 @@
   object-fit: cover;
 }
 .collection-slider-h2 {
+  word-break: break-word;
 }
 .collection-slider-h4 {
   color: rgba(84, 110, 122, 1);
@@ -39,6 +40,7 @@
 }
 .collection-slider-image {
   width: 100%;
+  aspect-ratio: 1.5;
 }
 .h-50-vh {
   height: 50vh!important;
