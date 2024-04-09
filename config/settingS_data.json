@@ -78,6 +78,7 @@
         ],
         "settings": {
           "fluid_footer": false,
+          "footer_text": "Bringen wir unsere Beziehung auf die nächste Stufe",
           "footer_top_bg_color": "#131e27",
           "footer_top_txt_color": "#ffffff",
           "footer_top_link_color": "#ffffff",
