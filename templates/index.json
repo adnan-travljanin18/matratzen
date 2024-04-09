@@ -60,6 +60,13 @@
     "products_slider_ccTP8t": {
       "type": "products-slider",
       "blocks": {
+        "featured_collection_hxb9mn": {
+          "type": "featured_collection",
+          "settings": {
+            "products-category-button-text": "Alle kaufen",
+            "collection": ""
+          }
+        },
         "featured_collection_w4FBQE": {
           "type": "featured_collection",
           "settings": {
@@ -90,6 +97,7 @@
         }
       },
       "block_order": [
+        "featured_collection_hxb9mn",
         "featured_collection_w4FBQE",
         "featured_collection_nBmpN8",
         "featured_collection_F87krh",
@@ -139,28 +147,28 @@
         "question_wG9cFw": {
           "type": "question",
           "settings": {
-            "accordion-title": "About Harmony A",
+            "accordion-title": "Über Harmony A",
             "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         },
         "question_DJj4TU": {
           "type": "question",
           "settings": {
-            "accordion-title": "About Harmony B",
+            "accordion-title": "Über Harmony B",
             "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         },
         "question_GhxUVC": {
           "type": "question",
           "settings": {
-            "accordion-title": "About Harmony C",
+            "accordion-title": "Über Harmony C",
             "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         },
         "question_BeMfBY": {
           "type": "question",
           "settings": {
-            "accordion-title": "About Harmony D",
+            "accordion-title": "Über Harmony D",
             "accordion-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl. Ultrices gravida dictum fusce ut placerat. Orci eu lobortis elementum nibh tellus molestie nunc non. Nisl pretium fusce id velit. Suspendisse ultrices gravida dictum fusce ut placerat."
           }
         }
