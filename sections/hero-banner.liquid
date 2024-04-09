@@ -172,9 +172,7 @@
                         {% endcomment %}
                         {% if section.settings.btn_txt != blank %}
                             <a
-                                {% if section.settings.btn_link %}
-                                    href="{{ section.settings.btn_link_second }}"
-                                {% endif -%}
+                                href="{{ section.settings.btn_link }}"
                                 class="hero-button btn btn{% if section.settings.btn_type == 'outline' %}-{% endif %}{{ section.settings.btn_type }}-{{ section.settings.btn_variant }} {{ section.settings.btn_size }} text-capitalize letter-spacing-inherit"
                                 title="{{ section.settings.btn_txt }}"
                             >
