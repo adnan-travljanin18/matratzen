@@ -17,7 +17,7 @@
                 <div class="col-sm-12 col-lg-6">
                     <div>
                         <h4 class="text-white text-center text-lg-start">
-                            Let's take our relationship to the next level
+                            {{ section.settings.footer_text }}
                         </h4>
                     </div>
                 </div>
@@ -301,6 +301,11 @@
             "id": "fluid_footer",
             "label": "Full Width Footer?",
             "default": false
+        },
+        {
+            "type": "text",
+            "id": "footer_text",
+            "label": "Footer Text"
         },
         {
             "type": "header",
