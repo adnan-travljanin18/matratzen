@@ -97,10 +97,10 @@
       ],
       "settings": {
         "title": "Serenity Produkte",
-        "products-slider-button-text": "Alle kaufen",
+        "products-slider-button-text": "Alle Produkte",
         "btn_type": "outline",
         "btn_variant": "dark",
-        "products-slider-button-link": "shopify:\/\/pages\/shop-all"
+        "products-slider-button-link": "shopify:\/\/collections\/shop-all"
       }
     },
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe": {
