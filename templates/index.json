@@ -97,10 +97,10 @@
       ],
       "settings": {
         "title": "Serenity Produkte",
-        "products-slider-button-text": "Alle kaufen",
+        "products-slider-button-text": "Alle Produkte",
         "btn_type": "outline",
         "btn_variant": "dark",
-        "products-slider-button-link": "shopify:\/\/pages\/shop-all"
+        "products-slider-button-link": "shopify:\/\/collections\/shop-all"
       }
     },
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe": {
@@ -246,7 +246,7 @@
             "icon-checkbox": true,
             "slider_text_one": "Telefon: <a href=\"tel:+49%2030%207673172%2072\">+49 30 7673172 72<\/a>",
             "slider_text_two": "Arbeitszeiten: Mo-Sa 08-22h",
-            "slider_text_three": "Email: <a href=\"mail:info@serenitybett.de\">info@serenitybett.de<\/a>",
+            "slider_text_three": "Email: <a href=\"mail:info@serenity.de\" style=\"margin-left:5px;\"> info@serenity.de<\/a>",
             "slider_text_four": "Adresse: Name der Straße, 71000, Germany"
           }
         }
