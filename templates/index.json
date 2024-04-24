@@ -39,7 +39,7 @@
         "logo_mobile_image": "shopify:\/\/shop_images\/logo_without_ellipse.png",
         "hero_baner_small_image": "shopify:\/\/shop_images\/hero-banner-right-room.jpg",
         "btn_txt": "Entdecken Sie unsere Einblicke",
-        "btn_link": "shopify:\/\/collections\/shop-all",
+        "btn_link": "shopify:\/\/collections\/alle-produkte",
         "btn_type": "",
         "btn_variant": "white",
         "btn_size": "",
@@ -64,7 +64,7 @@
           "type": "featured_collection",
           "settings": {
             "products-category-button-text": "Alle Anzeigen",
-            "collection": "shop-all"
+            "collection": "alle-produkte"
           }
         },
         "featured_collection_nBmpN8": {
@@ -100,7 +100,7 @@
         "products-slider-button-text": "Alle Produkte",
         "btn_type": "outline",
         "btn_variant": "dark",
-        "products-slider-button-link": "shopify:\/\/collections\/shop-all"
+        "products-slider-button-link": "shopify:\/\/collections\/alle-produkte"
       }
     },
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe": {
@@ -117,7 +117,7 @@
         "btn_title_color": "#ffffff",
         "subtitle": "<p>Maximieren Sie Ihren Komfort, Umarmen Sie Jeden Traum<\/p>",
         "btn_txt": "Jetzt einkaufen",
-        "btn_link": "shopify:\/\/collections\/shop-all",
+        "btn_link": "shopify:\/\/collections\/alle-produkte",
         "btn_text_color": "#ffffff",
         "btn_size": "",
         "poster_type": "video",
