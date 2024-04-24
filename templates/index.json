@@ -171,6 +171,7 @@
         "question_GhxUVC",
         "question_BeMfBY"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Serenity Einzelheiten",
         "section_text_color": "#455a64"
