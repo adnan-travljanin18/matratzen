@@ -75,11 +75,7 @@
                                         {% if megaMenuBlock.image %}
                                             <div class="megamenu-img">
                                                 <img
-                                                    src="{{ megaMenuBlock.image | image_url: width: 50 }}"
-                                                    srcset="
-                                                        {%- if megaMenuBlock.image.width >= 360 -%}{{ megaMenuBlock.image | image_url: width: 360 }} 360w,{%- endif -%}
-                                                        {%- if megaMenuBlock.image.width >= 520 -%}{{ megaMenuBlock.image | image_url: width: 520 }} 520w{%- endif -%}
-                                                    "
+                                                    src="{{ megaMenuBlock.image | image_url }}"
                                                     loading="lazy"
                                                     sizes="(min-width: 992px) 400px, 50px"
                                                     alt="Megamenu for {{ link.title }}"
@@ -203,7 +199,6 @@
         >
     {%- elsif section.settings.logo != blank -%}
         <img
-            srcset="{{ section.settings.logo | image_url: width: 500 }}"
             src="{{ section.settings.logo | image_url }}"
             loading="lazy"
             class="img-fluid"
