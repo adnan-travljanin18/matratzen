@@ -97,7 +97,15 @@ h2.jdgm-carousel-title {
 }
 .navbar-brand {
     padding: 20px 0;
+}
+.german .navbar-brand {
     margin-right: 7vw;
+}
+.dutch .navbar-brand {
+    margin-right: 4vw;
+}
+.english .navbar-brand {
+    margin-right: 3vw;
 }
 .navbar-main .nav-item.active > .nav-link {
     color: #dfeef7;
