@@ -6,25 +6,41 @@
         "social_sharing": {
           "type": "socials",
           "settings": {
-          }
-        },
-        "recent-articles": {
-          "type": "recent-articles",
-          "settings": {
+            "enable_socials": false,
+            "socials_title": "Connect with Us",
+            "social_icon_facebook": true,
+            "social_icon_twitter": false,
+            "social_icon_instagram": true
           }
         },
         "tags": {
           "type": "tags",
           "settings": {
+            "enable_tags": true,
+            "tags_title": "Tags"
+          }
+        },
+        "recent-articles": {
+          "type": "recent-articles",
+          "settings": {
+            "enable_recent_articles": true,
+            "recent_articles_title": "Recent Articles",
+            "total_recent_articles": 5
           }
         }
       },
       "block_order": [
         "social_sharing",
-        "recent-articles",
-        "tags"
+        "tags",
+        "recent-articles"
       ],
       "settings": {
+        "fluid_layout": false,
+        "enable_social_sharing": false,
+        "enable_sidebar": true,
+        "sidebar_is_sticky": false,
+        "enable_article_navigation": false,
+        "navigation_type": "simple"
       }
     }
   },
