@@ -21,6 +21,9 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 .breadcrumbs__link.german-home, .breadcrumbs__link.english-home, .breadcrumbs__link.dutch-home {
     display: none;
 }
+.hulk_cookie_bar button.bar_btn, .hulk_cookie_bar button.deny_btn, .hulk_cookie_bar button.bar_btn_deny {
+    font-weight: 400!important;
+}
 .collection-filters .btn {
     background: #121212;
     color: #fff;
