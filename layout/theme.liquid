@@ -83,7 +83,13 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         >
-    </head>
+    <script type="text/javascript">if(typeof window.hulkappsWishlist === 'undefined') {
+        window.hulkappsWishlist = {};
+        }
+        window.hulkappsWishlist.baseURL = '/apps/advanced-wishlist/api';
+        window.hulkappsWishlist.hasAppBlockSupport = '1';
+        </script>
+</head>
 
     <body class="template-{{ template.name }}">
         <a
@@ -253,5 +259,6 @@
                 })();
             </script>
         {% endif %}
-    </body>
+    {% render 'hulkappsWishlistPopup' %}
+</body>
 </html>
