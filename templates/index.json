@@ -281,15 +281,14 @@
     "1709033461d5da508c": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_featured_carousel_8B78Py": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "hulk_product_reviews_carousel_widget_ryBUAB": {
+          "type": "shopify:\/\/apps\/hulk-product-reviews\/blocks\/carousel-widget\/34006358-52bd-4ec7-8c78-200fe58b77ba",
           "settings": {
-            "maxwidth": 1440
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_featured_carousel_8B78Py"
+        "hulk_product_reviews_carousel_widget_ryBUAB"
       ],
       "settings": {
         "include_margins": true
