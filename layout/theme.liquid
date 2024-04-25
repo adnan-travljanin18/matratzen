@@ -28,19 +28,11 @@
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"
         ></script>
-        <!-- Start cookieyes banner -->
-        <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/common/shopify.js"></script>
-        <script
-            id="cookieyes"
-            type="text/javascript"
-            src="https://cdn-cookieyes.com/client_data/6392f9f77faa6452ffe9363e/script.js"
-        ></script>
-        <!-- End cookieyes banner -->
         <script src="{{ 'language-check.js' | asset_url }}"></script>
 
-      <style>
-        @import url("https://use.typekit.net/abk8xgw.css");
-      </style>
+        <style>
+            @import url('https://use.typekit.net/abk8xgw.css');
+        </style>
 
         {%- render 'preload-script' -%}
 
@@ -83,13 +75,14 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         >
-    <script type="text/javascript">if(typeof window.hulkappsWishlist === 'undefined') {
-        window.hulkappsWishlist = {};
-        }
-        window.hulkappsWishlist.baseURL = '/apps/advanced-wishlist/api';
-        window.hulkappsWishlist.hasAppBlockSupport = '1';
+        <script type="text/javascript">
+            if (typeof window.hulkappsWishlist === 'undefined') {
+                window.hulkappsWishlist = {};
+            }
+            window.hulkappsWishlist.baseURL = '/apps/advanced-wishlist/api';
+            window.hulkappsWishlist.hasAppBlockSupport = '1';
         </script>
-</head>
+    </head>
 
     <body class="template-{{ template.name }}">
         <a
@@ -259,6 +252,6 @@
                 })();
             </script>
         {% endif %}
-    {% render 'hulkappsWishlistPopup' %}
-</body>
+        {% render 'hulkappsWishlistPopup' %}
+    </body>
 </html>

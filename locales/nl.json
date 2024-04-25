@@ -97,6 +97,7 @@
   "products": {
     "product": {
       "add_to_cart": "Toevoegen aan winkelwagen",
+      "add_to_wishlist": "Toevoegen aan verlanglijstje",
       "upsell_add": "Toevoegen",
       "description": "Beschrijving",
       "on_sale": "Verkoop",

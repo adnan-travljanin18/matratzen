@@ -107,9 +107,10 @@
     background: #ffffff7a;
     border-radius: 50%;
     z-index: 1;
+    padding: 6px 4px 5px 8px;
 }
 .wishlist-hero-custom-button svg[data-prefix="fas"] {
-    color: rgba(244, 67, 54, 1); 
+    color: #f44336; 
 }
 
 .letter-spacing-normal {

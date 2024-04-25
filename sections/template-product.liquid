@@ -289,6 +289,10 @@
                                     {% else %}
                                         <div style="padding: 4.5rem 0; display: block;"></div>
                                     {% endif %}
+                                    <div
+                                        data-hulkapps-reviews
+                                        data-hulkapps-reviews-product-id="{{ product.id }}"
+                                    ></div>
                                 {%- when 'product-tabs' -%}
                                     {%- liquid
                                         if block.settings.enable_product_tabs and section.settings.product_tabs_placement == 'beside_slider'
@@ -304,7 +308,16 @@
                                 {%- when 'share' -%}
                                     {% if block.settings.show_social_share %}
                                         <div class="d-flex align-items-center mt-4 share-wishlist-container">
-                                            <div id="wishlist-hero-product-page-button"></div>
+                                            <div
+                                                style="text-align: end;"
+                                            >
+                                                {% render 'hulkapps-wishlist-collection-btn',
+                                                    productId: product.id,
+                                                    variantId: product.selected_or_first_available_variant.id,
+                                                    buttonClass: 'wishlisthero-floating'
+                                                %}
+                                                {{ 'products.product.add_to_wishlist' | t }}
+                                            </div>
                                             {% render 'social-sharing',
                                                 share_title: product.title,
                                                 share_permalink: product.url,

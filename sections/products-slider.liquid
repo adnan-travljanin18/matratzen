@@ -80,7 +80,16 @@
                                                                     style="background: url('{{ product.featured_media | image_url }}');"
                                                                 ></div>
                                                             </a>
-                                                            {% render 'wishlisthero-collection-product' with product: product buttonMode: 'icon_only' buttonClass: 'wishlisthero-floating' %}
+                                                            <div
+                                                                class="wishlist-hero-custom-button"
+                                                                style="text-align: end;"
+                                                            >
+                                                                {% render 'hulkapps-wishlist-collection-btn',
+                                                                    productId: product.id,
+                                                                    variantId: product.selected_or_first_available_variant.id,
+                                                                    buttonClass: 'wishlisthero-floating'
+                                                                %}
+                                                            </div>
                                                         {% else %}
                                                             {{
                                                                 'collection-1'
@@ -187,10 +196,10 @@
                 slidesPerView: 1,
                 spaceBetween: 0,
                 loop: false,
-                autoplay: {
+                {% comment %} autoplay: {
                     delay: 5000, // autoplay delay in milliseconds
-                    disableOnInteraction: false // enable autoplay even after user interaction
-                },
+                    disableOnInteraction: true // enable autoplay even after user interaction
+                }, {% endcomment %}
                 pagination: false, // disable pagination
                 navigation: false, // disable navigation buttons
                 breakpoints: {

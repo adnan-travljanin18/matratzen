@@ -96,6 +96,7 @@
   "products": {
     "product": {
       "add_to_cart": "In den Warenkorb legen",
+      "add_to_wishlist": "In Wunschzettel hinzufügen",
       "upsell_add": "Hinzufügen",
       "description": "Beschreibung",
       "on_sale": "Verkauf",
