@@ -4,12 +4,14 @@
     <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
         <ul class="breadcrumbs__list list-unstyled mb-0">
             <li class="breadcrumbs__item d-inline">
-                <a class="breadcrumbs__link" href="/">{{ 'general.breadcrumbs.home' | t }}</a>
+                <a class="breadcrumbs__link german-home" href="/">{{ 'general.breadcrumbs.home' | t }}</a>
+                <a class="breadcrumbs__link english-home" href="/en">{{ 'general.breadcrumbs.home' | t }}</a>
+                <a class="breadcrumbs__link dutch-home" href="/nl">{{ 'general.breadcrumbs.home' | t }}</a>
             </li>
             {%- case t -%}
                 {%- when 'page' -%}
                     <li class="breadcrumbs__item d-inline">
-                        <a class="breadcrumbs__link" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+                        <a class="breadcrumbs__link" href="{{ home_url }}" aria-current="page">{{ page.title }}</a>
                     </li>
                 {%- when 'product' -%}
                     {%- if collection.url -%}

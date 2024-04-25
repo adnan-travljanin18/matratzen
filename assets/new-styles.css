@@ -15,6 +15,12 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 .german-quiz, .dutch-quiz, .english-quiz {
     display: none;
 }
+.german .breadcrumbs__link.german-home, .dutch .breadcrumbs__link.dutch-home, .english .breadcrumbs__link.english-home {
+    display: inline;
+}
+.breadcrumbs__link.german-home, .breadcrumbs__link.english-home, .breadcrumbs__link.dutch-home {
+    display: none;
+}
 .collection-filters .btn {
     background: #121212;
     color: #fff;
