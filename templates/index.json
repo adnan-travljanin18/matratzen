@@ -281,14 +281,17 @@
     "1709033461d5da508c": {
       "type": "apps",
       "blocks": {
-        "hulk_product_reviews_carousel_widget_ryBUAB": {
+        "hulk_product_reviews_carousel_widget_eYjxrt": {
           "type": "shopify:\/\/apps\/hulk-product-reviews\/blocks\/carousel-widget\/34006358-52bd-4ec7-8c78-200fe58b77ba",
           "settings": {
           }
         }
       },
       "block_order": [
-        "hulk_product_reviews_carousel_widget_ryBUAB"
+        "hulk_product_reviews_carousel_widget_eYjxrt"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "include_margins": true
