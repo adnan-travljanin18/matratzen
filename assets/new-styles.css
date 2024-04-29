@@ -12,6 +12,16 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 .hulk-powered-wrapper {
     display: none;
 }
+.hulk-sidebar-widget[data-position=bottom_left], .hulk-sidebar-widget[data-position=bottom_right] {
+    bottom: 1%!important;
+    padding: 12px!important;
+}
+.heart-hulk-animation {
+    margin: 5px!important;
+}
+.heart-hulk-animation .icon-wishlist-heart-empty:before {
+    margin: 0!important;
+}
 .german .german-quiz, .dutch .dutch-quiz, .english .english-quiz {
     display: inline-block;
 }

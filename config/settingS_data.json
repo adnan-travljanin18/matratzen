@@ -149,7 +149,7 @@
           "mobilemenu_style": "slide-submenu",
           "mobile_nav_show_social_links": true,
           "social_icon_facebook": true,
-          "social_icon_twitter": true,
+          "social_icon_twitter": false,
           "social_icon_instagram": true
         }
       },
