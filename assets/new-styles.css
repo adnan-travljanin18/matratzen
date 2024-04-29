@@ -9,6 +9,9 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
   bottom: 60px!important;
   left: 8px!important;
 }
+#hulk-model {
+    padding-top: 150px;
+}
 .hulk-powered-wrapper {
     display: none;
 }
