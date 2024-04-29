@@ -14,20 +14,22 @@
         </span>
         <span class="visually-hidden visually-hidden--inline">{{ 'accessibility.link_messages.new_window' | t }}</span>
     </li>
-    <li class="list-inline-item">
-        <a
-            href="//twitter.com/share?text={{ share_title | url_param_escape }}&amp;url={{ shop.url | append: share_permalink }}"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="{{ 'general.social.alt_text.share_on_twitter' | t }}"
-        >
-            <span class="icon-twitter"></span>
-        </a>
-        <span class="visually-hidden visually-hidden--inline">
-            {{- 'general.social.alt_text.share_on_twitter' | t -}}
-        </span>
-        <span class="visually-hidden visually-hidden--inline">{{ 'accessibility.link_messages.new_window' | t }}</span>
-    </li>
+    {% comment %}
+        <li class="list-inline-item">
+            <a
+                href="//twitter.com/share?text={{ share_title | url_param_escape }}&amp;url={{ shop.url | append: share_permalink }}"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="{{ 'general.social.alt_text.share_on_twitter' | t }}"
+            >
+                <span class="icon-twitter"></span>
+            </a>
+            <span class="visually-hidden visually-hidden--inline">
+                {{- 'general.social.alt_text.share_on_twitter' | t -}}
+            </span>
+            <span class="visually-hidden visually-hidden--inline">{{ 'accessibility.link_messages.new_window' | t }}</span>
+        </li>
+    {% endcomment %}
     <li class="list-inline-item">
         <a
             href="{{ settings.social_instagram_link }}"
