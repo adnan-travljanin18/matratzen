@@ -16,10 +16,10 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
     bottom: 1%!important;
     padding: 12px!important;
 }
-.heart-hulk-animation {
+.hulk-sidebar-widget .heart-hulk-animation {
     margin: 5px!important;
 }
-.heart-hulk-animation .icon-wishlist-heart-empty:before {
+.hulk-sidebar-widget .heart-hulk-animation .icon-wishlist-heart-empty:before {
     margin: 0!important;
 }
 .german .german-quiz, .dutch .dutch-quiz, .english .english-quiz {
