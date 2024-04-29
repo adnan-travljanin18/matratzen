@@ -1,117 +1,133 @@
 <div class="sidebar-blog {% if section.settings.sidebar_is_sticky %}sticky-top{% endif %}">
+    {% for block in section.blocks %}
+        {% comment %} social sharing {% endcomment %}
+        {% if block.settings.enable_socials %}
+            <div class="card card-socials mb-4" {{ block.shopify_attributes }}>
+                <div class="card-header">{{ block.settings.socials_title }}</div>
+                <div class="card-body text-left">
+                    <ul class="list-unstyled social-icons list-inline my-0">
+                        {% if block.settings.social_icon_facebook %}
+                            <li class="list-inline-item mx-2">
+                                <a
+                                    href="{{ settings.social_facebook_link }}"
+                                    title="{{ 'general.social.links.facebook' | t }}"
+                                    rel="nofollow"
+                                    aria-label="{{ 'general.social.links.facebook' | t }}"
+                                >
+                                    <span class="icon-facebook font-size-lg"></span>
+                                </a>
+                                <span class="visually-hidden visually-hidden--inline">
+                                    {{- 'general.social.links.facebook' | t -}}
+                                </span>
+                                <span class="visually-hidden visually-hidden--inline">
+                                    {{- 'accessibility.link_messages.new_window' | t -}}
+                                </span>
+                            </li>
+                        {% endif %}
 
-  {% for block in section.blocks %}
+                        {% if block.settings.social_icon_twitter %}
+                            <li class="list-inline-item mx-2">
+                                <a
+                                    href="{{ settings.social_twitter_link }}"
+                                    title="{{ 'general.social.links.twitter' | t }}"
+                                    rel="nofollow"
+                                    aria-label="{{ 'general.social.links.twitter' | t }}"
+                                >
+                                    <span class="icon-twitter font-size-lg"></span>
+                                </a>
+                                <span class="visually-hidden visually-hidden--inline">
+                                    {{- 'general.social.links.twitter' | t -}}
+                                </span>
+                                <span class="visually-hidden visually-hidden--inline">
+                                    {{- 'accessibility.link_messages.new_window' | t -}}
+                                </span>
+                            </li>
+                        {% endif %}
 
-    {% comment %} social sharing {% endcomment %}
-    {% if block.settings.enable_socials %}
-      <div class="card card-socials mb-4" {{ block.shopify_attributes }}>
-        <div class="card-header">{{ block.settings.socials_title }}</div>
-        <div class="card-body text-left">
-          <ul class="list-unstyled social-icons list-inline my-0">
-            {% if block.settings.social_icon_facebook %}
-              <li class="list-inline-item mx-2">
-                <a
-                  href="{{ settings.social_facebook_link }}"
-                  title="{{ 'general.social.links.facebook' | t }}"
-                  rel="nofollow"
-                  aria-label="{{ 'general.social.links.facebook' | t }}">
-                  <span class="icon-facebook font-size-lg"></span>
-                </a>
-                <span class="visually-hidden visually-hidden--inline">{{ 'general.social.links.facebook' | t }}</span>
-                <span class="visually-hidden visually-hidden--inline">{{ 'accessibility.link_messages.new_window' | t }}</span>
-              </li>
-            {% endif %}
-
-            {% if block.settings.social_icon_twitter %}
-              <li class="list-inline-item mx-2">
-                <a
-                  href="{{ settings.social_twitter_link }}"
-                  title="{{ 'general.social.links.twitter' | t }}"
-                  rel="nofollow"
-                  aria-label="{{ 'general.social.links.twitter' | t }}">
-                  <span class="icon-twitter font-size-lg"></span>
-                </a>
-                <span class="visually-hidden visually-hidden--inline">{{ 'general.social.links.twitter' | t }}</span>
-                <span class="visually-hidden visually-hidden--inline">{{ 'accessibility.link_messages.new_window' | t }}</span>
-              </li>
-            {% endif %}
-
-            {% if block.settings.social_icon_instagram %}
-              <li class="list-inline-item mx-2">
-                <a
-                  href="{{ settings.social_instagram_link }}"
-                  title="{{ 'general.social.links.instagram' | t }}"
-                  rel="nofollow"
-                  aria-label="{{ 'general.social.links.instagram' | t }}">
-                  <span class="ion-social-instagram font-size-lg"></span>
-                </a>
-                <span class="visually-hidden visually-hidden--inline">{{ 'general.social.links.instagram' | t }}</span>
-                <span class="visually-hidden visually-hidden--inline">{{ 'accessibility.link_messages.new_window' | t }}</span>
-              </li>
-            {% endif %}
-          </ul>
-        </div>
-      </div>
-    {% endif %}
-
-    {% comment %} tags list {% endcomment %}
-
-    {% if block.settings.enable_tags %}
-      <div class="card card-tags mb-4">
-        <div class="card-header">{{ block.settings.tags_title }}</div>
-        <div class="card-body">
-          {% for tag in blog.all_tags %}
-            {% if current_tags contains tag %}
-              <span class="badge badge-pill badge-primary-100 text-white p-2">{{ tag }}</span>
-            {% else %}
-              <span class="badge badge-pill p-2 article-tag-hover">{{ tag | link_to_tag: tag }}</span>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-    {% endif %}
-
-    {% comment %} recent articles {% endcomment %}
-    {% if block.settings.enable_recent_articles %}
-      <div class="card card-recent-articles mb-4">
-        <div class="card-header">{{ block.settings.recent_articles_title }}</div>
-        <div class="card-body">
-          <ul class="list-unstyled">
-            {% assign total_recent_articles = block.settings.total_recent_articles %}
-            {% for article in blogs[blog.handle].articles limit: total_recent_articles %}
-              <li class="list-group-item">
-                <div class="d-flex">
-                  <div class="col-4">
-                    <a
-                      href="{{ article.url }}"
-                      class="d-block blog-sidebar-img"
-                      title="{{ article.title }}"
-                      aria-label="{{ article.title }}">
-                      {% unless article_image contains 'no-image' %}
-
-                        <div style="background-image: url({{ article.image | image_url }});" class="d-block article-sidebar-bg-image"></div>
-                      {% endunless %}
-                    </a>
-                  </div>
-                  <div class="col-8 d-flex flex-column justify-content-evenly ms-3">
-                    <div class="small text-muted">
-                      <time datetime="{{ article.published_at | date: "%d/%m/%Y" }}">
-                        {{ article.published_at | date: "%d/%m/%Y" }}</time>
-                      <span>
-                        | by {{ article.author }}</span>
-                    </div>
-                    <h5 class="mt-0 mb-2 article-sidebar-line-clamp">
-                      <a href="{{ article.url }}">{{ article.title }}</a>
-                    </h5>
-                  </div>
+                        {% if block.settings.social_icon_instagram %}
+                            <li class="list-inline-item mx-2">
+                                <a
+                                    href="{{ settings.social_instagram_link }}"
+                                    title="{{ 'general.social.links.instagram' | t }}"
+                                    rel="nofollow"
+                                    aria-label="{{ 'general.social.links.instagram' | t }}"
+                                >
+                                    <span class="ion-social-instagram font-size-lg"></span>
+                                </a>
+                                <span class="visually-hidden visually-hidden--inline">
+                                    {{- 'general.social.links.instagram' | t -}}
+                                </span>
+                                <span class="visually-hidden visually-hidden--inline">
+                                    {{- 'accessibility.link_messages.new_window' | t -}}
+                                </span>
+                            </li>
+                        {% endif %}
+                    </ul>
                 </div>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    {% endif %}
+            </div>
+        {% endif %}
 
-  {% endfor %}
+        {% comment %} tags list {% endcomment %}
 
+        {% if block.settings.enable_tags %}
+            <div class="card card-tags mb-4">
+                <div class="card-header">{{ block.settings.tags_title }}</div>
+                <div class="card-body">
+                    {% for tag in blog.all_tags %}
+                        {% if current_tags contains tag %}
+                            <span class="badge badge-pill badge-primary-100 text-white p-2">{{ tag }}</span>
+                        {% else %}
+                            <span class="badge badge-pill p-2 article-tag-hover">{{ tag | link_to_tag: tag }}</span>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+
+        {% comment %} recent articles {% endcomment %}
+        {% if block.settings.enable_recent_articles %}
+            <div class="card card-recent-articles mb-4">
+                <div class="card-header">{{ block.settings.recent_articles_title }}</div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        {% assign total_recent_articles = block.settings.total_recent_articles %}
+                        {% for article in blogs[blog.handle].articles limit: total_recent_articles %}
+                            <li class="list-group-item">
+                                <div class="d-flex">
+                                    <div class="col-4">
+                                        <a
+                                            href="{{ article.url }}"
+                                            class="d-block blog-sidebar-img"
+                                            title="{{ article.title }}"
+                                            aria-label="{{ article.title }}"
+                                        >
+                                            {% unless article_image contains 'no-image' %}
+                                                <div
+                                                    style="background-image: url({{ article.image | image_url }});"
+                                                    class="d-block article-sidebar-bg-image"
+                                                ></div>
+                                            {% endunless %}
+                                        </a>
+                                    </div>
+                                    <div class="col-8 d-flex flex-column justify-content-evenly ms-3">
+                                        {% comment %}
+                                            <div class="small text-muted">
+                                              <time datetime="{{ article.published_at | date: "%d/%m/%Y" }}">
+                                                {{ article.published_at | date: "%d/%m/%Y" }}</time>
+                                              <span>
+                                                | by {{ article.author }}</span>
+                                            </div>
+                                        {% endcomment %}
+                                        <h5 class="mt-0 mb-2 article-sidebar-line-clamp">
+                                            <a href="{{ article.url }}">{{ article.title }}</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
 </div>

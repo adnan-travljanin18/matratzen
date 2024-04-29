@@ -19,12 +19,14 @@
             </a>
         {% endif %}
     {% endunless %}
-    <div class="small text-muted">
-        <time datetime="{{ article.published_at | date: "%d/%m/%Y" }}">
-            {{ article.published_at | date: '%d/%m/%Y' -}}
-        </time>
-        <span> | by {{ article.author }}</span>
-    </div>
+    {% comment %}
+        <div class="small text-muted">
+            <time datetime="{{ article.published_at | date: "%d/%m/%Y" }}">
+                {{ article.published_at | date: '%d/%m/%Y' -}}
+            </time>
+            <span> | by {{ article.author }}</span>
+        </div>
+    {% endcomment %}
     <div class="card-body px-0">
         <h4 class="h5 text-capitalize article-line-clamp">
             <a href="{{ article.url }}">{{ article.title }}</a>

@@ -1,30 +1,10 @@
-/* .subscribe-section-button {
-    padding: 1rem 2rem !important;
-    border-radius: 64px;
-    max-height: 59px;
-    color: hsl(0, 0%, 100%);
-    background-color: rgba(19, 30, 39, 1);
+.german-newsletter,
+.english-newsletter,
+.dutch-newsletter {
+    display: none;
 }
-
-.subscribe-section-input-field {
-    padding: 1rem 2rem !important;
-    border-radius: 64px;
-    border: 1px solid rgba(207, 216, 220, 1);
+.german .german-newsletter,
+.english .english-newsletter,
+.dutch .dutch-newsletter {
+    display: block;
 }
-
-.subscription input, .subscription button {
-    font-family: var(--bs-font-family-base);
-}
-.subscription>.input-group-append>.input-group-text {
-    border-top-left-radius: 64px !important;
-    border-bottom-left-radius: 64px !important;
-    z-index: 1 !important;
-}
-.subscription>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-    margin-left: -20px !important;
-}
-@include break($min-medium) {
-	.subscribe-section-input-field, .subscribe-section-button  {
-		padding: .5rem 1.5rem!important;
-	}
-} */
