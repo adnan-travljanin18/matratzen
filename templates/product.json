@@ -14,8 +14,8 @@
           "settings": {
           }
         },
-        "judge_me_reviews_preview_badge_kihFhe": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "hulk_product_reviews_average_review_wmKVTQ": {
+          "type": "shopify:\/\/apps\/hulk-product-reviews\/blocks\/average-review\/34006358-52bd-4ec7-8c78-200fe58b77ba",
           "settings": {
           }
         },
@@ -72,7 +72,7 @@
       "block_order": [
         "f74187b8-c891-42b8-9a6b-2c67a497b018",
         "fcbf423b-3c83-4097-901c-ca70b8b80e5c",
-        "judge_me_reviews_preview_badge_kihFhe",
+        "hulk_product_reviews_average_review_wmKVTQ",
         "3b316236-d91e-4dd0-953a-173c1f40bfcf",
         "b253ffff-d04d-43a0-9d68-fabdd77b595a",
         "e53b8574-dd34-4eca-8c40-ac20d2e38598",
