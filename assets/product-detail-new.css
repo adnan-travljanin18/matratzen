@@ -12,18 +12,17 @@
 }
 .product-section slider-element .slider-navigation-wrapper {
     position: absolute;
-    bottom: 10%;
-    right: 12%;
+    top: 50%;
 }
 .product-section slider-element .slider-navigation-wrapper .swiper-button-next {
     top: 0;
     transform: unset;
-    right: unset;
+    right: 20px;
 }
 .product-section slider-element .slider-navigation-wrapper .swiper-button-prev {
     top: 0;
     transform: unset;
-    left: var(--swiper-navigation-sides-offset, -55px);
+    left: 20px;
 }
 .product-section .product-thumb--image {
     border-radius: 16px;
@@ -38,6 +37,45 @@
 .product-section .short-description {
     margin-top: 20px;
     font-size: 14px;
+}
+.product-section .heading-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-section .product-wishlist-button a {
+    background: black;
+    padding: 18px 20px!important;
+    border-radius: 10px;
+    color: #fff!important;
+    font-size: 22px!important;
+}
+.product-section .product-wishlist-button .heart-hulk-animation {
+    margin: 0!important;
+}
+.product-section .product-form__input--dropdown {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ECEFF1;
+    border-radius: 8px;
+}
+.product-section .product-form__input--dropdown label {
+    text-align: center;
+    margin: 0 !important;
+    border-right: 1px solid #ECEFF1;
+    color: #607D8B;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.product-section .product-form__input--dropdown select {
+    border: 0;
+    border-radius: 8px;
+    color: #607D8B;
+    font-weight: 500;
+    font-size: 14px;
+}
+.product-section .product-form__input--dropdown select:focus {
+    box-shadow: none;
 }
 .product-section .jdgm-preview-badge {
     margin: 30px 0;
@@ -61,16 +99,29 @@
     border-radius: 16px;
 }
 .product-section .quantity {
-    border-right: none;
-    border-left: none;
+    border: 0;
     font-size: 18px;
     margin: 0;
-    padding-left: 25px;
+    padding: 0;
     font-family: 'Roboto';
 }
 .product-section .quantity:focus {
-    border-top: 1px solid #dee2e6;
-    border-bottom: 1px solid #dee2e6;
+    box-shadow: none;
+    z-index: 1;
+}
+.product-section .quantity-wrapper .input-group-text {
+    color: #fff;
+    background: #131E27;
+    border-radius: 16px;
+    text-align: center;
+    justify-content: center;
+}
+.product-section .quantity-wrapper .input-group-text.disabled {
+    border-radius: 16px;
+    border: 2px solid #131E27;
+    color: #131E27;
+    padding: 10px 15px;
+    background: #fff;
 }
 .product-section .quantity-wrapper {
     max-width: unset;
@@ -136,7 +187,8 @@
     align-items: start;
 }
 .featured-collection-slider .card-img {
-    aspect-ratio: 1.5/1;
+    aspect-ratio: 1;
+    max-height: 314px;
 }
 .featured-collection-slider .card-img a {
     height: 100%;
@@ -190,7 +242,8 @@
 }
 @media only screen and (min-width:768px) {
     .product-section slider-element {
-        height: 698px;
+        height: 548px;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 767.98px) {

@@ -1,81 +1,83 @@
-<custom-tabs class="bg-white d-block overflow-hidden pt-6" {{ block.shopify_attributes }}>
-    <div
-        {% if block.settings.product_tabs_fluid_layout %}
-            class="container-fluid"
-        {% else %}
-            class="container"
-        {% endif %}
-    >
-        <div id="productTabs" class="d-none d-md-block" data-product-tabs>
-            <ul class="tabs d-flex list-unstyled description-parent" role="tablist">
-                {% if block.settings.enable_descripion_tab and product.description != blank %}
-                    <li class="tablink open" role="tab">
-                        <a
-                            class="nav-link"
-                            data-toggle="tab"
-                            href="#description"
-                            data-tabcontent="#description"
-                            aria-expanded="true"
-                        >
-                            {{- 'products.product.description' | t -}}
-                        </a>
-                    </li>
-                {% endif %}
+{% comment %}
+    <custom-tabs class="bg-white d-block overflow-hidden pt-6" {{ block.shopify_attributes }}>
+        <div
+            {% if block.settings.product_tabs_fluid_layout %}
+                class="container-fluid"
+            {% else %}
+                class="container"
+            {% endif %}
+        >
+            <div id="productTabs" class="d-none" data-product-tabs>
+                <ul class="tabs d-flex list-unstyled description-parent" role="tablist">
+                    {% if block.settings.enable_descripion_tab and product.description != blank %}
+                        <li class="tablink open" role="tab">
+                            <a
+                                class="nav-link"
+                                data-toggle="tab"
+                                href="#description"
+                                data-tabcontent="#description"
+                                aria-expanded="true"
+                            >
+                                {{- 'products.product.description' | t -}}
+                            </a>
+                        </li>
+                    {% endif %}
 
-                {% if block.settings.enable_custom_tab_2 %}
-                    <li class="tablink" role="tab">
-                        <a
-                            class="nav-link"
-                            data-toggle="tab"
-                            href="#custom-tab-2"
-                            data-tabcontent="#custom-tab-2"
-                            aria-expanded="false"
-                        >
-                            {{- block.settings.tab_2_title -}}
-                        </a>
-                    </li>
-                {% endif %}
-                {% if block.settings.enable_custom_tab_1 %}
-                    <li class="tablink {% unless block.settings.enable_descripion_tab %}open{% endunless %}" role="tab">
-                        <a
-                            class="nav-link"
-                            data-toggle="tab"
-                            href="#custom-tab-1"
-                            data-tabcontent="#custom-tab-1"
-                            aria-expanded="false"
-                        >
-                            {{- block.settings.tab_1_title -}}
-                        </a>
-                    </li>
-                {% endif %}
-            </ul>
+                    {% if block.settings.enable_custom_tab_2 %}
+                        <li class="tablink" role="tab">
+                            <a
+                                class="nav-link"
+                                data-toggle="tab"
+                                href="#custom-tab-2"
+                                data-tabcontent="#custom-tab-2"
+                                aria-expanded="false"
+                            >
+                                {{- block.settings.tab_2_title -}}
+                            </a>
+                        </li>
+                    {% endif %}
+                    {% if block.settings.enable_custom_tab_1 %}
+                        <li class="tablink {% unless block.settings.enable_descripion_tab %}open{% endunless %}" role="tab">
+                            <a
+                                class="nav-link"
+                                data-toggle="tab"
+                                href="#custom-tab-1"
+                                data-tabcontent="#custom-tab-1"
+                                aria-expanded="false"
+                            >
+                                {{- block.settings.tab_1_title -}}
+                            </a>
+                        </li>
+                    {% endif %}
+                </ul>
 
-            <div class="tab-content text-left" id="productTabsContent">
-                {% if block.settings.enable_descripion_tab and product.description %}
-                    <div class="tab-pane tabcontent open" id="description" role="tabpanel">
-                        <div class="rte py-5 px-lg-3">{{ product.description }}</div>
-                    </div>
-                {% endif %}
-                {% if block.settings.enable_custom_tab_1 %}
-                    <div class="tab-pane tabcontent" id="custom-tab-1" role="tabpanel">
-                        <div data-hulkapps-reviews data-hulkapps-reviews-list></div>
-                    </div>
-                {% endif %}
-                {% if block.settings.enable_custom_tab_2 %}
-                    <div class="tab-pane tabcontent" id="custom-tab-2" role="tabpanel">
-                        <div class="rpt-5 py-5 px-lg-3">
-                            {{ product.metafields.custom.specifications | metafield_tag }}
+                <div class="tab-content text-left" id="productTabsContent">
+                    {% if block.settings.enable_descripion_tab and product.description %}
+                        <div class="tab-pane tabcontent open" id="description" role="tabpanel">
+                            <div class="rte py-5 px-lg-3">{{ product.description }}</div>
                         </div>
-                    </div>
-                {% endif %}
+                    {% endif %}
+                    {% if block.settings.enable_custom_tab_1 %}
+                        <div class="tab-pane tabcontent" id="custom-tab-1" role="tabpanel">
+                            <div data-hulkapps-reviews data-hulkapps-reviews-list></div>
+                        </div>
+                    {% endif %}
+                    {% if block.settings.enable_custom_tab_2 %}
+                        <div class="tab-pane tabcontent" id="custom-tab-2" role="tabpanel">
+                            <div class="rpt-5 py-5 px-lg-3">
+                                {{ product.metafields.custom.specifications | metafield_tag }}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
             </div>
         </div>
-    </div>
-</custom-tabs>
+    </custom-tabs>
+{% endcomment %}
 
 <custom-accordion class="bg-white d-block pb-4" {{ block.shopify_attributes }} data-accordionType="multiple">
     <div class="{% if block.settings.product_tabs_fluid_layout %}container-fluid{% else %}container p-0{% endif %}">
-        <div id="productAccordion" class="d-block d-md-none" data-product-accordion>
+        <div id="productAccordion" data-product-accordion>
             {% if block.settings.enable_descripion_tab and product.description != blank %}
                 <div class="accordion__container col-11 mx-auto py-3 border-bottom">
                     <a

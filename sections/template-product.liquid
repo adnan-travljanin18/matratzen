@@ -27,6 +27,18 @@
     .metafield-rich_text_field li {
         margin-bottom: 4px;
     }
+    .swiper-pagination {
+        top: 10px !important;
+    }
+    .swiper-pagination-bullet {
+        width: 60px;
+        border-radius: 0;
+        height: 2px;
+        background: #cfd8dc;
+    }
+    .swiper-pagination-bullet-active {
+        background: #263238;
+    }
 </style>
 <div
     data-section-id="{{ section.id }}"
@@ -46,7 +58,7 @@
     <section class="section-content" data-product-container>
         <div class="{% if fluid_layout %}container-fluid{% else %}container{% endif %}">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <div data-type="slider" class="product-images-wrapper pr-lg-4 text-center">
                         {% if section.settings.template_type == 'classic-vertical' %}
                             <div class="row">
@@ -123,7 +135,7 @@
                                             {% endif %}
                                         {% endfor %}
                                     </div>
-                                    <div class="slider-navigation-wrapper">
+                                    <div class="slider-navigation-wrapper col-12">
                                         <div
                                             class="template-product swiper-button-prev"
                                             {% if product.images.size <= 1 %}
@@ -140,12 +152,13 @@
                                         ></div>
                                     </div>
                                 </div>
+                                <div class="swiper-pagination position-relative"></div>
                             </slider-element>
 
                             <!-- Nav Slider functionality is not available directly. Custom Set up for Nav -->
                             {% if product.images.size > 1 %}
                                 <div
-                                    class="swiper-container  {% if section.settings.template_type == 'classic-vertical' %}col-md-2 order-md-1{% endif %}"
+                                    class="d-none swiper-container  {% if section.settings.template_type == 'classic-vertical' %}col-md-2 order-md-1{% endif %}"
                                     data-thumbSlider
                                     data-direction="{% if section.settings.template_type == 'classic-vertical' %}vertical{% else %}horizontal{% endif %}"
                                 >
@@ -227,7 +240,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6" id="ProductInfo-{{ section.id }}">
+                <div class="col-lg-4" id="ProductInfo-{{ section.id }}">
                     <div
                         class="product-details-wrapper mt-5 mt-lg-0"
                         data-slider_type="{{ section.settings.slider_type }}"
@@ -235,8 +248,17 @@
                         <div class="row">
                             {% render 'breadcrumbs' %}
                         </div>
-                        <div>
+                        <div class="heading-wrapper">
                             <h1>{{ product.title }}</h1>
+                            <div
+                                class="product-wishlist-button"
+                            >
+                                {% render 'hulkapps-wishlist-collection-btn',
+                                    productId: product.id,
+                                    variantId: product.selected_or_first_available_variant.id,
+                                    buttonClass: 'wishlisthero-floating'
+                                %}
+                            </div>
                         </div>
                         {%- for block in section.blocks -%}
                             {%- case block.type -%}
@@ -266,7 +288,6 @@
                                             </s>
                                         {%- endif -%}
                                     </div>
-                                    <hr style="border: 1px solid #ECEFF1;">
                                     {%- form 'product',
                                         product,
                                         data-productid: product.id,
@@ -304,16 +325,6 @@
                                 {%- when 'share' -%}
                                     {% if block.settings.show_social_share %}
                                         <div class="d-flex align-items-center mt-4 share-wishlist-container">
-                                            <div
-                                                style="text-align: end;"
-                                            >
-                                                {% render 'hulkapps-wishlist-collection-btn',
-                                                    productId: product.id,
-                                                    variantId: product.selected_or_first_available_variant.id,
-                                                    buttonClass: 'wishlisthero-floating'
-                                                %}
-                                                {{ 'products.product.add_to_wishlist' | t }}
-                                            </div>
                                             {% render 'social-sharing',
                                                 share_title: product.title,
                                                 share_permalink: product.url,
@@ -328,10 +339,6 @@
             </div>
         </div>
     </section>
-
-    {% if block.settings.enable_layer_slider %}
-        {% render 'block-product-layer-slider' %}
-    {% endif %}
 
     {%- liquid
         for block in section.blocks
