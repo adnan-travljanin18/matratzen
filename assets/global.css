@@ -11644,14 +11644,13 @@ svg.icon.icon-caret {
 }
 
 .toggle-content {
-    display: none;
     height: 0;
     overflow: hidden;
     transition: height 350ms ease-in-out;
 }
 
 .toggle-content.open {
-    display: block;
+    padding: 2rem;
     height: auto;
 }
 

@@ -120,7 +120,7 @@
                     {%- endif -%}
                 {% endunless %}
                 <div class="row quantity-buybtn-wrapper">
-                    <div class="quantity-wrapper col-12 col-md-5" data-qty-container>
+                    <div class="quantity-wrapper col-12 col-xl-5 mb-4 mb-xl-0" data-qty-container>
                         <span
                             class="d-none fw-medium text-uppercase font-size-sm mb-2"
                             title="Label {{ 'products.product.quantity.label' | t }}"
@@ -139,7 +139,7 @@
                                     data-qty-btn
                                 >
                                     <span class="btn-decrease">
-                                        <span class="icon-minus"></span>
+                                        {% render 'minus-image' %}
                                     </span>
                                     <span class="visually-hidden">
                                         {{-
@@ -173,7 +173,7 @@
                                     data-qty-btn
                                 >
                                     <span class="btn-increase">
-                                        <span class="icon-plus"></span>
+                                        {% render 'plus-image' %}
                                     </span>
                                     <span class="visually-hidden">
                                         {{-
@@ -186,7 +186,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-7 d-flex">
+                    <div class="col-12 col-xl-7 d-flex">
                         <button
                             class="btn btn-primary btn-sm flex-grow-1"
                             type="submit"

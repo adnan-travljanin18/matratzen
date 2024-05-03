@@ -79,7 +79,7 @@
     <div class="{% if block.settings.product_tabs_fluid_layout %}container-fluid{% else %}container p-0{% endif %}">
         <div id="productAccordion" data-product-accordion>
             {% if block.settings.enable_descripion_tab and product.description != blank %}
-                <div class="accordion__container col-11 mx-auto py-3 border-bottom">
+                <div class="accordion__container col-11 col-md-12 mx-auto py-3 border-bottom">
                     <a
                         class="accordion__toggle d-flex h6 mb-0"
                         href="#"
@@ -90,17 +90,18 @@
                         aria-expanded="false"
                         aria-controls="accordion_description"
                     >
+                        <div class="plus-icon-accordion">{% render 'plus-image' %}</div>
+                        <div class="minus-icon-accordion">{% render 'minus-image' %}</div>
                         <span>{{ 'products.product.description' | t }}</span>
-                        <span class="icon-arrow-down ms-auto font-size-lg lh-1"></span>
                     </a>
-                    <div class="accordion__block toggle-content py-5" id="accordion_description" data-type="content">
+                    <div class="accordion__block toggle-content" id="accordion_description" data-type="content">
                         {{ product.description }}
                     </div>
                 </div>
             {% endif %}
 
             {% if block.settings.enable_custom_tab_2 %}
-                <div class="accordion__container col-11 mx-auto py-3 border-bottom">
+                <div class="accordion__container col-11 col-md-12 mx-auto py-3 border-bottom">
                     <a
                         class="accordion__toggle d-flex h6 text-uppercase mb-0"
                         href="#"
@@ -111,17 +112,18 @@
                         aria-expanded="false"
                         aria-controls="accordion_customTab2"
                     >
+                        <div class="plus-icon-accordion">{% render 'plus-image' %}</div>
+                        <div class="minus-icon-accordion">{% render 'minus-image' %}</div>
                         <span>{{ block.settings.tab_2_title }}</span>
-                        <span class="icon-arrow-down ms-auto font-size-lg lh-1"></span>
                     </a>
-                    <div class="accordion__block toggle-content py-5" id="accordion_customTab2" data-type="content">
+                    <div class="accordion__block toggle-content" id="accordion_customTab2" data-type="content">
                         <div class="rpt-5">{{ product.metafields.custom.specifications | metafield_tag }}</div>
                     </div>
                 </div>
             {% endif %}
 
             {% if block.settings.enable_custom_tab_1 %}
-                <div class="accordion__container col-11 mx-auto py-3 border-bottom">
+                <div class="accordion__container col-11 col-md-12 mx-auto py-3 border-bottom">
                     <a
                         class="accordion__toggle d-flex h6 mb-0"
                         href="#"
@@ -132,8 +134,9 @@
                         aria-expanded="false"
                         aria-controls="accordion_customTab1"
                     >
+                        <div class="plus-icon-accordion">{% render 'plus-image' %}</div>
+                        <div class="minus-icon-accordion">{% render 'minus-image' %}</div>
                         <span>{{ block.settings.tab_1_title }}</span>
-                        <span class="icon-arrow-down ms-auto font-size-lg lh-1"></span>
                     </a>
                     <div class="accordion__block toggle-content" id="accordion_customTab1" data-type="content">
                         <div data-hulkapps-reviews data-hulkapps-reviews-list></div>
