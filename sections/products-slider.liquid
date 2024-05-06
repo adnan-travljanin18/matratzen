@@ -195,11 +195,11 @@
             const swiper = new Swiper(container.querySelector('.mySwiper-product'), {
                 slidesPerView: 1,
                 spaceBetween: 0,
-                loop: false,
-                {% comment %} autoplay: {
-                    delay: 5000, // autoplay delay in milliseconds
+                loop: true,
+                autoplay: {
+                    delay: 3000, // autoplay delay in milliseconds
                     disableOnInteraction: true // enable autoplay even after user interaction
-                }, {% endcomment %}
+                },
                 pagination: false, // disable pagination
                 navigation: false, // disable navigation buttons
                 breakpoints: {
