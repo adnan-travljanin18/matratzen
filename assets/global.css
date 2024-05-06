@@ -11653,6 +11653,13 @@ svg.icon.icon-caret {
     padding: 2rem;
     height: auto;
 }
+collection-filters .toggle-content.open {
+    padding: 0;
+}
+
+collection-filters .filter__list {
+    padding: 5px;
+}
 
 .quantity-wrapper{
     max-width: 180px;
