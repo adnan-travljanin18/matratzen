@@ -1,4 +1,4 @@
-{% if product.metafields.custom.product_icon_description.value == 0 %}
+{% if product.metafields.custom.product_icon_description.value == null %}
 {% if block.settings.enable_icon_description %}
     <section class="overflow-hidden section-content icon-description-block">
         <div class="container">
@@ -22,7 +22,6 @@
             </div>
         </div>
     </section>
-{% endif %}
 {% endif %}
 
 <style>
@@ -60,3 +59,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 </script>
+{% endif %}
