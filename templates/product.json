@@ -38,7 +38,7 @@
         "icon_description_WNcpKN": {
           "type": "icon-description",
           "settings": {
-            "enable_icon_description": false
+            "enable_icon_description": true
           }
         },
         "layer_slider_tCXKDe": {
