@@ -25,45 +25,48 @@
                             {{ section.settings.heading_txt }}
                         </h2>
                     {% endif %}
-                    {% if section.settings.btn_txt != blank %}
-                        <button
-                            role="button"
-                            data-vf-id="1ew990sn"
-                            data-vf-p-type="p"
-                            data-vf-p-side="r"
-                            data-vf-trigger="click"
-                            class="btn btn-primary btn-quiz underline-btn german-quiz"
-                        >
-                            {{ section.settings.btn_txt -}}
-                            <span><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span>
-                        </button>
-                        <button
-                            role="button"
-                            data-vf-id="2dbin6ad"
-                            data-vf-p-type="p"
-                            data-vf-p-side="r"
-                            data-vf-trigger="click"
-                            class="btn btn-primary btn-quiz underline-btn dutch-quiz"
-                        >
-                            {{ section.settings.btn_txt -}}
-                            <span><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span>
-                        </button>
-                        <button
-                            role="button"
-                            data-vf-id="37vgzaqd"
-                            data-vf-p-type="p"
-                            data-vf-p-side="r"
-                            data-vf-trigger="click"
-                            class="btn btn-primary btn-quiz underline-btn english-quiz"
-                        >
-                            {{ section.settings.btn_txt -}}
-                            <span><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span>
-                        </button>
-                    {% endif %}
                 </div>
             </div>
         </div>
     </div>
+    {% if section.settings.btn_txt != blank %}
+        <div class="text-center mt-4">
+            <button
+            role="button"
+            data-vf-id="1ew990sn"
+            data-vf-p-type="p"
+            data-vf-p-side="r"
+            data-vf-trigger="click"
+            class="btn btn-primary btn-quiz german-quiz"
+        >
+            {{ section.settings.btn_txt -}}
+            <span><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span>
+        </button>
+        <button
+            role="button"
+            data-vf-id="2dbin6ad"
+            data-vf-p-type="p"
+            data-vf-p-side="r"
+            data-vf-trigger="click"
+            class="btn btn-primary btn-quiz dutch-quiz"
+        >
+            {{ section.settings.btn_txt -}}
+            <span><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span>
+        </button>
+        <button
+            role="button"
+            data-vf-id="37vgzaqd"
+            data-vf-p-type="p"
+            data-vf-p-side="r"
+            data-vf-trigger="click"
+            class="btn btn-primary btn-quiz english-quiz"
+        >
+            {{ section.settings.btn_txt -}}
+            <span><i class="fa-solid fa-arrow-right" style="margin-left: 10px"></i></span>
+        </button>
+        </div>
+        
+    {% endif %}
 </section>
 
 {% schema %}

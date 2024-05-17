@@ -40,9 +40,16 @@
 	font-size: 2rem;
 }
 .btn-quiz {
-	background: transparent;
-	border: 0;
-	color: #131e27;
+    background: #131e27;
+    border: 1px solid #131e27;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 50px;
+	&:hover {
+		color: #131e27;
+		background-color: transparent;
+		border: 1px solid #131e27;
+	}
 }
 
 @media only screen and (min-width: 992px) {

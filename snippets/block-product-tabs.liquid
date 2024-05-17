@@ -75,7 +75,7 @@
     </custom-tabs>
 {% endcomment %}
 
-<custom-accordion class="bg-white d-block pb-4" {{ block.shopify_attributes }} data-accordionType="multiple">
+<custom-accordion class="bg-white d-block py-6" {{ block.shopify_attributes }} data-accordionType="multiple">
     <div class="{% if block.settings.product_tabs_fluid_layout %}container-fluid{% else %}container p-0{% endif %}">
         <div id="productAccordion" data-product-accordion>
             {% if block.settings.enable_descripion_tab and product.description != blank %}

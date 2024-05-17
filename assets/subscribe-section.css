@@ -8,3 +8,14 @@
 .dutch .dutch-newsletter {
     display: block;
 }
+.hulk-reviews-widget .hulk-pr__grid-items__carousel .ec__nav {
+    background: transparent;
+}
+.hulk-reviews-widget .hulk-pr__grid-view .hulk-pr__grid-items .grid-review-details {
+    border-radius: 16px;
+    background-color: #fcfbf9;
+}
+.hulk-reviews-widget .reviewBody-caption {
+    max-width: 90%;
+    margin: 0 auto;
+}

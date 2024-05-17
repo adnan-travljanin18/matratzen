@@ -40,9 +40,11 @@
 }
 
 .btn-quiz {
-    background: transparent;
+    background: #131e27;
     border: 0;
-    color: #131e27;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 50px;
 }
 
 .quiz-section-style .banner-image-with-text {

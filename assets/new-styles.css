@@ -263,6 +263,9 @@ footer .social-links li a {
 .info-slider-section .swiper-pagination-bullet {
     margin: 0 10px!important;
 }
+.info-slider-section h5 {
+    color: #546e7a;
+}
 
 /* -=-=-==-=-==--=-=- 
 Template Product Collection
@@ -324,10 +327,11 @@ Quiz Button
 }
 
 .btn-quiz {
-    background: transparent;
+    background: #131e27;
     border: 0;
-    color: #131e27;
-    padding: 11px 0;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 50px;
 }
 
 /* =-=-=-=-=-=-=-=-=-

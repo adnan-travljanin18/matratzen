@@ -1,0 +1,60 @@
+{% if block.settings.enable_icon_description %}
+    <section class="overflow-hidden section-content icon-description-block">
+        <div class="container">
+            <div class="icon-swiper-container position-relative">
+                <div class="swiper-wrapper">
+                    {% assign icons = product.metafields.custom.product_icon_description.value %}
+                    {% for metaobject in icons %}
+                        <div class="swiper-slide col-4">
+                            <div class="text-center">
+                                <img src="{{ metaobject.icon.value | image_url }}" style="width: 40px; height: 40px;">
+                                <div>
+                                    <h3 class="my-4">{{ metaobject.icon_heading.value }}</h3>
+                                    <p>{{ metaobject.icon_description.value }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <!-- Add Pagination -->
+                <div class="icon-swiper-pagination text-center"></div>
+            </div>
+        </div>
+    </section>
+{% endif %}
+
+<style>
+.icon-description-block h3, .icon-description-block p {
+    font-family: 'Urbanist';
+}
+.icon-description-block h3 {
+    color: #25314C;
+}
+.icon-description-block p {
+    color: #777B85;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var swiper = new Swiper('.icon-swiper-container', {
+        autoplay: true,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+            el: '.icon-swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            // when window width is <= 768px
+            992: {
+                slidesPerView: 3,
+            },
+            // when window width is <= 480px
+            575: {
+                slidesPerView: 2,
+            }
+        }
+    });
+});
+</script>
