@@ -163,6 +163,8 @@
     },
     "cart": {
       "title": "Cart",
+      "order_summary": "Order Summary",
+      "order_summary_subtext": "The total cost consists of temporary costs, not including shipping costs",
       "update_cart_message": {
         "modify": "Only {{ quantity }} available for purchase. Modify current value.",
         "locked": "Only {{ quantity }} available for purchase.",

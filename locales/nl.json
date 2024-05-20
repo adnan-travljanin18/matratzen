@@ -163,6 +163,8 @@
     },
     "cart": {
       "title": "Winkelwagen",
+      "order_summary": "Overzicht bestelling",
+      "order_summary_subtext": "De totale kosten bestaan uit tijdelijke kosten, exclusief verzendkosten",
       "update_cart_message": {
         "modify": "Slechts {{ quantity }} beschikbaar om te kopen. Pas de huidige waarde aan.",
         "locked": "Slechts {{ quantity }} beschikbaar om te kopen.",

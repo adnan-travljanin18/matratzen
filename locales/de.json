@@ -162,6 +162,8 @@
     },
     "cart": {
       "title": "Warenkorb",
+      "order_summary": "Zusammenfassung der Bestellung",
+      "order_summary_subtext": "Die Gesamtkosten bestehen aus vorübergehenden Kosten, ohne Versandkosten",
       "update_cart_message": {
         "modify": "Nur {{ quantity }} verfügbar zum Kauf. Aktuellen Wert ändern.",
         "locked": "Nur {{ quantity }} verfügbar zum Kauf.",
