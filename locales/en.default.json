@@ -193,6 +193,8 @@
       "note_placeholder": "Add cart note"
     },
     "contact": {
+      "title": "Contact Information",
+      "subtitle": "Fill up the form and our Team will get back to you within 24 hours",
       "form": {
         "title": "Message Us",
         "first_name": "First name *",
