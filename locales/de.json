@@ -192,6 +192,8 @@
       "note_placeholder": "Warenkorbhinweis hinzufügen"
     },
     "contact": {
+      "title": "Kontaktinformationen",
+      "subtitle": "Füllen Sie das Formular aus und unser Team wird sich innerhalb von 24 Stunden bei Ihnen melden.",
       "form": {
         "title": "Nachricht an uns",
         "first_name": "Vorname *",

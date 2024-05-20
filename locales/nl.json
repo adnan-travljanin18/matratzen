@@ -193,6 +193,8 @@
       "note_placeholder": "Opmerking toevoegen aan winkelwagen"
     },
     "contact": {
+      "title": "Contactgegevens",
+      "subtitle": "Vul het formulier in en ons team neemt binnen 24 uur contact met je op.",
       "form": {
         "title": "Bericht ons",
         "first_name": "Voornaam *",
