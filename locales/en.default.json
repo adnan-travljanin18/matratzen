@@ -50,7 +50,8 @@
     "breadcrumbs": {
       "title": "Breadcrumbs",
       "home": "Homepage"
-    }
+    },
+    "my_wishlist": "My Wishlist"
   },
   "accessibility": {
     "skip_to_product_info": "Skip to product information",
@@ -119,7 +120,7 @@
       "unavailable": "Unavailable",
       "vendor": "Vendor",
       "quickshop": "QuickShop",
-      "close_quickshop": "Close QuickShop Modal"
+      "close_quickshop": "Close QuickShop Modal",
     }
   },
   "templates": {
