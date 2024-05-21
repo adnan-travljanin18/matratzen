@@ -31,9 +31,6 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 .hulk-sidebar-widget .heart-hulk-animation .icon-wishlist-heart-empty:before {
     margin: 0!important;
 }
-.subscription>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-    margin: 0!important;
-}
 .german .german-quiz, .dutch .dutch-quiz, .english .english-quiz {
     display: inline-block;
 }

@@ -191,9 +191,7 @@
     border-bottom-left-radius: 64px !important;
     z-index: 1 !important;
 }
-.subscription>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-    margin-left: -20px !important;
-}
+
 @include break($min-medium) {
 	.subscribe-section-input-field, .subscribe-section-button  {
 		padding: .5rem 1.5rem!important;
