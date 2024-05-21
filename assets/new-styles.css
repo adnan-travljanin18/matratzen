@@ -5,6 +5,12 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
     -webkit-appearance: none;
     margin: 0;
 }
+.wishlist__product-img {
+    padding-top: 90%;
+}
+.wishlist__product-img img {
+    border-radius: 16px;
+}
 .cky-revisit-bottom-left {
   bottom: 60px!important;
   left: 8px!important;
