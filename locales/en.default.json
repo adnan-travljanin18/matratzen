@@ -50,8 +50,7 @@
     "breadcrumbs": {
       "title": "Breadcrumbs",
       "home": "Homepage"
-    },
-    "my_wishlist": "My Wishlist"
+    }
   },
   "accessibility": {
     "skip_to_product_info": "Skip to product information",
@@ -281,7 +280,8 @@
       "reset_label": "Reset",
       "total_orders": "Total Orders",
       "view_addresses": "View addresses",
-      "return": "Return to Account details"
+      "return": "Return to Account details",
+      "my_wishlist": "My Wishlist"
     },
     "account_fallback": "Account",
     "activate_account": {

@@ -67,8 +67,7 @@
     "of": "van",
     "next_slide": "Schuif naar rechts",
     "previous_slide": "Schuif naar links",
-    "loading": "Bezig met laden...",
-    "my_wishlist": "Mijn Verlanglijstje"
+    "loading": "Bezig met laden..."
   },
   "blogs": {
     "article": {
@@ -281,7 +280,8 @@
       "reset_label": "Resetten",
       "total_orders": "Totaal bestellingen",
       "view_addresses": "Adressen bekijken",
-      "return": "Terug naar accountgegevens"
+      "return": "Terug naar accountgegevens",
+      "my_wishlist": "Mijn Verlanglijstje"
     },
     "account_fallback": "Account",
     "activate_account": {

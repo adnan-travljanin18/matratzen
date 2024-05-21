@@ -66,8 +66,7 @@
     "of": "von",
     "next_slide": "Folie rechts",
     "previous_slide": "Folie links",
-    "loading": "Wird geladen...",
-    "my_wishlist": "Mein Wunschzettel"
+    "loading": "Wird geladen..."
   },
   "blogs": {
     "article": {
@@ -280,7 +279,8 @@
       "reset_label": "Zurücksetzen",
       "total_orders": "Gesamtbestellungen",
       "view_addresses": "Adressen anzeigen",
-      "return": "Zurück zu den Kontodetails"
+      "return": "Zurück zu den Kontodetails",
+      "my_wishlist": "Mein Wunschzettel"
     },
     "account_fallback": "Konto",
     "activate_account": {
