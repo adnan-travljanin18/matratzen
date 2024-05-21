@@ -46,11 +46,7 @@
             {% assign secondaryImage = product.featured_image %}
             <a href="{{ product.url | within: collection }}" class="d-block product-link">
                 <img
-                    srcset="
-                        {%- if current_variant.image.width >= 360 -%}{{ current_variant.image | image_url: width: 360 }} 360w,{%- endif -%}
-                        {%- if current_variant.image.width >= 533 -%}{{ current_variant.image | image_url: width: 533 }} 533w,{%- endif -%}
-                    "
-                    src="{{ current_variant.image | image_url: width: 50 }}"
+                    src="{{ current_variant.image | image_url }}"
 
                     sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | minus: 150 | divided_by: 4 }}px, (min-width: 768px) calc((100vw - 130px) / 2), 50vw"
                     loading="lazy"
@@ -61,11 +57,7 @@
                 >
                 {%- if settings.show_secondary_image and secondaryImage -%}
                     <img
-                        srcset="
-                            {%- if secondaryImage.width >= 360 -%}{{ secondaryImage | image_url: width: 360 }} 360w,{%- endif -%}
-                            {%- if secondaryImage.width >= 533 -%}{{ secondaryImage | image_url: width: 533 }} 533w,{%- endif -%}
-                        "
-                        src="{{ secondaryImage | image_url: width: 50 }}"
+                        src="{{ secondaryImage | image_url }}"
 
                         sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | minus: 150 | divided_by: 4 }}px, (min-width: 768px) calc((100vw - 130px) / 2), 50vw"
 
@@ -81,11 +73,7 @@
         {% elsif product.featured_image.size > 0 %}
             <a href="{{ product.url | within: collection }}" class="d-block product-link">
                 <img
-                    srcset="
-                        {%- if product.featured_image.width >= 360 -%}{{ product.featured_image | image_url: width: 360 }} 360w,{%- endif -%}
-                        {%- if product.featured_image.width >= 533 -%}{{ product.featured_image | image_url: width: 533 }} 533w,{%- endif -%}
-                    "
-                    src="{{ product.featured_image | image_url: width: 50 }}"
+                    src="{{ product.featured_image | image_url }}"
 
                     sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | minus: 150 | divided_by: 4 }}px, (min-width: 768px) calc((100vw - 130px) / 2), 50vw"
                     loading="lazy"
@@ -97,10 +85,6 @@
 
                 {%- if settings.show_secondary_image and product.images[1] -%}
                     <img
-                        srcset="
-                            {%- if product.images[1].width >= 360 -%}{{ product.images[1] | image_url: width: 360 }} 360w,{%- endif -%}
-                            {%- if product.images[1].width >= 533 -%}{{ product.images[1] | image_url: width: 533 }} 533w,{%- endif -%}
-                        "
                         src="{{ product.images[1] | image_url: width: 50 }}"
                         sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width | minus: 150 | divided_by: 4 }}px, (min-width: 768px) calc((100vw - 130px) / 2), 50vw"
                         loading="lazy"
