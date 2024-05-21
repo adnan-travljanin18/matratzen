@@ -158,7 +158,7 @@
                             <!-- Nav Slider functionality is not available directly. Custom Set up for Nav -->
                             {% if product.images.size > 1 %}
                                 <div
-                                    class="swiper-container  {% if section.settings.template_type == 'classic-vertical' %}col-md-2 order-md-1{% endif %}"
+                                    class="d-none d-md-block swiper-container  {% if section.settings.template_type == 'classic-vertical' %}col-md-2 order-md-1{% endif %}"
                                     data-thumbSlider
                                     data-direction="{% if section.settings.template_type == 'classic-vertical' %}vertical{% else %}horizontal{% endif %}"
                                 >
