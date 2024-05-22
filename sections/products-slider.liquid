@@ -135,14 +135,14 @@
         <div class="row d-flex justify-content-between mx-sm-5 pb-xs-sm-8">
             <div class="col-10 d-block d-md-none mx-auto p-0 text-end">
                 {% if section.settings['products-slider-button-text'] != blank %}
-                    <button
+                    <a
                         {% if section.settings['products-slider-button-link'] %}
                             href="{{ section.settings.products-slider-button-link }}"
                         {% endif %}
                         class="btn btn{% if section.settings.btn_type == 'outline' %}-{% endif %}{{ section.settings.btn_type }}-{{ section.settings.btn_variant }} col-12 products-slider-button text-capitalize letter-spacing-normal"
                     >
                         {{ section.settings['products-slider-button-text'] }}
-                    </button>
+                    </a>
                 {% endif %}
             </div>
         </div>
