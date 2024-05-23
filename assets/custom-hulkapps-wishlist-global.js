@@ -4912,9 +4912,6 @@ var hulkWishlistPublic = (function () {
   };
 })();
 
-window.addEventListener("load", function (event) {
-  HulkappWishlist.init();
-  setTimeout(function () {
-    HulkappWishlist._loadCustomJs();
-  }, 2000);
-});
+window.customHulkAw = HulkappWishlist;
+  window.customHulkAw.init();
+  setTimeout(function() {  window.customHulkAw._loadCustomJs(); }, 2000);
