@@ -205,7 +205,6 @@ class CollectionFilters extends HTMLElement {
     this.renderGridFromFetch(url, 'filter');
 
     if (updateURLHash) this.updateURLHash(searchParams);
-      setTimeout(function() {window.customHulkAw.init();}, 800);
 
   }
 
@@ -222,7 +221,6 @@ class CollectionFilters extends HTMLElement {
         const html = responseText;
         this.renderProductGrid(html, type);
       });
-      setTimeout(function() {window.customHulkAw.init();}, 800);
 
   }
 
