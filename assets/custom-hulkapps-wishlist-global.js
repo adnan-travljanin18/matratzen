@@ -1825,37 +1825,7 @@ var HulkappWishlist = {
                     wishlist_ids: wishListIDs,
                     type: 'web',
                 };
-                _XMLHttpRequest: function (
-    type,
-    URL,
-    data,
-    domain = null,
-    customerID = null,
-    callback
-  ) {
-    const script = document.createElement("script");
-    script.src =
-      "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js";
-    let newDataRequest = new XMLHttpRequest();
-    newDataRequest.open(type, URL, true);
-    newDataRequest.setRequestHeader("Accept", "application/json");
-    newDataRequest.setRequestHeader("Content-Type", "application/json");
-    script.onload = function () {
-      newDataRequest.setRequestHeader(
-        "Encrypt-token",
-        btoa(CryptoJS.SHA256(domain + customerID).toString())
-      );
-      if (type == "GET") {
-        newDataRequest.send();
-      } else {
-        newDataRequest.send(JSON.stringify(data));
-      }
-    };
-    newDataRequest.onload = function () {
-      callback(newDataRequest.status, this.response);
-    };
-    document.head.appendChild(script);
-  }
+              
                 HulkappWishlist._XMLHttpRequest('POST', shopURL, data, function(status, response){
                     let requestResponse = JSON.parse(response);
                     if(status == 200){
