@@ -25,7 +25,11 @@
                         class="wishlist-hero-custom-button"
                         style="text-align: end;"
                     >
-             
+                        {% render 'hulkapps-wishlist-collection-btn',
+                            productId: product.id,
+                            variantId: product.selected_or_first_available_variant.id,
+                            buttonClass: 'wishlisthero-floating'
+                        %}
                     </div>
                 {% elsif settings.no_image_replacement != blank %}
                     <img
@@ -48,7 +52,11 @@
                         class="wishlist-hero-custom-button"
                         style="text-align: end;"
                     >
-                 
+                        {% render 'hulkapps-wishlist-collection-btn',
+                            productId: product.id,
+                            variantId: product.selected_or_first_available_variant.id,
+                            buttonClass: 'wishlisthero-floating'
+                        %}
                     </div>
                 {% else %}
                     {{ 'product-' | append: current | placeholder_svg_tag: 'img-fluid' }}
@@ -56,7 +64,11 @@
                         class="wishlist-hero-custom-button"
                         style="text-align: end;"
                     >
-                
+                        {% render 'hulkapps-wishlist-collection-btn',
+                            productId: product.id,
+                            variantId: product.selected_or_first_available_variant.id,
+                            buttonClass: 'wishlisthero-floating'
+                        %}
                     </div>
                 {% endif %}
             {% else %}
