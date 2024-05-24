@@ -295,6 +295,8 @@ class CollectionFilters extends HTMLElement {
     if(activeFilters) document.querySelector('[data-activeFilters]').innerHTML = activeFilters.innerHTML;
     this.bindActiveFilterButtonEvents();
     if(this.quickshop){this.quickshop.updateEvents();}
+      setTimeout(function() {window.customHulkAw.init();}, 800);
+
   }
 
   /**
