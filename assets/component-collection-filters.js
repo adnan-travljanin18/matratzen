@@ -221,6 +221,7 @@ class CollectionFilters extends HTMLElement {
       .then((responseText) => {
         const html = responseText;
         this.renderProductGrid(html, type);
+              setTimeout(function() {window.customHulkAw.init();}, 800);
       });
       setTimeout(function() {window.customHulkAw.init();}, 800);
 
