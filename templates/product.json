@@ -88,8 +88,7 @@
         "related-products"
       ],
       "custom_css": [
-        ".list-unstyled {gap: 1rem;}",
-        ".overflow-x-hidden {overflow-x: hidden;}"
+        "@media only screen and (max-width: 992px) {.icon-description-block-1 {display: none; }}"
       ],
       "settings": {
         "template_type": "classic-vertical",
