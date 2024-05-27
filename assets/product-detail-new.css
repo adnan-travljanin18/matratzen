@@ -23,12 +23,12 @@
     position: absolute;
     top: 50%;
 }
-.product-section slider-element .slider-navigation-wrapper .swiper-button-next {
+.product-section slider-element .slider-navigation-wrapper .swiper-button-next, .swiper-button-next-popup {
     top: 0;
     transform: unset;
     right: 20px;
 }
-.product-section slider-element .slider-navigation-wrapper .swiper-button-prev {
+.product-section slider-element .slider-navigation-wrapper .swiper-button-prev, .swiper-button-prev-popup {
     top: 0;
     transform: unset;
     left: 20px;

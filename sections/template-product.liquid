@@ -1,20 +1,40 @@
 <style>
-    /* Magnifying glass container */
-    .img-magnifier-container {
+    .image-popup-modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color:#151E28;
+    }
+    .swiper-popup {
         position: relative;
-        cursor: none;
+        z-index: 0;
     }
 
-    /* Magnifying glass icon */
-    .img-magnifier-glass {
+    .image-popup-modal-content {
+        margin: auto;
+        display: block;
+    }
+
+    .image-popup-close {
         position: absolute;
-        border: 3px solid #131e27;
-        border-radius: 50%;
-        cursor: none;
-        width: 15rem; /* Set the size of the magnifying glass */
-        height: 15rem;
-        pointer-events: none; /* Make sure magnifying glass does not interfere with mouse events on the image */
-        display: none; /* Initially hidden */
+        z-index: 1;
+        top: 15px;
+        right: 35px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .image-popup-close:hover,
+    .image-popup-close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
     }
     .metafield-rich_text_field ul {
         padding-left: 1rem !important;
@@ -39,7 +59,44 @@
     .swiper-pagination-bullet-active {
         background: #263238;
     }
+    .zoom-button {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.zoom-button:hover {
+    background-color: #ddd;
+}
+.zoom-button[disabled] {
+    background-color: #f2f2f2;
+    cursor: no-drop;
+}
 </style>
+<div id="imagePopupModal" class="image-popup-modal">
+    <span class="image-popup-close">&times;</span>
+    <div class="swiper-container swiper-popup">
+        <div class="swiper-wrapper">
+            <!-- Dynamic content will be inserted here -->
+        </div>
+        <div class="swiper-button-prev swiper-button-prev-popup"></div>
+        <div class="swiper-button-next swiper-button-next-popup"></div>
+        <div class="d-flex justify-content-center">
+            <button id="zoomOutButton" class="zoom-button">{% render 'minus-image' %}</button>
+            <button id="zoomInButton" class="zoom-button">{% render 'plus-image' %}</button>
+        </div>
+    </div>
+</div>
+
 <div
     data-section-id="{{ section.id }}"
     data-template="product"
@@ -104,7 +161,7 @@
                                                     role="treeitem"
                                                 >
                                                     <div
-                                                        class="swiper-zoom-container img-magnifier-container"
+                                                        class="swiper-zoom-container"
                                                     >
                                                         <img
                                                             id="myimage"
@@ -380,95 +437,113 @@
         }
     });
 </script>
+
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        // Function to initialize magnifying glass for a specific image
-        function initializeMagnifier(img) {
-            // Create a magnifying glass element
-            var glass = document.createElement('div');
-            glass.className = 'img-magnifier-glass';
-            img.parentElement.insertBefore(glass, img.nextSibling);
+    const images = document.querySelectorAll('.product--media img');
+    const modal = document.getElementById('imagePopupModal');
+    const closeModal = document.querySelector('.image-popup-close');
+    const popupSwiperContainer = modal.querySelector('.swiper-container .swiper-wrapper');
+    const zoomInButton = document.getElementById('zoomInButton');
+    const zoomOutButton = document.getElementById('zoomOutButton');
 
-            // Set background image of magnifying glass to be the same as the image
-            glass.style.backgroundImage = "url('" + img.src + "')";
+    let popupSwiper;
+    let currentZoom = 1;
 
-            // Set background size and position to match the image size
-            glass.style.backgroundSize = img.width * 2.2 + 'px ' + img.height * 2.2 + 'px';
-            glass.style.backgroundPosition = 'center';
+    // Initialize Swiper instance
+    popupSwiper = new Swiper('.swiper-popup', {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 15,
+        grabCursor: true,
+        navigation: {
+            nextEl: '.swiper-button-next-popup',
+            prevEl: '.swiper-button-prev-popup'
+        },
+        pagination: {
+            el: '.swiper-pagination-popup',
+            clickable: true,
+            bulletClass: 'swiper-pagination-bullet-popup',
+            bulletActiveClass: 'swiper-pagination-bullet-active-popup'
+        },
+    });
 
-            function moveMagnifier(e) {
-                // Calculate the position of the magnifying glass
-                var pos = getCursorPos(e);
-                var x = pos.x - glass.offsetWidth / 2.2;
-                var y = pos.y - glass.offsetHeight / 2.2;
+    function openPopup(index) {
+        popupSwiper.removeAllSlides(); // Clear existing slides
 
-                // Calculate the background position to center the zoomed content with the cursor
-                var bgPosX = (pos.x - img.offsetLeft) * 2.2 - glass.offsetWidth / 2.2;
-                var bgPosY = (pos.y - img.offsetTop) * 2.2 - glass.offsetHeight / 2.2;
+        images.forEach((img, idx) => {
+            const slide = document.createElement('div');
+            slide.className = 'swiper-slide';
+            slide.innerHTML = `<img src="${img.src}" alt="${img.alt}" class="image-popup-modal-content">`;
+            popupSwiper.appendSlide(slide); // Add slide to Swiper instance
+        });
 
-                // Prevent the magnifying glass from being positioned outside the image
-                if (x < 0) {
-                    x = 0;
-                    bgPosX = 0;
-                }
-                if (x > img.width - glass.offsetWidth) {
-                    x = img.width - glass.offsetWidth;
-                    bgPosX = img.width * 2 - glass.offsetWidth;
-                }
-                if (y < 0) {
-                    y = 0;
-                    bgPosY = 0;
-                }
-                if (y > img.height - glass.offsetHeight) {
-                    y = img.height - glass.offsetHeight;
-                    bgPosY = img.height * 2 - glass.offsetHeight;
-                }
+        popupSwiper.slideTo(index, 0, false);
+        modal.style.display = 'block';
 
-                // Set the position of the magnifying glass
-                glass.style.left = x + img.offsetLeft + 'px';
-                glass.style.top = y + img.offsetTop + 'px';
+        // Reset zoom level and button states
+        currentZoom = 1;
+        zoomInButton.disabled = false;
+        zoomOutButton.disabled = true;
+    }
 
-                // Set background position of the magnifying glass to center zoomed content with the cursor
-                glass.style.backgroundPosition = '-' + bgPosX + 'px -' + bgPosY + 'px';
-            }
-
-            // Function to get the cursor position
-            function getCursorPos(e) {
-                var a,
-                    x = 0,
-                    y = 0;
-                e = e || window.event;
-
-                // Get the x and y positions of the image
-                a = img.getBoundingClientRect();
-
-                // Calculate the cursor's x and y coordinates relative to the image
-                x = e.pageX - a.left;
-                y = e.pageY - a.top;
-
-                // Consider any page scrolling
-                x = x - window.pageXOffset;
-                y = y - window.pageYOffset;
-                return { x: x, y: y };
-            }
-
-            // Add event listeners for mousemove and mouseout to show and hide the magnifying glass
-            img.addEventListener('mousemove', function (e) {
-                moveMagnifier(e);
-                glass.style.display = 'block';
-            });
-
-            img.addEventListener('mouseout', function () {
-                glass.style.display = 'none';
-            });
-        }
-
-        // Find all images with the id "myimage" and initialize magnifying glass for each of them
-        var images = document.querySelectorAll('#myimage');
-        images.forEach(function (img) {
-            initializeMagnifier(img);
+    images.forEach((img, index) => {
+        img.addEventListener('click', function () {
+            openPopup(index);
         });
     });
+
+    closeModal.addEventListener('click', function () {
+        modal.style.display = 'none';
+        resetZoom();
+    });
+
+    window.addEventListener('click', function (event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+            resetZoom();
+        }
+    });
+
+    function zoomImage(scale) {
+        const currentImage = document.querySelector('.swiper-slide-active img');
+        if (currentImage) {
+            currentZoom = scale;
+            currentImage.style.transform = `scale(${currentZoom})`;
+
+            // Update button states based on currentZoom
+            if (currentZoom >= 2) {
+                zoomInButton.disabled = true;
+            } else {
+                zoomInButton.disabled = false;
+            }
+
+            if (currentZoom <= 1) {
+                zoomOutButton.disabled = true;
+            } else {
+                zoomOutButton.disabled = false;
+            }
+        }
+    }
+
+    function resetZoom() {
+        currentZoom = 1;
+        const images = document.querySelectorAll('.image-popup-modal-content');
+        images.forEach(img => {
+            img.style.transform = 'scale(1)';
+        });
+        zoomInButton.disabled = false;
+        zoomOutButton.disabled = true;
+    }
+
+    zoomInButton.addEventListener('click', function () {
+        zoomImage(2);
+    });
+
+    zoomOutButton.addEventListener('click', function () {
+        zoomImage(1);
+    });
+});
 </script>
 
 {% schema %}

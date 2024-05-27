@@ -128,13 +128,17 @@
     display: none;
 }
 .template-product.swiper-button-next,
-.template-product.swiper-button-prev {
+.template-product.swiper-button-prev,
+.swiper-button-next-popup,
+.swiper-button-prev-popup {
     background-color: #fff; 
-    height: 3rem;
-    width: 3rem;
+    height: 3rem!important;
+    width: 3rem!important;
 }
 .template-product.swiper-button-next::after,
-.template-product.swiper-button-prev::after {
+.template-product.swiper-button-prev::after,
+.swiper-button-next-popup::after,
+.swiper-button-prev-popup::after {
     color: rgba(144, 164, 174, 1); 
 }
 
