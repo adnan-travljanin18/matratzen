@@ -47,6 +47,12 @@
             "enable_layer_slider": true
           }
         },
+        "icon_description_pWiiXV": {
+          "type": "icon-description",
+          "settings": {
+            "enable_icon_description": true
+          }
+        },
         "product-tabs": {
           "type": "product-tabs",
           "settings": {
@@ -84,6 +90,7 @@
         "e53b8574-dd34-4eca-8c40-ac20d2e38598",
         "icon_description_WNcpKN",
         "layer_slider_tCXKDe",
+        "icon_description_pWiiXV",
         "product-tabs",
         "related-products"
       ],
