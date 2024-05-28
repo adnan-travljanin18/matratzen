@@ -420,6 +420,10 @@
                     if block.settings.enable_icon_description
                         render 'block-product-icon-description', block: block
                     endif
+                when 'icon-description-mobile'
+                    if block.settings.enable_icon_description
+                        render 'block-product-icon-description-mobile', block: block
+                    endif
 
                 when 'related-products'
                     if block.settings.enable_related_products
@@ -796,11 +800,23 @@
         {
             "type": "icon-description",
             "name": "Icon Description",
-            "limit": 2,
+            "limit": 1,
             "settings": [
                 {
                     "type": "checkbox",
                     "id": "enable_icon_description",
+                    "label": "Enable Custom Icons & Description"
+                }
+            ]
+        },
+        {
+            "type": "icon-description-mobile",
+            "name": "Icon Description Mobile",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "checkbox",
+                    "id": "enable_icon_description_mobile",
                     "label": "Enable Custom Icons & Description"
                 }
             ]
