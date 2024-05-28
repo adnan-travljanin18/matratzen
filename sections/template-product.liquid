@@ -90,16 +90,16 @@
 </style>
 <div id="imagePopupModal" class="image-popup-modal">
     <span class="image-popup-close">&times;</span>
+    <div style="top: 15px; left: 15px;" class="position-absolute d-flex justify-content-center">
+            <button id="zoomOutButton" class="zoom-button">{% render 'minus-image' %}</button>
+            <button id="zoomInButton" class="zoom-button">{% render 'plus-image' %}</button>
+        </div>
     <div class="swiper-container swiper-popup">
         <div class="swiper-wrapper">
             <!-- Dynamic content will be inserted here -->
         </div>
         <div class="swiper-button-prev swiper-button-prev-popup"></div>
         <div class="swiper-button-next swiper-button-next-popup"></div>
-        <div class="d-flex justify-content-center">
-            <button id="zoomOutButton" class="zoom-button">{% render 'minus-image' %}</button>
-            <button id="zoomInButton" class="zoom-button">{% render 'plus-image' %}</button>
-        </div>
     </div>
 </div>
 
