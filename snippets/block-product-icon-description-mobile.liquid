@@ -1,7 +1,7 @@
 {% if block.settings.enable_icon_description_mobile %}
-<section class="d-lg-none overflow-hidden section-content icon-description-block{% if product.metafields.custom.product_icon_description == null %} d-none {% endif %}">
+<section class="d-lg-none overflow-hidden section-content icon-description-block-mobile{% if product.metafields.custom.product_icon_description == null %} d-none {% endif %}">
         <div class="container">
-            <div class="icon-swiper-container position-relative">
+            <div class="icon-swiper-container-mobile position-relative">
                 <div class="swiper-wrapper">
                     {% assign icons = product.metafields.custom.product_icon_description.value %}
                     {% for metaobject in icons %}
@@ -24,20 +24,20 @@
 {% endif %}
 
 <style>
-.icon-description-block h3, .icon-description-block p {
+.icon-description-block-mobile h3, .icon-description-block-mobile p {
     font-family: 'Urbanist';
 }
-.icon-description-block h3 {
+.icon-description-block-mobile h3 {
     color: #25314C;
 }
-.icon-description-block p {
+.icon-description-block-mobile p {
     color: #777B85;
 }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    var swiper = new Swiper('.icon-swiper-container', {
+    var swiper = new Swiper('.icon-swiper-container-mobile', {
         autoplay: true,
         slidesPerView: 1,
         spaceBetween: 30,
