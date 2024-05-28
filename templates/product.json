@@ -47,10 +47,10 @@
             "enable_layer_slider": true
           }
         },
-        "icon_description_pWiiXV": {
-          "type": "icon-description",
+        "icon_description_mobile_tqnLay": {
+          "type": "icon-description-mobile",
           "settings": {
-            "enable_icon_description": true
+            "enable_icon_description_mobile": true
           }
         },
         "product-tabs": {
@@ -90,7 +90,7 @@
         "e53b8574-dd34-4eca-8c40-ac20d2e38598",
         "icon_description_WNcpKN",
         "layer_slider_tCXKDe",
-        "icon_description_pWiiXV",
+        "icon_description_mobile_tqnLay",
         "product-tabs",
         "related-products"
       ],
