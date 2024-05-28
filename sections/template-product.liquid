@@ -484,7 +484,7 @@
 
         images.forEach((img, idx) => {
             const slide = document.createElement('div');
-            slide.className = 'swiper-slide';
+            slide.className = 'swiper-slide align-self-center';
             slide.innerHTML = `<img src="${img.src}" alt="${img.alt}" class="image-popup-modal-content">`;
             popupSwiper.appendSlide(slide); // Add slide to Swiper instance
         });
