@@ -211,6 +211,59 @@
         "alignment": "text-left"
       }
     },
+    "badges_section_fdJjfH": {
+      "type": "badges-section",
+      "blocks": {
+        "featured_collection_C6Ytgp": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png"
+          }
+        },
+        "featured_collection_xULUX3": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png"
+          }
+        },
+        "featured_collection_zynecT": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png"
+          }
+        },
+        "featured_collection_JUzfaB": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png"
+          }
+        },
+        "featured_collection_G6jDxt": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png"
+          }
+        },
+        "featured_collection_4xk4tA": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_C6Ytgp",
+        "featured_collection_xULUX3",
+        "featured_collection_zynecT",
+        "featured_collection_JUzfaB",
+        "featured_collection_G6jDxt",
+        "featured_collection_4xk4tA"
+      ],
+      "settings": {
+        "badge_heading": "Anerkannt und bewährt in der Industrie",
+        "badge_paragraph": "Sicherheit, Vertrauen und Schutz von innen."
+      }
+    },
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5": {
       "type": "global-info-slider",
       "blocks": {
@@ -296,6 +349,7 @@
     "custom_accordion_T6Tqr6",
     "blogs_slider_8MkkA7",
     "add57642-99b3-450a-b701-2c83862dbaa4",
+    "badges_section_fdJjfH",
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
     "subscribe_section_T8fVwj",
     "interview_video_mAHyVn"
