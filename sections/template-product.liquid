@@ -426,6 +426,11 @@
                         render 'block-product-icon-description-mobile', block: block
                     endif
 
+                when 'badge-slider'
+                    if block.settings.enable_badge_slider
+                        render 'block-product-badge-slider', block: block
+                    endif
+
                 when 'related-products'
                     if block.settings.enable_related_products
                         render 'block-related-products', block: block
@@ -819,6 +824,73 @@
                     "type": "checkbox",
                     "id": "enable_icon_description_mobile",
                     "label": "Enable Custom Icons & Description Mobile"
+                }
+            ]
+        },
+        {
+            "type": "badge-slider",
+            "name": "Badge Slider",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "checkbox",
+                    "id": "enable_badge_slider",
+                    "label": "Enable Badge Slider"
+                },
+                {
+                    "type": "text",
+                    "id": "badge_heading",
+                    "label": "Write Badge Heading Here"
+                },
+                {
+                    "type": "text",
+                    "id": "badge_paragraph",
+                    "label": "Write Badge Text Here"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image1",
+                    "label": "Insert Badge Here"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image2",
+                    "label": "Insert Badge Here"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image3",
+                    "label": "Insert Badge Here"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image4",
+                    "label": "Insert Badge Here"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image5",
+                    "label": "Insert Badge Here"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image6",
+                    "label": "Insert Badge Here"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image7",
+                    "label": "Insert Badge Here"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image8",
+                    "label": "Insert Badge Here"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image9",
+                    "label": "Insert Badge Here"
                 }
             ]
         }

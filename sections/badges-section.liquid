@@ -1,0 +1,81 @@
+<section class="section-content border-top border-bottom border-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-10 col-lg-5 pb-5 pb-lg-0 mx-auto text-center text-lg-start badge-text">
+                <h2 class="mb-4 badge-heading">{{ section.settings.badge_heading }}</h2>
+                <p class="badge-paragraph">{{ section.settings.badge_paragraph }}</p>
+            </div>
+            <div class="col-12 col-lg-7">
+                <div class="badge-slider swiper-container overflow-hidden">
+                    <div class="swiper-wrapper">
+                        {% for block in section.blocks %}
+                        <div class="swiper-slide d-flex justify-content-center">
+                            <img src="{{ block.settings.image | image_url }}" alt="Badge Image">
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.badge-slider', {
+            slidesPerView: 2,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: true
+            },
+            breakpoints: {
+                575: {
+                    slidesPerView: 4
+                },
+                768: {
+                    slidesPerView: 5
+                },
+                992: {
+                    slidesPerView: 4
+                }
+            }
+        });
+    });
+</script>
+
+{% schema %}
+    {
+        "name": "Badge Slider",
+        "class": "badge-slider-section",
+        "settings": [
+            {
+                "type": "text",
+                "id": "badge_heading",
+                "label": "Write Badge Heading Here"
+            },
+            {
+                "type": "text",
+                "id": "badge_paragraph",
+                "label": "Write Badge Text Here"
+            }
+        ],
+        "blocks": [
+        {
+            "name": "Badge Slide",
+            "type": "featured_collection",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Insert Badge Here"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Badge Slider"
+        }
+    ]
+    }
+{% endschema %}
