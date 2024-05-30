@@ -44,8 +44,8 @@
         "btn_variant": "white",
         "btn_size": "",
         "poster_type": "video",
-        "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0c232487e0ce4124b62dba2a844f57a9.mp4",
-        "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0c232487e0ce4124b62dba2a844f57a9.mp4",
+        "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a76c0e9bbb614043871fba8d14f9b030.mp4",
+        "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a76c0e9bbb614043871fba8d14f9b030.mp4",
         "fluid_video_layout": true,
         "video_type": "local",
         "placement": "grid",
@@ -275,7 +275,9 @@
         "button-text": "Jetzt abonnieren",
         "image": "shopify:\/\/shop_images\/Stay_in_the_Loop.png",
         "heading_txt": "Subscribe image",
-        "section_bg_color": "#fcfbf9"
+        "section_bg_color": "#fcfbf9",
+        "review_heading": "",
+        "review_text": ""
       }
     }
   },
