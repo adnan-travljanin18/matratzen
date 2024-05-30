@@ -275,9 +275,17 @@
         "button-text": "Jetzt abonnieren",
         "image": "shopify:\/\/shop_images\/Stay_in_the_Loop.png",
         "heading_txt": "Subscribe image",
-        "section_bg_color": "#fcfbf9",
-        "review_heading": "",
-        "review_text": ""
+        "section_bg_color": "#fcfbf9"
+      }
+    },
+    "interview_video_mAHyVn": {
+      "type": "interview-video",
+      "settings": {
+        "review_heading": "Was unsere Kunden sagen",
+        "review_text": "Entdecken Sie, warum unsere Kunden unsere Produkte und Dienstleistungen lieben. Lesen Sie ihre Erfahrungsberichte und erfahren Sie, wie wir ihr Leben verändert haben.",
+        "interview_heading": "Das Interview ansehen",
+        "interview_text": "Entdecken Sie einzigartige Einblicke von Ajla Jusic, CEO @Serenity Bett GmbH, in diesem spannenden Interview über Serenity.",
+        "interview_video": "shopify:\/\/files\/videos\/Serenity_intervju_captions.mp4"
       }
     }
   },
@@ -289,6 +297,7 @@
     "blogs_slider_8MkkA7",
     "add57642-99b3-450a-b701-2c83862dbaa4",
     "5463b940-fa41-47d7-909f-6aa8aab0b3c5",
-    "subscribe_section_T8fVwj"
+    "subscribe_section_T8fVwj",
+    "interview_video_mAHyVn"
   ]
 }
