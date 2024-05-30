@@ -67,6 +67,20 @@
             "tab_2_content": "<p>Test tes test<\/p>"
           }
         },
+        "badge_slider_pUJP8J": {
+          "type": "badge-slider",
+          "settings": {
+            "enable_badge_slider": true,
+            "badge_heading": "Anerkannt und bewährt in der Industrie",
+            "badge_paragraph": "Sicherheit, Vertrauen und Schutz von innen.",
+            "image1": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png",
+            "image2": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png",
+            "image3": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png",
+            "image4": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png",
+            "image5": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png",
+            "image6": "shopify:\/\/shop_images\/OEKO_100_Monochromatic.png"
+          }
+        },
         "related-products": {
           "type": "related-products",
           "settings": {
@@ -92,6 +106,7 @@
         "layer_slider_tCXKDe",
         "icon_description_mobile_tqnLay",
         "product-tabs",
+        "badge_slider_pUJP8J",
         "related-products"
       ],
       "custom_css": [
