@@ -272,8 +272,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/layer-group.png",
             "slider_title": "Hergestellt in Deutchland",
-            "icon-checkbox": true,
-            "slider_text_one": "BODYGUARD ® Entwickelt in Deutschland.",
+            "icon-checkbox": false,
+            "slider_text_one": "Alle Serenity-Matratzen werden in Deutschland und in der EU aus hochwertigen und zertifizierten Rohstoffen hergestellt und produziert.",
             "slider_text_two": "Kern geschäumt in Deutschland.",
             "slider_text_three": "In Europa und Deutschland gesägtes Deckblatt.",
             "slider_text_four": "Zu 100 % in Deutschland fertiggestellt."
