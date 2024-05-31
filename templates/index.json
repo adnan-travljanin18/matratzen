@@ -284,8 +284,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/bed-front.png",
             "slider_title": "2 in 1 Matratze",
-            "icon-checkbox": true,
-            "slider_text_one": "Eine Matratze. Zwei Seiten.",
+            "icon-checkbox": false,
+            "slider_text_one": "Serenity-Matratzen sind 2-in-1-Matratzen, die Sie umdrehen können, um eine andere Art von Unterstützung zu erhalten.",
             "slider_text_two": "Getestet für 100 Nächte.",
             "slider_text_three": "Möchten Sie lieber schlafen? Weicher oder fester?",
             "slider_text_four": "Finden Sie es heraus. In Frieden."
