@@ -110,7 +110,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: radial-gradient(circle at 75% 25%, #1c375980, #1c365880, #1c365880, #21241e80, #131a2380, #0d1e2780, #0d1e2780);
+    background: radial-gradient(circle at 75% 25%, #1c37594d, #1c36584d, #1c36584d, #21241e4d, #131a234d, #0d1e274d, #0d1e274d);
 }
 .top-positioning {
     top: 60vh;
