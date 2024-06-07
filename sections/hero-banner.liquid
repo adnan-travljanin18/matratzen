@@ -203,13 +203,13 @@
                                             {{ 'onboarding.collection_title' | t }}
                                         {%- endif -%}
                                     </h2>
-                                    <h4 class="mb-3 mb-lg-5 collection-slider-h4">
+                                    {% comment %} <h4 class="mb-3 mb-lg-5 collection-slider-h4">
                                         {%- if block.settings.collection.description != blank -%}
                                             {{- block.settings.collection.description | escape -}}
                                         {%- else -%}
                                             {{ 'onboarding.collection_title' | t }}
                                         {%- endif -%}
-                                    </h4>
+                                    </h4> {% endcomment %}
                                     {% if block.settings.btn_text != blank %}
                                         <a class="letter-wider" href="{{ block.settings.collection.url }}">
                                             <span>
