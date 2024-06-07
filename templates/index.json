@@ -192,7 +192,7 @@
       ],
       "settings": {
         "heading": "Lesen Sie unsere neuesten Nachrichten",
-        "description": "Entdecken Sie unsere aktuelle Kollektion an Kleidung, Schuhen und Accessoires, die für jeden Anlass geeignet ist. Von Freizeitkleidung bis hin zu formeller Kleidung haben wir alles, was Sie brauchen, um Ihre Garderobe zu erneuern und im Trend zu bleiben.",
+        "description": "Entdecken Sie unsere neuesten Innovationenim Bereich Matratzen, Matratzenauflagen und Kindermatratzen! Tauchen Sie ein indas Reich der komfortablen Schlaflösungen und entdecken Sie unserePremium-Matratzen, die für einen erholsamen Schlaf sorgen. Bleiben Sie auf demLaufenden mit unseren neuesten Nachrichten und erfahren Sie, wie Sie IhreSchlafqualität mit Serenity verbessern können!",
         "section_text_color": "#ffffff"
       }
     },
@@ -272,11 +272,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/layer-group.png",
             "slider_title": "Hergestellt in Deutchland",
-            "icon-checkbox": false,
-            "slider_text_one": "Alle Serenity-Matratzen werden in Deutschland und in der EU aus hochwertigen und zertifizierten Rohstoffen hergestellt und produziert.",
-            "slider_text_two": "Kern geschäumt in Deutschland.",
-            "slider_text_three": "In Europa und Deutschland gesägtes Deckblatt.",
-            "slider_text_four": "Zu 100 % in Deutschland fertiggestellt."
+            "slider_text_one": "Alle Serenity-Matratzen werden in Deutschland und in der EU aus hochwertigen und zertifizierten Rohstoffen hergestellt und produziert."
           }
         },
         "info_slide_2in1_wkecWQ": {
@@ -284,11 +280,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/bed-front.png",
             "slider_title": "2 in 1 Matratze",
-            "icon-checkbox": false,
-            "slider_text_one": "Serenity-Matratzen sind 2-in-1-Matratzen, die Sie umdrehen können, um eine andere Art von Unterstützung zu erhalten.",
-            "slider_text_two": "Getestet für 100 Nächte.",
-            "slider_text_three": "Möchten Sie lieber schlafen? Weicher oder fester?",
-            "slider_text_four": "Finden Sie es heraus. In Frieden."
+            "slider_text_one": "Serenity-Matratzen sind 2-in-1-Matratzen, die Sie umdrehen können, um eine andere Art von Unterstützung zu erhalten."
           }
         },
         "info_slide_contact_gD7aPb": {
@@ -298,7 +290,6 @@
             "slider_title": "Service & Kontakt",
             "icon-checkbox": true,
             "slider_text_one": "Telefon: +49 30 7673172 72",
-            "slider_text_two": "Arbeitszeiten: Mo-Sa 08-22h",
             "slider_text_three": "Email:  kundenservice@serenitybett.de",
             "slider_text_four": "Adresse: Name der Straße, 71000, Germany"
           }
