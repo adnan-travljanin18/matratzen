@@ -278,48 +278,35 @@
                                                     id="filter_toggle_{{ filter.label | handleize }}"
                                                     data-type="content"
                                                 >
-                                                    <range-slider>
-                                                        <section id="range-slider" class="range-slider filter__item">
-                                                            <span class="rangeValues"></span>
-                                                            <input
-                                                                name="{{ filter.min_value.param_name }}"
-                                                                aria-label="Price min value filter range"
-                                                                id="Filter-{{ filter.label | escape }}-gte-{{ forloop.index }}"
-                                                                {%- if filter.min_value.value -%}
-                                                                    {%- if uses_comma_decimals -%}
-                                                                        value="{{ filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
-                                                                    {%- else -%}
-                                                                        value="{{ filter.min_value.value | money_without_currency | replace: ',', '' }}"
-                                                                    {% endif %}
-                                                                {% else %}
-                                                                    value="0"
-                                                                {%- endif -%}
-                                                                type="range"
-                                                                placeholder="0"
-                                                                min="0"
-                                                                max="{{ filter.range_max | money_without_currency | replace: ',', '' | plus: 0 | ceil }}"
-                                                            >
+                                                <range-slider>
+                                                    <section id="range-slider" class="range-slider filter__item">
+                                                        <span class="rangeValues"></span>
 
-                                                            <input
-                                                                name="{{ filter.max_value.param_name }}"
-                                                                aria-label="Price max value filter range"
-                                                                id="Filter-{{ filter.label | escape }}-lte-{{ forloop.index }}"
-                                                                {%- if filter.max_value.value -%}
-                                                                    {%- if uses_comma_decimals -%}
-                                                                        value="{{ filter.max_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
-                                                                    {%- else -%}
-                                                                        value="{{ filter.max_value.value | money_without_currency | replace: ',', '' }}"
-                                                                    {% endif %}
-                                                                {% else %}
-                                                                    value="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
-                                                                {%- endif -%}
-                                                                type="range"
-                                                                placeholder="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
-                                                                min="0"
-                                                                max="{{ filter.range_max | money_without_currency | replace: ',', '' | plus: 0 | ceil }}"
-                                                            >
-                                                        </section>
-                                                    </range-slider>
+                                                        <input
+                                                        name="{{ filter.min_value.param_name }}"
+                                                        aria-label="Price min value filter range"
+                                                        id="Filter-{{ filter.label | escape }}-gte-{{ forloop.index }}"
+                                                        value="{% if filter.min_value.value %}{{ filter.min_value.value | money_without_currency | divided_by: 100.0 | round: 2 }}{% else %}0{% endif %}"
+                                                        type="range"
+                                                        placeholder="0"
+                                                        min="0"
+                                                        max="{{ filter.range_max | divided_by: 100.0 | round: 2 }}"
+                                                        >
+
+                                                        <input
+                                                        name="{{ filter.max_value.param_name }}"
+                                                        aria-label="Price max value filter range"
+                                                        id="Filter-{{ filter.label | escape }}-lte-{{ forloop.index }}"
+                                                        value="{% if filter.max_value.value %}{{ filter.max_value.value | money_without_currency | divided_by: 100.0 | round: 2 }}{% else %}{{ filter.range_max | divided_by: 100.0 | round: 2 }}{% endif %}"
+                                                        type="range"
+                                                        placeholder="{{ filter.range_max | divided_by: 100.0 | round: 2 }}"
+                                                        min="0"
+                                                        max="{{ filter.range_max | divided_by: 100.0 | round: 2 }}"
+                                                        >
+                                                    </section>
+                                                </range-slider>
+
+
                                                 </div>
                                             </fieldset>
                                         </div>
