@@ -5,6 +5,9 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
     -webkit-appearance: none;
     margin: 0;
 }
+.shopify-policy__container {
+  margin-top: 20px;
+}
 .wishlist__product-img {
     padding-top: 90%!important;
 }
