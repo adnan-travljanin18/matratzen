@@ -34,6 +34,22 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 .hulk-sidebar-widget .heart-hulk-animation .icon-wishlist-heart-empty:before {
     margin: 0!important;
 }
+.shopify-cleanslate .IcgSIE7pEVZrlnAeRS6j, .shopify-cleanslate .DefhEHZZf4y32pvV7mZj {
+    border-radius: 50px!important;
+}
+.hulk-media-content {
+    transform: unset!important;
+    top: 15%!important;
+    left: 8px!important;
+    right: 0!important;
+    width: 90%!important;
+}
+.german-show-cart-btn, .dutch-show-cart-btn, .english-show-cart-btn {
+    display: none;
+}
+.german .german-show-cart-btn, .dutch .dutch-show-cart-btn, .english .english-show-cart-btn {
+    display: block;
+}
 .german .german-quiz, .dutch .dutch-quiz, .english .english-quiz {
     display: inline-block;
 }
@@ -496,6 +512,10 @@ Quiz Button
     
 }
 @media screen and (max-width: 767.98px) {
+    #AddAddress button {
+        width: 100%!important;
+        margin: 0.5rem 0;
+    }
     
 }
 @media screen and (min-width: 992px) {

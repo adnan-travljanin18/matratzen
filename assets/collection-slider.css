@@ -119,4 +119,8 @@
       bottom: var(--swiper-pagination-right, 0px) !important;
       gap: 1rem !important;
     }
+    .collection-slider-h2 {
+      text-align: center;
+      font-size: 1.5rem;
+    }
 }
