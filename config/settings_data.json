@@ -121,7 +121,7 @@
           "payment_icon_diners": false,
           "payment_icon_paypal": true,
           "payment_icon_applepay": true,
-          "payment_icon_amazonpay": true
+          "payment_icon_amazonpay": false
         }
       },
       "newsletter": {
