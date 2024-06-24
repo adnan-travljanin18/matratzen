@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "body_color": "#122230",
@@ -105,7 +114,7 @@
           "social_icon_youtube": false,
           "bottom_footer_linklist": "",
           "show_payment_icons": true,
-          "col_5_payment_heading": "Verfügbare Zahlungen",
+          "col_5_payment_heading": "Verfügbare Zahlmethoden",
           "payment_icon_visa": true,
           "payment_icon_mastercard": true,
           "payment_icon_ae": false,
