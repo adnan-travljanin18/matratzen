@@ -114,7 +114,7 @@
           "social_icon_youtube": false,
           "bottom_footer_linklist": "",
           "show_payment_icons": true,
-          "col_5_payment_heading": "Verfügbare Zahlmethoden",
+          "col_5_payment_heading": "Verfügbare Zahlungsmethoden",
           "payment_icon_visa": true,
           "payment_icon_mastercard": true,
           "payment_icon_ae": false,
