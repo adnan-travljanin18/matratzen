@@ -75,7 +75,7 @@
           "header_bg_color": "#131e27",
           "show_line_separator": false,
           "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/SERENITY_logo_final_02.png",
+          "logo": "shopify:\/\/shop_images\/SE_logo_white_3x_19190f9c-17bf-48af-adbe-6fbfd0bb44d4.png",
           "logo_width": 150,
           "menu": "main-menu"
         }
@@ -152,7 +152,7 @@
         "type": "mobile-nav-drawer",
         "settings": {
           "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/SERENITY_logo_final_02.png",
+          "logo": "shopify:\/\/shop_images\/SE_logo_white_3x_19190f9c-17bf-48af-adbe-6fbfd0bb44d4.png",
           "logo_width": 100,
           "main_menu_linklist": "main-menu",
           "mobilemenu_style": "slide-submenu",
