@@ -42,6 +42,7 @@
     "enable_swatches": false,
     "enable_quickshop": false,
     "enable_search_article": false,
+    "enable_search_page": false,
     "no_image_replacement": "shopify:\/\/shop_images\/mlouye-brick-macaron-s1.jpg",
     "product_exclude_tag_text": "hidden",
     "enable_custom_video": true,
