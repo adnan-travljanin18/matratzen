@@ -400,11 +400,12 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
       <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Function to fetch cart data
-  console.log('hi');
   function fetchCartData() {
     fetch('/cart.js')
       .then(response => response.json())
       .then(cart => {
+  console.log(cart);
+        
         // Extract item details from the cart data
         cart.items.forEach(item => {
           var product = {
