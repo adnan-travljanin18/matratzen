@@ -188,6 +188,11 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
     var productPrice = form.querySelector('input[name="price"]').value;
     var productQuantity = form.querySelector('input[name="quantity"]').value || 1;
     
+    console.log('Product Name:', productName);
+    console.log('Product ID:', productId);
+    console.log('Product Price:', productPrice);
+    console.log('Product Quantity:', productQuantity);
+
     // Push the form_submit event with the ecommerce data
     window.dataLayer.push({
         event: "form_submit",
@@ -213,10 +218,6 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
             priorityId: 4
         }
     });
-    console.log('Product Name:', title);
-    console.log('Product ID:', product_id);
-    console.log('Product Price:', price);
-    console.log('Product Quantity:', quantity);
 });
 </script>
 
