@@ -172,53 +172,59 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
 </script> -->
 
 <script>
-document.addEventListener('submit', function(event) {
-    var form = event.target;
-    
-    // Check if the form is for adding to the cart
-    if (form.action && form.action.includes('/cart/add')) {
-        event.preventDefault(); // Prevent the default form submission for testing
+(function() {
+    var originalOpen = XMLHttpRequest.prototype.open;
+    var originalSend = XMLHttpRequest.prototype.send;
 
-        var formData = new FormData(form);
-        var xhr = new XMLHttpRequest();
-        xhr.open('POST', form.action, true);
-        xhr.onload = function() {
-            if (xhr.status >= 200 && xhr.status < 300) {
-                var response = JSON.parse(xhr.responseText);
+    XMLHttpRequest.prototype.open = function(method, url) {
+        this.addEventListener('load', function() {
+            if (url.includes('/cart/add')) {
+                try {
+                    var response = JSON.parse(this.responseText);
+                    var items = response.items.map(function(item) {
+                        return {
+                            item_name: item.title,
+                            item_id: item.id,
+                            price: parseFloat(item.price),
+                            quantity: parseInt(item.quantity, 10)
+                        };
+                    });
 
-                var items = response.items.map(function(item) {
-                    return {
-                        item_name: item.title,
-                        item_id: item.id,
-                        price: parseFloat(item.price),
-                        quantity: parseInt(item.quantity, 10)
-                    };
-                });
+                    // Push the cart data to dataLayer
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
+                        event: "add_to_cart",
+                        ecommerce: {
+                            items: items
+                        },
+                        cart_total: response.items.reduce(function(total, item) {
+                            return total + parseFloat(item.price) * item.quantity;
+                        }, 0),
+                        cart_item_count: response.items.length
+                    });
 
-                // Push the data to dataLayer
-                window.dataLayer = window.dataLayer || [];
-                window.dataLayer.push({
-                    event: "form_submit",
-                    ecommerce: {
-                        items: items
-                    }
-                });
-
-                console.log('Added to Cart:', {
-                    items: items
-                });
-
-                // Optionally, submit the form after logging
-                form.submit(); // Uncomment this line to allow form submission after logging
-            } else {
-                console.error('Failed to add item to cart:', xhr.statusText);
+                    console.log('Cart Add Event:', {
+                        items: items,
+                        cart_total: response.items.reduce(function(total, item) {
+                            return total + parseFloat(item.price) * item.quantity;
+                        }, 0),
+                        cart_item_count: response.items.length
+                    });
+                } catch (e) {
+                    console.error('Error parsing cart add response:', e);
+                }
             }
-        };
+        });
 
-        xhr.send(formData);
-    }
-});
+        originalOpen.apply(this, arguments);
+    };
+
+    XMLHttpRequest.prototype.send = function() {
+        originalSend.apply(this, arguments);
+    };
+})();
 </script>
+
 
 </head>
 
