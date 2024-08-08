@@ -11,12 +11,14 @@
   gtag('config', 'G-9G16GNF2RJ');
 </script>
         <!-- Google Tag Manager -->
+
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WZG2ZFZK');</script>
 <!-- End Google Tag Manager -->
+{% render 'ultimate-datalayer' %}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -148,28 +150,6 @@ window.dataLayer.push({
 });
 {% endif %}
 </script>
-
-<!-- <script>
-document.querySelector('form[action="/cart/add"]').addEventListener('submit', function(event) {
-    window.dataLayer = window.dataLayer || [];
-    var form = event.target;
-    var productName = form.querySelector('input[name="title"]').value;
-    var productId = form.querySelector('input[name="id"]').value;
-    var productPrice = form.querySelector('input[name="price"]').value;
-    var productQuantity = form.querySelector('input[name="quantity"]').value || 1;
-    window.dataLayer.push({
-        event: 'add_to_cart',
-        ecommerce: {
-            items: [{
-                item_name: productName,
-                item_id: productId,
-                price: productPrice,
-                quantity: productQuantity
-            }]
-        }
-    });
-});
-</script> -->
 
 <script>
 (function() {
@@ -397,35 +377,6 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
             </script>
         {% endif %}
         {% render 'hulkappsWishlistPopup' %}
-      <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          function pushCartData() {
-            // Check if globalVariables and cart data are available
-            if (window.globalVariables && window.globalVariables.cart && window.globalVariables.cart.items) {
-              window.globalVariables.cart.items.forEach(function(item) {
-                var product = {
-                  'event': 'form_submit',
-                  'ecommerce': {
-                    'items': [{
-                      'product_name': item.product_title|| 'Unknown Product',
-                      'product_id': item.product_id,
-                      'price': item.price / 100,
-                      'quantity': item.quantity
-                    }]
-                window.dataLayer.push(product);
-                console.log(product);
-              });
-            }
-          }
-        
-          // Call pushCartData when appropriate (e.g., on add-to-cart button click)
-          document.addEventListener('click', function(event) {
-            if (event.target.closest('button.btn.btn-primary.btn-sm')) {
-              pushCartData();
-            }
-          });
-        });
-      </script>
        <script src="{{ 'custom-hulkapps-wishlist-global.js' | asset_url }}" defer>  </script>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZG2ZFZK"
