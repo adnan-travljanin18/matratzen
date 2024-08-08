@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script> -->
-
+<!-- 
 <script>
 document.querySelector('form[action="/cart/add"]').addEventListener('submit', function(event) {
     window.dataLayer = window.dataLayer || [];
@@ -219,7 +219,7 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
         }
     });
 });
-</script>
+</script> -->
 
 
 <!-- <script>
@@ -246,6 +246,48 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
         }
     });
 </script> -->
+<script>
+function fetchCartData() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://serenitybett.de/cart.js', true);
+    xhr.onload = function() {
+        if (xhr.status >= 200 && xhr.status < 300) {
+            var cartData = JSON.parse(xhr.responseText);
+            var items = cartData.items.map(function(item) {
+                return {
+                    item_name: item.title, // Make sure the title field is correct
+                    item_id: item.id,
+                    price: item.price / 100, // Adjust if necessary, e.g., price is in cents
+                    quantity: item.quantity
+                };
+            });
+
+            // Push the cart data to dataLayer
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                event: "cart_update",
+                ecommerce: {
+                    items: items
+                },
+                cart_total: cartData.total_price / 100, // Adjust if necessary
+                cart_item_count: cartData.item_count
+            });
+
+            console.log('Cart Data:', {
+                items: items,
+                cart_total: cartData.total_price / 100,
+                cart_item_count: cartData.item_count
+            });
+        } else {
+            console.error('Failed to fetch cart data:', xhr.statusText);
+        }
+    };
+    xhr.send();
+}
+
+// Fetch cart data when needed, e.g., on page load or after an action
+fetchCartData();
+</script>
   {% schema %}
   {
     "name": "t:sections.template-product.name",
