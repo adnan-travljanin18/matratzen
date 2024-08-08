@@ -402,10 +402,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Function to fetch cart data
   function fetchCartData() {
     fetch('/cart.js')
-      .then(response => response.json())
+      .then(response => console.log(response))
       .then(cart => {
-  console.log(cart);
-        
         // Extract item details from the cart data
         cart.items.forEach(item => {
           var product = {
