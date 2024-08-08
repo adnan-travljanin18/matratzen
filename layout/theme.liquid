@@ -398,33 +398,33 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
         {% endif %}
         {% render 'hulkappsWishlistPopup' %}
       <script>
-document.addEventListener('DOMContentLoaded', function() {
-  function pushCartData() {
-    // Check if globalVariables and cart data are available
-    if (window.globalVariables && window.globalVariables.cart && window.globalVariables.cart.items) {
-      window.globalVariables.cart.items.forEach(function(item) {
-        var product = {
-          'event': 'form_submit',
-          'ecommerce': {
-            'items': [{
-              'item_name': product.product_title|| 'Unknown Product',
-              'item_id': product.product_id,
-              'price': product.price / 100,
-              'quantity': product.quantity
-            }]
-        window.dataLayer.push(product);
-        console.log(product);
-      });
-    }
-  }
-
-  // Call pushCartData when appropriate (e.g., on add-to-cart button click)
-  document.addEventListener('click', function(event) {
-    if (event.target.closest('button.btn.btn-primary.btn-sm')) {
-      pushCartData();
-    }
-  });
-});
+        document.addEventListener('DOMContentLoaded', function() {
+          function pushCartData() {
+            // Check if globalVariables and cart data are available
+            if (window.globalVariables && window.globalVariables.cart && window.globalVariables.cart.items) {
+              window.globalVariables.cart.items.forEach(function(item) {
+                var product = {
+                  'event': 'form_submit',
+                  'ecommerce': {
+                    'items': [{
+                      'product_name': product.product_title|| 'Unknown Product',
+                      'product_id': product.product_id,
+                      'price': product.price / 100,
+                      'quantity': product.quantity
+                    }]
+                window.dataLayer.push(product);
+                console.log(product);
+              });
+            }
+          }
+        
+          // Call pushCartData when appropriate (e.g., on add-to-cart button click)
+          document.addEventListener('click', function(event) {
+            if (event.target.closest('button.btn.btn-primary.btn-sm')) {
+              pushCartData();
+            }
+          });
+        });
       </script>
        <script src="{{ 'custom-hulkapps-wishlist-global.js' | asset_url }}" defer>  </script>
 <!-- Google Tag Manager (noscript) -->
