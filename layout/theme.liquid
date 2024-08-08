@@ -407,10 +407,10 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
                   'event': 'form_submit',
                   'ecommerce': {
                     'items': [{
-                      'product_name': product.product_title|| 'Unknown Product',
-                      'product_id': product.product_id,
-                      'price': product.price / 100,
-                      'quantity': product.quantity
+                      'product_name': item.product_title|| 'Unknown Product',
+                      'product_id': item.product_id,
+                      'price': item.price / 100,
+                      'quantity': item.quantity
                     }]
                 window.dataLayer.push(product);
                 console.log(product);
