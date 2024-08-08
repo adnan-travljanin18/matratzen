@@ -225,18 +225,18 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
     var productId = form.querySelector('input[name="id"]').value;
     var productPrice = form.querySelector('input[name="price"]').value;
     var productQuantity = form.querySelector('input[name="quantity"]').value || 1;
-    console.log('Product Name:', productName);
-    console.log('Product ID:', productId);
-    console.log('Product Price:', productPrice);
-    console.log('Product Quantity:', productQuantity);
+    console.log('Product Name:', title);
+    console.log('Product ID:', product_id);
+    console.log('Product Price:', price);
+    console.log('Product Quantity:', quantity);
     window.dataLayer.push({
         event: 'add_to_cart',
         ecommerce: {
             items: [{
-                item_name: productName,
-                item_id: productId,
-                price: productPrice,
-                quantity: productQuantity
+                item_name: title,
+                item_id: product_id,
+                price: price,
+                quantity: quantity
             }]
         }
     });
