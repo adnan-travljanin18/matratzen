@@ -15,7 +15,6 @@
           <div class="row">
               {% render 'breadcrumbs' %}
           </div>
-  
           <div class="row align-items-start">
               <div class="col-lg-8">
                   <div data-type="slider" class="product-images-wrapper pr-lg-4 text-center">
@@ -127,128 +126,6 @@
   <script type="application/json" data-productMedia>
     {{ product.media | json }}
   </script>
-  
-<!-- <script>
-document.querySelector('form[action="/cart/add"]').addEventListener('submit', function(event) {
-    window.dataLayer = window.dataLayer || [];
-    var form = event.target;
-    var productName = form.querySelector('input[name="title"]').value;
-    var productId = form.querySelector('input[name="id"]').value;
-    var productPrice = form.querySelector('input[name="price"]').value;
-    var productQuantity = form.querySelector('input[name="quantity"]').value || 1;
-    
-    window.dataLayer.push({
-        event: 'add_to_cart',
-        ecommerce: {
-            items: [{
-                item_name: productName,
-                item_id: productId,
-                price: productPrice,
-                quantity: productQuantity
-            }]
-        }
-    });
-});
-</script> -->
-
-<!-- <script>
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('button[name="add"]').forEach(function(button) {
-        button.addEventListener('click', function(event) {
-            window.dataLayer = window.dataLayer || [];
-            var form = event.target.closest('form');
-            var productName = form.querySelector('[name="title"]').value;
-            var productId = form.querySelector('[name="id"]').value;
-            var productPrice = form.querySelector('[name="price"]').value;
-            var productQuantity = form.querySelector('[name="quantity"]').value || 1;
-
-            window.dataLayer.push({
-                event: 'add_to_cart',
-                ecommerce: {
-                    items: [{
-                        item_name: productName,
-                        item_id: productId,
-                        price: productPrice,
-                        quantity: productQuantity
-                    }]
-                }
-            });
-            console.log('Add to Cart event pushed to dataLayer');
-        });
-    });
-});
-</script> -->
-<!-- 
-<script>
-document.querySelector('form[action="/cart/add"]').addEventListener('submit', function(event) {
-    window.dataLayer = window.dataLayer || [];
-    var form = event.target;
-    var productName = form.querySelector('input[name="title"]').value;
-    var productId = form.querySelector('input[name="id"]').value;
-    var productPrice = form.querySelector('input[name="price"]').value;
-    var productQuantity = form.querySelector('input[name="quantity"]').value || 1;
-    
-    console.log('Product Name:', productName);
-    console.log('Product ID:', productId);
-    console.log('Product Price:', productPrice);
-    console.log('Product Quantity:', productQuantity);
-
-    // Push the form_submit event with the ecommerce data
-    window.dataLayer.push({
-        event: "form_submit",
-        eventModel: {
-            form_id: form.getAttribute('id'),
-            form_name: form.getAttribute('name'),
-            form_destination: form.getAttribute('action'),
-            form_length: form.elements.length,
-            form_submit_text: form.querySelector('[type="submit"]').value,
-            event_callback: "Function"
-        },
-        ecommerce: {
-            items: [{
-                item_name: title,
-                item_id: product_id,
-                price: price,
-                quantity: quantity
-            }]
-        },
-        eventCallback: "Function",
-        gtm: {
-            uniqueEventId: 0,
-            priorityId: 4
-        }
-    });
-});
-</script> -->
-
-
-<!-- <script>
-document.querySelector('form[action="/cart/add"]').addEventListener('submit', function(event) {
-    window.dataLayer = window.dataLayer || [];
-    var form = event.target;
-    var productName = form.querySelector('input[name="title"]').value;
-    var productId = form.querySelector('input[name="id"]').value;
-    var productPrice = form.querySelector('input[name="price"]').value;
-    var productQuantity = form.querySelector('input[name="quantity"]').value || 1;
-    console.log('Product Name:', title);
-    console.log('Product ID:', product_id);
-    console.log('Product Price:', price);
-    console.log('Product Quantity:', quantity);
-    window.dataLayer.push({
-        event: 'add_to_cart',
-        ecommerce: {
-            items: [{
-                item_name: title,
-                item_id: product_id,
-                price: price,
-                quantity: quantity
-            }]
-        }
-    });
-</script> -->
-
-
-
 
   {% schema %}
   {
