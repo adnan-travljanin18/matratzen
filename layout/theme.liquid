@@ -398,7 +398,29 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
         {% endif %}
         {% render 'hulkappsWishlistPopup' %}
       <script>
-        window.cart = {{ cart }}
+        document.addEventListener('DOMContentLoaded', function() {
+  function pushCartData() {
+    // Check if globalVariables and cart data are available
+    if (window.globalVariables && window.globalVariables.cart && window.globalVariables.cart.items) {
+      window.globalVariables.cart.items.forEach(function(item) {
+        var product = {
+          'event': 'form_submit',
+          'ecommerce': {
+            'items': [{
+              'item_name': item.title || 'Unknown Product',
+              'item_id': item.id,
+              'price': item.price / 100,
+              'quantity': item.quantity
+            }]
+          }
+console.log(product);
+        };
+        window.dataLayer.push(product);
+      });
+    }
+  }
+});
+
       </script>
        <script src="{{ 'custom-hulkapps-wishlist-global.js' | asset_url }}" defer>  </script>
 <!-- Google Tag Manager (noscript) -->
