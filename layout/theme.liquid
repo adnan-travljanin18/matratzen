@@ -171,6 +171,47 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
 });
 </script> -->
 
+<script>
+document.querySelector('form[action="/cart/add"]').addEventListener('submit', function(event) {
+    window.dataLayer = window.dataLayer || [];
+    var form = event.target;
+    var productName = form.querySelector('input[name="title"]').value;
+    var productId = form.querySelector('input[name="id"]').value;
+    var productPrice = form.querySelector('input[name="price"]').value;
+    var productQuantity = form.querySelector('input[name="quantity"]').value || 1;
+    
+    // Push the form_submit event with the ecommerce data
+    window.dataLayer.push({
+        event: "form_submit",
+        eventModel: {
+            form_id: form.getAttribute('id'),
+            form_name: form.getAttribute('name'),
+            form_destination: form.getAttribute('action'),
+            form_length: form.elements.length,
+            form_submit_text: form.querySelector('[type="submit"]').value,
+            event_callback: "Function"
+        },
+        ecommerce: {
+            items: [{
+                item_name: title,
+                item_id: product_id,
+                price: price,
+                quantity: quantity
+            }]
+        },
+        eventCallback: "Function",
+        gtm: {
+            uniqueEventId: 0,
+            priorityId: 4
+        }
+    });
+    console.log('Product Name:', title);
+    console.log('Product ID:', product_id);
+    console.log('Product Price:', price);
+    console.log('Product Quantity:', quantity);
+});
+</script>
+
 </head>
 
     <body class="template-{{ template.name }}">
