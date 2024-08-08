@@ -128,6 +128,28 @@
     {{ product.media | json }}
   </script>
   
+<script>
+document.querySelector('form[action="/cart/add"]').addEventListener('submit', function(event) {
+    window.dataLayer = window.dataLayer || [];
+    var form = event.target;
+    var productName = form.querySelector('input[name="title"]').value;
+    var productId = form.querySelector('input[name="id"]').value;
+    var productPrice = form.querySelector('input[name="price"]').value;
+    var productQuantity = form.querySelector('input[name="quantity"]').value || 1;
+    
+    window.dataLayer.push({
+        event: 'add_to_cart',
+        ecommerce: {
+            items: [{
+                item_name: productName,
+                item_id: productId,
+                price: productPrice,
+                quantity: productQuantity
+            }]
+        }
+    });
+});
+</script>
   {% schema %}
   {
     "name": "t:sections.template-product.name",
