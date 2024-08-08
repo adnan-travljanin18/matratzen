@@ -172,47 +172,54 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
 </script> -->
 
 <script>
-function fetchCartData() {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://serenitybett.de/cart.js', true);
-    xhr.onload = function() {
-        if (xhr.status >= 200 && xhr.status < 300) {
-            var cartData = JSON.parse(xhr.responseText);
-            var items = cartData.items.map(function(item) {
-                return {
-                    item_name: item.title, // Make sure the title field is correct
-                    item_id: item.id,
-                    price: item.price / 100, // Adjust if necessary, e.g., price is in cents
-                    quantity: item.quantity
-                };
-            });
+document.addEventListener('submit', function(event) {
+    var form = event.target;
+    
+    // Check if the form is for adding to the cart
+    if (form.action && form.action.includes('/cart/add')) {
+        event.preventDefault(); // Prevent the default form submission for testing
 
-            // Push the cart data to dataLayer
-            window.dataLayer = window.dataLayer || [];
-            window.dataLayer.push({
-                event: "cart_update",
-                ecommerce: {
+        var formData = new FormData(form);
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', form.action, true);
+        xhr.onload = function() {
+            if (xhr.status >= 200 && xhr.status < 300) {
+                var response = JSON.parse(xhr.responseText);
+
+                var items = response.items.map(function(item) {
+                    return {
+                        item_name: item.title,
+                        item_id: item.id,
+                        price: parseFloat(item.price),
+                        quantity: parseInt(item.quantity, 10)
+                    };
+                });
+
+                // Push the data to dataLayer
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                    event: "add_to_cart",
+                    ecommerce: {
+                        items: items
+                    }
+                });
+
+                console.log('Added to Cart:', {
                     items: items
-                },
-                cart_total: cartData.total_price / 100, // Adjust if necessary
-                cart_item_count: cartData.item_count
-            });
+                });
 
-            console.log('Cart Data:', {
-                items: items,
-                cart_total: cartData.total_price / 100,
-                cart_item_count: cartData.item_count
-            });
-        } else {
-            console.error('Failed to fetch cart data:', xhr.statusText);
-        }
-    };
-    xhr.send();
-}
+                // Optionally, submit the form after logging
+                form.submit(); // Uncomment this line to allow form submission after logging
+            } else {
+                console.error('Failed to add item to cart:', xhr.statusText);
+            }
+        };
 
-// Fetch cart data when needed, e.g., on page load or after an action
-fetchCartData();
+        xhr.send(formData);
+    }
+});
 </script>
+
 </head>
 
     <body class="template-{{ template.name }}">
