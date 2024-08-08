@@ -402,6 +402,7 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
   function pushCartData() {
     // Check if globalVariables and cart data are available
     if (window.globalVariables && window.globalVariables.cart && window.globalVariables.cart.items) {
+      console.log(window.globalVariables.cart.items);
       window.globalVariables.cart.items.forEach(function(item) {
         var product = {
           'event': 'form_submit',
