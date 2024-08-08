@@ -404,7 +404,7 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
     if (window.globalVariables && window.globalVariables.cart && window.globalVariables.cart.items) {
       window.globalVariables.cart.items.forEach(function(item) {
         var product = {
-          'event': 'form_submit',
+          'event': 'add_to_cart',
           'ecommerce': {
             'items': [{
               'item_name': item.title || 'Unknown Product',
@@ -413,7 +413,6 @@ document.querySelector('form[action="/cart/add"]').addEventListener('submit', fu
               'quantity': item.quantity
             }]
           }
-console.log(product);
         };
         window.dataLayer.push(product);
       });
