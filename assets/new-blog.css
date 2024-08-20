@@ -96,3 +96,25 @@
     margin: 20px 0!important;
   }
 }
+@media only screen and (max-width: 991.98px) {
+  .template-article h1 {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  .template-article h2, .template-article h2 span {
+    font-size: 28px!important;
+    font-weight: 700!important;
+    margin: 20px 0!important;
+  }
+  .template-article h3, .template-article h3 span {
+    font-size: 20px!important;
+    font-weight: 700!important;
+    margin: 20px 0!important;
+  }
+  .template-article h4, .template-article h4 span {
+    font-size: 18px!important;
+    font-weight: 500!important;
+    margin: 20px 0!important;
+  }
+}
