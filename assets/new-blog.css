@@ -74,8 +74,8 @@
     flex-direction: column;
     justify-content: end;
 }
-.article-body h2, .article-body h2 span  {
-    font-size: 30px;
+.article-body h3, .article-body h3 span  {
+    font-size: 20px;
     margin-bottom: 20px;
-  font-weight: 600!important;
+    font-weight: 500!important;
 }
