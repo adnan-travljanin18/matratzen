@@ -90,4 +90,9 @@
     font-weight: 700!important;
     margin: 20px 0!important;
   }
+  .template-article h4, .template-article h4 span {
+    font-size: 20px!important;
+    font-weight: 700!important;
+    margin: 20px 0!important;
+  }
 }
