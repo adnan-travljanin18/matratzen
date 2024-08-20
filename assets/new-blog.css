@@ -74,3 +74,10 @@
     flex-direction: column;
     justify-content: end;
 }
+@media only screen and (min-width: 992px) {
+  .template-article h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+}
