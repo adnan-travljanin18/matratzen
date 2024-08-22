@@ -74,6 +74,10 @@
     flex-direction: column;
     justify-content: end;
 }
+.template-article a {
+  color: #6491B1;
+  text-decoration: underline;
+}
 @media only screen and (min-width: 992px) {
   .template-article h1 {
     font-size: 48px;
