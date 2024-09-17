@@ -11,12 +11,14 @@
   gtag('config', 'G-9G16GNF2RJ');
 </script>
         <!-- Google Tag Manager -->
+
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WZG2ZFZK');</script>
 <!-- End Google Tag Manager -->
+{% render 'ultimate-datalayer' %}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -121,6 +123,89 @@ fbq('track', 'PageView');
 src=https://www.facebook.com/tr?id=1166243604619772&ev=PageView&noscript=11"
 /></noscript>
 <!-- End Meta Pixel Code -->
+
+<script>
+window.dataLayer = window.dataLayer || [];
+{% if first_time_accessed %}
+window.dataLayer.push({
+    'event': 'purchase',
+    'ecommerce': {
+        'transaction_id': '{{ order.order_number }}',
+        'affiliation': '{{ shop.name }}',
+        'value': {{ total_price | money_without_currency }},
+        'currency': '{{ currency }}',
+        'tax': {{ tax_price | money_without_currency }},
+        'shipping': {{ shipping_price | money_without_currency }},
+        'items': [
+            {% for line_item in line_items %}
+            {
+                'item_name': '{{ line_item.title }}',
+                'item_id': '{{ line_item.sku }}',
+                'price': {{ line_item.price | money_without_currency }},
+                'quantity': {{ line_item.quantity }},
+            }{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+        ]
+    }
+});
+{% endif %}
+</script>
+
+<script>
+(function() {
+    var originalOpen = XMLHttpRequest.prototype.open;
+    var originalSend = XMLHttpRequest.prototype.send;
+
+    XMLHttpRequest.prototype.open = function(method, url) {
+        this.addEventListener('load', function() {
+            if (url.includes('/cart/add')) {
+                try {
+                    var response = JSON.parse(this.responseText);
+                    var items = response.items.map(function(item) {
+                        return {
+                            item_name: item.title,
+                            item_id: item.id,
+                            price: parseFloat(item.price),
+                            quantity: parseInt(item.quantity, 10)
+                        };
+                    });
+
+                    // Push the cart data to dataLayer
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
+                        event: "form_submit",
+                        ecommerce: {
+                            items: items
+                        },
+                        cart_total: response.items.reduce(function(total, item) {
+                            return total + parseFloat(item.price) * item.quantity;
+                        }, 0),
+                        cart_item_count: response.items.length
+                    });
+
+                    console.log('Cart Add Event:', {
+                        items: items,
+                        cart_total: response.items.reduce(function(total, item) {
+                            return total + parseFloat(item.price) * item.quantity;
+                        }, 0),
+                        cart_item_count: response.items.length
+                    });
+                } catch (e) {
+                    console.error('Error parsing cart add response:', e);
+                }
+            }
+        });
+
+        originalOpen.apply(this, arguments);
+    };
+
+    XMLHttpRequest.prototype.send = function() {
+        originalSend.apply(this, arguments);
+    };
+})();
+</script>
+
+
 </head>
 
     <body class="template-{{ template.name }}">
