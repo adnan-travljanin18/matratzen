@@ -28,6 +28,8 @@
             assign productsArray = recommendations.products
         endif
     -%}
+    {%- if productsArray.size > 1 -%}
+        
     <section
         class="section-related-products section-content"
         style="background-color: {{ block.settings.related_products_section_bg_color }}; color: {{ block.settings.related_products_section_txt_color }}"
@@ -102,4 +104,5 @@
             </div>
         </div>
     </section>
+    {%- endif -%}
 {%- endif -%}
