@@ -220,6 +220,7 @@
                                 </div>
                                 <div class="col-12 col-md-8">
                                     {%- if block.settings.collection.image != blank -%}
+                                        <a href="{{ block.settings.collection.url }}">
                                         <img
                                             class="collection-slider-image"
                                             srcset="
@@ -235,6 +236,7 @@
                                             width="{{ block.settings.collection.image.width }}"
                                             loading="lazy"
                                         >
+                                        </a>
                                     {%- else -%}
                                         {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
                                     {%- endif -%}

@@ -113,6 +113,9 @@
     color: #f44336; 
 }
 
+.wishlist-hero-custom-button a.wishlist-btn[data-added="true"] {
+    color: #f44336 !important;
+}
 .letter-spacing-normal {
     letter-spacing: normal;
 }
