@@ -14,7 +14,7 @@
     >
         <div class="{% if section.settings.fluid_footer %}container-fluid{% else %}container{% endif %}">
             <div class="row">
-                <div class="col-sm-12 col-lg-6">
+                <div class="col-sm-12 col-lg-4">
                     <div>
                         <h4 class="text-white text-center text-lg-start">
                             {{ section.settings.footer_text }}
@@ -22,7 +22,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-lg-6">
+                <div class="col-sm-12 col-lg-4">
                     <div class="text-center text-lg-start">
                         <div class="col-12 col-lg-4">
                             {% if linklists[footer_linklist_2].links.size > 0 %}
@@ -56,7 +56,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-lg-6 text-center text-lg-start">
+
+                <div class="col-sm-12 col-lg-4">
+                    <div>
+                        <p class="text-white text-center text-lg-start">
+                            {{ 'sections.footer.klarna-name' | t }}
+                        </p>
+                        <p class="text-white text-center text-lg-start">
+                            {{ 'sections.footer.klarna-number' | t }}
+                        </p>
+                        <p class="text-white text-center text-lg-start">
+                            {{ 'sections.footer.klarna-address' | t }}
+                        </p>
+                        <p class="text-white text-center text-lg-start">
+                            {{ 'sections.footer.klarna-return-policy' | t }} <a class="klarna-link" href="{{ 'sections.footer.klarna-return-policy-link' }}" target="_blank">{{ 'sections.footer.klarna-terms' | t }}</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-4 text-center text-lg-start">
                     {% if section.settings.col_5_social_heading != blank %}
                         <p class="m-0">{{ section.settings.col_5_social_heading }}</p>
                     {% endif %}
@@ -65,7 +83,7 @@
                     {% endif %}
                 </div>
 
-                <div class="col-sm-12 col-lg-6 text-lg-start text-center">
+                <div class="col-sm-12 col-lg-4 text-lg-start text-center">
                     {% if section.settings.col_5_social_heading != blank %}
                         <p class="m-0">{{ section.settings.col_5_payment_heading }}</p>
                     {% endif %}
@@ -247,7 +265,10 @@
     .scrollToTop .inner .fa-chevron-up {
       color: #fff;
     }
-
+    .klarna-link {
+        color: white;
+        text-decoration: underline; 
+    }
     @keyframes fadeInOut {
       0% {
         opacity: 0;
