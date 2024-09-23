@@ -213,7 +213,7 @@
         "txt": "<p>Klicken Sie auf den Link, um den Vorgang zu starten</p>",
         "step_heading": "Serenity Matratze",
         "btn_txt": "Quiz jetzt starten",
-        "image": "shopify://shop_images/homepage_bedroom_1.jpg",
+        "image": "shopify://shop_images/homepage_bedroom_1.webp",
         "section_bg_color": "#ffffff",
         "section_text_color": "#131e27",
         "border_color": "#6490b2",
@@ -326,7 +326,7 @@
         "paragraph": "Abonnieren Sie unseren Newsletter für exklusive Updates, Angebote und Insider-News. Werden Sie Teil unserer Gemeinschaft von versierten Käufern!",
         "input-field-text": "Mail-Adresse eingeben",
         "button-text": "Jetzt abonnieren",
-        "image": "shopify://shop_images/Stay_in_the_Loop.png",
+        "image": "shopify://shop_images/Stay_in_the_Loop.webp",
         "heading_txt": "Subscribe image",
         "section_bg_color": "#fcfbf9"
       }
