@@ -44,17 +44,17 @@
         "muted": true,
         "controls": false,
         "loop": true,
-        "logo_image": "shopify:\/\/shop_images\/logo_image.png",
-        "logo_mobile_image": "shopify:\/\/shop_images\/logo_without_ellipse.png",
-        "hero_baner_small_image": "shopify:\/\/shop_images\/hero-banner-right-room.jpg",
+        "logo_image": "shopify://shop_images/logo_image.png",
+        "logo_mobile_image": "shopify://shop_images/logo_without_ellipse.png",
+        "hero_baner_small_image": "shopify://shop_images/hero-banner-right-room.webp",
         "btn_txt": "Finde deine perfekte Passform",
         "btn_link": "#quizSection",
         "btn_type": "",
         "btn_variant": "white",
         "btn_size": "",
         "poster_type": "video",
-        "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a256d19c07444005a3e22ae364b9de62.mp4",
-        "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a256d19c07444005a3e22ae364b9de62.mp4",
+        "bg_video": "https://cdn.shopify.com/videos/c/o/v/a256d19c07444005a3e22ae364b9de62.mp4",
+        "mobile_bg_video": "https://cdn.shopify.com/videos/c/o/v/a256d19c07444005a3e22ae364b9de62.mp4",
         "fluid_video_layout": true,
         "video_type": "local",
         "placement": "grid",
@@ -109,7 +109,7 @@
         "products-slider-button-text": "Alle Produkte",
         "btn_type": "outline",
         "btn_variant": "dark",
-        "products-slider-button-link": "shopify:\/\/collections\/alle-produkte"
+        "products-slider-button-link": "shopify://collections/alle-produkte"
       }
     },
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe": {
@@ -124,14 +124,14 @@
         "loop": true,
         "title": "Erleben Sie Serenity – Ihr Schlafparadies",
         "btn_title_color": "#ffffff",
-        "subtitle": "<p>Maximieren Sie Ihren Komfort, Umarmen Sie Jeden Traum<\/p>",
+        "subtitle": "<p>Maximieren Sie Ihren Komfort, Umarmen Sie Jeden Traum</p>",
         "btn_txt": "Jetzt einkaufen",
-        "btn_link": "shopify:\/\/collections\/alle-produkte",
+        "btn_link": "shopify://collections/alle-produkte",
         "btn_text_color": "#ffffff",
         "btn_size": "",
         "poster_type": "video",
-        "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/53df34a096674de0aba3aaa7e36f6f84.mp4",
-        "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/53df34a096674de0aba3aaa7e36f6f84.mp4",
+        "bg_video": "https://cdn.shopify.com/videos/c/o/v/53df34a096674de0aba3aaa7e36f6f84.mp4",
+        "mobile_bg_video": "https://cdn.shopify.com/videos/c/o/v/53df34a096674de0aba3aaa7e36f6f84.mp4",
         "fluid_video_layout": true,
         "video_type": "local",
         "placement": "grid",
@@ -209,11 +209,11 @@
       "type": "quiz-section",
       "settings": {
         "fluid_layout": false,
-        "heading_txt": "Finden Sie Ihre <b>Perfekte<\/b> <i>Matratze mit <br>unserem <\/i>Personalisierten<br><b>Quiz!<b><\/b><\/b>",
-        "txt": "<p>Klicken Sie auf den Link, um den Vorgang zu starten<\/p>",
+        "heading_txt": "Finden Sie Ihre <b>Perfekte</b> <i>Matratze mit <br>unserem </i>Personalisierten<br><b>Quiz!<b></b></b>",
+        "txt": "<p>Klicken Sie auf den Link, um den Vorgang zu starten</p>",
         "step_heading": "Serenity Matratze",
         "btn_txt": "Quiz jetzt starten",
-        "image": "shopify:\/\/shop_images\/homepage_bedroom_1.jpg",
+        "image": "shopify://shop_images/homepage_bedroom_1.jpg",
         "section_bg_color": "#ffffff",
         "section_text_color": "#131e27",
         "border_color": "#6490b2",
@@ -226,37 +226,37 @@
         "featured_collection_C6Ytgp": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_70de0509-d432-4190-9269-7090441d8085.png"
+            "image": "shopify://shop_images/1_70de0509-d432-4190-9269-7090441d8085.png"
           }
         },
         "featured_collection_xULUX3": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_e0f190d0-4c85-4b93-b10d-fb161feefa36.png"
+            "image": "shopify://shop_images/2_e0f190d0-4c85-4b93-b10d-fb161feefa36.png"
           }
         },
         "featured_collection_zynecT": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_88db4a41-031f-496f-b5c8-345624704c7a.png"
+            "image": "shopify://shop_images/3_88db4a41-031f-496f-b5c8-345624704c7a.png"
           }
         },
         "featured_collection_JUzfaB": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_cafe5739-698b-4aae-8042-9871b32b4022.png"
+            "image": "shopify://shop_images/4_cafe5739-698b-4aae-8042-9871b32b4022.png"
           }
         },
         "featured_collection_G6jDxt": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_dda8b859-8d87-4b71-b32a-9d006b72a24e.png"
+            "image": "shopify://shop_images/5_dda8b859-8d87-4b71-b32a-9d006b72a24e.png"
           }
         },
         "featured_collection_4xk4tA": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_26f5d414-8b97-4262-8206-d4bc8a2587bc.png"
+            "image": "shopify://shop_images/6_26f5d414-8b97-4262-8206-d4bc8a2587bc.png"
           }
         }
       },
@@ -279,7 +279,7 @@
         "info_slide_create_FUtiwP": {
           "type": "info_slide_create",
           "settings": {
-            "image": "shopify:\/\/shop_images\/layer-group.png",
+            "image": "shopify://shop_images/layer-group.png",
             "slider_title": "Hergestellt in Deutschland",
             "slider_text_one": "Alle Serenity-Matratzen werden in Deutschland und in der EU aus hochwertigen und zertifizierten Rohstoffen hergestellt und produziert."
           }
@@ -287,7 +287,7 @@
         "info_slide_2in1_wkecWQ": {
           "type": "info_slide_2in1",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bed-front.png",
+            "image": "shopify://shop_images/bed-front.png",
             "slider_title": "2 in 1 Matratze",
             "slider_text_one": "Serenity-Matratzen sind 2-in-1-Matratzen, die Sie umdrehen können, um eine andere Art von Unterstützung zu erhalten."
           }
@@ -295,7 +295,7 @@
         "info_slide_contact_gD7aPb": {
           "type": "info_slide_contact",
           "settings": {
-            "image": "shopify:\/\/shop_images\/address-book.png",
+            "image": "shopify://shop_images/address-book.png",
             "slider_title": "Service & Kontakt",
             "icon-checkbox": true,
             "slider_text_one": "",
@@ -326,7 +326,7 @@
         "paragraph": "Abonnieren Sie unseren Newsletter für exklusive Updates, Angebote und Insider-News. Werden Sie Teil unserer Gemeinschaft von versierten Käufern!",
         "input-field-text": "Mail-Adresse eingeben",
         "button-text": "Jetzt abonnieren",
-        "image": "shopify:\/\/shop_images\/Stay_in_the_Loop.png",
+        "image": "shopify://shop_images/Stay_in_the_Loop.png",
         "heading_txt": "Subscribe image",
         "section_bg_color": "#fcfbf9"
       }
@@ -338,7 +338,7 @@
         "review_text": "Entdecken Sie, warum unsere Kunden unsere Produkte und Dienstleistungen lieben. Lesen Sie ihre Erfahrungsberichte und erfahren Sie, wie wir ihr Leben verändert haben.",
         "interview_heading": "Das Interview ansehen",
         "interview_text": "Entdecken Sie einzigartige Einblicke von Ajla Jusic, CEO @Serenity Bett GmbH, in diesem spannenden Interview über Serenity.",
-        "interview_video": "shopify:\/\/files\/videos\/Serenity_intervju_captions.mp4"
+        "interview_video": "shopify://files/videos/Serenity_intervju_captions.mp4"
       }
     }
   },
