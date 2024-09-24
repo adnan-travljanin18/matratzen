@@ -204,9 +204,6 @@
 .featured-collection-slider .swiper-slide {
     align-items: start;
 }
-.featured-collection-slider .card-img {
-    aspect-ratio: 1;
-}
 .featured-collection-slider .card-img a {
     height: 100%;
     width: 100%;
