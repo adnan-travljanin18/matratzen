@@ -92,44 +92,14 @@
                         <div class="col-11 col-md-10 col-lg-9 col-xl-8 position-relative max-width-logo px-md-0">
                     {% endif %}
                     {%- if section.settings.logo_image != blank -%}
-                        <img
-                            class="desktop-img-view"
-                            srcset="
-                                {%- if section.settings.logo_image.width >= 350 -%}{{ section.settings.logo_image | image_url: width: 350 }} 350w,{%- endif -%}
-                                {%- if section.settings.logo_image.width >= 550 -%}{{ section.settings.logo_image | image_url: width: 550 }} 550w,{%- endif -%}
-                                {%- if section.settings.logo_image.width >= 750 -%}{{ section.settings.logo_image | image_url: width: 750 }} 750w,{%- endif -%}
-                                {%- if section.settings.logo_image.width >= 991 -%}{{ section.settings.logo_image | image_url: width: 991 }} 991w,{%- endif -%}
-                                {%- if section.settings.logo_image.width >= 1200 -%}{{ section.settings.logo_image | image_url: width: 1200 }} 1200w,{%- endif -%}
-                                {%- if section.settings.logo_image.width >= 1500 -%}{{ section.settings.logo_image | image_url: width: 1500 }} 1500w{%- endif -%}
-                            "
-                            src="{{ section.settings.logo_image | image_url: width: 50 }}"
-                            loading="lazy"
-                            sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw"
-                            alt="{{ section.settings.logo_image.alt | default: section.settings.title | escape }}"
-                            width="{{ section.settings.logo_image.width }}"
-                            height="{{ section.settings.logo_image.width | divided_by: section.settings.logo_image.aspect_ratio | round }}"
-                        >
+                            <div class="hero-logo-image">
+                            </div>
                     {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
                     {%- endif -%}
                     {%- if section.settings.logo_mobile_image != blank -%}
-                        <img
-                            class="mobile-img-view"
-                            srcset="
-                                {%- if section.settings.logo_mobile_image.width >= 350 -%}{{ section.settings.logo_mobile_image | image_url: width: 350 }} 350w,{%- endif -%}
-                                {%- if section.settings.logo_mobile_image.width >= 550 -%}{{ section.settings.logo_mobile_image | image_url: width: 550 }} 550w,{%- endif -%}
-                                {%- if section.settings.logo_mobile_image.width >= 750 -%}{{ section.settings.logo_mobile_image | image_url: width: 750 }} 750w,{%- endif -%}
-                                {%- if section.settings.logo_mobile_image.width >= 991 -%}{{ section.settings.logo_mobile_image | image_url: width: 991 }} 991w,{%- endif -%}
-                                {%- if section.settings.logo_mobile_image.width >= 1200 -%}{{ section.settings.logo_mobile_image | image_url: width: 1200 }} 1200w,{%- endif -%}
-                                {%- if section.settings.logo_mobile_image.width >= 1500 -%}{{ section.settings.logo_mobile_image | image_url: width: 1500 }} 1500w{%- endif -%}
-                            "
-                            src="{{ section.settings.logo_mobile_image | image_url: width: 50 }}"
-                            loading="lazy"
-                            sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw"
-                            alt="{{ section.settings.logo_mobile_image.alt | default: section.settings.title | escape }}"
-                            width="{{ section.settings.logo_mobile_image.width }}"
-                            height="{{ section.settings.logo_mobile_image.width | divided_by: section.settings.logo_image.aspect_ratio | round }}"
-                        >
+                        <div class="hero-logo-mobile-image">
+                        </div>
                     {%- else -%}
                         <div class="mobile-img-view">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
                     {%- endif -%}
@@ -272,7 +242,36 @@
             }
         });
     });
+
+    document.addEventListener('DOMContentLoaded', function() {
+    const pageLang = document.documentElement.lang; // Get the value of the lang attribute
+    const heroImageDiv = document.querySelector('.hero-logo-image');
+    if (pageLang === 'de') {
+        heroImageDiv.innerHTML += '<img class="desktop-img-view" srcset="{%- if section.settings.logo_image.width >= 350 -%}{{ section.settings.logo_image | image_url: width: 350 }} 350w,{%- endif -%}{%- if section.settings.logo_image.width >= 550 -%}{{ section.settings.logo_image | image_url: width: 550 }} 550w,{%- endif -%}{%- if section.settings.logo_image.width >= 750 -%}{{ section.settings.logo_image | image_url: width: 750 }} 750w,{%- endif -%}{%- if section.settings.logo_image.width >= 991 -%}{{ section.settings.logo_image | image_url: width: 991 }} 991w,{%- endif -%}{%- if section.settings.logo_image.width >= 1200 -%}{{ section.settings.logo_image | image_url: width: 1200 }} 1200w,{%- endif -%}{%- if section.settings.logo_image.width >= 1500 -%}{{ section.settings.logo_image | image_url: width: 1500 }} 1500w{%- endif -%}" src="{{ section.settings.logo_image | image_url: width: 50 }}" loading="lazy" sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw" alt="{{ section.settings.logo_image.alt | default: section.settings.title | escape }}" width="{{ section.settings.logo_image.width }}" height="{{ section.settings.logo_image.width | divided_by: section.settings.logo_image.aspect_ratio | round }}">';
+    } else if (pageLang === 'nl') {
+        // Add Dutch-specific image
+        heroImageDiv.innerHTML += '<img class="desktop-img-view" srcset="{%- if section.settings.logo_image_dutch.width >= 350 -%}{{ section.settings.logo_image_dutch | image_url: width: 350 }} 350w,{%- endif -%}{%- if section.settings.logo_image_dutch.width >= 550 -%}{{ section.settings.logo_image_dutch | image_url: width: 550 }} 550w,{%- endif -%}{%- if section.settings.logo_image_dutch.width >= 750 -%}{{ section.settings.logo_image_dutch | image_url: width: 750 }} 750w,{%- endif -%}{%- if section.settings.logo_image_dutch.width >= 991 -%}{{ section.settings.logo_image_dutch | image_url: width: 991 }} 991w,{%- endif -%}{%- if section.settings.logo_image_dutch.width >= 1200 -%}{{ section.settings.logo_image_dutch | image_url: width: 1200 }} 1200w,{%- endif -%}{%- if section.settings.logo_image_dutch.width >= 1500 -%}{{ section.settings.logo_image_dutch | image_url: width: 1500 }} 1500w{%- endif -%}" src="{{ section.settings.logo_image_dutch | image_url: width: 50 }}" loading="lazy" sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw" alt="{{ section.settings.logo_image_dutch.alt | default: section.settings.title | escape }}" width="{{ section.settings.logo_image_dutch.width }}" height="{{ section.settings.logo_image_dutch.width | divided_by: section.settings.logo_image_dutch.aspect_ratio | round }}">';
+    } else if (pageLang === 'en') {
+        // Add English-specific image
+        heroImageDiv.innerHTML += '<img class="desktop-img-view" srcset="{%- if section.settings.logo_image_english.width >= 350 -%}{{ section.settings.logo_image_english | image_url: width: 350 }} 350w,{%- endif -%}{%- if section.settings.logo_image_english.width >= 550 -%}{{ section.settings.logo_image_english | image_url: width: 550 }} 550w,{%- endif -%}{%- if section.settings.logo_image_english.width >= 750 -%}{{ section.settings.logo_image_english | image_url: width: 750 }} 750w,{%- endif -%}{%- if section.settings.logo_image_english.width >= 991 -%}{{ section.settings.logo_image_english | image_url: width: 991 }} 991w,{%- endif -%}{%- if section.settings.logo_image_english.width >= 1200 -%}{{ section.settings.logo_image_english | image_url: width: 1200 }} 1200w,{%- endif -%}{%- if section.settings.logo_image_english.width >= 1500 -%}{{ section.settings.logo_image_english | image_url: width: 1500 }} 1500w{%- endif -%}" src="{{ section.settings.logo_image_english | image_url: width: 50 }}" loading="lazy" sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw" alt="{{ section.settings.logo_image_english.alt | default: section.settings.title | escape }}" width="{{ section.settings.logo_image_english.width }}" height="{{ section.settings.logo_image_english.width | divided_by: section.settings.logo_image_english.aspect_ratio | round }}">';
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const pageLang = document.documentElement.lang; // Get the value of the lang attribute
+    const heroLogoDiv = document.querySelector('.hero-logo-mobile-image');
+    if (pageLang === 'de') {
+        heroLogoDiv.innerHTML += '<img class="mobile-img-view" srcset="{%- if section.settings.logo_mobile_image.width >= 350 -%}{{ section.settings.logo_mobile_image | image_url: width: 350 }} 350w,{%- endif -%}{%- if section.settings.logo_mobile_image.width >= 550 -%}{{ section.settings.logo_mobile_image | image_url: width: 550 }} 550w,{%- endif -%}{%- if section.settings.logo_mobile_image.width >= 750 -%}{{ section.settings.logo_mobile_image | image_url: width: 750 }} 750w,{%- endif -%}{%- if section.settings.logo_mobile_image.width >= 991 -%}{{ section.settings.logo_mobile_image | image_url: width: 991 }} 991w,{%- endif -%}{%- if section.settings.logo_mobile_image.width >= 1200 -%}{{ section.settings.logo_mobile_image | image_url: width: 1200 }} 1200w,{%- endif -%}{%- if section.settings.logo_mobile_image.width >= 1500 -%}{{ section.settings.logo_mobile_image | image_url: width: 1500 }} 1500w{%- endif -%}" src="{{ section.settings.logo_mobile_image | image_url: width: 50 }}" loading="lazy" sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw" alt="{{ section.settings.logo_mobile_image.alt | default: section.settings.title | escape }}" width="{{ section.settings.logo_mobile_image.width }}" height="{{ section.settings.logo_mobile_image.width | divided_by: section.settings.logo_image.aspect_ratio | round }}">';
+    } else if (pageLang === 'nl') {
+        // Add Dutch-specific image
+        heroLogoDiv.innerHTML += '<img class="mobile-img-view" srcset="{%- if section.settings.logo_mobile_image_dutch.width >= 350 -%}{{ section.settings.logo_mobile_image_dutch | image_url: width: 350 }} 350w,{%- endif -%}{%- if section.settings.logo_mobile_image_dutch.width >= 550 -%}{{ section.settings.logo_mobile_image_dutch | image_url: width: 550 }} 550w,{%- endif -%}{%- if section.settings.logo_mobile_image_dutch.width >= 750 -%}{{ section.settings.logo_mobile_image_dutch | image_url: width: 750 }} 750w,{%- endif -%}{%- if section.settings.logo_mobile_image_dutch.width >= 991 -%}{{ section.settings.logo_mobile_image_dutch | image_url: width: 991 }} 991w,{%- endif -%}{%- if section.settings.logo_mobile_image_dutch.width >= 1200 -%}{{ section.settings.logo_mobile_image_dutch | image_url: width: 1200 }} 1200w,{%- endif -%}{%- if section.settings.logo_mobile_image_dutch.width >= 1500 -%}{{ section.settings.logo_mobile_image_dutch | image_url: width: 1500 }} 1500w{%- endif -%}" src="{{ section.settings.logo_mobile_image_dutch | image_url: width: 50 }}" loading="lazy" sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw" alt="{{ section.settings.logo_mobile_image_dutch.alt | default: section.settings.title | escape }}" width="{{ section.settings.logo_mobile_image_dutch.width }}" height="{{ section.settings.logo_mobile_image_dutch.width | divided_by: section.settings.logo_image.aspect_ratio | round }}">';
+    } else if (pageLang === 'en') {
+        // Add English-specific image
+        heroLogoDiv.innerHTML += '<img class="mobile-img-view" srcset="{%- if section.settings.logo_mobile_image_english.width >= 350 -%}{{ section.settings.logo_mobile_image_english | image_url: width: 350 }} 350w,{%- endif -%}{%- if section.settings.logo_mobile_image_english.width >= 550 -%}{{ section.settings.logo_mobile_image_english | image_url: width: 550 }} 550w,{%- endif -%}{%- if section.settings.logo_mobile_image_english.width >= 750 -%}{{ section.settings.logo_mobile_image_english | image_url: width: 750 }} 750w,{%- endif -%}{%- if section.settings.logo_mobile_image_english.width >= 991 -%}{{ section.settings.logo_mobile_image_english | image_url: width: 991 }} 991w,{%- endif -%}{%- if section.settings.logo_mobile_image_english.width >= 1200 -%}{{ section.settings.logo_mobile_image_english | image_url: width: 1200 }} 1200w,{%- endif -%}{%- if section.settings.logo_mobile_image_english.width >= 1500 -%}{{ section.settings.logo_mobile_image_english | image_url: width: 1500 }} 1500w{%- endif -%}" src="{{ section.settings.logo_mobile_image_english | image_url: width: 50 }}" loading="lazy" sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw" alt="{{ section.settings.logo_mobile_image_english.alt | default: section.settings.title | escape }}" width="{{ section.settings.logo_mobile_image_english.width }}" height="{{ section.settings.logo_mobile_image_english.width | divided_by: section.settings.logo_image.aspect_ratio | round }}">';
+    }
+});
 </script>
+
 
 {% schema %}
 {
@@ -322,12 +321,48 @@
         },
         {
             "type": "paragraph",
+            "content": "Logo Image Dutch"
+        },
+        {
+            "type": "image_picker",
+            "id": "logo_image_dutch",
+            "label": "Select Logo Image"
+        },
+        {
+            "type": "paragraph",
+            "content": "Logo Image English"
+        },
+        {
+            "type": "image_picker",
+            "id": "logo_image_english",
+            "label": "Select Logo Image"
+        },
+        {
+            "type": "paragraph",
             "content": "Mobile Logo Image"
         },
         {
             "type": "image_picker",
             "id": "logo_mobile_image",
-            "label": "Select Mobile Logo Image"
+            "label": "Select Mobile Deutsch Logo Image"
+        },
+        {
+            "type": "paragraph",
+            "content": "Mobile Logo Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "logo_mobile_image_dutch",
+            "label": "Select Mobile Dutch Logo Image"
+        },
+        {
+            "type": "paragraph",
+            "content": "Mobile Logo Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "logo_mobile_image_english",
+            "label": "Select Mobile English Logo Image"
         },
         {
             "type": "paragraph",
