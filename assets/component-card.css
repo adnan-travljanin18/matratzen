@@ -21,6 +21,10 @@
     z-index: -1;
 }
 
+.featured-collection-slider .card-product .card-img>a img {
+  max-height: 318px;
+}
+
 .card-product .card-img>a:hover img {
     z-index: 1;
 }
