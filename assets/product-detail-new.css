@@ -195,7 +195,7 @@
     align-items: center;
 }
 #wishlisthero-product-page-button-container button span svg[data-prefix="fas"] {
-    color: rgba(244, 67, 54, 1); 
+    color: rgba(244, 67, 54, 1);
 }
 
 .share-color span {
@@ -273,5 +273,16 @@
     }
     .product-section .product-thumb--image {
         height: auto;
+    }
+}
+
+html {
+    scroll-padding-top: 130px;
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 992px) {
+    html {
+        scroll-padding-top: 140px;
     }
 }
