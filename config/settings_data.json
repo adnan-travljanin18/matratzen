@@ -8,293 +8,293 @@
  * ------------------------------------------------------------
  */
 {
-  "current": {
-    "body_color": "#122230",
-    "heading_color": "#000000",
-    "link_color": "#212121",
-    "link_hover_color": "#6490b2",
-    "color_primary": "#000000",
-    "color_secondary": "#F8F0EC",
-    "color_almond": "#FAE2CC",
-    "color_primary_100": "#6490b2",
-    "type_header_font": "Urbanist",
-    "type_secondary_font": "Urbanist",
-    "type_body_font": "Roboto",
-    "type_button_font": "Roboto",
-    "button_font_size": "1rem",
-    "button_border-radius": "10px",
-    "button_border-width": "1px",
-    "bg_color_btn_primary": "#406c93",
-    "bg_hover_color_btn_primary": "#345878",
-    "txt_color_btn_secondary": "#ffffff",
-    "bg_color_btn_secondary": "#406c93",
-    "bg_hover_color_btn_secondary": "#345878",
-    "txt_color_btn_white": "#212121",
-    "bg_hover_color_btn_dark": "#ffffff",
-    "type_input_font": "Poppins",
-    "type_input_font_weight": "300",
-    "favicon": "shopify://shop_images/Moon.svg",
-    "main_logo_socials": "shopify://shop_images/wp3850825-4k-pc-wallpapers.jpg",
-    "social_facebook_link": "https://www.facebook.com/profile.php?id=61559376574513",
-    "social_instagram_link": "https://www.instagram.com/serenitybett?igsh=MTQ0ZmE4eW81bmQ1eg%3D%3D&utm_source=qr",
-    "enable_cart_drawer": true,
-    "enable_search": true,
-    "enable_swatches": false,
-    "enable_quickshop": false,
-    "enable_search_product": true,
-    "enable_search_article": false,
-    "enable_search_page": true,
-    "no_image_replacement": "shopify://shop_images/mlouye-brick-macaron-s1.jpg",
-    "product_exclude_tag_text": "hidden",
-    "enable_custom_video": true,
-    "enable_custom_accrodion": true,
-    "enable_custom_tabify": true,
-    "enable_custom_select": true,
-    "enable_custom_notification": true,
-    "enable_custom_countdown": true,
-    "enable_newletter": false,
-    "enable_custom_klaviyo": false,
-    "enable_product_card_swatches": true,
-    "show_secondary_image": false,
-    "enable_cart_notes": false,
-    "enable_cart_": true,
-    "enable_shipping_bar": false,
-    "free_shipping_txt": "Congratulations! You get free shipping.",
-    "free_shipping_left": "You are ${addMoreForFreeShip} away from free shipping!",
-    "checkout_logo_image": "shopify://shop_images/SE_LOGO_72px.png",
-    "checkout_accent_color": "#000000",
-    "checkout_button_color": "#000000",
-    "enable_login": true,
-    "sections": {
-      "header": {
-        "type": "header",
-        "custom_css": [
+    "current": {
+        "body_color": "#122230",
+        "heading_color": "#000000",
+        "link_color": "#212121",
+        "link_hover_color": "#6490b2",
+        "color_primary": "#000000",
+        "color_secondary": "#F8F0EC",
+        "color_almond": "#FAE2CC",
+        "color_primary_100": "#6490b2",
+        "type_header_font": "Urbanist",
+        "type_secondary_font": "Urbanist",
+        "type_body_font": "Roboto",
+        "type_button_font": "Roboto",
+        "button_font_size": "1rem",
+        "button_border-radius": "10px",
+        "button_border-width": "1px",
+        "bg_color_btn_primary": "#406c93",
+        "bg_hover_color_btn_primary": "#345878",
+        "txt_color_btn_secondary": "#ffffff",
+        "bg_color_btn_secondary": "#406c93",
+        "bg_hover_color_btn_secondary": "#345878",
+        "txt_color_btn_white": "#212121",
+        "bg_hover_color_btn_dark": "#ffffff",
+        "type_input_font": "Poppins",
+        "type_input_font_weight": "300",
+        "favicon": "shopify://shop_images/Moon.svg",
+        "main_logo_socials": "shopify://shop_images/wp3850825-4k-pc-wallpapers.jpg",
+        "social_facebook_link": "https://www.facebook.com/profile.php?id=61559376574513",
+        "social_instagram_link": "https://www.instagram.com/serenitybett?igsh=MTQ0ZmE4eW81bmQ1eg%3D%3D&utm_source=qr",
+        "enable_cart_drawer": true,
+        "enable_search": true,
+        "enable_swatches": false,
+        "enable_quickshop": false,
+        "enable_search_product": true,
+        "enable_search_article": false,
+        "enable_search_page": true,
+        "no_image_replacement": "shopify://shop_images/mlouye-brick-macaron-s1.jpg",
+        "product_exclude_tag_text": "hidden",
+        "enable_custom_video": true,
+        "enable_custom_accrodion": true,
+        "enable_custom_tabify": true,
+        "enable_custom_select": true,
+        "enable_custom_notification": true,
+        "enable_custom_countdown": true,
+        "enable_newletter": false,
+        "enable_custom_klaviyo": false,
+        "enable_product_card_swatches": true,
+        "show_secondary_image": false,
+        "enable_cart_notes": false,
+        "enable_cart_": true,
+        "enable_shipping_bar": false,
+        "free_shipping_txt": "Congratulations! You get free shipping.",
+        "free_shipping_left": "You are ${addMoreForFreeShip} away from free shipping!",
+        "checkout_logo_image": "shopify://shop_images/SE_LOGO_72px.png",
+        "checkout_accent_color": "#000000",
+        "checkout_button_color": "#000000",
+        "enable_login": true,
+        "sections": {
+            "header": {
+                "type": "header",
+                "custom_css": [
 
-        ],
-        "settings": {
-          "fluid_header": false,
-          "enable_sticky_header": true,
-          "header_bg_color": "#131e27",
-          "show_line_separator": false,
-          "logo_svg": "",
-          "logo": "shopify://shop_images/SE_logo_white_3x_19190f9c-17bf-48af-adbe-6fbfd0bb44d4.png",
-          "logo_width": 150,
-          "menu": "main-menu"
-        }
-      },
-      "footer": {
-        "type": "footer",
-        "custom_css": [
+                ],
+                "settings": {
+                    "fluid_header": false,
+                    "enable_sticky_header": true,
+                    "header_bg_color": "#131e27",
+                    "show_line_separator": false,
+                    "logo_svg": "",
+                    "logo": "shopify://shop_images/SE_logo_white_3x_19190f9c-17bf-48af-adbe-6fbfd0bb44d4.png",
+                    "logo_width": 150,
+                    "menu": "main-menu"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "custom_css": [
 
-        ],
-        "settings": {
-          "fluid_footer": false,
-          "footer_text": "Bringen wir unsere Beziehung auf die nächste Stufe",
-          "footer_top_bg_color": "#131e27",
-          "footer_top_txt_color": "#ffffff",
-          "footer_top_link_color": "#ffffff",
-          "footer_bottom_bg_color": "#131e27",
-          "footer_bottom_txt_color": "#ffffff",
-          "footer_logo_svg": "",
-          "footer_logo": "shopify://shop_images/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
-          "logo_max_width": 165,
-          "col_1_text": "",
-          "col_2_heading": "Kundenbetreuung",
-          "footer_linklist_col_2": "footer",
-          "col_3_heading": "Infos",
-          "footer_linklist_col_3": "",
-          "col_4_heading": "Entdecken Sie",
-          "footer_linklist_col_4": "",
-          "col_5_heading": "Abonnieren",
-          "col_5_txt": "Erhalten Sie monatliche Updates und kostenlose Ressourcen.",
-          "show_newsletter": true,
-          "show_social_links": true,
-          "col_5_social_heading": "Folgen Sie uns auf sozialen Medien:",
-          "social_icon_facebook": true,
-          "social_icon_twitter": false,
-          "social_icon_instagram": true,
-          "social_icon_youtube": false,
-          "bottom_footer_linklist": "",
-          "show_payment_icons": true,
-          "col_5_payment_heading": "Verfügbare Zahlungsmethoden",
-          "payment_icon_visa": true,
-          "payment_icon_mastercard": true,
-          "payment_icon_ae": false,
-          "payment_icon_diners": false,
-          "payment_icon_paypal": true,
-          "payment_icon_applepay": true,
-          "payment_icon_amazonpay": false
-        }
-      },
-      "newsletter": {
-        "type": "newsletter",
-        "settings": {
-          "enabled": false,
-          "is_hidden_on_mobile": false,
-          "popup_delay": 1,
-          "popup_period_until": 7,
-          "heading": "Anmeldung zum Newsletter",
-          "text": "<p>Abonnieren Sie und erhalten Sie exklusive Angebote!</p>",
-          "footer_notes": "<p>Kein SPAM! Wir geben Ihre E-Mail nicht an Drittfirmen weiter!</p>",
-          "btn_txt": "Abonnieren",
-          "template_type": "image_bg",
-          "bg_color_outer": "#ffffff",
-          "bg_color_inner": "#ffffff",
-          "txt_color": "#222222"
-        }
-      },
-      "app-optimization": {
-        "type": "app-optimization",
-        "settings": {
-          "enable": true,
-          "debug_enable": false
-        }
-      },
-      "mobile-nav-drawer": {
-        "type": "mobile-nav-drawer",
-        "settings": {
-          "logo_svg": "",
-          "logo": "shopify://shop_images/SE_logo_white_3x_19190f9c-17bf-48af-adbe-6fbfd0bb44d4.png",
-          "logo_width": 100,
-          "main_menu_linklist": "main-menu",
-          "mobilemenu_style": "slide-submenu",
-          "mobile_nav_show_social_links": true,
-          "social_icon_facebook": true,
-          "social_icon_twitter": false,
-          "social_icon_instagram": true
-        }
-      },
-      "search-layer": {
-        "type": "search-layer",
-        "settings": {
-        }
-      },
-      "top-header": {
-        "type": "top-header",
-        "settings": {
-          "topbar_enabled": false,
-          "topbar_text": "SAME DAY SHIPPING! ORDER BY 2PM (EASTERN TIME)",
-          "topbar_bg_color": "#d29c7d",
-          "topbar_text_color": "#ffffff",
-          "topbar_height": 40,
-          "topbar_font_size": "15px"
-        }
-      },
-      "global-image-with-text-banner": {
-        "type": "global-image-with-text-banner",
-        "settings": {
-          "fluid_layout": false,
-          "heading_txt": "Find Your <b>Perfect<br>Mattress</b><i> With <br>Our </i>Personalized<br><b>Quiz!<b></b></b>",
-          "step_heading": "Serenity Mattress",
-          "btn_txt": "Start Quiz Now",
-          "image": "shopify://shop_images/homepage_bedroom_1.jpg",
-          "url_on_image": "",
-          "section_bg_color": "#131e27",
-          "section_text_color": "#ffffff",
-          "border_color": "#6490b2",
-          "alignment": "text-left"
-        }
-      },
-      "collection-grid": {
-        "type": "collection-grid",
-        "blocks": {
-          "featured_collection_tBYKMB": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "serene",
-              "section_txt_color": "#ffffff"
+                ],
+                "settings": {
+                    "fluid_footer": false,
+                    "footer_text": "Bringen wir unsere Beziehung auf die nächste Stufe",
+                    "footer_top_bg_color": "#131e27",
+                    "footer_top_txt_color": "#ffffff",
+                    "footer_top_link_color": "#ffffff",
+                    "footer_bottom_bg_color": "#131e27",
+                    "footer_bottom_txt_color": "#ffffff",
+                    "footer_logo_svg": "",
+                    "footer_logo": "shopify://shop_images/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
+                    "logo_max_width": 165,
+                    "col_1_text": "",
+                    "col_2_heading": "Kundenbetreuung",
+                    "footer_linklist_col_2": "footer",
+                    "col_3_heading": "Infos",
+                    "footer_linklist_col_3": "",
+                    "col_4_heading": "Entdecken Sie",
+                    "footer_linklist_col_4": "",
+                    "col_5_heading": "Abonnieren",
+                    "col_5_txt": "Erhalten Sie monatliche Updates und kostenlose Ressourcen.",
+                    "show_newsletter": true,
+                    "show_social_links": true,
+                    "col_5_social_heading": "Folgen Sie uns auf sozialen Medien:",
+                    "social_icon_facebook": true,
+                    "social_icon_twitter": false,
+                    "social_icon_instagram": true,
+                    "social_icon_youtube": false,
+                    "bottom_footer_linklist": "",
+                    "show_payment_icons": true,
+                    "col_5_payment_heading": "Verfügbare Zahlungsmethoden",
+                    "payment_icon_visa": true,
+                    "payment_icon_mastercard": true,
+                    "payment_icon_ae": false,
+                    "payment_icon_diners": false,
+                    "payment_icon_paypal": true,
+                    "payment_icon_applepay": true,
+                    "payment_icon_amazonpay": false
+                }
+            },
+            "newsletter": {
+                "type": "newsletter",
+                "settings": {
+                    "enabled": false,
+                    "is_hidden_on_mobile": false,
+                    "popup_delay": 1,
+                    "popup_period_until": 7,
+                    "heading": "Anmeldung zum Newsletter",
+                    "text": "<p>Abonnieren Sie und erhalten Sie exklusive Angebote!</p>",
+                    "footer_notes": "<p>Kein SPAM! Wir geben Ihre E-Mail nicht an Drittfirmen weiter!</p>",
+                    "btn_txt": "Abonnieren",
+                    "template_type": "image_bg",
+                    "bg_color_outer": "#ffffff",
+                    "bg_color_inner": "#ffffff",
+                    "txt_color": "#222222"
+                }
+            },
+            "app-optimization": {
+                "type": "app-optimization",
+                "settings": {
+                    "enable": true,
+                    "debug_enable": false
+                }
+            },
+            "mobile-nav-drawer": {
+                "type": "mobile-nav-drawer",
+                "settings": {
+                    "logo_svg": "",
+                    "logo": "shopify://shop_images/SE_logo_white_3x_19190f9c-17bf-48af-adbe-6fbfd0bb44d4.png",
+                    "logo_width": 100,
+                    "main_menu_linklist": "main-menu",
+                    "mobilemenu_style": "slide-submenu",
+                    "mobile_nav_show_social_links": true,
+                    "social_icon_facebook": true,
+                    "social_icon_twitter": false,
+                    "social_icon_instagram": true
+                }
+            },
+            "search-layer": {
+                "type": "search-layer",
+                "settings": {
+                }
+            },
+            "top-header": {
+                "type": "top-header",
+                "settings": {
+                    "topbar_enabled": false,
+                    "topbar_text": "SAME DAY SHIPPING! ORDER BY 2PM (EASTERN TIME)",
+                    "topbar_bg_color": "#d29c7d",
+                    "topbar_text_color": "#ffffff",
+                    "topbar_height": 40,
+                    "topbar_font_size": "15px"
+                }
+            },
+            "global-image-with-text-banner": {
+                "type": "global-image-with-text-banner",
+                "settings": {
+                    "fluid_layout": false,
+                    "heading_txt": "Find Your <b>Perfect<br>Mattress</b><i> With <br>Our </i>Personalized<br><b>Quiz!<b></b></b>",
+                    "step_heading": "Serenity Mattress",
+                    "btn_txt": "Start Quiz Now",
+                    "image": "shopify://shop_images/homepage_bedroom_1.jpg",
+                    "url_on_image": "",
+                    "section_bg_color": "#131e27",
+                    "section_text_color": "#ffffff",
+                    "border_color": "#6490b2",
+                    "alignment": "text-left"
+                }
+            },
+            "collection-grid": {
+                "type": "collection-grid",
+                "blocks": {
+                    "featured_collection_tBYKMB": {
+                        "type": "featured_collection",
+                        "settings": {
+                            "collection": "serene",
+                            "section_txt_color": "#ffffff"
+                        }
+                    },
+                    "featured_collection_JfJbzn": {
+                        "type": "featured_collection",
+                        "settings": {
+                            "collection": "oasis",
+                            "section_txt_color": "#ffffff"
+                        }
+                    }
+                },
+                "block_order": [
+                    "featured_collection_tBYKMB",
+                    "featured_collection_JfJbzn"
+                ],
+                "settings": {
+                    "title": "Shop by <br>Collections",
+                    "section_bg_color": "#ffffff",
+                    "section_txt_color": "#121212",
+                    "grid_size": "4",
+                    "image_ratio": "landscape",
+                    "enable_overlay": true,
+                    "overlay_bg_color": "#000000",
+                    "overlay_opacity": 0.5
+                }
             }
-          },
-          "featured_collection_JfJbzn": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "oasis",
-              "section_txt_color": "#ffffff"
-            }
-          }
         },
-        "block_order": [
-          "featured_collection_tBYKMB",
-          "featured_collection_JfJbzn"
-        ],
-        "settings": {
-          "title": "Shop by <br>Collections",
-          "section_bg_color": "#ffffff",
-          "section_txt_color": "#121212",
-          "grid_size": "4",
-          "image_ratio": "landscape",
-          "enable_overlay": true,
-          "overlay_bg_color": "#000000",
-          "overlay_opacity": 0.5
-        }
-      }
-    },
-    "content_for_index": [
+        "content_for_index": [
 
-    ],
-    "blocks": {
-      "14509899274852873868": {
-        "type": "shopify://apps/veeform-product-quiz-builder/blocks/link-popup/35886e51-37e3-4978-a765-359cc73afebe",
-        "disabled": false,
-        "settings": {
+        ],
+        "blocks": {
+            "14509899274852873868": {
+                "type": "shopify://apps/veeform-product-quiz-builder/blocks/link-popup/35886e51-37e3-4978-a765-359cc73afebe",
+                "disabled": false,
+                "settings": {
+                }
+            },
+            "319724205969189013": {
+                "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+                "disabled": false,
+                "settings": {
+                }
+            },
+            "18218067344242134805": {
+                "type": "shopify://apps/hulk-product-reviews/blocks/app/34006358-52bd-4ec7-8c78-200fe58b77ba",
+                "disabled": false,
+                "settings": {
+                }
+            },
+            "1744347199190486471": {
+                "type": "shopify://apps/hulk-advanced-wishlist/blocks/app/330d9272-08ea-4193-b3e0-475a69fa65fa",
+                "disabled": false,
+                "settings": {
+                }
+            },
+            "1892562240530925112": {
+                "type": "shopify://apps/hulk-gdpr-cookie-consent-bar/blocks/app-embed/e2ac5ac3-1765-477b-ac58-d792f9a65f3a",
+                "disabled": false,
+                "settings": {
+                }
+            },
+            "14060646107696862457": {
+                "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+                "disabled": true,
+                "settings": {
+                }
+            },
+            "17932116065945454919": {
+                "type": "shopify://apps/adt-facebook-pixels-ads/blocks/facebook-ads-pixels/4ad3004f-fa0b-4587-a4f1-4d8ce89e9fbb",
+                "disabled": false,
+                "settings": {
+                }
+            },
+            "15683396631634586217": {
+                "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+                "disabled": false,
+                "settings": {
+                    "button_color": "#000000",
+                    "secondary_color": "#FFFFFF",
+                    "ternary_color": "#6A6A6A",
+                    "button_icon": "chat_bubble",
+                    "button_text": "chat_with_us",
+                    "button_horizontal_position": "bottom_right",
+                    "button_vertical_position": "highest",
+                    "greeting_message": "👋 Hallo, schreiben Sie uns bei Fragen. Wir helfen Ihnen gerne weiter!"
+                }
+            },
+            "5017882195547572635": {
+                "type": "shopify://apps/sc-easy-redirects/blocks/app/be3f8dbd-5d43-46b4-ba43-2d65046054c2",
+                "disabled": false,
+                "settings": {
+                }
+            }
         }
-      },
-      "319724205969189013": {
-        "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "18218067344242134805": {
-        "type": "shopify://apps/hulk-product-reviews/blocks/app/34006358-52bd-4ec7-8c78-200fe58b77ba",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "1744347199190486471": {
-        "type": "shopify://apps/hulk-advanced-wishlist/blocks/app/330d9272-08ea-4193-b3e0-475a69fa65fa",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "1892562240530925112": {
-        "type": "shopify://apps/hulk-gdpr-cookie-consent-bar/blocks/app-embed/e2ac5ac3-1765-477b-ac58-d792f9a65f3a",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "17932116065945454919": {
-        "type": "shopify://apps/adt-facebook-pixels-ads/blocks/facebook-ads-pixels/4ad3004f-fa0b-4587-a4f1-4d8ce89e9fbb",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "15683396631634586217": {
-        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": false,
-        "settings": {
-          "button_color": "#000000",
-          "secondary_color": "#FFFFFF",
-          "ternary_color": "#6A6A6A",
-          "button_icon": "chat_bubble",
-          "button_text": "chat_with_us",
-          "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "highest",
-          "greeting_message": "👋 Hallo, schreiben Sie uns bei Fragen. Wir helfen Ihnen gerne weiter!"
-        }
-      },
-      "5017882195547572635": {
-        "type": "shopify://apps/sc-easy-redirects/blocks/app/be3f8dbd-5d43-46b4-ba43-2d65046054c2",
-        "disabled": false,
-        "settings": {
-        }
-      }
     }
-  }
 }
