@@ -1,7 +1,7 @@
 
 .cart-drawer {
     position: fixed;
-    z-index: 1170;
+    z-index: 9999999999;
     top: 0;
     right: 0;
     left: auto;
@@ -36,7 +36,7 @@
     width: 100%;
     margin-top: auto !important;
     background: var(--bs-color-primary-100);
-    padding:1rem !important; 
+    padding:1rem !important;
 }
 .cart-drawer .cart-header{
     display: none;
@@ -74,7 +74,7 @@
     flex: 0 0 auto;
     width: 25%;
 }
- 
+
 .cart-drawer .delivery-shipping{
     padding: 1rem;
     background: var(--bs-color-primary-100);
