@@ -21,7 +21,7 @@
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgb (84, 110, 122, 1);
+    color: rgba(84, 110, 122, 1);
 }
 .products-category-button {
     padding: 12px 20px 12px 20px;
@@ -110,7 +110,7 @@
     padding: 6px 4px 5px 8px;
 }
 .wishlist-hero-custom-button svg[data-prefix="fas"] {
-    color: #f44336; 
+    color: #f44336;
 }
 
 .wishlist-hero-custom-button a.wishlist-btn[data-added="true"] {
@@ -147,7 +147,7 @@
         justify-content: normal !important;
     }
     .justify-content-md-between {
-        justify-content: between !important;
+        justify-content: space-between !important;
     }
 }
 @media (min-width: 992px) {
