@@ -276,7 +276,7 @@
     }
 }
 
-#hulk__product-review {
-    scroll-margin-top: 145px;
+html {
+    scroll-padding-top: 140px;
     scroll-behavior: smooth;
 }
