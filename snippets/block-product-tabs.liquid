@@ -123,7 +123,7 @@
             {% endif %}
 
             {% if block.settings.enable_custom_tab_1 %}
-                <div class="accordion__container col-11 col-md-12 mx-auto py-3 border-bottom">
+                <div class="accordion__container col-11 col-md-12 mx-auto py-3 border-bottom open">
                     <a
                         class="accordion__toggle d-flex h6 mb-0"
                         href="#"
@@ -131,14 +131,14 @@
                         rel="nofollow"
                         aria-label="Open {{ block.settings.tab_1_title }}"
                         role="button"
-                        aria-expanded="false"
+                        aria-expanded="true"
                         aria-controls="accordion_customTab1"
                     >
                         <div class="plus-icon-accordion">{% render 'plus-image' %}</div>
                         <div class="minus-icon-accordion">{% render 'minus-image' %}</div>
                         <span>{{ block.settings.tab_1_title }}</span>
                     </a>
-                    <div class="accordion__block toggle-content" id="accordion_customTab1" data-type="content">
+                    <div class="accordion__block toggle-content open" id="accordion_customTab1" data-type="content">
                         <div data-hulkapps-reviews data-hulkapps-reviews-list></div>
                     </div>
                 </div>
