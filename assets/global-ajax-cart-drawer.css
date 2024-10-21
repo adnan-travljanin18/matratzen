@@ -1,7 +1,7 @@
 
 .cart-drawer {
     position: fixed;
-    z-index: 9999999999;
+    z-index: 99999999;
     top: 0;
     right: 0;
     left: auto;
@@ -195,4 +195,10 @@
     background-color: var(--bs-color-primary);
     transition: width .6s ease;
     border-radius: 3.75rem;
+}
+
+/*Hide Chat Button When Cart Open*/
+#shopify-chat {
+    position: relative;
+    z-index: 9999;
 }
