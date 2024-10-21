@@ -26,3 +26,5 @@ assets/main.min.css
 # information for Eclipse / Flash Builder.
 config/settingS_data.json
 config/settings_data.json
+
+.idea

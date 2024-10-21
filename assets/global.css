@@ -78,6 +78,11 @@ h6:empty
     }
 }
 
+.header__search {
+    opacity: 0;
+    visibility: hidden;
+}
+
 h1,
 .h1,
 h2,
@@ -606,8 +611,8 @@ progress {
 }
 
 
-/* ==================================================================  
-    Button  
+/* ==================================================================
+    Button
 ==================================================================== */
 
 .btn {
@@ -771,7 +776,7 @@ progress {
     color: var(--bs-body-color);
     border-bottom: 1px solid;
     border-color: var(--bs-body-color);
-    transition: .25s ease-in-out;  
+    transition: .25s ease-in-out;
     display: inline-block;
 }
 
@@ -1217,7 +1222,7 @@ textarea.form-control-lg {
     color: transparent;
 }
 
-.form-floating > .form-control:focus, 
+.form-floating > .form-control:focus,
 .form-floating > .form-control:not(:placeholder-shown) {
     padding-top: calc(var(--bs-y-padding-input) + var(--bs-y-padding-input)/2);
     padding-bottom: calc(var(--bs-y-padding-input) - var(--bs-y-padding-input)/2);
@@ -2183,8 +2188,8 @@ textarea.form-control-lg {
     }
 }
 
-/* ==================================================================  
-    Helpers  
+/* ==================================================================
+    Helpers
 ==================================================================== */
 
 
@@ -2392,8 +2397,8 @@ textarea.form-control-lg {
     border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
-/* ==================================================================  
-    Utilities  
+/* ==================================================================
+    Utilities
 ==================================================================== */
 
 
@@ -4457,7 +4462,7 @@ textarea.form-control-lg {
 .pt-4 {
     padding-top: 1.5rem !important;
 }
-/* 
+/*
 .pt-5 {
     padding-top: 2rem !important;
 } */
@@ -11530,8 +11535,8 @@ textarea.form-control-lg {
 }
 
 
-/* ==================================================================  
-    Table  
+/* ==================================================================
+    Table
 ==================================================================== */
 
 table {
@@ -11866,7 +11871,7 @@ collection-filters .filter__list {
 }
 
 [data-touch-moveable]{
-    overscroll-behavior-y: contain;  
+    overscroll-behavior-y: contain;
 }
 
 .shopify-challenge__container{
@@ -11912,4 +11917,9 @@ collection-filters .filter__list {
     .jdgm-carousel-wrapper .jdgm-carousel__left-arrow {
         margin-left: -35px !important;
     }
+}
+
+/*CSS For Wishlist App Slider Code Break Fix*/
+.hulk__wishlist-wrap .wrapper_grid .swiper-buttons {
+    display: none;
 }
