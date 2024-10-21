@@ -276,13 +276,7 @@
     }
 }
 
-html {
-    scroll-padding-top: 130px;
+#hulk__product-review {
+    scroll-margin-top: 145px;
     scroll-behavior: smooth;
-}
-
-@media screen and (min-width: 992px) {
-    html {
-        scroll-padding-top: 140px;
-    }
 }
