@@ -255,12 +255,12 @@
     "footer": {
       "copyright": "Serenity",
       "all_rights_reserved": "All rights reserved by",
-      "klarna-name" : "Registered Name: Serenity Bett GmbH",
-      "klarna-number" : "Registration Number: HRB13083",
-      "klarna-address" : "Address: Hochoffenstr. 16, 58135 Hagen, Germany",
-      "klarna-return-policy" : "Return Policy: 14 days, visible in",
-      "klarna-terms" : "Terms of service",
-      "klarna-return-policy-link" : "/policies/terms-of-service"
+      "klarna-name": "Registered Name: Serenity Bett GmbH",
+      "klarna-number": "Registration Number: HRB13083",
+      "klarna-address": "Address: Hochoffenstr. 16, 58135 Hagen, Germany",
+      "klarna-return-policy": "Return Policy: 14 days, visible in",
+      "klarna-terms": "Terms of service",
+      "klarna-return-policy-link": "\/policies\/terms-of-service"
     },
     "video-with-text": {
       "play_video": "Play Video",
