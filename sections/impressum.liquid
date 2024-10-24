@@ -1,0 +1,35 @@
+{{ 'section-impressum.css' | asset_url | stylesheet_tag }}
+<section class="impressum-content">
+    <div>
+        <h1>{{ 'sections.impressum.impressum-title' | t }}</h1>
+
+        <div class="content-box">
+            <h3>{{ 'sections.impressum.impressum-heading-1' | t }}</h3>
+            <p>{{ 'sections.footer.klarna-name' | t }}</p>
+            <p>{{ 'sections.footer.klarna-number' | t }}</p>
+            <p>{{ 'sections.footer.klarna-address' | t }}</p>
+            <p>{{ 'sections.footer.klarna-return-policy' | t }} <a class="klarna-link text-black" href="{{ 'sections.footer.klarna-return-policy-link' | t }}" target="_blank">{{ 'sections.footer.klarna-terms' | t }}</a></p>
+            <p>E-mail: kundenservice@serenitybett.de</p>
+            <p>Managing Director: Ajla Jusic</p>
+            <p>{{ 'sections.impressum.impressum-note' | t }}</p>
+        </div>
+
+        <div class="content-box">
+            <h3>{{ 'sections.impressum.impressum-reference' | t }}</h3>
+            <p>{{ 'sections.impressum.impressum-reference-details' | t }}</p>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Impressum",
+  "tag": "section",
+  "settings": [],
+  "presets": [
+    {
+        "name": "Impressum"
+    }
+  ]
+}
+{% endschema %}

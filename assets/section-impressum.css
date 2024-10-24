@@ -1,0 +1,23 @@
+.impressum-content {
+    padding: 20px;
+}
+
+.impressum-content .content-box h3 {
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+@media (min-width: 768px) {
+    .impressum-content {
+        max-width: 576px;
+        margin: 0 auto;
+    }
+
+    .impressum-content .content-box h3 {
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
