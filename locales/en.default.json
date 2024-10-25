@@ -265,9 +265,12 @@
     "impressum": {
       "impressum-title": "Legal Notice",
       "impressum-heading-1": "Customer Contact Information",
+      "impressum-director": "Managing Director: Ajla Jusic",
       "impressum-note": "Note: The address is our company headquarters and not a shop.",
       "impressum-reference": "Note according to § 36 VSBG:",
-      "impressum-reference-details": "Serenity Bett GmbH does not take part in a dispute resolution procedure before a consumer arbitration board. The European Commission provides a platform for online dispute resolution, which can be accessed at ec.europa.eu/consumers/odr."
+      "impressum-reference-link-text": "ec.europa.eu/consumers/odr",
+      "impressum-reference-link-text-2": ".",
+      "impressum-reference-details": "Serenity Bett GmbH does not take part in a dispute resolution procedure before a consumer arbitration board. The European Commission provides a platform for online dispute resolution, which can be accessed at "
     },
     "video-with-text": {
       "play_video": "Play Video",

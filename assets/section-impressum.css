@@ -2,9 +2,9 @@
     padding: 20px;
 }
 
-.impressum-content .content-box h3 {
+.impressum-content h2 {
     margin: 15px 0;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 @media (min-width: 768px) {
@@ -13,7 +13,7 @@
         margin: 0 auto;
     }
 
-    .impressum-content .content-box h3 {
+    .impressum-content h2 {
         margin: 20px 0;
     }
 }

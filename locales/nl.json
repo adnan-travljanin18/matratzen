@@ -265,9 +265,12 @@
     "impressum": {
       "impressum-title": "afdruk",
       "impressum-heading-1": "Contactgegevens van de klant",
+      "impressum-director": "Directeur: Ajla Jusic",
       "impressum-note": "Opmerking: het adres is het hoofdkantoor van ons bedrijf en geen winkel.",
       "impressum-reference": "Opmerking volgens § 36 VSBG:",
-      "impressum-reference-details": "Serenity Bett GmbH neemt niet deel aan een geschillenbeslechtingsprocedure voor een consumentenarbitragecommissie. De Europese Commissie biedt een platform voor online geschillenbeslechting, dat toegankelijk is via ec.europa.eu/consumers/odr."
+      "impressum-reference-link-text": "ec.europa.eu/consumers/odr",
+      "impressum-reference-link-text-2": ".",
+      "impressum-reference-details": "Serenity Bett GmbH neemt niet deel aan een geschillenbeslechtingsprocedure voor een consumentenarbitragecommissie. De Europese Commissie biedt een platform voor online geschillenbeslechting, dat toegankelijk is via "
     },
     "video-with-text": {
       "play_video": "Video afspelen",
