@@ -1,5 +1,6 @@
 .impressum-content {
     padding: 20px;
+    max-width: 576px;
 }
 
 .impressum-content h2 {
@@ -9,15 +10,10 @@
 
 @media (min-width: 768px) {
     .impressum-content {
-        max-width: 576px;
         margin: 0 auto;
     }
 
     .impressum-content h2 {
         margin: 20px 0;
     }
-}
-
-@media (min-width: 992px) {
-
 }
