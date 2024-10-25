@@ -9,11 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "template-page",
-      "settings": {
-      }
-    },
     "impressum_BPx6wH": {
       "type": "impressum",
       "settings": {
@@ -21,7 +16,6 @@
     }
   },
   "order": [
-    "main",
     "impressum_BPx6wH"
   ]
 }
