@@ -1,0 +1,84 @@
+{% if settings.welcome_modal_enabled %}
+<script>
+    window.onload = function () {
+        const checkInterval = setInterval(() => {
+            const modalOpener = document.querySelector('[data-modal-opener="Popup-welcomeModal"]');
+
+            if (modalOpener) {
+                clearInterval(checkInterval);
+
+                let isBfcmWelcomeModalAlreadyOpened = localStorage.getItem("BfcmWelcomeModal");
+                console.log(isBfcmWelcomeModalAlreadyOpened)
+                if (isBfcmWelcomeModalAlreadyOpened) {
+                    return;
+                }
+
+                console.log(isBfcmWelcomeModalAlreadyOpened)
+
+                if (!isBfcmWelcomeModalAlreadyOpened) {
+                    modalOpener.click();
+                    localStorage.setItem("BfcmWelcomeModal", 1);
+                    console.log(isBfcmWelcomeModalAlreadyOpened)
+                }
+            }
+        }, 500);
+    };
+</script>
+
+<style>
+    .welcome-modal {
+        background-color: {% if settings.welcome_modal_bg_color != blank %}{{ settings.welcome_modal_bg_color }}{% endif %};
+    }
+
+    .welcome-modal .welcome-modal-text {
+        color: {{ settings.welcome_modal_text_color }};
+        padding: {{ settings.welcome_modal_padding }}px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #Popup-welcomeModal .icon-close {
+        color: {{ settings.welcome_modal_text_color }};
+    }
+
+    #Popup-welcomeModal .modal-body {
+        background-color: {% if settings.welcome_modal_bg_color != blank %}{{ settings.welcome_modal_bg_color }}{% endif %};
+    }
+
+    #Popup-welcomeModal .modal.open {
+        display: flex;
+        align-items: center;
+    }
+</style>
+
+<modal-dialog id="Popup-welcomeModal">
+    <div class="modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <button
+                        class="btn p-2 close-quickshop"
+                        type="button"
+                        id="ModalClose-welcomeModal"
+                    >
+                        <span class="icon-close"></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <a href="{{ settings.welcome_modal_url }}">
+                        <div class="welcome-modal">
+                            <div class="d-block text-center welcome-modal-text">
+                                {{ settings.welcome_modal_text }}
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</modal-dialog>
+
+<a data-modal-opener="Popup-welcomeModal" class="d-none"></a>
+
+{% endif %}

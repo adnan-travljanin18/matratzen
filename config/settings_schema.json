@@ -1288,5 +1288,53 @@
         "info": "Use ${addMoreForFreeShip} in place of left value in text."
       }
     ]
+  },
+  {
+    "name": "Welcome Modal",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Welcome Modal"
+      },
+      {
+        "type": "checkbox",
+        "id": "welcome_modal_enabled",
+        "label": "Welcome Modal Enabled ?",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "welcome_modal_text",
+        "default": "Black Week Sale: 22.11–30.11 | 25% Off All Products!",
+        "label": "Message"
+      },
+      {
+        "type": "color",
+        "id": "welcome_modal_bg_color",
+        "label": "Background Color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "welcome_modal_text_color",
+        "label": "Text Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "url",
+        "id": "welcome_modal_url",
+        "label": "Redirect URL"
+      },
+      {
+        "type": "range",
+        "id": "welcome_modal_padding",
+        "label": "Padding",
+        "min": 20,
+        "max": 120,
+        "step": 1,
+        "unit": "px",
+        "default": 20
+      }
+    ]
   }
 ]
