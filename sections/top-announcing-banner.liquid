@@ -3,18 +3,22 @@
         background-color: {% if section.settings.top_announcement_bar_bg_color != blank %}{{ section.settings.top_announcement_bar_bg_color }}{% endif %};
         position: relative;
         z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .top-announcement-bar .top-announcement-bar-text {
         color: {{ section.settings.top_announcement_bar_text_color }};
         padding: {{ section.settings.top_announcement_bar_padding }}px 8px;
         font-weight: 700;
-        font-size: 13px;
+        font-size: 16px;
         line-height: 18px;
+        max-width: 300px;
     }
     @media (min-width: 575px) {
         .top-announcement-bar .top-announcement-bar-text {
-            font-size: 16px;
+            max-width: 100%;
         }
     }
 </style>

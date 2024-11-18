@@ -53,6 +53,7 @@
     "free_shipping_txt": "Congratulations! You get free shipping.",
     "free_shipping_left": "You are ${addMoreForFreeShip} away from free shipping!",
     "welcome_modal_enabled": true,
+    "welcome_modal_text": "Black Week Sale <br> 22.11–30.11 <br> 25% Off All Products!",
     "welcome_modal_bg_color": "#131e27",
     "welcome_modal_url": "shopify:\/\/collections\/alle-produkte",
     "welcome_modal_padding": 50,
