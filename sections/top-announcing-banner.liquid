@@ -1,0 +1,87 @@
+<style>
+    .top-announcement-bar {
+        background-color: {% if section.settings.top_announcement_bar_bg_color != blank %}{{ section.settings.top_announcement_bar_bg_color }}{% endif %};
+        position: relative;
+        z-index: 2;
+    }
+
+    .top-announcement-bar .top-announcement-bar-text {
+        color: {{ section.settings.top_announcement_bar_text_color }};
+        padding: {{ section.settings.top_announcement_bar_padding }}px 8px;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    @media (min-width: 575px) {
+        .top-announcement-bar .top-announcement-bar-text {
+            font-size: 16px;
+        }
+    }
+</style>
+
+{% if section.settings.top_announcement_bar_enabled %}
+    <a href="{{ section.settings.top_announcement_bar_url }}">
+        <div class="top-announcement-bar">
+            <div class="d-block text-center top-announcement-bar-text">
+                {{ section.settings.top_announcement_bar_text }}
+            </div>
+        </div>
+    </a>
+{% endif %}
+
+
+{% schema %}
+{
+    "name": "Top Announcement Bar",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Top Announcement Bar"
+        },
+        {
+            "type": "checkbox",
+            "id": "top_announcement_bar_enabled",
+            "label": "Enabled ?",
+            "default": false
+        },
+        {
+            "type": "text",
+            "id": "top_announcement_bar_text",
+            "default": "Black Week Sale: 22.11–30.11 | 25% Off All Products!",
+            "label": "Message"
+        },
+        {
+            "type": "color",
+            "id": "top_announcement_bar_bg_color",
+            "label": "Background Color",
+            "default": "#000000"
+        },
+        {
+            "type": "color",
+            "id": "top_announcement_bar_text_color",
+            "label": "Text Color",
+            "default": "#ffffff"
+        },
+        {
+            "type": "url",
+            "id": "top_announcement_bar_url",
+            "label": "Redirect URL"
+        },
+        {
+            "type": "range",
+            "id": "top_announcement_bar_padding",
+            "label": "Vertical Padding",
+            "min": 10,
+            "max": 110,
+            "step": 1,
+            "unit": "px",
+            "default": 15
+        }
+    ],
+    "presets": [
+        {
+            "name": "Top Announcement Bar"
+        }
+    ]
+}
+{% endschema %}

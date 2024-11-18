@@ -221,6 +221,10 @@ window.dataLayer.push({
 
         {% section 'top-header' %}
 
+        {% if template.name == 'index' %}
+            {%- section 'top-announcing-banner' -%}
+        {% endif %}
+
         {% section 'header' %}
 
         {% section 'mobile-nav-drawer' %}

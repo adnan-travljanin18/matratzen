@@ -466,8 +466,7 @@
     },
     "footer": {
       "name": "Footer",
-      "blocks": {
-      },
+      "blocks": {},
       "settings": {
         "footer_layout": {
           "label": "Layout"
@@ -759,20 +758,16 @@
     },
     "global-featured-collection": {
       "name": "Featured Collection",
-      "settings": {
-      }
+      "settings": {}
     },
     "template-article": {
       "name": "Blog post",
-      "blocks": {
-      }
+      "blocks": {}
     },
     "template-blog": {
       "name": "Blog posts",
-      "settings": {
-      },
-      "blocks": {
-      }
+      "settings": {},
+      "blocks": {}
     },
     "template-cart": {
       "name": "Items",
@@ -1037,13 +1032,11 @@
     },
     "template-search": {
       "name": "Search results",
-      "settings": {
-      }
+      "settings": {}
     },
     "newsletter": {
       "name": "Email signup",
-      "settings": {
-      }
+      "settings": {}
     },
     "page": {
       "name": "Page",

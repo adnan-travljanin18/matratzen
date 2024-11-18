@@ -2,9 +2,7 @@
   "sections": {
     "cart-items": {
       "type": "template-cart",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "show_vendor": false,
         "show_back_btn": false

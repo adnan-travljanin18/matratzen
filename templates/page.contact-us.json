@@ -2,9 +2,7 @@
   "sections": {
     "main": {
       "type": "template-contact-page",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "page": "contact",
         "fluid_layout": true,

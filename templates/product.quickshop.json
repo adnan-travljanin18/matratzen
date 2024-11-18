@@ -4,8 +4,7 @@
   "sections": {
     "main": {
       "type": "template-product-quickshop",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

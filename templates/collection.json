@@ -15,17 +15,13 @@
     },
     "product-grid": {
       "type": "template-collection",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "products_per_page": 16,
         "product_per_row": "4",
         "pagination_type": "loadmore",
         "enable_sub_collections": false,
-        "sub_collections": [
-
-        ],
+        "sub_collections": [],
         "enable_filtering": true,
         "filter_type": "default",
         "price_filter_layout": "range_slider",
