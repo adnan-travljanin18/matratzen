@@ -9,19 +9,17 @@
         color: {{ section.settings.top_announcement_bar_text_color }};
         padding: {{ section.settings.top_announcement_bar_padding }}px 8px;
         font-weight: 700;
-        font-size: 13px;
+        font-size: 16px;
         line-height: 18px;
     }
 </style>
 
 {% if section.settings.top_announcement_bar_enabled %}
-    <a href="{{ section.settings.top_announcement_bar_url }}">
-        <div class="top-announcement-bar">
-            <div class="d-block text-center top-announcement-bar-text">
-                {{ section.settings.top_announcement_bar_text }}
-            </div>
+    <div class="top-announcement-bar">
+        <div class="d-block text-center top-announcement-bar-text">
+            {{ section.settings.top_announcement_bar_text }}
         </div>
-    </a>
+    </div>
 {% endif %}
 
 
