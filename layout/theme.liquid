@@ -224,6 +224,9 @@ window.dataLayer.push({
         {% if template.name == 'index' %}
             {%- section 'top-announcing-banner' -%}
         {% endif %}
+        {% if template.name == 'collection' %}
+            {%- section 'top-announcing-banner-collection' -%}
+        {% endif %}
 
         {% section 'header' %}
 

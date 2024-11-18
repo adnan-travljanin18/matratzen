@@ -53,6 +53,7 @@
     "free_shipping_txt": "Congratulations! You get free shipping.",
     "free_shipping_left": "You are ${addMoreForFreeShip} away from free shipping!",
     "welcome_modal_enabled": true,
+    "welcome_modal_bg_color": "#131e27",
     "welcome_modal_url": "shopify:\/\/collections\/alle-produkte",
     "welcome_modal_padding": 50,
     "checkout_logo_image": "shopify:\/\/shop_images\/SE_LOGO_72px.png",
@@ -222,9 +223,19 @@
         "settings": {
           "top_announcement_bar_enabled": true,
           "top_announcement_bar_text": "Black Week Sale: 22.11–30.11 | 25% Off All Products!",
-          "top_announcement_bar_bg_color": "#000000",
+          "top_announcement_bar_bg_color": "#131e27",
           "top_announcement_bar_text_color": "#ffffff",
           "top_announcement_bar_url": "shopify:\/\/collections\/alle-produkte",
+          "top_announcement_bar_padding": 10
+        }
+      },
+      "top-announcing-banner-collection": {
+        "type": "top-announcing-banner-collection",
+        "settings": {
+          "top_announcement_bar_enabled": true,
+          "top_announcement_bar_text": "Prices are already discounted",
+          "top_announcement_bar_bg_color": "#131e27",
+          "top_announcement_bar_text_color": "#ffffff",
           "top_announcement_bar_padding": 10
         }
       }
