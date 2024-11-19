@@ -411,6 +411,9 @@ class ModalDialog extends HTMLElement {
 
     this.addEventListener('click', (event) => {
       if (event.target.nodeName === 'MODAL-DIALOG') this.hide();
+      if(event.target.classList.contains('modal')) {
+        this.hide();
+      }
     });
 
     this.addEventListener('keyup', () => {
