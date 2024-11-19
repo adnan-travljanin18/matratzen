@@ -17,7 +17,7 @@
 {% if section.settings.top_announcement_bar_enabled %}
     <div class="top-announcement-bar">
         <div class="d-block text-center top-announcement-bar-text">
-            {{ section.settings.top_announcement_bar_text }}
+            {{ 'sections.black-week-offer-text.collection_page_title' | t }}
         </div>
     </div>
 {% endif %}
@@ -32,12 +32,6 @@
             "id": "top_announcement_bar_enabled",
             "label": "Enabled ?",
             "default": false
-        },
-        {
-            "type": "text",
-            "id": "top_announcement_bar_text",
-            "default": "Prices are already discounted",
-            "label": "Message"
         },
         {
             "type": "color",

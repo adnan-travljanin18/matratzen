@@ -13,7 +13,7 @@
                 }
 
                 if (!isBfcmWelcomeModalAlreadyOpened) {
-                    modalOpener.click();
+                    modalOpener?.click();
                     localStorage.setItem("BfcmWelcomeModal", 1);
                 }
             }
@@ -66,7 +66,7 @@
                     <a href="{{ settings.welcome_modal_url }}">
                         <div class="welcome-modal">
                             <div class="d-block text-center welcome-modal-text">
-                                {{ settings.welcome_modal_text }}
+                                {{ 'sections.black-week-offer-text.welcome_modal_title' | t }}
                             </div>
                         </div>
                     </a>

@@ -1303,12 +1303,6 @@
         "default": false
       },
       {
-        "type": "text",
-        "id": "welcome_modal_text",
-        "default": "Black Week Sale: 22.11–30.11 | 25% Off All Products!",
-        "label": "Message"
-      },
-      {
         "type": "color",
         "id": "welcome_modal_bg_color",
         "label": "Background Color",

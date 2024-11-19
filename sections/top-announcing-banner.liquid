@@ -14,12 +14,6 @@
         font-weight: 700;
         font-size: 16px;
         line-height: 18px;
-        max-width: 300px;
-    }
-    @media (min-width: 575px) {
-        .top-announcement-bar .top-announcement-bar-text {
-            max-width: 100%;
-        }
     }
 </style>
 
@@ -27,7 +21,7 @@
     <a href="{{ section.settings.top_announcement_bar_url }}">
         <div class="top-announcement-bar">
             <div class="d-block text-center top-announcement-bar-text">
-                {{ section.settings.top_announcement_bar_text }}
+                {{ 'sections.black-week-offer-text.home_page_title' | t }}
             </div>
         </div>
     </a>
@@ -47,12 +41,6 @@
             "id": "top_announcement_bar_enabled",
             "label": "Enabled ?",
             "default": false
-        },
-        {
-            "type": "text",
-            "id": "top_announcement_bar_text",
-            "default": "Black Week Sale: 22.11–30.11 | 25% Off All Products!",
-            "label": "Message"
         },
         {
             "type": "color",

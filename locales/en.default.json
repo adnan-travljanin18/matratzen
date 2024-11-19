@@ -277,6 +277,11 @@
       "impressum-business-ceo": "CEO: Zlatan Jusic",
       "impressum-business-bank": "Bank details"
     },
+    "black-week-offer-text": {
+      "home_page_title": "Black Week Sale: 22.11–30.11 | 25% Off All Products!",
+      "collection_page_title": "Prices are already discounted",
+      "welcome_modal_title": "Black Week Sale 22.11–30.11 25% Off All Products!"
+    },
     "video-with-text": {
       "play_video": "Play Video",
       "paused_video": "Paused Video",
