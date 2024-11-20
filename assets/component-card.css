@@ -35,9 +35,10 @@
 
 .card-product .badges {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 2px;
+    left: 4px;
     padding: 4px;
+    z-index: 2;
 }
 
 .badge:empty {
