@@ -1,20 +1,20 @@
-<style>
-    .top-announcement-bar {
-        background-color: {% if section.settings.top_announcement_bar_bg_color != blank %}{{ section.settings.top_announcement_bar_bg_color }}{% endif %};
-        position: relative;
-        z-index: 2;
-    }
-
-    .top-announcement-bar .top-announcement-bar-text {
-        color: {{ section.settings.top_announcement_bar_text_color }};
-        padding: {{ section.settings.top_announcement_bar_padding }}px 8px;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 18px;
-    }
-</style>
-
 {% if section.settings.top_announcement_bar_enabled %}
+    <style>
+        .top-announcement-bar {
+            background-color: {% if section.settings.top_announcement_bar_bg_color != blank %}{{ section.settings.top_announcement_bar_bg_color }}{% endif %};
+            position: relative;
+            z-index: 2;
+        }
+
+        .top-announcement-bar .top-announcement-bar-text {
+            color: {{ section.settings.top_announcement_bar_text_color }};
+            padding: {{ section.settings.top_announcement_bar_padding }}px 8px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    </style>
+
     <div class="top-announcement-bar">
         <div class="d-block text-center top-announcement-bar-text">
             {{ 'sections.black-week-offer-text.collection_page_title' | t }}

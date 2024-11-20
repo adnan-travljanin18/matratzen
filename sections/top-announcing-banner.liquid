@@ -1,29 +1,30 @@
-<style>
-    .top-announcement-bar {
-        background-color: {% if section.settings.top_announcement_bar_bg_color != blank %}{{ section.settings.top_announcement_bar_bg_color }}{% endif %};
-        position: relative;
-        z-index: 2;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .top-announcement-bar .top-announcement-bar-text {
-        color: {{ section.settings.top_announcement_bar_text_color }};
-        padding: {{ section.settings.top_announcement_bar_padding }}px 8px;
-        font-weight: 700;
-        font-size: 10px;
-        line-height: 12px;
-    }
-    @media screen and (min-width: 575px) {
-        .top-announcement-bar .top-announcement-bar-text {
-            font-size: 16px;
-            line-height: 18px;
-        }
-    }
-</style>
-
 {% if section.settings.top_announcement_bar_enabled %}
+    <style>
+        .top-announcement-bar {
+            background-color: {% if section.settings.top_announcement_bar_bg_color != blank %}{{ section.settings.top_announcement_bar_bg_color }}{% endif %};
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .top-announcement-bar .top-announcement-bar-text {
+            color: {{ section.settings.top_announcement_bar_text_color }};
+            padding: {{ section.settings.top_announcement_bar_padding }}px 8px;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 12px;
+        }
+        @media screen and (min-width: 575px) {
+            .top-announcement-bar .top-announcement-bar-text {
+                font-size: 16px;
+                line-height: 18px;
+            }
+        }
+    </style>
+
+
     <a href="{{ section.settings.top_announcement_bar_url }}">
         <div class="top-announcement-bar">
             <div class="d-block text-center top-announcement-bar-text">
