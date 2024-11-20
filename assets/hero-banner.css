@@ -121,7 +121,17 @@
     z-index: 999;
     transform: translateX(-50%);
     left: 50%;
-    top: 75% !important;
+    top: 100% !important;
+}
+@media screen and (min-width: 1100px) {
+    .hero-collection-slider {
+        top: 85% !important;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .hero-collection-slider {
+        top: 75% !important;
+    }
 }
 .m-0-auto {
     margin: 0 auto;

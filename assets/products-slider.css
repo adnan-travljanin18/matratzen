@@ -141,7 +141,7 @@
 }
 @media (min-width: 768px) {
     .slider-padding-top {
-        padding-top: 11rem;
+        padding-top: 22rem;
     }
     .justify-content-md-normal {
         justify-content: normal !important;
@@ -152,12 +152,17 @@
 }
 @media (min-width: 992px) {
     .slider-padding-top {
-        padding-top: 15rem;
+        padding-top: 29rem;
     }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
     .slider-padding-top {
-        padding-top: 18rem;
+        padding-top: 25rem;
+    }
+}
+@media (min-width: 1300px) {
+    .slider-padding-top {
+        padding-top: 20rem;
     }
 }
 @media (min-width: 1400px) {
