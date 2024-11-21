@@ -67,14 +67,14 @@
                                     alt="{{ shop.name | escape }}"
                                     class="img-fluid"
                                     style="width: {{ section.settings.logo_width }}px"
-                                    loading="lazy"
+                                    loading="eager"
                                     width="{{ section.settings.logo_width }}"
                                     height="40"
                                 >
                             {%- elsif section.settings.logo != blank -%}
                                 <img
-                                    src="{{ section.settings.logo | image_url }}"
-                                    loading="lazy"
+                                    src="{{ section.settings.logo | image_url: width: 200 }}"
+                                    loading="eager"
                                     class="img-fluid"
                                     width="{{ section.settings.logo.width }}"
                                     height="{{ section.settings.logo.height }}"

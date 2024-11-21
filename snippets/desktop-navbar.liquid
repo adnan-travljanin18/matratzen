@@ -194,13 +194,13 @@
             class="img-fluid"
             height="auto"
             width="150"
-            loading="lazy"
+            loading="eager"
             style="width: {{ section.settings.logo_width }}px"
         >
     {%- elsif section.settings.logo != blank -%}
         <img
-            src="{{ section.settings.logo | image_url }}"
-            loading="lazy"
+            src="{{ section.settings.logo | image_url: width: 200 }}"
+            loading="eager"
             class="img-fluid"
             width="{{ section.settings.logo.width }}"
             height="{{ section.settings.logo.height }}"
