@@ -86,7 +86,16 @@
     border-radius: 64px;
     padding: 16px 32px 16px 32px !important;
     max-height: 59px;
+    background-color: #C0292B;/*Remove After Black Week*/
+    border-color: #C0292B;/*Remove After Black Week*/
 }
+/*Remove After Black Week*/
+.hero-button:hover {
+    background-color: #FFFFFF;
+    border-color: #C0292B;
+    color: #000000;
+}
+/*Remove After Black Week*/
 .hero-banner-right-image {
     width: 26vw;
     max-width: 35rem;
@@ -199,9 +208,10 @@
     .mobile-img-view {
         display: none;
     }
-    .full-video-photo {
+    /*Change When Black Week Over*/
+    /*.full-video-photo {
         transform: translateX(-3%);
-    }
+    }*/
     .full-video-button {
         top: 84%;
         transform: translateX(3%);

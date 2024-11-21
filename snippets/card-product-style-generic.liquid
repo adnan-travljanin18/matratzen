@@ -26,11 +26,11 @@
             {%- endif -%}
         {%- endfor -%}
 
-        {% if onSale %}
-            <span class="badge badge-right badge-danger">
-                25% OFF{% comment %}{{ 'products.product.on_sale' | t | escape }}{% endcomment %}
-            </span>
-        {% endif %}
+
+        <span class="badge badge-right {% comment %}badge-danger{% endcomment %}">
+            <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Discount_Badge.png?v=1732190182&width=50" width="auto" height="auto" alt="sale">{% comment %}{{ 'products.product.on_sale' | t | escape }}{% endcomment %}
+        </span>
+
 
         {% if soldOut %}
             <span class="badge badge-right badge-warning">
