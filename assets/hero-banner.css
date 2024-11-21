@@ -214,7 +214,7 @@
     }*/
     .full-video-button {
         top: 84%;
-        transform: translateX(3%);
+        /*transform: translateX(3%);*/ /*Change When Black Week Over*/
     }
     .hero-collection-slider .swiper-pagination {
         gap: 1rem;
