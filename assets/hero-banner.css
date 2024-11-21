@@ -90,6 +90,7 @@
     background-position-x: center;
     position: absolute;
     top: 0;
+    z-index: 2;
 }
 
 @media screen and (min-width: 575px) {
@@ -109,6 +110,7 @@
         background-position-x: 0;
         position: absolute;
         top: 0;
+        z-index: 2;
     }
 }
 
