@@ -279,8 +279,9 @@
     },
     "black-week-offer-text": {
       "home_page_title": "BLACK FRIDAY WEEKS: 25% KORTING OP ALLES \/ HET HELE ASSORTIMENT; VANAF 22.11. TOT 30.11; BESPAAR TOT 200 €.",
-      "collection_page_title": "De prijzen zijn al verlaagd",
-      "welcome_modal_title": "Black Week uitverkoop 22.11–30.11 25% korting op alle producten!",
+      "welcome_modal_title_1": "BLACK FRIDAY WEEKS",
+      "welcome_modal_title_2": "VANAF 22.11. TOT 30.11",
+      "welcome_modal_title_3": "25% korting op alle producten!",
       "button_text": "NU TE KOOP"
     },
     "video-with-text": {

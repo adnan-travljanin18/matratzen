@@ -279,8 +279,9 @@
     },
     "black-week-offer-text": {
       "home_page_title": "BLACK FRIDAY WEEKS: 25% OFF EVERYTHING \/ THE ENTIRE RANGE; FROM 22.11. UNTIL 30.11; SAVE UP TO 200 €.",
-      "collection_page_title": "Prices are already discounted",
-      "welcome_modal_title": "Black Week Sale 22.11–30.11 25% Off All Products!",
+      "welcome_modal_title_1": "BLACK FRIDAY WEEKS",
+      "welcome_modal_title_2": "FROM 22.11. UNTIL 30.11",
+      "welcome_modal_title_3": "25% Off All Products!",
       "button_text": "NOW ON SALE"
     },
     "video-with-text": {

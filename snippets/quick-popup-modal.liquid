@@ -25,27 +25,49 @@
     .welcome-modal {
         background-color: {% if settings.welcome_modal_bg_color != blank %}{{ settings.welcome_modal_bg_color }}{% endif %};
     }
-
     .welcome-modal .welcome-modal-text {
         color: {{ settings.welcome_modal_text_color }};
         padding: {{ settings.welcome_modal_padding }}px;
         font-weight: 700;
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 38px;
     }
-
     #Popup-welcomeModal .icon-close {
         color: {{ settings.welcome_modal_text_color }};
     }
-
     #Popup-welcomeModal .modal-body {
         background-color: {% if settings.welcome_modal_bg_color != blank %}{{ settings.welcome_modal_bg_color }}{% endif %};
     }
-
     #Popup-welcomeModal .modal.open {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    #Popup-welcomeModal .btn-black-friday {
+        padding: 15px 32px;
+        background-color: #FFFFFF;
+        color: #C0292B;
+        border-radius: 20px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    #Popup-welcomeModal .btn-black-friday:hover {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+    #Popup-welcomeModal .modal-body {
+        padding: 1rem 1rem 50px;
+    }
+
+    @media screen and (max-width: 575px) {
+        .welcome-modal .welcome-modal-text {
+            padding: 30px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        #Popup-welcomeModal .modal-body {
+            padding: 1rem 1rem 30px;
+        }
     }
 </style>
 
@@ -66,7 +88,16 @@
                     <a href="{{ settings.welcome_modal_url }}">
                         <div class="welcome-modal">
                             <div class="d-block text-center welcome-modal-text">
-                                {{ 'sections.black-week-offer-text.welcome_modal_title' | t }}
+                                {{ 'sections.black-week-offer-text.welcome_modal_title_1' | t }}
+                                <br>
+                                {{ 'sections.black-week-offer-text.welcome_modal_title_2' | t }}
+                                <br>
+                                {{ 'sections.black-week-offer-text.welcome_modal_title_3' | t }}
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="{{ settings.welcome_modal_url }}" class="btn-black-friday">
+                                    {{ 'sections.black-week-offer-text.button_text' | t }}
+                                </a>
                             </div>
                         </div>
                     </a>
