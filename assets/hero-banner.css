@@ -159,12 +159,13 @@
     border-radius: 64px;
     padding: 16px 32px 16px 32px !important;
     max-height: 59px;
-    background-color: #C0292B;/*Remove After Black Week*/
-    border-color: #C0292B;/*Remove After Black Week*/
+    background-color: #FFFFFF;/*Remove After Black Week*/
+    border-color: #FFFFFF;/*Remove After Black Week*/
+    color: #000000;
 }
 /*Remove After Black Week*/
 .hero-button:hover {
-    background-color: #FFFFFF;
+    background-color: #C0292B;
     border-color: #C0292B;
     color: #000000;
 }
