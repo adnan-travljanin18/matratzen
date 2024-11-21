@@ -180,9 +180,6 @@
     .hero-video {
         min-height: 500px;
     }
-    .hero-image {
-        min-height: 500px;
-    }
 }
 @media (min-width: 768px) {
     .top-positioning {
