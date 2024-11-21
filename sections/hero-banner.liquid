@@ -57,11 +57,18 @@
                                 </video>
                                 <div class="filter-hero-overlay"></div>
                             {%- elsif section.settings.poster_image != blank -%}
+                                {% liquid
+                                    if section.settings.poster_image_mobile
+                                        assign poster_image_mobile = section.settings.poster_image_mobile
+                                    else
+                                        assign poster_image_mobile = section.settings.poster_image
+                                    endif
+                                %}
                                 <img
                                     srcset="
-                                        {%- if section.settings.poster_image.width >= 350 -%}{{ section.settings.poster_image | image_url: width: 350 }} 350w,{%- endif -%}
-                                        {%- if section.settings.poster_image.width >= 550 -%}{{ section.settings.poster_image | image_url: width: 550 }} 550w,{%- endif -%}
-                                        {%- if section.settings.poster_image.width >= 750 -%}{{ section.settings.poster_image | image_url: width: 750 }} 750w,{%- endif -%}
+                                        {%- if poster_image_mobile.width >= 350 -%}{{ poster_image_mobile | image_url: width: 350 }} 350w,{%- endif -%}
+                                        {%- if poster_image_mobile.width >= 550 -%}{{ poster_image_mobile | image_url: width: 550 }} 550w,{%- endif -%}
+                                        {%- if poster_image_mobile.width >= 750 -%}{{ poster_image_mobile | image_url: width: 750 }} 750w,{%- endif -%}
                                         {%- if section.settings.poster_image.width >= 991 -%}{{ section.settings.poster_image | image_url: width: 991 }} 991w,{%- endif -%}
                                         {%- if section.settings.poster_image.width >= 1200 -%}{{ section.settings.poster_image | image_url: width: 1200 }} 1200w,{%- endif -%}
                                         {%- if section.settings.poster_image.width >= 1500 -%}{{ section.settings.poster_image | image_url: width: 1500 }} 1500w{%- endif -%}
@@ -566,6 +573,11 @@
         {
             "type": "paragraph",
             "content": "Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "poster_image_mobile",
+            "label": "Select Mobile Image"
         },
         {
             "type": "image_picker",
