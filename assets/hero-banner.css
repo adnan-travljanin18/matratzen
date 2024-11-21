@@ -73,9 +73,82 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(100, 144, 178, 0.5); /* Adjust opacity here */
     pointer-events: none; /* Allow clicks to pass through the overlay */
-  }
+    display: block !important; /*Change When Black Week Over*/
+    background-color: #131E2790; /*rgba(100, 144, 178, 0.5); Change When Black Week Over*/
+}
+
+/*Change When Black Week Over*/
+.filter-hero-overlay:after {
+    content: '';
+    background-image: url("https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Group_7.png?v=1732203232&width=600");
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-position-y: 120%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: absolute;
+    top: 0;
+}
+
+@media screen and (min-width: 575px) {
+    .filter-hero-overlay:after {
+        background-position-y: 140%;
+        background-position-x: 100%;
+    }
+
+    .filter-hero-overlay:before {
+        content: '';
+        background-image: url("https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Group_12.png?v=1732203184&width=600");
+        height: 100%;
+        width: 100%;
+        display: block;
+        background-position-y: 140%;
+        background-repeat: no-repeat;
+        background-position-x: 0;
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .filter-hero-overlay:after {
+        background-position-y: 110%;
+        background-position-x: 110%;
+    }
+
+    .filter-hero-overlay:before {
+        background-position-y: 110%;
+        background-position-x: -10%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .filter-hero-overlay:after {
+        background-position-y: 90%;
+        background-position-x: 120%;
+    }
+
+    .filter-hero-overlay:before {
+        background-position-y: 90%;
+        background-position-x: -20%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .filter-hero-overlay:after {
+        background-position-y: 70%;
+        background-position-x: 100%;
+    }
+
+    .filter-hero-overlay:before {
+        background-position-y: 70%;
+        background-position-x: 0;
+    }
+}
+/*Change When Black Week Over*/
+
 .full-video-button {
     top: 110%;
     left: 0;
@@ -156,7 +229,7 @@
     letter-spacing: inherit;
 }
 .max-width-logo {
-    max-width: 75rem;
+    max-width: 55rem; /*75rem Change When Black Week Over*/
 }
 
 @media (max-width: 991px) {
@@ -183,7 +256,7 @@
         top: 0vh;
     }
     .full-video-photo {
-        top: 50%;
+        top: 35%;/*top: 50%; Change When Black Week Over*/
         transform: translateY(-50%);
     }
     .hero-video {
@@ -200,6 +273,12 @@
     .p-md-5 {
         padding: 5%;
     }
+
+    /*Change When Black Week Over*/
+    .hero-video {
+        max-height: 900px !important;
+    }
+    /*Change When Black Week Over*/
 }
 @media (min-width: 992px) {
     .desktop-img-view {
@@ -213,8 +292,8 @@
         transform: translateX(-3%);
     }*/
     .full-video-button {
-        top: 84%;
-        /*transform: translateX(3%);*/ /*Change When Black Week Over*/
+        /*top: 84%; Change When Black Week Over*/
+        /*transform: translateX(3%); Change When Black Week Over*/
     }
     .hero-collection-slider .swiper-pagination {
         gap: 1rem;
