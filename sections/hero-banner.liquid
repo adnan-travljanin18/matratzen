@@ -101,60 +101,34 @@
 
                     {% assign full_url = request.host | append: request.path %}
 
+                            {% liquid
+                                if section.settings.logo_image_english and full_url contains '/en'
+                                    assign logo_image = section.settings.logo_image_english
+                                elsif section.settings.logo_image_dutch and full_url contains '/nl'
+                                    assign logo_image = section.settings.logo_image_dutch
+                                else
+                                    assign logo_image = section.settings.logo_image
+                                endif
+                            %}
+
                     {%- if section.settings.logo_image != blank -%}
                             <div class="hero-logo-image">
-                                {% if full_url == 'serenitybett.de/en' %}
-                                    <img class="desktop-img-view"
-                                         srcset="
-                                                {%- if section.settings.logo_image_english.width >= 350 -%}{{ section.settings.logo_image_english | image_url: width: 350 }} 350w,{%- endif -%}
-                                                {%- if section.settings.logo_image_english.width >= 550 -%}{{ section.settings.logo_image_english | image_url: width: 550 }} 550w,{%- endif -%}
-                                                {%- if section.settings.logo_image_english.width >= 750 -%}{{ section.settings.logo_image_english | image_url: width: 750 }} 750w,{%- endif -%}
-                                                {%- if section.settings.logo_image_english.width >= 991 -%}{{ section.settings.logo_image_english | image_url: width: 991 }} 991w,{%- endif -%}
-                                                {%- if section.settings.logo_image_english.width >= 1200 -%}{{ section.settings.logo_image_english | image_url: width: 1200 }} 1200w,{%- endif -%}
-                                                {%- if section.settings.logo_image_english.width >= 1500 -%}{{ section.settings.logo_image_english | image_url: width: 1500 }} 1500w{%- endif -%}
-                                         "
-                                         src="{{ section.settings.logo_image_english | image_url: width: 50 }}"
-                                         loading="eager"
-                                         sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw"
-                                         alt="{{ section.settings.logo_image_english.alt | default: section.settings.title | escape }}"
-                                         width="{{ section.settings.logo_image_english.width }}"
-                                         height="{{ section.settings.logo_image_english.width | divided_by: section.settings.logo_image_english.aspect_ratio | round }}"
-                                    >
-                                {% elsif full_url == 'serenitybett.de/nl' %}
-                                    <img class="desktop-img-view"
-                                         srcset="
-                                                {%- if section.settings.logo_image_dutch.width >= 350 -%}{{ section.settings.logo_image_dutch | image_url: width: 350 }} 350w,{%- endif -%}
-                                                {%- if section.settings.logo_image_dutch.width >= 550 -%}{{ section.settings.logo_image_dutch | image_url: width: 550 }} 550w,{%- endif -%}
-                                                {%- if section.settings.logo_image_dutch.width >= 750 -%}{{ section.settings.logo_image_dutch | image_url: width: 750 }} 750w,{%- endif -%}
-                                                {%- if section.settings.logo_image_dutch.width >= 991 -%}{{ section.settings.logo_image_dutch | image_url: width: 991 }} 991w,{%- endif -%}
-                                                {%- if section.settings.logo_image_dutch.width >= 1200 -%}{{ section.settings.logo_image_dutch | image_url: width: 1200 }} 1200w,{%- endif -%}
-                                                {%- if section.settings.logo_image_dutch.width >= 1500 -%}{{ section.settings.logo_image_dutch | image_url: width: 1500 }} 1500w{%- endif -%}
-                                         "
-                                         src="{{ section.settings.logo_image_dutch | image_url: width: 50 }}"
-                                         loading="eager"
-                                         sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw"
-                                         alt="{{ section.settings.logo_image_dutch.alt | default: section.settings.title | escape }}"
-                                         width="{{ section.settings.logo_image_dutch.width }}"
-                                         height="{{ section.settings.logo_image_dutch.width | divided_by: section.settings.logo_image_dutch.aspect_ratio | round }}"
-                                    >
-                                {% else %}
-                                    <img class="desktop-img-view"
-                                         srcset="
-                                                {%- if section.settings.logo_image.width >= 350 -%}{{ section.settings.logo_image | image_url: width: 350 }} 350w,{%- endif -%}
-                                                {%- if section.settings.logo_image.width >= 550 -%}{{ section.settings.logo_image | image_url: width: 550 }} 550w,{%- endif -%}
-                                                {%- if section.settings.logo_image.width >= 750 -%}{{ section.settings.logo_image | image_url: width: 750 }} 750w,{%- endif -%}
-                                                {%- if section.settings.logo_image.width >= 991 -%}{{ section.settings.logo_image | image_url: width: 991 }} 991w,{%- endif -%}
-                                                {%- if section.settings.logo_image.width >= 1200 -%}{{ section.settings.logo_image | image_url: width: 1200 }} 1200w,{%- endif -%}
-                                                {%- if section.settings.logo_image.width >= 1500 -%}{{ section.settings.logo_image | image_url: width: 1500 }} 1500w{%- endif -%}
-                                         "
-                                         src="{{ section.settings.logo_image | image_url: width: 50 }}"
-                                         loading="eager"
-                                         sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw"
-                                         alt="{{ section.settings.logo_image.alt | default: section.settings.title | escape }}"
-                                         width="{{ section.settings.logo_image.width }}"
-                                         height="{{ section.settings.logo_image.width | divided_by: section.settings.logo_image.aspect_ratio | round }}"
-                                    >
-                                {% endif %}
+                                <img class="desktop-img-view"
+                                     srcset="
+                                            {%- if logo_image.width >= 350 -%}{{ logo_image | image_url: width: 350 }} 350w,{%- endif -%}
+                                            {%- if logo_image.width >= 550 -%}{{ logo_image | image_url: width: 550 }} 550w,{%- endif -%}
+                                            {%- if logo_image.width >= 750 -%}{{ logo_image | image_url: width: 750 }} 750w,{%- endif -%}
+                                            {%- if logo_image.width >= 991 -%}{{ logo_image | image_url: width: 991 }} 991w,{%- endif -%}
+                                            {%- if logo_image.width >= 1200 -%}{{ logo_image | image_url: width: 1200 }} 1200w,{%- endif -%}
+                                            {%- if logo_image.width >= 1500 -%}{{ logo_image | image_url: width: 1500 }} 1500w{%- endif -%}
+                                     "
+                                     src="{{ logo_image | image_url: width: 50 }}"
+                                     loading="eager"
+                                     sizes="(min-width: {{ settings.container_width }}) {{ settings.container_width }}, 100vw"
+                                     alt="{{ logo_image.alt | default: section.settings.title | escape }}"
+                                     width="{{ logo_image.width }}"
+                                     height="{{ logo_image.width | divided_by: logo_image.aspect_ratio | round }}"
+                                >
                             </div>
                     {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
