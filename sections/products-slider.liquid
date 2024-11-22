@@ -98,7 +98,7 @@
                                                         {% endif %}
                                                     </div>
 
-                                                    <div class="row col-12 d-flex justify-content-center align-items-center text-start padding-r-0">
+                                                    <div class="row col-12 d-flex justify-content-center align-items-center text-start pe-xl-0">
                                                         <h5 class="col-9 ps heading-5">
                                                             <a
                                                                 class="product-link lh-base"
@@ -114,11 +114,17 @@
                                                         </h5>
                                                         <h5 class="col-3 ps heading-5 text-end padding-r-0">
                                                             {%- if product.price != blank -%}
-                                                                {{- product.price | money -}}
+                                                                {% liquid
+                                                                    assign discount_percentage = 25
+                                                                    assign discount_amount =  product.price | times: discount_percentage | divided_by: 100
+                                                                    assign discounted_price = product.price | minus: discount_amount
+                                                                %}
+                                                                {{ discounted_price | money -}}
                                                             {%- endif -%}
                                                         </h5>
-                                                        <h5 class="mb-3 mb-lg-5 heading-6">
-                                                            <p class="text-capitalize">{{ _collection.handle }}</p>
+                                                        <h5 class="mb-3 mb-lg-5 heading-6 d-flex padding-r-0">
+                                                            <p class="text-capitalize col-9">{{ _collection.handle }}</p>
+                                                            <s class="heading-5 col-3 text-end" style="padding-left: 12px">{{ product.price | money }}</s>
                                                         </h5>
                                                     </div>
                                                 </div>

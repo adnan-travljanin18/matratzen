@@ -6,6 +6,10 @@
             assign onSale = false
             assign soldOut = false
 
+            assign discount_percentage = 25
+            assign discount_amount =  current_variant.price | times: discount_percentage | divided_by: 100
+            assign discounted_price = current_variant.price | minus: discount_amount
+
             if current_variant and current_variant.compare_at_price > current_variant.price or product.compare_at_price > product.price
                 assign onSale = true
             endif
@@ -26,11 +30,9 @@
             {%- endif -%}
         {%- endfor -%}
 
-        {% if onSale %}
-            <span class="badge badge-right {% comment %}badge-danger{% endcomment %}">
-                <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Discount_Badge.png?v=1732190182&width=50" width="auto" height="auto" alt="sale">{% comment %}{{ 'products.product.on_sale' | t | escape }}{% endcomment %}
-            </span>
-        {% endif %}
+        <span class="badge badge-right {% comment %}badge-danger{% endcomment %}">
+            <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Discount_Badge.png?v=1732190182&width=50" width="auto" height="auto" alt="sale">{% comment %}{{ 'products.product.on_sale' | t | escape }}{% endcomment %}
+        </span>
 
         {% if soldOut %}
             <span class="badge badge-right badge-warning">
@@ -139,10 +141,10 @@
             </div>
             <div class="col-4 text-end">
                 <span class="price m-0 p-0 money d-flex flex-column" data-currentPrice>
-                    {{ product.price | money -}}
-                    {%- if product.compare_at_price > product.price -%}
-                        <s>{{ product.compare_at_price | money }}</s>
-                    {%- endif %}
+                    {{ discounted_price | money -}}
+
+                    <s>{{ product.price | money }}</s>
+
                 </span>
             </div>
             {%- for block in section.blocks -%}
