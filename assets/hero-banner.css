@@ -149,6 +149,36 @@
         background-position-x: 0;
     }
 }
+
+@media screen and (min-width: 2400px) {
+    .filter-hero-overlay:after {
+        background-image: url("https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Group_7.png?v=1732203232&width=1000");
+    }
+
+    .filter-hero-overlay:before {
+        background-image: url("https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Group_12.png?v=1732203184&width=1000");
+    }
+}
+
+@media screen and (min-width: 3250px) {
+    .filter-hero-overlay:after {
+        background-image: url("https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Group_7.png?v=1732203232&width=1400");
+    }
+
+    .filter-hero-overlay:before {
+        background-image: url("https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Group_12.png?v=1732203184&width=1400");
+    }
+}
+
+@media screen and (min-width: 4000px) {
+    .filter-hero-overlay:after {
+        background-position-y: 120%;
+    }
+
+    .filter-hero-overlay:before {
+        background-position-y: 120%;
+    }
+}
 /*Change When Black Week Over*/
 
 .full-video-button {
