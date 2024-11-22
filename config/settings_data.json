@@ -223,7 +223,7 @@
         "type": "top-announcing-banner",
         "settings": {
           "top_announcement_bar_enabled": true,
-          "top_announcement_bar_bg_color": "#B70C0E",
+          "top_announcement_bar_bg_color": "#b70c0e",
           "top_announcement_bar_text_color": "#ffffff",
           "top_announcement_bar_url": "shopify:\/\/collections\/alle-produkte",
           "top_announcement_bar_padding": 10
