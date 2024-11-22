@@ -45,7 +45,7 @@
         "btn_link": "shopify:\/\/collections\/alle-produkte",
         "btn_type": "",
         "btn_variant": "dark",
-        "btn_size": "",
+        "btn_size": "btn-lg",
         "poster_type": "video",
         "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2e879eed21e34a3e9dd01ac23d244c92.mp4",
         "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2e879eed21e34a3e9dd01ac23d244c92.mp4",
