@@ -265,7 +265,7 @@
         transform: translateY(-50%);
     }
     .hero-video {
-        min-height: 500px;
+        min-height: 545px;
     }
 }
 @media (min-width: 768px) {
@@ -281,7 +281,7 @@
 
     /*Change When Black Week Over*/
     .hero-video {
-        max-height: 900px !important;
+        max-height: 850px !important;
     }
     /*Change When Black Week Over*/
 }
@@ -318,4 +318,9 @@
     .top-positioning {
         top: 70vh;
     }
+    /*Change When Black Week Over*/
+    .hero-video {
+        max-height: 1130px !important;
+    }
+    /*Change When Black Week Over*/
 }
