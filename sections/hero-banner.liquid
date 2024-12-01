@@ -206,7 +206,7 @@
                                 class="hero-button btn btn{% if section.settings.btn_type == 'outline' %}-{% endif %}{{ section.settings.btn_type }}-{{ section.settings.btn_variant }} {{ section.settings.btn_size }} text-capitalize letter-spacing-inherit"
                                 title="{{ section.settings.btn_txt }}"
                             >
-                                {{ 'sections.black-week-offer-text.button_text' | t }} {% comment %}{{- section.settings.btn_txt -}}{% endcomment %}
+                               {{- section.settings.btn_txt -}}
                             </a>
                         {% endif %}
                     </div>

@@ -1,71 +1,10 @@
 {
   "sections": {
-    "hero_banner_H6iU8P": {
-      "type": "hero-banner",
-      "blocks": {
-        "featured_collection_Q8fjtt": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "matratzen",
-            "btn_text": "KOLLEKTION ANSEHEN"
-          }
-        },
-        "featured_collection_NAzxNK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kindermatratzen",
-            "btn_text": "KOLLEKTION ANSEHEN"
-          }
-        },
-        "featured_collection_zkWNxx": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "topper",
-            "btn_text": "KOLLEKTION ANSEHEN"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_Q8fjtt",
-        "featured_collection_NAzxNK",
-        "featured_collection_zkWNxx"
-      ],
-      "settings": {
-        "fluid_layout": true,
-        "muted": false,
-        "controls": false,
-        "loop": false,
-        "logo_image": "shopify:\/\/shop_images\/Group_11_1_11639e19-0726-4a14-a75a-6f8975a152b7.png",
-        "logo_image_dutch": "shopify:\/\/shop_images\/Group_11_1.png",
-        "logo_image_english": "shopify:\/\/shop_images\/Group_11_0b85e558-dd38-4e8d-a505-7e143325908a.png",
-        "logo_mobile_image": "shopify:\/\/shop_images\/Group_11_1_11639e19-0726-4a14-a75a-6f8975a152b7.png",
-        "logo_mobile_image_dutch": "shopify:\/\/shop_images\/Group_11_1.png",
-        "logo_mobile_image_english": "shopify:\/\/shop_images\/Group_11_0b85e558-dd38-4e8d-a505-7e143325908a.png",
-        "btn_txt": "JETZT ZUM SALE",
-        "btn_link": "shopify:\/\/collections\/alle-produkte",
-        "btn_type": "",
-        "btn_variant": "dark",
-        "btn_size": "btn-lg",
-        "poster_type": "video",
-        "bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a256d19c07444005a3e22ae364b9de62.mp4",
-        "mobile_bg_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a256d19c07444005a3e22ae364b9de62.mp4",
-        "fluid_video_layout": true,
-        "video_type": "local",
-        "placement": "grid",
-        "video_id": "",
-        "mobile_video_id": "",
-        "section_bg_color": "#ffffff",
-        "section_text_color": "#000000",
-        "alignment": "text-center",
-        "video_alignment": "justify-content-center"
-      }
-    },
     "hero_banner_kG4AmQ": {
       "type": "hero-banner",
       "blocks": {
         "featured_collection_GAXic8": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "matratzen",
             "btn_text": "KOLLEKTION ANSEHEN"
@@ -73,7 +12,6 @@
         },
         "featured_collection_AYtdj9": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "kindermatratzen",
             "btn_text": "KOLLEKTION ANSEHEN"
@@ -81,7 +19,6 @@
         },
         "featured_collection_C8KKxm": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "topper",
             "btn_text": "KOLLEKTION ANSEHEN"
@@ -93,7 +30,6 @@
         "featured_collection_AYtdj9",
         "featured_collection_C8KKxm"
       ],
-      "disabled": true,
       "settings": {
         "fluid_layout": true,
         "muted": true,
@@ -400,7 +336,6 @@
     }
   },
   "order": [
-    "hero_banner_H6iU8P",
     "hero_banner_kG4AmQ",
     "products_slider_ccTP8t",
     "1dec5bfe-e70e-44fa-87cf-6408772cedfe",
