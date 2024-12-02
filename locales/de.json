@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -278,9 +287,9 @@
       "impressum-business-bank": "Bankverbindung"
     },
     "black-week-offer-text": {
-      "home_page_title": "BLACK FRIDAY WOCHEN: 25% AUF ALLES \/ AUF DAS GESAMTE SORTIMENT; AB 22.11. BIS 30.11; BIS ZU 200 € SPAREN.",
-      "welcome_modal_title_1": "BLACK FRIDAY WOCHEN",
-      "welcome_modal_title_2": "AB 22.11. BIS 30.11",
+      "home_page_title": "CYBER MONDAY WOCHEN: 25% AUF ALLES \/ AUF DAS GESAMTE SORTIMENT; AB 02.12. BIS 08.12; BIS ZU 200 € SPAREN.",
+      "welcome_modal_title_1": "CYBER MONDAY WOCHEN",
+      "welcome_modal_title_2": "AB 02.12. BIS 08.12",
       "welcome_modal_title_3": "25 % Rabatt auf alle Produkte!",
       "button_text": "JETZT ZUM SALE"
     },
