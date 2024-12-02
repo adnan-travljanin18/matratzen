@@ -32,11 +32,9 @@
             </span>
         {% endif %}
 
-        {% if soldOut %}
-            <span class="badge badge-right badge-warning">
-                {{ 'products.product.sold_out' | t | escape }}
-            </span>
-        {% endif %}
+        <span class="badge badge-right {% comment %}badge-danger{% endcomment %}">
+            <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Discount_Badge.png?v=1732190182&width=50" width="auto" height="auto" alt="sale">{% comment %}{{ 'products.product.on_sale' | t | escape }}{% endcomment %}
+        </span>
     </span>
 
     <div class="card-img text-center {% if product.featured_image.size == 0 %}bg-gray-300{% endif %}">

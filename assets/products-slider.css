@@ -183,3 +183,11 @@
     width: 8.33333%;
 }
 }
+
+.product-slider-container .product-link .badges {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px;
+    z-index: 2;
+}
