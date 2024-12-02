@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "body_color": "#122230",
@@ -24,10 +33,10 @@
     "bg_hover_color_btn_dark": "#ffffff",
     "type_input_font": "Poppins",
     "type_input_font_weight": "300",
-    "favicon": "shopify:\/\/shop_images\/Moon.svg",
-    "main_logo_socials": "shopify:\/\/shop_images\/wp3850825-4k-pc-wallpapers.jpg",
-    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=61559376574513",
-    "social_instagram_link": "https:\/\/www.instagram.com\/serenitybett?igsh=MTQ0ZmE4eW81bmQ1eg%3D%3D&utm_source=qr",
+    "favicon": "shopify://shop_images/Moon.svg",
+    "main_logo_socials": "shopify://shop_images/wp3850825-4k-pc-wallpapers.jpg",
+    "social_facebook_link": "https://www.facebook.com/profile.php?id=61559376574513",
+    "social_instagram_link": "https://www.instagram.com/serenitybett?igsh=MTQ0ZmE4eW81bmQ1eg%3D%3D&utm_source=qr",
     "enable_cart_drawer": true,
     "enable_search": true,
     "enable_swatches": false,
@@ -35,7 +44,7 @@
     "enable_search_product": true,
     "enable_search_article": false,
     "enable_search_page": true,
-    "no_image_replacement": "shopify:\/\/shop_images\/mlouye-brick-macaron-s1.jpg",
+    "no_image_replacement": "shopify://shop_images/mlouye-brick-macaron-s1.jpg",
     "product_exclude_tag_text": "hidden",
     "enable_custom_video": true,
     "enable_custom_accrodion": true,
@@ -54,10 +63,10 @@
     "free_shipping_left": "You are ${addMoreForFreeShip} away from free shipping!",
     "welcome_modal_enabled": false,
     "welcome_modal_bg_color": "#B70C0E",
-    "welcome_modal_url": "shopify:\/\/collections\/alle-produkte",
+    "welcome_modal_url": "shopify://collections/alle-produkte",
     "welcome_modal_padding": 50,
     "welcome_modal_text": "Black Week Sale <br> 22.11–30.11 <br> 25% Off All Products!",
-    "checkout_logo_image": "shopify:\/\/shop_images\/SE_LOGO_72px.png",
+    "checkout_logo_image": "shopify://shop_images/SE_LOGO_72px.png",
     "checkout_accent_color": "#000000",
     "checkout_button_color": "#000000",
     "enable_login": true,
@@ -71,7 +80,7 @@
           "header_bg_color": "#131e27",
           "show_line_separator": false,
           "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/SE_logo_white_3x_19190f9c-17bf-48af-adbe-6fbfd0bb44d4.png",
+          "logo": "shopify://shop_images/SE_logo_white_3x_19190f9c-17bf-48af-adbe-6fbfd0bb44d4.png",
           "logo_width": 150,
           "menu": "main-menu"
         }
@@ -88,7 +97,7 @@
           "footer_bottom_bg_color": "#131e27",
           "footer_bottom_txt_color": "#ffffff",
           "footer_logo_svg": "",
-          "footer_logo": "shopify:\/\/shop_images\/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
+          "footer_logo": "shopify://shop_images/SE_LOGO_72px_1d90888c-cf31-48ad-b20a-11a2a560cb17.png",
           "logo_max_width": 165,
           "col_1_text": "",
           "col_2_heading": "Kundenbetreuung",
@@ -126,8 +135,8 @@
           "popup_delay": 1,
           "popup_period_until": 7,
           "heading": "Anmeldung zum Newsletter",
-          "text": "<p>Abonnieren Sie und erhalten Sie exklusive Angebote!<\/p>",
-          "footer_notes": "<p>Kein SPAM! Wir geben Ihre E-Mail nicht an Drittfirmen weiter!<\/p>",
+          "text": "<p>Abonnieren Sie und erhalten Sie exklusive Angebote!</p>",
+          "footer_notes": "<p>Kein SPAM! Wir geben Ihre E-Mail nicht an Drittfirmen weiter!</p>",
           "btn_txt": "Abonnieren",
           "template_type": "image_bg",
           "bg_color_outer": "#ffffff",
@@ -146,7 +155,7 @@
         "type": "mobile-nav-drawer",
         "settings": {
           "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/SE_logo_white_3x_19190f9c-17bf-48af-adbe-6fbfd0bb44d4.png",
+          "logo": "shopify://shop_images/SE_logo_white_3x_19190f9c-17bf-48af-adbe-6fbfd0bb44d4.png",
           "logo_width": 100,
           "main_menu_linklist": "main-menu",
           "mobilemenu_style": "slide-submenu",
@@ -175,10 +184,10 @@
         "type": "global-image-with-text-banner",
         "settings": {
           "fluid_layout": false,
-          "heading_txt": "Find Your <b>Perfect<br>Mattress<\/b><i> With <br>Our <\/i>Personalized<br><b>Quiz!<b><\/b><\/b>",
+          "heading_txt": "Find Your <b>Perfect<br>Mattress</b><i> With <br>Our </i>Personalized<br><b>Quiz!<b></b></b>",
           "step_heading": "Serenity Mattress",
           "btn_txt": "Start Quiz Now",
-          "image": "shopify:\/\/shop_images\/homepage_bedroom_1.jpg",
+          "image": "shopify://shop_images/homepage_bedroom_1.jpg",
           "url_on_image": "",
           "section_bg_color": "#131e27",
           "section_text_color": "#ffffff",
@@ -222,10 +231,10 @@
       "top-announcing-banner": {
         "type": "top-announcing-banner",
         "settings": {
-          "top_announcement_bar_enabled": false,
+          "top_announcement_bar_enabled": true,
           "top_announcement_bar_bg_color": "#b70c0e",
           "top_announcement_bar_text_color": "#ffffff",
-          "top_announcement_bar_url": "shopify:\/\/collections\/alle-produkte",
+          "top_announcement_bar_url": "shopify://collections/alle-produkte",
           "top_announcement_bar_padding": 10
         }
       }
@@ -233,42 +242,42 @@
     "content_for_index": [],
     "blocks": {
       "14509899274852873868": {
-        "type": "shopify:\/\/apps\/veeform-product-quiz-builder\/blocks\/link-popup\/35886e51-37e3-4978-a765-359cc73afebe",
+        "type": "shopify://apps/veeform-product-quiz-builder/blocks/link-popup/35886e51-37e3-4978-a765-359cc73afebe",
         "disabled": false,
         "settings": {}
       },
       "319724205969189013": {
-        "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/app-embed\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
         "disabled": false,
         "settings": {}
       },
       "18218067344242134805": {
-        "type": "shopify:\/\/apps\/hulk-product-reviews\/blocks\/app\/34006358-52bd-4ec7-8c78-200fe58b77ba",
+        "type": "shopify://apps/hulk-product-reviews/blocks/app/34006358-52bd-4ec7-8c78-200fe58b77ba",
         "disabled": false,
         "settings": {}
       },
       "1744347199190486471": {
-        "type": "shopify:\/\/apps\/hulk-advanced-wishlist\/blocks\/app\/330d9272-08ea-4193-b3e0-475a69fa65fa",
+        "type": "shopify://apps/hulk-advanced-wishlist/blocks/app/330d9272-08ea-4193-b3e0-475a69fa65fa",
         "disabled": false,
         "settings": {}
       },
       "1892562240530925112": {
-        "type": "shopify:\/\/apps\/hulk-gdpr-cookie-consent-bar\/blocks\/app-embed\/e2ac5ac3-1765-477b-ac58-d792f9a65f3a",
+        "type": "shopify://apps/hulk-gdpr-cookie-consent-bar/blocks/app-embed/e2ac5ac3-1765-477b-ac58-d792f9a65f3a",
         "disabled": false,
         "settings": {}
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
         "settings": {}
       },
       "17932116065945454919": {
-        "type": "shopify:\/\/apps\/adt-facebook-pixels-ads\/blocks\/facebook-ads-pixels\/4ad3004f-fa0b-4587-a4f1-4d8ce89e9fbb",
+        "type": "shopify://apps/adt-facebook-pixels-ads/blocks/facebook-ads-pixels/4ad3004f-fa0b-4587-a4f1-4d8ce89e9fbb",
         "disabled": false,
         "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#000000",
@@ -282,7 +291,7 @@
         }
       },
       "5017882195547572635": {
-        "type": "shopify:\/\/apps\/sc-easy-redirects\/blocks\/app\/be3f8dbd-5d43-46b4-ba43-2d65046054c2",
+        "type": "shopify://apps/sc-easy-redirects/blocks/app/be3f8dbd-5d43-46b4-ba43-2d65046054c2",
         "disabled": false,
         "settings": {}
       }
