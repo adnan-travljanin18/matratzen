@@ -226,15 +226,15 @@ class VariantSelects extends HTMLElement {
     if(!currentVariant || !container) return;
 
     // Price Update
-    let price = Shopify.formatMoney(currentVariant.price, window.globalVariables.money_format);
-    let compare_price = Shopify.formatMoney(currentVariant.compare_at_price, window.globalVariables.money_format);
+    let price = Shopify.formatMoney(currentVariant.price * 0.75, window.globalVariables.money_format);
+    let compare_price = Shopify.formatMoney(currentVariant.price, window.globalVariables.money_format);
     let priceElement = container.querySelector('[data-currentPrice]');
     let comparePriceElement = container.querySelector('[data-comparePrice]');
 
     if(priceElement) priceElement.innerHTML = price;
     if(comparePriceElement) {
       comparePriceElement.innerHTML = compare_price;
-      if(currentVariant.compare_at_price <= 0){
+      if(price <= 0){
         comparePriceElement.style.display = 'none';
       }else{
         comparePriceElement.style.display = 'block';

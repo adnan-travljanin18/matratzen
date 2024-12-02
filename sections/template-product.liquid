@@ -345,11 +345,9 @@
                                         <span class="h5 actual-price money" data-currentPrice>
                                             {{- current_variant.price | money -}}
                                         </span>
-                                        {%- if current_variant.compare_at_price > current_variant.price -%}
-                                            <s class="h6 mr-2 money" data-comparePrice>
-                                                {{- current_variant.compare_at_price | money -}}
-                                            </s>
-                                        {%- endif -%}
+                                        <s class="h6 mr-2 money" data-comparePrice>
+                                            {{- current_variant.price | money -}}
+                                        </s>
                                     </div>
                                     {%- form 'product',
                                         product,
