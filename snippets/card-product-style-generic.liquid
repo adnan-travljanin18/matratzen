@@ -1,7 +1,7 @@
 {% assign current_variant = product.selected_or_first_available_variant %}
 
 <div class="card card-product card-product-style-1 text-start rounded-0 border-0" data-product-grid>
-    <span class="badges">
+    <!-- <span class="badges">
         {%- liquid
             assign onSale = false
             assign soldOut = false
@@ -39,7 +39,7 @@
         <span class="badge badge-right {% comment %}badge-danger{% endcomment %}">
             <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Discount_Badge.png?v=1732190182&width=50" width="auto" height="auto" alt="sale">{% comment %}{{ 'products.product.on_sale' | t | escape }}{% endcomment %}
         </span>
-    </span>
+    </span> -->
 
     <div class="card-img text-center {% if product.featured_image.size == 0 %}bg-gray-300{% endif %}">
         {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
