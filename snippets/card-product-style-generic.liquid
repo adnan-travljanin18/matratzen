@@ -1,14 +1,10 @@
 {% assign current_variant = product.selected_or_first_available_variant %}
 
 <div class="card card-product card-product-style-1 text-start rounded-0 border-0" data-product-grid>
-    <!-- <span class="badges">
+    <span class="badges">
         {%- liquid
             assign onSale = false
             assign soldOut = false
-
-            assign discount_percentage = 25
-            assign discount_amount =  current_variant.price | times: discount_percentage | divided_by: 100
-            assign discounted_price = current_variant.price | minus: discount_amount
 
             if current_variant and current_variant.compare_at_price > current_variant.price or product.compare_at_price > product.price
                 assign onSale = true
@@ -36,10 +32,12 @@
             </span>
         {% endif %}
 
-        <span class="badge badge-right {% comment %}badge-danger{% endcomment %}">
-            <img src="https://cdn.shopify.com/s/files/1/0591/2130/3625/files/Discount_Badge.png?v=1732190182&width=50" width="auto" height="auto" alt="sale">{% comment %}{{ 'products.product.on_sale' | t | escape }}{% endcomment %}
-        </span>
-    </span> -->
+        {% if soldOut %}
+            <span class="badge badge-right badge-warning">
+                {{ 'products.product.sold_out' | t | escape }}
+            </span>
+        {% endif %}
+    </span>
 
     <div class="card-img text-center {% if product.featured_image.size == 0 %}bg-gray-300{% endif %}">
         {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
@@ -141,10 +139,10 @@
             </div>
             <div class="col-4 text-end">
                 <span class="price m-0 p-0 money d-flex flex-column" data-currentPrice>
-                    {{ discounted_price | money -}}
-
-                    <s>{{ product.price | money }}</s>
-
+                    {{ product.price | money -}}
+                    {%- if product.compare_at_price > product.price -%}
+                        <s>{{ product.compare_at_price | money }}</s>
+                    {%- endif %}
                 </span>
             </div>
             {%- for block in section.blocks -%}
