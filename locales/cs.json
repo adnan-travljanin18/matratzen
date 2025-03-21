@@ -853,7 +853,14 @@
   },
   "templates": {
     "collection": {
-      "reset_filters": "Filter resetovat"
+      "reset_filters": "Filter resetovat",
+      "apply_btn": "Použít"
+    },
+    "search": {
+      "sortby_lable": "Seřadit podle",
+      "results_with_count": {
+        "one": "{{ count }} Výsledek pro „{{ terms }}“ nalezen"
+      }
     }
   }
 }

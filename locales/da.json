@@ -868,7 +868,16 @@
   },
   "templates": {
     "collection": {
-      "reset_filters": "Filter nulstille"
+      "reset_filters": "Filter nulstille",
+      "apply_btn": "Anvende"
+    },
+    "search": {
+      "sortby_lable": "Sorter efter"
+    },
+    "cart": {
+      "update_cart_message": {
+        "locked": "Nur {{ quantity }} tilgængelig til køb."
+      }
     }
   }
 }

@@ -873,6 +873,10 @@
   },
   "templates": {
     "collection": {
+      "sortby_lable": "Sortiraj po",
+      "apply_btn": "Primeniti"
+    },
+    "search": {
       "sortby_lable": "Sortiraj po"
     }
   }

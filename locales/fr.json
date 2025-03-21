@@ -862,7 +862,16 @@
   },
   "templates": {
     "collection": {
-      "reset_filters": "Réinitialiser le filtre"
+      "reset_filters": "Réinitialiser le filtre",
+      "apply_btn": "Appliquer"
+    },
+    "search": {
+      "sortby_lable": "Trier par"
+    },
+    "cart": {
+      "update_cart_message": {
+        "locked": "Nur {{ quantité }} disponible à l'achat."
+      }
     }
   }
 }

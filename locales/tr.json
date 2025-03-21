@@ -887,7 +887,11 @@
   },
   "templates": {
     "collection": {
-      "reset_filters": "Filtreyi sıfırla"
+      "reset_filters": "Filtreyi sıfırla",
+      "apply_btn": "Uygula"
+    },
+    "search": {
+      "sortby_lable": "Sırala"
     }
   }
 }

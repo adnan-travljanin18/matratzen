@@ -872,7 +872,14 @@
   },
   "templates": {
     "collection": {
-      "reset_filters": "Reimposta filtro"
+      "reset_filters": "Reimposta filtro",
+      "apply_btn": "Applicare"
+    },
+    "search": {
+      "sortby_lable": "Ordinare per"
+    },
+    "cart": {
+      "title": "Carrello"
     }
   }
 }

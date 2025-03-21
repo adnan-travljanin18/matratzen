@@ -867,7 +867,11 @@
   },
   "templates": {
     "collection": {
-      "reset_filters": "Szűrő visszaállítása"
+      "reset_filters": "Szűrő visszaállítása",
+      "apply_btn": "Alkalmazás"
+    },
+    "search": {
+      "sortby_lable": "Rendezés szerint"
     }
   }
 }

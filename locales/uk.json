@@ -890,7 +890,11 @@
   },
   "templates": {
     "collection": {
-      "reset_filters": "Відфільтрувати скидання"
+      "reset_filters": "Відфільтрувати скидання",
+      "apply_btn": "Застосувати"
+    },
+    "search": {
+      "sortby_lable": "Сортувати за"
     }
   }
 }

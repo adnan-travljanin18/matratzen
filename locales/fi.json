@@ -854,7 +854,16 @@
   },
   "templates": {
     "collection": {
-      "reset_filters": "Suodattimen nollaus"
+      "reset_filters": "Suodattimen nollaus",
+      "apply_btn": "Käytä"
+    },
+    "search": {
+      "sortby_lable": "Järjestä mukaan"
+    },
+    "cart": {
+      "update_cart_message": {
+        "locked": "Nur {{ quantity }} saatavilla ostettavaksi."
+      }
     }
   }
 }

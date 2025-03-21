@@ -862,7 +862,16 @@
   },
   "templates": {
     "collection": {
-      "reset_filters": "Filter tilbakestille"
+      "reset_filters": "Filter tilbakestille",
+      "apply_btn": "Bruk"
+    },
+    "search": {
+      "sortby_lable": "Sortere etter"
+    },
+    "cart": {
+      "update_cart_message": {
+        "modify": "Nur {{ quantity }} tilgjengelig for kjøp. Endre gjeldende verdi."
+      }
     }
   }
 }

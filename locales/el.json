@@ -867,6 +867,10 @@
   },
   "templates": {
     "collection": {
+      "sortby_lable": "Ταξινόμηση κατά",
+      "apply_btn": "Εφαρμογή"
+    },
+    "search": {
       "sortby_lable": "Ταξινόμηση κατά"
     }
   }

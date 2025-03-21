@@ -865,6 +865,10 @@
   },
   "templates": {
     "collection": {
+      "sortby_lable": "Classificar por",
+      "apply_btn": "Aplicar"
+    },
+    "search": {
       "sortby_lable": "Classificar por"
     }
   }

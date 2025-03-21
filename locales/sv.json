@@ -887,7 +887,12 @@
   },
   "templates": {
     "collection": {
-      "reset_filters": "Återställ filter"
+      "reset_filters": "Återställ filter",
+      "apply_btn": "Tillämpa"
+    },
+    "search": {
+      "sortby_lable": "Sortera efter",
+      "title": "Sökeresultat"
     }
   }
 }
