@@ -566,10 +566,13 @@
       "card_fields": {
         "name_on_card_label": "Nome do titular do cartão",
         "tooltip": {
-          "card_verification_value_explanation_amex": "4-dígito código de segurança na parte frontal do seu cartão",
-          "card_verification_value_explanation": "Um código de segurança de 3 dígitos, que geralmente está localizado na parte de trás do seu cartão. Cartões American Express têm um código de 4 dígitos na frente."
+          "card_verification_value_explanation_amex": "4-dígito código de segurança na parte frontal do seu cartão"
+        },
+        "field_errors": {
+          "credit_card_verification_value_blank": "Insira o CVV ou código de segurança do seu cartão"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Cartão de crédito ou débito"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -721,7 +724,8 @@
         "modal_po_number_input_max_length_error": "O número do pedido pode conter no máximo {{maxLength}} caracteres."
       },
       "addresses": {
-        "add_billing_address_button": "Adicionar endereço de faturamento"
+        "add_billing_address_button": "Adicionar endereço de faturamento",
+        "save_new_shipping_address_accessibility_label": "Armazenar endereço de entrega"
       }
     },
     "errors": {

@@ -587,10 +587,13 @@
       "card_fields": {
         "name_on_card_label": "Namn på kortinnehavaren",
         "tooltip": {
-          "card_verification_value_explanation_amex": "4-siffrig säkerhetskod på framsidan av ditt kort",
-          "card_verification_value_explanation": "Ein 3-siffrig säkerhetskod som vanligtvis finns på baksidan av ditt kort. American Express-kort har en 4-siffrig kod på framsidan."
+          "card_verification_value_explanation_amex": "4-siffrig säkerhetskod på framsidan av ditt kort"
+        },
+        "field_errors": {
+          "credit_card_verification_value_blank": "Ange CVV- eller säkerhetskoden på ditt kort"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Kredit- eller betalkort"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -744,6 +747,9 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "Bestellnummern får maximalt {{maxLength}} tecken innehålla."
+      },
+      "addresses": {
+        "save_new_shipping_address_accessibility_label": "Spara leveransadress"
       }
     },
     "errors": {

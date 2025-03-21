@@ -571,10 +571,11 @@
       },
       "card_fields": {
         "name_on_card_label": "Kártyabirtokos neve",
-        "tooltip": {
-          "card_verification_value_explanation": "Egy 3-jegyű biztonsági kód, amely általában a kártyád hátoldalán található. Az American Express kártyáknak egy 4-jegyű kódjuk van az előoldalon."
+        "field_errors": {
+          "credit_card_verification_value_blank": "Írd be a kártyád CVV- vagy biztonsági kódját"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Kredit- vagy Betéti Kártya"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -727,7 +728,8 @@
       },
       "addresses": {
         "add_billing_address_button": "Rechnungsadresse hozzáadása",
-        "cancel_adding_billing_address_accessibility_label": "A számlázási cím hozzáadásának megszakítása"
+        "cancel_adding_billing_address_accessibility_label": "A számlázási cím hozzáadásának megszakítása",
+        "save_new_shipping_address_accessibility_label": "Szállítási cím mentése"
       }
     },
     "errors": {

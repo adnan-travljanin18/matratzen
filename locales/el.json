@@ -573,9 +573,10 @@
           "card_verification_value_explanation_amex": "4-ψήφιος κωδικός ασφαλείας στην πρόσοψη της κάρτας σου"
         },
         "field_errors": {
-          "credit_card_number_invalid": "Εισάγετε έναν έγκυρο αριθμό κάρτας"
+          "credit_card_verification_value_blank": "Εισάγετε το CVV ή τον κωδικό ασφαλείας στην κάρτα σας"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Κάρτα πίστης ή χρεωστική"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -725,7 +726,8 @@
         "modal_po_number_input_max_length_error": "Ο αριθμός παραγγελίας μπορεί να περιέχει το πολύ {{maxLength}} χαρακτήρες."
       },
       "addresses": {
-        "add_billing_address_button": "Προσθήκη διεύθυνσης τιμολόγησης"
+        "add_billing_address_button": "Προσθήκη διεύθυνσης τιμολόγησης",
+        "save_new_shipping_address_accessibility_label": "Αποθήκευση διεύθυνσης αποστολής"
       }
     },
     "errors": {

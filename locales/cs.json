@@ -553,7 +553,8 @@
         "field_errors": {
           "credit_card_verification_value_blank": "Zadej CVV nebo bezpečnostní kód na své kartě"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Kreditní nebo debetní karta"
     },
     "navigation_and_structure": {
       "action_menu_accessibility_label": "Další akce",
@@ -709,6 +710,9 @@
       },
       "purchase_order_number": {
         "empty_state": "Žádné číslo objednávky"
+      },
+      "addresses": {
+        "save_new_shipping_address_accessibility_label": "Uložit dodací adresu"
       }
     },
     "errors": {

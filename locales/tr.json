@@ -593,10 +593,13 @@
       "card_fields": {
         "name_on_card_label": "Kart Sahibi Adı",
         "tooltip": {
-          "tooltip_accessibility_label": "Daha fazla bilgi",
-          "card_verification_value_explanation": "Bir kartın genellikle arka tarafında bulunan 3 haneli bir güvenlik kodu. American Express kartlarının ön tarafında 4 haneli bir kod vardır."
+          "tooltip_accessibility_label": "Daha fazla bilgi"
+        },
+        "field_errors": {
+          "credit_card_verification_value_blank": "CVV veya kartınızdaki güvenlik kodunu girin"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Kredit veya Debit Kartı"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -744,6 +747,9 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "Bestellnummerlar en fazla {{maxLength}} karakter içerebilir."
+      },
+      "addresses": {
+        "save_new_shipping_address_accessibility_label": "Teslimat adresini kaydet"
       }
     },
     "errors": {

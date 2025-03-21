@@ -574,7 +574,8 @@
         "field_errors": {
           "credit_card_verification_value_blank": "Indtast CVV- eller sikkerhedskoden fra dit kort"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Kredit- eller Debitkort"
     },
     "navigation_and_structure": {
       "action_menu_accessibility_label": "Yderligere handlinger",
@@ -724,6 +725,9 @@
       },
       "purchase_order_number": {
         "empty_state": "Ingen bestillingsnummer"
+      },
+      "addresses": {
+        "save_new_shipping_address_accessibility_label": "Gemme leveringsadresse"
       }
     },
     "errors": {

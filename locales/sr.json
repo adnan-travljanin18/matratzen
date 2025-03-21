@@ -578,10 +578,13 @@
       "card_fields": {
         "name_on_card_label": "Ime vlasnika kartice",
         "tooltip": {
-          "card_verification_value_explanation_amex": "4-цифрени безбедносни код на предњој страни твоје карте",
-          "card_verification_value_explanation": "A 3-cifreni sigurnosni kod koji se obično nalazi na poleđini vaše kartice. American Express kartice imaju 4-cifreni kod na prednjoj strani."
+          "card_verification_value_explanation_amex": "4-цифрени безбедносни код на предњој страни твоје карте"
+        },
+        "field_errors": {
+          "credit_card_verification_value_blank": "Unesite CVV ili sigurnosni kod sa vaše kartice"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Kreditna ili Debitna Kartica"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -731,7 +734,8 @@
         "modal_po_number_input_max_length_error": "Broj narudžbine može sadržavati najviše {{maxLength}} karaktera."
       },
       "addresses": {
-        "add_billing_address_button": "Додајте адресу за наплату"
+        "add_billing_address_button": "Додајте адресу за наплату",
+        "save_new_shipping_address_accessibility_label": "Sačuvaj adresu za isporuku"
       }
     },
     "errors": {

@@ -569,7 +569,8 @@
         "field_errors": {
           "credit_card_verification_value_blank": "Entrez le code CVV ou de sécurité de votre carte"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Carte de crédit ou de débit"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -720,6 +721,9 @@
       },
       "purchase_order_number": {
         "empty_state": "Aucune numéro de commande"
+      },
+      "addresses": {
+        "save_new_shipping_address_accessibility_label": "Enregistrer l'adresse de livraison"
       }
     },
     "errors": {

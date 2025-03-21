@@ -572,7 +572,8 @@
         "field_errors": {
           "credit_card_verification_value_blank": "Inserisci il codice CVV o di sicurezza sulla tua carta"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Carta di credito o di debito"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -726,6 +727,9 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_label": "Numero d'ordine"
+      },
+      "addresses": {
+        "save_new_shipping_address_accessibility_label": "Salva indirizzo di consegna"
       }
     },
     "errors": {

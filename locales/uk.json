@@ -593,9 +593,10 @@
       "card_fields": {
         "name_on_card_label": "Назва власника картки",
         "field_errors": {
-          "credit_card_number_invalid": "Введіть дійсний номер картки"
+          "credit_card_verification_value_blank": "Введіть CVV або код безпеки на вашій карті"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Кредитна або дебетова картка"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -746,7 +747,8 @@
       },
       "addresses": {
         "add_billing_address_button": "Додати адресу рахунку",
-        "cancel_adding_billing_address_accessibility_label": "Скасувати додавання рахункової адреси"
+        "cancel_adding_billing_address_accessibility_label": "Скасувати додавання рахункової адреси",
+        "save_new_shipping_address_accessibility_label": "Зберегти адресу доставки"
       }
     },
     "errors": {

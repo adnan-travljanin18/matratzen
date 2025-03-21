@@ -563,7 +563,8 @@
         "field_errors": {
           "credit_card_verification_value_blank": "Syötä korttisi CVV- tai turvallisuusnumero"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Kredit- tai debit-kortti"
     },
     "navigation_and_structure": {
       "action_menu_accessibility_label": "Lisätietoja",
@@ -715,6 +716,9 @@
       },
       "purchase_order_number": {
         "empty_state": "Ei tilausnumero"
+      },
+      "addresses": {
+        "save_new_shipping_address_accessibility_label": "Toimitusosoitteen tallentaminen"
       }
     },
     "errors": {

@@ -565,10 +565,11 @@
       "card_fields": {
         "name_on_card_label": "Navn på kortinnehaver",
         "card_verification_value_placeholder": "Sicherheitskode",
-        "tooltip": {
-          "card_verification_value_explanation": "Ein 3-stellig sikkerhetskode som vanligvis finnes på baksiden av kortet ditt. American Express-kort har en 4-sifret kode på forsiden."
+        "field_errors": {
+          "credit_card_verification_value_blank": "Skriv inn CVV- eller sikkerhetskoden på kortet ditt"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Kredit- eller debetkort"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -723,6 +724,9 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_label": "Bestillingsnummer"
+      },
+      "addresses": {
+        "save_new_shipping_address_accessibility_label": "Lagre leveringsadresse"
       }
     },
     "errors": {

@@ -563,10 +563,13 @@
       "card_fields": {
         "name_on_card_label": "Imię i nazwisko posiadacza karty",
         "tooltip": {
-          "card_verification_value_explanation_amex": "4-cyfrowy kod zabezpieczający na przedniej stronie twojej karty",
-          "card_verification_value_explanation": "Kod zabezpieczeń składający się z 3 cyfr, który zazwyczaj znajduje się na odwrocie twojej karty. Karty American Express mają 4-cyfrowy kod z przodu."
+          "card_verification_value_explanation_amex": "4-cyfrowy kod zabezpieczający na przedniej stronie twojej karty"
+        },
+        "field_errors": {
+          "credit_card_verification_value_blank": "Wprowadź kod CVV lub kod zabezpieczający z twojej karty"
         }
-      }
+      },
+      "credit_or_debit_card_title": "Kredit- lub Debetowa Karta"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -719,6 +722,9 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_label": "Numer zamówienia"
+      },
+      "addresses": {
+        "save_new_shipping_address_accessibility_label": "Zapisz adres dostawy"
       }
     },
     "errors": {
