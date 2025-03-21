@@ -89,7 +89,12 @@
         "payment_terms_totals": {
           "total_paid": "Somma totale pagata"
         },
-        "order_total_label": "Valore totale dell'ordine"
+        "order_total_label": "Valore totale dell'ordine",
+        "recurring_total_multiple_label": "Questo importo ha commissioni ricorrenti per più articoli.",
+        "deferred_total_due_date_label": "Importo totale dovuto il {{date}}",
+        "discount_discovery": {
+          "add_code": "Aggiungi sconto"
+        }
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Normalmente pronto in 1 ora"

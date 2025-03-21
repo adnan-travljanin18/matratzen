@@ -89,7 +89,12 @@
         "payment_terms_totals": {
           "total_paid": "Montant total payé"
         },
-        "order_total_label": "Valeur totale de la commande"
+        "order_total_label": "Valeur totale de la commande",
+        "recurring_total_multiple_label": "Ce montant comprend des frais récurrents pour plusieurs articles.",
+        "deferred_total_due_date_label": "Montant total dû le {{date}}",
+        "discount_discovery": {
+          "add_code": "Ajouter une remise"
+        }
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Habituellement prêt en 1 heure"

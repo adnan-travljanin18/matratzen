@@ -66,8 +66,7 @@
             "additional_requested_discount_code_discarded": "Запитаний додатковий код знижки був скасований."
           },
           "tax": {
-            "unresolvable_tax_terms": "Запропоновані умови є несумісними в поточному контексті переговорів.",
-            "allocated_required": "Поле \"Призначено\" відсутнє."
+            "unresolvable_tax_terms": "Запропоновані умови є несумісними в поточному контексті переговорів."
           }
         },
         "complete_purchase_button_label": "Купити",
@@ -112,7 +111,8 @@
       "delivery_options": {
         "subscription_pickup_information": "Цей спосіб доставки стосується всіх товарів у цьому замовленні та всіх майбутніх замовлень для цього підписки.",
         "pick_up_in_two_hours": "Зазвичай готово за 2 години",
-        "pick_up_in_one_hour": "Зазвичай готовий за 1 годину"
+        "pick_up_in_one_hour": "Зазвичай готовий за 1 годину",
+        "pickup_point_method_definition": "Відправити на пункт видачі"
       },
       "customer_account": {
         "incomplete_address": "Вибрана адреса неповна. %{update_address_link} або виберіть іншу адресу.",
@@ -136,6 +136,11 @@
         },
         "payment_terms_totals": {
           "due_later": "Загальна сума до сплати %{due_at}"
+        },
+        "order_total_label": "Загальна сума замовлення",
+        "recurring_total_multiple_label": "Ця сума має повторювальні збори за кілька статей.",
+        "collapse_component_information": {
+          "other": "%{count} Сховати статті"
         }
       }
     }

@@ -89,10 +89,15 @@
         "payment_terms_totals": {
           "total_paid": "Maksettu kokonaismäärä"
         },
-        "order_total_label": "Kokonaiskokonaissumma"
+        "order_total_label": "Kokonaiskokonaissumma",
+        "recurring_total_multiple_label": "Tämä maksu sisältää toistuvia maksuja useista tuotteista.",
+        "discount_discovery": {
+          "add_code": "Rabatt lisätä"
+        }
       },
       "delivery_options": {
-        "pick_up_in_one_hour": "Tavallisesti valmis 1 tunnissa"
+        "pick_up_in_one_hour": "Tavallisesti valmis 1 tunnissa",
+        "pickup_point_method_definition": "Toimituspaikka lähettää"
       }
     }
   },

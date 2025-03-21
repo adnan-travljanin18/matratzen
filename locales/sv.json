@@ -103,7 +103,8 @@
       "delivery_options": {
         "subscription_pickup_information": "Denna leveransmetod gäller för alla artiklar i denna beställning och för alla framtida beställningar för denna prenumeration.",
         "pick_up_in_two_hours": "Vanligtvis färdigt om 2 timmar",
-        "pick_up_in_one_hour": "Vanligtvis klart inom 1 timme"
+        "pick_up_in_one_hour": "Vanligtvis klart inom 1 timme",
+        "pickup_point_method_definition": "En avhämtningsplats att skicka"
       },
       "customer_account": {
         "sign_in_link_label": "Anmäla",
@@ -125,7 +126,9 @@
         "payment_terms_totals": {
           "total_paid": "Betald totalsumma"
         },
-        "order_total_label": "Total beställningsvärde"
+        "order_total_label": "Total beställningsvärde",
+        "recurring_total_multiple_label": "Denna summa har återkommande avgifter för flera artiklar.",
+        "alternative_payment_currency_total": "Beräknat som %{amount_due}"
       }
     }
   },

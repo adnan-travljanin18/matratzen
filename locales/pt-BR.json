@@ -67,7 +67,8 @@
             "unsupported_expectation": "A série de descontos especificada continha um valor esperado que não pôde ser interpretado pela diretriz."
           },
           "tax": {
-            "unresolvable_tax_terms": "As condições propostas são incompatíveis no contexto atual de negociações."
+            "unresolvable_tax_terms": "As condições propostas são incompatíveis no contexto atual de negociações.",
+            "line_splits_not_supported": "O campo \"Séries de artigos de mercadoria\" deve ser dividido de forma que cada série compõe uma única unidade da oferta do vendedor."
           }
         },
         "complete_purchase_button_label": "Comprar",
@@ -92,11 +93,14 @@
         },
         "payment_terms_totals": {
           "due_later": "Total a ser pago em %{due_at}"
-        }
+        },
+        "order_total_label": "Valor total do pedido",
+        "component_quantity_title": "%{quantity} × %{product_title}"
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Normalmente pronto em 2 horas",
-        "pick_up_in_one_hour": "Normalmente pronto em 1 hora"
+        "pick_up_in_one_hour": "Normalmente pronto em 1 hora",
+        "pickup_point_method_definition": "Um ponto de coleta enviar"
       }
     }
   },

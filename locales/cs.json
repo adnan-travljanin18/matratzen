@@ -85,7 +85,10 @@
         "payment_terms_totals": {
           "due_later": "Celková částka je splatná dne %{due_at}"
         },
-        "order_total_label": "Celková objednávková hodnota"
+        "order_total_label": "Celková objednávková hodnota",
+        "recurring_total_multiple_label": "Tento poplatek má opakující se poplatky za několik položek.",
+        "deferred_total_due_date_label": "Celková částka je splatná {{date}}",
+        "alternative_payment_currency_total": "Berechnet jako %{amount_due}"
       },
       "delivery_options": {
         "pick_up_immediately": "Nyní připraveno k vyzvednutí"

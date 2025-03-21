@@ -103,7 +103,8 @@
       "delivery_options": {
         "subscription_pickup_information": "Bu teslimat yöntemi, bu siparişteki tüm ürünler ve bu abonelik için tüm gelecekteki siparişler için geçerlidir.",
         "pick_up_in_two_hours": "Genellikle 2 saatte hazır",
-        "pick_up_in_one_hour": "Genellikle 1 saatte hazır"
+        "pick_up_in_one_hour": "Genellikle 1 saatte hazır",
+        "pickup_point_method_definition": "Bir Abholstandort gönderme"
       },
       "customer_account": {
         "incomplete_address": "Seçilen adres eksik. %{update_address_link} veya başka bir adres seçin.",
@@ -125,7 +126,13 @@
         "payment_terms_totals": {
           "due_later": "Gesamtbetrag am %{due_at} fällig"
         },
-        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> şu anda çalışmıyor. Yardım almak için lütfen bizimle iletişime geçin."
+        "order_total_label": "Toplam Sipariş Tutarı",
+        "recurring_total_multiple_label": "Bu miktar, birden fazla ürün için tekrarlayan ücretler içerir.",
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "other": "%{count} Makale"
+          }
+        }
       }
     }
   },
