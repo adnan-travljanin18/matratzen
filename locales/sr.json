@@ -239,11 +239,16 @@
       "payment_errors": {
         "pay_later_failed": "При обради плаћања помоћу фактура дошло је до грешке. Изаберите другу методу плаћања и покушајте поново.",
         "invalid_number": "Unesite važeći broj kartice",
-        "invalid_expiry_date": "Unesite validan datum isteka"
+        "invalid_expiry_date": "Unesite validan datum isteka",
+        "development_store_order_testing_docs_link": "Testiranje narudžbina u razvojnim prodavnicama"
       },
       "payment_gateway": {
         "credit_card_label": "Kreditna karta",
-        "deferred_payment_label": "Metoda plaćanja može se odabrati kasnije"
+        "deferred_payment_label": "Metoda plaćanja može se odabrati kasnije",
+        "order_due_on_fulfillment_choose_later": "Tvoja uplata dospeva čim je tvoja narudžbina izvršena."
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Ваша корпа је ажурирана и предмети које сте додали не могу бити испоручени на вашу адресу. Уклоните предмете да бисте завршили вашу наруџбину."
       }
     }
   },

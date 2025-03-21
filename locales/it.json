@@ -241,10 +241,16 @@
         "pay_later_failed": "Bei la gestione del pagamento con fattura si è verificato un errore. Scegli un'altra modalità di pagamento e riprova.",
         "deferred_amount_changed": "La tua pagamento non è stato elaborato poiché l'importo del rinvio del pagamento è cambiato. Per favore, controlla il tuo ordine e riprova.",
         "invalid_number": "Inserisci un numero di carta valido",
-        "invalid_expiry_date": "Inserire una data di scadenza valida"
+        "invalid_expiry_date": "Inserire una data di scadenza valida",
+        "development_store_order_testing_docs_link": "Test delle ordinazioni nei negozi di sviluppo"
       },
       "payment_gateway": {
-        "deferred_payment_label": "Metodo di pagamento da scegliere in seguito"
+        "deferred_payment_label": "Metodo di pagamento da scegliere in seguito",
+        "order_due_on_fulfillment_payment": "La tua carta verrà addebitata appena il tuo ordine sarà stato eseguito."
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Dein Warenkorb wurde aktualisiert und die von dir hinzugefügten Artikel können nicht an deine Adresse geliefert werden. Entferne die Artikel, um deine Bestellung abzuschließen.",
+        "unavailable_selected_address_for_region": "La spedizione non è disponibile per {{region}}. Seleziona un altro indirizzo per continuare."
       }
     }
   },

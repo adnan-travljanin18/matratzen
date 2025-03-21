@@ -228,7 +228,15 @@
         "multiple_deferred_payment_not_allowed": "Nur ein Zahlungsaufschub pro Anfrage erlaubt. Bitte überprüfe deine Anfrage und versuche es erneut.",
         "invalid_number": "Zadejte platné číslo karty",
         "card_declined": "Tvoje karta byla zamítnuta. Zkus to znovu nebo použij jinou metodu platby.",
-        "successful_offsite_with_gift_card_error": "Bei zpracování vaší platby dárkovým poukazem došlo k problému. Zkuste to prosím znovu nebo použijte jiný způsob platby."
+        "successful_offsite_with_gift_card_error": "Bei zpracování vaší platby dárkovým poukazem došlo k problému. Zkuste to prosím znovu nebo použijte jiný způsob platby.",
+        "payment_above_threshold": "Částka platby překračuje měnový limit pro tento region. Snižte celkovou částku a zkuste to znovu"
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Tvůj nákupní košík byl aktualizován a zboží, které jsi přidal, není možné doručit na tvoji adresu. Odstraň položky, abys mohl dokončit svou objednávku.",
+        "invalid_selected_address_with_update_link": "Vybranou dodací adresu je neplatná. %{update_address_link} nebo vyberte jinou adresu."
+      },
+      "payment_gateway": {
+        "draft_order_payment_due_later_no_terms": "Tvá platba je splatná, jakmile bude tvoje objednávka potvrzena."
       }
     }
   },

@@ -265,11 +265,16 @@
       "payment_errors": {
         "pay_later_failed": "Bei der Bearbeitung deiner Zahlung mit Rechnung ist ein Fehler aufgetreten. Wähle eine andere Zahlungsmethode und versuche es erneut.",
         "invalid_number": "Geçerli bir kart numarası girin",
-        "invalid_expiry_date": "Geçerli bir son tarih girin"
+        "invalid_expiry_date": "Geçerli bir son tarih girin",
+        "development_store_order_testing_docs_link": "Test Siparişlerinin Geliştirme Mağazalarında Test Edilmesi"
       },
       "payment_gateway": {
         "credit_card_label": "Kredi kartı",
-        "deferred_payment_label": "Ödeme yöntemini daha sonra seçin"
+        "deferred_payment_label": "Ödeme yöntemini daha sonra seçin",
+        "order_due_on_fulfillment_choose_later": "Ödeme işleminiz, siparişiniz gerçekleştirildiğinde yapılması gerekmektedir."
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Dein sepete güncellendi ve eklediğin ürünler adresine teslim edilemez. Siparişini tamamlamak için ürünleri kaldır."
       }
     }
   },

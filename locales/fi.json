@@ -234,7 +234,15 @@
         "deferred_amount_changed": "Sinun maksuaasi ei voitu käsitellä, koska maksun lykkäyksen määrä on muuttunut. Ole hyvä ja tarkista tilauksesi ja yritä uudelleen.",
         "invalid_number": "Anna voimassa oleva kortinnumero",
         "invalid_expiry_date": "Anna voimassa oleva eräpäivä",
-        "successful_offsite_with_gift_card_error": "Bei der Verarbeitung deiner Zahlung mit Geschenkgutschein ist ein Problem aufgetreten. Versuche es erneut oder verwende eine andere Zahlungsmethode."
+        "successful_offsite_with_gift_card_error": "Bei der Verarbeitung deiner Zahlung mit Geschenkgutschein ist ein Problem aufgetreten. Versuche es erneut oder verwende eine andere Zahlungsmethode.",
+        "payment_above_threshold": "Maksu ylittää tämän alueen valuuttarajan. Vähennä kokonaismäärää ja yritä uudelleen"
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Dein ostoskori on päivitetty, ja lisäämäsi tuotteet eivät voi toimitettavaksi osoitteeseesi. Poista tuotteet, jotta voit viimeistellä tilauksesi.",
+        "invalid_selected_address": "Valittu toimitusosoite on virheellinen"
+      },
+      "payment_gateway": {
+        "order_due_on_fulfillment_payment": "Sinun korttisi veloitetaan heti, kun tilauksesi on käsitelty."
       }
     }
   },

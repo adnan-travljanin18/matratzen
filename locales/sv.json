@@ -263,11 +263,16 @@
       "payment_errors": {
         "pay_later_failed": "Bei behandlingen av din betalning med faktura uppstod ett fel. Vänligen välj en annan betalningsmetod och försök igen.",
         "invalid_number": "Ange en giltig kortnummer",
-        "invalid_expiry_date": "Ange ett giltigt utgångsdatum"
+        "invalid_expiry_date": "Ange ett giltigt utgångsdatum",
+        "development_store_order_testing_docs_link": "Test av beställningar i utvecklingsbutiker"
       },
       "payment_gateway": {
         "credit_card_label": "Kreditkort",
-        "deferred_payment_label": "Betalningsmetod välj senare"
+        "deferred_payment_label": "Betalningsmetod välj senare",
+        "order_due_on_fulfillment_choose_later": "Din betalning förfaller så snart din beställning har utförts."
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Dein varukorg har uppdaterats och de artiklar du har lagt till kan inte levereras till din adress. Ta bort artiklarna för att slutföra din beställning."
       }
     }
   },

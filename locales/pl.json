@@ -238,11 +238,16 @@
       "payment_errors": {
         "pay_later_failed": "Przy przetwarzaniu płatności za pomocą faktury wystąpił błąd. Wybierz inną metodę płatności i spróbuj ponownie.",
         "invalid_number": "Wprowadź prawidłowy numer karty",
-        "invalid_expiry_date": "Wprowadź prawidłową datę ważności"
+        "invalid_expiry_date": "Wprowadź prawidłową datę ważności",
+        "development_store_order_testing_docs_link": "Testowanie zamówień w sklepach deweloperskich"
       },
       "payment_gateway": {
         "credit_card_label": "Karta kredytowa",
-        "deferred_payment_label": "Metoda płatności do wybrania później"
+        "deferred_payment_label": "Metoda płatności do wybrania później",
+        "order_due_on_fulfillment_payment": "Twoja karta zostanie obciążona, gdy tylko twoje zamówienie zostanie zrealizowane."
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Dein koszyk został zaktualizowany, a dodane przez Ciebie przedmioty nie mogą zostać dostarczone na Twój adres. Usuń przedmioty, aby zakończyć zamówienie."
       }
     }
   },

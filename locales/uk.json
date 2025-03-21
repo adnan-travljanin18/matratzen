@@ -272,11 +272,16 @@
       "payment_errors": {
         "pay_later_failed": "При обробці вашого платежу з рахунком сталася помилка. Виберіть інший спосіб оплати та спробуйте ще раз.",
         "invalid_number": "Введіть дійсний номер картки",
-        "invalid_expiry_date": "Введіть дійсну дату закінчення"
+        "invalid_expiry_date": "Введіть дійсну дату закінчення",
+        "development_store_order_testing_docs_link": "Тестування замовлень у розробницьких магазинах"
       },
       "payment_gateway": {
         "credit_card_label": "Кредитна картка",
-        "deferred_payment_label": "Спосіб оплати вибрати пізніше"
+        "deferred_payment_label": "Спосіб оплати вибрати пізніше",
+        "order_due_on_fulfillment_choose_later": "Твій платіж має бути сплачений, щойно твоє замовлення буде виконано."
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Ваш кошик було оновлено, і додані вами товари не можуть бути доставлені за вашою адресою. Видаліть товари, щоб завершити своє замовлення."
       }
     }
   },

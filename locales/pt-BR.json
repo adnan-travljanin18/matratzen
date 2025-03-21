@@ -229,11 +229,16 @@
       "payment_errors": {
         "pay_later_failed": "Ocorreu um erro ao processar seu pagamento por fatura. Escolha outro método de pagamento e tente novamente.",
         "invalid_number": "Insira um número de cartão válido",
-        "invalid_expiry_date": "Insira uma data de validade válida"
+        "invalid_expiry_date": "Insira uma data de validade válida",
+        "development_store_order_testing_docs_link": "Testando Pedidos em Lojas de Desenvolvimento"
       },
       "payment_gateway": {
         "credit_card_label": "Cartão de Crédito",
-        "deferred_payment_label": "Método de pagamento a ser selecionado mais tarde"
+        "deferred_payment_label": "Método de pagamento a ser selecionado mais tarde",
+        "order_due_on_fulfillment_choose_later": "Sua pagamento é devido assim que seu pedido for executado."
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Seu carrinho foi atualizado e os itens que você adicionou não podem ser entregues no seu endereço. Remova os itens para concluir seu pedido."
       }
     }
   },
