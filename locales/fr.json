@@ -23,9 +23,14 @@
             "subscription_terms_not_accepted": "Les conditions d'abonnement n'ont pas été acceptées.",
             "gateway_not_supported": "La passerelle de paiement ne prend pas en charge le stockage du mode de paiement.",
             "installments_amount_invalid": "Montant invalide pour la transaction par versements.",
-            "shop_cash_unsupported_shipping": "La boutique Cash ne prend pas en charge les articles de marchandises sans expédition."
+            "shop_cash_unsupported_shipping": "La boutique Cash ne prend pas en charge les articles de marchandises sans expédition.",
+            "payment_instrument_not_found": "Le mode de paiement n'a pas pu être trouvé.",
+            "saved_payment_methods_not_enabled": "Les méthodes de paiement enregistrées ne sont pas activées pour ce magasin."
           }
-        }
+        },
+        "complete_purchase_button_label": "Acheter",
+        "close_modal_label": "Fermer",
+        "expand_notice_label": "Voir plus"
       }
     }
   },

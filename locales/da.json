@@ -23,9 +23,14 @@
             "subscription_terms_not_accepted": "Abonnementsbetingelserne blev ikke accepteret.",
             "credit_card_update_failed": "Opdateringen af kreditkortet er mislykket.",
             "installments_test_mode_not_allowed": "Testtilstand er ikke tilladt.",
-            "shop_cash_unsupported_shipping": "Butik Cash understøtter ikke merchandiseartikler uden forsendelse."
+            "shop_cash_unsupported_shipping": "Butik Cash understøtter ikke merchandiseartikler uden forsendelse.",
+            "missing_retail_attributions": "For manuelt indtastede kreditkortbetalinger er detailallokeringer nødvendige.",
+            "saved_payment_methods_not_enabled": "Gemte betalingsmetoder er ikke aktiveret for denne butik."
           }
-        }
+        },
+        "complete_purchase_button_label": "Køb",
+        "close_modal_label": "Luk",
+        "expand_notice_label": "Vis mere"
       }
     }
   },

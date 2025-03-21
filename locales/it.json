@@ -23,9 +23,14 @@
             "subscription_terms_not_accepted": "I termini dell'abbonamento non sono stati accettati.",
             "credit_card_update_failed": "L'aggiornamento della carta di credito è fallito.",
             "installments_amount_invalid": "Importo non valido per transazione a rate.",
-            "shop_cash_unsupported_shipping": "Il negozio Cash non supporta articoli di merchandising senza spedizione."
+            "shop_cash_unsupported_shipping": "Il negozio Cash non supporta articoli di merchandising senza spedizione.",
+            "payment_instrument_not_found": "Il metodo di pagamento non è stato trovato.",
+            "saved_payment_methods_not_enabled": "I metodi di pagamento salvati non sono attivati per questo negozio."
           }
-        }
+        },
+        "complete_purchase_button_label": "Comprare",
+        "close_modal_label": "Chiudere",
+        "expand_notice_label": "Mostra di più"
       }
     }
   },

@@ -23,9 +23,14 @@
             "subscription_terms_not_accepted": "A szolgáltatási feltételek nem lettek elfogadva.",
             "credit_card_update_failed": "A hitelesítés a hitelkártyával meghiúsult.",
             "installments_test_mode_not_allowed": "A tesztmód nem engedélyezett.",
-            "shop_cash_unsupported_checkout_source": "A Bolt Cash nem támogatja ezt a pénztári folyamatot."
+            "shop_cash_unsupported_checkout_source": "A Bolt Cash nem támogatja ezt a pénztári folyamatot.",
+            "wallet_content_missing": "Hiányzik a pénztárca tartalma.",
+            "saved_payment_methods_not_enabled": "A mentett fizetési módok nem aktívak ennél a boltban."
           }
-        }
+        },
+        "complete_purchase_button_label": "Vásárol",
+        "close_modal_label": "Zárás",
+        "back_to_payment_method": "Vissza a fizetéshez"
       }
     }
   },

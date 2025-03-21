@@ -23,9 +23,13 @@
             "subscription_terms_not_accepted": "As condições de assinatura não foram aceitas.",
             "credit_card_update_failed": "A atualização do cartão de crédito falhou.",
             "installments_test_mode_not_allowed": "O modo de teste não é permitido.",
-            "shop_cash_unsupported_checkout_source": "A Shop Cash não suporta este checkout."
+            "shop_cash_unsupported_checkout_source": "A Shop Cash não suporta este checkout.",
+            "wallet_content_missing": "Falta o conteúdo da carteira.",
+            "saved_payment_methods_not_enabled": "Métodos de pagamento salvos não estão ativados para esta loja."
           }
-        }
+        },
+        "complete_purchase_button_label": "Comprar",
+        "close_modal_label": "Fechar"
       }
     }
   },

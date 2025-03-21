@@ -23,9 +23,14 @@
             "positive_amount_expected": "Ödenecek tutar 0'dan büyük olmalıdır.",
             "credit_card_update_failed": "Kredi kartının güncellenmesi başarısız oldu.",
             "installments_test_mode_not_allowed": "Test modu kullanılamaz.",
-            "shop_cash_unsupported_checkout_source": "Shop Cash bu ödeme yöntemini desteklemiyor."
+            "shop_cash_unsupported_checkout_source": "Shop Cash bu ödeme yöntemini desteklemiyor.",
+            "wallet_content_missing": "Cüzdan içeriği eksik.",
+            "saved_payment_methods_not_enabled": "Kayıtlı ödeme yöntemleri bu mağaza için etkinleştirilmemiştir."
           }
-        }
+        },
+        "complete_purchase_button_label": "Satın Al",
+        "close_modal_label": "Kapat",
+        "continue_to_shipping_method": "Devam et gönderime"
       }
     }
   },

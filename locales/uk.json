@@ -23,9 +23,14 @@
             "subscription_terms_not_accepted": "Умови підписки не були прийняті.",
             "credit_card_update_failed": "Оновлення кредитної карти не вдалося.",
             "installments_test_mode_not_allowed": "Тестовий режим не дозволений.",
-            "shop_cash_unsupported_checkout_source": "Магазин Cash не підтримує цей метод оплати."
+            "shop_cash_unsupported_checkout_source": "Магазин Cash не підтримує цей метод оплати.",
+            "wallet_content_missing": "Відсутній вміст гаманця.",
+            "saved_payment_methods_not_enabled": "Збережені методи оплати не активовані для цього магазину."
           }
-        }
+        },
+        "complete_purchase_button_label": "Купити",
+        "close_modal_label": "Закрити",
+        "continue_to_review": "Перевірка замовлення"
       }
     }
   },

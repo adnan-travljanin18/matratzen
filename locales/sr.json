@@ -23,9 +23,14 @@
             "subscription_terms_not_accepted": "Услови претплате нису прихваћени.",
             "credit_card_update_failed": "Ažuriranje kreditne kartice nije uspelo.",
             "installments_test_mode_not_allowed": "Testni režim nije dozvoljen.",
-            "shop_cash_unsupported_checkout_source": "Prodavnica Cash ne podržava ovu naplatu."
+            "shop_cash_unsupported_checkout_source": "Prodavnica Cash ne podržava ovu naplatu.",
+            "wallet_content_missing": "Nedostaje sadržaj novčanika.",
+            "saved_payment_methods_not_enabled": "Sačuvane metode plaćanja nisu aktivirane za ovu prodavnicu."
           }
-        }
+        },
+        "complete_purchase_button_label": "Kupovina",
+        "close_modal_label": "Zatvoriti",
+        "back_to_shipping_method": "Povratak na isporuku"
       }
     }
   },

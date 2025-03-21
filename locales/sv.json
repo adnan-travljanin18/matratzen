@@ -23,9 +23,14 @@
             "subscription_terms_not_accepted": "Abonnemangs villkoren accepterades inte.",
             "credit_card_update_failed": "Uppdateringen av kreditkortet misslyckades.",
             "installments_test_mode_not_allowed": "Testläge är inte tillåtet.",
-            "shop_cash_unsupported_checkout_source": "Shop Cash stöder inte denna kassa."
+            "shop_cash_unsupported_checkout_source": "Shop Cash stöder inte denna kassa.",
+            "wallet_content_missing": "Det saknas innehåll i plånboken.",
+            "saved_payment_methods_not_enabled": "Sparade betalningsmetoder är inte aktiverade för den här butiken."
           }
-        }
+        },
+        "complete_purchase_button_label": "Köpa",
+        "close_modal_label": "Stänga",
+        "continue_to_shipping_method": "Fortsätt till frakt"
       }
     }
   },

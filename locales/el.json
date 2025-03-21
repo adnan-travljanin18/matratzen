@@ -23,9 +23,14 @@
             "subscription_terms_not_accepted": "Οι όροι συνδρομής δεν έγιναν αποδεκτοί.",
             "credit_card_update_failed": "Η ενημέρωση της πιστωτικής κάρτας απέτυχε.",
             "installments_test_mode_not_allowed": "Ο τρόπος δοκιμής δεν επιτρέπεται.",
-            "shop_cash_unsupported_checkout_source": "Το Shop Cash δεν υποστηρίζει αυτήν τη διαδικασία ολοκλήρωσης της παραγγελίας."
+            "shop_cash_unsupported_checkout_source": "Το Shop Cash δεν υποστηρίζει αυτήν τη διαδικασία ολοκλήρωσης της παραγγελίας.",
+            "wallet_content_missing": "Λείπει το περιεχόμενο του πορτοφολιού.",
+            "saved_payment_methods_not_enabled": "Οι αποθηκευμένες μέθοδοι πληρωμής δεν είναι ενεργοποιημένες για αυτό το κατάστημα."
           }
-        }
+        },
+        "complete_purchase_button_label": "Αγορά",
+        "close_modal_label": "Κλείσιμο",
+        "continue_to_payment_method": "Μετάβαση στην πληρωμή"
       }
     }
   },

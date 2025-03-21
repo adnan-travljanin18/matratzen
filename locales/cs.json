@@ -23,9 +23,14 @@
             "positive_amount_expected": "Výše platební částky musí být větší než 0.",
             "credit_card_update_failed": "Aktualizace kreditní karty se nezdařila.",
             "installments_amount_invalid": "Neplatná částka pro transakci v splátkách.",
-            "shop_cash_unsupported_shipping": "Shop Cash nepodporuje žádné zboží bez dopravy."
+            "shop_cash_unsupported_shipping": "Shop Cash nepodporuje žádné zboží bez dopravy.",
+            "payment_instrument_not_found": "Metoda platby nebyla nalezena.",
+            "saved_payment_methods_not_enabled": "Uložené platební metody nejsou pro tento obchod aktivovány."
           }
-        }
+        },
+        "complete_purchase_button_label": "Koupit",
+        "close_modal_label": "Zavřít",
+        "back_to_payment_method": "Návrat k platbě"
       }
     }
   },

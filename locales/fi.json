@@ -23,9 +23,14 @@
             "subscription_terms_not_accepted": "Tilausehdot eivät olleet hyväksyttäviä.",
             "credit_card_update_failed": "Korttipäivitys epäonnistui.",
             "installments_test_mode_not_allowed": "Testitila ei ole sallittu.",
-            "shop_cash_unsupported_shipping": "Shop Cash ei tue merchandise-tuotteita ilman toimitusta."
+            "shop_cash_unsupported_shipping": "Shop Cash ei tue merchandise-tuotteita ilman toimitusta.",
+            "payment_instrument_not_found": "Maksutapaa ei löytynyt.",
+            "saved_payment_methods_not_enabled": "Tallennetut maksutavat eivät ole käytössä tässä kaupassa."
           }
-        }
+        },
+        "complete_purchase_button_label": "Ostaa",
+        "close_modal_label": "Sulje",
+        "expand_notice_label": "Näytä lisää"
       }
     }
   },

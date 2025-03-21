@@ -23,9 +23,14 @@
             "subscription_terms_not_accepted": "Abonnementsbetingelsene ble ikke akseptert.",
             "credit_card_update_failed": "Oppdateringen av kredittkortet mislyktes.",
             "installments_amount_invalid": "Ugyldig beløp for avdragsbetaling.",
-            "shop_cash_unsupported_shipping": "Butikk Cash støtter ikke merchandise-artikler uten frakt."
+            "shop_cash_unsupported_shipping": "Butikk Cash støtter ikke merchandise-artikler uten frakt.",
+            "wallet_content_missing": "Det mangler innholdet i lommeboken.",
+            "saved_payment_methods_not_enabled": "Lagrede betalingsmetoder er ikke aktivert for denne butikken."
           }
-        }
+        },
+        "complete_purchase_button_label": "Kjøpe",
+        "close_modal_label": "Lukk",
+        "expand_notice_label": "Vis flere"
       }
     }
   },
