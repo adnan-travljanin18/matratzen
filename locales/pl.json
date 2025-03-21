@@ -31,29 +31,29 @@
           "session_identifier_not_unique_error": "Mit twoją zamówieniem coś poszło nie tak, spróbuj ponownie przejść do kasy.",
           "merchandise": {
             "merchandise_variant_not_found": "Produktvariante nie została znaleziona.",
-            "gift_card_invalid": "Kod kuponu prezentowego {{code}} jest nieprawidłowy.",
-            "title_too_long": "Tytuł artykułu merchandisingowego jest za długi.",
-            "product_not_published_in_buyer_location": "Produkt nie jest publikowane w lokalizacji nabywcy."
+            "gift_card_invalid": "Kod kuponu prezentowego {{code}} jest nieprawidłowy."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Ten lokalizacja nie jest dostępna w aktualnym sklepie."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Obecnie dozwolone jest tylko jedno zachowanie dotyczące zapasów na proces zakupu."
+          },
+          "captcha": {
+            "job_already_queued": "Walidacja Captcha dla tego tokena Captcha została już dodana do kolejki."
           },
           "buyer_identity": {
-            "email_required": "E-mail jest wymagana, gdy artykuł towarowy jest kupowany w ramach subskrypcji."
+            "checkout_completion_target_is_invalid_proc": "Nieprawidłowy cel zakończenia płatności."
           }
         },
         "complete_purchase_button_label": "Kupować",
         "close_modal_label": "Zamknij",
         "continue_to_shipping_method": "Kontynuuj do wysyłki",
         "autocomplete_selection": "{{numer}} von {{całkowity}}",
-        "sheet": {
-          "expand": "Rozszerzyć"
-        },
-        "dropzone": {
-          "dragged_over": "Przeciągnij plik, aby go przesłać"
-        }
+        "display_name": "{{firstName}} {{lastName}}"
       },
-      "contact": {
-        "ship_to_company": "An {{companyName}} wysyłamy",
-        "optional_zip_code_label": "Kod pocztowy (opcjonalnie)",
-        "province_placeholder": "Kraj związkowy"
+      "customer_account": {
+        "saved_address_modal_title": "Użyj mojego zapisanego adresu"
       }
     }
   },

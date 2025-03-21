@@ -12,7 +12,8 @@
     "checkout": {
       "stock": {
         "page_title": "Προβλήματα αποθεμάτων",
-        "title": "Εξαντλημένο"
+        "title": "Εξαντλημένο",
+        "price_column_header": "Τιμή"
       },
       "general": {
         "errors": {
@@ -25,37 +26,34 @@
             "installments_test_mode_not_allowed": "Ο τρόπος δοκιμής δεν επιτρέπεται.",
             "shop_cash_unsupported_checkout_source": "Το Shop Cash δεν υποστηρίζει αυτήν τη διαδικασία ολοκλήρωσης της παραγγελίας.",
             "wallet_content_missing": "Λείπει το περιεχόμενο του πορτοφολιού.",
-            "saved_payment_methods_not_enabled": "Οι αποθηκευμένες μέθοδοι πληρωμής δεν είναι ενεργοποιημένες για αυτό το κατάστημα."
+            "saved_payment_methods_not_enabled": "Οι αποθηκευμένες μέθοδοι πληρωμής δεν είναι ενεργοποιημένες για αυτό το κατάστημα.",
+            "store_credit_buying_gift_card": "Δεν μπορείς να χρησιμοποιήσεις πιστώσεις καταστήματος για να αγοράσεις κουπόνι."
           },
           "session_identifier_not_unique_error": "Με την παραγγελία σου έχει γίνει κάτι λάθος, παρακαλώ προσπάθησε ξανά να ολοκληρώσεις την παραγγελία.",
           "merchandise": {
             "merchandise_variant_not_found": "Η παραλλαγή προϊόντος δεν βρέθηκε.",
             "gift_card_invalid": "Ο κωδικός δώρου {{code}} είναι άκυρος.",
-            "product_not_published_in_buyer_location": "Το προϊόν δεν έχει δημοσιευτεί στην τοποθεσία του αγοραστή."
+            "selling_plan_not_supported": "Τα συνδρομές δεν υποστηρίζονται."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Αυτό το σχέδιο παραγγελίας δεν είναι διαθέσιμο στο τρέχον κατάστημα.",
+            "location_not_exist": "Ο συγκεκριμένος τόπος δεν είναι διαθέσιμος στο τρέχον κατάστημα."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Αυτή τη στιγμή επιτρέπεται μόνο μία συμπεριφορά αποθέματος ανά διαδικασία ολοκλήρωσης αγοράς."
+          },
+          "captcha": {
+            "job_already_queued": "Η επικύρωση Captcha για αυτό το Captcha-Token έχει ήδη προστεθεί στη λίστα αναμονής."
           },
           "buyer_identity": {
-            "email_required": "Μια διεύθυνση ηλεκτρονικού ταχυδρομείου είναι απαραίτητη όταν το είδος merchandise αγοράζεται στο πλαίσιο ενός συνδρομητικού προγράμματος."
+            "email_domain_is_invalid": "Αυτή η καθορισμένη τομέας δεν μπορεί να επιλυθεί."
           }
         },
         "complete_purchase_button_label": "Αγορά",
         "close_modal_label": "Κλείσιμο",
         "continue_to_shipping_method": "Μετάβαση στην αποστολή",
         "autocomplete_selection": "{{αριθμός}} von {{σύνολο}}",
-        "list_formatter": {
-          "and": {
-            "lastWordConnector": "{{previousWords}} und {{lastWord}}"
-          }
-        },
-        "sheet": {
-          "expand": "Επεκτείνετε"
-        },
-        "dropzone": {
-          "dragged_over": "Αφήστε το αρχείο για φόρτωση"
-        }
-      },
-      "contact": {
-        "ship_to_company": "Ένα {{companyName}} αποστέλλεται",
-        "optional_zip_code_label": "Ταχυδρομικός Κωδικός (προαιρετικός)"
+        "display_name": "{{firstName}} {{lastName}}"
       }
     }
   },

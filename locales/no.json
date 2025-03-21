@@ -31,29 +31,29 @@
           },
           "session_identifier_not_unique_error": "Det har skjedd en feil med bestillingen din, vær vennlig å prøve å sjekke ut igjen.",
           "merchandise": {
-            "merchandise_variant_not_found": "Produktvarianten ble ikke funnet.",
-            "title_too_long": "Merchandise-artikkeltittelen er for lang.",
-            "product_not_published_in_buyer_location": "Produktet er ikke publisert på kjøperens sted."
+            "merchandise_variant_not_found": "Produktvarianten ble ikke funnet."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Denne plasseringen er ikke tilgjengelig i den nåværende butikken."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "For tiden er det kun tillatt med én lageroppførsel per utsjekking."
+          },
+          "captcha": {
+            "job_already_queued": "Captcha-valideringen for dette Captcha-tokenet har allerede blitt lagt til i køen."
           },
           "buyer_identity": {
-            "email_required": "En e-postadresse er nødvendig når merchandise-artikkelen kjøpes som en del av et abonnement."
+            "checkout_completion_target_is_invalid_proc": "Ugyldig mål for utsjekking fullføring."
           }
         },
         "complete_purchase_button_label": "Kjøpe",
         "close_modal_label": "Lukk",
         "expand_notice_label": "Vis flere",
         "autocomplete_selection": "{{number}} av {{total}}",
-        "sheet": {
-          "expand": "Utvide"
-        },
-        "dropzone": {
-          "dragged_over": "Datei zum Hochladen ablegen"
-        }
+        "display_name": "{{firstName}} {{lastName}}"
       },
-      "contact": {
-        "stored_addresses_label": "Lagrede adresser",
-        "optional_zip_code_label": "Postnummer (valgfritt)",
-        "province_label": "Bundesland"
+      "customer_account": {
+        "saved_address_modal_title": "Bruk min lagrede adresse"
       }
     }
   },

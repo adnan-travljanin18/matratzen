@@ -30,9 +30,19 @@
           },
           "merchandise": {
             "merchandise_variant_not_found": "Tuotemuunnosta ei löytynyt.",
-            "gift_card_invalid": "Lahjakorttikoodi {{code}} ei ole voimassa.",
-            "title_too_long": "Merchandise-artikkelin otsikko on liian pitkä.",
-            "product_not_published_in_buyer_location": "Tuote ei ole myynnissä ostajan sijainnissa."
+            "gift_card_invalid": "Lahjakorttikoodi {{code}} ei ole voimassa."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Tämä sijainti ei ole tämänhetkisessä kaupassa saatavilla."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Tällä hetkellä on sallittu vain yksi varastokäyttäytyminen per kassalle."
+          },
+          "captcha": {
+            "job_already_queued": "Captcha-tokenin vahvistus on jo lisätty jonoon."
+          },
+          "buyer_identity": {
+            "checkout_completion_target_is_invalid_proc": "Virheellinen kohde loppuunsaattamiselle."
           }
         },
         "complete_purchase_button_label": "Ostaa",
@@ -40,18 +50,10 @@
         "expand_notice_label": "Näytä lisää",
         "choose_payment_method": "Valitse maksutapa",
         "autocomplete_close": "Ehdotukset sulkevat",
-        "sheet": {
-          "expand": "Laajentaa"
-        },
-        "dropzone": {
-          "dragged_over": "Tiedosto, joka ladataan, jätetään"
-        }
+        "loading_title": "Checkout – {{shopName}}"
       },
-      "contact": {
-        "stored_addresses_label": "Tallennetut osoitteet",
-        "optional_zip_code_label": "Postinumero (valinnainen)",
-        "city_label": "Kaupunki",
-        "region_label": "Alue"
+      "customer_account": {
+        "saved_address_modal_title": "Käytä tallennettua osoitettani"
       }
     }
   },

@@ -30,9 +30,19 @@
           },
           "only_empty_terms_accepted": "For denne betingelse er kun tomme indtastninger gyldige.",
           "merchandise": {
-            "gift_card_invalid": "Gavegavekoden {{code}} er ugyldig.",
-            "title_too_long": "Merchandise item title is too long.",
-            "product_not_published_in_buyer_location": "Produktet er ikke offentliggjort på køberens placering."
+            "gift_card_invalid": "Gavegavekoden {{code}} er ugyldig."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Denne placering findes ikke i den aktuelle butik."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Der er i øjeblikket kun tilladt ét inventaradfærd pr. checkout."
+          },
+          "captcha": {
+            "job_already_queued": "Captcha-valideringen for denne Captcha-token er allerede tilføjet til køen."
+          },
+          "buyer_identity": {
+            "checkout_completion_target_is_invalid_proc": "Ungyldig mål for checkout-afslutning."
           }
         },
         "complete_purchase_button_label": "Køb",
@@ -40,18 +50,10 @@
         "expand_notice_label": "Vis mere",
         "choose_payment_method": "Vælg en betalingsmetode",
         "autocomplete_close": "Forslag lukker",
-        "sheet": {
-          "expand": "Udvide"
-        },
-        "dropzone": {
-          "dragged_over": "Fil til upload skal placeres"
-        }
+        "display_name": "{{firstName}} {{lastName}}"
       },
-      "contact": {
-        "ship_to_company": "An {{companyName}} versenden",
-        "optional_zip_code_label": "Postnummer (valgfrit)",
-        "city_label": "By",
-        "region_label": "Region"
+      "customer_account": {
+        "saved_address_modal_title": "Brug min gemte adresse"
       }
     }
   },

@@ -30,9 +30,20 @@
           },
           "only_empty_terms_accepted": "Pro tuto podmínku jsou platné pouze prázdné vstupy.",
           "merchandise": {
-            "gift_card_invalid": "Kód poukazu na dárky {{code}} je neplatný.",
-            "title_too_long": "Název merchandisingového artiklu je příliš dlouhý.",
-            "product_not_published_in_buyer_location": "Produkt není na místě kupujícího zveřejněn."
+            "gift_card_invalid": "Kód poukazu na dárky {{code}} je neplatný."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Tento umístění momentálně není v aktuálním obchodě k dispozici."
+          },
+          "attribution": {
+            "retail_attribution_required": "Při tomto nákupu je při pokladně vyžadováno přiřazení maloobchodu."
+          },
+          "captcha": {
+            "job_already_queued": "Validace Captcha pro tento Captcha-token již byla přidána do fronty."
+          },
+          "buyer_identity": {
+            "missing_contact_method": "Chybí platná kontaktní metoda.",
+            "checkout_completion_target_is_invalid_proc": "Neplatný cíl pro dokončení pokladny."
           }
         },
         "complete_purchase_button_label": "Koupit",
@@ -40,16 +51,7 @@
         "back_to_payment_method": "Návrat k platbě",
         "choose_payment_method": "Vyberte způsob platby",
         "autocomplete_close": "Návrhy uzavřít",
-        "confirm_order_button_label": "Potvrdit objednávku",
-        "dropzone": {
-          "dragged_over": "Přetáhněte soubor k nahrání"
-        }
-      },
-      "contact": {
-        "ship_to_company": "An {{companyName}} zasílání",
-        "optional_zip_code_label": "PSČ (volitelné)",
-        "country_label": "Země / Region",
-        "region_label": "Region"
+        "display_name": "{{firstName}} {{lastName}}"
       }
     }
   },

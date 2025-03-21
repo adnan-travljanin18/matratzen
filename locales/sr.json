@@ -12,7 +12,8 @@
     "checkout": {
       "stock": {
         "page_title": "Problemi sa skladištenjem",
-        "title": "Rasprodato"
+        "title": "Rasprodato",
+        "price_column_header": "Cena"
       },
       "general": {
         "errors": {
@@ -34,7 +35,8 @@
             "product_not_published_in_buyer_location": "Proizvod nije objavljen na lokaciji kupca."
           },
           "buyer_identity": {
-            "email_required": "Potrebna je e-pošta kada se robni predmet kupuje u okviru pretplate."
+            "email_required": "Potrebna je e-pošta kada se robni predmet kupuje u okviru pretplate.",
+            "email_domain_is_invalid": "Ova navedena domena ne može da se reši."
           }
         },
         "complete_purchase_button_label": "Kupovina",
@@ -55,7 +57,15 @@
       },
       "contact": {
         "ship_to_company": "An {{companyName}} versenden",
-        "optional_first_name_label": "Vorname (opciono)"
+        "optional_first_name_label": "Vorname (opciono)",
+        "province_label": "Pokrajina",
+        "state_and_territory_placeholder": "Država/Territorija"
+      },
+      "delivery_options": {
+        "subscription_pickup_information": "Ova metoda isporuke važi za sve artikle u ovoj narudžbini i za sve buduće narudžbine za ovu pretplatu."
+      },
+      "customer_account": {
+        "incomplete_address": "Izabrana adresa je nepotpuna. %{update_address_link} ili izaberi drugu adresu."
       }
     }
   },

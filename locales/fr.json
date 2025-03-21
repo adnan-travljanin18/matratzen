@@ -30,9 +30,19 @@
             "store_credit_buying_gift_card": "Vous ne pouvez pas utiliser un crédit de boutique pour acheter un bon."
           },
           "merchandise": {
-            "merchandise_variant_not_found": "La variante de produit n'a pas été trouvée.",
-            "title_too_long": "Le titre de l'article de merchandising est trop long.",
-            "product_not_published_in_buyer_location": "Le produit n'est pas publié sur le site de l'acheteur."
+            "merchandise_variant_not_found": "La variante de produit n'a pas été trouvée."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Ce site n'est pas disponible dans la boutique actuelle."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Actuellement, un seul comportement d'inventaire par commande est autorisé."
+          },
+          "captcha": {
+            "job_already_queued": "La validation Captcha pour ce jeton Captcha a déjà été ajoutée à la file d'attente."
+          },
+          "buyer_identity": {
+            "checkout_completion_target_is_invalid_proc": "Cible invalide pour la finalisation du paiement."
           }
         },
         "complete_purchase_button_label": "Acheter",
@@ -40,18 +50,10 @@
         "expand_notice_label": "Voir plus",
         "choose_payment_method": "Choisissez un mode de paiement",
         "autocomplete_close": "Suggestions fermées",
-        "sheet": {
-          "expand": "Élargir"
-        },
-        "dropzone": {
-          "dragged_over": "Déposez le fichier à télécharger"
-        }
+        "display_name": "{{firstName}} {{lastName}}"
       },
-      "contact": {
-        "stored_addresses_label": "Adresses enregistrées",
-        "optional_zip_code_label": "Code postal (facultatif)",
-        "city_label": "Ville",
-        "region_label": "Région"
+      "customer_account": {
+        "saved_address_modal_title": "Utiliser mon adresse enregistrée"
       }
     }
   },

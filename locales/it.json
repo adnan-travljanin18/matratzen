@@ -30,9 +30,19 @@
             "store_credit_buying_gift_card": "Non puoi utilizzare il credito del negozio per acquistare un coupon."
           },
           "merchandise": {
-            "merchandise_variant_not_found": "La variante del prodotto non è stata trovata.",
-            "title_too_long": "Il titolo dell'articolo di merchandising è troppo lungo.",
-            "product_not_published_in_buyer_location": "Il prodotto non è pubblicato presso la sede dell'acquirente."
+            "merchandise_variant_not_found": "La variante del prodotto non è stata trovata."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Questo punto vendita non è presente nell'attuale negozio."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Attualmente è consentito solo un comportamento di inventario per checkout."
+          },
+          "captcha": {
+            "job_already_queued": "La convalida del Captcha per questo token Captcha è già stata aggiunta alla coda."
+          },
+          "buyer_identity": {
+            "checkout_completion_target_is_invalid_proc": "Obiettivo non valido per il completamento del checkout."
           }
         },
         "complete_purchase_button_label": "Comprare",
@@ -40,18 +50,10 @@
         "expand_notice_label": "Mostra di più",
         "autocomplete_selection": "{{number}} di {{total}}",
         "autocomplete_close": "Suggerimenti chiusi",
-        "sheet": {
-          "expand": "Espandere"
-        },
-        "dropzone": {
-          "dragged_over": "Trascina il file da caricare"
-        }
+        "display_name": "{{firstName}} {{lastName}}"
       },
-      "contact": {
-        "stored_addresses_label": "Indirizzi salvati",
-        "optional_zip_code_label": "Codice postale (opzionale)",
-        "city_label": "Città",
-        "state_label": "Bundesland"
+      "customer_account": {
+        "saved_address_modal_title": "Utilizzare il mio indirizzo salvato"
       }
     }
   },

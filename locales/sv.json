@@ -45,7 +45,8 @@
             "job_already_queued": "Captcha-valideringen för detta Captcha-token har redan lagts till i kön."
           },
           "buyer_identity": {
-            "email_required": "En e-postadress krävs när merchandisevaran köps som en del av en prenumeration."
+            "email_required": "En e-postadress krävs när merchandisevaran köps som en del av en prenumeration.",
+            "checkout_completion_target_is_invalid_proc": "Ogiltigt mål för kassaavslut."
           }
         },
         "complete_purchase_button_label": "Köpa",
@@ -78,7 +79,16 @@
         "region_none": "Ingen vald",
         "different_shipping_address_text": "En unik adress för denna beställning använda",
         "ship_to_company": "An {{companyName}} skickar",
-        "optional_postcode_label": "Postnummer (valfritt)"
+        "optional_postcode_label": "Postnummer (valfritt)",
+        "county_placeholder": "Provins",
+        "prefecture_label": "Präfektur"
+      },
+      "delivery_options": {
+        "subscription_pickup_information": "Denna leveransmetod gäller för alla artiklar i denna beställning och för alla framtida beställningar för denna prenumeration."
+      },
+      "customer_account": {
+        "sign_in_link_label": "Anmäla",
+        "saved_address_modal_title": "Använda min sparade adress"
       }
     }
   },

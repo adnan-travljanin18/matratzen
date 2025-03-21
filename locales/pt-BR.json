@@ -12,7 +12,8 @@
     "checkout": {
       "stock": {
         "page_title": "Problemas de armazenamento",
-        "title": "Esgotado"
+        "title": "Esgotado",
+        "price_column_header": "Preço"
       },
       "general": {
         "errors": {
@@ -25,37 +26,34 @@
             "installments_test_mode_not_allowed": "O modo de teste não é permitido.",
             "shop_cash_unsupported_checkout_source": "A Shop Cash não suporta este checkout.",
             "wallet_content_missing": "Falta o conteúdo da carteira.",
-            "saved_payment_methods_not_enabled": "Métodos de pagamento salvos não estão ativados para esta loja."
+            "saved_payment_methods_not_enabled": "Métodos de pagamento salvos não estão ativados para esta loja.",
+            "store_credit_buying_gift_card": "Você não pode usar créditos da loja para comprar um voucher."
           },
           "session_identifier_not_unique_error": "Houve um problema com seu pedido, por favor, tente novamente fazer o checkout.",
           "only_empty_terms_accepted": "Para esta condição, somente entradas vazias são válidas.",
           "merchandise": {
             "gift_card_invalid": "O código do vale-presente {{code}} é inválido.",
-            "product_not_published_in_buyer_location": "O produto não está publicado no local do comprador."
+            "selling_plan_not_supported": "Assinaturas não são suportadas.",
+            "maximum_quantity_exceeded": "A quantidade de alguns itens ultrapassa a quantidade máxima."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Este rascunho de pedido não está disponível na loja atual.",
+            "location_not_exist": "Este local não está disponível na loja atual."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Atualmente, apenas um comportamento de inventário por checkout é permitido."
+          },
+          "captcha": {
+            "job_already_queued": "A validação de captcha para este token de captcha já foi adicionada à fila."
           },
           "buyer_identity": {
-            "email_required": "Um e-mail é necessário quando o item de mercadoria é comprado como parte de uma assinatura."
+            "email_domain_is_invalid": "Esta domínio especificado não pode ser resolvido."
           }
         },
         "complete_purchase_button_label": "Comprar",
         "close_modal_label": "Fechar",
         "continue_to_shipping_method": "Continuar para o envio",
-        "autocomplete_selection": "{{number}} de {{total}}",
-        "list_formatter": {
-          "and": {
-            "lastWordConnector": "{{previousWords}} und {{lastWord}}"
-          }
-        },
-        "sheet": {
-          "expand": "Expandir"
-        },
-        "dropzone": {
-          "dragged_over": "Arquivo para carregar"
-        }
-      },
-      "contact": {
-        "ship_to_company": "An {{companyName}} versenden",
-        "optional_first_name_label": "Vorname (opcional)"
+        "autocomplete_selection": "{{number}} de {{total}}"
       }
     }
   },

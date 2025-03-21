@@ -12,7 +12,8 @@
     "checkout": {
       "stock": {
         "page_title": "Витратні проблеми",
-        "title": "Розпродано"
+        "title": "Розпродано",
+        "price_column_header": "Ціна"
       },
       "general": {
         "errors": {
@@ -82,7 +83,18 @@
         "postcode_label": "Поштовий індекс",
         "different_shipping_address_text": "Унікальна адреса для цього замовлення використовуйте",
         "ship_to_company": "An {{companyName}} відправлення",
-        "optional_zip_code_label": "Поштовий індекс (необов'язково)"
+        "optional_zip_code_label": "Поштовий індекс (необов'язково)",
+        "province_label": "федеральна земля",
+        "state_and_territory_placeholder": "Держава/Територія"
+      },
+      "delivery_options": {
+        "subscription_pickup_information": "Цей спосіб доставки стосується всіх товарів у цьому замовленні та всіх майбутніх замовлень для цього підписки."
+      },
+      "customer_account": {
+        "incomplete_address": "Вибрана адреса неповна. %{update_address_link} або виберіть іншу адресу.",
+        "saved_address_option_description": {
+          "one": "Ти маєш {{count}} збережену адресу."
+        }
       }
     }
   },
