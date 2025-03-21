@@ -293,7 +293,10 @@
         "gift_card_resent_confirmation": {
           "one": "Il voucher è stato inviato nuovamente."
         },
-        "thank_you_payments_app_failed_pending_payment": "Dir non è stato addebitato nulla per il tuo ordine. Torna al tuo carrello per verificare il tuo ordine e effettuare nuovamente il pagamento."
+        "thank_you_payments_app_failed_pending_payment": "Dir non è stato addebitato nulla per il tuo ordine. Torna al tuo carrello per verificare il tuo ordine e effettuare nuovamente il pagamento.",
+        "order_updates_description_html": "Una conferma è stata inviata a %{customer_contact}",
+        "thank_you_payments_app_failed_pending_payment_payment": "Dir non è stato addebitato nulla per il tuo ordine. Torna al tuo carrello per verificare il tuo ordine e effettuare nuovamente il pagamento.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Riceverai a breve un'e-mail di conferma. Segui il tuo ordine con l'app del negozio."
       }
     }
   },

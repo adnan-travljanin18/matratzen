@@ -277,7 +277,10 @@
         "gift_card_resent_confirmation": {
           "one": "Gutscheinin on jälleen lähetetty."
         },
-        "thank_you_payments_app_failed_pending_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen."
+        "thank_you_payments_app_failed_pending_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen.",
+        "order_updates_description_html": "Vahvistus on lähetetty %{customer_contact}",
+        "thank_you_payments_app_failed_pending_payment_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Saat pian vahvistus sähköpostin. Seuraa tilaustasi kauppa-sovelluksella."
       }
     }
   },

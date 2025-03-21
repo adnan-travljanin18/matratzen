@@ -319,7 +319,10 @@
         "gift_card_resent_confirmation": {
           "one": "Gutschein було надіслано знову."
         },
-        "thank_you_payments_app_failed_pending_payment": "Вам нічого не було стягнуто за ваше замовлення. Поверніться до свого кошика, щоб перевірити своє замовлення і сплатити ще раз."
+        "thank_you_payments_app_failed_pending_payment": "Вам нічого не було стягнуто за ваше замовлення. Поверніться до свого кошика, щоб перевірити своє замовлення і сплатити ще раз.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Після завершення вашого платежу ви отримаєте підтверджуючий електронний лист. Слідкуйте за своїм замовленням за допомогою додатку магазину.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Вам нічого не було стягнуто за ваше замовлення. Поверніться до свого кошика, щоб перевірити своє замовлення і сплатити ще раз.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Ви незабаром отримаєте підтверджувальний електронний лист. Слідкуйте за своїм замовленням за допомогою магазину-додатку."
       }
     }
   },

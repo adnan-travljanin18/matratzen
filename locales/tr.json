@@ -318,7 +318,10 @@
         "gift_card_resent_confirmation": {
           "one": "Gutschein yeniden gönderildi."
         },
-        "thank_you_payments_app_failed_pending_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen."
+        "thank_you_payments_app_failed_pending_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Nach Abschluss deiner Zahlung erhältst du eine Bestätigungs-E-Mail. Verfolge deine Bestellung mit der Shop-App.",
+        "thank_you_confirmed_order_with_draft_payment": "Bunu bilmeni isteriz, eğer daha fazla bilgiye ihtiyacımız olursa ya da siparişin onaylandığında.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Bize e-posta veya telefonla ulaşarak bir sipariş onayı alabilirsiniz."
       }
     }
   },

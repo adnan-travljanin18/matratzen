@@ -293,7 +293,10 @@
         "gift_card_resent_confirmation": {
           "one": "Gutscheinen ble sendt på nytt."
         },
-        "thank_you_payments_app_failed_pending_payment": "Du ble ble ikke belastet for bestillingen din. Gå tilbake til handlekurven din for å sjekke bestillingen din og betale på nytt."
+        "thank_you_payments_app_failed_pending_payment": "Du ble ble ikke belastet for bestillingen din. Gå tilbake til handlekurven din for å sjekke bestillingen din og betale på nytt.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Etter at betalingen din er fullført, vil du motta en bekreftelses-e-post. Spor bestillingen din med butikk-appen.",
+        "thank_you_confirmed_order_with_draft_payment": "Vi gir deg beskjed hvis vi trenger ytterligere informasjon eller når bestillingen din er bekreftet.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Du vil snart motta en bekreftelses-SMS. Spor bestillingen din med Shop-appen."
       }
     }
   },

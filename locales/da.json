@@ -286,7 +286,10 @@
         "gift_card_resent_confirmation": {
           "one": "Gutscheinen blev sendt igen."
         },
-        "thank_you_payments_app_failed_pending_payment": "Dir blev der ikke opkrævet noget for din bestilling. Gå tilbage til din indkøbskurv for at gennemgå din bestilling og betale igen."
+        "thank_you_payments_app_failed_pending_payment": "Dir blev der ikke opkrævet noget for din bestilling. Gå tilbage til din indkøbskurv for at gennemgå din bestilling og betale igen.",
+        "order_updates_description_html": "En bekræftelse er blevet sendt til %{customer_contact}",
+        "thank_you_payments_app_failed_pending_payment_payment": "Dir blev der ikke opkrævet noget for din bestilling. Gå tilbage til din indkøbskurv for at gennemgå din bestilling og betale igen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Du modtager snart en bekræftelses-e-mail. Spor din ordre med Shop-app'en."
       }
     }
   },

@@ -316,7 +316,10 @@
         "gift_card_resent_confirmation": {
           "one": "Gutschein har skickats igen."
         },
-        "thank_you_payments_app_failed_pending_payment": "Dir blev inget debiterat för din beställning. Återgå till din varukorg för att granska din beställning och betala igen."
+        "thank_you_payments_app_failed_pending_payment": "Dir blev inget debiterat för din beställning. Återgå till din varukorg för att granska din beställning och betala igen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Efter att du har slutfört din betalning kommer du att få ett bekräftelsemejl. Spåra din beställning med Shop-appen.",
+        "thank_you_confirmed_order_with_draft_payment": "Vi meddelar dig om vi behöver mer information eller när din beställning har bekräftats.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Kontakta oss via e-post eller telefon för att få en orderbekräftelse."
       }
     }
   },

@@ -276,7 +276,10 @@
         "gift_card_resent_confirmation": {
           "one": "Ο κωδικός έκπτωσης έχει αποσταλεί ξανά."
         },
-        "thank_you_payments_app_failed_pending_payment": "Σου δεν έχει χρεωθεί τίποτα για την παραγγελία σου. Επιστρέφεις στο καλάθι σου για να ελέγξεις την παραγγελία σου και να πληρώσεις ξανά."
+        "thank_you_payments_app_failed_pending_payment": "Σου δεν έχει χρεωθεί τίποτα για την παραγγελία σου. Επιστρέφεις στο καλάθι σου για να ελέγξεις την παραγγελία σου και να πληρώσεις ξανά.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Μετά την ολοκλήρωση της πληρωμής σου, θα λάβεις ένα e-mail επιβεβαίωσης. Παρακολούθησε την παραγγελία σου με την εφαρμογή καταστήματος.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Σου δεν έχει χρεωθεί τίποτα για την παραγγελία σου. Επιστρέφεις στο καλάθι σου για να ελέγξεις την παραγγελία σου και να πληρώσεις ξανά.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Επικοινωνήστε μαζί μας μέσω email ή τηλεφώνου για να λάβετε μια επιβεβαίωση παραγγελίας."
       }
     }
   },
