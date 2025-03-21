@@ -773,6 +773,9 @@
         "draft_order_list": {
           "hide_all_accessibility_label": "Alla beställningar döljas som ska kontrolleras"
         }
+      },
+      "draft_order_details": {
+        "loading_finished_accessibility_message": "Beställningsdetaljer har laddats"
       }
     },
     "errors": {
@@ -805,9 +808,12 @@
     "profile_preview_bar": {
       "saved_at": "Gespekat den {{date}} kl {{time}}"
     },
-    "settings": {
-      "log_out_everywhere": {
-        "title": "Avsluta överallt"
+    "date": {
+      "humanize": {
+        "yesterday": "Igår klockan {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "vor {{count}} minut"
+        }
       }
     }
   }

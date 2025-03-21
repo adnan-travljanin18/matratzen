@@ -744,6 +744,9 @@
           "hide_all": "Ukryj wszystko",
           "hide_all_accessibility_label": "Ukryj wszystkie zamówienia, które mają być sprawdzone"
         }
+      },
+      "draft_order_details": {
+        "loading_finished_accessibility_message": "Szczegóły zamówienia zostały załadowane"
       }
     },
     "errors": {
@@ -776,9 +779,12 @@
     "profile_preview_bar": {
       "saved_at": "Gespeichert w dniu {{date}} o {{time}}"
     },
-    "settings": {
-      "log_out_everywhere": {
-        "title": "Wyloguj się wszędzie"
+    "date": {
+      "humanize": {
+        "yesterday": "Gestern um {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "vor {{count}} minut"
+        }
       }
     }
   }

@@ -744,7 +744,8 @@
       "draft_order_details": {
         "order_timeline": {
           "expand_events_label": "Prikaži detalje"
-        }
+        },
+        "loading_finished_accessibility_message": "Detalji narudžbine su učitani"
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "Broj narudžbine može sadržavati najviše {{maxLength}} karaktera."
@@ -789,9 +790,12 @@
     "profile_preview_bar": {
       "saved_at": "Čuvanje na {{date}} u {{time}}"
     },
-    "settings": {
-      "log_out_everywhere": {
-        "warning_message": "Du ćeš biti odjavljen sa ovog uređaja."
+    "date": {
+      "humanize": {
+        "yesterday": "Juče u {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "za {{count}} minut"
+        }
       }
     }
   }

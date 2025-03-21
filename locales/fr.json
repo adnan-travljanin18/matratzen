@@ -782,6 +782,14 @@
     },
     "profile_preview_bar": {
       "customize_button": "Ajuster"
+    },
+    "date": {
+      "humanize": {
+        "yesterday": "Hier à {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "vor {{count}} minute"
+        }
+      }
     }
   }
 }

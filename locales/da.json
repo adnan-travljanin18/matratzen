@@ -786,6 +786,14 @@
     },
     "profile_preview_bar": {
       "customize_button": "Justere"
+    },
+    "date": {
+      "humanize": {
+        "yesterday": "Gestern om {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "vor {{count}} minut"
+        }
+      }
     }
   }
 }

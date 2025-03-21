@@ -780,6 +780,14 @@
     },
     "profile_preview_bar": {
       "saved_at": "Gespeichert den {{date}} kl {{time}}"
+    },
+    "date": {
+      "humanize": {
+        "yesterday": "I går om {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "vor {{count}} minutt"
+        }
+      }
     }
   }
 }

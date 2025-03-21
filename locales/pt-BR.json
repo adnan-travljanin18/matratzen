@@ -734,7 +734,8 @@
       "draft_order_details": {
         "order_timeline": {
           "expand_events_label": "Mostrar detalhes"
-        }
+        },
+        "loading_finished_accessibility_message": "Os detalhes do pedido foram carregados"
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "O número do pedido pode conter no máximo {{maxLength}} caracteres."
@@ -779,9 +780,12 @@
     "profile_preview_bar": {
       "saved_at": "Gespeichert em {{date}} às {{time}}"
     },
-    "settings": {
-      "log_out_everywhere": {
-        "warning_message": "Você também será desconectado deste dispositivo."
+    "date": {
+      "humanize": {
+        "yesterday": "Gestern um {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "vor {{count}} minuto"
+        }
       }
     }
   }

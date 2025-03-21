@@ -788,6 +788,14 @@
     },
     "profile_preview_bar": {
       "customize_button": "Adattare"
+    },
+    "date": {
+      "humanize": {
+        "yesterday": "Ieri alle {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "vor {{count}} minuti"
+        }
+      }
     }
   }
 }

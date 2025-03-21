@@ -751,6 +751,9 @@
         "draft_order_list": {
           "hide_all_accessibility_label": "Minden ellenőrzés alatt álló rendelést rejtsen el"
         }
+      },
+      "draft_order_details": {
+        "loading_finished_accessibility_message": "A rendelési adatok betöltődtek"
       }
     },
     "errors": {
@@ -781,8 +784,15 @@
       "clipboardCopied": "Másolt"
     },
     "profile_preview_bar": {
-      "saved_at": "Gespeichert {{date}}-kor {{time}}-kor",
-      "actions_button": "Akciók"
+      "saved_at": "Gespeichert {{date}}-kor {{time}}-kor"
+    },
+    "date": {
+      "humanize": {
+        "yesterday": "Gestern um {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "vor {{count}} perc"
+        }
+      }
     }
   }
 }

@@ -774,6 +774,14 @@
     },
     "profile_preview_bar": {
       "customize_button": "Säädä"
+    },
+    "date": {
+      "humanize": {
+        "yesterday": "Gestern um {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "vor {{count}} minuutti"
+        }
+      }
     }
   }
 }

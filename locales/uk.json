@@ -770,6 +770,9 @@
         "draft_order_list": {
           "hide_all_accessibility_label": "Вимкнути всі замовлення, які потрібно перевірити"
         }
+      },
+      "draft_order_details": {
+        "loading_finished_accessibility_message": "Деталі замовлення були завантажені"
       }
     },
     "errors": {
@@ -802,9 +805,12 @@
     "profile_preview_bar": {
       "saved_at": "Збережено {{date}} о {{time}}"
     },
-    "settings": {
-      "log_out_everywhere": {
-        "description": "Коли ви втратили свій пристрій і маєте занепокоєння щодо безпеки, вийдіть з усіх облікових записів, щоб забезпечити безпеку вашого профілю."
+    "date": {
+      "humanize": {
+        "yesterday": "Gestern um {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "vor {{count}} хвилини"
+        }
       }
     }
   }
