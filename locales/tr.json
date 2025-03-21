@@ -785,7 +785,14 @@
               "due_on_date": "{{depositAmount}} ödendiğinde, siparişin onaylandığında fatura edilir. Tutar {{dueDate}} tarihinde ödenmelidir."
             }
           },
-          "pay_now": "Hemen öde"
+          "paid": {
+            "title_with_date": "Bezpaid am {{date}}"
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "Deine Zahlung ist seit {{count}} gün gecikmeli"
+            }
+          }
         }
       }
     },
@@ -876,6 +883,11 @@
       "quantity": {
         "increase": "Mengeyi {{ product }} artırmak"
       }
+    }
+  },
+  "templates": {
+    "collection": {
+      "reset_filters": "Filtreyi sıfırla"
     }
   }
 }

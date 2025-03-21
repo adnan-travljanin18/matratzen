@@ -856,7 +856,13 @@
   "products": {
     "product": {
       "add_to_wishlist": "Ajouter à la liste de souhaits",
-      "price_range": "Von {{ min }} bis {{ max }}"
+      "price_range": "Von {{ min }} bis {{ max }}",
+      "close_quickshop": "Fermer l'aperçu rapide"
+    }
+  },
+  "templates": {
+    "collection": {
+      "reset_filters": "Réinitialiser le filtre"
     }
   }
 }

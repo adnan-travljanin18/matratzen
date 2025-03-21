@@ -848,7 +848,13 @@
   "products": {
     "product": {
       "add_to_wishlist": "Lisää toivelistalle",
-      "price_range": "'Von {{ min }} bis {{ max }}'"
+      "price_range": "'Von {{ min }} bis {{ max }}'",
+      "close_quickshop": "Sulje pikakatselu"
+    }
+  },
+  "templates": {
+    "collection": {
+      "reset_filters": "Suodattimen nollaus"
     }
   }
 }

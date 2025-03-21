@@ -754,6 +754,14 @@
             "deposit": {
               "due_on_date": "{{depositAmount}} je dospjela kada se tvoja narudžba potvrdi. Iznos je dospjela  {{dueDate}}."
             }
+          },
+          "paid": {
+            "title_with_date": "Bezatio na {{date}}"
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "Tvoja uplata je preko {{count}} dana dospjela"
+            }
           }
         }
       },
@@ -860,8 +868,12 @@
       "add_to_wishlist": "Dodati na listu želja",
       "quantity": {
         "increase": "Menge za {{ product }} povećati"
-      },
-      "share": "Podeli:"
+      }
+    }
+  },
+  "templates": {
+    "collection": {
+      "sortby_lable": "Sortiraj po"
     }
   }
 }

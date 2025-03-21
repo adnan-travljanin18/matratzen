@@ -762,6 +762,14 @@
             "deposit": {
               "due_on_date": "{{depositAmount}} esedékes, amikor a rendelésed megerősítésre kerül. Az összeg {{dueDate}}-ig esedékes."
             }
+          },
+          "paid": {
+            "title_with_date": "'Bezahlt am {{date}}'"
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "A kifizetésed {{count}} napja késlekedik"
+            }
           }
         }
       }
@@ -854,10 +862,12 @@
       "add_to_wishlist": "Kívánságlistához hozzáadni",
       "quantity": {
         "increase": "Menge a {{ product }} növelése"
-      },
-      "price": {
-        "regular_price": "Normál ár"
       }
+    }
+  },
+  "templates": {
+    "collection": {
+      "reset_filters": "Szűrő visszaállítása"
     }
   }
 }

@@ -847,7 +847,13 @@
   "products": {
     "product": {
       "add_to_wishlist": "Přidat do seznamu přání",
-      "price_range": "Von {{ min }} bis {{ max }}"
+      "price_range": "Von {{ min }} bis {{ max }}",
+      "close_quickshop": "Zavřít rychlý náhled"
+    }
+  },
+  "templates": {
+    "collection": {
+      "reset_filters": "Filter resetovat"
     }
   }
 }

@@ -862,7 +862,13 @@
   "products": {
     "product": {
       "add_to_wishlist": "Tilføj til ønskeliste",
-      "price_range": "Von {{ min }} til {{ max }}"
+      "price_range": "Von {{ min }} til {{ max }}",
+      "close_quickshop": "Luk hurtig visning"
+    }
+  },
+  "templates": {
+    "collection": {
+      "reset_filters": "Filter nulstille"
     }
   }
 }

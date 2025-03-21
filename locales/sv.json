@@ -781,6 +781,9 @@
             "in_review": {
               "title": "Betalningen förfaller inte än"
             }
+          },
+          "paid": {
+            "title_with_date": "Betalt den {{date}}"
           }
         }
       }
@@ -879,7 +882,12 @@
       "quantity": {
         "increase": "Menge för {{ product }} öka"
       },
-      "sold_out": "Utförsäljning"
+      "vendor": "Leverantör"
+    }
+  },
+  "templates": {
+    "collection": {
+      "reset_filters": "Återställ filter"
     }
   }
 }

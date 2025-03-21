@@ -781,6 +781,14 @@
             "deposit": {
               "due_on_date": "{{depositAmount}} підлягає сплаті, коли ваше замовлення підтверджено. Сума повинна бути сплачена до {{dueDate}}."
             }
+          },
+          "paid": {
+            "title_with_date": "Оплачено {{date}}"
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "Твій платіж прострочений на {{count}} день"
+            }
           }
         }
       }
@@ -877,10 +885,12 @@
       "add_to_wishlist": "Додати до списку бажань",
       "quantity": {
         "increase": "Підвищити кількість для {{ product }}"
-      },
-      "price": {
-        "unit_price": "Ціна за одиницю"
       }
+    }
+  },
+  "templates": {
+    "collection": {
+      "reset_filters": "Відфільтрувати скидання"
     }
   }
 }

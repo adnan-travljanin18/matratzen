@@ -752,6 +752,9 @@
             "in_review": {
               "title": "Płatność nie jest jeszcze wymagana"
             }
+          },
+          "paid": {
+            "title_with_date": "Zapłacono {{date}}"
           }
         }
       }
@@ -850,9 +853,12 @@
       "quantity": {
         "increase": "Zwiększyć ilość dla {{ product }}"
       },
-      "price": {
-        "sale_price": "Cena sprzedaży"
-      }
+      "vendor": "Dostawca"
+    }
+  },
+  "templates": {
+    "collection": {
+      "reset_filters": "Filtruj resetowanie"
     }
   }
 }

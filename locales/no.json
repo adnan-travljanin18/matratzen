@@ -754,6 +754,9 @@
             "in_review": {
               "title": "Betalingen er ennå ikke forfalt"
             }
+          },
+          "paid": {
+            "title_with_date": "Betalt den {{date}}"
           }
         }
       }
@@ -854,9 +857,12 @@
       "quantity": {
         "increase": "Mengde for {{ product }} øke"
       },
-      "price": {
-        "sale_price": "Salgspris"
-      }
+      "vendor": "Tilbyder"
+    }
+  },
+  "templates": {
+    "collection": {
+      "reset_filters": "Filter tilbakestille"
     }
   }
 }

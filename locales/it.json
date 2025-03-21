@@ -764,6 +764,9 @@
                 "due_on_receipt": "Riceverai una fattura per l'importo residuo."
               }
             }
+          },
+          "paid": {
+            "title_with_date": "Pagato il {{date}}"
           }
         }
       }
@@ -864,9 +867,12 @@
     "product": {
       "add_to_wishlist": "Aggiungi alla lista dei desideri",
       "price_range": "Da {{ min }} a {{ max }}",
-      "price": {
-        "sale_price": "Prezzo di vendita"
-      }
+      "vendor": "Fornitore"
+    }
+  },
+  "templates": {
+    "collection": {
+      "reset_filters": "Reimposta filtro"
     }
   }
 }

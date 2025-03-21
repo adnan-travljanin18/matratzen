@@ -744,6 +744,14 @@
             "deposit": {
               "due_on_date": "{{depositAmount}} é devido quando seu pedido é confirmado. O valor é devido em {{dueDate}}."
             }
+          },
+          "paid": {
+            "title_with_date": "Pago em {{date}}"
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "Sua pagamento está atrasado há {{count}} dias"
+            }
           }
         }
       },
@@ -852,8 +860,12 @@
       "add_to_wishlist": "Adicionar à lista de desejos",
       "quantity": {
         "increase": "Aumentar a quantidade de {{ product }}"
-      },
-      "share": "Compartilhar:"
+      }
+    }
+  },
+  "templates": {
+    "collection": {
+      "sortby_lable": "Classificar por"
     }
   }
 }

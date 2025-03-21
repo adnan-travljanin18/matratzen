@@ -760,6 +760,14 @@
             "deposit": {
               "due_on_date": "{{depositAmount}} είναι ληξιπρόθεσμο, όταν η παραγγελία σου επιβεβαιωθεί. Το ποσό είναι ληξιπρόθεσμο στις {{dueDate}}."
             }
+          },
+          "paid": {
+            "title_with_date": "Πληρώθηκε στις {{date}}"
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "Η πληρωμή σας είναι καθυστερημένη εδώ και {{count}} ημέρες"
+            }
           }
         }
       }
@@ -854,8 +862,12 @@
       "add_to_wishlist": "Προσθήκη στη λίστα επιθυμιών",
       "quantity": {
         "increase": "Η ποσότητα για {{ product }} αυξάνεται"
-      },
-      "share": "Μερίδιο:"
+      }
+    }
+  },
+  "templates": {
+    "collection": {
+      "sortby_lable": "Ταξινόμηση κατά"
     }
   }
 }
