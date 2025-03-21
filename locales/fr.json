@@ -72,7 +72,10 @@
       "order_summary": {
         "discount_label": "Code de réduction",
         "discount_placeholder": "Code de réduction",
-        "discount_has_been_applied": "Le rabais a été utilisé"
+        "discount_has_been_applied": "Le rabais a été utilisé",
+        "taxes_label": "Impôts",
+        "vat_label_html": "inkl. %{amount} MwSt",
+        "description_label": "Description"
       }
     }
   },

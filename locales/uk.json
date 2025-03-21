@@ -61,6 +61,9 @@
           "buyer_identity": {
             "email_required": "Електронна пошта є обов'язковою, якщо товар мерчандайзингу придбавається в рамках підписки.",
             "personal_order_not_allowed": "Приватні замовлення в цьому магазині не можливі."
+          },
+          "discount": {
+            "additional_requested_discount_code_discarded": "Запитаний додатковий код знижки був скасований."
           }
         },
         "complete_purchase_button_label": "Купити",
@@ -116,7 +119,9 @@
         "gift_card_placeholder": "Подарункова картка",
         "discount_has_been_applied": "Знижка була використана",
         "gift_card_has_been_removed": "Подарунковий сертифікат був анульований",
-        "shipping_policy_link": "Вартість доставки"
+        "shipping_policy_link": "Вартість доставки",
+        "vat_label_html": "inkl. %{amount} MwSt",
+        "description_label": "Опис"
       }
     }
   },

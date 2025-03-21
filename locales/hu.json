@@ -79,7 +79,10 @@
         "gift_card_placeholder": "Ajándék kártya",
         "discount_has_been_applied": "A kedvezményt felhasználták",
         "gift_card_has_been_removed": "A kupon törlésre került",
-        "shipping_policy_link": "Szállítási költségek"
+        "shipping_policy_link": "Szállítási költségek",
+        "taxes_label": "Adók",
+        "vat_label_html": "inkl. %{amount} ÁFA",
+        "description_label": "Leírás"
       }
     }
   },

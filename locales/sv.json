@@ -107,7 +107,10 @@
       "order_summary": {
         "discount_label": "Rabattkod",
         "gift_card_placeholder": "Presentkort",
-        "discount_has_been_applied": "Rabatten utnyttjades"
+        "discount_has_been_applied": "Rabatten utnyttjades",
+        "taxes_label": "Skatter",
+        "vat_label_html": "inkl. %{amount} MwSt",
+        "description_label": "Beskrivning"
       }
     }
   },

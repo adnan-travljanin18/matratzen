@@ -77,7 +77,10 @@
         "gift_card_placeholder": "Cartão Presente",
         "discount_has_been_applied": "O desconto foi utilizado",
         "cart_does_not_meet_discount_requirements_notice": "Der Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> não é válido para os itens no seu carrinho",
-        "shipping_policy_link": "Veja os custos de envio"
+        "shipping_policy_link": "Veja os custos de envio",
+        "taxes_label": "Impostos",
+        "vat_label_html": "inkl. %{amount} MwSt",
+        "description_label": "Descrição"
       }
     }
   },

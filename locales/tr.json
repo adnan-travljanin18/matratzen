@@ -107,7 +107,10 @@
       "order_summary": {
         "discount_label": "İndirim kodu",
         "gift_card_placeholder": "Hediye Kartı",
-        "discount_has_been_applied": "İndirim kullanıldı"
+        "discount_has_been_applied": "İndirim kullanıldı",
+        "taxes_label": "Vergiler",
+        "vat_label_html": "inkl. %{amount} MwSt",
+        "description_label": "Tanım"
       }
     }
   },

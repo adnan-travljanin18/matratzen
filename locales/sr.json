@@ -89,7 +89,10 @@
         "discount_label": "Rabattcode",
         "gift_card_placeholder": "Poklon kartica",
         "discount_has_been_applied": "Popust je iskorišćen",
-        "cart_does_not_meet_discount_requirements_notice": "Der Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> nije važeći za artikle u tvom korpusu."
+        "cart_does_not_meet_discount_requirements_notice": "Der Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> nije važeći za artikle u tvom korpusu.",
+        "taxes_label": "Porezi",
+        "vat_label_html": "inkl. %{amount} ПДВ",
+        "description_label": "Opis"
       }
     }
   },

@@ -72,7 +72,10 @@
       "order_summary": {
         "discount_label": "Rabattikoodi",
         "discount_placeholder": "Rabattikoodi",
-        "discount_has_been_applied": "Alennus käytettiin"
+        "discount_has_been_applied": "Alennus käytettiin",
+        "taxes_label": "Verot",
+        "vat_label_html": "inkl. %{amount} MwSt",
+        "product_change_label": "Muuttaa"
       }
     }
   },

@@ -75,7 +75,10 @@
         "discount_placeholder": "Rabattkode",
         "discount_has_been_applied": "Rabatten blev brugt",
         "subtotal_label": "Delbeløb",
-        "shipping_default_value": "Beregnes i næste trin"
+        "shipping_default_value": "Beregnes i næste trin",
+        "taxes_label": "Skatter",
+        "vat_label_html": "inkl. %{amount} MwSt",
+        "product_change_label": "Ændre"
       }
     }
   },

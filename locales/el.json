@@ -77,7 +77,10 @@
         "gift_card_placeholder": "Κάρτα Δώρου",
         "discount_has_been_applied": "Η έκπτωση χρησιμοποιήθηκε",
         "cart_does_not_meet_discount_requirements_notice": "Ο κωδικός έκπτωσης <strong style=\"text-transform:uppercase\">%{code}</strong> δεν είναι έγκυρος για τα προϊόντα στο καλάθι σας",
-        "shipping_policy_link": "Δείτε τα έξοδα αποστολής"
+        "shipping_policy_link": "Δείτε τα έξοδα αποστολής",
+        "taxes_label": "Φόροι",
+        "vat_label_html": "inkl. %{amount} ΦΠΑ",
+        "description_label": "Περιγραφή"
       }
     }
   },

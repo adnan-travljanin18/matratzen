@@ -70,7 +70,10 @@
       "order_summary": {
         "discount_label": "Rabattový kód",
         "discount_placeholder": "Rabattový kód",
-        "discount_has_been_applied": "Sleva byla využita"
+        "discount_has_been_applied": "Sleva byla využita",
+        "taxes_label": "Daně",
+        "vat_label_html": "inkl. %{amount} DPH",
+        "product_change_label": "Změnit"
       }
     }
   },

@@ -72,7 +72,10 @@
       "order_summary": {
         "discount_label": "Codice sconto",
         "gift_card_placeholder": "Carta regalo",
-        "discount_has_been_applied": "Il discount è stato utilizzato"
+        "discount_has_been_applied": "Il discount è stato utilizzato",
+        "taxes_label": "Tasse",
+        "vat_label_html": "inkl. %{amount} MwSt",
+        "description_label": "Descrizione"
       }
     }
   },
