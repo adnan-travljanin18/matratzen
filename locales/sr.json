@@ -294,7 +294,14 @@
         "order_status_payments_app_failed_pending_payment_payment": "Dir nije naplaćeno ništa za vašu narudžbinu. Vratite se u svoju korpu da proverite svoju narudžbinu i ponovo platite.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Uskoro ćeš primiti e-poruku sa tvojim brojem porudžbine na potvrdu.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Uskoro ćeš primiti e-poruku sa tvojim brojem porudžbine na potvrdu.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Nakon završetka tvoje uplate, primićeš potvrdu putem e-maila sa svojim brojem narudžbe."
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Nakon završetka tvoje uplate, primićeš potvrdu putem e-maila sa svojim brojem narudžbe.",
+        "delivered_description_html": "Tvoja narudžbina je isporučena na adresu koju si naveo. %{contact_us}, ukoliko nisi primio narudžbinu ili imaš bilo kakvih drugih problema."
+      },
+      "review": {
+        "title": "Proverite",
+        "blocks": {
+          "change_link_label": "Promeniti"
+        }
       }
     }
   },

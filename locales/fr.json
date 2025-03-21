@@ -296,7 +296,13 @@
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
         "out_for_delivery_description_html": "Votre commande est en route et devrait arriver aujourd'hui. Si la commande n'arrive pas dans les 2 prochains jours, %{contact_us}.",
-        "delivered": "Livré"
+        "delivered_description_html": "Votre commande a été livrée à l'adresse que vous avez indiquée. %{contact_us}, si vous n'avez pas reçu la commande ou si vous avez d'autres problèmes.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Après avoir effectué votre paiement, vous recevrez un message de confirmation avec votre numéro de commande."
+      },
+      "review": {
+        "blocks": {
+          "change_link_label": "Changer"
+        }
       }
     }
   },

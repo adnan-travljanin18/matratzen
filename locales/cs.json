@@ -284,7 +284,14 @@
         "in_transit_description_tomorrow": "Měl bys svou objednávku obdržet zítra.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Kontaktujte nás e-mailem nebo telefonem, abyste získali potvrzení objednávky.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Po dokončení vaší platby obdržíte potvrzovací e-mail s vaším číslem objednávky.",
-        "delivered": "Doručeno"
+        "delivered_description_html": "Tvá objednávka byla doručena na adresu, kterou jsi uvedl. %{contact_us}, pokud jsi objednávku neobdržel nebo máš jakékoli jiné problémy.",
+        "verify_shop_account_cta": "Ověřte svůj účet"
+      },
+      "review": {
+        "blocks": {
+          "change_link_label": "Změnit",
+          "change_shipping_address_link_label": "Změnit dodací adresu"
+        }
       }
     }
   },

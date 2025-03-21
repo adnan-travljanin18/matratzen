@@ -302,7 +302,13 @@
         "in_transit_description_tomorrow": "Du bør motta bestillingen din i morgen.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Du vil snart motta en e-post med din bestillingsnummer til bekreftelse.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Etter at betalingen din er fullført, vil du motta en bekreftelsesepost med bestillingsnummeret ditt.",
-        "attempted_delivery_description_html": "Det ble gjort et mislykket forsøk på å levere bestillingen din. %{contact_us} for å avtale en ny levering."
+        "delivered_description_html": "Deine bestilling er levert til adressen du oppga. %{contact_us}, hvis du ikke har mottatt bestillingen eller har noen andre problemer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Etter at betalingen din er fullført, vil du motta en bekreftelsesmelding med bestillingsnummeret ditt."
+      },
+      "review": {
+        "blocks": {
+          "change_link_label": "Endre"
+        }
       }
     }
   },

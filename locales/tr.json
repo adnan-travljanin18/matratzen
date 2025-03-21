@@ -326,7 +326,16 @@
         "order_status_payments_app_failed_pending_payment_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Kısa süre içinde sipariş numaran ile birlikte bir onay e-postası alacaksın.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Kısa süre içinde sipariş numaran ile birlikte bir onay e-postası alacaksın.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Ödemenizi tamamladıktan sonra, sipariş numaranızla birlikte bir onay e-postası alacaksınız."
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Ödemenizi tamamladıktan sonra, sipariş numaranızla birlikte bir onay e-postası alacaksınız.",
+        "delivered_description_html": "Deine Bestellung wurde an die von dir angegebene Adresse zugestellt. %{contact_us}, falls du die Bestellung nicht erhalten hast oder du irgendwelche anderen Probleme hast.",
+        "vat_invoices": {
+          "title": "MwSt.-Rechnungen"
+        }
+      },
+      "review": {
+        "blocks": {
+          "change_link_label": "Değiştirmek"
+        }
       }
     }
   },

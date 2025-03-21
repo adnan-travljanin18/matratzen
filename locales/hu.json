@@ -286,7 +286,16 @@
         "order_status_payments_app_failed_pending_payment_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Hamarosan kapsz egy e-mailt a rendelési számod megerősítésére.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Hamarosan kapsz egy e-mailt a rendelési számod megerősítésére.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "A fizetésed befejezése után kapsz egy megerősítő e-mailt a rendelési számoddal."
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "A fizetésed befejezése után kapsz egy megerősítő e-mailt a rendelési számoddal.",
+        "delivered_description_html": "A rendelésedet a megadott címre szállítottuk. %{contact_us}, ha nem kaptad meg a rendelést, vagy bármilyen egyéb problémád van.",
+        "vat_invoices": {
+          "title": "MwSt.-Rechnungen"
+        }
+      },
+      "review": {
+        "blocks": {
+          "change_link_label": "Változtat"
+        }
       }
     }
   },

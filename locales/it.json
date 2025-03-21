@@ -302,7 +302,13 @@
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Riceverai a breve un'email di conferma con il tuo numero d'ordine.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Riceverai a breve un'email di conferma con il tuo numero d'ordine.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Dopo aver completato il pagamento, riceverai un'e-mail di conferma con il tuo numero d'ordine.",
-        "attempted_delivery_description_html": "È stato tentato senza successo di consegnare il tuo ordine. %{contact_us}, per organizzare una nuova consegna."
+        "delivered_description_html": "La tua ordine è stato consegnato all'indirizzo fornito. %{contact_us}, se non hai ricevuto l'ordine o hai altri problemi.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Dopo il completamento del pagamento, riceverai un messaggio di conferma con il tuo numero d'ordine."
+      },
+      "review": {
+        "blocks": {
+          "change_link_label": "Cambiare"
+        }
       }
     }
   },
