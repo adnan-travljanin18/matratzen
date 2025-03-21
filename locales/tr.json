@@ -12,7 +12,11 @@
     "checkout": {
       "stock": {
         "page_title": "Vorratsprobleme",
-        "title": "Tükendi"
+        "title": "Tükendi",
+        "reduced_label": "Azaltılmış",
+        "unpurchasable_product": {
+          "status_column_header": "Kullanılamıyor"
+        }
       },
       "general": {
         "errors": {
@@ -46,7 +50,8 @@
           },
           "buyer_identity": {
             "email_required": "Bir e-posta gereklidir, eğer ürün, bir abonelik kapsamında satın alınıyorsa.",
-            "checkout_completion_target_is_invalid_proc": "Geçersiz ödeme tamamlama hedefi."
+            "checkout_completion_target_is_invalid_proc": "Geçersiz ödeme tamamlama hedefi.",
+            "personal_order_not_allowed": "Özel siparişler bu mağaza için mümkün değildir."
           }
         },
         "complete_purchase_button_label": "Satın Al",

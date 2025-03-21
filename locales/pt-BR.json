@@ -13,7 +13,11 @@
       "stock": {
         "page_title": "Problemas de armazenamento",
         "title": "Esgotado",
-        "price_column_header": "Preço"
+        "price_column_header": "Preço",
+        "reduced_label": "Reduzido",
+        "unpurchasable_product": {
+          "header": "Alguns itens foram removidos do seu carrinho"
+        }
       },
       "general": {
         "errors": {
@@ -47,7 +51,8 @@
             "job_already_queued": "A validação de captcha para este token de captcha já foi adicionada à fila."
           },
           "buyer_identity": {
-            "email_domain_is_invalid": "Esta domínio especificado não pode ser resolvido."
+            "email_domain_is_invalid": "Esta domínio especificado não pode ser resolvido.",
+            "personal_order_not_allowed": "Pedidos privados não são possíveis para esta loja."
           }
         },
         "complete_purchase_button_label": "Comprar",

@@ -12,7 +12,11 @@
     "checkout": {
       "stock": {
         "page_title": "Vorratsproblem",
-        "title": "Utsåld"
+        "title": "Utsåld",
+        "reduced_label": "Minskar",
+        "unpurchasable_product": {
+          "status_column_header": "Ej tillgänglig"
+        }
       },
       "general": {
         "errors": {
@@ -46,7 +50,8 @@
           },
           "buyer_identity": {
             "email_required": "En e-postadress krävs när merchandisevaran köps som en del av en prenumeration.",
-            "checkout_completion_target_is_invalid_proc": "Ogiltigt mål för kassaavslut."
+            "checkout_completion_target_is_invalid_proc": "Ogiltigt mål för kassaavslut.",
+            "personal_order_not_allowed": "Privatbeställningar är inte möjliga för denna butik."
           }
         },
         "complete_purchase_button_label": "Köpa",

@@ -12,7 +12,11 @@
     "checkout": {
       "stock": {
         "page_title": "Lagringsproblemer",
-        "title": "Utsolgt"
+        "title": "Utsolgt",
+        "reduced_label": "Redusert",
+        "unpurchasable_product": {
+          "status_column_header": "Ikke tilgjengelig"
+        }
       },
       "general": {
         "errors": {
@@ -43,7 +47,8 @@
             "job_already_queued": "Captcha-valideringen for dette Captcha-tokenet har allerede blitt lagt til i køen."
           },
           "buyer_identity": {
-            "checkout_completion_target_is_invalid_proc": "Ugyldig mål for utsjekking fullføring."
+            "checkout_completion_target_is_invalid_proc": "Ugyldig mål for utsjekking fullføring.",
+            "personal_order_not_allowed": "Privatbestillinger er ikke mulig for denne butikken."
           }
         },
         "complete_purchase_button_label": "Kjøpe",

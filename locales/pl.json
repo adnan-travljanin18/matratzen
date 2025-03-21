@@ -12,7 +12,11 @@
     "checkout": {
       "stock": {
         "page_title": "Problemy z magazynem",
-        "title": "Wyprzedane"
+        "title": "Wyprzedane",
+        "reduced_label": "Zmniejsza",
+        "unpurchasable_product": {
+          "status_column_header": "Nie dostępne"
+        }
       },
       "general": {
         "errors": {
@@ -43,7 +47,8 @@
             "job_already_queued": "Walidacja Captcha dla tego tokena Captcha została już dodana do kolejki."
           },
           "buyer_identity": {
-            "checkout_completion_target_is_invalid_proc": "Nieprawidłowy cel zakończenia płatności."
+            "checkout_completion_target_is_invalid_proc": "Nieprawidłowy cel zakończenia płatności.",
+            "personal_order_not_allowed": "Prywatne zamówienia nie są możliwe w tym sklepie."
           }
         },
         "complete_purchase_button_label": "Kupować",

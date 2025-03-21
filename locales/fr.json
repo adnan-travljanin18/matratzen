@@ -12,7 +12,11 @@
     "checkout": {
       "stock": {
         "page_title": "Problèmes de stockage",
-        "product_column_header": "Produits"
+        "product_column_header": "Produits",
+        "reduced_label": "Réduit",
+        "quantity_update": {
+          "title": "Mise à jour des quantités"
+        }
       },
       "general": {
         "errors": {
@@ -42,7 +46,8 @@
             "job_already_queued": "La validation Captcha pour ce jeton Captcha a déjà été ajoutée à la file d'attente."
           },
           "buyer_identity": {
-            "checkout_completion_target_is_invalid_proc": "Cible invalide pour la finalisation du paiement."
+            "checkout_completion_target_is_invalid_proc": "Cible invalide pour la finalisation du paiement.",
+            "personal_order_not_allowed": "Les commandes privées ne sont pas possibles dans cette boutique."
           }
         },
         "complete_purchase_button_label": "Acheter",

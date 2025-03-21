@@ -12,7 +12,11 @@
     "checkout": {
       "stock": {
         "page_title": "Problémy s dodávkami",
-        "product_column_header": "Produkty"
+        "product_column_header": "Produkty",
+        "reduced_label": "Snížený",
+        "quantity_update": {
+          "description": "Změnila se dostupná množství těchto položek a byla aktualizována ve tvém nákupním košíku."
+        }
       },
       "general": {
         "errors": {
@@ -43,7 +47,8 @@
           },
           "buyer_identity": {
             "missing_contact_method": "Chybí platná kontaktní metoda.",
-            "checkout_completion_target_is_invalid_proc": "Neplatný cíl pro dokončení pokladny."
+            "checkout_completion_target_is_invalid_proc": "Neplatný cíl pro dokončení pokladny.",
+            "personal_order_not_allowed": "Privatní objednávky nejsou v tomto obchodě možné."
           }
         },
         "complete_purchase_button_label": "Koupit",

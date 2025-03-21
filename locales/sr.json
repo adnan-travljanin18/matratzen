@@ -13,7 +13,11 @@
       "stock": {
         "page_title": "Problemi sa skladištenjem",
         "title": "Rasprodato",
-        "price_column_header": "Cena"
+        "price_column_header": "Cena",
+        "reduced_label": "Smanjuje",
+        "unpurchasable_product": {
+          "status_column_header": "Nije dostupno"
+        }
       },
       "general": {
         "errors": {
@@ -36,7 +40,8 @@
           },
           "buyer_identity": {
             "email_required": "Potrebna je e-pošta kada se robni predmet kupuje u okviru pretplate.",
-            "email_domain_is_invalid": "Ova navedena domena ne može da se reši."
+            "email_domain_is_invalid": "Ova navedena domena ne može da se reši.",
+            "personal_order_not_allowed": "Privatne narudžbine nisu moguće za ovu prodavnicu."
           }
         },
         "complete_purchase_button_label": "Kupovina",

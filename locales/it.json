@@ -12,7 +12,11 @@
     "checkout": {
       "stock": {
         "page_title": "Problemi di approvvigionamento",
-        "title": "Esaurito"
+        "title": "Esaurito",
+        "reduced_label": "Ridotto",
+        "unpurchasable_product": {
+          "status_column_header": "Non disponibile"
+        }
       },
       "general": {
         "errors": {
@@ -42,7 +46,8 @@
             "job_already_queued": "La convalida del Captcha per questo token Captcha è già stata aggiunta alla coda."
           },
           "buyer_identity": {
-            "checkout_completion_target_is_invalid_proc": "Obiettivo non valido per il completamento del checkout."
+            "checkout_completion_target_is_invalid_proc": "Obiettivo non valido per il completamento del checkout.",
+            "personal_order_not_allowed": "Gli ordini privati non sono possibili per questo negozio."
           }
         },
         "complete_purchase_button_label": "Comprare",

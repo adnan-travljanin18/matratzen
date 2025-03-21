@@ -12,7 +12,11 @@
     "checkout": {
       "stock": {
         "page_title": "Varastointiongelmat",
-        "product_column_header": "Tuotteet"
+        "product_column_header": "Tuotteet",
+        "reduced_label": "Vähentää",
+        "quantity_update": {
+          "description": "Saatavilla olevan määrän näiden tuotteiden on muuttunut ja se on päivitetty ostoskorissasi."
+        }
       },
       "general": {
         "errors": {
@@ -42,7 +46,8 @@
             "job_already_queued": "Captcha-tokenin vahvistus on jo lisätty jonoon."
           },
           "buyer_identity": {
-            "checkout_completion_target_is_invalid_proc": "Virheellinen kohde loppuunsaattamiselle."
+            "checkout_completion_target_is_invalid_proc": "Virheellinen kohde loppuunsaattamiselle.",
+            "personal_order_not_allowed": "Privattilaukset eivät ole mahdollisia tässä kaupasta."
           }
         },
         "complete_purchase_button_label": "Ostaa",

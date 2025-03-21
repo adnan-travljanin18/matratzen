@@ -13,7 +13,11 @@
       "stock": {
         "page_title": "Витратні проблеми",
         "title": "Розпродано",
-        "price_column_header": "Ціна"
+        "price_column_header": "Ціна",
+        "reduced_label": "Зменшено",
+        "unpurchasable_product": {
+          "status_column_header": "Не доступно"
+        }
       },
       "general": {
         "errors": {
@@ -45,7 +49,8 @@
             "job_already_queued": "Валідація Captcha для цього токена Captcha вже була додана до черги."
           },
           "buyer_identity": {
-            "email_required": "Електронна пошта є обов'язковою, якщо товар мерчандайзингу придбавається в рамках підписки."
+            "email_required": "Електронна пошта є обов'язковою, якщо товар мерчандайзингу придбавається в рамках підписки.",
+            "personal_order_not_allowed": "Приватні замовлення в цьому магазині не можливі."
           }
         },
         "complete_purchase_button_label": "Купити",

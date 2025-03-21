@@ -13,7 +13,11 @@
       "stock": {
         "page_title": "Προβλήματα αποθεμάτων",
         "title": "Εξαντλημένο",
-        "price_column_header": "Τιμή"
+        "price_column_header": "Τιμή",
+        "reduced_label": "Μειωμένο",
+        "unpurchasable_product": {
+          "status_column_header": "Μη διαθέσιμο"
+        }
       },
       "general": {
         "errors": {
@@ -46,7 +50,8 @@
             "job_already_queued": "Η επικύρωση Captcha για αυτό το Captcha-Token έχει ήδη προστεθεί στη λίστα αναμονής."
           },
           "buyer_identity": {
-            "email_domain_is_invalid": "Αυτή η καθορισμένη τομέας δεν μπορεί να επιλυθεί."
+            "email_domain_is_invalid": "Αυτή η καθορισμένη τομέας δεν μπορεί να επιλυθεί.",
+            "personal_order_not_allowed": "Η ιδιωτική παραγγελία δεν είναι δυνατή σε αυτό το κατάστημα."
           }
         },
         "complete_purchase_button_label": "Αγορά",

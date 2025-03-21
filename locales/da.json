@@ -12,7 +12,11 @@
     "checkout": {
       "stock": {
         "page_title": "Vorratsproblemer",
-        "product_column_header": "Produkter"
+        "product_column_header": "Produkter",
+        "reduced_label": "Reduceret",
+        "quantity_update": {
+          "description": "Den tilgængelige mængde af disse varer er blevet ændret og er blevet opdateret i din indkøbsvogn."
+        }
       },
       "general": {
         "errors": {
@@ -42,7 +46,8 @@
             "job_already_queued": "Captcha-valideringen for denne Captcha-token er allerede tilføjet til køen."
           },
           "buyer_identity": {
-            "checkout_completion_target_is_invalid_proc": "Ungyldig mål for checkout-afslutning."
+            "checkout_completion_target_is_invalid_proc": "Ungyldig mål for checkout-afslutning.",
+            "personal_order_not_allowed": "Privatbestillinger er ikke mulige for denne butik."
           }
         },
         "complete_purchase_button_label": "Køb",

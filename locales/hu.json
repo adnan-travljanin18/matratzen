@@ -12,7 +12,11 @@
     "checkout": {
       "stock": {
         "page_title": "Készletproblémák",
-        "title": "Kifogyott"
+        "title": "Kifogyott",
+        "reduced_label": "Csökkent",
+        "unpurchasable_product": {
+          "status_column_header": "Nem elérhető"
+        }
       },
       "general": {
         "errors": {
@@ -45,7 +49,8 @@
             "job_already_queued": "A Captcha-érvényesítés ehez a Captcha-tokenhez már a várólistára került."
           },
           "buyer_identity": {
-            "checkout_completion_target_is_invalid_proc": "Érvénytelen cél a pénztár befejezéséhez."
+            "checkout_completion_target_is_invalid_proc": "Érvénytelen cél a pénztár befejezéséhez.",
+            "personal_order_not_allowed": "A magánrendelések nem lehetségesek ebben a boltban."
           }
         },
         "complete_purchase_button_label": "Vásárol",
