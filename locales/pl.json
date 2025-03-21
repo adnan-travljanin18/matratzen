@@ -817,5 +817,18 @@
       "clear_all": "Usuń wszystko",
       "filter_button": "Filtr"
     }
+  },
+  "general": {
+    "password_page": {
+      "login_form_submit": "Wprowadź"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Udostępnij na Facebooku"
+      },
+      "links": {
+        "instagram": "Instagram"
+      }
+    }
   }
 }

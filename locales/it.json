@@ -834,7 +834,15 @@
   "general": {
     "password_page": {
       "login_form_password_label": "Password",
-      "login_form_error": "Falso password!"
+      "login_form_submit": "Inserire"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_twitter": "Tweet su Twitter"
+      },
+      "links": {
+        "instagram": "Instagram"
+      }
     }
   }
 }

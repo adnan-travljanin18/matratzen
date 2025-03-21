@@ -824,7 +824,15 @@
   "general": {
     "password_page": {
       "login_form_password_label": "Mot de passe",
-      "powered_by_shopify_html": "Ce magasin est géré par {{ shopify }}"
+      "login_form_submit": "Saisir"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_twitter": "Tweet sur Twitter"
+      },
+      "links": {
+        "instagram": "Instagram"
+      }
     }
   }
 }

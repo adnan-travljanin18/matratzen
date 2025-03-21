@@ -848,7 +848,16 @@
   },
   "general": {
     "password_page": {
-      "login_form_password_label": "Lösenord"
+      "login_form_password_label": "Lösenord",
+      "login_form_submit": "Ange"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Dela på Facebook"
+      },
+      "links": {
+        "instagram": "Instagram"
+      }
     }
   }
 }

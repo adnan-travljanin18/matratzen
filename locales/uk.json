@@ -846,6 +846,17 @@
   "general": {
     "password_page": {
       "login_form_password_label": "Пароль"
+    },
+    "social": {
+      "newsletter_form": {
+        "newsletter_email": "Введіть свою електронну пошту"
+      },
+      "alt_text": {
+        "share_on_facebook": "Поділитися на Facebook"
+      },
+      "links": {
+        "instagram": "Instagram"
+      }
     }
   }
 }

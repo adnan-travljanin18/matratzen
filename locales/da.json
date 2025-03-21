@@ -829,6 +829,14 @@
     "password_page": {
       "login_form_password_label": "Adgangskode",
       "powered_by_shopify_html": "Denne butik drives af {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_twitter": "Tweet på Twitter"
+      },
+      "links": {
+        "instagram": "Instagram"
+      }
     }
   }
 }

@@ -821,6 +821,17 @@
   "general": {
     "password_page": {
       "login_form_password_label": "Senha"
+    },
+    "social": {
+      "newsletter_form": {
+        "newsletter_email": "Insira seu e-mail"
+      },
+      "alt_text": {
+        "share_on_facebook": "Compartilhar no Facebook"
+      },
+      "links": {
+        "tumblr": "Tumblr"
+      }
     }
   }
 }

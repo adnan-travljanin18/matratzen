@@ -825,6 +825,17 @@
   "general": {
     "password_page": {
       "login_form_password_label": "Jelszó"
+    },
+    "social": {
+      "newsletter_form": {
+        "newsletter_email": "Írja be az e-mail címét"
+      },
+      "alt_text": {
+        "share_on_facebook": "Facebookon megosztás"
+      },
+      "links": {
+        "tumblr": "Tumblr"
+      }
     }
   }
 }

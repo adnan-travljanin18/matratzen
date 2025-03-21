@@ -814,6 +814,14 @@
     "password_page": {
       "login_form_password_label": "Heslo",
       "powered_by_shopify_html": "Tento obchod je provozován {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_twitter": "Tweet na Twitteru"
+      },
+      "links": {
+        "instagram": "Instagram"
+      }
     }
   }
 }

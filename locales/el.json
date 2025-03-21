@@ -822,5 +822,18 @@
       "clear_all": "Όλα διαγράφηκαν",
       "filter_button": "Φίλτρο"
     }
+  },
+  "general": {
+    "social": {
+      "newsletter_form": {
+        "newsletter_email": "Εισαγάγετε το email σας"
+      },
+      "alt_text": {
+        "share_on_facebook": "Μοιραστείτε στο Facebook"
+      },
+      "links": {
+        "tumblr": "Tumblr"
+      }
+    }
   }
 }

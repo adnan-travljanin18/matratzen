@@ -815,6 +815,14 @@
     "password_page": {
       "login_form_password_label": "Salasana",
       "powered_by_shopify_html": "Tämä kauppa on {{ shopify }} ylläpitämä"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_twitter": "Tweet Twitterissä"
+      },
+      "links": {
+        "instagram": "Instagram"
+      }
     }
   }
 }

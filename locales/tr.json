@@ -846,7 +846,16 @@
   },
   "general": {
     "password_page": {
-      "login_form_password_label": "Şifre"
+      "login_form_password_label": "Şifre",
+      "login_form_submit": "Giriş yapmak"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Facebook'ta paylaş"
+      },
+      "links": {
+        "instagram": "Instagram"
+      }
     }
   }
 }

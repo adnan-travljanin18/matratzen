@@ -821,7 +821,16 @@
   },
   "general": {
     "password_page": {
-      "login_form_password_label": "Passord"
+      "login_form_password_label": "Passord",
+      "login_form_submit": "Skriv inn"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_twitter": "Tweet på Twitter"
+      },
+      "links": {
+        "instagram": "Instagram"
+      }
     }
   }
 }

@@ -828,5 +828,18 @@
       "clear_all": "Obriši sve",
       "filter_button": "Филтер"
     }
+  },
+  "general": {
+    "social": {
+      "newsletter_form": {
+        "newsletter_email": "Unesite svoju e-poštu"
+      },
+      "alt_text": {
+        "share_on_facebook": "Podeli na Facebook-u"
+      },
+      "links": {
+        "tumblr": "Tumblr"
+      }
+    }
   }
 }
