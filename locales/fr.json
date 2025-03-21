@@ -154,7 +154,9 @@
         "pre_order_ships_now": "Maintenant expédié",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} Livraisons",
         "split_shipping_multiple_shipment_notice": "Votre commande sera livrée en plusieurs envois",
-        "split_shipping_more_shipping_options": "Autres options d'expédition"
+        "split_shipping_more_shipping_options": "Autres options d'expédition",
+        "split_shipping_option_custom": "Personnalisé",
+        "split_shipping_shipment_notice": "Votre commande sera livrée dans %{quantity_shipments}."
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Entrez l'adresse associée à votre carte ou méthode de paiement.",
@@ -195,6 +197,11 @@
         },
         "delete_credit_card_modal": {
           "delete": "Supprimer"
+        },
+        "edit_credit_card_modal": {
+          "fields": {
+            "security_code": "Code de sécurité"
+          }
         }
       }
     }

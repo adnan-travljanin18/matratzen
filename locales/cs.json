@@ -148,7 +148,8 @@
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} dalších",
         "pre_order_ships_now": "Bude nyní odesláno",
         "split_shipping_shipped_by_shop": "Versand durch %{shop_name}",
-        "split_shipping_option_free": "Bezplatná doprava"
+        "split_shipping_option_free": "Bezplatná doprava",
+        "split_shipping_option_custom": "Benutzerdefinovaný"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Zadej adresu spojenou s tvou kartou nebo platební metodou.",
@@ -185,6 +186,12 @@
         },
         "delete_credit_card_modal": {
           "delete": "Smazat"
+        },
+        "edit_credit_card_modal": {
+          "cancel": "Zavřít",
+          "fields": {
+            "name": "Název držitele karty"
+          }
         }
       }
     }

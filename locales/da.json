@@ -155,7 +155,8 @@
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} flere",
         "pre_order_ships_now": "Nu bliver sendt",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} Leverancer",
-        "split_shipping_more_shipping_options": "Yderligere forsendelsesmuligheder"
+        "split_shipping_more_shipping_options": "Yderligere forsendelsesmuligheder",
+        "split_shipping_option_custom": "Tilpasset"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Indtast den adresse, der er knyttet til dit kort eller betalingsmetode.",
@@ -194,6 +195,12 @@
         },
         "delete_credit_card_modal": {
           "delete": "Slet"
+        },
+        "edit_credit_card_modal": {
+          "cancel": "Luk",
+          "fields": {
+            "name": "Navn på kortindehaveren"
+          }
         }
       }
     }

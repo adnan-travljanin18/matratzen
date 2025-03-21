@@ -152,7 +152,8 @@
         "pre_order_ships_now": "Nyt lähetetään",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} Toimituksia",
         "split_shipping_multiple_shipment_notice": "Tilauksesi toimitetaan useassa erässä",
-        "split_shipping_more_shipping_options": "Lisätoimitusvaihtoehtoja"
+        "split_shipping_more_shipping_options": "Lisätoimitusvaihtoehtoja",
+        "split_shipping_option_custom": "Mukautettu"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Syötä kortillesi tai maksutavallesi liitetty osoite.",
@@ -189,6 +190,12 @@
         },
         "delete_credit_card_modal": {
           "delete": "Poistaa"
+        },
+        "edit_credit_card_modal": {
+          "cancel": "Sulje",
+          "fields": {
+            "security_code": "Turvakoodi"
+          }
         }
       }
     }

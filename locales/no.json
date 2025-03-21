@@ -152,7 +152,8 @@
         "pre_order_ships_now": "Blir nå sendt",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} Leveranser",
         "split_shipping_multiple_shipment_notice": "Din bestilling vil bli levert i flere forsendelser",
-        "split_shipping_more_shipping_options": "Flere fraktalternativer"
+        "split_shipping_more_shipping_options": "Flere fraktalternativer",
+        "split_shipping_shipment_notice": "Din bestilling vil bli levert i %{quantity_shipments}."
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Skriv inn adressen som er knyttet til kortet ditt eller betalingsmetoden.",
@@ -193,6 +194,14 @@
         },
         "delete_credit_card_modal": {
           "delete": "Slette"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} returnert"
+        },
+        "edit_credit_card_modal": {
+          "fields": {
+            "name": "Navn på kortinnehaver"
+          }
         }
       }
     }

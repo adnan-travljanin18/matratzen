@@ -190,7 +190,9 @@
         "delivery_title": "Доставка",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ще",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} поставок",
-        "split_shipping_more_shipping_options": "Інші варіанти доставки"
+        "split_shipping_more_shipping_options": "Інші варіанти доставки",
+        "default_description": "Відправлення протягом 1 робочого дня",
+        "split_shipping_shipment_notice": "Ваше замовлення буде доставлено у %{quantity_shipments}."
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -231,9 +233,10 @@
         },
         "markets_pro_disclaimer_privacy_policy": "Політика конфіденційності",
         "shop_pay_installments_label": "Платіть за покупки частинами",
-        "order_edit_banner_items_added": {
-          "other": "%{count} додано"
-        }
+        "delete_credit_card_modal": {
+          "delete": "Видалити"
+        },
+        "expired_payment_method": "Вибраний спосіб оплати вийшов з терміну дії"
       }
     }
   },

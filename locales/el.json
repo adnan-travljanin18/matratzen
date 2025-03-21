@@ -151,7 +151,9 @@
         "delivery_title": "Παράδοση",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} επιπλέον",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} παραδόσεις",
-        "split_shipping_more_shipping_options": "Άλλες επιλογές αποστολής"
+        "split_shipping_more_shipping_options": "Άλλες επιλογές αποστολής",
+        "default_description": "Αποστολή εντός 1 εργάσιμης ημέρας",
+        "split_shipping_shipment_notice": "Η παραγγελία σας θα παραδοθεί σε %{quantity_shipments}."
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -189,7 +191,12 @@
         "markets_pro_disclaimer_privacy_policy_title": "Διακήρυξη προστασίας προσωπικών δεδομένων του καταχωρημένου εμπόρου",
         "shop_pay_installments_label": "Αγορές με Δόσεις",
         "delete_credit_card_modal": {
-          "confirmation": "Θέλεις πραγματικά να διαγράψεις το εξής στοιχείο: {{brandName}} με τους τελευταίους αριθμούς {{lastDigits}};"
+          "delete": "Διαγραφή"
+        },
+        "edit_credit_card_modal": {
+          "fields": {
+            "expiry": "Ημερομηνία λήξης"
+          }
         }
       }
     }

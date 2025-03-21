@@ -155,7 +155,9 @@
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} további",
         "pre_order_ships_now": "Most most küldve",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} szállítás",
-        "split_shipping_more_shipping_options": "További szállítási lehetőségek"
+        "split_shipping_more_shipping_options": "További szállítási lehetőségek",
+        "default_description": "Szállítás 1 munkanapon belül",
+        "split_shipping_shipment_notice": "A rendelésedet %{quantity_shipments} szállítják ki."
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -190,6 +192,11 @@
         "shop_pay_installments_label": "Vásárolj Részletekben",
         "delete_credit_card_modal": {
           "delete": "Törlés"
+        },
+        "edit_credit_card_modal": {
+          "fields": {
+            "security_code": "Biztonsági kód"
+          }
         }
       }
     }
