@@ -201,7 +201,12 @@
           "fields": {
             "name": "Navn på kortindehaveren"
           }
-        }
+        },
+        "amazon_payments_failed_mfa_challenge": "Die valgte betalingsmetode kunne ikke bruges. Vælg en anden metode eller kontakt din bank eller din kortudsteder.",
+        "gift_card_store_credit": {
+          "manage_label": "Geschenkgutscheiner eller Shop-Guthaben administrere"
+        },
+        "payment_method_not_available_for_shipping_address_error": "Betalingsmetoden er ikke tilgængelig for den valgte leveringsadresse. Vælg en anden betalingsmetode."
       }
     }
   },

@@ -195,9 +195,12 @@
         },
         "edit_credit_card_modal": {
           "fields": {
-            "security_code": "Biztonsági kód"
+            "name": "Kártyabirtokos neve"
           }
-        }
+        },
+        "amazon_payments_failed_mfa_challenge": "Die kiválasztott fizetési mód nem használható. Válassz egy másik módszert, vagy lépj kapcsolatba a bankoddal vagy a kártyádban.",
+        "saved_credit_card_cvv_verification": "Kérjük, hogy a hitelkártyád biztonsági kódját írd be a hitelesítéshez.",
+        "shop_pay_ideal_unavailable_error": "iDEAL nem elérhető ehhez a megrendeléshez. Válassz egy másik fizetési módszert."
       }
     }
   },

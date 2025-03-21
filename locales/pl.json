@@ -202,7 +202,12 @@
           "fields": {
             "name": "Imię i nazwisko posiadacza karty"
           }
-        }
+        },
+        "amazon_payments_failed_mfa_challenge": "Die wybrana metoda płatności nie mogła zostać użyta. Wybierz inną metodę lub skontaktuj się ze swoją bankiem lub wystawcą karty.",
+        "gift_card_store_credit": {
+          "manage_label": "Zarządzanie bonami podarunkowymi lub saldami sklepów"
+        },
+        "shop_pay_ideal_unavailable_error": "iDEAL nie jest dostępny dla tego zamówienia. Wybierz inną metodę płatności."
       }
     }
   },

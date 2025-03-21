@@ -202,7 +202,12 @@
           "fields": {
             "security_code": "Code de sécurité"
           }
-        }
+        },
+        "amazon_payments_failed_mfa_challenge": "La méthode de paiement sélectionnée ne peut pas être utilisée. Choisissez un autre mode de paiement ou contactez votre banque ou l'émetteur de votre carte.",
+        "gift_card_store_credit": {
+          "manage_label": "Gestion des bons cadeaux ou des crédits boutique"
+        },
+        "payment_method_not_available_for_shipping_address_error": "La méthode de paiement n'est pas disponible pour l'adresse de livraison sélectionnée. Veuillez choisir une autre méthode de paiement."
       }
     }
   },

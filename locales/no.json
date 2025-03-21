@@ -202,7 +202,12 @@
           "fields": {
             "name": "Navn på kortinnehaver"
           }
-        }
+        },
+        "amazon_payments_failed_mfa_challenge": "Die valgte betalingsmetoden kunne ikke brukes. Velg en annen metode, eller kontakt banken din eller kortutstederen din.",
+        "gift_card_store_credit": {
+          "manage_label": "Geschenkgutscheiner eller butikk-gavekort administrere"
+        },
+        "amazon_payments_abandoned_mfa_challenge": "Deine betaling kunne ikke fullføres. Prøv med en annen betalingsmetode eller kontakt banken din eller kortutstederen din."
       }
     }
   },

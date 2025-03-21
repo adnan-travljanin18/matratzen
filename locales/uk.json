@@ -236,7 +236,14 @@
         "delete_credit_card_modal": {
           "delete": "Видалити"
         },
-        "expired_payment_method": "Вибраний спосіб оплати вийшов з терміну дії"
+        "edit_credit_card_modal": {
+          "fields": {
+            "name": "Ім'я власника картки"
+          }
+        },
+        "amazon_payments_failed_mfa_challenge": "Die обрана платіжна система не може бути використана. Виберіть інший спосіб або зверніться до свого банку чи емітента картки.",
+        "saved_credit_card_cvv_verification": "Будь ласка, введіть код безпеки вашої картки для підтвердження.",
+        "shop_pay_ideal_unavailable_error": "iDEAL недоступний для цього замовлення. Виберіть інший метод оплати."
       }
     }
   },

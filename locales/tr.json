@@ -227,9 +227,14 @@
         },
         "edit_credit_card_modal": {
           "fields": {
-            "security_code": "Güvenlik Kodu"
+            "name": "Kart sahibinin adı"
           }
-        }
+        },
+        "amazon_payments_failed_mfa_challenge": "Die seçilen ödeme yöntemi kullanılamadı. Başka bir yöntem seç veya bankanla ya da kart sağlayıcınla iletişime geç.",
+        "gift_card_store_credit": {
+          "manage_label": "Geschenkg voucherleri veya mağaza bakiyesini yönetmek"
+        },
+        "shop_pay_ideal_unavailable_error": "iDEAL bu sipariş için mevcut değil. Başka bir ödeme yöntemi seçin."
       }
     }
   },

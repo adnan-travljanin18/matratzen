@@ -227,7 +227,12 @@
           "fields": {
             "name": "Namn på kortinnehavaren"
           }
-        }
+        },
+        "amazon_payments_failed_mfa_challenge": "Die valda betalningsmetoden kunde inte användas. Vänligen välj en annan metod eller kontakta din bank eller kortutgivare.",
+        "gift_card_store_credit": {
+          "manage_label": "Geschenkkuponger eller butikscredit hantera"
+        },
+        "shop_pay_ideal_unavailable_error": "iDEAL är inte tillgänglig för denna beställning. Vänligen välj en annan betalningsmetod."
       }
     }
   },

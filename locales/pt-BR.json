@@ -188,7 +188,17 @@
         "order_edit_banner_multiple_items_returned": "{{amount}} retornado",
         "delete_credit_card_modal": {
           "delete": "Excluir"
-        }
+        },
+        "edit_credit_card_modal": {
+          "fields": {
+            "name": "Nome do titular do cartão"
+          }
+        },
+        "use_location_shipping_address_label": "Usar o endereço de entrega do local",
+        "gift_card_store_credit": {
+          "manage_label": "Gestões de vale-presente ou crédito de loja"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Removido da devolução"
       }
     }
   },

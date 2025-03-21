@@ -192,7 +192,10 @@
           "fields": {
             "name": "Název držitele karty"
           }
-        }
+        },
+        "amazon_payments_failed_mfa_challenge": "Die zvolená platební metoda nemohla být použita. Vyberte jinou metodu nebo se obraťte na svou banku nebo vydavatele karty.",
+        "order_edit_banner_updated_order_label": "Aktualizovaná objednávka",
+        "payment_method_not_available_for_shipping_address_error": "Způsob platby není pro vybranou dodací adresu k dispozici. Vyberte jiný způsob platby."
       }
     }
   },
