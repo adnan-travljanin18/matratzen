@@ -561,6 +561,13 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Hvis du sletter denne betalingsmetoden, vil det påvirke forhåndsgodkjente betalinger. Erstatt den med en alternativ betalingsmetode for å fortsette å motta bestillinger."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Navn på kortinnehaver",
+        "card_verification_value_placeholder": "Sicherheitskode",
+        "tooltip": {
+          "card_verification_value_explanation": "Ein 3-stellig sikkerhetskode som vanligvis finnes på baksiden av kortet ditt. American Express-kort har en 4-sifret kode på forsiden."
+        }
       }
     },
     "navigation_and_structure": {

@@ -556,6 +556,13 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Wenn poistat tämän maksutavan, sillä on vaikutuksia ennakkohyväksyttyihin maksuihin. Korvaa se vaihtoehtoisella maksutavalla, jotta voit edelleen vastaanottaa tilauksia."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Kortinhaltijan nimi",
+        "card_verification_value_placeholder": "Turvakoodi",
+        "field_errors": {
+          "credit_card_verification_value_blank": "Syötä korttisi CVV- tai turvallisuusnumero"
+        }
       }
     },
     "navigation_and_structure": {

@@ -565,6 +565,13 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Quando rimuovi questo metodo di pagamento, ciò avrà un impatto sui pagamenti preautorizzati. Sostituiscilo con un metodo di pagamento alternativo per continuare a ricevere ordini."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Nome del titolare della carta",
+        "card_verification_value_placeholder": "Codice di sicurezza",
+        "field_errors": {
+          "credit_card_verification_value_blank": "Inserisci il codice CVV o di sicurezza sulla tua carta"
+        }
       }
     },
     "navigation_and_structure": {

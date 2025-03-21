@@ -574,6 +574,13 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Kada izbrišete ovu metodu plaćanja, to će uticati na prethodno autorizovane uplate. Zamenite je alternativnom metodom plaćanja kako biste i dalje mogli da primate narudžbine."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Ime vlasnika kartice",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "4-цифрени безбедносни код на предњој страни твоје карте",
+          "card_verification_value_explanation": "A 3-cifreni sigurnosni kod koji se obično nalazi na poleđini vaše kartice. American Express kartice imaju 4-cifreni kod na prednjoj strani."
+        }
       }
     },
     "navigation_and_structure": {

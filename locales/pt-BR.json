@@ -562,6 +562,13 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Quando você excluir este método de pagamento, isso afetará os pagamentos pré-autorizados. Substitua-o por um método de pagamento alternativo para continuar recebendo pedidos."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Nome do titular do cartão",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "4-dígito código de segurança na parte frontal do seu cartão",
+          "card_verification_value_explanation": "Um código de segurança de 3 dígitos, que geralmente está localizado na parte de trás do seu cartão. Cartões American Express têm um código de 4 dígitos na frente."
+        }
       }
     },
     "navigation_and_structure": {

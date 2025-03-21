@@ -567,6 +567,13 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Wenn du diese Zahlungsmethode sletter, vil det påvirke forudautoriserede betalinger. Erstat den med en alternativ betalingsmetode for fortsat at modtage bestillinger."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Navn på kortindehaveren",
+        "card_verification_value_placeholder": "Sicherheitskode",
+        "field_errors": {
+          "credit_card_verification_value_blank": "Indtast CVV- eller sikkerhedskoden fra dit kort"
+        }
       }
     },
     "navigation_and_structure": {

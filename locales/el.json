@@ -566,6 +566,15 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Όταν διαγράφετε αυτήν τη μέθοδο πληρωμής, αυτό έχει επιπτώσεις στις προεγκριμένες πληρωμές. Αντικαταστήστε την με μια εναλλακτική μέθοδο πληρωμής για να συνεχίσετε να δέχεστε παραγγελίες."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Όνομα κατόχου κάρτας",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "4-ψήφιος κωδικός ασφαλείας στην πρόσοψη της κάρτας σου"
+        },
+        "field_errors": {
+          "credit_card_number_invalid": "Εισάγετε έναν έγκυρο αριθμό κάρτας"
+        }
       }
     },
     "navigation_and_structure": {

@@ -589,6 +589,12 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Коли ви видаляєте цей метод оплати, це вплине на попередньо авторизовані платежі. Замініть його на альтернативний метод оплати, щоб продовжити отримувати замовлення."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Назва власника картки",
+        "field_errors": {
+          "credit_card_number_invalid": "Введіть дійсний номер картки"
+        }
       }
     },
     "navigation_and_structure": {
@@ -739,7 +745,8 @@
         "modal_po_number_input_max_length_error": "Номери замовлень можуть містити максимум {{maxLength}} символів."
       },
       "addresses": {
-        "add_billing_address_button": "Додати адресу рахунку"
+        "add_billing_address_button": "Додати адресу рахунку",
+        "cancel_adding_billing_address_accessibility_label": "Скасувати додавання рахункової адреси"
       }
     },
     "errors": {

@@ -589,6 +589,13 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Eğer bu ödeme yöntemini silerseniz, bu ön yetkilendirilmiş ödemeleri etkiler. Sipariş almaya devam etmek için bunu alternatif bir ödeme yöntemi ile değiştirin."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Kart Sahibi Adı",
+        "tooltip": {
+          "tooltip_accessibility_label": "Daha fazla bilgi",
+          "card_verification_value_explanation": "Bir kartın genellikle arka tarafında bulunan 3 haneli bir güvenlik kodu. American Express kartlarının ön tarafında 4 haneli bir kod vardır."
+        }
       }
     },
     "navigation_and_structure": {

@@ -559,6 +559,13 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Gdy usuniesz tę metodę płatności, wpłynie to na wcześniej autoryzowane płatności. Zastąp ją alternatywną metodą płatności, aby nadal otrzymywać zamówienia."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Imię i nazwisko posiadacza karty",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "4-cyfrowy kod zabezpieczający na przedniej stronie twojej karty",
+          "card_verification_value_explanation": "Kod zabezpieczeń składający się z 3 cyfr, który zazwyczaj znajduje się na odwrocie twojej karty. Karty American Express mają 4-cyfrowy kod z przodu."
+        }
       }
     },
     "navigation_and_structure": {

@@ -546,6 +546,13 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Pokud tuto platební metodu odstraníte, ovlivní to předautorizované platby. Nahraďte ji alternativní platební metodou, abyste mohli nadále přijímat objednávky."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Jméno majitele karty",
+        "card_verification_value_placeholder": "Bezpečnostní kód",
+        "field_errors": {
+          "credit_card_verification_value_blank": "Zadej CVV nebo bezpečnostní kód na své kartě"
+        }
       }
     },
     "navigation_and_structure": {

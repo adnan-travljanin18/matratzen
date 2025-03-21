@@ -583,6 +583,13 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Wenn du diese Zahlungsmethode tar bort, får det konsekvenser för förautoriseringar. Ersätt den med en alternativ betalningsmetod för att fortsätta ta emot beställningar."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Namn på kortinnehavaren",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "4-siffrig säkerhetskod på framsidan av ditt kort",
+          "card_verification_value_explanation": "Ein 3-siffrig säkerhetskod som vanligtvis finns på baksidan av ditt kort. American Express-kort har en 4-siffrig kod på framsidan."
+        }
       }
     },
     "navigation_and_structure": {

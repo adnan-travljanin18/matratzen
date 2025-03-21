@@ -568,6 +568,12 @@
         "warning_message_with_replacement": {
           "with_subscriptions": "Ha eltávolítod ezt a fizetési módot, az hatással lesz a előzetesen engedélyezett fizetésekre. Helyettesítsd egy alternatív fizetési móddal, hogy továbbra is rendeléseket kapj."
         }
+      },
+      "card_fields": {
+        "name_on_card_label": "Kártyabirtokos neve",
+        "tooltip": {
+          "card_verification_value_explanation": "Egy 3-jegyű biztonsági kód, amely általában a kártyád hátoldalán található. Az American Express kártyáknak egy 4-jegyű kódjuk van az előoldalon."
+        }
       }
     },
     "navigation_and_structure": {
@@ -720,7 +726,8 @@
         "modal_po_number_input_max_length_error": "A megrendelési számok maximális hossza {{maxLength}} karakter lehet."
       },
       "addresses": {
-        "add_billing_address_button": "Rechnungsadresse hozzáadása"
+        "add_billing_address_button": "Rechnungsadresse hozzáadása",
+        "cancel_adding_billing_address_accessibility_label": "A számlázási cím hozzáadásának megszakítása"
       }
     },
     "errors": {
