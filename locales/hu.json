@@ -651,7 +651,9 @@
       "shipping": {
         "address": "Szállítási cím"
       },
-      "show_items": "Cikk megjelenítése"
+      "show_items": "Cikk megjelenítése",
+      "summary_list_title_accessibility_label": "Megrendelési cikk",
+      "location": "Helyszín"
     }
   }
 }

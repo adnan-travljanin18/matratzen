@@ -642,7 +642,9 @@
       "shipping": {
         "address": "Adres dostawy"
       },
-      "show_items": "Wyświetl artykuł"
+      "show_items": "Wyświetl artykuł",
+      "summary_list_title_accessibility_label": "Najlepsze artykuły zamówień",
+      "location": "Lokalizacja"
     }
   }
 }

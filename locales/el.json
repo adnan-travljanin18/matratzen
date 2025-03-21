@@ -646,8 +646,10 @@
       },
       "shipping": {
         "address": "Παράδοση διεύθυνσης",
-        "free_shipping_discount": "Δωρεάν αποστολή"
-      }
+        "address_map_marker": "Παράδοση διεύθυνσης"
+      },
+      "summary_list_title_accessibility_label": "Είδη παραγγελίας",
+      "location": "Τοποθεσία"
     }
   }
 }

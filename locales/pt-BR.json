@@ -642,8 +642,10 @@
       },
       "shipping": {
         "address": "Endereço de entrega",
-        "one_time": "Envio único"
-      }
+        "address_map_marker": "Endereço de entrega"
+      },
+      "summary_list_title_accessibility_label": "Produto de pedido",
+      "location": "Localização"
     }
   }
 }

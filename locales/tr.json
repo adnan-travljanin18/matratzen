@@ -669,7 +669,9 @@
       "shipping": {
         "address": "Teslimat adresi"
       },
-      "show_items": "Makaleyi göster"
+      "show_items": "Makaleyi göster",
+      "summary_list_title_accessibility_label": "Sipariş Ürünü",
+      "location": "Lokasyon"
     }
   }
 }

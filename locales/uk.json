@@ -670,7 +670,9 @@
       "shipping": {
         "address": "Доставка адреси",
         "summary": "Відправка"
-      }
+      },
+      "summary_list_title_accessibility_label": "Найкращі товари",
+      "location": "Місцезнаходження"
     }
   }
 }

@@ -650,7 +650,9 @@
       "shipping": {
         "address": "Leveringsadresse",
         "subscription": "Abonnement-Forsendelsesomkostninger"
-      }
+      },
+      "summary_list_title_accessibility_label": "Bestillingsartikel",
+      "location": "Beliggenhed"
     }
   }
 }

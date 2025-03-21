@@ -667,7 +667,9 @@
       "shipping": {
         "address": "Leveransadress"
       },
-      "show_items": "Artikel visa"
+      "show_items": "Artikel visa",
+      "summary_list_title_accessibility_label": "Beställningsartikel",
+      "location": "Plats"
     }
   }
 }

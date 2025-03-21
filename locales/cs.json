@@ -633,7 +633,9 @@
       "shipping": {
         "address": "Dodací adresa",
         "subscription": "Abonnement-Versandkosten"
-      }
+      },
+      "summary_totals_title_accessibility_label": "Celkové hodnoty objednávek",
+      "location": "Místo"
     }
   }
 }

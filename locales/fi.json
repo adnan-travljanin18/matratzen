@@ -639,7 +639,9 @@
       "shipping": {
         "address": "Toimitusosoite",
         "subscription": "Abonnement-toimituskulut"
-      }
+      },
+      "summary_list_title_accessibility_label": "Bestellituote",
+      "location": "Sijainti"
     }
   }
 }

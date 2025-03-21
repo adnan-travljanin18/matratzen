@@ -645,7 +645,9 @@
       "shipping": {
         "address": "Adresse de livraison",
         "subscription": "Abonnement-Frais de port"
-      }
+      },
+      "summary_list_title_accessibility_label": "Article commandé",
+      "location": "Lieu"
     }
   }
 }

@@ -654,8 +654,10 @@
       },
       "shipping": {
         "address": "Isporuka adresa",
-        "free_shipping_discount": "Besplatna dostava"
-      }
+        "address_map_marker": "Isporuka adresa"
+      },
+      "summary_list_title_accessibility_label": "Naručeni artikli",
+      "location": "Mesto"
     }
   }
 }

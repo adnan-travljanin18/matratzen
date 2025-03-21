@@ -644,7 +644,9 @@
       "shipping": {
         "address": "Leveringsadresse"
       },
-      "show_items": "Vis artikkel"
+      "show_items": "Vis artikkel",
+      "summary_list_title_accessibility_label": "Bestillingsvare",
+      "location": "Beliggenhet"
     }
   }
 }
