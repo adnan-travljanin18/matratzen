@@ -937,7 +937,12 @@
       "sign_in": "Registrera"
     },
     "order": {
-      "date_html": "Platserat den {{ date }}"
+      "date_html": "Platserat den {{ date }}",
+      "price": "Pris",
+      "order_addresses": "Beställningsadresser"
+    },
+    "orders": {
+      "fulfillment_status": "Uppfyllandestatus"
     }
   }
 }

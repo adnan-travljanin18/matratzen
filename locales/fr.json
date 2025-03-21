@@ -913,7 +913,11 @@
     },
     "order": {
       "date_html": "Platziert le {{ date }}",
-      "total": "Global"
+      "price": "Prix",
+      "order_addresses": "Adresses de commande"
+    },
+    "orders": {
+      "fulfillment_status": "État d'exécution"
     }
   }
 }

@@ -912,7 +912,12 @@
       "sign_in": "Registrere"
     },
     "order": {
-      "date_html": "Plassert den {{ date }}"
+      "date_html": "Plassert den {{ date }}",
+      "price": "Pris",
+      "order_addresses": "Bestillingsadresser"
+    },
+    "orders": {
+      "fulfillment_status": "Erfullingsstatus"
     }
   }
 }

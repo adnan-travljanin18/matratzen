@@ -907,7 +907,11 @@
     },
     "order": {
       "date_html": "Platziert am {{ date }}",
-      "fulfilled_at_html": "Täytetty {{ date }}"
+      "price": "Hinta",
+      "order_addresses": "Bestelladressen"
+    },
+    "orders": {
+      "fulfillment_status": "Täyttämisstatus"
     }
   }
 }

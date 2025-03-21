@@ -908,7 +908,12 @@
       "sign_in": "Zarejestruj się"
     },
     "order": {
-      "date_html": "Platziert am {{ date }}"
+      "date_html": "Platziert am {{ date }}",
+      "price": "Cena",
+      "order_addresses": "Adresy zamówień"
+    },
+    "orders": {
+      "fulfillment_status": "Status realizacji"
     }
   }
 }

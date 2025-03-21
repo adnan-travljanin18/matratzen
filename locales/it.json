@@ -923,7 +923,11 @@
     },
     "order": {
       "date_html": "Platizzato il {{ date }}",
-      "product": "Prodotto"
+      "price": "Prezzo",
+      "order_addresses": "Indirizzi di consegna"
+    },
+    "orders": {
+      "fulfillment_status": "Stato di adempimento"
     }
   }
 }

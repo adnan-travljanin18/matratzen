@@ -909,7 +909,12 @@
       "forgot_password": "Esqueceu a senha?"
     },
     "order": {
-      "shipping_address": "Endereço de envio"
+      "shipping_address": "Endereço de envio",
+      "price": "Preço",
+      "tracking_number": "Número de Rastreamento"
+    },
+    "orders": {
+      "order_number_link": "Bestellnummer {{ number }}"
     }
   }
 }

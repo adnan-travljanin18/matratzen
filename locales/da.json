@@ -919,7 +919,11 @@
     },
     "order": {
       "date_html": "Platziert den {{ date }}",
-      "price": "Pris"
+      "price": "Pris",
+      "order_addresses": "Bestillingsadresser"
+    },
+    "orders": {
+      "fulfillment_status": "Erfüllingsstatus"
     }
   }
 }

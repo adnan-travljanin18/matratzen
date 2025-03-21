@@ -917,7 +917,12 @@
       "forgot_password": "Zaboravili ste lozinku?"
     },
     "order": {
-      "billing_address": "Adresa za fakturiranje"
+      "billing_address": "Adresa za fakturiranje",
+      "price": "Cena",
+      "tracking_number": "Tracking-Numar"
+    },
+    "orders": {
+      "fulfillment_status": "Status izvršenja"
     }
   }
 }

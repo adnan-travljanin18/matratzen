@@ -904,7 +904,11 @@
     },
     "order": {
       "date_html": "Platziert dne {{ date }}",
-      "price": "Cena"
+      "price": "Cena",
+      "order_addresses": "Bestelladressen"
+    },
+    "orders": {
+      "fulfillment_status": "Stav plnění"
     }
   }
 }

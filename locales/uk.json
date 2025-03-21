@@ -936,7 +936,12 @@
       "sign_in": "Увійти"
     },
     "order": {
-      "billing_address": "Рахункова адреса"
+      "billing_address": "Рахункова адреса",
+      "price": "Ціна",
+      "tracking_number": "Номер відстеження"
+    },
+    "orders": {
+      "fulfillment_status": "Статус виконання"
     }
   }
 }

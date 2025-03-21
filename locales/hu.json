@@ -913,7 +913,12 @@
       "sign_in": "Bejelentkezés"
     },
     "order": {
-      "billing_address": "Számlázási cím"
+      "billing_address": "Számlázási cím",
+      "price": "Ár",
+      "tracking_number": "Nyomkövetési szám"
+    },
+    "orders": {
+      "fulfillment_status": "Teljesítési állapot"
     }
   }
 }

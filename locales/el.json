@@ -911,7 +911,12 @@
       "sign_in": "Εγγραφή"
     },
     "order": {
-      "billing_address": "Διεύθυνση τιμολόγησης"
+      "billing_address": "Διεύθυνση τιμολόγησης",
+      "price": "Τιμή",
+      "tracking_number": "Αριθμός παρακολούθησης"
+    },
+    "orders": {
+      "fulfillment_status": "Κατάσταση εκπλήρωσης"
     }
   }
 }

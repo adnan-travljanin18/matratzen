@@ -933,7 +933,12 @@
       "sign_in": "Giriş Yap"
     },
     "order": {
-      "billing_address": "Fatura Adresi"
+      "billing_address": "Fatura Adresi",
+      "price": "Fiyat",
+      "order_addresses": "En İyi Sipariş Adresleri"
+    },
+    "orders": {
+      "fulfillment_status": "Erfüllungs durumu"
     }
   }
 }
