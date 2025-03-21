@@ -153,7 +153,9 @@
         "order_covered_by_gift_cards_notice": {
           "other": "A sua ordem será coberta pelos seus cupons."
         },
-        "billing_address_description": "Escolha o endereço associado ao seu cartão ou método de pagamento."
+        "billing_address_description_no_shipping_address": "Insira o endereço associado ao seu cartão ou método de pagamento.",
+        "no_method_error": "Este loja não pode aceitar pagamentos no momento.",
+        "bank_picker_label": "Banco"
       }
     }
   },

@@ -153,7 +153,10 @@
         "order_covered_by_gift_cards_notice": {
           "other": "A rendelésed a vouchereid által van fedezve."
         },
-        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} összesen %{total_shop_price}"
+        "billing_address_description_no_shipping_address": "Írd be a kártyáddal vagy a választott fizetési móddal összekapcsolt címet.",
+        "no_method_error": "Ez a bolt jelenleg nem tud fizetéseket elfogadni.",
+        "klarna_pay_later_label": "Számla Klarna-val",
+        "card_expiration_year_label": "Ablaufjahr"
       }
     }
   },

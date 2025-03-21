@@ -143,10 +143,15 @@
           }
         },
         "address_confirm": "Voulez-vous vraiment supprimer cette adresse de votre compte ?",
-        "delivery_tomorrow": "Livraison le lendemain à %{time}"
+        "delivery_tomorrow": "Livraison le lendemain à %{time}",
+        "address_form": {
+          "one_time_address_subtitle": "Une adresse unique pour cette commande"
+        }
       },
       "payment": {
-        "billing_address_description_no_shipping_address": "Entrez l'adresse associée à votre carte ou méthode de paiement."
+        "billing_address_description_no_shipping_address": "Entrez l'adresse associée à votre carte ou méthode de paiement.",
+        "klarna_pay_now_label": "Payer immédiatement avec Klarna",
+        "klarna_slice_it_label": "Finanzierung avec Klarna"
       }
     }
   },

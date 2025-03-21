@@ -148,7 +148,10 @@
         "delivery_tomorrow": "Consegna il giorno successivo alle %{time}"
       },
       "payment": {
-        "billing_address_description_no_shipping_address": "Inserisci l'indirizzo associato alla tua carta o metodo di pagamento."
+        "billing_address_description_no_shipping_address": "Inserisci l'indirizzo associato alla tua carta o metodo di pagamento.",
+        "no_method_error": "Questo negozio non può attualmente accettare pagamenti.",
+        "klarna_pay_now_label": "Pagare subito con Klarna",
+        "klarna_slice_it_label": "Finanzamento con Klarna"
       }
     }
   },

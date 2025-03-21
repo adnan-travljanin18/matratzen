@@ -179,9 +179,10 @@
         "order_covered_by_gift_cards_notice": {
           "other": "Siparişin, kuponların tarafından karşılanıyor."
         },
-        "card_fields_unavailable_html": {
-          "one": "Kredit ve Debit kartı ödemeleri şu anda mevcut değil.<br>Lütfen <a href=\"%{current_url}\">bu sayfayı yenile</a> veya daha sonra tekrar deneyin."
-        }
+        "billing_address_description_no_shipping_address": "Gib, verknüpft deinen Karte ya da ödeme yöntemine bağlı olan adresi gir.",
+        "no_method_error": "Bu mağaza şu anda ödeme kabul edemiyor.",
+        "klarna_pay_later_label": "Rechnung mit Klarna",
+        "card_expiration_year_label": "Ablauf yılı"
       }
     }
   },

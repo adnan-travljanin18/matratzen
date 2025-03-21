@@ -153,7 +153,9 @@
         "order_covered_by_gift_cards_notice": {
           "other": "Η παραγγελία σας καλύπτεται από τα κουπόνια σας."
         },
-        "billing_address_description": "Επίλεξε τη διεύθυνση που σχετίζεται με την κάρτα ή τη μέθοδο πληρωμής σου."
+        "billing_address_description_no_shipping_address": "Εισάγετε τη διεύθυνση που είναι συνδεδεμένη με την κάρτα ή τον τρόπο πληρωμής σας.",
+        "no_method_error": "Αυτό το κατάστημα δεν μπορεί επί του παρόντος να αποδεχθεί πληρωμές.",
+        "klarna_pay_later_label": "Rechnung με την Klarna"
       }
     }
   },

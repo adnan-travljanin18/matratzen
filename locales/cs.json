@@ -137,10 +137,15 @@
         },
         "address_confirm": "Chcete tuto adresu skutečně smazat ze svého účtu?",
         "arrives_time": "Vstup %{time}",
-        "delivery_tomorrow": "Dodání příští den v %{time}"
+        "delivery_tomorrow": "Dodání příští den v %{time}",
+        "address_form": {
+          "one_time_address_subtitle": "Jedinečná adresa pro tuto objednávku použít"
+        }
       },
       "payment": {
-        "billing_address_description_no_shipping_address": "Zadej adresu spojenou s tvou kartou nebo platební metodou."
+        "billing_address_description_no_shipping_address": "Zadej adresu spojenou s tvou kartou nebo platební metodou.",
+        "klarna_pay_now_label": "Okamžitě platit s Klarna",
+        "klarna_slice_it_label": "Financování s Klarna"
       }
     }
   },

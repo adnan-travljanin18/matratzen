@@ -163,7 +163,9 @@
         "order_covered_by_gift_cards_notice": {
           "other": "Tvoja narudžbina će biti pokrivena tvojim vaučerima."
         },
-        "billing_address_description": "Izaberite adresu povezanu sa vašom karticom ili načinom plaćanja."
+        "billing_address_description_no_shipping_address": "Unesite adresu povezanu sa vašom karticom ili načinom plaćanja.",
+        "no_method_error": "Ova prodavnica trenutno ne može da prihvati uplate.",
+        "klarna_pay_later_label": "Račun sa Klarna"
       }
     }
   },

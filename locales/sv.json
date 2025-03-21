@@ -177,9 +177,10 @@
         "delivery_tomorrow": "Leverans nästa dag kl %{time}"
       },
       "payment": {
-        "card_fields_unavailable_html": {
-          "one": "Kredit- och debitkortbetalningar är för tillfället inte tillgängliga.<br>Var god <a href=\"%{current_url}\">ladda om den här sidan</a> eller försök igen senare."
-        }
+        "billing_address_description_no_shipping_address": "Ange din adress kopplad till ditt kort eller betalningsmetod.",
+        "not_configured_error": "Denna butik kan för närvarande inte acceptera betalningar.",
+        "generic_incorrect_card_info": "Dine betalningsuppgifter kunde inte verifieras. Kontrollera dina kortuppgifter och försök igen.",
+        "credit_card_start_month": "Utställningsmånad"
       }
     }
   },

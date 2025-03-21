@@ -141,10 +141,15 @@
         },
         "address_confirm": "Haluatko todella poistaa tämän osoitteen tililtäsi?",
         "arrives_time": "Eingang %{time}",
-        "delivery_tomorrow": "Toimitus seuraavana päivänä klo %{time}"
+        "delivery_tomorrow": "Toimitus seuraavana päivänä klo %{time}",
+        "address_form": {
+          "one_time_address_subtitle": "Yksi ainutlaatuinen osoite tälle tilaukselle"
+        }
       },
       "payment": {
-        "billing_address_description_no_shipping_address": "Syötä kortillesi tai maksutavallesi liitetty osoite."
+        "billing_address_description_no_shipping_address": "Syötä kortillesi tai maksutavallesi liitetty osoite.",
+        "klarna_pay_now_label": "Sofort maksaminen Klarna kanssa",
+        "klarna_slice_it_label": "Rahoitus Klarna kanssa"
       }
     }
   },

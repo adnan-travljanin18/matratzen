@@ -144,10 +144,15 @@
         },
         "address_confirm": "Vil du virkelig slette denne adresse fra din konto?",
         "arrives_time": "Indgang %{time}",
-        "delivery_tomorrow": "Levering næste dag kl. %{time}"
+        "delivery_tomorrow": "Levering næste dag kl. %{time}",
+        "address_form": {
+          "one_time_address_subtitle": "En engangsadresse til denne bestilling bruge"
+        }
       },
       "payment": {
-        "billing_address_description_no_shipping_address": "Indtast den adresse, der er knyttet til dit kort eller betalingsmetode."
+        "billing_address_description_no_shipping_address": "Indtast den adresse, der er knyttet til dit kort eller betalingsmetode.",
+        "klarna_pay_now_label": "Sofort betale med Klarna",
+        "klarna_slice_it_label": "Finanzierung med Klarna"
       }
     }
   },

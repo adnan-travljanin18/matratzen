@@ -186,15 +186,16 @@
             "one": "%{shipping_price} за %{count} доставку, потім %{recurring_order_shipping_price}",
             "other": "%{shipping_price} для %{count} доставок (%{per_delivery_cost}), після цього %{recurring_order_shipping_price}"
           }
-        },
-        "address_form": {
-          "save": "Зберегти"
         }
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
           "other": "Твоє замовлення покривається твоїми купонами."
-        }
+        },
+        "billing_address_description_no_shipping_address": "Введіть адресу, пов'язану з вашою карткою або способом оплати.",
+        "no_method_error": "Цей магазин наразі не може приймати платежі.",
+        "klarna_pay_later_label": "Рахунок з Klarna",
+        "card_expiration_month_label": "Абсолютний місяць"
       }
     }
   },
