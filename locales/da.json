@@ -256,6 +256,13 @@
         "continue_to_payment_gateway_notice": "Fortsæt med betalingen for at tilføje dine betalingsoplysninger.",
         "page_title": "Bestilling bliver behandlet",
         "redirecting_to_bank": "Du vil blive omdirigeret til {{bank}}"
+      },
+      "thank_you": {
+        "order_status_confirmed_order_with_phone_pick_up": "Du vil modtage en SMS, så snart din bestilling er klar til afhentning.",
+        "pick_up_in_store_marker": {
+          "shipping": "Abholsted"
+        },
+        "ready_for_delivery_title": "Din bestilling er klar til levering"
       }
     }
   },

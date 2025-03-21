@@ -245,7 +245,8 @@
         "credit_card_label": "Karta kredytowa",
         "deferred_payment_label": "Metoda płatności do wybrania później",
         "order_due_on_fulfillment_payment": "Twoja karta zostanie obciążona, gdy tylko twoje zamówienie zostanie zrealizowane.",
-        "order_deposit_due_now": "{{depositAmount}} jest dzisiaj wymagalna. Na pozostałą kwotę obowiązują warunki \"{{translatedName}}\" i jest ona wymagalna w dniu {{dueDate}}."
+        "order_deposit_due_now": "{{depositAmount}} jest dzisiaj wymagalna. Na pozostałą kwotę obowiązują warunki \"{{translatedName}}\" i jest ona wymagalna w dniu {{dueDate}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} jest należny w momencie potwierdzenia zamówienia. Pozostała kwota będzie wymagana, gdy zamówienie zostanie zrealizowane."
       },
       "shipping_errors": {
         "shipping_method_not_available": "Dein koszyk został zaktualizowany, a dodane przez Ciebie przedmioty nie mogą zostać dostarczone na Twój adres. Usuń przedmioty, aby zakończyć zamówienie.",
@@ -260,7 +261,10 @@
         }
       },
       "thank_you": {
-        "order_updates_description_missing": "Otrzymasz brak aktualizacji dotyczących wysyłki."
+        "fulfillment": {
+          "product_image_label": "Produktbild"
+        },
+        "order_updates_submit_subscription": "Wprowadzenie"
       }
     }
   },

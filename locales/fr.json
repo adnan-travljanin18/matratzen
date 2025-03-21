@@ -260,7 +260,12 @@
       "thank_you": {
         "fulfillment": {
           "product_image_label": "Image du produit"
-        }
+        },
+        "order_status_confirmed_order_with_phone_pick_up": "Vous recevrez un SMS dès que votre commande sera prête à être récupérée.",
+        "pick_up_in_store_marker": {
+          "shipping": "Point de collecte"
+        },
+        "ready_for_delivery_description": "Nous avons préparé ta commande."
       }
     }
   },

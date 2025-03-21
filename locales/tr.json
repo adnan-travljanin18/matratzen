@@ -272,7 +272,8 @@
         "credit_card_label": "Kredi kartı",
         "deferred_payment_label": "Ödeme yöntemini daha sonra seçin",
         "order_due_on_fulfillment_choose_later": "Ödeme işleminiz, siparişiniz gerçekleştirildiğinde yapılması gerekmektedir.",
-        "order_deposit_due_now": "{{depositAmount}} bugün vadelidir. Kalan tutar için \"{{translatedName}}\" koşulları geçerlidir ve bu tutar {{dueDate}} tarihinde vadelidir."
+        "order_deposit_due_now": "{{depositAmount}} bugün vadelidir. Kalan tutar için \"{{translatedName}}\" koşulları geçerlidir ve bu tutar {{dueDate}} tarihinde vadelidir.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} onaylandığında ödenecek. Kalan tutar, siparişin gerçekleştirildiğinde ödenecek."
       },
       "shipping_errors": {
         "shipping_method_not_available": "Dein sepete güncellendi ve eklediğin ürünler adresine teslim edilemez. Siparişini tamamlamak için ürünleri kaldır.",
@@ -287,7 +288,10 @@
         }
       },
       "thank_you": {
-        "order_updates_description_missing": "Du hiç kargo güncellemeleri almazsın."
+        "fulfillment": {
+          "product_image_label": "Ürün resmi"
+        },
+        "order_updates_submit_subscription": "Girdi"
       }
     }
   },

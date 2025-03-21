@@ -251,6 +251,13 @@
         "continue_to_payment_gateway_notice": "Jatka maksamista lisätäksesi maksutietosi.",
         "page_title": "Tilauksesi käsitellään",
         "redirecting_to_bank": "Du wird {{bank}} →> redirected <<"
+      },
+      "thank_you": {
+        "order_status_confirmed_order_with_phone_pick_up": "Saat tekstiviestin, kun tilauksesi on noudettavissa.",
+        "pick_up_in_store_marker": {
+          "shipping": "Noutopaikka"
+        },
+        "ready_for_delivery_title": "Tilauksesi on valmis toimitettavaksi"
       }
     }
   },

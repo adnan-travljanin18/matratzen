@@ -246,8 +246,7 @@
         "deferred_payment_label": "Zahlungsmethode senere velge",
         "order_due_on_fulfillment_payment": "Din konto vil bli belastet så snart bestillingen din er fullført.",
         "draft_order_payment_due_later_terms": "For deg gjelder betingelsene \"{{translatedName}}\", så snart bestillingen din er bekreftet.",
-        "order_deposit_due_now": "{{depositAmount}} er forfalt i dag. For det gjenværende beløpet gjelder vilkårene \"{{translatedName}}\" og det forfaller den {{dueDate}}.",
-        "order_due_on_receipt_choose_later": "Din betaling forfaller ved mottak."
+        "order_deposit_due_now": "{{depositAmount}} er forfalt i dag. For det gjenværende beløpet gjelder vilkårene \"{{translatedName}}\" og det forfaller den {{dueDate}}."
       },
       "shipping_errors": {
         "shipping_method_not_available": "Dein Warenkorb wurde aktualisert og artiklene du har lagt til kan ikke sendes til adressen din. Fjern artiklene for å fullføre bestillingen din.",
@@ -257,6 +256,16 @@
         "continue_to_payment_gateway_notice_error": "Dine betalingsopplysninger kunne ikke bli bekreftet.",
         "page_title": "Bestilling blir behandlet",
         "redirecting_to_bank": "Du blir videresendt til {{bank}}"
+      },
+      "thank_you": {
+        "fulfillment": {
+          "product_image_label": "Produktbilde"
+        },
+        "order_updates_submit_subscription": "Inngang",
+        "pick_up_in_store_marker": {
+          "shipping": "Abholsted"
+        },
+        "order_status_confirmed_order_local": "Vi forbereder bestillingen din for levering."
       }
     }
   },

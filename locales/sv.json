@@ -270,7 +270,8 @@
         "credit_card_label": "Kreditkort",
         "deferred_payment_label": "Betalningsmetod välj senare",
         "order_due_on_fulfillment_choose_later": "Din betalning förfaller så snart din beställning har utförts.",
-        "order_deposit_due_now": "{{depositAmount}} är förfallna idag. För den återstående summan gäller villkoren \"{{translatedName}}\" och den är förfallen den {{dueDate}}."
+        "order_deposit_due_now": "{{depositAmount}} är förfallna idag. För den återstående summan gäller villkoren \"{{translatedName}}\" och den är förfallen den {{dueDate}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} är förfallet när din beställning bekräftas. Den återstående summan förfaller när din beställning utförs."
       },
       "shipping_errors": {
         "shipping_method_not_available": "Dein varukorg har uppdaterats och de artiklar du har lagt till kan inte levereras till din adress. Ta bort artiklarna för att slutföra din beställning.",
@@ -285,7 +286,10 @@
         }
       },
       "thank_you": {
-        "order_updates_description_missing": "Du får inga fraktuppdateringar."
+        "fulfillment": {
+          "product_image_label": "Produktbild"
+        },
+        "order_updates_submit_subscription": "Inmatning"
       }
     }
   },

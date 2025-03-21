@@ -245,6 +245,13 @@
         "continue_to_payment_gateway_notice": "Pokračujte v platbě a přidejte své platební údaje.",
         "page_title": "Objednávka je zpracovávána",
         "redirecting_to_bank": "Du wirst zu {{bank}} weitergeleitet"
+      },
+      "thank_you": {
+        "order_status_confirmed_order_with_phone_pick_up": "Du obdržíš SMS, jakmile bude tvoje objednávka připravena k vyzvednutí.",
+        "pick_up_in_store_marker": {
+          "shipping": "Místo vyzvednutí"
+        },
+        "ready_for_pickup_description": "Tvoje objednávka je připravena k vyzvednutí. Prosím, přines si potvrzení o objednávce při vyzvednutí objednávky."
       }
     }
   },
