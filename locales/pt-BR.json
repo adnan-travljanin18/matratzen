@@ -754,8 +754,12 @@
             },
             "title": "Pagável até",
             "description_due_on_receipt": "Você receberá uma fatura assim que o pagamento estiver vencido."
+          },
+          "refund": {
+            "description_multiple_refunds": "Você recebeu um reembolso parcial por este pedido."
           }
-        }
+        },
+        "subtitle": "Gesented on {{date}}"
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "O número do pedido pode conter no máximo {{maxLength}} caracteres."
@@ -919,6 +923,9 @@
     "register": {
       "email": "E-mail",
       "password_confirm": "Confirmar senha"
+    },
+    "reset_password": {
+      "submit": "Redefinir senha"
     }
   }
 }

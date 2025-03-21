@@ -788,8 +788,12 @@
           "pending": {
             "description_due_on_receipt": "Du får en faktura så snart betalningen är förfallen.",
             "description_waiting_for_manual_payment": "För denna beställning finns en betalning utestående. Saldo kommer att uppdateras efter mottagandet av betalningen."
+          },
+          "refund": {
+            "description_multiple_refunds": "Du har fått en delåterbetalning för denna beställning."
           }
-        }
+        },
+        "subtitle": "Gesendet den {{date}}"
       }
     },
     "errors": {
@@ -947,6 +951,9 @@
     "register": {
       "email": "E-post",
       "password_confirm": "Bekräfta lösenord"
+    },
+    "reset_password": {
+      "submit": "Återställ lösenord"
     }
   }
 }

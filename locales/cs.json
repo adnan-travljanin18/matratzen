@@ -756,7 +756,8 @@
           "refund": {
             "description_multiple_refunds": "Dostali jste částečnou refundaci za tuto objednávku."
           }
-        }
+        },
+        "subtitle": "Gesendet dne {{date}}"
       }
     },
     "errors": {
@@ -917,6 +918,14 @@
       "title": "Vytvořit účet",
       "first_name": "Přední jméno",
       "password_confirm": "Potvrdit heslo"
+    },
+    "reset_password": {
+      "submit": "Obnovit heslo"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "qr_image_alt": "QR-Code – skenujte pro uplatnění dárkové karty"
     }
   }
 }

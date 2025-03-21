@@ -770,8 +770,12 @@
             },
             "title": "Υποχρεωτικό μέχρι",
             "description_due_on_receipt": "Θα λάβεις ένα τιμολόγιο μόλις η πληρωμή είναι ληξιπρόθεσμη."
+          },
+          "refund": {
+            "title_with_date": "Επιστράφηκε στις {{date}}"
           }
-        }
+        },
+        "subtitle": "Γεννήθηκε στις {{date}}"
       }
     },
     "errors": {
@@ -921,6 +925,9 @@
     "register": {
       "email": "E-Mail",
       "password_confirm": "Επιβεβαίωση κωδικού πρόσβασης"
+    },
+    "reset_password": {
+      "submit": "Επαναφορά κωδικού πρόσβασης"
     }
   }
 }

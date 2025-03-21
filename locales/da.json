@@ -773,7 +773,8 @@
           "refund": {
             "description_multiple_refunds": "Du har modtaget en delvis refusion for denne bestilling."
           }
-        }
+        },
+        "subtitle": "Gesendt den {{date}}"
       }
     },
     "errors": {
@@ -931,6 +932,14 @@
     "register": {
       "last_name": "Efternavn",
       "password_confirm": "Bekræft adgangskode"
+    },
+    "reset_password": {
+      "submit": "Nulstil adgangskode"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "qr_image_alt": "QR-Kode – scann for at indløse gavekortet"
     }
   }
 }

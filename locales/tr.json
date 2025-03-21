@@ -794,8 +794,12 @@
             },
             "description_due_on_receipt": "Du, ödemeniz vadesi geldiğinde bir fatura alacaksınız.",
             "description_waiting_for_manual_payment": "Bu sipariş için bir ödeme bekleniyor. Bakiyeniz ödeme alındıktan sonra güncellenecektir."
+          },
+          "refund": {
+            "description_multiple_refunds": "Du, bu sipariş için bir kısmi geri ödeme aldın."
           }
-        }
+        },
+        "subtitle": "Gesendet am {{date}}"
       }
     },
     "errors": {
@@ -943,6 +947,9 @@
     "register": {
       "email": "E-Posta",
       "password_confirm": "Şifreyi onayla"
+    },
+    "reset_password": {
+      "submit": "Şifre sıfırlama"
     }
   }
 }

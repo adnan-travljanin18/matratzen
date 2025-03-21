@@ -762,9 +762,10 @@
             "description_waiting_for_manual_payment": "Tämän tilauksen maksua odotetaan. Saldo päivitetään maksun vastaanottamisen jälkeen."
           },
           "refund": {
-            "description_single_refund": "Sinulle on myönnetty osittainen palautus tästä tilauksesta."
+            "description_multiple_refunds": "Olet saanut osittaisen hyvityksen tälle tilaukselle."
           }
-        }
+        },
+        "subtitle": "Lähetetty {{date}}"
       }
     },
     "errors": {
@@ -919,6 +920,9 @@
     "register": {
       "last_name": "Sukunimi",
       "password_confirm": "Vahvista salasana"
+    },
+    "reset_password": {
+      "submit": "Salasanan palauttaminen"
     }
   }
 }

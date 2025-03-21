@@ -764,8 +764,12 @@
             },
             "title": "Zahlbar do",
             "description_due_on_receipt": "Dobijaš račun čim dospjela uplata."
+          },
+          "refund": {
+            "description_multiple_refunds": "Dobio si delimičnu refundaciju za ovu narudžbinu."
           }
-        }
+        },
+        "subtitle": "Poslato {{date}}"
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "Broj narudžbine može sadržavati najviše {{maxLength}} karaktera."
@@ -927,6 +931,9 @@
     "register": {
       "email": "E-pošta",
       "password_confirm": "Potvrdite lozinku"
+    },
+    "reset_password": {
+      "submit": "Resetovanje lozinke"
     }
   }
 }

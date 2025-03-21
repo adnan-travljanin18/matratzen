@@ -791,8 +791,12 @@
             },
             "description_due_on_receipt": "Ви отримаєте рахунок, як тільки платежі будуть терміновими.",
             "description_waiting_for_manual_payment": "Для цього замовлення є неоплачений рахунок. Баланс буде оновлено після отримання платежу."
+          },
+          "refund": {
+            "description_multiple_refunds": "Ви отримали часткове повернення за це замовлення."
           }
-        }
+        },
+        "subtitle": "Надіслано {{date}}"
       }
     },
     "errors": {
@@ -946,6 +950,9 @@
     "register": {
       "email": "E-Mail",
       "password_confirm": "Підтвердіть пароль"
+    },
+    "reset_password": {
+      "submit": "Відновлення пароля"
     }
   }
 }

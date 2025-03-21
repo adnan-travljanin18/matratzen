@@ -759,8 +759,12 @@
           "pending": {
             "description_due_on_receipt": "Otrzymasz fakturę, gdy płatność będzie wymagana.",
             "description_waiting_for_manual_payment": "Dla tego zamówienia oczekuje się płatności. Saldo zostanie zaktualizowane po otrzymaniu płatności."
+          },
+          "refund": {
+            "description_multiple_refunds": "Otrzymałeś częściowy zwrot kosztów za to zamówienie."
           }
-        }
+        },
+        "subtitle": "Gesendet am {{date}}"
       }
     },
     "errors": {
@@ -918,6 +922,9 @@
     "register": {
       "email": "E-Mail",
       "password_confirm": "Potwierdź hasło"
+    },
+    "reset_password": {
+      "submit": "Zresetować hasło"
     }
   }
 }
