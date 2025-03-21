@@ -534,6 +534,9 @@
     "payment_methods": {
       "edit_payment_method": {
         "cancel_edit_payment_method_button": "Zrušit"
+      },
+      "payment_details": {
+        "total_amount_of_subscription_line_items_left": "und {{total}} další"
       }
     },
     "navigation_and_structure": {
@@ -685,7 +688,8 @@
         }
       },
       "location_selection": {
-        "no_location_description": "Du již nemáte oprávnění k provádění objednávek pro {{company}}. Můžete nadále provádět soukromé objednávky."
+        "no_location_description": "Du již nemáte oprávnění k provádění objednávek pro {{company}}. Můžete nadále provádět soukromé objednávky.",
+        "search_location_title": "Vyberte umístění"
       },
       "purchase_order_number": {
         "empty_state": "Žádné číslo objednávky"
@@ -700,10 +704,10 @@
       },
       "load_orders_error": {
         "retry_button": "Zkusit znovu"
-      },
-      "load_extension_error": {
-        "refresh_button": "Obnovit stránku"
       }
+    },
+    "shop_policies": {
+      "refund_policy": "Právo na odstoupení od smlouvy"
     }
   }
 }

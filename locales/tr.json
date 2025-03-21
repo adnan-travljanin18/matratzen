@@ -577,6 +577,9 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Ödeme yöntemi güncellendi"
+      },
+      "payment_details": {
+        "total_amount_of_subscription_line_items_left": "und {{total}} daha"
       }
     },
     "navigation_and_structure": {
@@ -711,7 +714,8 @@
         "list_loading_address_accessibility_message": "Adresse için {{locationName}} yükleniyor",
         "selection_cancel_button": "İptal et",
         "no_location_description": "Du artık {{company}} için sipariş verme yetkisine sahip değilsin. Yine de özel siparişler vermeye devam edebilirsin.",
-        "clear_search": "Arama sıfırlama"
+        "clear_search": "Arama sıfırlama",
+        "search_location_title": "Konum seçin"
       },
       "locations": {
         "contact_name": "İsim",
@@ -733,6 +737,9 @@
       "load_orders_error": {
         "retry_button": "Tekrar dene"
       }
+    },
+    "shop_policies": {
+      "refund_policy": "İptal Hakkı"
     }
   }
 }

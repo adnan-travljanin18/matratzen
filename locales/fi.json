@@ -544,6 +544,9 @@
     "payment_methods": {
       "edit_payment_method": {
         "cancel_edit_payment_method_button": "Peruuttaa"
+      },
+      "payment_details": {
+        "total_amount_of_subscription_line_items_left": "und {{total}} muuta"
       }
     },
     "navigation_and_structure": {
@@ -681,7 +684,8 @@
       "location_selection": {
         "list_loading_address_accessibility_message": "Adresse for {{locationName}} lataa",
         "no_location_description": "Du kein mehr die Berechtigung, Bestellungen für {{company}} aufzugeben. Du kannst weiterhin private Bestellungen aufgeben.",
-        "try_new_search": "Uuden hakutoiminnon aloittaminen"
+        "try_new_search": "Uuden hakutoiminnon aloittaminen",
+        "search_location_title": "Valitse sijainti"
       },
       "locations": {
         "contact_name": "Nimi",
@@ -704,6 +708,9 @@
       "no_access_to_locations": {
         "description": "Sinulla ei ole pääsyä sijainteihin"
       }
+    },
+    "shop_policies": {
+      "refund_policy": "Peruuttamisoikeus"
     }
   }
 }

@@ -577,6 +577,9 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Метод оплати оновлено"
+      },
+      "payment_details": {
+        "total_amount_of_subscription_line_items_left": "und {{total}} ще"
       }
     },
     "navigation_and_structure": {
@@ -725,6 +728,9 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "Номери замовлень можуть містити максимум {{maxLength}} символів."
+      },
+      "addresses": {
+        "add_billing_address_button": "Додати адресу рахунку"
       }
     },
     "errors": {
@@ -734,6 +740,9 @@
       "load_orders_error": {
         "retry_button": "Спробуйте ще раз"
       }
+    },
+    "shop_policies": {
+      "refund_policy": "Право на відмову"
     }
   }
 }

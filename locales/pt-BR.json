@@ -550,6 +550,9 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Método de pagamento atualizado"
+      },
+      "payment_details": {
+        "close_payment_modal": "Fechar"
       }
     },
     "navigation_and_structure": {
@@ -700,6 +703,9 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "O número do pedido pode conter no máximo {{maxLength}} caracteres."
+      },
+      "addresses": {
+        "add_billing_address_button": "Adicionar endereço de faturamento"
       }
     },
     "errors": {
@@ -709,6 +715,9 @@
       "load_orders_error": {
         "retry_button": "Tentar novamente"
       }
+    },
+    "shop_policies": {
+      "refund_policy": "Direito de Rescisão"
     }
   }
 }

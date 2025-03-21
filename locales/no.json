@@ -549,6 +549,9 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Betalingsmetode oppdatert"
+      },
+      "payment_details": {
+        "total_amount_of_subscription_line_items_left": "und {{total}} ytterligere"
       }
     },
     "navigation_and_structure": {
@@ -689,7 +692,8 @@
       "location_selection": {
         "list_loading_address_accessibility_message": "Adresse for {{locationName}} lastes",
         "no_location_description": "Du har ikke lenger tillatelse til å legge inn bestillinger for {{company}}. Du kan fortsatt legge inn private bestillinger.",
-        "clear_search": "Tilbakestill søk"
+        "clear_search": "Tilbakestill søk",
+        "search_location_title": "Velg plassering"
       },
       "locations": {
         "contact_name": "Navn",
@@ -712,6 +716,9 @@
       "load_orders_error": {
         "retry_button": "Prøv igjen"
       }
+    },
+    "shop_policies": {
+      "refund_policy": "Returrett"
     }
   }
 }

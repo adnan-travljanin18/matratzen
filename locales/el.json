@@ -554,6 +554,9 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Η μέθοδος πληρωμής ενημερώθηκε"
+      },
+      "payment_details": {
+        "total_amount_of_subscription_line_items_left": "und {{total}} weitere"
       }
     },
     "navigation_and_structure": {
@@ -702,6 +705,9 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "Ο αριθμός παραγγελίας μπορεί να περιέχει το πολύ {{maxLength}} χαρακτήρες."
+      },
+      "addresses": {
+        "add_billing_address_button": "Προσθήκη διεύθυνσης τιμολόγησης"
       }
     },
     "errors": {
@@ -711,6 +717,9 @@
       "load_orders_error": {
         "retry_button": "Επανεξέταση"
       }
+    },
+    "shop_policies": {
+      "refund_policy": "Δικαίωμα Ανάκλησης"
     }
   }
 }

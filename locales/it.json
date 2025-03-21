@@ -553,6 +553,9 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Metodo di pagamento aggiornato"
+      },
+      "payment_details": {
+        "total_amount_of_subscription_line_items_left": "und {{total}} ulteriori"
       }
     },
     "navigation_and_structure": {
@@ -692,7 +695,8 @@
     "B2B": {
       "location_selection": {
         "list_loading_address_accessibility_message": "Indirizzo per {{locationName}} sta caricando",
-        "no_location_description": "Du non hai più i permessi per effettuare ordini per {{company}}. Puoi comunque continuare a effettuare ordini privati."
+        "no_location_description": "Du non hai più i permessi per effettuare ordini per {{company}}. Puoi comunque continuare a effettuare ordini privati.",
+        "search_location_title": "Seleziona posizione"
       },
       "locations": {
         "contact_name": "Nome",
@@ -718,6 +722,9 @@
       "load_orders_error": {
         "retry_button": "Riprova"
       }
+    },
+    "shop_policies": {
+      "refund_policy": "Diritto di recesso"
     }
   }
 }

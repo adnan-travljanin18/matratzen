@@ -571,6 +571,9 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Betalningsmetod uppdaterad"
+      },
+      "payment_details": {
+        "total_amount_of_subscription_line_items_left": "und {{total}} ytterligare"
       }
     },
     "navigation_and_structure": {
@@ -710,7 +713,8 @@
       "location_selection": {
         "list_loading_address_accessibility_message": "Adressen för {{locationName}} laddas",
         "no_location_description": "Du har inte längre behörighet att lägga beställningar för {{company}}. Du kan fortfarande göra privata beställningar.",
-        "clear_search": "Sök återställning"
+        "clear_search": "Sök återställning",
+        "search_location_title": "Välj plats"
       },
       "locations": {
         "contact_name": "Namn",
@@ -733,6 +737,9 @@
       "load_orders_error": {
         "retry_button": "Försök igen"
       }
+    },
+    "shop_policies": {
+      "refund_policy": "Ångerrätt"
     }
   }
 }

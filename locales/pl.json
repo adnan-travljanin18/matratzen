@@ -547,6 +547,9 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Metoda płatności zaktualizowana"
+      },
+      "payment_details": {
+        "total_amount_of_subscription_line_items_left": "und {{total}} weitere"
       }
     },
     "navigation_and_structure": {
@@ -685,7 +688,8 @@
       "location_selection": {
         "list_loading_address_accessibility_message": "Adres dla {{locationName}} jest ładowany",
         "no_location_description": "Du nie masz już uprawnień do składania zamówień dla {{company}}. Możesz nadal składać zamówienia prywatne.",
-        "clear_search": "Przywróć wyszukiwanie"
+        "clear_search": "Przywróć wyszukiwanie",
+        "search_location_title": "Wybierz lokalizację"
       },
       "locations": {
         "contact_name": "Nazwa",
@@ -708,6 +712,9 @@
       "load_orders_error": {
         "retry_button": "Spróbuj ponownie"
       }
+    },
+    "shop_policies": {
+      "refund_policy": "Prawo do odstąpienia od umowy"
     }
   }
 }

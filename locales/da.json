@@ -555,6 +555,9 @@
     "payment_methods": {
       "edit_payment_method": {
         "cancel_edit_payment_method_button": "Annullere"
+      },
+      "payment_details": {
+        "total_amount_of_subscription_line_items_left": "und {{total}} flere"
       }
     },
     "navigation_and_structure": {
@@ -690,7 +693,8 @@
     "B2B": {
       "location_selection": {
         "list_loading_address_accessibility_message": "Adresse for {{locationName}} indlæses",
-        "no_location_description": "Du har ikke længere tilladelse til at afgøre ordrer for {{company}}. Du kan stadig afgøre private ordrer."
+        "no_location_description": "Du har ikke længere tilladelse til at afgøre ordrer for {{company}}. Du kan stadig afgøre private ordrer.",
+        "search_location_title": "Vælg placering"
       },
       "locations": {
         "contact_name": "Navn",
@@ -716,6 +720,9 @@
       "load_orders_error": {
         "retry_button": "Prøv igen"
       }
+    },
+    "shop_policies": {
+      "refund_policy": "Fortrydelsesret"
     }
   }
 }
