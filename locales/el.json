@@ -439,7 +439,9 @@
     },
     "errors": {
       "discount_limit_reached": "Αυτό το έκπτωση έχει φτάσει στο όριο χρήσης του",
-      "invalid": "είναι άκυρο"
+      "gift_card_expired": "Η κάρτα δώρου έχει λήξει",
+      "email_domain_invalid": "Ο πάροχος δεν υποστηρίζεται",
+      "full_name_required": "Εισάγετε το όνομα και το επώνυμο."
     }
   },
   "customer_accounts": {

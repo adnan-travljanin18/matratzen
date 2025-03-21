@@ -482,7 +482,9 @@
     },
     "errors": {
       "discount_expired": "Ця знижка більше не дійсна",
-      "invalid": "недійсний"
+      "gift_card_expired": "Подаркова картка минула термін дії",
+      "email_domain_invalid": "Постачальник не підтримується",
+      "full_name_required": "Введіть ім'я та прізвище."
     }
   },
   "customer_accounts": {

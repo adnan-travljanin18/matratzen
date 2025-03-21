@@ -435,7 +435,9 @@
     },
     "errors": {
       "discount_limit_reached": "Este desconto alcançou seu limite de uso",
-      "gift_card_depleted": "Não há mais saldo neste cartão-presente"
+      "gift_card_expired": "O cartão presente expirou",
+      "email_domain_invalid": "Anbieter não é suportado",
+      "full_name_required": "Digite o nome e sobrenome."
     }
   },
   "customer_accounts": {

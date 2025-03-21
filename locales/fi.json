@@ -445,7 +445,10 @@
     },
     "errors": {
       "discount_limit_reached": "Tämä alennus on saavuttanut käyttörajan",
-      "gift_card_expired": "Lahjakortti on vanhentunut"
+      "gift_card_expired": "Lahjakortti on vanhentunut",
+      "too_short": "on liian lyhyt (Alaraja on %{count} merkkiä)",
+      "full_name_required": "Anna etu- ja sukunimi.",
+      "invalid_format": "ei ole luottokortin numero"
     }
   },
   "customer_accounts": {

@@ -441,7 +441,9 @@
     },
     "errors": {
       "discount_expired": "Ez a kedvezmény már nem érvényes",
-      "invalid": "érvénytelen"
+      "gift_card_expired": "A ajándékutalvány lejárt",
+      "email_domain_invalid": "A szolgáltató nincs támogatva",
+      "full_name_required": "Adja meg a keresztnevet és a vezetéknevet."
     }
   },
   "customer_accounts": {

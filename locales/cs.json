@@ -439,7 +439,10 @@
     },
     "errors": {
       "discount_limit_reached": "Tento rabat dosáhl svého limitu využití",
-      "gift_card_expired": "Dárková karta vypršela"
+      "gift_card_expired": "Dárková karta vypršela",
+      "too_short": "je příliš krátký (spodní mez je %{count} znaků)",
+      "full_name_required": "Zadejte jméno a příjmení.",
+      "invalid_expiry_year": "ist kein gültiges Ablaufjahr"
     }
   },
   "customer_accounts": {

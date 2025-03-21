@@ -481,7 +481,9 @@
     },
     "errors": {
       "discount_expired": "Bu indirim artık geçerli değil",
-      "invalid": "geçersiz"
+      "gift_card_expired": "Geschenkkarte süresi dolmuş",
+      "email_domain_invalid": "Sağlayıcı desteklenmiyor",
+      "full_name_required": "Gib Vor- ve Soyadınızı girin."
     }
   },
   "customer_accounts": {

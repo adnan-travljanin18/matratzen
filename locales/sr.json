@@ -447,7 +447,9 @@
     },
     "errors": {
       "discount_limit_reached": "Ova popust je postigao svoj limit korišćenja",
-      "gift_card_currency_mismatch": "Tvoja vaučer je u %{gift_card_currency}. Kontaktiraj nas da ga izdaš u %{checkout_currency}."
+      "gift_card_expired": "Poklon kartica je istekla",
+      "email_domain_invalid": "Pružalac neće biti podržan",
+      "full_name_required": "'Unesite ime i prezime.'"
     }
   },
   "customer_accounts": {

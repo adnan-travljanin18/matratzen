@@ -455,7 +455,10 @@
     },
     "errors": {
       "discount_limit_reached": "Ce rabais a atteint sa limite d'utilisation",
-      "gift_card_expired": "La carte cadeau a expiré"
+      "gift_card_expired": "La carte cadeau a expiré",
+      "too_short": "ist trop court (la limite inférieure est de %{count} caractères)",
+      "full_name_required": "Entrez le prénom et le nom de famille.",
+      "reset_password_html": "Cette adresse e-mail est déjà utilisée. Si cela concerne votre compte utilisateur, vous pouvez <a href=\"/account/login#recover\">demander un nouveau mot de passe</a>"
     }
   },
   "customer_accounts": {

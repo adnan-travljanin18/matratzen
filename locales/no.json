@@ -406,7 +406,8 @@
             "currency_change": "Du kan ikke bruke en annen adresse med {{walletName}}. Bruk den opprinnelige adressen eller prøv med en annen betalingsmetode."
           },
           "missing": {
-            "city": "Skriv inn en by"
+            "city": "Skriv inn en by",
+            "phone": "Skriv inn et telefonnummer"
           }
         },
         "payment_in_progress_title": "Betalingen behandles"
@@ -454,7 +455,9 @@
     },
     "errors": {
       "discount_limit_reached": "Denne rabatten har nådd sin bruksgrense",
-      "gift_card_expired": "Geschenkkortet har utløpt"
+      "gift_card_expired": "Geschenkkortet har utløpt",
+      "too_short": "er for kort (Minimum er %{count} tegn)",
+      "full_name_required": "Skriv inn fornavn og etternavn."
     }
   },
   "customer_accounts": {

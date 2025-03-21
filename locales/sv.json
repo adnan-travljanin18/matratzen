@@ -479,7 +479,9 @@
     },
     "errors": {
       "discount_expired": "Detta rabatter är inte längre giltigt",
-      "gift_card_expired": "Presentkortet har gått ut"
+      "gift_card_expired": "Presentkortet har gått ut",
+      "email_domain_invalid": "Anordnaren stöds inte",
+      "full_name_required": "Ange för- och efternamn."
     }
   },
   "customer_accounts": {
