@@ -114,6 +114,13 @@
         "no_rates_for_country_notice": "Pour cette adresse, aucun tarif d'expédition n'a été trouvé.",
         "duties_and_taxes_options": {
           "ddp_title": "Payer immédiatement"
+        },
+        "shipping_line_delivery_phone": "Vous recevrez, le cas échéant, des informations actualisées sur la livraison.",
+        "address_update": "Mettre à jour l'adresse",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "pour %{count} livraison"
+          }
         }
       }
     }

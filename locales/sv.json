@@ -147,7 +147,18 @@
           "ddu_caption": "Det kan tillkomma ytterligare avgifter",
           "ddp_title": "Sofort betala"
         },
-        "no_rates_for_country_notice": "För denna adress hittades inga fraktavgifter."
+        "no_rates_for_country_notice": "För denna adress hittades inga fraktavgifter.",
+        "shipping_line_delivery_phone": "Du får eventuellt aktuell information om leveransen.",
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}, %{secondMethod}"
+        },
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "day": {
+              "other": "alla %{count} dagar"
+            }
+          }
+        }
       }
     }
   },

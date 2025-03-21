@@ -117,6 +117,15 @@
         "no_rates_for_country_notice": "Ingen forsendelsesomkostninger blev fundet for denne adresse.",
         "duties_and_taxes_options": {
           "ddp_title": "Sofort betale"
+        },
+        "shipping_line_delivery_phone": "Du får muligvis opdaterede oplysninger om levering.",
+        "shipping_address_title": "Send til",
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "week": {
+              "other": "alle %{count} uger"
+            }
+          }
         }
       }
     }

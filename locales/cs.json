@@ -112,6 +112,13 @@
         "no_rates_for_country_notice": "Pro tuto adresu nebyly nalezeny žádné přepravní sazby.",
         "duties_and_taxes_options": {
           "ddp_title": "Ihned zaplatit"
+        },
+        "shipping_line_delivery_phone": "Dostanete případně aktuální informace o dodání.",
+        "shipping_address_title": "Odeslat na",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "pro %{count} dodání"
+          }
         }
       }
     }

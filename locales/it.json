@@ -116,6 +116,17 @@
         "no_rates_for_country_notice": "Per questo indirizzo non sono state trovate tariffe di spedizione.",
         "duties_and_taxes_options": {
           "ddp_title": "Pagare subito"
+        },
+        "shipping_line_delivery_phone": "Riceverai eventualmente informazioni aggiornate sulla consegna.",
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}, %{secondMethod}"
+        },
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "ogni giorno"
+            }
+          }
         }
       }
     }

@@ -117,8 +117,12 @@
       "shipping": {
         "no_other_methods_available": "Nenhum outro método disponível",
         "no_rates_for_country_notice": "Para este endereço, nenhuma tarifa de envio foi encontrada.",
-        "duties_and_taxes_options": {
-          "ddp_caption": "Sem taxas adicionais na entrega"
+        "other_method": {
+          "one": "%{count} outros métodos disponíveis em"
+        },
+        "shipping_line_delivery_phone": "Você receberá, se necessário, informações atualizadas sobre a entrega.",
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}, %{secondMethod}"
         }
       }
     }

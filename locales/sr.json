@@ -127,8 +127,12 @@
       "shipping": {
         "no_other_methods_available": "Nema drugih dostupnih metoda",
         "no_rates_for_country_notice": "Za ovu adresu nisu pronađene troškove dostave.",
-        "duties_and_taxes_options": {
-          "ddp_caption": "Nema dodatnih troškova za isporuku"
+        "other_method": {
+          "one": "%{count} druga dostupna metoda"
+        },
+        "shipping_line_delivery_phone": "Dobijaćeš, po potrebi, ažurirane informacije o isporuci.",
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}, %{secondMethod}"
         }
       }
     }

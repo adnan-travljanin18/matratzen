@@ -114,7 +114,18 @@
           "ddu_caption": "Det kan påløpe ekstra avgifter",
           "ddp_title": "Sofort betale"
         },
-        "no_rates_for_country_notice": "Ingen fraktkostnader ble funnet for denne adressen."
+        "no_rates_for_country_notice": "Ingen fraktkostnader ble funnet for denne adressen.",
+        "shipping_line_delivery_phone": "Du vil eventuelt motta oppdaterte leveringsinformasjoner.",
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}, %{secondMethod}"
+        },
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "hver dag"
+            }
+          }
+        }
       }
     }
   },

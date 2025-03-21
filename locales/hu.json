@@ -119,7 +119,13 @@
       "shipping": {
         "no_other_methods_available": "Nincsenek más módszerek elérhetők",
         "no_rates_for_country_notice": "Az adott címre nem található szállítási díj.",
-        "shipping_line_phone_label": "Mobiltelefon szám (kötelező)"
+        "other_method": {
+          "one": "%{count} másik módszer elérhető itt"
+        },
+        "shipping_line_delivery_phone": "Jelenleg érvényes információkat kapsz a kézbesítésről.",
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}, %{secondMethod}"
+        }
       }
     }
   },

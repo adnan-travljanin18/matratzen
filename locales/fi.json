@@ -114,6 +114,15 @@
         "no_rates_for_country_notice": "Tälle osoitteelle ei löytynyt toimitushintoja.",
         "duties_and_taxes_options": {
           "ddp_title": "Maksa heti"
+        },
+        "shipping_line_delivery_phone": "Saat mahdollisesti ajankohtaisia tietoja toimituksesta.",
+        "address_update": "Adresse aktualisieren",
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "week": {
+              "other": "alle %{count} Wochen"
+            }
+          }
         }
       }
     }

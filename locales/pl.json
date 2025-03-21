@@ -116,7 +116,18 @@
           "ddu_caption": "Mogą zostać nałożone dodatkowe opłaty",
           "ddp_title": "Natychmiast zapłać"
         },
-        "no_rates_for_country_notice": "Nie znaleziono stawek wysyłkowych dla tego adresu."
+        "no_rates_for_country_notice": "Nie znaleziono stawek wysyłkowych dla tego adresu.",
+        "shipping_line_delivery_phone": "Otrzymasz aktualne informacje dotyczące dostawy.",
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}, %{secondMethod}"
+        },
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "jeden Dzień"
+            }
+          }
+        }
       }
     }
   },
