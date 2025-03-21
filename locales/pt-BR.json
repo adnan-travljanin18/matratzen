@@ -11,7 +11,8 @@
   "shopify": {
     "checkout": {
       "stock": {
-        "page_title": "Problemas de armazenamento"
+        "page_title": "Problemas de armazenamento",
+        "title": "Esgotado"
       },
       "general": {
         "errors": {
@@ -24,10 +25,8 @@
   },
   "customer_accounts": {
     "payment_methods": {
-      "payment_delete": {
-        "warning_message_without_replacement": {
-          "with_pending_orders_and_subscriptions": "Quando você excluir este método de pagamento, isso afetará os pagamentos pré-autorizados. Este método de pagamento ainda será cobrado para valores pendentes de pedidos existentes, no entanto, você não receberá mais pedidos de assinatura. Adicione um método de pagamento alternativo para continuar recebendo pedidos de assinatura."
-        }
+      "edit_payment_method": {
+        "payment_method_updated_toast": "Método de pagamento atualizado"
       }
     }
   }

@@ -22,5 +22,12 @@
         }
       }
     }
+  },
+  "customer_accounts": {
+    "payment_methods": {
+      "edit_payment_method": {
+        "payment_method_updated_toast": "Betalingsmetode oppdatert"
+      }
+    }
   }
 }

@@ -22,5 +22,12 @@
         }
       }
     }
+  },
+  "customer_accounts": {
+    "payment_methods": {
+      "edit_payment_method": {
+        "cancel_edit_payment_method_button": "Peruuttaa"
+      }
+    }
   }
 }
