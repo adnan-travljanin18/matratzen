@@ -959,5 +959,21 @@
       "expired": "Geçmiş",
       "copy_code_success": "Kod başarıyla kopyalandı"
     }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
+    }
+  },
+  "localization": {
+    "country_label": "TODO",
+    "update_country": "TODO"
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "sold_out": "Tükendi"
+      }
+    }
   }
 }

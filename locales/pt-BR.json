@@ -935,5 +935,14 @@
       "expired": "Expirado",
       "copy_code_success": "Código copiado com sucesso"
     }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
+    }
+  },
+  "localization": {
+    "country_label": "TODO",
+    "language_label": "TODO"
   }
 }

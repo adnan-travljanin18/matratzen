@@ -934,5 +934,21 @@
       "expired": "Przeterminowany",
       "copy_code_success": "Kod pomyślnie skopiowany"
     }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
+    }
+  },
+  "localization": {
+    "country_label": "TODO",
+    "update_country": "TODO"
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "sold_out": "Wyprzedane"
+      }
+    }
   }
 }

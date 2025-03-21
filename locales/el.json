@@ -937,5 +937,21 @@
       "expired": "Ξεπερασμένο",
       "copy_code_success": "Ο κώδικας έχει αντιγραφεί με επιτυχία"
     }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
+    }
+  },
+  "localization": {
+    "country_label": "TODO",
+    "update_country": "TODO"
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "sold_out": "Εξαντλημένο"
+      }
+    }
   }
 }

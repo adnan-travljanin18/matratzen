@@ -943,5 +943,21 @@
       "expired": "Istekao",
       "copy_code_success": "Код је успешно копиран"
     }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
+    }
+  },
+  "localization": {
+    "country_label": "TODO",
+    "update_country": "TODO"
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "sold_out": "Rasprodato"
+      }
+    }
   }
 }

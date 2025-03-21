@@ -939,5 +939,21 @@
       "expired": "Lejárt",
       "copy_code_success": "A kód sikeresen másolva"
     }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
+    }
+  },
+  "localization": {
+    "country_label": "TODO",
+    "update_country": "TODO"
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "sold_out": "Kifogyott"
+      }
+    }
   }
 }

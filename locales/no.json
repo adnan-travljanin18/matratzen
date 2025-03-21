@@ -938,5 +938,21 @@
       "expired": "Utgått",
       "copy_code_success": "Koden er vellykket kopiert"
     }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
+    }
+  },
+  "localization": {
+    "country_label": "TODO",
+    "update_country": "TODO"
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "sold_out": "Utsolgt"
+      }
+    }
   }
 }

@@ -962,5 +962,21 @@
       "expired": "Прострочено",
       "copy_code_success": "Код успішно скопійовано"
     }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
+    }
+  },
+  "localization": {
+    "country_label": "TODO",
+    "update_country": "TODO"
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "sold_out": "Розпродано"
+      }
+    }
   }
 }
