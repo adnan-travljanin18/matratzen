@@ -715,7 +715,8 @@
       },
       "location_selection": {
         "selection_cancel_button": "Відмінити",
-        "no_location_description": "Du не маєте більше права робити замовлення для {{company}}. Ви все ще можете робити приватні замовлення."
+        "no_location_description": "Du не маєте більше права робити замовлення для {{company}}. Ви все ще можете робити приватні замовлення.",
+        "clear_search": "Скинути пошук"
       },
       "payment_methods": {
         "payment_delete": {
@@ -724,6 +725,14 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "Номери замовлень можуть містити максимум {{maxLength}} символів."
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "one": "Es liegt {{count}} помилок"
+      },
+      "load_orders_error": {
+        "retry_button": "Спробуйте ще раз"
       }
     }
   }

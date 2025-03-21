@@ -709,6 +709,12 @@
     "errors": {
       "banner_title": {
         "one": "Der er {{count}} fejl"
+      },
+      "no_access_to_locations": {
+        "description": "Du har ikke adgang til steder"
+      },
+      "load_orders_error": {
+        "retry_button": "Prøv igen"
       }
     }
   }

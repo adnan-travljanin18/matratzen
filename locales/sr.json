@@ -700,7 +700,8 @@
       },
       "location_selection": {
         "selection_cancel_button": "Otkaži",
-        "no_location_description": "Du više nemate ovlašćenje za davanje narudžbina za {{company}}. I dalje možete davati privatne narudžbine."
+        "no_location_description": "Du više nemate ovlašćenje za davanje narudžbina za {{company}}. I dalje možete davati privatne narudžbine.",
+        "clear_search": "Ponovno postavi pretragu"
       },
       "draft_order_details": {
         "order_timeline": {
@@ -709,6 +710,14 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "Broj narudžbine može sadržavati najviše {{maxLength}} karaktera."
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "one": "Es liegt {{count}} greška u"
+      },
+      "load_orders_error": {
+        "retry_button": "Pokušajte ponovo"
       }
     }
   }

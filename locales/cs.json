@@ -694,6 +694,15 @@
     "errors": {
       "banner_title": {
         "one": "Je {{count}} chyb"
+      },
+      "no_access_to_locations": {
+        "description": "Nemáš přístup k lokalitám"
+      },
+      "load_orders_error": {
+        "retry_button": "Zkusit znovu"
+      },
+      "load_extension_error": {
+        "refresh_button": "Obnovit stránku"
       }
     }
   }

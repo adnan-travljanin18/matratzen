@@ -680,7 +680,8 @@
     "B2B": {
       "location_selection": {
         "list_loading_address_accessibility_message": "Adresse for {{locationName}} lataa",
-        "no_location_description": "Du kein mehr die Berechtigung, Bestellungen für {{company}} aufzugeben. Du kannst weiterhin private Bestellungen aufgeben."
+        "no_location_description": "Du kein mehr die Berechtigung, Bestellungen für {{company}} aufzugeben. Du kannst weiterhin private Bestellungen aufgeben.",
+        "try_new_search": "Uuden hakutoiminnon aloittaminen"
       },
       "locations": {
         "contact_name": "Nimi",
@@ -699,6 +700,9 @@
     "errors": {
       "banner_title": {
         "one": "Es gibt {{count}} virheitä"
+      },
+      "no_access_to_locations": {
+        "description": "Sinulla ei ole pääsyä sijainteihin"
       }
     }
   }

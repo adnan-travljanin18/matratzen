@@ -690,7 +690,8 @@
       },
       "location_selection": {
         "selection_cancel_button": "Cancelar",
-        "no_location_description": "Du não possui mais permissão para fazer pedidos para {{company}}. Você ainda pode fazer pedidos privados."
+        "no_location_description": "Du não possui mais permissão para fazer pedidos para {{company}}. Você ainda pode fazer pedidos privados.",
+        "clear_search": "Redefinir busca"
       },
       "draft_order_details": {
         "order_timeline": {
@@ -699,6 +700,14 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "O número do pedido pode conter no máximo {{maxLength}} caracteres."
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "one": "'Es liegen {{count}} Fehler vor '"
+      },
+      "load_orders_error": {
+        "retry_button": "Tentar novamente"
       }
     }
   }

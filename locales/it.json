@@ -709,8 +709,14 @@
       }
     },
     "errors": {
-      "address_deletion_error": {
-        "description": "Si è verificato un problema durante l'eliminazione di questo indirizzo. Riprova o ricarica la pagina."
+      "failed_address_update": {
+        "description": "Beim Aktualisieren deiner Adresse ist ein Problem aufgetreten. Versuche, diese Seite zu aktualisieren oder überprüfe deine Internetverbindung."
+      },
+      "order_not_found": {
+        "title": "Ordine non trovato"
+      },
+      "load_orders_error": {
+        "retry_button": "Riprova"
       }
     }
   }

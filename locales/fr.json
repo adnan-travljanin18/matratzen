@@ -705,6 +705,12 @@
     "errors": {
       "failed_address_update": {
         "description": "Beim Aktualisieren deiner Adresse ist ein Problem aufgetreten. Versuche, diese Seite zu aktualisieren oder überprüfe deine Internetverbindung."
+      },
+      "order_not_found": {
+        "title": "Commande non trouvée"
+      },
+      "load_orders_error": {
+        "retry_button": "Réessayer"
       }
     }
   }

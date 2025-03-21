@@ -692,7 +692,8 @@
       },
       "location_selection": {
         "selection_cancel_button": "Ακύρωση",
-        "no_location_description": "Δεν διαθέτεις πλέον την άδεια να υποβάλεις παραγγελίες για την {{company}}. Μπορείς να υποβάλεις ακόμα ιδιωτικές παραγγελίες."
+        "no_location_description": "Δεν διαθέτεις πλέον την άδεια να υποβάλεις παραγγελίες για την {{company}}. Μπορείς να υποβάλεις ακόμα ιδιωτικές παραγγελίες.",
+        "clear_search": "Επαναφορά αναζητήσεων"
       },
       "payment_methods": {
         "payment_delete": {
@@ -701,6 +702,14 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "Ο αριθμός παραγγελίας μπορεί να περιέχει το πολύ {{maxLength}} χαρακτήρες."
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "one": "Es liegt {{count}} σφάλματα προκειμένου"
+      },
+      "load_orders_error": {
+        "retry_button": "Επανεξέταση"
       }
     }
   }

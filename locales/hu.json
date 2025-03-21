@@ -692,7 +692,8 @@
       "location_selection": {
         "list_loading_address_accessibility_message": "Az {{locationName}} címe betöltése",
         "selection_cancel_button": "Lemondás",
-        "no_location_description": "Du nem rendelkezel többé jogosultsággal arra, hogy megrendeléseket adj le a {{company}}-nél. Továbbra is leadhatsz személyes megrendeléseket."
+        "no_location_description": "Du nem rendelkezel többé jogosultsággal arra, hogy megrendeléseket adj le a {{company}}-nél. Továbbra is leadhatsz személyes megrendeléseket.",
+        "clear_search": "Visszaállítás"
       },
       "locations": {
         "contact_name": "Név",
@@ -705,6 +706,14 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "A megrendelési számok maximális hossza {{maxLength}} karakter lehet."
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "one": "Es gibt {{count}} hiba."
+      },
+      "load_orders_error": {
+        "retry_button": "Újra próbálkozni"
       }
     }
   }

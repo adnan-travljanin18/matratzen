@@ -709,7 +709,8 @@
     "B2B": {
       "location_selection": {
         "list_loading_address_accessibility_message": "Adressen för {{locationName}} laddas",
-        "no_location_description": "Du har inte längre behörighet att lägga beställningar för {{company}}. Du kan fortfarande göra privata beställningar."
+        "no_location_description": "Du har inte längre behörighet att lägga beställningar för {{company}}. Du kan fortfarande göra privata beställningar.",
+        "clear_search": "Sök återställning"
       },
       "locations": {
         "contact_name": "Namn",
@@ -726,8 +727,11 @@
       }
     },
     "errors": {
-      "addresses_loading_issue": {
-        "description": "Anslutningsfel. Kontrollera din internetanslutning och försök igen."
+      "failed_address_update": {
+        "description": "Beim Aktualisieren av din adress inträffade ett problem. Försök att uppdatera den här sidan eller kontrollera din internetanslutning."
+      },
+      "load_orders_error": {
+        "retry_button": "Försök igen"
       }
     }
   }

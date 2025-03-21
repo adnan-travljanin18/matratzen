@@ -710,7 +710,8 @@
       "location_selection": {
         "list_loading_address_accessibility_message": "Adresse için {{locationName}} yükleniyor",
         "selection_cancel_button": "İptal et",
-        "no_location_description": "Du artık {{company}} için sipariş verme yetkisine sahip değilsin. Yine de özel siparişler vermeye devam edebilirsin."
+        "no_location_description": "Du artık {{company}} için sipariş verme yetkisine sahip değilsin. Yine de özel siparişler vermeye devam edebilirsin.",
+        "clear_search": "Arama sıfırlama"
       },
       "locations": {
         "contact_name": "İsim",
@@ -723,6 +724,14 @@
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "Bestellnummerlar en fazla {{maxLength}} karakter içerebilir."
+      }
+    },
+    "errors": {
+      "failed_address_update": {
+        "description": "Beim Aktualisieren deiner Adresse ist ein Problem aufgetreten. Versuche, diese Seite zu aktualisieren oder überprüfe deine Internetverbindung."
+      },
+      "load_orders_error": {
+        "retry_button": "Tekrar dene"
       }
     }
   }

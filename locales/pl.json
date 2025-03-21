@@ -684,7 +684,8 @@
     "B2B": {
       "location_selection": {
         "list_loading_address_accessibility_message": "Adres dla {{locationName}} jest ładowany",
-        "no_location_description": "Du nie masz już uprawnień do składania zamówień dla {{company}}. Możesz nadal składać zamówienia prywatne."
+        "no_location_description": "Du nie masz już uprawnień do składania zamówień dla {{company}}. Możesz nadal składać zamówienia prywatne.",
+        "clear_search": "Przywróć wyszukiwanie"
       },
       "locations": {
         "contact_name": "Nazwa",
@@ -701,8 +702,11 @@
       }
     },
     "errors": {
-      "failed_address_creation": {
-        "description": "Beim Erstellen deiner Adresse ist ein Problem aufgetreten. Versuche, diese Seite zu aktualisieren oder überprüfe deine Internetverbindung."
+      "failed_address_update": {
+        "description": "Przy aktualizacji twojego adresu wystąpił problem. Spróbuj odświeżyć tę stronę lub sprawdź swoje połączenie internetowe."
+      },
+      "load_orders_error": {
+        "retry_button": "Spróbuj ponownie"
       }
     }
   }
