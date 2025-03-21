@@ -406,6 +406,9 @@
           },
           "detour": {
             "price_change": "Einige artikelpriser har ændret sig. Luk {{walletName}} for at gennemgå din bestilling og prøv igen."
+          },
+          "missing": {
+            "city": "Indtast en by"
           }
         },
         "payment_in_progress_title": "Betalingen behandles"
@@ -435,6 +438,12 @@
           "ship_to_address_link": "Leveringsadresse"
         }
       }
+    },
+    "pagination": {
+      "previous": "Tidligere"
+    },
+    "links": {
+      "learn_more": "Læs mere"
     }
   },
   "customer_accounts": {

@@ -405,6 +405,9 @@
           },
           "detour": {
             "currency_change": "Du ne peux pas utiliser une autre adresse avec {{walletName}}. Utilise l'adresse d'origine ou essaie avec un autre mode de paiement."
+          },
+          "missing": {
+            "city": "Entrez une ville"
           }
         },
         "payment_in_progress_title": "Le paiement est en cours de traitement"
@@ -434,6 +437,9 @@
           "ship_to_address_link": "Adresse de livraison"
         }
       }
+    },
+    "pagination": {
+      "previous": "Précédent"
     }
   },
   "customer_accounts": {

@@ -431,7 +431,10 @@
             "description": "{{walletName}} mevcut değil. Başka bir ödeme yöntemiyle dene veya daha sonra tekrar deneyin."
           },
           "detour": {
-            "price_change": "Bazı ürün fiyatları değişti. Siparişini kontrol etmek için {{walletName}}'i kapat ve tekrar dene."
+            "currency_change": "Du kannst mit {{walletName}} başka bir adres kullanamazsın. Orijinal adresi kullan veya başka bir ödeme yöntemiyle dene."
+          },
+          "missing": {
+            "city": "Bir şehir girin"
           }
         }
       },
@@ -460,6 +463,9 @@
           "ship_to_address_link": "Teslimat adresi"
         }
       }
+    },
+    "pagination": {
+      "previous": "Önceki"
     }
   },
   "customer_accounts": {

@@ -430,6 +430,9 @@
           },
           "detour": {
             "currency_change": "Du kan inte använda en annan adress med {{walletName}}. Använd den ursprungliga adressen eller försök med en annan betalningsmetod."
+          },
+          "missing": {
+            "city": "Ange en stad"
           }
         }
       },
@@ -458,6 +461,9 @@
           "ship_to_address_link": "Leveransadress"
         }
       }
+    },
+    "pagination": {
+      "previous": "Föregående"
     }
   },
   "customer_accounts": {

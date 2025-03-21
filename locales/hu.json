@@ -385,11 +385,16 @@
             "payment_terms": "A fizetési feltételek megváltoztak. Kérlek, ellenőrizd a rendelésed."
           },
           "invalid": {
-            "billing_must_match_shipping": "A szállítási címnek meg kell egyeznie",
-            "emirate": "Érvényes emirátust adjon meg"
+            "billing_must_match_shipping": "A szállítási címnek meg kell egyeznie"
           },
           "unavailable": {
             "description": "{{walletName}} nem elérhető. Próbálj meg egy másik fizetési módot, vagy próbáld meg később újra."
+          },
+          "detour": {
+            "currency_change": "Du kannst a {{walletName}} nem használhatsz másik címet. Használj az eredeti címet, vagy próbálkozz egy másik fizetési móddal."
+          },
+          "missing": {
+            "city": "Írj be egy várost"
           }
         }
       },
@@ -418,6 +423,9 @@
           "ship_to_address_link": "Szállítási cím"
         }
       }
+    },
+    "pagination": {
+      "previous": "Előző"
     }
   },
   "customer_accounts": {

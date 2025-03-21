@@ -395,6 +395,9 @@
           },
           "detour": {
             "currency_change": "Du kannst mit {{walletName}} keine andere Adresse verwenden. Verwende die ursprüngliche Adresse oder versuche es mit einer anderen Zahlungsmethode."
+          },
+          "missing": {
+            "city": "Anna kaupunki"
           }
         },
         "payment_in_progress_title": "Maksu käsitellään"
@@ -424,6 +427,9 @@
           "ship_to_address_link": "Toimitusosoite"
         }
       }
+    },
+    "pagination": {
+      "previous": "Edellinen"
     }
   },
   "customer_accounts": {

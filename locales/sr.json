@@ -400,6 +400,12 @@
           },
           "unavailable": {
             "description": "{{walletName}} nije dostupan. Pokušajte sa drugom metodom plaćanja ili pokušajte ponovo kasnije."
+          },
+          "detour": {
+            "stock_problems": "Neki članci više nisu dostupni. Zatvori {{walletName}} i pokušaj ponovo."
+          },
+          "missing": {
+            "city": "Unesi grad"
           }
         }
       },
@@ -423,6 +429,9 @@
           "ship_to_address_link": "Isporuka adresa"
         }
       }
+    },
+    "pagination": {
+      "previous": "Prethodna"
     }
   },
   "customer_accounts": {

@@ -430,6 +430,12 @@
           },
           "unavailable": {
             "description": "{{walletName}} недоступний. Спробуйте інший спосіб оплати або спробуйте ще раз пізніше."
+          },
+          "detour": {
+            "stock_problems": "Деякі статті більше не доступні. Закрий {{walletName}} і спробуй знову."
+          },
+          "missing": {
+            "city": "Введіть місто"
           }
         }
       },
@@ -458,6 +464,9 @@
           "ship_to_address_link": "Доставка адреси"
         }
       }
+    },
+    "pagination": {
+      "previous": "Попередня"
     }
   },
   "customer_accounts": {

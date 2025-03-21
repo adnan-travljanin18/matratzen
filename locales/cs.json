@@ -394,6 +394,9 @@
           "generic": "Es ist ein problém s funkcí Koupit pomocí {{walletName}}. Vraťte se do obchodu a zkuste to znovu, nebo zaplaťte jinou metodou.",
           "detour": {
             "stock_problems": "Některé položky již nejsou k dispozici. Zavřete {{walletName}} a zkuste to znovu."
+          },
+          "missing": {
+            "city": "Zadej město"
           }
         }
       },
@@ -418,6 +421,12 @@
           "other": "%{count} další místa zobrazit"
         }
       }
+    },
+    "pagination": {
+      "previous": "Předchozí"
+    },
+    "attributes": {
+      "email": "E-Mail"
     }
   },
   "customer_accounts": {

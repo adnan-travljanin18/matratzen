@@ -390,6 +390,12 @@
           },
           "unavailable": {
             "description": "{{walletName}} não está disponível. Tente com um método de pagamento diferente ou tente novamente mais tarde."
+          },
+          "detour": {
+            "stock_problems": "Alguns itens não estão mais disponíveis. Feche {{walletName}} e tente novamente."
+          },
+          "missing": {
+            "city": "Insira uma cidade"
           }
         }
       },
@@ -411,6 +417,9 @@
           "ship_to_address_link": "Endereço de entrega"
         }
       }
+    },
+    "pagination": {
+      "previous": "Anterior"
     }
   },
   "customer_accounts": {
