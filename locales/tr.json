@@ -709,7 +709,8 @@
     "B2B": {
       "location_selection": {
         "list_loading_address_accessibility_message": "Adresse için {{locationName}} yükleniyor",
-        "selection_cancel_button": "İptal et"
+        "selection_cancel_button": "İptal et",
+        "no_location_description": "Du artık {{company}} için sipariş verme yetkisine sahip değilsin. Yine de özel siparişler vermeye devam edebilirsin."
       },
       "locations": {
         "contact_name": "İsim",
@@ -719,6 +720,9 @@
         "payment_delete": {
           "description_without_replacement": "Bu ödeme yöntemi, bu konumda gelecekteki satın alımlarda artık kullanılamayacak."
         }
+      },
+      "purchase_order_number": {
+        "modal_po_number_input_max_length_error": "Bestellnummerlar en fazla {{maxLength}} karakter içerebilir."
       }
     }
   }

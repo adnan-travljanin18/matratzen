@@ -691,12 +691,16 @@
         "payment_terms": "Όροι πληρωμής"
       },
       "location_selection": {
-        "selection_cancel_button": "Ακύρωση"
+        "selection_cancel_button": "Ακύρωση",
+        "no_location_description": "Δεν διαθέτεις πλέον την άδεια να υποβάλεις παραγγελίες για την {{company}}. Μπορείς να υποβάλεις ακόμα ιδιωτικές παραγγελίες."
       },
       "payment_methods": {
         "payment_delete": {
           "description_without_replacement": "Αυτή η μέθοδος πληρωμής δεν θα είναι διαθέσιμη για μελλοντικές αγορές σε αυτή την τοποθεσία."
         }
+      },
+      "purchase_order_number": {
+        "modal_po_number_input_max_length_error": "Ο αριθμός παραγγελίας μπορεί να περιέχει το πολύ {{maxLength}} χαρακτήρες."
       }
     }
   }

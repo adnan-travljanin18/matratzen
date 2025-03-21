@@ -683,7 +683,8 @@
     },
     "B2B": {
       "location_selection": {
-        "list_loading_address_accessibility_message": "Adres dla {{locationName}} jest ładowany"
+        "list_loading_address_accessibility_message": "Adres dla {{locationName}} jest ładowany",
+        "no_location_description": "Du nie masz już uprawnień do składania zamówień dla {{company}}. Możesz nadal składać zamówienia prywatne."
       },
       "locations": {
         "contact_name": "Nazwa",
@@ -694,6 +695,14 @@
         "payment_delete": {
           "description_without_replacement": "Ta metoda płatności nie będzie już dostępna przy przyszłych zakupach w tej lokalizacji."
         }
+      },
+      "purchase_order_number": {
+        "modal_po_number_input_label": "Numer zamówienia"
+      }
+    },
+    "errors": {
+      "failed_address_creation": {
+        "description": "Beim Erstellen deiner Adresse ist ein Problem aufgetreten. Versuche, diese Seite zu aktualisieren oder überprüfe deine Internetverbindung."
       }
     }
   }

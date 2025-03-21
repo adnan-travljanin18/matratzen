@@ -683,6 +683,17 @@
         "payment_delete": {
           "description_without_replacement": "Tato platební metoda nebude při budoucích nákupech na tomto místě k dispozici."
         }
+      },
+      "location_selection": {
+        "no_location_description": "Du již nemáte oprávnění k provádění objednávek pro {{company}}. Můžete nadále provádět soukromé objednávky."
+      },
+      "purchase_order_number": {
+        "empty_state": "Žádné číslo objednávky"
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "one": "Je {{count}} chyb"
       }
     }
   }

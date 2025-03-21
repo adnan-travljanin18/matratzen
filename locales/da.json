@@ -689,7 +689,8 @@
     },
     "B2B": {
       "location_selection": {
-        "list_loading_address_accessibility_message": "Adresse for {{locationName}} indlæses"
+        "list_loading_address_accessibility_message": "Adresse for {{locationName}} indlæses",
+        "no_location_description": "Du har ikke længere tilladelse til at afgøre ordrer for {{company}}. Du kan stadig afgøre private ordrer."
       },
       "locations": {
         "contact_name": "Navn",
@@ -700,6 +701,14 @@
         "payment_delete": {
           "description_without_replacement": "Denne betalingsmetode er ikke længere tilgængelig ved fremtidige køb på denne placering."
         }
+      },
+      "purchase_order_number": {
+        "empty_state": "Ingen bestillingsnummer"
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "one": "Der er {{count}} fejl"
       }
     }
   }

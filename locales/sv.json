@@ -708,7 +708,8 @@
     },
     "B2B": {
       "location_selection": {
-        "list_loading_address_accessibility_message": "Adressen för {{locationName}} laddas"
+        "list_loading_address_accessibility_message": "Adressen för {{locationName}} laddas",
+        "no_location_description": "Du har inte längre behörighet att lägga beställningar för {{company}}. Du kan fortfarande göra privata beställningar."
       },
       "locations": {
         "contact_name": "Namn",
@@ -719,6 +720,14 @@
         "payment_delete": {
           "description_without_replacement": "Denna betalningsmetod är inte längre tillgänglig vid framtida köp på denna plats."
         }
+      },
+      "purchase_order_number": {
+        "modal_po_number_input_max_length_error": "Bestellnummern får maximalt {{maxLength}} tecken innehålla."
+      }
+    },
+    "errors": {
+      "addresses_loading_issue": {
+        "description": "Anslutningsfel. Kontrollera din internetanslutning och försök igen."
       }
     }
   }

@@ -679,7 +679,8 @@
     },
     "B2B": {
       "location_selection": {
-        "list_loading_address_accessibility_message": "Adresse for {{locationName}} lataa"
+        "list_loading_address_accessibility_message": "Adresse for {{locationName}} lataa",
+        "no_location_description": "Du kein mehr die Berechtigung, Bestellungen für {{company}} aufzugeben. Du kannst weiterhin private Bestellungen aufgeben."
       },
       "locations": {
         "contact_name": "Nimi",
@@ -690,6 +691,14 @@
         "payment_delete": {
           "description_without_replacement": "Tämä maksutapa ei ole enää saatavilla tulevissa ostoissa tässä sijainnissa."
         }
+      },
+      "purchase_order_number": {
+        "empty_state": "Ei tilausnumero"
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "one": "Es gibt {{count}} virheitä"
       }
     }
   }

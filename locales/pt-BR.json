@@ -689,12 +689,16 @@
         "payment_terms": "Condições de pagamento"
       },
       "location_selection": {
-        "selection_cancel_button": "Cancelar"
+        "selection_cancel_button": "Cancelar",
+        "no_location_description": "Du não possui mais permissão para fazer pedidos para {{company}}. Você ainda pode fazer pedidos privados."
       },
       "draft_order_details": {
         "order_timeline": {
           "expand_events_label": "Mostrar detalhes"
         }
+      },
+      "purchase_order_number": {
+        "modal_po_number_input_max_length_error": "O número do pedido pode conter no máximo {{maxLength}} caracteres."
       }
     }
   }

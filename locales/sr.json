@@ -699,12 +699,16 @@
         "payment_terms": "Услови плаћања"
       },
       "location_selection": {
-        "selection_cancel_button": "Otkaži"
+        "selection_cancel_button": "Otkaži",
+        "no_location_description": "Du više nemate ovlašćenje za davanje narudžbina za {{company}}. I dalje možete davati privatne narudžbine."
       },
       "draft_order_details": {
         "order_timeline": {
           "expand_events_label": "Prikaži detalje"
         }
+      },
+      "purchase_order_number": {
+        "modal_po_number_input_max_length_error": "Broj narudžbine može sadržavati najviše {{maxLength}} karaktera."
       }
     }
   }

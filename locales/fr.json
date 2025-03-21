@@ -684,7 +684,8 @@
     },
     "B2B": {
       "location_selection": {
-        "list_loading_address_accessibility_message": "L'adresse pour {{locationName}} est en cours de chargement"
+        "list_loading_address_accessibility_message": "L'adresse pour {{locationName}} est en cours de chargement",
+        "no_location_description": "Du n'avez plus l'autorisation de passer des commandes pour {{company}}. Vous pouvez continuer à passer des commandes privées."
       },
       "locations": {
         "contact_list_title": "Les gens",
@@ -696,6 +697,14 @@
         "payment_delete": {
           "description_without_replacement": "Cette méthode de paiement ne sera plus disponible pour les futurs achats à cet emplacement."
         }
+      },
+      "purchase_order_number": {
+        "empty_state": "Aucune numéro de commande"
+      }
+    },
+    "errors": {
+      "failed_address_update": {
+        "description": "Beim Aktualisieren deiner Adresse ist ein Problem aufgetreten. Versuche, diese Seite zu aktualisieren oder überprüfe deine Internetverbindung."
       }
     }
   }

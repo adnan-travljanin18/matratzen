@@ -691,7 +691,8 @@
     },
     "B2B": {
       "location_selection": {
-        "list_loading_address_accessibility_message": "Indirizzo per {{locationName}} sta caricando"
+        "list_loading_address_accessibility_message": "Indirizzo per {{locationName}} sta caricando",
+        "no_location_description": "Du non hai più i permessi per effettuare ordini per {{company}}. Puoi comunque continuare a effettuare ordini privati."
       },
       "locations": {
         "contact_name": "Nome",
@@ -702,6 +703,14 @@
         "payment_delete": {
           "description_without_replacement": "Questo metodo di pagamento non sarà più disponibile per acquisti futuri in questo luogo."
         }
+      },
+      "purchase_order_number": {
+        "modal_po_number_input_label": "Numero d'ordine"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Si è verificato un problema durante l'eliminazione di questo indirizzo. Riprova o ricarica la pagina."
       }
     }
   }

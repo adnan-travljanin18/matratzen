@@ -691,7 +691,8 @@
     "B2B": {
       "location_selection": {
         "list_loading_address_accessibility_message": "Az {{locationName}} címe betöltése",
-        "selection_cancel_button": "Lemondás"
+        "selection_cancel_button": "Lemondás",
+        "no_location_description": "Du nem rendelkezel többé jogosultsággal arra, hogy megrendeléseket adj le a {{company}}-nél. Továbbra is leadhatsz személyes megrendeléseket."
       },
       "locations": {
         "contact_name": "Név",
@@ -701,6 +702,9 @@
         "payment_delete": {
           "description_without_replacement": "Ez a fizetési mód a jövőbeli vásárlások során ezen a helyszínen már nem érhető el."
         }
+      },
+      "purchase_order_number": {
+        "modal_po_number_input_max_length_error": "A megrendelési számok maximális hossza {{maxLength}} karakter lehet."
       }
     }
   }
