@@ -481,7 +481,18 @@
       "discount_expired": "Detta rabatter är inte längre giltigt",
       "gift_card_expired": "Presentkortet har gått ut",
       "email_domain_invalid": "Anordnaren stöds inte",
-      "full_name_required": "Ange för- och efternamn."
+      "full_name_required": "Ange för- och efternamn.",
+      "invalid_format": "är ingen kreditkortnummer",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Denna butik existerar inte."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Personligt sälja"
+          }
+        }
+      }
     }
   },
   "customer_accounts": {

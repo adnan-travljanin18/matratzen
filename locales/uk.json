@@ -484,7 +484,18 @@
       "discount_expired": "Ця знижка більше не дійсна",
       "gift_card_expired": "Подаркова картка минула термін дії",
       "email_domain_invalid": "Постачальник не підтримується",
-      "full_name_required": "Введіть ім'я та прізвище."
+      "full_name_required": "Введіть ім'я та прізвище.",
+      "invalid_format": "це не номер кредитної картки",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Цей магазин не існує."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Особисто продавати"
+          }
+        }
+      }
     }
   },
   "customer_accounts": {

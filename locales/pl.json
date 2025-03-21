@@ -455,7 +455,17 @@
       "gift_card_expired": "Karta podarunkowa wygasła",
       "email_domain_invalid": "Anbieter nie jest wspierany",
       "full_name_required": "Wprowadź imię i nazwisko.",
-      "invalid_start_date_or_issue_number_for_debit": "Wymagana jest prawidłowa data początkowa lub numer wydania"
+      "invalid_format": "jest to numer karty kredytowej",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Ten sklep nie istnieje."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Osobista sprzedaż"
+          }
+        }
+      }
     }
   },
   "customer_accounts": {

@@ -442,7 +442,13 @@
       "gift_card_expired": "Dárková karta vypršela",
       "too_short": "je příliš krátký (spodní mez je %{count} znaků)",
       "full_name_required": "Zadejte jméno a příjmení.",
-      "invalid_expiry_year": "ist kein gültiges Ablaufjahr"
+      "invalid_expiry_year": "ist kein gültiges Ablaufjahr",
+      "blocked_address": "Tento umístění není podporováno",
+      "shop_404": {
+        "owner_ctas": {
+          "header": "Jste majitelem obchodu?"
+        }
+      }
     }
   },
   "customer_accounts": {

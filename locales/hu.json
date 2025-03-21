@@ -443,7 +443,18 @@
       "discount_expired": "Ez a kedvezmény már nem érvényes",
       "gift_card_expired": "A ajándékutalvány lejárt",
       "email_domain_invalid": "A szolgáltató nincs támogatva",
-      "full_name_required": "Adja meg a keresztnevet és a vezetéknevet."
+      "full_name_required": "Adja meg a keresztnevet és a vezetéknevet.",
+      "invalid_format": "nem egy kreditkártya szám",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Ez a bolt nem létezik."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Személyesen eladni"
+          }
+        }
+      }
     }
   },
   "customer_accounts": {

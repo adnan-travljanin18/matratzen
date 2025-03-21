@@ -437,7 +437,18 @@
       "discount_limit_reached": "Este desconto alcançou seu limite de uso",
       "gift_card_expired": "O cartão presente expirou",
       "email_domain_invalid": "Anbieter não é suportado",
-      "full_name_required": "Digite o nome e sobrenome."
+      "full_name_required": "Digite o nome e sobrenome.",
+      "invalid_format": "ist keine Kreditkartennummer",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Este loja não existe."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Vender pessoalmente"
+          }
+        }
+      }
     }
   },
   "customer_accounts": {

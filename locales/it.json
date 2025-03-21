@@ -410,8 +410,7 @@
             "currency_change": "Du puoi utilizzare solo l'indirizzo originale con {{walletName}}. Usa l'indirizzo originale o prova con un altro metodo di pagamento."
           },
           "missing": {
-            "city": "Inserisci una città",
-            "phone": "Inserisci un numero di telefono"
+            "city": "Inserisci una città"
           }
         },
         "payment_in_progress_title": "Il pagamento è in fase di elaborazione"
@@ -461,7 +460,16 @@
       "discount_limit_reached": "Questo sconto ha raggiunto il suo limite di utilizzo",
       "gift_card_expired": "La carta regalo è scaduta",
       "too_short": "è troppo corto (il limite minimo è di %{count} caratteri)",
-      "full_name_required": "Inserisci nome e cognome."
+      "full_name_required": "Inserisci nome e cognome.",
+      "invalid_expiry_year": "non è un anno di scadenza valido",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Questo negozio non esiste."
+        },
+        "owner_ctas": {
+          "header": "Sei tu il proprietario del negozio?"
+        }
+      }
     }
   },
   "customer_accounts": {

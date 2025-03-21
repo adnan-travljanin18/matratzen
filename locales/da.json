@@ -459,7 +459,15 @@
       "gift_card_expired": "Geschenkkortet er udløbet",
       "too_short": "er for kort (Minimum er %{count} tegn)",
       "full_name_required": "Indtast for- og efternavn.",
-      "invalid_expiry_year": "er ikke et gyldigt udløbsår"
+      "invalid_expiry_year": "er ikke et gyldigt udløbsår",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Denne butik eksisterer ikke."
+        },
+        "owner_ctas": {
+          "header": "Er du butiksindehaveren?"
+        }
+      }
     }
   },
   "customer_accounts": {

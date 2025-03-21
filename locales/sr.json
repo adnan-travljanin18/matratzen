@@ -449,7 +449,18 @@
       "discount_limit_reached": "Ova popust je postigao svoj limit korišćenja",
       "gift_card_expired": "Poklon kartica je istekla",
       "email_domain_invalid": "Pružalac neće biti podržan",
-      "full_name_required": "'Unesite ime i prezime.'"
+      "full_name_required": "'Unesite ime i prezime.'",
+      "invalid_format": "nije broj kreditne kartice",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Ova prodavnica ne postoji."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Lično prodavati"
+          }
+        }
+      }
     }
   },
   "customer_accounts": {

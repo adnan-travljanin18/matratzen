@@ -441,7 +441,18 @@
       "discount_limit_reached": "Αυτό το έκπτωση έχει φτάσει στο όριο χρήσης του",
       "gift_card_expired": "Η κάρτα δώρου έχει λήξει",
       "email_domain_invalid": "Ο πάροχος δεν υποστηρίζεται",
-      "full_name_required": "Εισάγετε το όνομα και το επώνυμο."
+      "full_name_required": "Εισάγετε το όνομα και το επώνυμο.",
+      "invalid_format": "είναι αριθμός πιστωτικής κάρτας",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Αυτό το κατάστημα δεν υπάρχει."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Προσωπική πώληση"
+          }
+        }
+      }
     }
   },
   "customer_accounts": {

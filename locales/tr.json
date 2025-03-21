@@ -483,7 +483,18 @@
       "discount_expired": "Bu indirim artık geçerli değil",
       "gift_card_expired": "Geschenkkarte süresi dolmuş",
       "email_domain_invalid": "Sağlayıcı desteklenmiyor",
-      "full_name_required": "Gib Vor- ve Soyadınızı girin."
+      "full_name_required": "Gib Vor- ve Soyadınızı girin.",
+      "invalid_format": "ist keine Kreditkartennummer",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Bu mağaza mevcut değil."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Kişisel satış"
+          }
+        }
+      }
     }
   },
   "customer_accounts": {

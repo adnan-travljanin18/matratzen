@@ -448,7 +448,15 @@
       "gift_card_expired": "Lahjakortti on vanhentunut",
       "too_short": "on liian lyhyt (Alaraja on %{count} merkkiä)",
       "full_name_required": "Anna etu- ja sukunimi.",
-      "invalid_format": "ei ole luottokortin numero"
+      "invalid_expiry_year": "ei ole voimassa oleva eräpäivä",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Tämä kauppa ei ole olemassa."
+        },
+        "owner_ctas": {
+          "header": "Oletko kauppias?"
+        }
+      }
     }
   },
   "customer_accounts": {

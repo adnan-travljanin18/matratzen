@@ -458,7 +458,15 @@
       "gift_card_expired": "La carte cadeau a expiré",
       "too_short": "ist trop court (la limite inférieure est de %{count} caractères)",
       "full_name_required": "Entrez le prénom et le nom de famille.",
-      "reset_password_html": "Cette adresse e-mail est déjà utilisée. Si cela concerne votre compte utilisateur, vous pouvez <a href=\"/account/login#recover\">demander un nouveau mot de passe</a>"
+      "invalid_expiry_year": "n'est pas une année d'expiration valide",
+      "shop_404": {
+        "heros": {
+          "store_not_exist": "Ce magasin n'existe pas."
+        },
+        "owner_ctas": {
+          "header": "Êtes-vous le propriétaire de la boutique ?"
+        }
+      }
     }
   },
   "customer_accounts": {
