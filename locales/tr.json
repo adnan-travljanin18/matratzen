@@ -32,7 +32,8 @@
           "merchandise": {
             "merchandise_variant_not_found": "Ürün varyasyonu bulunamadı.",
             "gift_card_invalid": "Der Geschenkgutschein kodu {{code}} geçersiz.",
-            "title_too_long": "Merchandise item title is too long."
+            "title_too_long": "Merchandise item title is too long.",
+            "product_not_published_in_buyer_location": "Ürün, alıcının konumunda yayımlanmamıştır."
           },
           "sale_attribution": {
             "location_not_exist": "Bu konum mevcut mağazada yok."
@@ -61,6 +62,12 @@
         "remove_item": "%{label} kaldır",
         "datepicker": {
           "show_previous_month": "Vormonat göster, {{month}} {{year}}"
+        },
+        "sheet": {
+          "expand": "Genişletmek"
+        },
+        "dropzone": {
+          "dragged_over": "Dosyayı Yüklemek için Bırakın"
         }
       },
       "contact": {

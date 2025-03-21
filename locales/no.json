@@ -32,13 +32,20 @@
           "session_identifier_not_unique_error": "Det har skjedd en feil med bestillingen din, vær vennlig å prøve å sjekke ut igjen.",
           "merchandise": {
             "merchandise_variant_not_found": "Produktvarianten ble ikke funnet.",
-            "title_too_long": "Merchandise-artikkeltittelen er for lang."
+            "title_too_long": "Merchandise-artikkeltittelen er for lang.",
+            "product_not_published_in_buyer_location": "Produktet er ikke publisert på kjøperens sted."
           }
         },
         "complete_purchase_button_label": "Kjøpe",
         "close_modal_label": "Lukk",
         "expand_notice_label": "Vis flere",
-        "autocomplete_selection": "{{number}} av {{total}}"
+        "autocomplete_selection": "{{number}} av {{total}}",
+        "sheet": {
+          "expand": "Utvide"
+        },
+        "dropzone": {
+          "dragged_over": "Datei zum Hochladen ablegen"
+        }
       }
     }
   },

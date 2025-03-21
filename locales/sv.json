@@ -32,7 +32,8 @@
           "merchandise": {
             "merchandise_variant_not_found": "Produktvarianten hittades inte.",
             "gift_card_invalid": "Der presentkortskoden {{code}} är ogiltig.",
-            "title_too_long": "Merchandise article title is too long."
+            "title_too_long": "Merchandise article title is too long.",
+            "product_not_published_in_buyer_location": "Produkten är inte publicerad på köparens plats."
           },
           "sale_attribution": {
             "location_not_exist": "Denna plats finns inte i den aktuella butiken."
@@ -61,6 +62,12 @@
         "remove_item": "%{label} ta bort",
         "datepicker": {
           "show_previous_month": "Vormonat visa, {{month}} {{year}}"
+        },
+        "sheet": {
+          "expand": "Utvidga"
+        },
+        "dropzone": {
+          "dragged_over": "Fil för uppladdning placera"
         }
       },
       "contact": {

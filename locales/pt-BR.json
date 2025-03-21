@@ -30,7 +30,8 @@
           "session_identifier_not_unique_error": "Houve um problema com seu pedido, por favor, tente novamente fazer o checkout.",
           "only_empty_terms_accepted": "Para esta condição, somente entradas vazias são válidas.",
           "merchandise": {
-            "gift_card_invalid": "O código do vale-presente {{code}} é inválido."
+            "gift_card_invalid": "O código do vale-presente {{code}} é inválido.",
+            "product_not_published_in_buyer_location": "O produto não está publicado no local do comprador."
           }
         },
         "complete_purchase_button_label": "Comprar",
@@ -41,6 +42,12 @@
           "and": {
             "lastWordConnector": "{{previousWords}} und {{lastWord}}"
           }
+        },
+        "sheet": {
+          "expand": "Expandir"
+        },
+        "dropzone": {
+          "dragged_over": "Arquivo para carregar"
         }
       }
     }

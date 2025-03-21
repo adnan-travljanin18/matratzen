@@ -31,14 +31,19 @@
           "only_empty_terms_accepted": "Pro tuto podmínku jsou platné pouze prázdné vstupy.",
           "merchandise": {
             "gift_card_invalid": "Kód poukazu na dárky {{code}} je neplatný.",
-            "title_too_long": "Název merchandisingového artiklu je příliš dlouhý."
+            "title_too_long": "Název merchandisingového artiklu je příliš dlouhý.",
+            "product_not_published_in_buyer_location": "Produkt není na místě kupujícího zveřejněn."
           }
         },
         "complete_purchase_button_label": "Koupit",
         "close_modal_label": "Zavřít",
         "back_to_payment_method": "Návrat k platbě",
         "choose_payment_method": "Vyberte způsob platby",
-        "autocomplete_close": "Návrhy uzavřít"
+        "autocomplete_close": "Návrhy uzavřít",
+        "confirm_order_button_label": "Potvrdit objednávku",
+        "dropzone": {
+          "dragged_over": "Přetáhněte soubor k nahrání"
+        }
       }
     }
   },

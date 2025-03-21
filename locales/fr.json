@@ -31,14 +31,21 @@
           },
           "merchandise": {
             "merchandise_variant_not_found": "La variante de produit n'a pas été trouvée.",
-            "title_too_long": "Le titre de l'article de merchandising est trop long."
+            "title_too_long": "Le titre de l'article de merchandising est trop long.",
+            "product_not_published_in_buyer_location": "Le produit n'est pas publié sur le site de l'acheteur."
           }
         },
         "complete_purchase_button_label": "Acheter",
         "close_modal_label": "Fermer",
         "expand_notice_label": "Voir plus",
         "choose_payment_method": "Choisissez un mode de paiement",
-        "autocomplete_close": "Suggestions fermées"
+        "autocomplete_close": "Suggestions fermées",
+        "sheet": {
+          "expand": "Élargir"
+        },
+        "dropzone": {
+          "dragged_over": "Déposez le fichier à télécharger"
+        }
       }
     }
   },

@@ -31,14 +31,21 @@
           "merchandise": {
             "merchandise_variant_not_found": "Tuotemuunnosta ei löytynyt.",
             "gift_card_invalid": "Lahjakorttikoodi {{code}} ei ole voimassa.",
-            "title_too_long": "Merchandise-artikkelin otsikko on liian pitkä."
+            "title_too_long": "Merchandise-artikkelin otsikko on liian pitkä.",
+            "product_not_published_in_buyer_location": "Tuote ei ole myynnissä ostajan sijainnissa."
           }
         },
         "complete_purchase_button_label": "Ostaa",
         "close_modal_label": "Sulje",
         "expand_notice_label": "Näytä lisää",
         "choose_payment_method": "Valitse maksutapa",
-        "autocomplete_close": "Ehdotukset sulkevat"
+        "autocomplete_close": "Ehdotukset sulkevat",
+        "sheet": {
+          "expand": "Laajentaa"
+        },
+        "dropzone": {
+          "dragged_over": "Tiedosto, joka ladataan, jätetään"
+        }
       }
     }
   },

@@ -31,14 +31,21 @@
           "only_empty_terms_accepted": "For denne betingelse er kun tomme indtastninger gyldige.",
           "merchandise": {
             "gift_card_invalid": "Gavegavekoden {{code}} er ugyldig.",
-            "title_too_long": "Merchandise item title is too long."
+            "title_too_long": "Merchandise item title is too long.",
+            "product_not_published_in_buyer_location": "Produktet er ikke offentliggjort på køberens placering."
           }
         },
         "complete_purchase_button_label": "Køb",
         "close_modal_label": "Luk",
         "expand_notice_label": "Vis mere",
         "choose_payment_method": "Vælg en betalingsmetode",
-        "autocomplete_close": "Forslag lukker"
+        "autocomplete_close": "Forslag lukker",
+        "sheet": {
+          "expand": "Udvide"
+        },
+        "dropzone": {
+          "dragged_over": "Fil til upload skal placeres"
+        }
       }
     }
   },

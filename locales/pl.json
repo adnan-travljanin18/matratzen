@@ -32,13 +32,20 @@
           "merchandise": {
             "merchandise_variant_not_found": "Produktvariante nie została znaleziona.",
             "gift_card_invalid": "Kod kuponu prezentowego {{code}} jest nieprawidłowy.",
-            "title_too_long": "Tytuł artykułu merchandisingowego jest za długi."
+            "title_too_long": "Tytuł artykułu merchandisingowego jest za długi.",
+            "product_not_published_in_buyer_location": "Produkt nie jest publikowane w lokalizacji nabywcy."
           }
         },
         "complete_purchase_button_label": "Kupować",
         "close_modal_label": "Zamknij",
         "continue_to_shipping_method": "Kontynuuj do wysyłki",
-        "autocomplete_selection": "{{numer}} von {{całkowity}}"
+        "autocomplete_selection": "{{numer}} von {{całkowity}}",
+        "sheet": {
+          "expand": "Rozszerzyć"
+        },
+        "dropzone": {
+          "dragged_over": "Przeciągnij plik, aby go przesłać"
+        }
       }
     }
   },

@@ -31,7 +31,8 @@
           "session_identifier_not_unique_error": "З твоїм замовленням сталася помилка, будь ласка, спробуй ще раз оформити замовлення.",
           "merchandise": {
             "merchandise_variant_not_found": "Варіант продукту не знайдено.",
-            "gift_card_invalid": "Код подарочного ваучера {{code}} недействителен."
+            "gift_card_invalid": "Код подарочного ваучера {{code}} недействителен.",
+            "product_not_published_in_buyer_location": "Продукт не опублікований за місцем розташування покупця."
           },
           "sale_attribution": {
             "location_not_exist": "Цей місце в поточному магазині недоступне."
@@ -65,6 +66,12 @@
           "and": {
             "lastWordConnector": "{{previousWords}} und {{lastWord}}"
           }
+        },
+        "sheet": {
+          "expand": "Розширити"
+        },
+        "dropzone": {
+          "dragged_over": "Файл для завантаження"
         }
       },
       "contact": {
