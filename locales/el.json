@@ -482,7 +482,18 @@
         "more_than_maximum": "Αυτό το άρθρο έχει ένα μέγιστο των %{max}.",
         "gift_card_price_must_be_greater_than_zero": "Το προσφερόμενο προϊόν \"%{name}\" δεν μπορεί να προστεθεί στο καλάθι αγορών.",
         "cart_too_large": "Ο κάδος αγορών είναι πολύ μεγάλος."
+      },
+      "tags": {
+        "add_products": "Περιορίστε την επιλογή σε προϊόντα που ταιριάζουν με την ετικέτα %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} προστέθηκε"
+        }
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Ο καλαθάς αγορών σου"
     }
   },
   "customer_accounts": {

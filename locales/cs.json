@@ -480,7 +480,18 @@
         "less_than_minimum": "Tento článek má minimum %{min}.",
         "gift_card_price_must_be_greater_than_zero": "Produkt balíčku \"%{name}\" nelze přidat do košíku.",
         "buyer_cannot_purchase_for_company_locations": "Nákup pro tuto lokalitu není možný"
+      },
+      "tags": {
+        "add_products": "Omezit výběr na produkty, které odpovídají tagu %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "increment_item": "%{delta} přidáno"
+        }
       }
+    },
+    "page_titles": {
+      "reset_account": "Obnovení účtu"
     }
   },
   "customer_accounts": {

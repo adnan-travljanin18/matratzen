@@ -484,7 +484,18 @@
         "less_than_minimum": "Ez a cikk minimum %{min}.",
         "gift_card_price_must_be_greater_than_zero": "A \"%{name}\" nevű csomagtermék nem adható hozzá a kosárhoz.",
         "cart_too_large": "A kosár túl nagy."
+      },
+      "tags": {
+        "add_products": "A termékek kiválasztásának korlátozása, amelyek megfelelnek a %{tag} címkének"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} hozzáadva"
+        }
       }
+    },
+    "page_titles": {
+      "shopping_cart": "A kosarad"
     }
   },
   "customer_accounts": {

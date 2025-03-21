@@ -398,6 +398,9 @@
             "city": "Insira uma cidade",
             "billing_city": "Digite uma cidade para este endereço de cobrança"
           }
+        },
+        "scrim": {
+          "and_return_to_checkout": "e volte ao checkout"
         }
       },
       "notice_banner": {
@@ -478,7 +481,15 @@
         "less_than_minimum": "Este artigo tem um mínimo de %{min}.",
         "gift_card_price_must_be_greater_than_zero": "O produto em pacote \"%{name}\" não pode ser adicionado ao carrinho.",
         "cart_too_large": "O carrinho está muito cheio."
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} adicionado"
+        }
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Seu carrinho de compras"
     }
   },
   "customer_accounts": {

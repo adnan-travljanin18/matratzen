@@ -525,7 +525,18 @@
         "more_than_maximum": "Ця стаття має максимум %{max}.",
         "gift_card_price_must_be_greater_than_zero": "Продукт пакету \"%{name}\" не може бути доданий до кошика.",
         "cart_too_large": "Кошик надто великий."
+      },
+      "tags": {
+        "add_products": "Обмежити вибір продуктів, що відповідають тегу %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} додано"
+        }
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Ваш кошик"
     }
   },
   "customer_accounts": {

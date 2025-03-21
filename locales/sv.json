@@ -522,7 +522,18 @@
         "less_than_minimum": "Denna artikel har ett minimum av %{min}.",
         "gift_card_price_must_be_greater_than_zero": "Bundle-produkten \"%{name}\" kan inte läggas till i kundvagnen.",
         "cart_too_large": "Varukorgen är för stor."
+      },
+      "tags": {
+        "add_products": "Begränsa urvalet av produkter som matchar taggen %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} added"
+        }
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Din kundvagn"
     }
   },
   "customer_accounts": {

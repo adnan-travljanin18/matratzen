@@ -490,7 +490,18 @@
         "more_than_maximum": "Ovaj članak ima maksimum od %{max}.",
         "gift_card_price_must_be_greater_than_zero": "Proizvod paketa \"%{name}\" se ne može dodati u korpu.",
         "cart_too_large": "Korpa je prevelika."
+      },
+      "tags": {
+        "add_products": "Ograničite izbor proizvoda koji se podudaraju sa oznakom %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} додат"
+        }
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Твој колица"
     }
   },
   "customer_accounts": {
