@@ -420,6 +420,17 @@
     },
     "pagination": {
       "previous": "Anterior"
+    },
+    "attributes": {
+      "password_confirmation": "A confirmação da senha"
+    },
+    "addresses": {
+      "prefecture": "Präfektur"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "mais vendido"
+      }
     }
   },
   "customer_accounts": {

@@ -464,6 +464,13 @@
     },
     "pagination": {
       "previous": "Föregående"
+    },
+    "attributes": {
+      "password_confirmation": "die lösen Sie das Passwort"
+    },
+    "addresses": {
+      "prefecture": "Präfektur",
+      "state": "Län"
     }
   },
   "customer_accounts": {

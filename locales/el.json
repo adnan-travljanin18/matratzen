@@ -424,6 +424,13 @@
     },
     "pagination": {
       "previous": "Προηγούμενη"
+    },
+    "attributes": {
+      "password_confirmation": "Η επιβεβαίωση κωδικού πρόσβασης"
+    },
+    "addresses": {
+      "prefecture": "Περιφέρεια",
+      "state": "Ομόσπονδη πολιτεία"
     }
   },
   "customer_accounts": {

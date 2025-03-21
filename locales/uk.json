@@ -467,6 +467,13 @@
     },
     "pagination": {
       "previous": "Попередня"
+    },
+    "attributes": {
+      "password_confirmation": "підтвердження пароля"
+    },
+    "addresses": {
+      "prefecture": "Префектура",
+      "state": "федеральна земля"
     }
   },
   "customer_accounts": {

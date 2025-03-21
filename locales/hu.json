@@ -426,6 +426,13 @@
     },
     "pagination": {
       "previous": "Előző"
+    },
+    "attributes": {
+      "password_confirmation": "a jelszó megerősítése"
+    },
+    "addresses": {
+      "prefecture": "Préfektúra",
+      "state": "Szövetségi állam"
     }
   },
   "customer_accounts": {

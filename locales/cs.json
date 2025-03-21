@@ -426,7 +426,15 @@
       "previous": "Předchozí"
     },
     "attributes": {
-      "email": "E-Mail"
+      "password_confirmation": "potvrzení hesla"
+    },
+    "addresses": {
+      "pincode": "PSČ"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "nejprodávanější"
+      }
     }
   },
   "customer_accounts": {

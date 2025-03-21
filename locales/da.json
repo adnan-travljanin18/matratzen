@@ -442,8 +442,16 @@
     "pagination": {
       "previous": "Tidligere"
     },
-    "links": {
-      "learn_more": "Læs mere"
+    "attributes": {
+      "password_confirmation": "die adgangskodebekræftelse"
+    },
+    "addresses": {
+      "pincode": "Postnummer"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "mest solgte"
+      }
     }
   },
   "customer_accounts": {

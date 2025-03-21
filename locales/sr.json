@@ -432,6 +432,17 @@
     },
     "pagination": {
       "previous": "Prethodna"
+    },
+    "attributes": {
+      "password_confirmation": "Potvrda lozinke"
+    },
+    "addresses": {
+      "prefecture": "Префектура"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "најпродаваније"
+      }
     }
   },
   "customer_accounts": {

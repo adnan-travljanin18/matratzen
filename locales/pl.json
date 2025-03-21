@@ -437,6 +437,17 @@
     },
     "pagination": {
       "previous": "Poprzednie"
+    },
+    "attributes": {
+      "password_confirmation": "Potwierdzenie hasła"
+    },
+    "addresses": {
+      "prefecture": "Prefektura"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "najlepiej sprzedający się"
+      }
     }
   },
   "customer_accounts": {

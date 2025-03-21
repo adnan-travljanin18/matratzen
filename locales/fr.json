@@ -440,6 +440,17 @@
     },
     "pagination": {
       "previous": "Précédent"
+    },
+    "attributes": {
+      "password_confirmation": "La confirmation du mot de passe"
+    },
+    "addresses": {
+      "pincode": "Code postal"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "le plus vendu"
+      }
     }
   },
   "customer_accounts": {

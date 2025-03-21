@@ -439,6 +439,17 @@
     },
     "pagination": {
       "previous": "Forrige"
+    },
+    "attributes": {
+      "password_confirmation": "Passordbekreftelsen"
+    },
+    "addresses": {
+      "prefecture": "Prefektur"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "meistverkauft"
+      }
     }
   },
   "customer_accounts": {

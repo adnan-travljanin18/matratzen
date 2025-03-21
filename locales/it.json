@@ -443,6 +443,17 @@
     },
     "pagination": {
       "previous": "Precedente"
+    },
+    "attributes": {
+      "password_confirmation": "die conferma della password"
+    },
+    "addresses": {
+      "prefecture": "Prefettura"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "più venduto"
+      }
     }
   },
   "customer_accounts": {

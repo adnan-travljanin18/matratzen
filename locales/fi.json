@@ -430,6 +430,17 @@
     },
     "pagination": {
       "previous": "Edellinen"
+    },
+    "attributes": {
+      "password_confirmation": "Salasanan vahvistus"
+    },
+    "addresses": {
+      "pincode": "Postinumero"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "hyvin myyty"
+      }
     }
   },
   "customer_accounts": {

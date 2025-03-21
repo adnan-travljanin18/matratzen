@@ -466,6 +466,13 @@
     },
     "pagination": {
       "previous": "Önceki"
+    },
+    "attributes": {
+      "password_confirmation": "parola onayı"
+    },
+    "addresses": {
+      "prefecture": "Präfektür",
+      "state": "Eyalet"
     }
   },
   "customer_accounts": {
