@@ -135,7 +135,12 @@
             "other": "%{shipping_price} za %{count} dalších dodávek (%{per_delivery_cost})"
           }
         },
-        "address_confirm": "Chcete tuto adresu skutečně smazat ze svého účtu?"
+        "address_confirm": "Chcete tuto adresu skutečně smazat ze svého účtu?",
+        "arrives_time": "Vstup %{time}",
+        "delivery_tomorrow": "Dodání příští den v %{time}"
+      },
+      "payment": {
+        "billing_address_description_no_shipping_address": "Zadej adresu spojenou s tvou kartou nebo platební metodou."
       }
     }
   },

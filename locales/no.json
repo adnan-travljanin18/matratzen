@@ -139,9 +139,14 @@
             "other": "%{shipping_price} for %{count} leveranser (%{per_delivery_cost})"
           },
           "prepaid_order_no_cycle_delivery_not_included": {
-            "one": "%{shipping_price} for %{count} levering, deretter %{recurring_order_shipping_price}"
+            "one": "%{shipping_price} for %{count} levering, deretter %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} for %{count} leveranser (%{per_delivery_cost}), deretter %{recurring_order_shipping_price}"
           }
-        }
+        },
+        "delivery_tomorrow": "Levering neste dag klokken %{time}"
+      },
+      "payment": {
+        "billing_address_description_no_shipping_address": "Skriv inn adressen som er knyttet til kortet ditt eller betalingsmetoden."
       }
     }
   },

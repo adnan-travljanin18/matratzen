@@ -142,8 +142,18 @@
           },
           "prepaid_order_one_cycle": {
             "other": "%{shipping_price} para %{count} entregas adicionais (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} para %{count} entregas, depois %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} para %{count} entregas (%{per_delivery_cost}), depois %{recurring_order_shipping_price}"
           }
         }
+      },
+      "payment": {
+        "order_covered_by_gift_cards_notice": {
+          "other": "A sua ordem será coberta pelos seus cupons."
+        },
+        "billing_address_description": "Escolha o endereço associado ao seu cartão ou método de pagamento."
       }
     }
   },

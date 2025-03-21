@@ -139,9 +139,14 @@
             "other": "%{shipping_price} za %{count} dostaw (%{per_delivery_cost})"
           },
           "prepaid_order_no_cycle_delivery_not_included": {
-            "one": "%{shipping_price} za %{count} dostawę, potem %{recurring_order_shipping_price}"
+            "one": "%{shipping_price} za %{count} dostawę, potem %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} za %{count} dostaw (%{per_delivery_cost}), potem %{recurring_order_shipping_price}"
           }
-        }
+        },
+        "delivery_tomorrow": "Dostawa następnego dnia o %{time}"
+      },
+      "payment": {
+        "billing_address_description_no_shipping_address": "Wprowadź adres powiązany z twoją kartą lub metodą płatności."
       }
     }
   },

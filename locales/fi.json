@@ -139,7 +139,12 @@
             "other": "%{shipping_price} for %{count} additional deliveries (%{per_delivery_cost})"
           }
         },
-        "address_confirm": "Haluatko todella poistaa tämän osoitteen tililtäsi?"
+        "address_confirm": "Haluatko todella poistaa tämän osoitteen tililtäsi?",
+        "arrives_time": "Eingang %{time}",
+        "delivery_tomorrow": "Toimitus seuraavana päivänä klo %{time}"
+      },
+      "payment": {
+        "billing_address_description_no_shipping_address": "Syötä kortillesi tai maksutavallesi liitetty osoite."
       }
     }
   },

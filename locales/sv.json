@@ -172,6 +172,13 @@
           "prepaid_order_no_cycle_delivery_not_included": {
             "one": "%{shipping_price} för %{count} Leverans, därefter %{recurring_order_shipping_price}"
           }
+        },
+        "arrives_time": "Ingång %{time}",
+        "delivery_tomorrow": "Leverans nästa dag kl %{time}"
+      },
+      "payment": {
+        "card_fields_unavailable_html": {
+          "one": "Kredit- och debitkortbetalningar är för tillfället inte tillgängliga.<br>Var god <a href=\"%{current_url}\">ladda om den här sidan</a> eller försök igen senare."
         }
       }
     }

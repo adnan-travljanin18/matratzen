@@ -142,7 +142,12 @@
             "other": "%{shipping_price} for %{count} yderligere leverancer (%{per_delivery_cost})"
           }
         },
-        "address_confirm": "Vil du virkelig slette denne adresse fra din konto?"
+        "address_confirm": "Vil du virkelig slette denne adresse fra din konto?",
+        "arrives_time": "Indgang %{time}",
+        "delivery_tomorrow": "Levering næste dag kl. %{time}"
+      },
+      "payment": {
+        "billing_address_description_no_shipping_address": "Indtast den adresse, der er knyttet til dit kort eller betalingsmetode."
       }
     }
   },

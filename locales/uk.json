@@ -181,7 +181,19 @@
           },
           "prepaid_order_one_cycle_delivery_not_included": {
             "other": "%{shipping_price} за %{count} поставки (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} за %{count} доставку, потім %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} для %{count} доставок (%{per_delivery_cost}), після цього %{recurring_order_shipping_price}"
           }
+        },
+        "address_form": {
+          "save": "Зберегти"
+        }
+      },
+      "payment": {
+        "order_covered_by_gift_cards_notice": {
+          "other": "Твоє замовлення покривається твоїми купонами."
         }
       }
     }

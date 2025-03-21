@@ -139,9 +139,16 @@
           },
           "prepaid_order_one_cycle_delivery_not_included": {
             "other": "%{shipping_price} per %{count} consegne (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "other": "%{shipping_price} per %{count} consegne (%{per_delivery_cost}), poi %{recurring_order_shipping_price}"
           }
         },
-        "address_confirm": "Vuoi davvero eliminare questo indirizzo dal tuo account?"
+        "address_confirm": "Vuoi davvero eliminare questo indirizzo dal tuo account?",
+        "delivery_tomorrow": "Consegna il giorno successivo alle %{time}"
+      },
+      "payment": {
+        "billing_address_description_no_shipping_address": "Inserisci l'indirizzo associato alla tua carta o metodo di pagamento."
       }
     }
   },

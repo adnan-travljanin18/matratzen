@@ -142,8 +142,18 @@
           },
           "prepaid_order_one_cycle": {
             "other": "%{shipping_price} για %{count} επιπλέον παραδόσεις (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} για %{count} παράδοση, μετά %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} για %{count} παραδόσεις (%{per_delivery_cost}), μετά %{recurring_order_shipping_price}"
           }
         }
+      },
+      "payment": {
+        "order_covered_by_gift_cards_notice": {
+          "other": "Η παραγγελία σας καλύπτεται από τα κουπόνια σας."
+        },
+        "billing_address_description": "Επίλεξε τη διεύθυνση που σχετίζεται με την κάρτα ή τη μέθοδο πληρωμής σου."
       }
     }
   },

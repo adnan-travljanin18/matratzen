@@ -142,9 +142,18 @@
           },
           "prepaid_order_one_cycle_delivery_not_included": {
             "other": "%{shipping_price} für %{count} Zustellungen (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} für %{count} Zustellung, danach %{recurring_order_shipping_price}"
           }
         },
-        "edit": "Szerkesztés"
+        "arrives_time": "Belépés %{time}"
+      },
+      "payment": {
+        "order_covered_by_gift_cards_notice": {
+          "other": "A rendelésed a vouchereid által van fedezve."
+        },
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} összesen %{total_shop_price}"
       }
     }
   },

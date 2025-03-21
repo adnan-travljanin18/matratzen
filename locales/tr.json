@@ -168,9 +168,20 @@
           },
           "prepaid_order_one_cycle_delivery_not_included": {
             "other": "%{shipping_price} için %{count} teslimatlar (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} için %{count} teslimat, ardından %{recurring_order_shipping_price}"
           }
         },
-        "edit": "Düzenle"
+        "arrives_time": "Giriş %{time}"
+      },
+      "payment": {
+        "order_covered_by_gift_cards_notice": {
+          "other": "Siparişin, kuponların tarafından karşılanıyor."
+        },
+        "card_fields_unavailable_html": {
+          "one": "Kredit ve Debit kartı ödemeleri şu anda mevcut değil.<br>Lütfen <a href=\"%{current_url}\">bu sayfayı yenile</a> veya daha sonra tekrar deneyin."
+        }
       }
     }
   },

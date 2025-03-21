@@ -152,8 +152,18 @@
           },
           "prepaid_order_one_cycle": {
             "other": "%{shipping_price} za %{count} dodatnih isporuka (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} за %{count} испоруку, а затим %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} za %{count} isporuke (%{per_delivery_cost}), nakon toga %{recurring_order_shipping_price}"
           }
         }
+      },
+      "payment": {
+        "order_covered_by_gift_cards_notice": {
+          "other": "Tvoja narudžbina će biti pokrivena tvojim vaučerima."
+        },
+        "billing_address_description": "Izaberite adresu povezanu sa vašom karticom ili načinom plaćanja."
       }
     }
   },
