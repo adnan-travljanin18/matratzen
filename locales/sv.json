@@ -784,6 +784,9 @@
           },
           "paid": {
             "title_with_date": "Betalt den {{date}}"
+          },
+          "pending": {
+            "description_due_on_receipt": "Du får en faktura så snart betalningen är förfallen."
           }
         }
       }
@@ -918,6 +921,12 @@
           "other": "{{ count }} Kommentarer"
         }
       }
+    }
+  },
+  "customer": {
+    "account": {
+      "return": "Tillbaka till kontodetaljer",
+      "my_wishlist": "Min önskelista"
     }
   }
 }

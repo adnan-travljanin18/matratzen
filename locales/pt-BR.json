@@ -893,5 +893,14 @@
         "next": "Próxima"
       }
     }
+  },
+  "customer": {
+    "account": {
+      "return": "Voltar aos detalhes da conta",
+      "my_wishlist": "Meu Wishlist"
+    },
+    "addresses": {
+      "default": "Padrão"
+    }
   }
 }

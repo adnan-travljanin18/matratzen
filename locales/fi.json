@@ -756,6 +756,9 @@
           },
           "paid": {
             "title_with_date": "Maksettu {{date}}"
+          },
+          "pending": {
+            "description_due_on_receipt": "Saat laskun heti, kun maksuaika on vanhentunut."
           }
         }
       }
@@ -885,6 +888,14 @@
           "other": "{{ count }} Kommenttia"
         }
       }
+    }
+  },
+  "customer": {
+    "account": {
+      "return": "Takaisin tilitietoihin"
+    },
+    "activate_account": {
+      "title": "Aktivoi tili"
     }
   }
 }

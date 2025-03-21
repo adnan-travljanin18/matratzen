@@ -791,7 +791,8 @@
           "pending": {
             "banner_overdue": {
               "one": "Deine Zahlung ist seit {{count}} gün gecikmeli"
-            }
+            },
+            "description_due_on_receipt": "Du, ödemeniz vadesi geldiğinde bir fatura alacaksınız."
           }
         }
       }
@@ -916,6 +917,12 @@
       "modern_navigation": {
         "next": "Sonraki"
       }
+    }
+  },
+  "customer": {
+    "account": {
+      "return": "Kontodetails'e geri",
+      "my_wishlist": "Benim İstek Listem"
     }
   }
 }

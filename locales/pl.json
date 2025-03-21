@@ -755,6 +755,9 @@
           },
           "paid": {
             "title_with_date": "Zapłacono {{date}}"
+          },
+          "pending": {
+            "description_due_on_receipt": "Otrzymasz fakturę, gdy płatność będzie wymagana."
           }
         }
       }
@@ -889,6 +892,12 @@
           "other": "{{ count }} komentarzy"
         }
       }
+    }
+  },
+  "customer": {
+    "account": {
+      "return": "Powrót do szczegółów konta",
+      "my_wishlist": "Moja lista życzeń"
     }
   }
 }

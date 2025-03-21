@@ -901,5 +901,14 @@
         "next": "Следећи"
       }
     }
+  },
+  "customer": {
+    "account": {
+      "return": "Povratak na detalje računa",
+      "my_wishlist": "Мој списак жеља"
+    },
+    "addresses": {
+      "add_new": "Dodajte novu adresu"
+    }
   }
 }

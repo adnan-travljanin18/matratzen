@@ -765,6 +765,9 @@
           },
           "paid": {
             "title_with_date": "Betalt den {{date}}"
+          },
+          "pending": {
+            "description_due_on_receipt": "Du modtager en faktura, så snart betalingen er forfalden."
           }
         }
       }
@@ -897,6 +900,14 @@
           "other": "{{ count }} Kommentarer"
         }
       }
+    }
+  },
+  "customer": {
+    "account": {
+      "return": "Tilbage til kontodetaljer"
+    },
+    "activate_account": {
+      "title": "Konto aktivere"
     }
   }
 }

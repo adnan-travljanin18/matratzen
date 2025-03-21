@@ -748,6 +748,9 @@
           },
           "paid": {
             "title_with_date": "Bezahlt dne {{date}}"
+          },
+          "pending": {
+            "description_due_on_receipt": "Dostanete fakturu, jakmile bude platba splatná."
           }
         }
       }
@@ -882,6 +885,14 @@
           "other": "{{ count }} komentářů"
         }
       }
+    }
+  },
+  "customer": {
+    "account": {
+      "return": "Návrat k podrobnostem účtu"
+    },
+    "activate_account": {
+      "title": "Aktivujte účet"
     }
   }
 }

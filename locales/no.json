@@ -757,6 +757,9 @@
           },
           "paid": {
             "title_with_date": "Betalt den {{date}}"
+          },
+          "pending": {
+            "description_due_on_receipt": "Du vil motta en faktura så snart betalingen forfaller."
           }
         }
       }
@@ -893,6 +896,12 @@
           "other": "{{ count }} Kommentarer"
         }
       }
+    }
+  },
+  "customer": {
+    "account": {
+      "return": "Tilbake til kontodetaljene",
+      "my_wishlist": "Min ønskeliste"
     }
   }
 }

@@ -769,7 +769,8 @@
           "pending": {
             "banner_overdue": {
               "one": "A kifizetésed {{count}} napja késlekedik"
-            }
+            },
+            "description_due_on_receipt": "Megkapod a számlát, amint a fizetés esedékessé válik."
           }
         }
       }
@@ -896,6 +897,12 @@
       "modern_navigation": {
         "next": "Következő"
       }
+    }
+  },
+  "customer": {
+    "account": {
+      "return": "Vissza a fiókadatokhoz",
+      "my_wishlist": "A kívánságlistám"
     }
   }
 }

@@ -767,6 +767,9 @@
           },
           "paid": {
             "title_with_date": "Pagato il {{date}}"
+          },
+          "pending": {
+            "description_due_on_receipt": "Riceverai una fattura non appena il pagamento sarà dovuto."
           }
         }
       }
@@ -903,6 +906,12 @@
           "other": "{{ count }} Commenti"
         }
       }
+    }
+  },
+  "customer": {
+    "account": {
+      "return": "Torna ai dettagli del conto",
+      "my_wishlist": "La mia lista dei desideri"
     }
   }
 }
