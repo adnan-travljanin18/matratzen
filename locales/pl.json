@@ -763,7 +763,9 @@
     },
     "ui_components": {
       "closeModal": "Zamknij",
-      "february": "Luty"
+      "submit": "Wysłać",
+      "may": "Maj",
+      "monday": "Montag"
     }
   }
 }

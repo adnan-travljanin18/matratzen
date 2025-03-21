@@ -774,6 +774,11 @@
       "googlepay": "Google Pay",
       "elo": "Elo",
       "storecredit": "Shop-Guthaben"
+    },
+    "ui_components": {
+      "submit": "Pošaljite",
+      "may": "Мај",
+      "monday": "Ponedeljak"
     }
   }
 }

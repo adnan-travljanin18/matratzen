@@ -769,7 +769,10 @@
       "elo": "Elő"
     },
     "ui_components": {
-      "closeModal": "Zárás"
+      "closeModal": "Zárás",
+      "submit": "Senden",
+      "may": "Mai",
+      "monday": "Hétfő"
     }
   }
 }

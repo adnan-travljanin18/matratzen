@@ -764,6 +764,11 @@
       "googlepay": "Google Pay",
       "elo": "Elo",
       "storecredit": "Shop-Guthaben"
+    },
+    "ui_components": {
+      "submit": "Enviar",
+      "may": "Mai",
+      "monday": "Montag"
     }
   }
 }

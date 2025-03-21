@@ -787,6 +787,11 @@
       "googlepay": "Google Pay",
       "elo": "Ело",
       "storecredit": "Shop-Guthaben"
+    },
+    "ui_components": {
+      "submit": "Надіслати",
+      "may": "Май",
+      "monday": "Монталь"
     }
   }
 }

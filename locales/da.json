@@ -771,7 +771,9 @@
       "bogus": "Bogus"
     },
     "ui_components": {
-      "submit": "Sende"
+      "submit": "Sende",
+      "may": "Maj",
+      "monday": "Mandag"
     }
   }
 }

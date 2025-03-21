@@ -792,7 +792,9 @@
     },
     "ui_components": {
       "closeModal": "Kapat",
-      "increase": "{{type}} artırmak"
+      "submit": "Senden",
+      "may": "Mai",
+      "monday": "Pazartesi"
     }
   }
 }

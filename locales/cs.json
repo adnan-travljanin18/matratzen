@@ -754,7 +754,9 @@
       "bogus": "Bogus"
     },
     "ui_components": {
-      "submit": "Odeslat"
+      "submit": "Odeslat",
+      "may": "Mai",
+      "monday": "Pondělí"
     }
   }
 }

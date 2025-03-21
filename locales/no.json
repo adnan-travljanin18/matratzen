@@ -765,7 +765,9 @@
     },
     "ui_components": {
       "closeModal": "Lukk",
-      "february": "Februar"
+      "submit": "Senden",
+      "may": "Mai",
+      "monday": "Mandag"
     }
   }
 }

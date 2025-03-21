@@ -759,7 +759,9 @@
       "bogus": "Bogus"
     },
     "ui_components": {
-      "decrease": "{{type}} senken"
+      "submit": "Lähetä",
+      "may": "Mai",
+      "monday": "Maanantai"
     }
   }
 }

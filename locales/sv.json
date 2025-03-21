@@ -792,7 +792,9 @@
     },
     "ui_components": {
       "closeModal": "Stänga",
-      "increase": "{{typ}} öka"
+      "submit": "Sända",
+      "may": "Mai",
+      "monday": "Måndag"
     }
   }
 }

@@ -767,7 +767,9 @@
     },
     "ui_components": {
       "closeModal": "Fermer",
-      "decrease": "{{type}} senken"
+      "submit": "Envoyer",
+      "may": "Mai",
+      "monday": "Lundi"
     }
   }
 }

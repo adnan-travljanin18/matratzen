@@ -773,7 +773,9 @@
     },
     "ui_components": {
       "closeModal": "Chiudere",
-      "decrease": "'{{type}} abbassare"
+      "submit": "Invia",
+      "may": "Mai",
+      "monday": "Lunedì"
     }
   }
 }
