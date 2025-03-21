@@ -586,6 +586,11 @@
         "picked_up_description": "Nämä artikkelit on noudettu.",
         "delivered_description_gift_card": {
           "other": "Lahjakortit lähetettiin sähköpostitse."
+        },
+        "confirmed_description_pickup": "Saat sähköpostin, kun tilauksesi on noudettavissa.",
+        "confirmed_description_gift_card_text": "Saat SMS-viestin, kun tilauksesi on valmis.",
+        "gift_resend_failure": {
+          "one": "Läpipääsyäsi uudelleen lähettämisessä on tapahtunut ongelma. Yritä uudelleen tai ota meihin yhteyttä."
         }
       }
     }

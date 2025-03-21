@@ -589,6 +589,11 @@
         "last_updated": "Zuletzt aktualizowane {{date}}",
         "delivered_description_gift_card": {
           "other": "Kupony upominkowe zostały wysłane e-mailem."
+        },
+        "ready_for_pickup_location": "Twoje zamówienie jest gotowe do odbioru w lokalizacji",
+        "confirmed_description_gift_card_text": "Otrzymasz SMS-a, gdy Twoje zamówienie będzie gotowe.",
+        "gift_resend_failure": {
+          "one": "Wystąpił problem przy ponownym wysyłaniu Twojego kuponu. Spróbuj ponownie lub skontaktuj się z nami."
         }
       }
     }

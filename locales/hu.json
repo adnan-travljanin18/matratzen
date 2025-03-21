@@ -598,6 +598,11 @@
         "picked_up_description": "Ezek a cikkek átvételre kerültek.",
         "delivered_description_gift_card": {
           "other": "Ajándékutalványokat e-mailben küldtünk."
+        },
+        "ready_for_pickup_location": "A megrendelése kész a helyszínen történő átvételre",
+        "confirmed_description_gift_card_text": "Megkapod az SMS-t, amint a rendelésed készen áll.",
+        "gift_resend_failure": {
+          "one": "A kuponod újraküldésekor probléma merült fel. Kérlek, próbáld meg újra, vagy vedd fel velünk a kapcsolatot."
         }
       }
     }

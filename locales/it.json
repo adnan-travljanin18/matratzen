@@ -595,6 +595,11 @@
         "picked_up_description": "Questi articoli sono stati ritirati.",
         "delivered_description_gift_card": {
           "other": "I buoni regalo sono stati inviati via e-mail."
+        },
+        "ready_for_pickup_location": "La tua ordinazione è pronta per il ritiro presso la sede",
+        "confirmed_description_gift_card_text": "Riceverai un SMS non appena il tuo ordine sarà pronto.",
+        "gift_resend_failure": {
+          "one": "Si è verificato un problema durante l'invio del tuo coupon. Riprova oppure contattaci."
         }
       }
     }

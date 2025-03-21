@@ -591,6 +591,11 @@
         "picked_up_description": "Disse artiklene ble hentet.",
         "delivered_description_gift_card": {
           "other": "Gavekortene ble sendt via e-post."
+        },
+        "ready_for_pickup_location": "Din bestilling er klar for henting på stedet",
+        "confirmed_description_gift_card_text": "Du vil motta en SMS så snart bestillingen din er klar.",
+        "gift_resend_failure": {
+          "one": "Det oppstod et problem da du sendte inn gavekortet ditt på nytt. Vennligst prøv igjen eller kontakt oss."
         }
       }
     }

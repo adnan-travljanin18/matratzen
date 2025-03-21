@@ -590,6 +590,11 @@
         "picked_up_description": "Ces articles ont été récupérés.",
         "delivered_description_gift_card": {
           "other": "Les bons cadeaux ont été envoyés par e-mail."
+        },
+        "ready_for_pickup_location": "Votre commande est prête à être récupérée au point de retrait",
+        "confirmed_description_gift_card_text": "Vous recevrez un SMS dès que votre commande sera prête.",
+        "gift_resend_failure": {
+          "one": "Un problème est survenu lors de l'envoi de votre bon. Veuillez réessayer ou contactez-nous."
         }
       }
     }

@@ -593,6 +593,13 @@
         "picked_up_description": "Disse artikler blev afhentet.",
         "delivered_description_gift_card": {
           "other": "Geschenkgutscheiner blev sendt via e-mail."
+        },
+        "confirmed_description_pickup": "Du vil modtage en e-mail, når din bestilling er klar til afhentning.",
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Der Gutschein sendes i en separat SMS."
+        },
+        "gift_resend_failure": {
+          "one": "Der opstod et problem, da du din voucher blev sendt igen. Prøv venligst igen eller kontakt os."
         }
       }
     }

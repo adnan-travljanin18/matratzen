@@ -433,6 +433,9 @@
       },
       "company_location": {
         "location_title": "Localização"
+      },
+      "clipboard": {
+        "failed_to_copy": "Não pôde ser copiado"
       }
     },
     "pagination": {
@@ -592,6 +595,10 @@
         "picked_up_description": "Esses artigos foram retirados.",
         "delivered_description_gift_card": {
           "other": "Os vouchers de presente foram enviados por e-mail."
+        },
+        "confirmed_description_gift_card_text": "Você receberá um SMS assim que seu pedido estiver pronto.",
+        "gift_resend_failure": {
+          "one": "Ocorreu um problema ao reenviarem seu voucher. Tente novamente ou entre em contato conosco."
         }
       }
     }

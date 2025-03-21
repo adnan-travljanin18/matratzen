@@ -616,6 +616,11 @@
         "last_updated": "Senast uppdaterad den {{date}}",
         "delivered_description_gift_card": {
           "other": "Presentkort har skickats via e-post."
+        },
+        "ready_for_pickup_location": "Din beställning är redo för upphämtning på plats",
+        "confirmed_description_gift_card_text": "Du får ett SMS så fort din beställning är klar.",
+        "gift_resend_failure": {
+          "one": "Ett problem uppstod vid återutsändning av din kupong. Försök igen eller kontakta oss."
         }
       }
     }

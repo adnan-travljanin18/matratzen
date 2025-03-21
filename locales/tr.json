@@ -616,6 +616,11 @@
         "last_updated": "Zuletzt güncellenme tarihi {{date}}",
         "delivered_description_gift_card": {
           "other": "Hediye kartları e-posta ile gönderildi."
+        },
+        "ready_for_pickup_location": "Siparişiniz teslim almak üzere konumda hazırdır",
+        "confirmed_description_gift_card_text": "Du, bir SMS alacaksın, siparişin hazır olduğunda.",
+        "gift_resend_failure": {
+          "one": "Bir kez daha kuponunu gönderirken bir sorun oluştu. Lütfen tekrar dene veya bizimle iletişime geç."
         }
       }
     }

@@ -442,6 +442,9 @@
       },
       "company_location": {
         "location_title": "Mesto"
+      },
+      "clipboard": {
+        "failed_to_copy": "Nije moglo biti kopirano"
       }
     },
     "pagination": {
@@ -604,6 +607,10 @@
         "picked_up_description": "Ovi članci su preuzeti.",
         "delivered_description_gift_card": {
           "other": "Poklon vaučeri su poslati putem e-maila."
+        },
+        "confirmed_description_gift_card_text": "Du ćete dobiti SMS čim vaša narudžbina bude spremna.",
+        "gift_resend_failure": {
+          "one": "При поновном слању твојег ваучера дошло је до проблема. Премаши поново или се обратите нама."
         }
       }
     }

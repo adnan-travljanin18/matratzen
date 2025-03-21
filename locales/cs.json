@@ -577,8 +577,12 @@
         "delivered_description_gift_card": {
           "other": "Dárkové poukázky byly odeslány e-mailem."
         },
-        "confirmed_gift_card_additional_description": {
-          "one": "Voucher bude zaslán v samostatném e-mailu."
+        "confirmed_description_pickup": "Dostaneš e-mail, když bude tvá objednávka připravena k vyzvednutí.",
+        "delivered_description_gift_card_text": {
+          "other": "Dárkové poukazy byly zaslány prostřednictvím SMS."
+        },
+        "gift_resend_failure": {
+          "one": "Při opětovném odesílání vašeho voucheru došlo k problému. Zkuste to znovu nebo se obraťte na nás."
         }
       }
     }
