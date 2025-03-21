@@ -153,7 +153,8 @@
         },
         "delivery_title": "Szállítás",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} további",
-        "pre_order_ships_now": "Most most küldve"
+        "pre_order_ships_now": "Most most küldve",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} szállítás"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -180,7 +181,11 @@
         },
         "no_working_method_error": "Ez a bolt jelenleg nem tudja elfogadni a kifizetéseket. Frissítsd ezt az oldalt, vagy próbáld meg később újra.",
         "simulated_checkout": "A megtekintés hamarosan elérhető",
-        "local_payment_method_receiver_notice": "Nachdem du deine Bestellung aufgegeben hast, erhältst du die Zahlungsdetails. Führe die Zahlung innerhalb von {{dueDays}} Tagen an einem Geldautomaten vagy online."
+        "local_payment_method_receiver_notice": "Nachdem du deine Bestellung aufgegeben hast, erhältst du die Zahlungsdetails. Führe die Zahlung innerhalb von {{dueDays}} Tagen an einem Geldautomaten vagy online.",
+        "gift_card_wrapper": {
+          "apply_another_gift_card_label": "További kupon alkalmazása"
+        },
+        "markets_pro_disclaimer_privacy_policy": "Adatvédelmi nyilatkozat"
       }
     }
   },

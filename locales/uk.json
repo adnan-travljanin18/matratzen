@@ -188,7 +188,8 @@
           }
         },
         "delivery_title": "Доставка",
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ще"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ще",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} поставок"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -223,7 +224,11 @@
           }
         },
         "saved_credit_card": "Твоя збережена кредитна картка",
-        "local_payment_method_receiver_notice": "Після того, як ви зробите замовлення, ви отримаєте деталі оплати. Виконайте платіж протягом {{dueDays}} днів в банкоматі або онлайн."
+        "local_payment_method_receiver_notice": "Після того, як ви зробите замовлення, ви отримаєте деталі оплати. Виконайте платіж протягом {{dueDays}} днів в банкоматі або онлайн.",
+        "gift_card_wrapper": {
+          "apply_another_gift_card_label": "Застосувати інший купон"
+        },
+        "markets_pro_disclaimer_privacy_policy": "Політика конфіденційності"
       }
     }
   },

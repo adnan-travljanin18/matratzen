@@ -150,7 +150,9 @@
           "search_address": "Cerca indirizzi"
         },
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ulteriori",
-        "pre_order_ships_now": "Ora viene spedito"
+        "pre_order_ships_now": "Ora viene spedito",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} Consegne",
+        "split_shipping_multiple_shipment_notice": "La tua ordine verrà consegnato in più spedizioni"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Inserisci l'indirizzo associato alla tua carta o metodo di pagamento.",
@@ -185,7 +187,8 @@
         },
         "saved_credit_cards_modal": {
           "done": "Completato"
-        }
+        },
+        "markets_pro_disclaimer_privacy_policy": "Dichiarazione sulla protezione dei dati"
       }
     }
   },

@@ -149,7 +149,9 @@
         },
         "delivery_title": "Levering",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} flere",
-        "pre_order_ships_now": "Blir nå sendt"
+        "pre_order_ships_now": "Blir nå sendt",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} Leveranser",
+        "split_shipping_multiple_shipment_notice": "Din bestilling vil bli levert i flere forsendelser"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Skriv inn adressen som er knyttet til kortet ditt eller betalingsmetoden.",
@@ -183,7 +185,8 @@
         },
         "expired_cards_info": {
           "other": "Det er %{count} utløpte kort som du kan vise og redigere i kontoen din."
-        }
+        },
+        "markets_pro_disclaimer_privacy_policy": "Datatilsynserklæring"
       }
     }
   },

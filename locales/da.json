@@ -153,7 +153,8 @@
         },
         "missing_shipping_address": "Leveringsadresse mangler",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} flere",
-        "pre_order_ships_now": "Nu bliver sendt"
+        "pre_order_ships_now": "Nu bliver sendt",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} Leverancer"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Indtast den adresse, der er knyttet til dit kort eller betalingsmetode.",
@@ -182,7 +183,11 @@
         },
         "saved_credit_cards_modal": {
           "done": "Fertig"
-        }
+        },
+        "gift_card_wrapper": {
+          "apply_another_gift_card_label": "Anvende yderligere kupon"
+        },
+        "markets_pro_disclaimer_privacy_policy": "Databeskyttelseserklæring"
       }
     }
   },

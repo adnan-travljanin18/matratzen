@@ -149,7 +149,9 @@
           "incomplete_address_selected": "Valitse täydellinen toimitusosoite nähdäksesi käytettävissä olevat toimitustavat."
         },
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} lisää",
-        "pre_order_ships_now": "Nyt lähetetään"
+        "pre_order_ships_now": "Nyt lähetetään",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} Toimituksia",
+        "split_shipping_multiple_shipment_notice": "Tilauksesi toimitetaan useassa erässä"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Syötä kortillesi tai maksutavallesi liitetty osoite.",
@@ -179,7 +181,8 @@
         },
         "expired_cards_info": {
           "other": "On olemassa %{count} vanhentunutta korttia, joita voit tarkastella ja muokata tililläsi."
-        }
+        },
+        "markets_pro_disclaimer_privacy_policy": "Tietosuojakäytäntö"
       }
     }
   },

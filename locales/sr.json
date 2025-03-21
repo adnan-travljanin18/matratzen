@@ -159,7 +159,8 @@
           }
         },
         "delivery_title": "Isporuka",
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} još"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} još",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} isporuka"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -188,7 +189,11 @@
           }
         },
         "saved_credit_card": "Tvoja sačuvana kreditna kartica",
-        "local_payment_method_receiver_notice": "Nakon što izvršiš svoju narudžbinu, primićeš detalje o plaćanju. Izvrši plaćanje u roku od {{dueDays}} dana na bankomatu ili putem interneta."
+        "local_payment_method_receiver_notice": "Nakon što izvršiš svoju narudžbinu, primićeš detalje o plaćanju. Izvrši plaćanje u roku od {{dueDays}} dana na bankomatu ili putem interneta.",
+        "gift_card_wrapper": {
+          "apply_another_gift_card_label": "Primijeniti dodatni kupon"
+        },
+        "markets_pro_disclaimer_privacy_policy_title": "Izjava o zaštiti podataka registrovanog trgovca"
       }
     }
   },

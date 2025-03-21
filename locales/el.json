@@ -149,7 +149,8 @@
           }
         },
         "delivery_title": "Παράδοση",
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} επιπλέον"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} επιπλέον",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} παραδόσεις"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -180,7 +181,11 @@
           }
         },
         "saved_credit_card": "Η αποθηκευμένη πιστωτική σου κάρτα",
-        "local_payment_method_receiver_notice": "Αφού υποβάλεις την παραγγελία σου, θα λάβεις τις λεπτομέρειες πληρωμής. Εκτέλεσε την πληρωμή μέσα σε {{dueDays}} ημέρες σε ένα αυτόματο ταμείο ή διαδικτυακά."
+        "local_payment_method_receiver_notice": "Αφού υποβάλεις την παραγγελία σου, θα λάβεις τις λεπτομέρειες πληρωμής. Εκτέλεσε την πληρωμή μέσα σε {{dueDays}} ημέρες σε ένα αυτόματο ταμείο ή διαδικτυακά.",
+        "gift_card_wrapper": {
+          "apply_another_gift_card_label": "Εφαρμογή επιπλέον κουπονιού"
+        },
+        "markets_pro_disclaimer_privacy_policy_title": "Διακήρυξη προστασίας προσωπικών δεδομένων του καταχωρημένου εμπόρου"
       }
     }
   },

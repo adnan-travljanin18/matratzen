@@ -180,7 +180,9 @@
         },
         "delivery_title": "Leverans",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ytterligare",
-        "pre_order_ships_now": "Nu skickas"
+        "pre_order_ships_now": "Nu skickas",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} Leveranser",
+        "split_shipping_multiple_shipment_notice": "Din beställning kommer att levereras i flera leveranser"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Ange din adress kopplad till ditt kort eller betalningsmetod.",
@@ -208,7 +210,8 @@
         "simulated_checkout": "Förhandsvisning kommer snart att vara tillgänglig",
         "expired_cards_info": {
           "other": "Det finns %{count} utgångna kort som du kan visa och redigera i ditt konto."
-        }
+        },
+        "markets_pro_disclaimer_privacy_policy": "Integritetspolicy"
       }
     }
   },
