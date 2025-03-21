@@ -561,6 +561,15 @@
       "profile_card": {
         "cancel": "İptal etmek",
         "save_accessibility_label": "Profil kaydet"
+      },
+      "profile_update_confirmation_message": "Profil güncellendi"
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "items": "Makale"
+        },
+        "empty_state_title": "Henüz sipariş yok"
       }
     }
   }

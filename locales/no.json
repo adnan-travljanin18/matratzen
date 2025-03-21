@@ -534,6 +534,17 @@
       "profile_card": {
         "cancel": "Avbestille",
         "save_accessibility_label": "Lagre profil"
+      },
+      "profile_update_confirmation_message": "Profilen ble oppdatert"
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "items": "Artikkel"
+        },
+        "items": {
+          "one": "{{count}} Artikkel"
+        }
       }
     }
   }

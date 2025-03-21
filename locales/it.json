@@ -538,6 +538,17 @@
       "profile_card": {
         "cancel": "Annullare",
         "save_accessibility_label": "Salva profilo"
+      },
+      "profile_update_confirmation_message": "'Profil aggiornato'"
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "items": "Articolo"
+        },
+        "items": {
+          "one": "{{count}} Articolo"
+        }
       }
     }
   }

@@ -535,6 +535,15 @@
       "profile_card": {
         "cancel": "Cancelar",
         "save_accessibility_label": "Salvar perfil"
+      },
+      "profile_update_confirmation_message": "O perfil foi atualizado"
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "items": "Artigo"
+        },
+        "estimated_delivery": "Esperado em {{date}}"
       }
     }
   }

@@ -535,6 +535,15 @@
       "profile_card": {
         "cancel": "Annuler",
         "save_accessibility_label": "Enregistrer le profil"
+      },
+      "profile_update_confirmation_message": "Le profil a été mis à jour"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Options de mise en page",
+      "order_list": {
+        "items": {
+          "one": "{{count}} Articles"
+        }
       }
     }
   }

@@ -540,6 +540,13 @@
       "profile_card": {
         "cancel": "Stornere",
         "save_accessibility_label": "Profil gemme"
+      },
+      "profile_update_confirmation_message": "Profilen er blevet opdateret"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Layout-muligheder",
+      "order_list": {
+        "empty_state_title": "Ingen ordrer endnu"
       }
     }
   }

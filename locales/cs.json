@@ -520,7 +520,14 @@
     "account_information": {
       "profile_card": {
         "cancel": "Zrušit",
-        "save_accessibility_label": "Uložit profil"
+        "save_accessibility_label": "Uložit profil",
+        "no_name_provided_accessibility_label": "Žádné jméno nebylo přidáno"
+      }
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Možnosti rozložení",
+      "order_list": {
+        "empty_state_title": "Noch keine Bestellungen"
       }
     }
   }

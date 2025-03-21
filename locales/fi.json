@@ -529,6 +529,17 @@
       "profile_card": {
         "cancel": "Peruuttaa",
         "save_accessibility_label": "Profiili tallentaa"
+      },
+      "profile_update_confirmation_message": "Profiili on päivitetty"
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "total": "Kokonaisuus"
+        },
+        "items": {
+          "one": "{{count}} Artikkeli"
+        }
       }
     }
   }

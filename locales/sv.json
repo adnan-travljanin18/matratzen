@@ -559,6 +559,17 @@
       "profile_card": {
         "cancel": "Avboka",
         "save_accessibility_label": "Spara profil"
+      },
+      "profile_update_confirmation_message": "Profilen har uppdaterats"
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "items": "Artikel"
+        },
+        "items": {
+          "one": "{{count}} Artiklar"
+        }
       }
     }
   }

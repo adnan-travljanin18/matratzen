@@ -532,6 +532,17 @@
       "profile_card": {
         "cancel": "Anulować",
         "save_accessibility_label": "Zapisz profil"
+      },
+      "profile_update_confirmation_message": "Profil został zaktualizowany"
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "items": "Artykuł"
+        },
+        "items": {
+          "one": "{{count}} Artykuł"
+        }
       }
     }
   }

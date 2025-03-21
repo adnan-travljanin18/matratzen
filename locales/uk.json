@@ -562,6 +562,15 @@
       "profile_card": {
         "cancel": "Скасувати",
         "save_accessibility_label": "Зберегти профіль"
+      },
+      "profile_update_confirmation_message": "Профіль був оновлений"
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "items": "Стаття"
+        },
+        "estimated_delivery": "Очікується {{date}}"
       }
     }
   }

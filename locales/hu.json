@@ -541,6 +541,15 @@
       "profile_card": {
         "cancel": "Stornieren",
         "save_accessibility_label": "Profil mentése"
+      },
+      "profile_update_confirmation_message": "A profil frissítve lett"
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "items": "Cikk"
+        },
+        "empty_state_title": "Még nincsenek megrendelések"
       }
     }
   }

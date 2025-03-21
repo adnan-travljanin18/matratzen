@@ -539,6 +539,15 @@
       "profile_card": {
         "cancel": "Ακύρωση",
         "save_accessibility_label": "Αποθήκευση προφίλ"
+      },
+      "profile_update_confirmation_message": "Το προφίλ ενημερώθηκε"
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "items": "Άρθρο"
+        },
+        "estimated_delivery": "Αναμένεται στις {{date}}"
       }
     }
   }

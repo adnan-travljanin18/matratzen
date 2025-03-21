@@ -547,6 +547,15 @@
       "profile_card": {
         "cancel": "Отказати",
         "save_accessibility_label": "Sačuvaj profil"
+      },
+      "profile_update_confirmation_message": "Profil je ažuriran"
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "items": "Članak"
+        },
+        "estimated_delivery": "Očekuje se {{date}}"
       }
     }
   }
