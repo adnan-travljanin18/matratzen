@@ -202,7 +202,8 @@
         "card_expiry_placeholder": "Platnost do (MM/RRRR)",
         "card_verification_value_explanation_amex": "4-ciferný bezpečnostní kód na přední straně tvé karty",
         "card_verification_value_explanation_other": "Tříciferný bezpečnostní kód na zadní straně tvé karty",
-        "card_change_label": "Změnit"
+        "card_change_label": "Změnit",
+        "express_checkout_free_order": "Za objednávku zdarma ti nebude nic naúčtováno"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuální zůstatek: %{amount}"
@@ -221,6 +222,10 @@
         "address_zip_invalid_for_province": "Zadejte platné PSČ pro %{province}",
         "address_address2_contains_mathematical_symbols": "Druhá adresa nesmí obsahovat žádné matematické symboly",
         "invalid_delivery_address_reference_handle": "Bezugs-Handle dodací adresy nemohlo být přiděleno žádné dostupné dodací adrese."
+      },
+      "payment_errors": {
+        "pay_later_failed": "Bei zpracování vaší platby fakturou došlo k chybě. Zvolte jiný způsob platby a zkuste to znovu.",
+        "multiple_deferred_payment_not_allowed": "Nur ein Zahlungsaufschub pro Anfrage erlaubt. Bitte überprüfe deine Anfrage und versuche es erneut."
       }
     }
   },

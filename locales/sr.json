@@ -217,7 +217,8 @@
         "swish_label": "Swish",
         "card_number_placeholder": "Kartennummer",
         "card_expiry_placeholder": "Važi do (MM/GG)",
-        "card_verification_value_explanation": "Tristavni sigurnosni kod, koji se obično nalazi na poleđini tvoje kartice. American Express kartice imaju četvorcifreni kod na prednjoj strani."
+        "card_verification_value_explanation": "Tristavni sigurnosni kod, koji se obično nalazi na poleđini tvoje kartice. American Express kartice imaju četvorcifreni kod na prednjoj strani.",
+        "express_checkout_free_order": "Za besplatnu narudžbu nećete biti naplaćeni"
       },
       "field_errors": {
         "handle_phone_invalid": "Unesite važeći broj telefona",
@@ -232,7 +233,11 @@
         "payment_gateway_unsupported_for_development_store_html": "Du moraš koristiti test-platni sistem da bi mogao da postaviš test narudžbinu. Saznaj više o <a href=\"%{docs_link}\">testiranju narudžbina u razvojnom prodavnicama</a>.",
         "address_zip_invalid": "Unesite važeći poštanski broj",
         "address_zip_too_long": "Poštanski broj je predug (maksimalno 255 karaktera)",
-        "address_address2_contains_mathematical_symbols": "Drugi red adrese ne sme sadržavati matematičke simbole"
+        "address_address2_contains_mathematical_symbols": "Drugi red adrese ne sme sadržavati matematičke simbole",
+        "invalid_delivery_address_reference_handle": "Bezugs-Handle isporučene adrese nije moglo biti dodeljeno nijednoj dostupnoj isporučnoj adresi."
+      },
+      "payment_errors": {
+        "pay_later_failed": "При обради плаћања помоћу фактура дошло је до грешке. Изаберите другу методу плаћања и покушајте поново."
       }
     }
   },

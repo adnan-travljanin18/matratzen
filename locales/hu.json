@@ -205,7 +205,8 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Alkalmazás",
         "card_expiry_placeholder": "Érvényes: (HH/ÉÉ)",
-        "card_verification_value_explanation": "Egy háromjegyű biztonsági kód, amely általában a kártyád hátoldalán található. Az American Express kártyákon egy négyjegyű kód található az elülső oldalán."
+        "card_verification_value_explanation": "Egy háromjegyű biztonsági kód, amely általában a kártyád hátoldalán található. Az American Express kártyákon egy négyjegyű kód található az elülső oldalán.",
+        "express_checkout_free_order": "A díjmentes rendelésért tőled semmit sem számítanak fel"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuális egyenleg: %{amount}"
@@ -225,7 +226,11 @@
         "address_zip_invalid": "Írj be egy érvényes irányítószámot",
         "address_zip_too_long": "A postal code is too long (maximum 255 characters)",
         "address_address2_contains_mathematical_symbols": "A második címzett sor nem tartalmazhat matematikai szimbólumokat",
-        "address_generic_invalid": "Érvénytelen bejegyzés"
+        "invalid_delivery_address_reference_handle": "A szállítási címhez nem tudtunk hozzárendelni elérhető szállítási címet."
+      },
+      "payment_errors": {
+        "pay_later_failed": "Bei der Bearbeitung deiner Zahlung mit Rechnung ist ein Fehler aufgetreten. Wähle eine andere Zahlungsmethode und versuche es erneut.",
+        "deferred_date_changed": "Deine Zahlung konnte nicht verarbeitet werden, da sich das Datum des Zahlungsaufschubs geändert hat. Bitte überprüfe deine Bestellung und versuche es erneut."
       }
     }
   },

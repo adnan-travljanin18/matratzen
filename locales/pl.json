@@ -214,7 +214,8 @@
         "card_expiry_placeholder": "Ważne do (MM/RR)",
         "card_verification_value_explanation": "Kod bezpieczeństwa składający się z trzech cyfr, który zazwyczaj znajduje się na odwrocie twojej karty. Karty American Express mają czterocyfrowy kod z przodu.",
         "card_verification_value_explanation_other": "3-cyfrowy kod zabezpieczający na odwrocie twojej karty",
-        "card_issue_number_placeholder": "Numer"
+        "card_issue_number_placeholder": "Numer",
+        "express_checkout_free_order": "Dla darmowego zamówienia nic nie będzie naliczane"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktualne saldo: %{amount}"
@@ -233,6 +234,12 @@
         "address_zip_too_long": "Kod pocztowy jest za długi (maksymalnie 255 znaków)",
         "address_address2_contains_mathematical_symbols": "Druga linia adresowa nie może zawierać symboli matematycznych",
         "invalid_delivery_address_reference_handle": "Bezugs-Handle der Lieferadresse konnte keiner verfügbaren Lieferadresse zugewiesen werden."
+      },
+      "payment_errors": {
+        "pay_later_failed": "Przy przetwarzaniu płatności za pomocą faktury wystąpił błąd. Wybierz inną metodę płatności i spróbuj ponownie."
+      },
+      "payment_gateway": {
+        "credit_card_label": "Karta kredytowa"
       }
     }
   },

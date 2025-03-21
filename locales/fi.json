@@ -208,7 +208,8 @@
         "card_expiry_placeholder": "Voimassa kuni (KK/VV)",
         "card_verification_value_explanation_amex": "4-numeroinen turvakoodi korttisi etupuolella",
         "card_verification_value_explanation_other": "3-stelliger turvallisuusnumero korttisi takana",
-        "card_change_label": "Muuttaa"
+        "card_change_label": "Muuttaa",
+        "express_checkout_free_order": "Ilmaista tilausta varten sinulta ei veloiteta mitään"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktiivinen saldo: %{amount}"
@@ -227,6 +228,10 @@
         "address_zip_too_long": "Postinumero on liian pitkä (korkeintaan 255 merkkiä)",
         "address_address2_contains_mathematical_symbols": "Toisessa osoiterivissä ei saa olla matemaattisia symboleja",
         "invalid_delivery_address_reference_handle": "Toimitusosoitteen viittausta ei voitu liittää saatavilla olevaan toimitusosoitteeseen."
+      },
+      "payment_errors": {
+        "pay_later_failed": "Bei der Bearbeitung deiner Zahlung mit Rechnung ist ein Fehler aufgetreten. Wähle eine andere Zahlungsmethode und versuche es erneut.",
+        "deferred_amount_changed": "Sinun maksuaasi ei voitu käsitellä, koska maksun lykkäyksen määrä on muuttunut. Ole hyvä ja tarkista tilauksesi ja yritä uudelleen."
       }
     }
   },

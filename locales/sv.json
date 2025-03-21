@@ -239,7 +239,8 @@
         "card_expiry_placeholder": "Giltig till (MM/ÅÅ)",
         "card_verification_value_explanation": "En tre-siffrig säkerhetskod som vanligtvis finns på baksidan av ditt kort. American Express-kort har en fyra-siffrig kod på framsidan.",
         "card_verification_value_explanation_other": "3-siffrig säkerhetskod på baksidan av ditt kort",
-        "card_issue_number_placeholder": "Nummer"
+        "card_issue_number_placeholder": "Nummer",
+        "express_checkout_free_order": "För en gratis beställning debiteras du ingenting"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuellt saldo: %{amount}"
@@ -257,7 +258,13 @@
         "address_zip_invalid": "Ange en giltig postnummer",
         "address_zip_too_long": "Postnummer är för lång (maximalt 255 tecken)",
         "address_address2_contains_mathematical_symbols": "Den andra adressraden får inte innehålla matematiska symboler",
-        "address_zip_blocked_address": "Denna plats stöds inte"
+        "invalid_delivery_address_reference_handle": "Leveransadressens referenshandtag kunde inte tilldelas någon tillgänglig leveransadress."
+      },
+      "payment_errors": {
+        "pay_later_failed": "Bei behandlingen av din betalning med faktura uppstod ett fel. Vänligen välj en annan betalningsmetod och försök igen."
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kreditkort"
       }
     }
   },

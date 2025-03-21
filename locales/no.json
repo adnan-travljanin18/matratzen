@@ -214,7 +214,8 @@
         "card_expiry_placeholder": "Giltig til (MM/ÅÅ)",
         "card_verification_value_explanation": "Ein tredelt sikkerhetskode, som vanligvis finnes på baksiden av kortet ditt. American Express-kort har en fire-sifret kode på forsiden.",
         "card_verification_value_explanation_other": "3-sifret sikkerhetskode på baksiden av kortet",
-        "card_issue_number_placeholder": "Nummer"
+        "card_issue_number_placeholder": "Nummer",
+        "express_checkout_free_order": "For an unpaid order, you will not be charged anything"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuelt saldo: %{amount}"
@@ -233,6 +234,12 @@
         "address_zip_too_long": "Postnummeren er for lang (maks 255 tegn)",
         "address_address2_contains_mathematical_symbols": "Den andre adresselinjen kan ikke inneholde matematiske symboler",
         "invalid_delivery_address_reference_handle": "Ingen tilgjengelig leveringsadresse kunne tildeles referansehåndtaket for leveringsadressen."
+      },
+      "payment_errors": {
+        "pay_later_failed": "Bei behandling av betalingen din med faktura oppstod det en feil. Vennligst velg en annen betalingsmetode og prøv igjen."
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kredittkort"
       }
     }
   },

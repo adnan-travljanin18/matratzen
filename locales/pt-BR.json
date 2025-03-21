@@ -208,7 +208,8 @@
         "card_number_placeholder": "Número do cartão",
         "card_expiry_placeholder": "Válido até (MM/AA)",
         "card_verification_value_explanation": "Um código de segurança de três dígitos, que geralmente se encontra na parte de trás do seu cartão. Cartões American Express têm um código de quatro dígitos na parte da frente.",
-        "card_issue_number_placeholder": "Número"
+        "card_issue_number_placeholder": "Número",
+        "express_checkout_free_order": "Para um pedido gratuito, nada será cobrado de você"
       },
       "field_errors": {
         "handle_phone_invalid": "Digite um número de telefone válido",
@@ -222,7 +223,11 @@
         "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Os cupons não são suportados em opções de compra com adiamento de pagamento.",
         "address_zip_invalid": "Insira um código postal válido",
         "address_zip_too_long": "O código postal é muito longo (máximo de 255 caracteres)",
-        "address_address2_contains_mathematical_symbols": "A segunda linha de endereço não deve conter símbolos matemáticos"
+        "address_address2_contains_mathematical_symbols": "A segunda linha de endereço não deve conter símbolos matemáticos",
+        "invalid_delivery_address_reference_handle": "O identificador de referência do endereço de entrega não pôde ser atribuído a nenhum endereço de entrega disponível."
+      },
+      "payment_errors": {
+        "pay_later_failed": "Ocorreu um erro ao processar seu pagamento por fatura. Escolha outro método de pagamento e tente novamente."
       }
     }
   },

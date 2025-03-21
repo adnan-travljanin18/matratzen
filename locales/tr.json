@@ -241,7 +241,8 @@
         "card_expiry_placeholder": "Gültü tarihe kadar (AA/YY)",
         "card_verification_value_explanation": "Bir üç haneli güvenlik kodu genellikle kartının arkasında bulunur. American Express kartlarının ön yüzünde dört haneli bir kod vardır.",
         "card_verification_value_explanation_other": "3 haneli güvenlik kodu kartının arkasında",
-        "card_issue_number_placeholder": "Numara"
+        "card_issue_number_placeholder": "Numara",
+        "express_checkout_free_order": "Ücretsiz bir sipariş için sana hiçbir ücret uygulanmayacak"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktif Bakiyeniz: %{amount}"
@@ -259,7 +260,11 @@
         "address_zip_invalid": "Geçerli bir posta kodu girin",
         "address_zip_too_long": "Posta kodu çok uzun (maksimum 255 karakter)",
         "address_address2_contains_mathematical_symbols": "İkinci adres satırı matematiksel semboller içermemelidir",
-        "address_generic_invalid": "Geçersiz Giriş"
+        "invalid_delivery_address_reference_handle": "Bezugs-Handle, teslim adresine atanamayan bir teslimat adresine bağlanamadı."
+      },
+      "payment_errors": {
+        "pay_later_failed": "Bei der Bearbeitung deiner Zahlung mit Rechnung ist ein Fehler aufgetreten. Wähle eine andere Zahlungsmethode und versuche es erneut.",
+        "multiple_deferred_payment_not_allowed": "Sadece bir ödeme ertelemesi talep başına izin verilir. Lütfen talebinizi kontrol edin ve tekrar deneyin."
       }
     }
   },

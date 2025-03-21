@@ -213,7 +213,8 @@
         "apply_gift_card_button_label": "Appliquer",
         "card_expiry_placeholder": "Valide jusqu'au (MM/AA)",
         "card_verification_value_explanation_other": "3-digit security code on the back of your card",
-        "card_issue_number_placeholder": "Numéro"
+        "card_issue_number_placeholder": "Numéro",
+        "express_checkout_free_order": "Pour une commande gratuite, rien ne te sera facturé"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Solde actuel : %{amount}"
@@ -233,6 +234,10 @@
         "address_zip_too_long": "Le code postal est trop long (maximum 255 caractères)",
         "address_address2_contains_mathematical_symbols": "La deuxième ligne d'adresse ne doit pas contenir de symboles mathématiques",
         "invalid_delivery_address_reference_handle": "Le handle de référence de l'adresse de livraison n'a pu être assigné à aucune adresse de livraison disponible."
+      },
+      "payment_errors": {
+        "pay_later_failed": "Un erreur s'est produite lors du traitement de votre paiement par facture. Choisissez un autre mode de paiement et réessayez.",
+        "deferred_amount_changed": "Votre paiement n'a pas pu être traité car le montant du report de paiement a changé. Veuillez vérifier votre commande et réessayer."
       }
     }
   },
