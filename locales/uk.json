@@ -534,7 +534,13 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Зазвичай готовий за 1 годину"
+        "one_hour": "Зазвичай готовий за 1 годину",
+        "two_to_four_days": "Зазвичай готово за 2 - 4 дні"
+      }
+    },
+    "filters": {
+      "boolean": {
+        "true_label": "Я"
       }
     }
   },
@@ -542,6 +548,11 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Метод оплати оновлено"
+      }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "label": "Konto"
       }
     }
   }

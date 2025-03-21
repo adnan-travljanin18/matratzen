@@ -497,6 +497,19 @@
           "visibility": "Olemme päivittäneet tietosuojakäytäntöämme ja seuraamme avattuja sähköposteja. Sähköpostin avausprosentit tallennetaan nimettömästi. Näemme vain osana yhteenvetoa sähköpostin avausprosentista, oletko avannut sähköpostin."
         }
       }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "two_to_four_days": "Yleensä valmis 2 - 4 päivässä"
+      }
+    },
+    "filters": {
+      "boolean": {
+        "true_label": "Ja"
+      }
+    },
+    "search": {
+      "error": "Latauksessa tapahtui ongelma hakutuloksillesi. Lataa sivu uudelleen tai yritä myöhemmin uudelleen."
     }
   },
   "customer_accounts": {

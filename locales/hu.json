@@ -513,7 +513,13 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Szokásosan 1 órán belül kész"
+        "one_hour": "Szokásosan 1 órán belül kész",
+        "two_to_four_days": "Általában 2 - 4 napon belül kész"
+      }
+    },
+    "filters": {
+      "boolean": {
+        "true_label": "Ja"
       }
     }
   },
@@ -521,6 +527,11 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Fizetési mód frissítve"
+      }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "label": "Konto"
       }
     }
   }

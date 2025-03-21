@@ -489,6 +489,19 @@
           "visibility": "Aktualizovali jsme naše prohlášení o ochraně osobních údajů a sledujeme otevřené e-maily. Míra otevření e-mailů je zaznamenávána anonymně. Vidíme pouze jako součást souhrnné míry otevření e-mailů, zda jsi e-mail otevřel."
         }
       }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "two_to_four_days": "Obvykle hotovo za 2 - 4 dny"
+      }
+    },
+    "filters": {
+      "boolean": {
+        "true_label": "Já"
+      }
+    },
+    "search": {
+      "error": "Při načítání tvých výsledků vyhledávání došlo k problému. Zkus stránku znovu načíst nebo to zkus později znovu."
     }
   },
   "customer_accounts": {

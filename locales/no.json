@@ -506,7 +506,13 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Vanligvis ferdig på 1 time"
+        "one_hour": "Vanligvis ferdig på 1 time",
+        "zero_to_two_hours": "Vanligvis ferdig på 2 timer"
+      }
+    },
+    "filters": {
+      "boolean": {
+        "true_label": "Ja"
       }
     }
   },
@@ -514,6 +520,11 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Betalingsmetode oppdatert"
+      }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "label": "Konto"
       }
     }
   }

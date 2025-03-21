@@ -511,7 +511,13 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Συνήθως έτοιμο σε 1 ώρα"
+        "one_hour": "Συνήθως έτοιμο σε 1 ώρα",
+        "two_to_four_days": "Συνήθως έτοιμο σε 2 - 4 ημέρες"
+      }
+    },
+    "filters": {
+      "boolean": {
+        "true_label": "Τζα"
       }
     }
   },
@@ -519,6 +525,11 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Η μέθοδος πληρωμής ενημερώθηκε"
+      }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "label": "Κοντό"
       }
     }
   }

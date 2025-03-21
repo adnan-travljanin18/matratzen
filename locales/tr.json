@@ -533,7 +533,13 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Genellikle 1 saatte hazır"
+        "one_hour": "Genellikle 1 saatte hazır",
+        "two_to_four_days": "Genellikle 2 - 4 gün içinde tamamlanır"
+      }
+    },
+    "filters": {
+      "boolean": {
+        "true_label": "Ja"
       }
     }
   },
@@ -541,6 +547,11 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Ödeme yöntemi güncellendi"
+      }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "label": "Konto"
       }
     }
   }

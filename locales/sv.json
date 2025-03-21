@@ -531,7 +531,13 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Vanligtvis klart inom 1 timme"
+        "one_hour": "Vanligtvis klart inom 1 timme",
+        "zero_to_two_hours": "Vanligtvis färdigt om 2 timmar"
+      }
+    },
+    "filters": {
+      "boolean": {
+        "true_label": "Ja"
       }
     }
   },
@@ -539,6 +545,11 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Betalningsmetod uppdaterad"
+      }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "label": "Konto"
       }
     }
   }

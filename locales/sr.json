@@ -519,7 +519,13 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Obično završeno za 1 sat"
+        "one_hour": "Obično završeno za 1 sat",
+        "two_to_four_days": "Obično готово за 2 - 4 дана"
+      }
+    },
+    "filters": {
+      "boolean": {
+        "true_label": "Ja"
       }
     }
   },
@@ -527,6 +533,11 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Metoda plaćanja ažurirana"
+      }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "label": "Konto"
       }
     }
   }

@@ -510,7 +510,13 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Normalmente pronto in 1 ora"
+        "one_hour": "Normalmente pronto in 1 ora",
+        "two_to_four_days": "Di solito completato in 2 - 4 giorni"
+      }
+    },
+    "filters": {
+      "boolean": {
+        "true_label": "Ja"
       }
     }
   },
@@ -518,6 +524,11 @@
     "payment_methods": {
       "edit_payment_method": {
         "payment_method_updated_toast": "Metodo di pagamento aggiornato"
+      }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "label": "Konto"
       }
     }
   }

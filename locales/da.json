@@ -508,6 +508,19 @@
           "visibility": "Vi har opdateret vores privatlivspolitik og sporer åbnede e-mails. E-mail-åbningsrater registreres anonymt. Vi ser kun som en del af den samlede e-mail-åbningsrate, om du har åbnet en e-mail."
         }
       }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "two_to_four_days": "Almindeligvis færdig på 2 - 4 dage"
+      }
+    },
+    "filters": {
+      "boolean": {
+        "true_label": "Ja"
+      }
+    },
+    "search": {
+      "error": "Der opstod et problem med at indlæse dine søgeresultater. Genindlæs siden eller prøv igen senere."
     }
   },
   "customer_accounts": {
