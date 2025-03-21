@@ -660,7 +660,13 @@
       "fees": {
         "restocking_fee": "Siirto- tai uudelleentallennusmaksu",
         "return_shipping_fee": "Rücksendungsversand"
+      },
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{tuotteenNimi}}, Määrä: {{palautettavanMäärän}}"
       }
+    },
+    "addresses": {
+      "add_button": "Osoite lisätä"
     }
   }
 }

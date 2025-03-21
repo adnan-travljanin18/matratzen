@@ -666,7 +666,13 @@
       "fees": {
         "restocking_fee": "Frais de réintégration"
       },
-      "duties_and_taxes_included": "Le montant total comprend les frais de douane et les taxes. Aucuns frais supplémentaires à la livraison."
+      "duties_and_taxes_included": "Le montant total comprend les frais de douane et les taxes. Aucuns frais supplémentaires à la livraison.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Quantité: {{refundableQuantity}}"
+      }
+    },
+    "addresses": {
+      "add_button": "Ajouter une adresse"
     }
   }
 }

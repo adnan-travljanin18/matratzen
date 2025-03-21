@@ -671,7 +671,14 @@
       "remaining_amount": "Maradék",
       "fees": {
         "restocking_fee": "Wiedereinlagerási díj"
+      },
+      "duties_and_taxes_included": "A teljes összeg tartalmazza a vám- és adóköltségeket. Nincs további díj a kiszállításkor.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Mennyiség: {{refundableQuantity}}"
       }
+    },
+    "addresses": {
+      "add_button": "Cím hozzáadása"
     }
   }
 }

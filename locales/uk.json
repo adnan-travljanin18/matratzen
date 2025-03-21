@@ -690,7 +690,14 @@
       "remaining_amount": "Залишок",
       "fees": {
         "restocking_fee": "Комісія за повторне зберігання"
+      },
+      "duties_and_taxes_included": "Загальна сума включає митні збори та податки. Немає додаткових зборів при доставці.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Кількість: {{refundableQuantity}}"
       }
+    },
+    "addresses": {
+      "add_button": "Додати адресу"
     }
   }
 }

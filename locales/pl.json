@@ -664,14 +664,14 @@
       "remaining_amount": "Pozostały",
       "fees": {
         "restocking_fee": "Opłata za ponowne składowanie"
+      },
+      "duties_and_taxes_included": "Całkowita kwota obejmuje opłaty celne i podatki. Brak dodatkowych opłat przy dostawie.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Ilość: {{refundableQuantity}}"
       }
     },
-    "B2B": {
-      "locations": {
-        "pagination": {
-          "load_more_accessibility_label": "Więcej lokalizacji ładowania"
-        }
-      }
+    "addresses": {
+      "add_button": "Dodaj adres"
     }
   }
 }

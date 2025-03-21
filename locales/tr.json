@@ -689,7 +689,14 @@
       "remaining_amount": "Kalan",
       "fees": {
         "restocking_fee": "Yeniden Depolama Ücreti"
+      },
+      "duties_and_taxes_included": "Der toplamı, gümrük ücretleri ve vergileri içerir. Teslimat sırasında ek ücret yok.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Miktar: {{refundableQuantity}}"
       }
+    },
+    "addresses": {
+      "add_button": "Adres ekle"
     }
   }
 }

@@ -665,7 +665,14 @@
       "remaining_amount": "Verbleibend",
       "fees": {
         "restocking_fee": "Taxa de reinstalação"
+      },
+      "duties_and_taxes_included": "O valor total inclui taxas de importação e impostos. Nenhuma taxa adicional na entrega.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Quantidade: {{refundableQuantity}}"
       }
+    },
+    "addresses": {
+      "add_button": "Adicionar Endereço"
     }
   }
 }

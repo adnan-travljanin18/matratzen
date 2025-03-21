@@ -667,7 +667,14 @@
       "remaining_amount": "Υπόλοιπο",
       "fees": {
         "restocking_fee": "Χρέωση επανακατάθεσης"
+      },
+      "duties_and_taxes_included": "Ο συνολικός ποσός περιλαμβάνει δασμούς και φόρους. Καμία επιπλέον χρέωση κατά την παράδοση.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Ποσό: {{refundableQuantity}}"
       }
+    },
+    "addresses": {
+      "add_button": "Προσθήκη διεύθυνσης"
     }
   }
 }

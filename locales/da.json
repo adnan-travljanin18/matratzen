@@ -671,7 +671,13 @@
       "fees": {
         "restocking_fee": "Wiedereinlageringsgebyr",
         "return_shipping_fee": "Rücksendungsversand"
+      },
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Mængde: {{refundableQuantity}}"
       }
+    },
+    "addresses": {
+      "add_button": "Tilføj adresse"
     }
   }
 }

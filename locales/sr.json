@@ -675,7 +675,14 @@
       "remaining_amount": "Preostali",
       "fees": {
         "restocking_fee": "Naknada za ponovnu pohranu"
+      },
+      "duties_and_taxes_included": "Ukupni iznos uključuje carinske takse i poreze. Nema dodatnih naknada prilikom isporuke.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Količina: {{refundableQuantity}}"
       }
+    },
+    "addresses": {
+      "add_button": "Dodaj adresu"
     }
   }
 }

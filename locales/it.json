@@ -671,9 +671,15 @@
       },
       "remaining_amount": "Verbleibend",
       "fees": {
-        "restocking_fee": "Costi di rimanenza",
-        "return_shipping_fee": "Spedizione di ritorno"
+        "restocking_fee": "Costi di rimanenza"
+      },
+      "duties_and_taxes_included": "L'importo totale include diritti doganali e tasse. Nessun costo aggiuntivo alla consegna.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Quantità: {{refundableQuantity}}"
       }
+    },
+    "addresses": {
+      "add_button": "Aggiungi indirizzo"
     }
   }
 }

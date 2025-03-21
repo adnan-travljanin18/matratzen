@@ -689,7 +689,14 @@
       "remaining_amount": "Kvar",
       "fees": {
         "restocking_fee": "Återinlagringsavgift"
+      },
+      "duties_and_taxes_included": "Den totala summan inkluderar tullavgifter och skatter. Inga extra avgifter vid leverans.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Antal: {{refundableQuantity}}"
       }
+    },
+    "addresses": {
+      "add_button": "Lägg till adress"
     }
   }
 }

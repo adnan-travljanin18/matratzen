@@ -654,7 +654,13 @@
       "fees": {
         "restocking_fee": "Wiedereinlagerungsgebühr",
         "return_shipping_fee": "Náklady na vrácení zboží"
+      },
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Množství: {{refundableQuantity}}"
       }
+    },
+    "addresses": {
+      "add_button": "Přidat adresu"
     }
   }
 }

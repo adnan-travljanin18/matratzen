@@ -668,12 +668,14 @@
       "remaining_amount": "Verbleibend",
       "fees": {
         "restocking_fee": "Wiedereinlageringsgebyr"
+      },
+      "duties_and_taxes_included": "Den totale summen inkluderer tollgebyrer og skatter. Ingen ekstra gebyrer ved levering.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Mengde: {{refundableQuantity}}"
       }
     },
-    "B2B": {
-      "locations": {
-        "tax_exemptions_modal_button_accessibility_label": "Alle skattefritak vise"
-      }
+    "addresses": {
+      "add_button": "Adresse legge til"
     }
   }
 }
