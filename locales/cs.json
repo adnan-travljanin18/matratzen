@@ -195,7 +195,10 @@
         },
         "amazon_payments_failed_mfa_challenge": "Die zvolená platební metoda nemohla být použita. Vyberte jinou metodu nebo se obraťte na svou banku nebo vydavatele karty.",
         "order_edit_banner_updated_order_label": "Aktualizovaná objednávka",
-        "payment_method_not_available_for_shipping_address_error": "Způsob platby není pro vybranou dodací adresu k dispozici. Vyberte jiný způsob platby."
+        "payment_method_not_available_for_shipping_address_error": "Způsob platby není pro vybranou dodací adresu k dispozici. Vyberte jiný způsob platby.",
+        "paypal_wallet_label": "PayPal-Wallet",
+        "mobilepay_label": "MobilePay",
+        "apply_gift_card_button_label": "Použít"
       }
     }
   },

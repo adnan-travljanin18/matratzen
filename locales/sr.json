@@ -208,7 +208,12 @@
         },
         "use_location_shipping_address_label": "Koristite adresu za isporuku lokacije",
         "saved_credit_card_cvv_verification": "Molimo vas da unesete sigurnosni kod sa vaše kartice za verifikaciju.",
-        "proposed_gateway_unavailable": "Predložena platna vrata nisu dostupna"
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "({{delta}} uklonjen iz povratka)"
+        },
+        "gift_cards_unavailable": "Tvoj poklon vaučer više ne može da se koristi za ovu narudžbinu i je uklonjen.",
+        "przelewy24_label": "Przelewy24",
+        "discount_button_action_label": "Iskoristite kod za popust"
       }
     }
   },

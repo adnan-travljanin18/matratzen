@@ -232,7 +232,10 @@
         "gift_card_store_credit": {
           "manage_label": "Geschenkkuponger eller butikscredit hantera"
         },
-        "shop_pay_ideal_unavailable_error": "iDEAL är inte tillgänglig för denna beställning. Vänligen välj en annan betalningsmetod."
+        "shop_pay_ideal_unavailable_error": "iDEAL är inte tillgänglig för denna beställning. Vänligen välj en annan betalningsmetod.",
+        "paypal_wallet_label": "PayPal-Wallet",
+        "przelewy24_label": "Przelewy24",
+        "apply_gift_card_button_label": "Tillämpa"
       }
     }
   },

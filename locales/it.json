@@ -209,7 +209,10 @@
         "gift_card_store_credit": {
           "manage_label": "Gestire i buoni regalo o il credito del negozio"
         },
-        "amazon_payments_abandoned_mfa_challenge": "La tua pagamento non è stato completato. Prova con un altro metodo di pagamento o contatta la tua banca o l'emittente della tua carta."
+        "amazon_payments_abandoned_mfa_challenge": "La tua pagamento non è stato completato. Prova con un altro metodo di pagamento o contatta la tua banca o l'emittente della tua carta.",
+        "amount_left_to_pay_label": "Importo",
+        "przelewy24_label": "Przelewy24",
+        "apply_gift_card_button_label": "Applicare"
       }
     }
   },

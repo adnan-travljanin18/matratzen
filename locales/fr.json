@@ -207,7 +207,10 @@
         "gift_card_store_credit": {
           "manage_label": "Gestion des bons cadeaux ou des crédits boutique"
         },
-        "payment_method_not_available_for_shipping_address_error": "La méthode de paiement n'est pas disponible pour l'adresse de livraison sélectionnée. Veuillez choisir une autre méthode de paiement."
+        "payment_method_not_available_for_shipping_address_error": "La méthode de paiement n'est pas disponible pour l'adresse de livraison sélectionnée. Veuillez choisir une autre méthode de paiement.",
+        "amount_left_to_pay_label": "Montant",
+        "przelewy24_label": "Przelewy24",
+        "apply_gift_card_button_label": "Appliquer"
       }
     }
   },

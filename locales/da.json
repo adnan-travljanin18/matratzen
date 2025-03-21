@@ -206,7 +206,10 @@
         "gift_card_store_credit": {
           "manage_label": "Geschenkgutscheiner eller Shop-Guthaben administrere"
         },
-        "payment_method_not_available_for_shipping_address_error": "Betalingsmetoden er ikke tilgængelig for den valgte leveringsadresse. Vælg en anden betalingsmetode."
+        "payment_method_not_available_for_shipping_address_error": "Betalingsmetoden er ikke tilgængelig for den valgte leveringsadresse. Vælg en anden betalingsmetode.",
+        "paypal_wallet_label": "PayPal-Wallet",
+        "przelewy24_label": "Przelewy24",
+        "apply_gift_card_button_label": "Anvende"
       }
     }
   },

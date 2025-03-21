@@ -198,7 +198,12 @@
         "gift_card_store_credit": {
           "manage_label": "Gestões de vale-presente ou crédito de loja"
         },
-        "order_edit_banner_single_item_return_line_item_removed": "Removido da devolução"
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} removido da devolução"
+        },
+        "amount_left_to_pay_label": "Montante",
+        "przelewy24_label": "Przelewy24",
+        "grabpay_label": "GrabPay"
       }
     }
   },

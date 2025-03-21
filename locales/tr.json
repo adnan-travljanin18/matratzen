@@ -234,7 +234,10 @@
         "gift_card_store_credit": {
           "manage_label": "Geschenkg voucherleri veya mağaza bakiyesini yönetmek"
         },
-        "shop_pay_ideal_unavailable_error": "iDEAL bu sipariş için mevcut değil. Başka bir ödeme yöntemi seçin."
+        "shop_pay_ideal_unavailable_error": "iDEAL bu sipariş için mevcut değil. Başka bir ödeme yöntemi seçin.",
+        "gift_cards_unavailable": "Dein hediye çeki artık bu sipariş için kullanılamaz ve kaldırılmıştır.",
+        "przelewy24_label": "Przelewy24",
+        "simulated_express_checkout": "Cüzdanlar, bölgeniz veya tarayıcınız nedeniyle önizlemede mevcut değildir"
       }
     }
   },

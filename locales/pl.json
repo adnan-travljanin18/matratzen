@@ -207,7 +207,10 @@
         "gift_card_store_credit": {
           "manage_label": "Zarządzanie bonami podarunkowymi lub saldami sklepów"
         },
-        "shop_pay_ideal_unavailable_error": "iDEAL nie jest dostępny dla tego zamówienia. Wybierz inną metodę płatności."
+        "shop_pay_ideal_unavailable_error": "iDEAL nie jest dostępny dla tego zamówienia. Wybierz inną metodę płatności.",
+        "paypal_wallet_label": "PayPal-Wallet",
+        "przelewy24_label": "Przelewy24",
+        "apply_gift_card_button_label": "Zastosować"
       }
     }
   },

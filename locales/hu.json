@@ -200,7 +200,10 @@
         },
         "amazon_payments_failed_mfa_challenge": "Die kiválasztott fizetési mód nem használható. Válassz egy másik módszert, vagy lépj kapcsolatba a bankoddal vagy a kártyádban.",
         "saved_credit_card_cvv_verification": "Kérjük, hogy a hitelkártyád biztonsági kódját írd be a hitelesítéshez.",
-        "shop_pay_ideal_unavailable_error": "iDEAL nem elérhető ehhez a megrendeléshez. Válassz egy másik fizetési módszert."
+        "shop_pay_ideal_unavailable_error": "iDEAL nem elérhető ehhez a megrendeléshez. Válassz egy másik fizetési módszert.",
+        "gift_cards_unavailable": "A pénzárványod már nem használható erre a megrendelésre, és eltávolításra került.",
+        "przelewy24_label": "Przelewy24",
+        "simulated_express_checkout": "A pénztárcák a te régiódból vagy böngésződből adódóan nem elérhetők az előnézetben"
       }
     }
   },

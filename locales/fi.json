@@ -201,7 +201,10 @@
         "gift_card_store_credit": {
           "manage_label": "Lahjakortit tai kaupan saldoa hallinnoida"
         },
-        "payment_method_not_available_for_shipping_address_error": "Maksutapa ei ole käytettävissä valitulle toimitusosoitteelle. Valitse toinen maksutapa."
+        "payment_method_not_available_for_shipping_address_error": "Maksutapa ei ole käytettävissä valitulle toimitusosoitteelle. Valitse toinen maksutapa.",
+        "paypal_wallet_label": "PayPal-lompakko",
+        "przelewy24_label": "Przelewy24",
+        "apply_gift_card_button_label": "Käyttää"
       }
     }
   },
