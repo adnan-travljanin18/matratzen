@@ -661,6 +661,10 @@
       },
       "paid_with_shop_pay_installments_card": {
         "description": "Mantenha seu planejamento de pagamento sob controle com os lembretes no aplicativo da loja."
+      },
+      "remaining_amount": "Verbleibend",
+      "fees": {
+        "restocking_fee": "Taxa de reinstalação"
       }
     }
   }

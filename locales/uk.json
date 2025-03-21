@@ -686,7 +686,11 @@
         "added_with_quantity": "{{quantity}} додано",
         "return_line_item_removed": "Вилучено з повернення"
       },
-      "login_to_view_all_order_details": "Увійди, щоб переглянути всі деталі замовлення."
+      "login_to_view_all_order_details": "Увійди, щоб переглянути всі деталі замовлення.",
+      "remaining_amount": "Залишок",
+      "fees": {
+        "restocking_fee": "Комісія за повторне зберігання"
+      }
     }
   }
 }

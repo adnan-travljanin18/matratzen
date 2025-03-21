@@ -661,7 +661,12 @@
         "added_with_quantity": "{{quantity}} ajouté",
         "return_line_item_removed": "Aus retour enlevé"
       },
-      "login_to_view_all_order_details": "Connectez-vous pour voir tous les détails de la commande."
+      "login_to_view_all_order_details": "Connectez-vous pour voir tous les détails de la commande.",
+      "paid_amount": "Payé",
+      "fees": {
+        "restocking_fee": "Frais de réintégration"
+      },
+      "duties_and_taxes_included": "Le montant total comprend les frais de douane et les taxes. Aucuns frais supplémentaires à la livraison."
     }
   }
 }

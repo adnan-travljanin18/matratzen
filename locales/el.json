@@ -663,7 +663,11 @@
         "added_with_quantity": "{{quantity}} προστέθηκε",
         "return_line_item_removed": "Από την επιστροφή αφαιρέθηκε"
       },
-      "login_to_view_all_order_details": "Συνδέσου για να δεις όλες τις λεπτομέρειες παραγγελίας."
+      "login_to_view_all_order_details": "Συνδέσου για να δεις όλες τις λεπτομέρειες παραγγελίας.",
+      "remaining_amount": "Υπόλοιπο",
+      "fees": {
+        "restocking_fee": "Χρέωση επανακατάθεσης"
+      }
     }
   }
 }

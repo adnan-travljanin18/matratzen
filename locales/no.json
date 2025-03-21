@@ -664,6 +664,15 @@
       },
       "paid_with_shop_pay_installments_card": {
         "description": "Behold din betalingsplanlegging med påminnelsene i butikkappen under kontroll."
+      },
+      "remaining_amount": "Verbleibend",
+      "fees": {
+        "restocking_fee": "Wiedereinlageringsgebyr"
+      }
+    },
+    "B2B": {
+      "locations": {
+        "tax_exemptions_modal_button_accessibility_label": "Alle skattefritak vise"
       }
     }
   }

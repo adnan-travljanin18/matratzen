@@ -667,7 +667,11 @@
         "added_with_quantity": "{{quantity}} hozzáadva",
         "return_line_item_removed": "A visszatérésből eltávolítva"
       },
-      "login_to_view_all_order_details": "Jelentkezz be, hogy megtekinthesd az összes rendelési részletet."
+      "login_to_view_all_order_details": "Jelentkezz be, hogy megtekinthesd az összes rendelési részletet.",
+      "remaining_amount": "Maradék",
+      "fees": {
+        "restocking_fee": "Wiedereinlagerási díj"
+      }
     }
   }
 }

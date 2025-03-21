@@ -666,7 +666,12 @@
         "added_with_quantity": "{{quantity}} tilføjet",
         "return_line_item_removed": "Fjernet fra tilbagelevering"
       },
-      "login_to_view_all_order_details": "Log ind for at se alle bestillingsdetaljer."
+      "login_to_view_all_order_details": "Log ind for at se alle bestillingsdetaljer.",
+      "paid_amount": "Betalt",
+      "fees": {
+        "restocking_fee": "Wiedereinlageringsgebyr",
+        "return_shipping_fee": "Rücksendungsversand"
+      }
     }
   }
 }

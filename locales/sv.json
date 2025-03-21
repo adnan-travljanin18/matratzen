@@ -685,7 +685,11 @@
         "added_with_quantity": "'{{quantity}} tillagt'",
         "return_line_item_removed": "Borttagen från återlämning"
       },
-      "login_to_view_all_order_details": "Logga in för att se alla beställningsdetaljer."
+      "login_to_view_all_order_details": "Logga in för att se alla beställningsdetaljer.",
+      "remaining_amount": "Kvar",
+      "fees": {
+        "restocking_fee": "Återinlagringsavgift"
+      }
     }
   }
 }

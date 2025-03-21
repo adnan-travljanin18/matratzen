@@ -668,6 +668,11 @@
       },
       "paid_with_shop_pay_installments_card": {
         "description": "Mantieni sotto controllo la tua pianificazione dei pagamenti con i promemoria nell'app del negozio."
+      },
+      "remaining_amount": "Verbleibend",
+      "fees": {
+        "restocking_fee": "Costi di rimanenza",
+        "return_shipping_fee": "Spedizione di ritorno"
       }
     }
   }
