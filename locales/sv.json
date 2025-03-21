@@ -254,7 +254,10 @@
         "address_last_name_contains_html_tags": "Efternamnet får inte innehålla HTML-taggar.",
         "address_address2_contains_emojis": "Adress 2 får inte innehålla emojis",
         "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Du har nått gränsen för beställningar i Development Shop med denna betalningslösare. Du måste använda en testbetalningsgateway för att kunna göra en ny beställning. Lär dig mer om <a href=\"%{docs_link}\">Testa beställningar i Development Shops</a>.",
-        "address_zip_invalid": "Ange en giltig postnummer"
+        "address_zip_invalid": "Ange en giltig postnummer",
+        "address_zip_too_long": "Postnummer är för lång (maximalt 255 tecken)",
+        "address_address2_contains_mathematical_symbols": "Den andra adressraden får inte innehålla matematiska symboler",
+        "address_zip_blocked_address": "Denna plats stöds inte"
       }
     }
   },

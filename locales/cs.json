@@ -217,7 +217,10 @@
         "address_last_name_contains_html_tags": "Příjmení nesmí obsahovat žádné HTML značky.",
         "address_phone_contains_emojis": "Telefonní číslo nesmí obsahovat emoji",
         "payment_gateway_unsupported_for_development_store_html": "Du musíš použít testovací platební bránu, abys mohl provést testovací objednávku. Zjisti více o <a href=\"%{docs_link}\">testování objednávek v rozvojových obchodech</a>.",
-        "address_zip_invalid": "Zadejte platné PSČ"
+        "address_zip_invalid": "Zadejte platné PSČ",
+        "address_zip_invalid_for_province": "Zadejte platné PSČ pro %{province}",
+        "address_address2_contains_mathematical_symbols": "Druhá adresa nesmí obsahovat žádné matematické symboly",
+        "invalid_delivery_address_reference_handle": "Bezugs-Handle dodací adresy nemohlo být přiděleno žádné dostupné dodací adrese."
       }
     }
   },

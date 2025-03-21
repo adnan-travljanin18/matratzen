@@ -256,7 +256,10 @@
         "address_last_name_contains_html_tags": "Soyadı HTML etiketleri içermemelidir.",
         "address_address2_contains_emojis": "Adresse 2 emoji içermemelidir",
         "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Du, bu ödeme işlemcisi ile Geliştirme Mağazası siparişleri için limiti aştın. Başka bir sipariş verebilmek için bir Test Ödeme Geçidi kullanmalısın. <a href=\"%{docs_link}\">Geliştirme Mağazalarında Siparişleri Test Etme</a> hakkında daha fazla bilgi edin.",
-        "address_zip_invalid": "Geçerli bir posta kodu girin"
+        "address_zip_invalid": "Geçerli bir posta kodu girin",
+        "address_zip_too_long": "Posta kodu çok uzun (maksimum 255 karakter)",
+        "address_address2_contains_mathematical_symbols": "İkinci adres satırı matematiksel semboller içermemelidir",
+        "address_generic_invalid": "Geçersiz Giriş"
       }
     }
   },

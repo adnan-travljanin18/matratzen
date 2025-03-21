@@ -222,7 +222,10 @@
         "address_city_contains_emojis": "A városnak nem szabad emotikonokat tartalmaznia",
         "address_zip_not_supported": "Ez a helyszín nem támogatott",
         "payment_gateway_unsupported_for_development_store_html": "Du musst ein Tesztfizetési átjárót használni a tesztmegrendelés leadásához. Tudd meg többet a <a href=\"%{docs_link}\">Megrendelések tesztelése a fejlesztési boltokban</a>",
-        "address_zip_invalid": "Írj be egy érvényes irányítószámot"
+        "address_zip_invalid": "Írj be egy érvényes irányítószámot",
+        "address_zip_too_long": "A postal code is too long (maximum 255 characters)",
+        "address_address2_contains_mathematical_symbols": "A második címzett sor nem tartalmazhat matematikai szimbólumokat",
+        "address_generic_invalid": "Érvénytelen bejegyzés"
       }
     }
   },

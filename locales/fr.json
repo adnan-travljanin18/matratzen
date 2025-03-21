@@ -229,7 +229,10 @@
         "address_last_name_contains_html_tags": "Le nom de famille ne doit pas contenir de balises HTML.",
         "address_phone_contains_emojis": "Le numéro de téléphone ne doit pas contenir d'émojis",
         "payment_gateway_unsupported_for_development_store_html": "Du dois utiliser une passerelle de paiement de test pour pouvoir passer une commande test. En savoir plus sur <a href=\"%{docs_link}\">Tester des commandes dans des boutiques de développement</a>.",
-        "address_zip_invalid": "Entrez un code postal valide"
+        "address_zip_invalid": "Entrez un code postal valide",
+        "address_zip_too_long": "Le code postal est trop long (maximum 255 caractères)",
+        "address_address2_contains_mathematical_symbols": "La deuxième ligne d'adresse ne doit pas contenir de symboles mathématiques",
+        "invalid_delivery_address_reference_handle": "Le handle de référence de l'adresse de livraison n'a pu être assigné à aucune adresse de livraison disponible."
       }
     }
   },

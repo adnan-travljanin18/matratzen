@@ -228,7 +228,10 @@
         "address_last_name_contains_html_tags": "Efternavnet må ikke indeholde HTML-tags.",
         "address_phone_contains_emojis": "Telefonnummer må ikke indeholde emojis",
         "payment_gateway_unsupported_for_development_store_html": "Du skal bruge en testbetalingsgateway for at kunne oprette en testbestilling. Læs mere om <a href=\"%{docs_link}\">test af bestillinger i udviklingsbutikker</a>.",
-        "address_zip_invalid": "Indtast et gyldigt postnummer"
+        "address_zip_invalid": "Indtast et gyldigt postnummer",
+        "address_zip_invalid_for_province": "Indtast et gyldigt postnummer for %{province}",
+        "address_address2_contains_mathematical_symbols": "Den anden adresselinje må ikke indeholde matematiske symboler",
+        "invalid_delivery_address_reference_handle": "Behandlingshåndtaget til leveringsadressen kunne ikke tildeles en tilgængelig leveringsadresse."
       }
     }
   },

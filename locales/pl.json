@@ -229,7 +229,10 @@
         "address_last_name_contains_html_tags": "Nazwisko nie może zawierać znaczników HTML.",
         "address_address2_contains_emojis": "Adres 2 nie może zawierać emotikonów",
         "payment_gateway_unsupported_for_development_store_html": "Du musisz użyć testowej bramki płatności, aby móc złożyć testowe zamówienie. Dowiedz się więcej o <a href=\"%{docs_link}\">Testowaniu zamówień w Sklepach Deweloperskich</a>.",
-        "address_zip_invalid": "Wprowadź prawidłowy kod pocztowy"
+        "address_zip_invalid": "Wprowadź prawidłowy kod pocztowy",
+        "address_zip_too_long": "Kod pocztowy jest za długi (maksymalnie 255 znaków)",
+        "address_address2_contains_mathematical_symbols": "Druga linia adresowa nie może zawierać symboli matematycznych",
+        "invalid_delivery_address_reference_handle": "Bezugs-Handle der Lieferadresse konnte keiner verfügbaren Lieferadresse zugewiesen werden."
       }
     }
   },

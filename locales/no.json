@@ -229,7 +229,10 @@
         "address_last_name_contains_html_tags": "Etternavnet kan ikke inneholde HTML-tagger.",
         "address_address2_contains_emojis": "Adresse 2 kan ikke inneholde emojier",
         "payment_gateway_unsupported_for_development_store_html": "Du må bruke en testbetalingsgateway for å kunne legge inn en testbestilling. Lær mer om <a href=\"%{docs_link}\">Testing av bestillinger i utviklingsbutikker</a>.",
-        "address_zip_invalid": "Skriv inn et gyldig postnummer"
+        "address_zip_invalid": "Skriv inn et gyldig postnummer",
+        "address_zip_too_long": "Postnummeren er for lang (maks 255 tegn)",
+        "address_address2_contains_mathematical_symbols": "Den andre adresselinjen kan ikke inneholde matematiske symboler",
+        "invalid_delivery_address_reference_handle": "Ingen tilgjengelig leveringsadresse kunne tildeles referansehåndtaket for leveringsadressen."
       }
     }
   },

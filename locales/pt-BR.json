@@ -220,7 +220,9 @@
         "address_company_contains_html_tags": "A empresa não pode conter tags HTML.",
         "address_address2_contains_emojis": "O endereço 2 não pode conter emojis",
         "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Os cupons não são suportados em opções de compra com adiamento de pagamento.",
-        "vaulting_agreement_blank": "Sua carta deve ser salva, pois o pagamento pelo crédito deste pedido será devido mais tarde."
+        "address_zip_invalid": "Insira um código postal válido",
+        "address_zip_too_long": "O código postal é muito longo (máximo de 255 caracteres)",
+        "address_address2_contains_mathematical_symbols": "A segunda linha de endereço não deve conter símbolos matemáticos"
       }
     }
   },

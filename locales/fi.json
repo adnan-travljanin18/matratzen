@@ -223,7 +223,10 @@
         "address_last_name_contains_html_tags": "Sukunimi ei saa sisältää HTML-tageja.",
         "address_phone_contains_emojis": "Puhelinnumerossa ei saa olla emojeja",
         "payment_gateway_unsupported_for_development_store_html": "Du musst ein Test-Zahlungs-Gateway nutzen, um eine Testbestellung aufgeben zu können. Erfahre mehr über <a href=\"%{docs_link}\">Testen von Bestellungen in Development Shops</a>.",
-        "address_zip_invalid": "Anna voimassa oleva postinumero"
+        "address_zip_invalid": "Anna voimassa oleva postinumero",
+        "address_zip_too_long": "Postinumero on liian pitkä (korkeintaan 255 merkkiä)",
+        "address_address2_contains_mathematical_symbols": "Toisessa osoiterivissä ei saa olla matemaattisia symboleja",
+        "invalid_delivery_address_reference_handle": "Toimitusosoitteen viittausta ei voitu liittää saatavilla olevaan toimitusosoitteeseen."
       }
     }
   },

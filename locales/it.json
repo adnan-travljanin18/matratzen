@@ -231,7 +231,10 @@
         "address_last_name_contains_html_tags": "Il cognome non deve contenere tag HTML.",
         "address_phone_contains_emojis": "Il numero di telefono non deve contenere emoji",
         "payment_gateway_unsupported_for_development_store_html": "Du devi utilizzare un gateway di pagamento di prova per poter effettuare un ordine di prova. Scopri di più su <a href=\"%{docs_link}\">Testare gli ordini nei negozi di sviluppo</a>.",
-        "address_zip_invalid": "Inserisci un codice postale valido"
+        "address_zip_invalid": "Inserisci un codice postale valido",
+        "address_zip_too_long": "La codice postale è troppo lungo (massimo 255 caratteri)",
+        "address_address2_contains_mathematical_symbols": "La seconda riga dell'indirizzo non deve contenere simboli matematici",
+        "invalid_delivery_address_reference_handle": "Non è stato possibile assegnare il Bezugs-Handle dell'indirizzo di consegna a nessun indirizzo di consegna disponibile."
       }
     }
   },
