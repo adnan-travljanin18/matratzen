@@ -495,7 +495,16 @@
       }
     },
     "page_titles": {
-      "shopping_cart": "A kosarad"
+      "shopping_cart": "A kosarad",
+      "blog_or_article_with_error": "Hiba – %{title}"
+    },
+    "challenge": {
+      "error": "A válaszod nem volt helyes, kérlek próbáld meg újra."
+    },
+    "email_marketing": {
+      "subscribed": {
+        "unsubscribe": "Kijelentkezés"
+      }
     }
   },
   "customer_accounts": {

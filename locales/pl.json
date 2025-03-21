@@ -506,7 +506,18 @@
       }
     },
     "page_titles": {
-      "create_account": "Konto utworzyć"
+      "create_account": "Konto utworzyć",
+      "blog_or_article_with_error": "Błąd – %{title}"
+    },
+    "challenge": {
+      "error": "Twoja odpowiedź nie była poprawna, spróbuj ponownie."
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "opt_in": {
+          "visibility": "E-Mail-Öffnungsraten są rejestrowane anonimowo. Widzimy tylko jako część zsumowanej stawki otwarcia e-maila, czy otworzyłeś e-mail."
+        }
+      }
     }
   },
   "customer_accounts": {

@@ -535,7 +535,16 @@
       }
     },
     "page_titles": {
-      "shopping_cart": "Sepetiniz"
+      "shopping_cart": "Sepetiniz",
+      "blog_or_article_with_error": "Hata – %{title}"
+    },
+    "challenge": {
+      "error": "Senin cevabın doğru değildi, lütfen tekrar dene."
+    },
+    "email_marketing": {
+      "subscribed": {
+        "disclaimer": "Her zaman yeniden abone olabilirsin."
+      }
     }
   },
   "customer_accounts": {

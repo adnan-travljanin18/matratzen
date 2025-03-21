@@ -501,7 +501,11 @@
       }
     },
     "page_titles": {
-      "shopping_cart": "Твој колица"
+      "shopping_cart": "Твој колица",
+      "blog_or_article_with_error": "Greška – %{title}"
+    },
+    "challenge": {
+      "error": "Tvoj odgovor nije bio tačan, molim te pokušaj ponovo."
     }
   },
   "customer_accounts": {

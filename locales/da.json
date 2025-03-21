@@ -496,21 +496,8 @@
       },
       "cart": {
         "empty_update": "kan ikke opdatere den tomme indkøbskurv",
-        "less_than_minimum": "Denne artikel har et minimum på %{min}.",
-        "gift_card_price_must_be_greater_than_zero": "Bundlet produktet \"%{name}\" kan ikke tilføjes til indkøbskurven.",
-        "buyer_cannot_purchase_for_company_locations": "Ingen køb muligt for denne placering"
-      },
-      "tags": {
-        "add_products": "Begræns valget til produkter, der matcher tagget %{tag}"
-      },
-      "line_item": {
-        "item_status": {
-          "add_variant": "%{delta} tilføjet"
-        }
+        "less_than_minimum": "Denne artikel har et minimum på %{min}."
       }
-    },
-    "page_titles": {
-      "reset_account": "Konto tilbagebetale"
     }
   },
   "customer_accounts": {

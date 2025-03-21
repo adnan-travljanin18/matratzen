@@ -533,7 +533,18 @@
       }
     },
     "page_titles": {
-      "shopping_cart": "Din kundvagn"
+      "shopping_cart": "Din kundvagn",
+      "blog_or_article_with_error": "Fel – %{title}"
+    },
+    "challenge": {
+      "error": "Din svar var inte korrekt, vänligen försök igen."
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "opt_in": {
+          "opt_out_html": "Du kan inaktivera spårning av öppnade e-postmeddelanden <a style='text-decoration:underline;' href='%{link}'>om du inte vill dela denna information</a>."
+        }
+      }
     }
   },
   "customer_accounts": {

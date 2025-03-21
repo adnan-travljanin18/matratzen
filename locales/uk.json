@@ -536,7 +536,11 @@
       }
     },
     "page_titles": {
-      "shopping_cart": "Ваш кошик"
+      "shopping_cart": "Ваш кошик",
+      "blog_or_article_with_error": "Помилка – %{title}"
+    },
+    "challenge": {
+      "error": "Твоя відповідь була неправильна, будь ласка, спробуй ще раз."
     }
   },
   "customer_accounts": {

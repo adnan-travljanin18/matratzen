@@ -508,7 +508,16 @@
       }
     },
     "page_titles": {
-      "create_account": "Opprett konto"
+      "create_account": "Opprett konto",
+      "collections": "Kollektionen"
+    },
+    "challenge": {
+      "error": "Din svar var ikke korrekt, vennligst prøv igjen."
+    },
+    "email_marketing": {
+      "unsubscribed": {
+        "preview": "Du ser en forhåndsvisning av hva kunder ser når de melder seg av."
+      }
     }
   },
   "customer_accounts": {

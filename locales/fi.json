@@ -499,7 +499,18 @@
       }
     },
     "page_titles": {
-      "reset_account": "Konto palauttaa"
+      "reset_account": "Konto palauttaa",
+      "blog_or_article_with_error": "Virhe – %{title}"
+    },
+    "checkpoint": {
+      "submit_button_text": "Lähetä"
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "opt_in": {
+          "visibility": "E-Mail-avauksia kirjataan anonyymisti. Näemme vain osana yhteengevä E-Mail-avauksen saldoa, oliko sähköposti avattu."
+        }
+      }
     }
   },
   "customer_accounts": {

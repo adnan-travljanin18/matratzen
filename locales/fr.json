@@ -509,7 +509,18 @@
       }
     },
     "page_titles": {
-      "reset_account": "Réinitialiser le compte"
+      "reset_account": "Réinitialiser le compte",
+      "blog_or_article_with_error": "Erreur – %{title}"
+    },
+    "checkpoint": {
+      "submit_button_text": "Envoyer"
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "opt_in": {
+          "visibility": "E-Mail taux d'ouverture sont enregistrés de manière anonyme. Nous voyons seulement en tant que partie d'un taux d'ouverture d'e-mail résumé, si vous avez ouvert un e-mail."
+        }
+      }
     }
   },
   "customer_accounts": {

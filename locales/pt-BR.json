@@ -489,7 +489,11 @@
       }
     },
     "page_titles": {
-      "shopping_cart": "Seu carrinho de compras"
+      "shopping_cart": "Seu carrinho de compras",
+      "blog_or_article_with_error": "Erro – %{title}"
+    },
+    "challenge": {
+      "error": "Sua resposta não estava correta, por favor, tente novamente."
     }
   },
   "customer_accounts": {

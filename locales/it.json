@@ -512,7 +512,16 @@
       }
     },
     "page_titles": {
-      "order": "Ordine %{name}"
+      "order": "Ordine %{name}",
+      "collections": "Collezioni"
+    },
+    "checkpoint": {
+      "submit_button_text": "Invia"
+    },
+    "email_marketing": {
+      "unsubscribed": {
+        "preview": "Vedi un'anteprima di ciò che i clienti vedono al momento della disconnessione."
+      }
     }
   },
   "customer_accounts": {
