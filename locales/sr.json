@@ -695,7 +695,16 @@
     },
     "B2B": {
       "locations": {
-        "contact_name": "Ime"
+        "contact_name": "Ime",
+        "payment_terms": "Услови плаћања"
+      },
+      "location_selection": {
+        "selection_cancel_button": "Otkaži"
+      },
+      "draft_order_details": {
+        "order_timeline": {
+          "expand_events_label": "Prikaži detalje"
+        }
       }
     }
   }

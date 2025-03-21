@@ -711,7 +711,14 @@
         "list_loading_address_accessibility_message": "Adressen för {{locationName}} laddas"
       },
       "locations": {
-        "contact_name": "Namn"
+        "contact_name": "Namn",
+        "contact_phone_number": "Telefonnummer",
+        "payment_terms": "Betalningsvillkor"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Denna betalningsmetod är inte längre tillgänglig vid framtida köp på denna plats."
+        }
       }
     }
   }

@@ -675,7 +675,14 @@
     },
     "B2B": {
       "locations": {
-        "contact_name": "Název"
+        "contact_name": "Název",
+        "contact_phone_number": "Telefonní číslo",
+        "permissions_title": "Oprávnění"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Tato platební metoda nebude při budoucích nákupech na tomto místě k dispozici."
+        }
       }
     }
   }

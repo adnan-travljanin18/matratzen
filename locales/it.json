@@ -694,7 +694,14 @@
         "list_loading_address_accessibility_message": "Indirizzo per {{locationName}} sta caricando"
       },
       "locations": {
-        "contact_name": "Nome"
+        "contact_name": "Nome",
+        "contact_phone_number": "Numero di telefono",
+        "payment_terms": "Condizioni di pagamento"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Questo metodo di pagamento non sarà più disponibile per acquisti futuri in questo luogo."
+        }
       }
     }
   }

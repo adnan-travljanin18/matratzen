@@ -690,10 +690,17 @@
     },
     "B2B": {
       "location_selection": {
-        "list_loading_address_accessibility_message": "Az {{locationName}} címe betöltése"
+        "list_loading_address_accessibility_message": "Az {{locationName}} címe betöltése",
+        "selection_cancel_button": "Lemondás"
       },
       "locations": {
-        "contact_name": "Név"
+        "contact_name": "Név",
+        "payment_terms": "Fizetési feltételek"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Ez a fizetési mód a jövőbeli vásárlások során ezen a helyszínen már nem érhető el."
+        }
       }
     }
   }

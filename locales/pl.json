@@ -686,7 +686,14 @@
         "list_loading_address_accessibility_message": "Adres dla {{locationName}} jest ładowany"
       },
       "locations": {
-        "contact_name": "Nazwa"
+        "contact_name": "Nazwa",
+        "contact_phone_number": "Numer telefonu",
+        "payment_terms": "Warunki płatności"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Ta metoda płatności nie będzie już dostępna przy przyszłych zakupach w tej lokalizacji."
+        }
       }
     }
   }

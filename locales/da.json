@@ -692,7 +692,14 @@
         "list_loading_address_accessibility_message": "Adresse for {{locationName}} indlæses"
       },
       "locations": {
-        "contact_name": "Navn"
+        "contact_name": "Navn",
+        "contact_phone_number": "Telefonnummer",
+        "payment_terms": "Betalingsbetingelser"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Denne betalingsmetode er ikke længere tilgængelig ved fremtidige køb på denne placering."
+        }
       }
     }
   }

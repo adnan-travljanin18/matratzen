@@ -688,7 +688,14 @@
       },
       "locations": {
         "contact_list_title": "Les gens",
-        "contact_name": "Nom"
+        "contact_name": "Nom",
+        "contact_phone_number": "Numéro de téléphone",
+        "payment_terms": "Conditions de paiement"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Cette méthode de paiement ne sera plus disponible pour les futurs achats à cet emplacement."
+        }
       }
     }
   }

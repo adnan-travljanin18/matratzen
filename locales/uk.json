@@ -710,7 +710,16 @@
     },
     "B2B": {
       "locations": {
-        "contact_name": "Ім'я"
+        "contact_name": "Ім'я",
+        "payment_terms": "Умови оплати"
+      },
+      "location_selection": {
+        "selection_cancel_button": "Відмінити"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Цей метод оплати більше не буде доступний для майбутніх покупок у цьому місці."
+        }
       }
     }
   }

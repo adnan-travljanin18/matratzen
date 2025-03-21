@@ -685,7 +685,16 @@
     },
     "B2B": {
       "locations": {
-        "contact_name": "Nome"
+        "contact_name": "Nome",
+        "payment_terms": "Condições de pagamento"
+      },
+      "location_selection": {
+        "selection_cancel_button": "Cancelar"
+      },
+      "draft_order_details": {
+        "order_timeline": {
+          "expand_events_label": "Mostrar detalhes"
+        }
       }
     }
   }

@@ -687,7 +687,16 @@
     },
     "B2B": {
       "locations": {
-        "contact_name": "Όνομα"
+        "contact_name": "Όνομα",
+        "payment_terms": "Όροι πληρωμής"
+      },
+      "location_selection": {
+        "selection_cancel_button": "Ακύρωση"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Αυτή η μέθοδος πληρωμής δεν θα είναι διαθέσιμη για μελλοντικές αγορές σε αυτή την τοποθεσία."
+        }
       }
     }
   }
