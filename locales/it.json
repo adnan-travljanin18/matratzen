@@ -815,6 +815,12 @@
       "cart_count": {
         "other": "{{ count }} Articoli"
       }
+    },
+    "footer": {
+      "klarna-return-policy": "Diritto di recesso: 14 giorni, visibile in"
+    },
+    "impressum": {
+      "impressum-reference-details": "Die Serenity Bett GmbH non partecipa a una procedura di risoluzione delle controversie davanti a un'istituzione di risoluzione delle controversie per i consumatori. La Commissione Europea mette a disposizione una piattaforma per la risoluzione online delle controversie, accessibile all'indirizzo"
     }
   }
 }

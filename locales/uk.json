@@ -772,7 +772,14 @@
         }
       },
       "draft_order_details": {
-        "loading_finished_accessibility_message": "Деталі замовлення були завантажені"
+        "loading_finished_accessibility_message": "Деталі замовлення були завантажені",
+        "payment_status": {
+          "draft": {
+            "in_review": {
+              "title": "Оплата ще не наставила"
+            }
+          }
+        }
       }
     },
     "errors": {
@@ -825,8 +832,9 @@
         "other": "{{ count }} Стаття"
       }
     },
-    "cart": {
-      "cart_quantity_error_html": "Ви можете додати до кошика лише [quantity] цього товару."
+    "impressum": {
+      "impressum-heading-1": "Контактні дані клієнтів",
+      "impressum-reference-details": "Die Serenity Bett GmbH не бере участі в процедурі вирішення спорів перед органом з врегулювання споживачів. Європейська Комісія надає платформу для онлайн-вирішення спорів, яка доступна за адресою"
     }
   }
 }

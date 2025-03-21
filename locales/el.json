@@ -751,7 +751,14 @@
         }
       },
       "draft_order_details": {
-        "loading_finished_accessibility_message": "Οι λεπτομέρειες παραγγελίας έχουν φορτωθεί"
+        "loading_finished_accessibility_message": "Οι λεπτομέρειες παραγγελίας έχουν φορτωθεί",
+        "payment_status": {
+          "draft": {
+            "in_review": {
+              "title": "Η πληρωμή δεν είναι ακόμα ληξιπρόθεσμη"
+            }
+          }
+        }
       }
     },
     "errors": {
@@ -803,6 +810,10 @@
       "cart_count": {
         "other": "{{ count }} Άρθρα"
       }
+    },
+    "impressum": {
+      "impressum-heading-1": "Πελάτης Επαφές Δεδομένων",
+      "impressum-reference-details": "Die Serenity Bett GmbH δεν συμμετέχει στη διαδικασία επίλυσης διαφορών ενώπιον ενός φορέα εξωδικαστικής επίλυσης καταναλωτικών διαφορών. Η Ευρωπαϊκή Επιτροπή παρέχει μια πλατφόρμα για την ηλεκτρονική επίλυση διαφορών, η οποία είναι διαθέσιμη στην"
     }
   }
 }

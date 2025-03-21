@@ -798,5 +798,14 @@
     "shop_ads": {
       "button": "Kaupassa löydät"
     }
+  },
+  "sections": {
+    "impressum": {
+      "impressum-heading-1": "Asiakastietoja",
+      "impressum-reference-details": "Die Serenity Bett GmbH ei osallistu kuluttajariitalautakunnan riitojenratkaisumenettelyyn. Euroopan komissio tarjoaa alustan verkkoriitojen ratkaisemiseksi, joka on osoitteessa"
+    },
+    "black-week-offer-text": {
+      "welcome_modal_title_1": "JOUULU ALE"
+    }
   }
 }

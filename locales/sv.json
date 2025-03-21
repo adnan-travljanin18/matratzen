@@ -775,7 +775,14 @@
         }
       },
       "draft_order_details": {
-        "loading_finished_accessibility_message": "Beställningsdetaljer har laddats"
+        "loading_finished_accessibility_message": "Beställningsdetaljer har laddats",
+        "payment_status": {
+          "draft": {
+            "in_review": {
+              "title": "Betalningen förfaller inte än"
+            }
+          }
+        }
       }
     },
     "errors": {
@@ -828,8 +835,9 @@
         "other": "{{ count }} Artikel"
       }
     },
-    "footer": {
-      "klarna-name": "Registrerade namn: Serenity Bett GmbH"
+    "impressum": {
+      "impressum-heading-1": "Kundenkontaktdaten",
+      "impressum-reference-details": "Die Serenity Bett GmbH deltar inte i en tvistlösningsprocess inför en konsumenttvistlösningsmyndighet. Europeiska kommissionen tillhandahåller en plattform för online-tvistlösning som finns på"
     }
   }
 }

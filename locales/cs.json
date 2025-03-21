@@ -796,6 +796,13 @@
       "cart_count": {
         "other": "{{ count }} Článků"
       }
+    },
+    "impressum": {
+      "impressum-heading-1": "Kontaktní údaje zákazníka",
+      "impressum-reference-details": "Die Serenity Bett GmbH neúčastní v řízení o mimosoudním řešení sporů před orgánem pro mimosoudní vyrovnání spotřebitelů. Evropská komise poskytuje platformu pro online řešení sporů, která je dostupná na"
+    },
+    "black-week-offer-text": {
+      "welcome_modal_title_2": "AB 10.12. BIS 26.12"
     }
   }
 }

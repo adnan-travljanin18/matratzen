@@ -753,7 +753,14 @@
         }
       },
       "draft_order_details": {
-        "loading_finished_accessibility_message": "A rendelési adatok betöltődtek"
+        "loading_finished_accessibility_message": "A rendelési adatok betöltődtek",
+        "payment_status": {
+          "draft": {
+            "in_review": {
+              "title": "A kifizetés még nem esedékes"
+            }
+          }
+        }
       }
     },
     "errors": {
@@ -806,8 +813,9 @@
         "other": "{{ count }} Cikk"
       }
     },
-    "footer": {
-      "klarna-number": "Registrációs szám: HRB13083"
+    "impressum": {
+      "impressum-heading-1": "Ügyfélkapcsolati adatok",
+      "impressum-reference-details": "Die Serenity Bett GmbH nem vesz részt a fogyasztói vitarendezési eljárásban. Az Európai Bizottság egy online vitarendezési platformot biztosít, amely elérhető"
     }
   }
 }

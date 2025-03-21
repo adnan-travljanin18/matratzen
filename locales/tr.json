@@ -775,7 +775,14 @@
         }
       },
       "draft_order_details": {
-        "loading_finished_accessibility_message": "Bestelldetails yüklendi"
+        "loading_finished_accessibility_message": "Bestelldetails yüklendi",
+        "payment_status": {
+          "draft": {
+            "in_review": {
+              "title": "Ödeme henüz vadesi gelmedi"
+            }
+          }
+        }
       }
     },
     "errors": {
@@ -828,8 +835,9 @@
         "other": "{{ count }} Makale"
       }
     },
-    "cart": {
-      "cart_error": "Bir hata oluştu, lütfen alışveriş sepetinizi güncellerken tekrar deneyin."
+    "impressum": {
+      "impressum-heading-1": "Müşteri İletişim Bilgileri",
+      "impressum-reference-details": "Die Serenity Bett GmbH, bir tüketici uyuşmazlık çözüm otoritesinde uyuşmazlık çözüm sürecine katılmamaktadır. Avrupa Komisyonu, <a href=\"http://ec.europa.eu/odr\" target=\"_blank\" rel=\"noopener noreferrer\">online uyuşmazlık çözümü için bir platform</a> sunmaktadır."
     }
   }
 }

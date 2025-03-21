@@ -735,7 +735,14 @@
         "order_timeline": {
           "expand_events_label": "Mostrar detalhes"
         },
-        "loading_finished_accessibility_message": "Os detalhes do pedido foram carregados"
+        "loading_finished_accessibility_message": "Os detalhes do pedido foram carregados",
+        "payment_status": {
+          "draft": {
+            "in_review": {
+              "title": "O pagamento ainda não está vencido"
+            }
+          }
+        }
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "O número do pedido pode conter no máximo {{maxLength}} caracteres."
@@ -799,6 +806,10 @@
       "cart_count": {
         "other": "{{ count }} Artigos"
       }
+    },
+    "impressum": {
+      "impressum-heading-1": "Dados de contato do cliente",
+      "impressum-reference-details": "Die Serenity Bett GmbH não participa de um processo de resolução de disputas perante uma entidade de conciliação de consumidores. A Comissão Europeia fornece uma plataforma para a resolução de disputas online, que pode ser encontrada em"
     }
   }
 }

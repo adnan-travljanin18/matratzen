@@ -813,6 +813,11 @@
       "cart_count": {
         "other": "'{{ count }} Artikler '"
       }
+    },
+    "impressum": {
+      "impressum-heading-1": "Kundenkontaktdaten",
+      "impressum-reference-details": "Die Serenity Bett GmbH delt ikke i en tvistbilæggelsesprocedure foran et forbrugerklagenævn. Den Europæiske Kommission stiller en platform til rådighed for online tvistbilæggelse, som kan findes under",
+      "impressum-business-bank": "Bankforbindelse"
     }
   }
 }

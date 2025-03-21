@@ -745,7 +745,14 @@
         "order_timeline": {
           "expand_events_label": "Prikaži detalje"
         },
-        "loading_finished_accessibility_message": "Detalji narudžbine su učitani"
+        "loading_finished_accessibility_message": "Detalji narudžbine su učitani",
+        "payment_status": {
+          "draft": {
+            "in_review": {
+              "title": "Plaćanje još nije dospjelo"
+            }
+          }
+        }
       },
       "purchase_order_number": {
         "modal_po_number_input_max_length_error": "Broj narudžbine može sadržavati najviše {{maxLength}} karaktera."
@@ -809,6 +816,10 @@
       "cart_count": {
         "other": "{{ count }} Članak"
       }
+    },
+    "impressum": {
+      "impressum-heading-1": "Kontakt podaci klijenata",
+      "impressum-reference-details": "Die Serenity Bett GmbH ne učestvuje u postupku rešavanja sporova pred potrošačkom arbitražom. Evropska komisija pruža platformu za online rešavanje sporova, koja se može naći na"
     }
   }
 }
