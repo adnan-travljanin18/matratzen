@@ -525,8 +525,10 @@
     },
     "navigation_and_structure": {
       "account_menu": {
-        "label": "Konto"
-      }
+        "label": "Konto",
+        "close_menu_accessibility_label": "Fechar navegação da conta"
+      },
+      "generic_accessibility_label": "{{label}}: {{value}}"
     }
   }
 }

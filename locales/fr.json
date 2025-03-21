@@ -526,7 +526,10 @@
     "navigation_and_structure": {
       "account_menu": {
         "label": "Konto"
-      }
+      },
+      "action_menu_accessibility_label": "Autres actions",
+      "dismiss_toast": "Annuler",
+      "orders_link_label": "Commandes"
     }
   }
 }

@@ -553,7 +553,10 @@
     "navigation_and_structure": {
       "account_menu": {
         "label": "Konto"
-      }
+      },
+      "action_menu_accessibility_label": "Інші дії",
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "open_menu_accessibility_label": "' <p>Відкрити головне меню</p>"
     }
   }
 }

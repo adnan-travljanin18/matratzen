@@ -525,7 +525,10 @@
     "navigation_and_structure": {
       "account_menu": {
         "label": "Konto"
-      }
+      },
+      "action_menu_accessibility_label": "Ytterligere handlinger",
+      "dismiss_toast": "Forkaste",
+      "orders_link_label": "Bestillinger"
     }
   }
 }

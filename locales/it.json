@@ -529,7 +529,10 @@
     "navigation_and_structure": {
       "account_menu": {
         "label": "Konto"
-      }
+      },
+      "action_menu_accessibility_label": "Ulteriori azioni",
+      "dismiss_toast": "Annullare",
+      "orders_link_label": "Ordini"
     }
   }
 }

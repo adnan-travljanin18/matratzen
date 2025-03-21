@@ -517,6 +517,13 @@
       "edit_payment_method": {
         "cancel_edit_payment_method_button": "Peruuttaa"
       }
+    },
+    "navigation_and_structure": {
+      "action_menu_accessibility_label": "Lisätietoja",
+      "delete_confirmation": {
+        "cancel": "Peruuttaa"
+      },
+      "orders_link_label": "Tilaukset"
     }
   }
 }

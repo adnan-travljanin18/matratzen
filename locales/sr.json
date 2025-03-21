@@ -538,7 +538,9 @@
     "navigation_and_structure": {
       "account_menu": {
         "label": "Konto"
-      }
+      },
+      "action_menu_accessibility_label": "Dodatne akcije",
+      "generic_accessibility_label": "{{label}}: {{value}}"
     }
   }
 }

@@ -466,6 +466,9 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Teslimat adresi"
         }
+      },
+      "billing": {
+        "edit": "Düzenle"
       }
     },
     "pagination": {
@@ -552,7 +555,9 @@
     "navigation_and_structure": {
       "account_menu": {
         "label": "Konto"
-      }
+      },
+      "action_menu_accessibility_label": "Diğer İşlemler",
+      "generic_accessibility_label": "{{label}}: {{value}}"
     }
   }
 }

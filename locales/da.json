@@ -528,6 +528,13 @@
       "edit_payment_method": {
         "cancel_edit_payment_method_button": "Annullere"
       }
+    },
+    "navigation_and_structure": {
+      "action_menu_accessibility_label": "Yderligere handlinger",
+      "delete_confirmation": {
+        "cancel": "Stornere"
+      },
+      "orders_link_label": "Bestillinger"
     }
   }
 }

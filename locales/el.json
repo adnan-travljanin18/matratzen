@@ -530,7 +530,10 @@
     "navigation_and_structure": {
       "account_menu": {
         "label": "Κοντό"
-      }
+      },
+      "action_menu_accessibility_label": "Περισσότερες ενέργειες",
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "navigation_accessibility_message": "Έχεις μεταβεί στο {{sectionName}}"
     }
   }
 }

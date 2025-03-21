@@ -509,6 +509,13 @@
       "edit_payment_method": {
         "cancel_edit_payment_method_button": "Zrušit"
       }
+    },
+    "navigation_and_structure": {
+      "action_menu_accessibility_label": "Další akce",
+      "delete_confirmation": {
+        "cancel": "Zrušit"
+      },
+      "orders_link_label": "Objednávky"
     }
   }
 }
