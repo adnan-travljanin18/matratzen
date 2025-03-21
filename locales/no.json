@@ -236,10 +236,13 @@
         "invalid_delivery_address_reference_handle": "Ingen tilgjengelig leveringsadresse kunne tildeles referansehåndtaket for leveringsadressen."
       },
       "payment_errors": {
-        "pay_later_failed": "Bei behandling av betalingen din med faktura oppstod det en feil. Vennligst velg en annen betalingsmetode og prøv igjen."
+        "pay_later_failed": "Bei behandling av betalingen din med faktura oppstod det en feil. Vennligst velg en annen betalingsmetode og prøv igjen.",
+        "invalid_number": "Skriv inn et gyldig kortnummer",
+        "invalid_expiry_date": "Skriv inn en gyldig utløpsdato"
       },
       "payment_gateway": {
-        "credit_card_label": "Kredittkort"
+        "credit_card_label": "Kredittkort",
+        "generic_payment_terms": "For deg gjelder vilkårene \"{{translatedName}}\". Din betaling forfaller den {{dueDate}}."
       }
     }
   },

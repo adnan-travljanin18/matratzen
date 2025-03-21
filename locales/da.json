@@ -236,7 +236,10 @@
       },
       "payment_errors": {
         "pay_later_failed": "Bei behandlingen af din betaling med faktura opstod der en fejl. Vælg en anden betalingsmetode og prøv igen.",
-        "deferred_amount_changed": "Din betaling kunne ikke behandles, da beløbet for betalingsudskydelsen er ændret. Tjek venligst din ordre og prøv igen."
+        "deferred_amount_changed": "Din betaling kunne ikke behandles, da beløbet for betalingsudskydelsen er ændret. Tjek venligst din ordre og prøv igen.",
+        "invalid_number": "Indtast et gyldigt kortnummer",
+        "card_declined": "Din kort blev afvist. Prøv igen eller brug en anden betalingsmetode.",
+        "successful_offsite_with_gift_card_error": "Der opstod et problem med behandlingen af din betaling med gavekort. Prøv igen eller brug en anden betalingsmetode."
       }
     }
   },

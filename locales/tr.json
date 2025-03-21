@@ -264,7 +264,12 @@
       },
       "payment_errors": {
         "pay_later_failed": "Bei der Bearbeitung deiner Zahlung mit Rechnung ist ein Fehler aufgetreten. Wähle eine andere Zahlungsmethode und versuche es erneut.",
-        "multiple_deferred_payment_not_allowed": "Sadece bir ödeme ertelemesi talep başına izin verilir. Lütfen talebinizi kontrol edin ve tekrar deneyin."
+        "invalid_number": "Geçerli bir kart numarası girin",
+        "invalid_expiry_date": "Geçerli bir son tarih girin",
+        "missing_shipping_address": "Deine Zahlung konnte nicht verarbeitet werden, da du keine Lieferadresse angegeben hast. Füge eine Lieferadresse hinzu und versuche es erneut."
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kredi kartı"
       }
     }
   },

@@ -237,7 +237,12 @@
       },
       "payment_errors": {
         "pay_later_failed": "Un erreur s'est produite lors du traitement de votre paiement par facture. Choisissez un autre mode de paiement et réessayez.",
-        "deferred_amount_changed": "Votre paiement n'a pas pu être traité car le montant du report de paiement a changé. Veuillez vérifier votre commande et réessayer."
+        "deferred_amount_changed": "Votre paiement n'a pas pu être traité car le montant du report de paiement a changé. Veuillez vérifier votre commande et réessayer.",
+        "invalid_number": "Entrez un numéro de carte valide",
+        "invalid_expiry_date": "Entrez une date d'expiration valide"
+      },
+      "payment_gateway": {
+        "deferred_payment_label": "Méthode de paiement à sélectionner plus tard"
       }
     }
   },

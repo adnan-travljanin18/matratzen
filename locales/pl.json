@@ -236,7 +236,10 @@
         "invalid_delivery_address_reference_handle": "Bezugs-Handle der Lieferadresse konnte keiner verfügbaren Lieferadresse zugewiesen werden."
       },
       "payment_errors": {
-        "pay_later_failed": "Przy przetwarzaniu płatności za pomocą faktury wystąpił błąd. Wybierz inną metodę płatności i spróbuj ponownie."
+        "pay_later_failed": "Przy przetwarzaniu płatności za pomocą faktury wystąpił błąd. Wybierz inną metodę płatności i spróbuj ponownie.",
+        "invalid_number": "Wprowadź prawidłowy numer karty",
+        "invalid_expiry_date": "Wprowadź prawidłową datę ważności",
+        "invalid_shipping_address": "Twoja płatność nie mogła zostać przetworzona, ponieważ nie mogliśmy znaleźć Twojego adresu dostawy. Sprawdź swój adres dostawy i spróbuj ponownie."
       },
       "payment_gateway": {
         "credit_card_label": "Karta kredytowa"

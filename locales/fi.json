@@ -231,7 +231,10 @@
       },
       "payment_errors": {
         "pay_later_failed": "Bei der Bearbeitung deiner Zahlung mit Rechnung ist ein Fehler aufgetreten. Wähle eine andere Zahlungsmethode und versuche es erneut.",
-        "deferred_amount_changed": "Sinun maksuaasi ei voitu käsitellä, koska maksun lykkäyksen määrä on muuttunut. Ole hyvä ja tarkista tilauksesi ja yritä uudelleen."
+        "deferred_amount_changed": "Sinun maksuaasi ei voitu käsitellä, koska maksun lykkäyksen määrä on muuttunut. Ole hyvä ja tarkista tilauksesi ja yritä uudelleen.",
+        "invalid_number": "Anna voimassa oleva kortinnumero",
+        "invalid_expiry_date": "Anna voimassa oleva eräpäivä",
+        "successful_offsite_with_gift_card_error": "Bei der Verarbeitung deiner Zahlung mit Geschenkgutschein ist ein Problem aufgetreten. Versuche es erneut oder verwende eine andere Zahlungsmethode."
       }
     }
   },

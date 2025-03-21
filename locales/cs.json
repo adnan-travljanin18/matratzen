@@ -225,7 +225,10 @@
       },
       "payment_errors": {
         "pay_later_failed": "Bei zpracování vaší platby fakturou došlo k chybě. Zvolte jiný způsob platby a zkuste to znovu.",
-        "multiple_deferred_payment_not_allowed": "Nur ein Zahlungsaufschub pro Anfrage erlaubt. Bitte überprüfe deine Anfrage und versuche es erneut."
+        "multiple_deferred_payment_not_allowed": "Nur ein Zahlungsaufschub pro Anfrage erlaubt. Bitte überprüfe deine Anfrage und versuche es erneut.",
+        "invalid_number": "Zadejte platné číslo karty",
+        "card_declined": "Tvoje karta byla zamítnuta. Zkus to znovu nebo použij jinou metodu platby.",
+        "successful_offsite_with_gift_card_error": "Bei zpracování vaší platby dárkovým poukazem došlo k problému. Zkuste to prosím znovu nebo použijte jiný způsob platby."
       }
     }
   },

@@ -261,7 +261,10 @@
         "invalid_delivery_address_reference_handle": "Leveransadressens referenshandtag kunde inte tilldelas någon tillgänglig leveransadress."
       },
       "payment_errors": {
-        "pay_later_failed": "Bei behandlingen av din betalning med faktura uppstod ett fel. Vänligen välj en annan betalningsmetod och försök igen."
+        "pay_later_failed": "Bei behandlingen av din betalning med faktura uppstod ett fel. Vänligen välj en annan betalningsmetod och försök igen.",
+        "invalid_number": "Ange en giltig kortnummer",
+        "invalid_expiry_date": "Ange ett giltigt utgångsdatum",
+        "development_store_order_limit_reached": "Du har nått gränsen för beställningar i Development Shop med denna betalningshanterare. Du måste använda en testbetalningsgateway för att kunna göra ytterligare en beställning. Mer information om %{development_store_order_testing_docs_link}."
       },
       "payment_gateway": {
         "credit_card_label": "Kreditkort"

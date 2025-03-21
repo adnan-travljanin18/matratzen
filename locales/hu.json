@@ -230,7 +230,11 @@
       },
       "payment_errors": {
         "pay_later_failed": "Bei der Bearbeitung deiner Zahlung mit Rechnung ist ein Fehler aufgetreten. Wähle eine andere Zahlungsmethode und versuche es erneut.",
-        "deferred_date_changed": "Deine Zahlung konnte nicht verarbeitet werden, da sich das Datum des Zahlungsaufschubs geändert hat. Bitte überprüfe deine Bestellung und versuche es erneut."
+        "invalid_number": "Írj be egy érvényes kártyaszámot",
+        "invalid_expiry_date": "Érvényes lejárati dátum megadása"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kreditkarte"
       }
     }
   },

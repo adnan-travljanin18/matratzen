@@ -227,7 +227,12 @@
         "invalid_delivery_address_reference_handle": "O identificador de referência do endereço de entrega não pôde ser atribuído a nenhum endereço de entrega disponível."
       },
       "payment_errors": {
-        "pay_later_failed": "Ocorreu um erro ao processar seu pagamento por fatura. Escolha outro método de pagamento e tente novamente."
+        "pay_later_failed": "Ocorreu um erro ao processar seu pagamento por fatura. Escolha outro método de pagamento e tente novamente.",
+        "invalid_number": "Insira um número de cartão válido",
+        "invalid_expiry_date": "Insira uma data de validade válida"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Cartão de Crédito"
       }
     }
   },
