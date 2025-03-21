@@ -431,6 +431,9 @@
           "not_available": "Αυτό το κουπόνι δεν είναι πια διαθέσιμο",
           "generic": "Το κουπόνι δεν μπόρεσε να προστεθεί στο ταμείο"
         }
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Checkout"
       }
     },
     "pagination": {
@@ -583,6 +586,10 @@
             "last_365_days": "Τελευταίοι 12 μήνες"
           }
         }
+      },
+      "order_status": {
+        "confirmed_label": "Επιβεβαιωμένο",
+        "attempted_delivery_description": "Η προσπάθεια παράδοσης δεν ήταν επιτυχής."
       }
     }
   }

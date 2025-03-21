@@ -450,6 +450,9 @@
           "insufficient_funds": "Su questo voucher non è più disponibile alcun saldo",
           "not_available": "Questo voucher non è più disponibile"
         }
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Checkout"
       }
     },
     "pagination": {
@@ -582,6 +585,11 @@
             "last_365_days": "Ultimi 12 mesi"
           }
         }
+      },
+      "order_status": {
+        "confirmed_label": "Confermato",
+        "attempted_delivery_description": "Il tentativo di consegna non è andato a buon fine.",
+        "on_its_way_description": "Questa consegna è in viaggio."
       }
     }
   }

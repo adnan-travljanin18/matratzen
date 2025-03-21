@@ -436,6 +436,9 @@
           "not_available": "Ova kupon više nije dostupan",
           "generic": "Kupon nije mogao biti dodat na naplatu"
         }
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Checkout"
       }
     },
     "pagination": {
@@ -591,6 +594,10 @@
             "last_365_days": "Poslednjih 12 meseci"
           }
         }
+      },
+      "order_status": {
+        "confirmed_label": "Potvrđeno",
+        "attempted_delivery_description": "Pokušaj dostave nije bio uspešan."
       }
     }
   }

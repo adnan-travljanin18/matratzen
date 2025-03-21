@@ -474,6 +474,9 @@
           "not_available": "Цей Gutschein більше недоступний",
           "generic": "Чек на знижку не вдалося додати до оформлення замовлення"
         }
+      },
+      "shop_pay_external": {
+        "title": "Магазин Pay-Checkout"
       }
     },
     "pagination": {
@@ -606,6 +609,10 @@
             "last_365_days": "Останні 12 місяців"
           }
         }
+      },
+      "order_status": {
+        "confirmed_label": "Підтверджено",
+        "attempted_delivery_description": "Спроба доставки не була успішною."
       }
     }
   }

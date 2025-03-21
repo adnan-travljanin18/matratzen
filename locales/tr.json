@@ -474,6 +474,16 @@
           "not_available": "Bu kupon artık mevcut değil",
           "generic": "Der Gutschein checkout'a eklenemedı"
         }
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Checkout"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Gü gift kartı için fiyat 0'dan yüksek olmalıdır."
+          }
+        }
       }
     },
     "pagination": {
@@ -603,6 +613,10 @@
             "last_365_days": "Son 12 Ay"
           }
         }
+      },
+      "order_status": {
+        "delivered_description": "Bu teslimat yapılmıştır.",
+        "attempted_delivery_description": "Teslimat denemesi başarılı olmadı."
       }
     }
   }

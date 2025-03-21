@@ -471,6 +471,16 @@
           "insufficient_funds": "På detta presentkort finns det inget saldo kvar",
           "not_available": "Denna kupong är inte längre tillgänglig"
         }
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Kassa"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Priset för presentkortet måste vara högre än 0."
+          }
+        }
       }
     },
     "pagination": {
@@ -603,6 +613,10 @@
             "last_365_days": "Senaste 12 månader"
           }
         }
+      },
+      "order_status": {
+        "delivered_description": "Denna leverans har levererats.",
+        "attempted_delivery_description": "Leveransförsöket var inte framgångsrikt."
       }
     }
   }

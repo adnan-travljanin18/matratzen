@@ -429,6 +429,12 @@
         "gift_card": {
           "insufficient_funds": "Na tomto poukazu již není žádný zůstatek"
         }
+      },
+      "shop_pay_external": {
+        "title": "Obchod Platba - Pokladna"
+      },
+      "company_location": {
+        "location_title": "Místo"
       }
     },
     "pagination": {
@@ -565,7 +571,8 @@
         }
       },
       "order_status": {
-        "confirmed_label": "Potvrzeno"
+        "confirmed_label": "Potvrzeno",
+        "resume_tracking": "Pokračovat v sledování"
       }
     }
   }

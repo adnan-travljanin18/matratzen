@@ -446,6 +446,9 @@
           "insufficient_funds": "På denne kupongen er det ikke lenger noe saldo",
           "not_available": "Denne kupongen er ikke lenger tilgjengelig"
         }
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Kasse"
       }
     },
     "pagination": {
@@ -578,6 +581,11 @@
             "last_365_days": "De siste 12 månedene"
           }
         }
+      },
+      "order_status": {
+        "confirmed_label": "Bekreftet",
+        "attempted_delivery_description": "Leveringsforsøket var ikke vellykket.",
+        "on_its_way_description": "Denne leveransen er på vei."
       }
     }
   }

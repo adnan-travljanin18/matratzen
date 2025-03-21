@@ -433,6 +433,9 @@
           "not_available": "Ez a kupon már nem elérhető",
           "generic": "A kedvezménykupon nem adható hozzá a pénztárhoz"
         }
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Pénztár"
       }
     },
     "pagination": {
@@ -585,6 +588,10 @@
             "last_365_days": "Utolsó 12 hónap"
           }
         }
+      },
+      "order_status": {
+        "delivered_description": "Ez a szállítmány kézbesítve lett.",
+        "attempted_delivery_description": "A kézbesítési kísérlet nem volt sikeres."
       }
     }
   }

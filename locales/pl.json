@@ -444,6 +444,9 @@
           "insufficient_funds": "Na tym bonie nie ma już salda",
           "not_available": "Ten kupon jest już niedostępny"
         }
+      },
+      "shop_pay_external": {
+        "title": "Sklep Pay-Checkout"
       }
     },
     "pagination": {
@@ -576,6 +579,11 @@
             "last_365_days": "Ostatnie 12 miesięcy"
           }
         }
+      },
+      "order_status": {
+        "confirmed_label": "Potwierdzone",
+        "attempted_delivery_description": "Próba dostarczenia była nieudana.",
+        "confirmed_description": "Otrzymaliśmy twoje zamówienie."
       }
     }
   }

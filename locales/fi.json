@@ -436,6 +436,12 @@
           "insufficient_funds": "Tässä lahjakortissa ei ole enää hyvitystä",
           "not_available": "Tämä kuponki ei ole enää saatavilla"
         }
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Checkout"
+      },
+      "company_location": {
+        "location_title": "Sijainti"
       }
     },
     "pagination": {
@@ -575,7 +581,8 @@
         }
       },
       "order_status": {
-        "confirmed_title": "Tilauksesi on vahvistettu"
+        "confirmed_label": "Vahvistettu",
+        "resume_tracking": "Seurannan jatkaminen"
       }
     }
   }

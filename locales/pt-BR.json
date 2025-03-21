@@ -427,6 +427,9 @@
           "not_available": "Este voucher não está mais disponível",
           "generic": "O cupom não pôde ser adicionado ao checkout"
         }
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Checkout"
       }
     },
     "pagination": {
@@ -579,6 +582,10 @@
             "last_365_days": "Últimos 12 meses"
           }
         }
+      },
+      "order_status": {
+        "confirmed_label": "Confirmado",
+        "attempted_delivery_description": "O esforço de entrega não foi bem-sucedido."
       }
     }
   }

@@ -448,6 +448,12 @@
           "insufficient_funds": "På denne kupon er der ikke længere noget kredit",
           "not_available": "Denne kupon er ikke længere tilgængelig"
         }
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Kassen"
+      },
+      "company_location": {
+        "location_title": "Beliggenhed"
       }
     },
     "pagination": {
@@ -582,7 +588,8 @@
         }
       },
       "order_status": {
-        "confirmed_label": "Bekræftet"
+        "confirmed_label": "Bekræftet",
+        "resume_tracking": "Fortsæt med at spore"
       }
     }
   }

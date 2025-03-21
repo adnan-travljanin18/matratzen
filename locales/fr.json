@@ -446,6 +446,12 @@
           "insufficient_funds": "Sur ce bon, il n'y a plus de crédit",
           "not_available": "Ce bon n'est plus disponible"
         }
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Checkout"
+      },
+      "company_location": {
+        "location_title": "Lieu"
       }
     },
     "pagination": {
@@ -579,7 +585,8 @@
         }
       },
       "order_status": {
-        "delivered_description": "Cette livraison a été livrée."
+        "confirmed_label": "Confirmé",
+        "attempted_delivery_description": "La tentative de livraison n'a pas réussi."
       }
     }
   }
