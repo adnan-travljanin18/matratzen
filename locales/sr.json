@@ -472,6 +472,17 @@
     "notices": {
       "customer": {
         "signup_disabled": "Kreiranje korisničkih naloga je onemogućeno."
+      },
+      "order": {
+        "financial_status": {
+          "voided": "Одузето"
+        },
+        "fulfillment_status": {
+          "partial": "Delimično"
+        },
+        "cancel_reason": {
+          "declined": "Plaćanje odbijeno"
+        }
       }
     }
   },

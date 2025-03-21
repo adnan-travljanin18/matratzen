@@ -408,6 +408,9 @@
           "missing": {
             "city": "Skriv inn en by",
             "billing_city": "Skriv inn en by for denne faktureringsadressen"
+          },
+          "formatting": {
+            "first_name_too_long": "Fornavn inneholder for mange bokstaver"
           }
         },
         "payment_in_progress_title": "Betalingen behandles"
@@ -481,8 +484,11 @@
         "signup_disabled": "Opprettelse av kunde kontoer er deaktivert."
       },
       "order": {
-        "financial_status": {
-          "partially_refunded": "Delvis refundert"
+        "transaction_status": {
+          "failure": "Feilmelding"
+        },
+        "cancel_reason": {
+          "declined": "Betaling avvist"
         }
       }
     }

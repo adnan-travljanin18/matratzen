@@ -412,6 +412,9 @@
           "missing": {
             "city": "Inserisci una città",
             "billing_city": "Inserisci una città per questo indirizzo di fatturazione"
+          },
+          "formatting": {
+            "first_name_too_long": "Vorname contiene troppi caratteri"
           }
         },
         "payment_in_progress_title": "Il pagamento è in fase di elaborazione"
@@ -485,8 +488,11 @@
         "signup_disabled": "Creazione di account clienti è stata disabilitata."
       },
       "order": {
-        "financial_status": {
-          "paid": "Pagato"
+        "transaction_status": {
+          "failure": "Segnalazione di guasto"
+        },
+        "cancel_reason": {
+          "declined": "Pagamento rifiutato"
         }
       }
     }

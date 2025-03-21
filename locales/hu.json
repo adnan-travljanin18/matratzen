@@ -396,6 +396,9 @@
           "missing": {
             "city": "Írj be egy várost",
             "billing_city": "Adj meg egy várost ehhez a számlázási címhez"
+          },
+          "formatting": {
+            "first_name_too_long": "A keresztnevben túl sok betű van"
           }
         }
       },
@@ -466,6 +469,14 @@
     "notices": {
       "customer": {
         "signup_disabled": "A vásárlói fiókok létrehozása letiltva."
+      },
+      "order": {
+        "transaction_status": {
+          "failure": "Zavarbejelentés"
+        },
+        "cancel_reason": {
+          "staff": "Dolgozói hiba"
+        }
       }
     }
   },

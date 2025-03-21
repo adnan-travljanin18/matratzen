@@ -436,6 +436,9 @@
           "missing": {
             "city": "Bir şehir girin",
             "billing_city": "Gib eine Stadt für diese Rechnungsadresse ein"
+          },
+          "formatting": {
+            "first_name_too_long": "Vorname çok fazla harf içeriyor"
           }
         }
       },
@@ -506,6 +509,14 @@
     "notices": {
       "customer": {
         "signup_disabled": "Kunden hesapları oluşturma devre dışı bırakıldı."
+      },
+      "order": {
+        "transaction_status": {
+          "failure": "Arıza Bildirimi"
+        },
+        "cancel_reason": {
+          "declined": "Ödeme reddedildi"
+        }
       }
     }
   },

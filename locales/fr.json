@@ -408,6 +408,9 @@
           },
           "missing": {
             "city": "Entrez une ville"
+          },
+          "formatting": {
+            "first_name_too_long": "Le prénom contient trop de lettres"
           }
         },
         "payment_in_progress_title": "Le paiement est en cours de traitement"
@@ -482,8 +485,11 @@
       },
       "order": {
         "not_available": "Cette commande n'est pas disponible",
-        "financial_status": {
-          "voided": "Annulé"
+        "transaction_status": {
+          "failure": "Rapport de panne"
+        },
+        "cancel_reason": {
+          "declined": "Paiement refusé"
         }
       }
     }

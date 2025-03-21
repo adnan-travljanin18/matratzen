@@ -437,6 +437,9 @@
           "missing": {
             "city": "Введіть місто",
             "billing_city": "Введіть місто для цієї адреси рахунку"
+          },
+          "formatting": {
+            "first_name_too_long": "Ім'я містить забагато літер"
           }
         }
       },
@@ -507,6 +510,14 @@
     "notices": {
       "customer": {
         "signup_disabled": "Створення облікових записів клієнтів було деактивовано."
+      },
+      "order": {
+        "fulfillment_status": {
+          "partial": "Частково"
+        },
+        "cancel_reason": {
+          "staff": "Помилка співробітника"
+        }
       }
     }
   },

@@ -409,6 +409,9 @@
           },
           "missing": {
             "city": "Indtast en by"
+          },
+          "formatting": {
+            "first_name_too_long": "Fornavn indeholder for mange bogstaver"
           }
         },
         "payment_in_progress_title": "Betalingen behandles"
@@ -483,8 +486,11 @@
       },
       "order": {
         "not_available": "Denne ordre er ikke tilgængelig",
-        "financial_status": {
-          "partially_paid": "Delvist betalt"
+        "fulfillment_status": {
+          "unfulfilled": "Ikke udført"
+        },
+        "cancel_reason": {
+          "declined": "Betaling afvist"
         }
       }
     }

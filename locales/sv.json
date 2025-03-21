@@ -434,6 +434,9 @@
           "missing": {
             "city": "Ange en stad",
             "billing_city": "Ange geb en stad för denna fakturaadress"
+          },
+          "formatting": {
+            "first_name_too_long": "Förnamn innehåller för många tecken"
           }
         }
       },
@@ -504,6 +507,14 @@
     "notices": {
       "customer": {
         "signup_disabled": "Skapande av kundkonton har inaktiverats."
+      },
+      "order": {
+        "transaction_status": {
+          "failure": "Störningsrapport"
+        },
+        "cancel_reason": {
+          "declined": "Betalning avvisad"
+        }
       }
     }
   },

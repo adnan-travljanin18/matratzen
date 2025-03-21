@@ -406,6 +406,9 @@
           "missing": {
             "city": "Wprowadź miasto",
             "billing_city": "Wpisz miasto dla tego adresu rozliczeniowego"
+          },
+          "formatting": {
+            "first_name_too_long": "Vorname zawiera zbyt wiele liter"
           }
         },
         "payment_in_progress_title": "Płatność jest przetwarzana"
@@ -479,8 +482,11 @@
         "signup_disabled": "Utworzenie konta klienta zostało wyłączone."
       },
       "order": {
-        "financial_status": {
-          "unpaid": "Nieopłacony"
+        "transaction_status": {
+          "failure": "Zgłoszenie zakłócenia"
+        },
+        "cancel_reason": {
+          "declined": "Płatność odrzucona"
         }
       }
     }

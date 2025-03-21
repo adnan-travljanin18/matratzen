@@ -398,6 +398,9 @@
           },
           "missing": {
             "city": "Anna kaupunki"
+          },
+          "formatting": {
+            "first_name_too_long": "Etunimi sisältää liian monta kirjainta"
           }
         },
         "payment_in_progress_title": "Maksu käsitellään"
@@ -472,8 +475,11 @@
       },
       "order": {
         "not_available": "Tämä tilaus ei ole saatavilla",
-        "financial_status": {
-          "partially_paid": "Osittain maksettu"
+        "transaction_status": {
+          "failure": "Häiriöilmoitus"
+        },
+        "cancel_reason": {
+          "declined": "Maksu hylätty"
         }
       }
     }

@@ -466,7 +466,13 @@
         "signup_disabled": "Vytvoření zákaznických účtů bylo deaktivováno."
       },
       "order": {
-        "not_available": "Tato objednávka není k dispozici"
+        "not_available": "Tato objednávka není k dispozici",
+        "fulfillment_status": {
+          "unfulfilled": "Nepovedeno"
+        },
+        "cancel_reason": {
+          "declined": "Platba zamítnuta"
+        }
       }
     }
   },

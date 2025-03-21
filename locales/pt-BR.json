@@ -460,6 +460,17 @@
     "notices": {
       "customer": {
         "signup_disabled": "A criação de contas de clientes foi desativada."
+      },
+      "order": {
+        "financial_status": {
+          "voided": "Cancelado"
+        },
+        "fulfillment_status": {
+          "partial": "Parcialmente"
+        },
+        "cancel_reason": {
+          "declined": "Pagamento recusado"
+        }
       }
     }
   },
