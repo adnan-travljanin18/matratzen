@@ -151,7 +151,8 @@
         "delivery_title": "Entrega",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} mais",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} Entregas",
-        "split_shipping_multiple_shipment_notice": "Sua encomenda será entregue em várias remessas"
+        "split_shipping_multiple_shipment_notice": "Sua encomenda será entregue em várias remessas",
+        "split_shipping_more_shipping_options": "Mais opções de envio"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -181,7 +182,11 @@
         },
         "saved_credit_card": "Sua carta de crédito salva",
         "local_payment_method_receiver_notice": "Após fazer seu pedido, você receberá os detalhes de pagamento. Realize o pagamento em um caixa eletrônico ou online dentro de {{dueDays}} dias.",
-        "markets_pro_disclaimer_privacy_policy_title": "Declaração de privacidade do comerciante registrado"
+        "markets_pro_disclaimer_privacy_policy_title": "Declaração de privacidade do comerciante registrado",
+        "order_edit_banner_multiple_items_returned": "{{amount}} retornado",
+        "delete_credit_card_modal": {
+          "cancel": "Fechar"
+        }
       }
     }
   },

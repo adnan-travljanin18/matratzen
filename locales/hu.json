@@ -154,7 +154,8 @@
         "delivery_title": "Szállítás",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} további",
         "pre_order_ships_now": "Most most küldve",
-        "split_shipping_multiple_shipment_quantity_label": "%{quantity} szállítás"
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} szállítás",
+        "split_shipping_more_shipping_options": "További szállítási lehetőségek"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -185,7 +186,11 @@
         "gift_card_wrapper": {
           "apply_another_gift_card_label": "További kupon alkalmazása"
         },
-        "markets_pro_disclaimer_privacy_policy": "Adatvédelmi nyilatkozat"
+        "markets_pro_disclaimer_privacy_policy": "Adatvédelmi nyilatkozat",
+        "shop_pay_installments_label": "Vásárolj Részletekben",
+        "delete_credit_card_modal": {
+          "delete": "Törlés"
+        }
       }
     }
   },

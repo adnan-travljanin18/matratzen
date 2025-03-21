@@ -151,7 +151,8 @@
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} dodatkowe",
         "pre_order_ships_now": "Teraz jest wysyłane",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} Dostaw",
-        "split_shipping_multiple_shipment_notice": "Twoje zamówienie zostanie dostarczone w kilku przesyłkach"
+        "split_shipping_multiple_shipment_notice": "Twoje zamówienie zostanie dostarczone w kilku przesyłkach",
+        "split_shipping_more_shipping_options": "Dalsze opcje wysyłki"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Wprowadź adres powiązany z twoją kartą lub metodą płatności.",
@@ -186,7 +187,13 @@
         "expired_cards_info": {
           "other": "Jest %{count} przestarzałych kart, które możesz wyświetlić i edytować w swoim koncie."
         },
-        "markets_pro_disclaimer_privacy_policy": "Polityka prywatności"
+        "markets_pro_disclaimer_privacy_policy": "Polityka prywatności",
+        "add_credit_card_modal": {
+          "title": "Dodaj kartę"
+        },
+        "delete_credit_card_modal": {
+          "delete": "Usunąć"
+        }
       }
     }
   },

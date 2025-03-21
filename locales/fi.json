@@ -151,7 +151,8 @@
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} lisää",
         "pre_order_ships_now": "Nyt lähetetään",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} Toimituksia",
-        "split_shipping_multiple_shipment_notice": "Tilauksesi toimitetaan useassa erässä"
+        "split_shipping_multiple_shipment_notice": "Tilauksesi toimitetaan useassa erässä",
+        "split_shipping_more_shipping_options": "Lisätoimitusvaihtoehtoja"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Syötä kortillesi tai maksutavallesi liitetty osoite.",
@@ -182,7 +183,13 @@
         "expired_cards_info": {
           "other": "On olemassa %{count} vanhentunutta korttia, joita voit tarkastella ja muokata tililläsi."
         },
-        "markets_pro_disclaimer_privacy_policy": "Tietosuojakäytäntö"
+        "markets_pro_disclaimer_privacy_policy": "Tietosuojakäytäntö",
+        "add_credit_card_modal": {
+          "title": "Lisää kortti"
+        },
+        "delete_credit_card_modal": {
+          "delete": "Poistaa"
+        }
       }
     }
   },

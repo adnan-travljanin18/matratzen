@@ -147,7 +147,8 @@
         "missing_shipping_address": "Chybí dodací adresa",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} dalších",
         "pre_order_ships_now": "Bude nyní odesláno",
-        "split_shipping_shipped_by_shop": "Versand durch %{shop_name}"
+        "split_shipping_shipped_by_shop": "Versand durch %{shop_name}",
+        "split_shipping_option_free": "Bezplatná doprava"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Zadej adresu spojenou s tvou kartou nebo platební metodou.",
@@ -178,7 +179,13 @@
         "gift_card_wrapper": {
           "apply_another_gift_card_label": "Použít další slevový kupón"
         },
-        "markets_pro_disclaimer_label": "Indem du unten klickst und deine Bestellung abschließt, stimmst du dem Kauf eines Artikels (von Artikeln) von Global-e als eingetragener Händler für diese Transaktion mit den %{markets_pro_terms} und der %{privacy_policy} von Global-e zu. Global-e je mezinárodní poskytovatel plnění pro %{shop_name}."
+        "markets_pro_disclaimer_label": "Indem du unten klickst und deine Bestellung abschließt, stimmst du dem Kauf eines Artikels (von Artikeln) von Global-e als eingetragener Händler für diese Transaktion mit den %{markets_pro_terms} und der %{privacy_policy} von Global-e zu. Global-e je mezinárodní poskytovatel plnění pro %{shop_name}.",
+        "add_credit_card_modal": {
+          "title": "Přidat kartu"
+        },
+        "delete_credit_card_modal": {
+          "delete": "Smazat"
+        }
       }
     }
   },

@@ -180,7 +180,8 @@
         "delivery_title": "Teslimat",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} daha",
         "pre_order_ships_now": "Şimdi gönderiliyor",
-        "split_shipping_multiple_shipment_quantity_label": "%{quantity} Teslimatlar"
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} Teslimatlar",
+        "split_shipping_more_shipping_options": "Diğer gönderim seçenekleri"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -213,7 +214,13 @@
         "gift_card_wrapper": {
           "apply_another_gift_card_label": "Diğer indirim kuponunu uygulayın"
         },
-        "markets_pro_disclaimer_privacy_policy": "Veri Koruma Beyanı"
+        "markets_pro_disclaimer_privacy_policy": "Veri Koruma Beyanı",
+        "add_credit_card_modal": {
+          "title": "Karte ekle"
+        },
+        "delete_credit_card_modal": {
+          "delete": "Silme"
+        }
       }
     }
   },

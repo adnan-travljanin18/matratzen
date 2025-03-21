@@ -189,7 +189,8 @@
         },
         "delivery_title": "Доставка",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ще",
-        "split_shipping_multiple_shipment_quantity_label": "%{quantity} поставок"
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} поставок",
+        "split_shipping_more_shipping_options": "Інші варіанти доставки"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -228,7 +229,11 @@
         "gift_card_wrapper": {
           "apply_another_gift_card_label": "Застосувати інший купон"
         },
-        "markets_pro_disclaimer_privacy_policy": "Політика конфіденційності"
+        "markets_pro_disclaimer_privacy_policy": "Політика конфіденційності",
+        "shop_pay_installments_label": "Платіть за покупки частинами",
+        "order_edit_banner_items_added": {
+          "other": "%{count} додано"
+        }
       }
     }
   },

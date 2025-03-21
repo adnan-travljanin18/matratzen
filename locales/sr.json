@@ -160,7 +160,8 @@
         },
         "delivery_title": "Isporuka",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} još",
-        "split_shipping_multiple_shipment_quantity_label": "%{quantity} isporuka"
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} isporuka",
+        "split_shipping_more_shipping_options": "Dodatne opcije isporuke"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -193,7 +194,11 @@
         "gift_card_wrapper": {
           "apply_another_gift_card_label": "Primijeniti dodatni kupon"
         },
-        "markets_pro_disclaimer_privacy_policy_title": "Izjava o zaštiti podataka registrovanog trgovca"
+        "markets_pro_disclaimer_privacy_policy_title": "Izjava o zaštiti podataka registrovanog trgovca",
+        "shop_pay_installments_label": "Kupujte na rate",
+        "order_edit_banner_items_added": {
+          "one": "Dodato"
+        }
       }
     }
   },

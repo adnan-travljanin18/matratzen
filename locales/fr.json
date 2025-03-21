@@ -153,7 +153,8 @@
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} autres",
         "pre_order_ships_now": "Maintenant expédié",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} Livraisons",
-        "split_shipping_multiple_shipment_notice": "Votre commande sera livrée en plusieurs envois"
+        "split_shipping_multiple_shipment_notice": "Votre commande sera livrée en plusieurs envois",
+        "split_shipping_more_shipping_options": "Autres options d'expédition"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Entrez l'adresse associée à votre carte ou méthode de paiement.",
@@ -188,7 +189,13 @@
         "saved_credit_cards_modal": {
           "done": "Terminé"
         },
-        "markets_pro_disclaimer_privacy_policy": "Déclaration de confidentialité"
+        "markets_pro_disclaimer_privacy_policy": "Déclaration de confidentialité",
+        "add_credit_card_modal": {
+          "title": "Ajouter une carte"
+        },
+        "delete_credit_card_modal": {
+          "delete": "Supprimer"
+        }
       }
     }
   },
