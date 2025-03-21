@@ -832,6 +832,13 @@
       "links": {
         "tumblr": "Tumblr"
       }
+    },
+    "pagination": {
+      "page": "Seite {{ number }}"
     }
+  },
+  "accessibility": {
+    "skip_to_text": "Pular para o próximo elemento",
+    "error": "Erro"
   }
 }

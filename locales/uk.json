@@ -857,6 +857,15 @@
       "links": {
         "instagram": "Instagram"
       }
+    },
+    "pagination": {
+      "label": "Пагінація"
+    }
+  },
+  "accessibility": {
+    "skip_to_product_info": "Перейти до інформації про продукт",
+    "link_messages": {
+      "external": "Відкриває зовнішній веб-сайт."
     }
   }
 }

@@ -854,8 +854,15 @@
         "share_on_facebook": "Facebook'ta paylaş"
       },
       "links": {
-        "instagram": "Instagram"
+        "instagram": "Instagram",
+        "tiktok": "TikTok"
       }
+    }
+  },
+  "accessibility": {
+    "skip_to_product_info": "Ürün bilgilerine atla",
+    "link_messages": {
+      "new_window": "Bir yeni pencerede açılır."
     }
   }
 }

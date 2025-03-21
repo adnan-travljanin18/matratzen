@@ -831,8 +831,15 @@
         "share_on_twitter": "Tweet sur Twitter"
       },
       "links": {
-        "instagram": "Instagram"
+        "instagram": "Instagram",
+        "tiktok": "TikTok"
       }
+    }
+  },
+  "accessibility": {
+    "skip_to_product_info": "Passer aux informations sur le produit",
+    "link_messages": {
+      "new_window": "Ouvre dans une nouvelle fenêtre."
     }
   }
 }

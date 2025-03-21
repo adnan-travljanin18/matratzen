@@ -837,6 +837,15 @@
       "links": {
         "instagram": "Instagram"
       }
+    },
+    "pagination": {
+      "previous": "Forrige side"
+    }
+  },
+  "accessibility": {
+    "skip_to_product_info": "Gå til produktinformation",
+    "link_messages": {
+      "new_window": "Åbner i et nyt vindue."
     }
   }
 }

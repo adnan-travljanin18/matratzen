@@ -856,8 +856,15 @@
         "share_on_facebook": "Dela på Facebook"
       },
       "links": {
-        "instagram": "Instagram"
+        "instagram": "Instagram",
+        "tiktok": "TikTok"
       }
+    }
+  },
+  "accessibility": {
+    "skip_to_product_info": "Gå till produktinformation",
+    "link_messages": {
+      "new_window": "Öppnas i ett nytt fönster."
     }
   }
 }

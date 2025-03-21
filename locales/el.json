@@ -834,6 +834,15 @@
       "links": {
         "tumblr": "Tumblr"
       }
+    },
+    "pagination": {
+      "label": "Σελιδοποίηση"
+    }
+  },
+  "accessibility": {
+    "skip_to_text": "Μετάβαση στο επόμενο στοιχείο",
+    "link_messages": {
+      "external": "Ανοίγει εξωτερική ιστοσελίδα."
     }
   }
 }

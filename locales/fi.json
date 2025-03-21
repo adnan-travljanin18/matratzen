@@ -823,6 +823,15 @@
       "links": {
         "instagram": "Instagram"
       }
+    },
+    "pagination": {
+      "previous": "Edellinen sivu"
+    }
+  },
+  "accessibility": {
+    "skip_to_product_info": "Siirry tuoteinformaatioon",
+    "link_messages": {
+      "new_window": "Avautuu uudessa ikkunassa."
     }
   }
 }

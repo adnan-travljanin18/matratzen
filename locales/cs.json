@@ -822,6 +822,15 @@
       "links": {
         "instagram": "Instagram"
       }
+    },
+    "pagination": {
+      "previous": "Předchozí stránka"
+    }
+  },
+  "accessibility": {
+    "skip_to_product_info": "Přeskočit na informace o produktu",
+    "link_messages": {
+      "new_window": "Otevírá se v novém okně."
     }
   }
 }

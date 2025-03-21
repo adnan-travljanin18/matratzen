@@ -829,8 +829,15 @@
         "share_on_twitter": "Tweet på Twitter"
       },
       "links": {
-        "instagram": "Instagram"
+        "instagram": "Instagram",
+        "tiktok": "TikTok"
       }
+    }
+  },
+  "accessibility": {
+    "skip_to_product_info": "Gå til produktinformasjon",
+    "link_messages": {
+      "new_window": "Åpner i et nytt vindu."
     }
   }
 }

@@ -840,6 +840,13 @@
       "links": {
         "tumblr": "Tumblr"
       }
+    },
+    "pagination": {
+      "label": "Paginacija"
     }
+  },
+  "accessibility": {
+    "skip_to_text": "Preskoči na sledeći element",
+    "error": "Greška"
   }
 }

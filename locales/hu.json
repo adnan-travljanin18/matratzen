@@ -834,8 +834,15 @@
         "share_on_facebook": "Facebookon megosztás"
       },
       "links": {
-        "tumblr": "Tumblr"
+        "tumblr": "Tumblr",
+        "tiktok": "TikTok"
       }
+    }
+  },
+  "accessibility": {
+    "skip_to_product_info": "Ugrás a termékinformációra",
+    "link_messages": {
+      "new_window": "Megnyit egy új ablakban."
     }
   }
 }
