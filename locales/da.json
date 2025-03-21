@@ -160,7 +160,16 @@
         "apple_pay_payment_error": "Din betaling kunne ikke afsluttes. Prøv igen eller med en anden betalingsmetode.",
         "subscription_agreement_label": "Ein eller flere varer i din indkøbskurv er et udestående køb eller et abonnementkøb. Ved at fortsætte med din betaling accepterer du, at din betalingsmetode automatisk belastes til den pris og med den hyppighed, der er angivet på denne side, indtil betalingsmetoden ophører eller du opsiger den. Alle opsigelser er underlagt %{cancelled}.",
         "subscription_agreement_cancelled": "Stornierungsrichtlinie",
-        "delete_customer_mandate_modal_title": "Vil du fjerne dette betalingskort?"
+        "delete_customer_mandate_modal_title": "Vil du fjerne dette betalingskort?",
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Udfør betalingen via Multibanco eller online baseret på detaljerne nedenfor. Ved spørgsmål eller for at opdatere dine betalingsoplysninger %{contact_us}."
+          }
+        },
+        "purchase_options_agreement_label_html": "Ich forstår, at det drejer sig om en eller flere varer i min indkøbskurv, som er et udestående eller tilbagevendende køb. Ved at fortsætte accepterer jeg <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">afbestillingspolitikken</a> og autoriserer opkrævningen fra min betalingsmetode til de priser, frekvenser og datoer, der er angivet på denne side, indtil min ordre er gennemført, eller indtil jeg annullerer ordren, hvis det er muligt.",
+        "store_credit": {
+          "buying_gift_card": "Du kan ikke bruge shop-kredit til at købe et gavekort"
+        }
       }
     }
   },

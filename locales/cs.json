@@ -153,7 +153,14 @@
         "subscription_agreement_label_html": "Ich rozumím, že souhlasím s odběrem. Bude obnovován za uvedenou cenu a v určené frekvenci, dokud nevyprší nebo <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">nebude zrušen</a>.",
         "subscription_agreement_label": "Ein nebo více položek ve tvém nákupním košíku je nevyřízený nákup nebo nákup na základě předplatného. Pokračováním v platbě souhlasíš s tím, že tvá platební metoda bude automaticky zatížena částkou a s frekvencí uvedenou na této stránce, dokud platnost platební metody neskončí, nebo ji nezrušíš. Všechna zrušení podléhají %{cancelled}.",
         "subscription_agreement_cancelled": "Stornovací politika",
-        "delete_customer_mandate_modal_title": "Chcete tuto platební kartu odstranit?"
+        "delete_customer_mandate_modal_title": "Chcete tuto platební kartu odstranit?",
+        "pending_payment": {
+          "due_notice": "Tvá platba ve výši %{amount_due} je splatná ke dni %{due_date}."
+        },
+        "purchase_options_agreement_label_html": "Ich rozumím, že se jedná o jeden nebo více položek v mém nákupním košíku, které představují neuhrazený nebo opakovaný nákup. Pokračováním souhlasím s \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">podmínkami zrušení</a>\na povoluji zpracování mé platební metody podle cen, frekvencí a dat uvedených na této stránce, dokud nebude moje objednávka zpracována nebo dokud neodvolám objednávku, pokud to bude možné.",
+        "store_credit": {
+          "buying_gift_card": "Nemůžeš použít kredit obchodu k zakoupení dárkového poukazu"
+        }
       }
     }
   },

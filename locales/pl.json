@@ -161,6 +161,15 @@
         },
         "google": {
           "connect": "Kliknij tutaj, aby połączyć się z kontem Google Pay"
+        },
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Wykonaj płatność za pomocą Multibanco lub online według szczegółów poniżej. W przypadku pytań lub aktualizacji danych płatniczych %{contact_us}."
+          }
+        },
+        "purchase_options_agreement_label_html": "Ich rozumiem, że artykuł lub artykuły w moim koszyku stanowią oczekującą lub powtarzającą się transakcję zakupu. Kontynuując, zgadzam się z\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Polityką anulowania</a>\ni autoryzuję obciążenie mojej metody płatności według cen, częstotliwości i dat podanych na tej stronie, aż do zrealizowania mojego zamówienia lub do momentu, w którym anuluję zamówienie, jeśli to możliwe.",
+        "store_credit": {
+          "manage_label": "Zarządzaj saldo sklepu"
         }
       }
     }

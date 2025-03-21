@@ -163,7 +163,16 @@
         "google": {
           "connect": "Fai clic qui per collegarti al tuo account Google Pay"
         },
-        "klarna_label": "Klarna"
+        "klarna_label": "Klarna",
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Esegui il pagamento tramite Multibanco o online seguendo i dettagli qui sotto. In caso di domande o per aggiornare i tuoi dettagli di pagamento %{contact_us}."
+          }
+        },
+        "purchase_options_agreement_label_html": "Ich capisco che un articolo o più articoli nel mio carrello rappresentano un acquisto in sospeso o ricorrente. Continuando, accetto la \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">politica di cancellazione</a>\ne autorizzo il caricamento del mio metodo di pagamento ai prezzi, frequenze e date specificati in questa pagina, fino a quando il mio ordine non sarà elaborato o fino a quando non cancello l'ordine, se possibile.",
+        "store_credit": {
+          "manage_label": "Gestire il credito del negozio"
+        }
       }
     }
   },

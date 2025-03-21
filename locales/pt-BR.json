@@ -147,7 +147,8 @@
             "one": "%{shipping_price} para %{count} entregas, depois %{recurring_order_shipping_price}",
             "other": "%{shipping_price} para %{count} entregas (%{per_delivery_cost}), depois %{recurring_order_shipping_price}"
           }
-        }
+        },
+        "delivery_title": "Entrega"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -162,7 +163,9 @@
         "different_credit_card_label": "Use um cartão de crédito diferente",
         "credit_card_vaulting_sign_in_banner_title": "Salve seu cartão de crédito",
         "ftd_vault_credit_card_label": "Esta cartão de crédito em minha conta para acelerar o checkout",
-        "klarna_label": "Klarna"
+        "receiver_payment_experience_hint": "Depois de fazer seu pedido, você receberá os detalhes de pagamento. Realize o pagamento dentro de %{due_days} dias pelo Multibanco ou online.",
+        "purchase_options_agreement_label_html": "Ich verstehe, dass es sich bei einem Artikel oder mehreren Artikeln in meinem Warenkorb um einen ausstehenden oder wiederkehrenden Kauf handelt. Durch das Fortfahren stimme ich der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Kündigungsrichtlinie</a> zu und autorisiere die Belastung meiner Zahlungsmethode zu den auf dieser Seite angegebenen Preisen, Häufigkeiten und Daten, bis meine Bestellung ausgeführt wurde oder bis ich die Bestellung, sofern möglich, storniere.",
+        "order_covered_by_store_credit_notice": "Sua encomenda será coberta pelo seu saldo da loja."
       }
     }
   },

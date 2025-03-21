@@ -161,6 +161,15 @@
         },
         "google": {
           "connect": "Klikk her for å koble til Google Pay-kontoen din"
+        },
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Utfør betalingen via Multibanco eller online basert på detaljene nedenfor. Hvis du har spørsmål eller ønsker å oppdatere betalingsdetaljene dine %{contact_us}."
+          }
+        },
+        "purchase_options_agreement_label_html": "<p>Jeg forstår at det er en eller flere varer i handlekurven min som gjelder et utestående eller gjentatte kjøp. Ved å fortsette godtar jeg <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbestillingsreglene</a> og autoriserer belastningen av betalingsmetoden min til prisene, frekvensene og datoene som er angitt på denne siden, inntil bestillingen min er fullført, eller inntil jeg avbestiller ordren, dersom det er mulig.</p>",
+        "store_credit": {
+          "manage_label": "Administrere butikkpenger"
         }
       }
     }

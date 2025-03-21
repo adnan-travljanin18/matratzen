@@ -192,7 +192,16 @@
         "apple": {
           "not_available": "Apple Pay bu tarayıcıda mevcut değil. Apple Pay hesabını bağlamak istiyorsan, lütfen bir Apple cihazında Safari'yi kullan."
         },
-        "delete_customer_mandate_modal_title": "Bu ödeme kartını kaldırmak mı?"
+        "delete_customer_mandate_modal_title": "Bu ödeme kartını kaldırmak mı?",
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Fatura işlemini aşağıdaki bilgilere göre Multibanco veya çevrimiçi olarak gerçekleştirin. Sorularınız varsa veya ödeme bilgilerinizi %{contact_us} güncellemek için."
+          }
+        },
+        "purchase_options_agreement_label_html": "Ich anlıyorum ki, sepetime eklediğim bir veya birden fazla ürün, bekleyen veya tekrarlanan bir satın alma işlemine tabidir. Devam ederek, \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">iptal politikası</a>\n ile aynı zamanda bu sayfada belirtilen fiyatlar, sıklıklar ve tarihler üzerinden ödeme yöntemimin ücretlendirilmesini yetkilendiriyorum, siparişim yerine getirilene kadar veya siparişi, mümkünse, iptal edene kadar.",
+        "store_credit": {
+          "no_fixed_selling_plans": "Du kannst Shop-Guthaben nicht für seçenekler satın almak için ödeme ertelemesiyle kullanamazsınız"
+        }
       }
     }
   },

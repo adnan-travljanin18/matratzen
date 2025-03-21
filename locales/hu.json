@@ -166,7 +166,16 @@
         "apple": {
           "not_available": "Apple Pay nem elérhető ebben a böngészőben. Ha szeretnéd összekapcsolni az Apple Pay-fiókodat, kérlek, használd a Safari-t egy Apple eszközön."
         },
-        "ftd_vault_credit_card_label": "Ezt a hitelkártyát a fiókomban tárolni, hogy felgyorsítsam a pénztár folyamatot"
+        "ftd_vault_credit_card_label": "Ezt a hitelkártyát a fiókomban tárolni, hogy felgyorsítsam a pénztár folyamatot",
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Fizesd ki a Multibanco vagy online részletezése alapján az alábbiakat. Kérdés esetén vagy a fizetési adatok frissítéséhez %{contact_us}."
+          }
+        },
+        "purchase_options_agreement_label_html": "Ich értem, hogy a kosaramban lévő egy vagy több termék egy függőben lévő vagy ismétlődő vásárlásra vonatkozik. A folytatással egyetértek a <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">lemondási irányelvekkel</a>, és engedélyezem a fizetési módom terhelését az ezen az oldalon megadott árakon, gyakoriságokon és dátumokon, amíg a rendelésemet teljesítik, vagy amíg a rendelést, ha lehetséges, lemondom.",
+        "store_credit": {
+          "no_fixed_selling_plans": "Nem használhatod a bolt egyenlegét a halasztott fizetési lehetőségek vásárlásához"
+        }
       }
     }
   },

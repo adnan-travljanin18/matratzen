@@ -192,6 +192,15 @@
         },
         "google": {
           "connect": "Klicka här för att koppla ditt Google Pay-konto"
+        },
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Fyll i betalningen via Multibanco eller online baserat på detaljerna nedan. Vid frågor eller för att uppdatera dina betalningsuppgifter %{contact_us}."
+          }
+        },
+        "purchase_options_agreement_label_html": "Ich förstår att en artikel eller flera artiklar i min kundvagn utgör ett utestående eller återkommande köp. Genom att fortsätta godkänner jag \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbeställningspolicy</a>\noch auktoriserar belastningen av min betalningsmetod enligt de priser, frekvenser och datum som anges på denna sida, tills min beställning har genomförts eller tills jag avbryter beställningen, om möjligt.",
+        "store_credit": {
+          "manage_label": "Hantera butikskrediten"
         }
       }
     }

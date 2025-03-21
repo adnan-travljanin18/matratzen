@@ -157,7 +157,16 @@
         "subscription_agreement_label": "Ein oder mehrere Artikel in deinem Warenkorb sind ein ausstehender Kauf oder ein Abonnementkauf. Indem du mit deiner Zahlung fortfährst, stimmst du zu, dass deine Zahlungsmethode automatisch zu dem Preis und mit der Häufigkeit, die auf dieser Seite aufgeführt sind, belastet wird, bis die Zahlungsmethode endet oder du sie kündigst. Alle Kündigungen unterliegen der %{cancelled}.",
         "different_credit_card_label": "Käytä toista luottokorttia",
         "delete_customer_mandate_modal_title": "Poistetaanko tämä maksukortti?",
-        "klarna_label": "Klarna"
+        "klarna_label": "Klarna",
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Suorita maksu Multibanco- tai verkkopalvelussa alla olevien tietojen mukaisesti. Jos sinulla on kysyttävää tai haluat päivittää maksutietojasi, %{contact_us}."
+          }
+        },
+        "purchase_options_agreement_label_html": "Ich ymmärrän, että ostoskorissani oleva tuote tai useat tuotteet ovat odottavia tai toistuvia ostoja. Jatkamalla hyväksyn \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">peruutuskäytännön</a>\nja annan valtuutuksen maksutapani veloittamiseen tällä sivulla ilmoitettujen hintojen, aikataulujen ja päivämäärien mukaan, kunnes tilaukseni on suoritettu tai kunnes peruutan tilauksen, jos se on mahdollista.",
+        "store_credit": {
+          "buying_gift_card": "Et voi käyttää kaupan saldoa ostaaksesi lahjakortin"
+        }
       }
     }
   },
