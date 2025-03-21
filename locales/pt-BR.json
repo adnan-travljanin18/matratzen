@@ -944,5 +944,10 @@
   "localization": {
     "country_label": "TODO",
     "language_label": "TODO"
+  },
+  "pagefly": {
+    "password_page": {
+      "signup_form_email_label": "E-mail"
+    }
   }
 }

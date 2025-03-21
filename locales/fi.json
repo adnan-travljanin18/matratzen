@@ -947,6 +947,9 @@
       "product": {
         "sold_out": "Loppuunmyyty"
       }
+    },
+    "password_page": {
+      "signup_form_email_label": "Sähköposti"
     }
   }
 }

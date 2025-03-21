@@ -974,6 +974,9 @@
       "product": {
         "sold_out": "Tükendi"
       }
+    },
+    "password_page": {
+      "signup_form_email_label": "E-Posta"
     }
   }
 }

@@ -978,6 +978,9 @@
       "product": {
         "sold_out": "Utförsäljning"
       }
+    },
+    "password_page": {
+      "signup_form_email_label": "E-post"
     }
   }
 }

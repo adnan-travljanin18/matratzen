@@ -959,6 +959,9 @@
       "product": {
         "sold_out": "Udsalg"
       }
+    },
+    "comments": {
+      "name": "Efternavn"
     }
   }
 }

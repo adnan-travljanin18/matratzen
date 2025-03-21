@@ -954,6 +954,9 @@
       "product": {
         "sold_out": "Kifogyott"
       }
+    },
+    "password_page": {
+      "signup_form_email_label": "E-Mail"
     }
   }
 }

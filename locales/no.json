@@ -953,6 +953,9 @@
       "product": {
         "sold_out": "Utsolgt"
       }
+    },
+    "password_page": {
+      "signup_form_email_label": "E-post"
     }
   }
 }

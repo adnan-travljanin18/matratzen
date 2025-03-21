@@ -963,6 +963,9 @@
       "product": {
         "sold_out": "Esaurito"
       }
+    },
+    "password_page": {
+      "signup_form_email_label": "E-Mail"
     }
   }
 }

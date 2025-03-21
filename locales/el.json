@@ -952,6 +952,9 @@
       "product": {
         "sold_out": "Εξαντλημένο"
       }
+    },
+    "password_page": {
+      "signup_form_email_label": "E-Mail"
     }
   }
 }
