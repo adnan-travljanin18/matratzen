@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Betalingsbetingelserne blev ikke opfyldt, da varerne ikke kan udføres fra den samme placering."
+          },
+          "payment": {
+            "subscription_terms_not_accepted": "Abonnementsbetingelserne blev ikke accepteret.",
+            "credit_card_update_failed": "Opdateringen af kreditkortet er mislykket.",
+            "installments_test_mode_not_allowed": "Testtilstand er ikke tilladt.",
+            "shop_cash_unsupported_shipping": "Butik Cash understøtter ikke merchandiseartikler uden forsendelse."
           }
         }
       }

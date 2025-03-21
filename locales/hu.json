@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "A teljesítési feltételek nem teljesültek, mivel az áruk nem ugyanazon a helyszínen hajthatók végre."
+          },
+          "payment": {
+            "subscription_terms_not_accepted": "A szolgáltatási feltételek nem lettek elfogadva.",
+            "credit_card_update_failed": "A hitelesítés a hitelkártyával meghiúsult.",
+            "installments_test_mode_not_allowed": "A tesztmód nem engedélyezett.",
+            "shop_cash_unsupported_checkout_source": "A Bolt Cash nem támogatja ezt a pénztári folyamatot."
           }
         }
       }

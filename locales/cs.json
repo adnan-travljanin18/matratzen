@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Podmínky plnění nebyly splněny, protože položky nemohou být provedeny na stejné lokalitě."
+          },
+          "payment": {
+            "positive_amount_expected": "Výše platební částky musí být větší než 0.",
+            "credit_card_update_failed": "Aktualizace kreditní karty se nezdařila.",
+            "installments_amount_invalid": "Neplatná částka pro transakci v splátkách.",
+            "shop_cash_unsupported_shipping": "Shop Cash nepodporuje žádné zboží bez dopravy."
           }
         }
       }

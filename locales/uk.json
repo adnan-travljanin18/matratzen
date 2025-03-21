@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Умови виконання не були виконані, оскільки товари не можуть бути виконані в одному і тому ж місці."
+          },
+          "payment": {
+            "subscription_terms_not_accepted": "Умови підписки не були прийняті.",
+            "credit_card_update_failed": "Оновлення кредитної карти не вдалося.",
+            "installments_test_mode_not_allowed": "Тестовий режим не дозволений.",
+            "shop_cash_unsupported_checkout_source": "Магазин Cash не підтримує цей метод оплати."
           }
         }
       }

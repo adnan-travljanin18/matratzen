@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Les conditions de fulfillment n'ont pas été remplies, car les articles ne peuvent pas être exécutés au même emplacement."
+          },
+          "payment": {
+            "subscription_terms_not_accepted": "Les conditions d'abonnement n'ont pas été acceptées.",
+            "gateway_not_supported": "La passerelle de paiement ne prend pas en charge le stockage du mode de paiement.",
+            "installments_amount_invalid": "Montant invalide pour la transaction par versements.",
+            "shop_cash_unsupported_shipping": "La boutique Cash ne prend pas en charge les articles de marchandises sans expédition."
           }
         }
       }

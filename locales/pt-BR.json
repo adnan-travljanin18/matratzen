@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "As condições de cumprimento não foram atendidas, pois os itens não podem ser realizados na mesma localidade."
+          },
+          "payment": {
+            "subscription_terms_not_accepted": "As condições de assinatura não foram aceitas.",
+            "credit_card_update_failed": "A atualização do cartão de crédito falhou.",
+            "installments_test_mode_not_allowed": "O modo de teste não é permitido.",
+            "shop_cash_unsupported_checkout_source": "A Shop Cash não suporta este checkout."
           }
         }
       }

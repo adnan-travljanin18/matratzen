@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Fulfillment şartları sağlanmadı, çünkü ürünler aynı konumda yapılamaz."
+          },
+          "payment": {
+            "positive_amount_expected": "Ödenecek tutar 0'dan büyük olmalıdır.",
+            "credit_card_update_failed": "Kredi kartının güncellenmesi başarısız oldu.",
+            "installments_test_mode_not_allowed": "Test modu kullanılamaz.",
+            "shop_cash_unsupported_checkout_source": "Shop Cash bu ödeme yöntemini desteklemiyor."
           }
         }
       }

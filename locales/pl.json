@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Warunki realizacji zamówienia nie zostały spełnione, ponieważ artykuły nie mogą być realizowane w tym samym miejscu."
+          },
+          "payment": {
+            "subscription_terms_not_accepted": "Warunki subskrypcji nie zostały zaakceptowane.",
+            "credit_card_update_failed": "Aktualizacja karty kredytowej nie powiodła się.",
+            "installments_amount_invalid": "Nieprawidłowa kwota dla transakcji ratalnej.",
+            "shop_cash_unsupported_shipping": "Sklep Cash nie wspiera artykułów merchandisowych bez wysyłki."
           }
         }
       }

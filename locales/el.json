@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Οι όροι εκπλήρωσης δεν πληρούνται, καθώς τα αντικείμενα δεν μπορούν να εκτελούνται στον ίδιο τόπο."
+          },
+          "payment": {
+            "subscription_terms_not_accepted": "Οι όροι συνδρομής δεν έγιναν αποδεκτοί.",
+            "credit_card_update_failed": "Η ενημέρωση της πιστωτικής κάρτας απέτυχε.",
+            "installments_test_mode_not_allowed": "Ο τρόπος δοκιμής δεν επιτρέπεται.",
+            "shop_cash_unsupported_checkout_source": "Το Shop Cash δεν υποστηρίζει αυτήν τη διαδικασία ολοκλήρωσης της παραγγελίας."
           }
         }
       }

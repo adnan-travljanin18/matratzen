@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Fulfillment-betingelsene ble ikke oppfylt, da varene ikke kan utføres på samme sted."
+          },
+          "payment": {
+            "subscription_terms_not_accepted": "Abonnementsbetingelsene ble ikke akseptert.",
+            "credit_card_update_failed": "Oppdateringen av kredittkortet mislyktes.",
+            "installments_amount_invalid": "Ugyldig beløp for avdragsbetaling.",
+            "shop_cash_unsupported_shipping": "Butikk Cash støtter ikke merchandise-artikler uten frakt."
           }
         }
       }

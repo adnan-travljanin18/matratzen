@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "uslovi ispunjenja nisu ispunjeni, jer se artikli ne mogu izvršiti na istoj lokaciji."
+          },
+          "payment": {
+            "subscription_terms_not_accepted": "Услови претплате нису прихваћени.",
+            "credit_card_update_failed": "Ažuriranje kreditne kartice nije uspelo.",
+            "installments_test_mode_not_allowed": "Testni režim nije dozvoljen.",
+            "shop_cash_unsupported_checkout_source": "Prodavnica Cash ne podržava ovu naplatu."
           }
         }
       }

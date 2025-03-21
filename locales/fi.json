@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Täyttämisehdot eivät täyttyneet, koska artikkeleita ei voida suorittaa samalla sijainnilla."
+          },
+          "payment": {
+            "subscription_terms_not_accepted": "Tilausehdot eivät olleet hyväksyttäviä.",
+            "credit_card_update_failed": "Korttipäivitys epäonnistui.",
+            "installments_test_mode_not_allowed": "Testitila ei ole sallittu.",
+            "shop_cash_unsupported_shipping": "Shop Cash ei tue merchandise-tuotteita ilman toimitusta."
           }
         }
       }

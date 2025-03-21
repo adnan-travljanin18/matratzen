@@ -18,6 +18,12 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Villkoren för fullgörande har inte uppfyllts, eftersom artiklarna inte kan utföras på samma plats."
+          },
+          "payment": {
+            "subscription_terms_not_accepted": "Abonnemangs villkoren accepterades inte.",
+            "credit_card_update_failed": "Uppdateringen av kreditkortet misslyckades.",
+            "installments_test_mode_not_allowed": "Testläge är inte tillåtet.",
+            "shop_cash_unsupported_checkout_source": "Shop Cash stöder inte denna kassa."
           }
         }
       }
