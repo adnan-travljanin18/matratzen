@@ -143,7 +143,11 @@
             "other": "%{shipping_price} for %{count} leveranser (%{per_delivery_cost}), deretter %{recurring_order_shipping_price}"
           }
         },
-        "delivery_tomorrow": "Levering neste dag klokken %{time}"
+        "delivery_tomorrow": "Levering neste dag klokken %{time}",
+        "local_pickup": {
+          "search_address": "Søk etter adresse"
+        },
+        "delivery_title": "Levering"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Skriv inn adressen som er knyttet til kortet ditt eller betalingsmetoden.",
@@ -154,6 +158,9 @@
         "subscription_agreement_label": "Ein eller flere artikler i handlekurven din er et utestående kjøp eller et abonnementskjøp. Ved å fortsette med betalingen godtar du at betalingsmetoden din automatisk belastes til den prisen og med den frekvensen som er oppgitt på denne siden, inntil betalingsmetoden avsluttes eller du sier den opp. Alle oppsigelser er underlagt %{cancelled}.",
         "apple": {
           "not_available": "Apple Pay er ikke tilgjengelig i denne nettleseren. Hvis du vil koble til Apple Pay-kontoen din, vennligst bruk Safari på en Apple-enhet."
+        },
+        "google": {
+          "connect": "Klikk her for å koble til Google Pay-kontoen din"
         }
       }
     }

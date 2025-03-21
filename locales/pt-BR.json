@@ -158,7 +158,11 @@
         "bank_picker_label": "Banco",
         "klarna_slice_it_label": "Financiamento com Klarna",
         "subscription_agreement_label_html": "Ich entendo que estou concordando com uma assinatura. Ela será renovada pelo preço listado e na frequência estabelecida, até que expire ou <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">seja cancelada</a>.",
-        "subscription_agreement_label": "Ein ou mais itens no seu carrinho são uma compra pendente ou uma compra por assinatura. Ao continuar com seu pagamento, você concorda que seu método de pagamento será cobrado automaticamente pelo preço e com a frequência listados nesta página, até que o método de pagamento termine ou você o cancele. Todos os cancelamentos estão sujeitos ao %{cancelled}."
+        "subscription_agreement_label": "Ein ou mais itens no seu carrinho são uma compra pendente ou uma compra por assinatura. Ao continuar com seu pagamento, você concorda que seu método de pagamento será cobrado automaticamente pelo preço e com a frequência listados nesta página, até que o método de pagamento termine ou você o cancele. Todos os cancelamentos estão sujeitos ao %{cancelled}.",
+        "different_credit_card_label": "Use um cartão de crédito diferente",
+        "credit_card_vaulting_sign_in_banner_title": "Salve seu cartão de crédito",
+        "ftd_vault_credit_card_label": "Esta cartão de crédito em minha conta para acelerar o checkout",
+        "klarna_label": "Klarna"
       }
     }
   },

@@ -144,6 +144,9 @@
         "delivery_tomorrow": "Toimitus seuraavana päivänä klo %{time}",
         "address_form": {
           "one_time_address_subtitle": "Yksi ainutlaatuinen osoite tälle tilaukselle"
+        },
+        "method_summary": {
+          "incomplete_address_selected": "Valitse täydellinen toimitusosoite nähdäksesi käytettävissä olevat toimitustavat."
         }
       },
       "payment": {
@@ -152,7 +155,9 @@
         "klarna_slice_it_label": "Rahoitus Klarna kanssa",
         "apple_pay_payment_error": "Maksuasi ei onnistunut. Yritä uudelleen tai käytä toista maksutapaa.",
         "subscription_agreement_label": "Ein oder mehrere Artikel in deinem Warenkorb sind ein ausstehender Kauf oder ein Abonnementkauf. Indem du mit deiner Zahlung fortfährst, stimmst du zu, dass deine Zahlungsmethode automatisch zu dem Preis und mit der Häufigkeit, die auf dieser Seite aufgeführt sind, belastet wird, bis die Zahlungsmethode endet oder du sie kündigst. Alle Kündigungen unterliegen der %{cancelled}.",
-        "different_credit_card_label": "Käytä toista luottokorttia"
+        "different_credit_card_label": "Käytä toista luottokorttia",
+        "delete_customer_mandate_modal_title": "Poistetaanko tämä maksukortti?",
+        "klarna_label": "Klarna"
       }
     }
   },

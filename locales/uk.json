@@ -186,7 +186,8 @@
             "one": "%{shipping_price} за %{count} доставку, потім %{recurring_order_shipping_price}",
             "other": "%{shipping_price} для %{count} доставок (%{per_delivery_cost}), після цього %{recurring_order_shipping_price}"
           }
-        }
+        },
+        "delivery_title": "Доставка"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -198,7 +199,11 @@
         "klarna_slice_it_label": "Фінансування з Klarna",
         "apple_pay_payment_error": "Твою оплату не вдалося завершити. Спробуй ще раз або скористайся іншим способом оплати.",
         "subscription_agreement_label": "Один або кілька товарів у вашому кошику є очікуючою покупкою або покупкою за підпискою. Продовжуючи з оплатою, ви погоджуєтеся на те, що ваш метод оплати автоматично нараховуватиметься за ціною та з частотою, зазначеними на цій сторінці, поки метод оплати не закінчиться або ви його не скасуєте. Всі скасування підлягають %{cancelled}.",
-        "card_verification_confirm": "Введіть код безпеки вашої картки для перевірки."
+        "apple": {
+          "not_available": "Apple Pay недоступний у цьому браузері. Якщо ви хочете підключити свій обліковий запис Apple Pay, будь ласка, скористайтеся Safari на пристрої Apple."
+        },
+        "credit_card_vaulting_sign_in_banner_title": "Збережіть свою кредитну картку",
+        "ftd_vault_credit_card_label": "Зберегти цю кредитну картку в моєму обліковому записі, щоб пришвидшити оформлення покупки"
       }
     }
   },

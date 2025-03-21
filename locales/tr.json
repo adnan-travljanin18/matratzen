@@ -173,7 +173,11 @@
             "one": "%{shipping_price} için %{count} teslimat, ardından %{recurring_order_shipping_price}"
           }
         },
-        "arrives_time": "Giriş %{time}"
+        "arrives_time": "Giriş %{time}",
+        "local_pickup": {
+          "search_address": "Adres Ara"
+        },
+        "delivery_title": "Teslimat"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -187,7 +191,8 @@
         "subscription_agreement_label": "Ein veya daha fazla öğe sepetinde bekleyen bir satın alma veya abonelik satın almasıdır. Ödemenize devam ederek, bu sayfada belirtilen fiyat ve sıklıkla otomatik olarak ödemenizden tahsilat yapılmasına onay verdiğinizi beyan etmiş olursunuz, ta ki ödeme yöntemi sona erene veya iptal edilene kadar. Tüm iptaller %{cancelled} şartlarına tabidir.",
         "apple": {
           "not_available": "Apple Pay bu tarayıcıda mevcut değil. Apple Pay hesabını bağlamak istiyorsan, lütfen bir Apple cihazında Safari'yi kullan."
-        }
+        },
+        "delete_customer_mandate_modal_title": "Bu ödeme kartını kaldırmak mı?"
       }
     }
   },

@@ -146,6 +146,9 @@
         "delivery_tomorrow": "Livraison le lendemain à %{time}",
         "address_form": {
           "one_time_address_subtitle": "Une adresse unique pour cette commande"
+        },
+        "local_pickup": {
+          "search_address": "Chercher par adresse"
         }
       },
       "payment": {
@@ -156,7 +159,11 @@
         "subscription_agreement_label": "Un ou plusieurs articles dans votre panier sont un achat en attente ou un achat par abonnement. En poursuivant votre paiement, vous acceptez que votre mode de paiement soit automatiquement facturé au prix et à la fréquence indiqués sur cette page, jusqu'à ce que le mode de paiement prenne fin ou que vous l'annuliez. Toutes les annulations sont soumises à la %{cancelled}.",
         "apple": {
           "not_available": "Apple Pay n'est pas disponible dans ce navigateur. Si vous souhaitez connecter votre compte Apple Pay, veuillez utiliser Safari sur un appareil Apple."
-        }
+        },
+        "google": {
+          "connect": "Cliquez ici pour vous connecter à votre compte Google Pay"
+        },
+        "klarna_label": "Klarna"
       }
     }
   },

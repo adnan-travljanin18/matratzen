@@ -157,7 +157,8 @@
             "one": "%{shipping_price} за %{count} испоруку, а затим %{recurring_order_shipping_price}",
             "other": "%{shipping_price} za %{count} isporuke (%{per_delivery_cost}), nakon toga %{recurring_order_shipping_price}"
           }
-        }
+        },
+        "delivery_title": "Isporuka"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -169,7 +170,9 @@
         "klarna_slice_it_label": "Finansiranje sa Klarna",
         "subscription_agreement_label_html": "Ich razumem da pristajem na pretplatu. Ona će se obnavljati po navedenoj ceni i u utvrđenoj učestalosti, sve dok ne istekne ili <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">nije otkazana</a>.",
         "subscription_agreement_label": "Ein ili više artikala u vašoj korpi su predmet očekivane kupovine ili kupovine na pretplatu. Nastavljanjem s vašom uplatom, slažete se da će vaša metoda plaćanja biti automatski teretjena po ceni i s učestalosti navedenom na ovoj stranici, sve dok metoda plaćanja ne istekne ili dok je ne otkažete. Sva otkazivanja podložna su %{cancelled}.",
-        "card_expired": "Isteklo"
+        "different_credit_card_label": "Koristi drugu kreditnu karticu",
+        "credit_card_vaulting_sign_in_banner_title": "Sačuvaj svoju kreditnu karticu",
+        "ftd_vault_credit_card_label": "Čuvanje ove kreditne kartice u mom nalogu kako bih ubrzao proces plaćanja."
       }
     }
   },
