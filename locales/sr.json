@@ -661,6 +661,11 @@
       "no_data": "Нема",
       "mobile_summary_toggle_button": {
         "open": "Prikaži pregled narudžbine"
+      },
+      "marketing_description": "Dobijaš marketinške e-poruke. Možeš se odjaviti u bilo kojem trenutku.",
+      "marketing_checkmark_label": "Završili ste pretplatu za primanje vesti i ponuda putem e-pošte",
+      "shop_order_tracking": {
+        "real_time_delivery_updates": "Prodavnica ti šalje ažuriranja o isporuci u realnom vremenu, čim tvoja porudžbina bude poslata."
       }
     }
   }

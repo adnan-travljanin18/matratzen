@@ -654,7 +654,11 @@
       "mobile_summary_toggle_button": {
         "open": "Afficher le résumé de la commande"
       },
-      "marketing_description": "Vous recevrez des e-mails marketing. Vous pouvez vous désinscrire à tout moment."
+      "marketing_description": "Vous recevrez des e-mails marketing. Vous pouvez vous désinscrire à tout moment.",
+      "marketing_checkmark_label": "Vous avez souscrit à un abonnement pour recevoir des nouvelles et des offres par e-mail.",
+      "edit_summary": {
+        "added": "Ajouté"
+      }
     }
   }
 }

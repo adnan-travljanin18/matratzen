@@ -658,8 +658,10 @@
       "mobile_summary_toggle_button": {
         "open": "Megjeleníti a rendelési áttekintést"
       },
-      "shipment_timeline": {
-        "hide_events_accessibility_label": "A rendelés szállítási részleteit elrejteni"
+      "marketing_description": "Marketing e-maileket kapsz. Bármikor leiratkozhatsz.",
+      "marketing_checkmark_label": "Sikeresen feliratkoztál a hírek és ajánlatok e-mailben való fogadására.",
+      "shop_order_tracking": {
+        "real_time_delivery_updates": "A bolt a megrendelésed elküldésekor valós időben küld értesítéseket a kézbesítés állapotáról."
       }
     }
   }

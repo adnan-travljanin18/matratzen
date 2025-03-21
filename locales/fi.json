@@ -648,7 +648,11 @@
       "mobile_summary_toggle_button": {
         "open": "Näytä tilauksen yhteenveto"
       },
-      "marketing_description": "Saat markkinointisähköposteja. Voit milloin tahansa peruuttaa tilauksen."
+      "marketing_description": "Saat markkinointisähköposteja. Voit milloin tahansa peruuttaa tilauksen.",
+      "marketing_checkmark_label": "Olet tilannut uutiskirjeen ja tarjouksia sähköpostitse",
+      "edit_summary": {
+        "added": "Lisätty"
+      }
     }
   }
 }

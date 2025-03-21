@@ -659,7 +659,11 @@
       "mobile_summary_toggle_button": {
         "open": "Vis bestillingsoversigt"
       },
-      "marketing_description": "Du modtager marketing-e-mails. Du kan afmelde dig når som helst."
+      "marketing_description": "Du modtager marketing-e-mails. Du kan afmelde dig når som helst.",
+      "marketing_checkmark_label": "Du har tilmeldt dig et abonnement for at modtage nyheder og tilbud via e-mail",
+      "edit_summary": {
+        "added": "Tilføjet"
+      }
     }
   }
 }

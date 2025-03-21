@@ -649,6 +649,11 @@
       "no_data": "Nenhum",
       "mobile_summary_toggle_button": {
         "open": "Mostrar Resumo do Pedido"
+      },
+      "marketing_description": "Você receberá e-mails de marketing. Você pode cancelar a assinatura a qualquer momento.",
+      "marketing_checkmark_label": "Você se inscreveu para receber novidades e ofertas por e-mail.",
+      "shop_order_tracking": {
+        "real_time_delivery_updates": "A loja envia atualizações de entrega em tempo real assim que seu pedido for enviado."
       }
     }
   }

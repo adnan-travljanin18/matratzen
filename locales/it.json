@@ -657,7 +657,11 @@
       "mobile_summary_toggle_button": {
         "open": "Visualizza riepilogo ordinazione"
       },
-      "marketing_description": "Riceverai email di marketing. Puoi annullare l'iscrizione in qualsiasi momento."
+      "marketing_description": "Riceverai email di marketing. Puoi annullare l'iscrizione in qualsiasi momento.",
+      "marketing_checkmark_label": "Hai sottoscritto un abbonamento per ricevere notizie e offerte tramite email",
+      "shop_order_tracking": {
+        "real_time_delivery_updates": "Il negozio ti invia aggiornamenti sulla consegna in tempo reale, non appena il tuo ordine è stato spedito."
+      }
     }
   }
 }

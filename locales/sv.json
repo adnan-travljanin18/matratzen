@@ -676,7 +676,11 @@
       "mobile_summary_toggle_button": {
         "open": "Visningsübersikt för beställningar"
       },
-      "hide_order_summary": "Beställningsöversikt dölja"
+      "marketing_description": "Du får marknadsförings-e-post. Du kan när som helst avregistrera dig.",
+      "marketing_checkmark_label": "Du har en prenumeration för att ta emot nyheter och erbjudanden via e-post",
+      "shop_order_tracking": {
+        "real_time_delivery_updates": "Butiken skickar dig leveransuppdateringar i realtid så snart din beställning har skickats."
+      }
     }
   }
 }

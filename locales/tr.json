@@ -676,7 +676,11 @@
       "mobile_summary_toggle_button": {
         "open": "Bestel özeti göster"
       },
-      "hide_order_summary": "Bestelme özeti gizle"
+      "marketing_description": "Du, pazarlama e-postaları alıyorsun. İstediğin zaman tekrar aboneliğini iptal edebilirsin.",
+      "marketing_checkmark_label": "Abonelik kaydınız için e-posta ile haberler ve teklifler almaya başladınız",
+      "shop_order_tracking": {
+        "real_time_delivery_updates": "Mağaza, siparişin gönderildiği anda sana gerçek zamanlı teslimat güncellemeleri gönderir."
+      }
     }
   }
 }

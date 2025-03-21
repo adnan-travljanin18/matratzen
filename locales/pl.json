@@ -651,8 +651,10 @@
       "mobile_summary_toggle_button": {
         "open": "Wyświetl podsumowanie zamówienia"
       },
-      "shipment_timeline": {
-        "hide_events_label": "Szczegóły ukryj"
+      "marketing_description": "Otrzymasz e-maile marketingowe. Możesz w każdej chwili zrezygnować.",
+      "marketing_checkmark_label": "Zarejestrowałeś subskrypcję, aby otrzymywać wiadomości i oferty e-mailowe",
+      "shop_order_tracking": {
+        "real_time_delivery_updates": "Sklep wysyła Ci aktualizacje dostawy w czasie rzeczywistym, gdy Twoje zamówienie zostanie wysłane."
       }
     }
   }

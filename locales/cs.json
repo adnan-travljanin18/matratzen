@@ -642,7 +642,11 @@
       "mobile_summary_toggle_button": {
         "open": "Zobrazit přehled objednávek"
       },
-      "marketing_description": "Dostaneš marketingové e-maily. Můžeš se kdykoli znovu odhlásit."
+      "marketing_description": "Dostaneš marketingové e-maily. Můžeš se kdykoli znovu odhlásit.",
+      "marketing_checkmark_label": "Uzavřel(a) jsi předplatné pro přijímání novinek a nabídek e-mailem",
+      "edit_summary": {
+        "added": "Přidáno"
+      }
     }
   }
 }

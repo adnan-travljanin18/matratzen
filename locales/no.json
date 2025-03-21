@@ -653,7 +653,11 @@
       "mobile_summary_toggle_button": {
         "open": "Vis bestillingsoversikt"
       },
-      "marketing_description": "Du får markedsførings-e-poster. Du kan når som helst melde deg av."
+      "marketing_description": "Du får markedsførings-e-poster. Du kan når som helst melde deg av.",
+      "marketing_checkmark_label": "Du har abonnement på å motta nyheter og tilbud via e-post",
+      "shop_order_tracking": {
+        "real_time_delivery_updates": "Butikken sender deg leveringsoppdateringer i sanntid, så snart bestillingen din er sendt."
+      }
     }
   }
 }
