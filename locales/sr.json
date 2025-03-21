@@ -690,7 +690,13 @@
     },
     "address_form": {
       "billing_address": "Koristiti kao adresu za fakturiranje",
-      "default_address_creation_success_notification": "Standardna adresa dodata"
+      "default_address_update_success_notification": "Standardna adresa ažurirana",
+      "save_accessibility_label": "Adresa {{address}} sačuvati"
+    },
+    "B2B": {
+      "locations": {
+        "contact_name": "Ime"
+      }
     }
   }
 }

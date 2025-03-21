@@ -670,7 +670,13 @@
     },
     "address_form": {
       "billing_address": "Použít jako fakturační adresu",
-      "default_address_update_success_notification": "Standardní adresa aktualizována"
+      "default_address_update_success_notification": "Standardní adresa aktualizována",
+      "save": "Uložit"
+    },
+    "B2B": {
+      "locations": {
+        "contact_name": "Název"
+      }
     }
   }
 }

@@ -679,7 +679,15 @@
     },
     "address_form": {
       "billing_address": "Użyj jako adresu do faktury",
-      "loading_add_form_accessibility_message": "Nowy formularz adresowy jest ładowany"
+      "save": "Zapisz"
+    },
+    "B2B": {
+      "location_selection": {
+        "list_loading_address_accessibility_message": "Adres dla {{locationName}} jest ładowany"
+      },
+      "locations": {
+        "contact_name": "Nazwa"
+      }
     }
   }
 }

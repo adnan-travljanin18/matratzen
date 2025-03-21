@@ -673,11 +673,16 @@
       "add_button_text": "Lisätä"
     },
     "address_form": {
-      "billing_address": "Käytä laskutusosoitteena"
+      "billing_address": "Käytä laskutusosoitteena",
+      "save": "Tallenna",
+      "attention_company": "Yritykset/Vastaanottaja"
     },
     "B2B": {
       "location_selection": {
         "list_loading_address_accessibility_message": "Adresse for {{locationName}} lataa"
+      },
+      "locations": {
+        "contact_name": "Nimi"
       }
     }
   }

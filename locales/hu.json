@@ -686,7 +686,15 @@
     },
     "address_form": {
       "billing_address": "Als Rechnungsadresse verwenden",
-      "default_address_creation_success_notification": "Standardadresse hozzáadva"
+      "save_accessibility_label": "Adresse {{address}} menteni"
+    },
+    "B2B": {
+      "location_selection": {
+        "list_loading_address_accessibility_message": "Az {{locationName}} címe betöltése"
+      },
+      "locations": {
+        "contact_name": "Név"
+      }
     }
   }
 }

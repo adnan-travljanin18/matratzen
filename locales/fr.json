@@ -679,11 +679,16 @@
       "add_button_text": "Ajouter"
     },
     "address_form": {
-      "billing_address": "Utiliser comme adresse de facturation"
+      "billing_address": "Utiliser comme adresse de facturation",
+      "save": "Enregistrer"
     },
     "B2B": {
       "location_selection": {
         "list_loading_address_accessibility_message": "L'adresse pour {{locationName}} est en cours de chargement"
+      },
+      "locations": {
+        "contact_list_title": "Les gens",
+        "contact_name": "Nom"
       }
     }
   }

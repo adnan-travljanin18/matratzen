@@ -682,11 +682,15 @@
       "add_button_text": "Legge til"
     },
     "address_form": {
-      "billing_address": "Bruk som fakturaadresse"
+      "billing_address": "Bruk som fakturaadresse",
+      "save": "Lagre"
     },
     "B2B": {
       "location_selection": {
         "list_loading_address_accessibility_message": "Adresse for {{locationName}} lastes"
+      },
+      "locations": {
+        "contact_name": "Navn"
       }
     }
   }

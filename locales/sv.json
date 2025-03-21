@@ -703,11 +703,15 @@
       "add_button_text": "Lägga till"
     },
     "address_form": {
-      "billing_address": "Använd som faktureringsadress"
+      "billing_address": "Använd som faktureringsadress",
+      "save": "Spara"
     },
     "B2B": {
       "location_selection": {
-        "list_item_without_address_accessibility_label": "{{name}}: Ingen adress"
+        "list_loading_address_accessibility_message": "Adressen för {{locationName}} laddas"
+      },
+      "locations": {
+        "contact_name": "Namn"
       }
     }
   }

@@ -703,11 +703,15 @@
       "add_button_text": "Ekle"
     },
     "address_form": {
-      "billing_address": "Fatura adresi olarak kullanın"
+      "billing_address": "Fatura adresi olarak kullanın",
+      "save_accessibility_label": "Adresse {{address}} kaydet"
     },
     "B2B": {
       "location_selection": {
-        "list_loading_finished_accessibility_message": "Standort listesi yüklendi"
+        "list_loading_address_accessibility_message": "Adresse için {{locationName}} yükleniyor"
+      },
+      "locations": {
+        "contact_name": "İsim"
       }
     }
   }

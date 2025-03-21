@@ -686,11 +686,15 @@
       "add_button_text": "Aggiungere"
     },
     "address_form": {
-      "billing_address": "Utilizzare come indirizzo di fatturazione"
+      "billing_address": "Utilizzare come indirizzo di fatturazione",
+      "save": "Salva"
     },
     "B2B": {
       "location_selection": {
         "list_loading_address_accessibility_message": "Indirizzo per {{locationName}} sta caricando"
+      },
+      "locations": {
+        "contact_name": "Nome"
       }
     }
   }

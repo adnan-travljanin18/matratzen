@@ -679,7 +679,14 @@
       "add_button_text": "Adicionar"
     },
     "address_form": {
-      "billing_address": "Usar como endereço de faturamento"
+      "billing_address": "Usar como endereço de faturamento",
+      "default_address_update_success_notification": "Endereço padrão atualizado",
+      "save_accessibility_label": "Endereço {{address}} salvar"
+    },
+    "B2B": {
+      "locations": {
+        "contact_name": "Nome"
+      }
     }
   }
 }
