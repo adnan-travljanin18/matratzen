@@ -211,7 +211,10 @@
       },
       "field_errors": {
         "address_first_name_blank": "Anna etunimi",
-        "address_city_blank": "Anna kaupunki"
+        "address_city_blank": "Anna kaupunki",
+        "address_zip_invalid_for_country": "Anna voimassa oleva postinumero alueelle %{country}",
+        "credit_card_month_invalid": "Anna voimassa oleva kuukausi",
+        "delivery_line_detail_changed": "Joitakin toimitustietoja on saattanut muuttua. Tarkista toimitustapasi ja yritä uudelleen."
       }
     }
   },

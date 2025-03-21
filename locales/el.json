@@ -205,10 +205,12 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Εφαρμόστε",
         "swish_label": "Swish",
-        "detected_card_brand": "Αναγνωρισμένη μάρκα χάρτη: {brand}"
+        "card_number_placeholder": "Αριθμός κάρτας"
       },
       "field_errors": {
-        "handle_phone_invalid": "Δώστε έναν έγκυρο αριθμό τηλεφώνου"
+        "handle_phone_invalid": "Δώστε έναν έγκυρο αριθμό τηλεφώνου",
+        "credit_card_name_blank": "Γράψε το όνομά σου ακριβώς όπως είναι στην κάρτα σου",
+        "credit_card_month_invalid": "Εισαγάγετε έναν έγκυρο μήνα λήξης"
       }
     }
   },

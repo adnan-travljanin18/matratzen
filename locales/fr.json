@@ -217,7 +217,10 @@
       },
       "field_errors": {
         "address_first_name_blank": "Entrez un prénom",
-        "address_city_blank": "Entrez une ville"
+        "address_city_blank": "Entrez une ville",
+        "address_zip_invalid_for_country": "Entrez un code postal valide pour %{country}",
+        "credit_card_month_invalid": "Entrez un mois d'expiration valide",
+        "delivery_line_detail_changed": "Quelques détails de livraison ont peut-être changé. Vérifie ton mode d'expédition et réessaie."
       }
     }
   },

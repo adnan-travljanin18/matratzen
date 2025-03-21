@@ -216,7 +216,10 @@
       },
       "field_errors": {
         "address_first_name_blank": "Indtast et fornavn",
-        "address_city_blank": "Indtast en by"
+        "address_city_blank": "Indtast en by",
+        "address_zip_invalid_for_country": "Indtast et gyldigt postnummer for %{country}",
+        "credit_card_month_invalid": "Indtast en gyldig forløbs måned",
+        "delivery_line_detail_changed": "Nogle leveringsoplysninger kan være ændret. Tjek din forsendelsesmetode og prøv igen."
       }
     }
   },

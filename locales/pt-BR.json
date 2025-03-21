@@ -205,10 +205,12 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Aplicar",
         "swish_label": "Swish",
-        "card_number_label": "Número do cartão"
+        "card_number_placeholder": "Número do cartão"
       },
       "field_errors": {
-        "handle_phone_invalid": "Digite um número de telefone válido"
+        "handle_phone_invalid": "Digite um número de telefone válido",
+        "address_zip_invalid_for_country_and_province": "Insira um CEP válido para %{province}, %{country}",
+        "credit_card_month_invalid": "Digite um mês de validade válido"
       }
     }
   },

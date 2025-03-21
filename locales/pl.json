@@ -217,7 +217,10 @@
       },
       "field_errors": {
         "handle_phone_invalid": "Wprowadź prawidłowy numer telefonu",
-        "address_city_blank": "Wprowadź miasto"
+        "address_city_blank": "Wprowadź miasto",
+        "credit_card_name_blank": "Wprowadź swoje imię dokładnie tak, jak jest napisane na twojej karcie",
+        "credit_card_month_invalid": "Wprowadź ważny miesiąc zakończenia",
+        "delivery_line_detail_changed": "Niektóre szczegóły dostawy mogły ulec zmianie. Sprawdź swój sposób wysyłki i spróbuj ponownie."
       }
     }
   },

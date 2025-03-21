@@ -242,7 +242,10 @@
       },
       "field_errors": {
         "handle_phone_invalid": "Ange en giltig telefonnummer",
-        "address_city_blank": "Ange en stad"
+        "address_city_blank": "Ange en stad",
+        "credit_card_name_blank": "Skriv ditt namn exakt som det står på ditt kort",
+        "credit_card_month_invalid": "Ange en giltig månad för genomförande",
+        "credit_card_verification_value_blank": "Ange CVV- eller säkerhetskoden på ditt kort"
       }
     }
   },
