@@ -331,7 +331,9 @@
         "vat_invoices": {
           "title": "MwSt.-Rechnungen"
         },
-        "contact_us_html": "Yardıma mı ihtiyacın var? %{contact_us}"
+        "contact_us_html": "Yardıma mı ihtiyacın var? %{contact_us}",
+        "failed_contact_merchant_no_company": "Bize ulaşın, teslimatı planlamak için.",
+        "login_description_phone": "Sipariş numaranı, kısa mesaj ile aldığın belgeden bulabilirsin."
       },
       "review": {
         "blocks": {
@@ -359,6 +361,9 @@
       },
       "change_currency": {
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
+      },
+      "tips": {
+        "update_tip": "Trinkgeld güncellemek"
       }
     }
   },

@@ -291,7 +291,9 @@
         "vat_invoices": {
           "title": "MwSt.-Rechnungen"
         },
-        "contact_us_html": "Szükséged van segítségre? %{contact_us}"
+        "contact_us_html": "Szükséged van segítségre? %{contact_us}",
+        "failed_contact_merchant_no_company": "Lépj velünk kapcsolatba a kézbesítés időpontjának egyeztetéséhez.",
+        "login_description_phone": "A megrendelési számot a számlán találod, amelyet SMS-ben kaptál."
       },
       "review": {
         "blocks": {
@@ -319,6 +321,9 @@
       },
       "change_currency": {
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
+      },
+      "tips": {
+        "update_tip": "Trinkgeld frissítés"
       }
     }
   },

@@ -285,7 +285,9 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Kontaktujte nás e-mailem nebo telefonem, abyste získali potvrzení objednávky.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Po dokončení vaší platby obdržíte potvrzovací e-mail s vaším číslem objednávky.",
         "delivered_description_html": "Tvá objednávka byla doručena na adresu, kterou jsi uvedl. %{contact_us}, pokud jsi objednávku neobdržel nebo máš jakékoli jiné problémy.",
-        "verify_shop_account_cta": "Ověřte svůj účet"
+        "verify_shop_account_cta": "Ověřte svůj účet",
+        "failed_contact_merchant_no_company": "Kontakujte nás, abyste si domluvili doručení.",
+        "login_description_phone": "Tvou objednávkovou číslo najdeš na dokladu, který jsi obdržel prostřednictvím textové zprávy."
       },
       "review": {
         "blocks": {
@@ -316,6 +318,12 @@
       },
       "change_currency": {
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
+      },
+      "tips": {
+        "update_tip": "Aktualizovat spropitné"
+      },
+      "change_country": {
+        "cart_and_currency_updated_based_on_country": "Tvá nákupní taška a tvoje měna byly aktualizovány na základě tvé země dodání."
       }
     }
   },

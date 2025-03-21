@@ -297,7 +297,9 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Efter afslutningen af din betaling vil du modtage en bekræftelses-e-mail med dit bestillingsnummer.",
         "delivered_description_html": "Deine ordre er blevet leveret til den adresse, du angav. %{contact_us}, hvis du ikke har modtaget ordren eller hvis du har andre problemer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Efter afslutningen af din betaling modtager du en bekræftelsesbesked med dit ordre nummer.",
-        "contact_us_html": "Har du brug for hjælp? %{contact_us}"
+        "contact_us_html": "Har du brug for hjælp? %{contact_us}",
+        "failed_contact_merchant_no_company": "Kontakt os for at arrangere leveringen.",
+        "login_description_phone": "Din ordrenummer finder du på kvitteringen, som du har modtaget via sms."
       },
       "review": {
         "blocks": {
@@ -327,6 +329,14 @@
       },
       "change_currency": {
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
+      },
+      "tips": {
+        "update_tip": "Opdater drikkepenge"
+      },
+      "subscriptions": {
+        "recurring_totals_with_policies": {
+          "following_cycles": ", derefter %{total_price} alle eller hver/n %{interval}"
+        }
       }
     }
   },

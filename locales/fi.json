@@ -288,7 +288,9 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Maksun suorittamisen jälkeen saat vahvistusviestin, jossa on tilausnumerosi.",
         "delivered_description_html": "Deine Bestellung wurde an die von dir angegebene Adresse zugestellt. %{contact_us}, falls du die Bestellung nicht erhalten hast oder du irgendwelche anderen Probleme hast.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Maksun jälkeen saat vahvistusviestin, jossa on tilausnumerosi.",
-        "contact_us_html": "Tarvitsetko apua? %{contact_us}"
+        "contact_us_html": "Tarvitsetko apua? %{contact_us}",
+        "failed_contact_merchant_no_company": "Ota meihin yhteyttä sopiaksesi toimituksesta.",
+        "login_description_phone": "Sinun tilausnumerosi löytyy kuitista, jonka olet saanut tekstiviestinä."
       },
       "review": {
         "blocks": {
@@ -318,6 +320,9 @@
       },
       "change_currency": {
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
+      },
+      "tips": {
+        "update_tip": "Trinkgeld päivittää"
       }
     }
   },

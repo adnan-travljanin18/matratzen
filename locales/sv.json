@@ -329,7 +329,9 @@
         "vat_invoices": {
           "title": "MwSt.-Rechningar"
         },
-        "contact_us_html": "Ben behöver du hjälp? %{contact_us}"
+        "contact_us_html": "Ben behöver du hjälp? %{contact_us}",
+        "failed_contact_merchant_no_company": "Kontakta oss för att boka leverans.",
+        "login_description_phone": "Din beställningsnummer hittar du i kvittot som du fått via textmeddelande."
       },
       "review": {
         "blocks": {
@@ -357,6 +359,9 @@
       },
       "change_currency": {
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
+      },
+      "tips": {
+        "update_tip": "Uppdatera dricks"
       }
     }
   },

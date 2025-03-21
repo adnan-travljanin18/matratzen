@@ -296,7 +296,9 @@
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Uskoro ćeš primiti e-poruku sa tvojim brojem porudžbine na potvrdu.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Nakon završetka tvoje uplate, primićeš potvrdu putem e-maila sa svojim brojem narudžbe.",
         "delivered_description_html": "Tvoja narudžbina je isporučena na adresu koju si naveo. %{contact_us}, ukoliko nisi primio narudžbinu ili imaš bilo kakvih drugih problema.",
-        "contact_us_html": "Da li ti je potrebna pomoć? %{contact_us}"
+        "contact_us_html": "Da li ti je potrebna pomoć? %{contact_us}",
+        "failed_contact_merchant_no_company": "Kontaktirajte nas kako bismo dogovorili isporuku.",
+        "login_description_phone": "Tvoj broj narudžbine naći ćeš u potvrdi koju si primio putem tekstualne poruke."
       },
       "review": {
         "title": "Proverite",
@@ -325,6 +327,11 @@
       },
       "change_currency": {
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Dodatne informacije"
+        }
       }
     }
   },

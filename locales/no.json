@@ -304,7 +304,9 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Etter at betalingen din er fullført, vil du motta en bekreftelsesepost med bestillingsnummeret ditt.",
         "delivered_description_html": "Deine bestilling er levert til adressen du oppga. %{contact_us}, hvis du ikke har mottatt bestillingen eller har noen andre problemer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Etter at betalingen din er fullført, vil du motta en bekreftelsesmelding med bestillingsnummeret ditt.",
-        "contact_us_html": "Trenger du hjelp? %{contact_us}"
+        "contact_us_html": "Trenger du hjelp? %{contact_us}",
+        "failed_contact_merchant_no_company": "Kontakt oss for å avtale levering.",
+        "login_description_phone": "Din bestillingsnummer finner du i kvitteringen som du har mottatt via tekstmelding."
       },
       "review": {
         "blocks": {
@@ -334,6 +336,9 @@
       },
       "change_currency": {
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
+      },
+      "tips": {
+        "update_tip": "Oppdatere driks"
       }
     }
   },

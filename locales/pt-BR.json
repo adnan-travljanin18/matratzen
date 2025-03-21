@@ -286,7 +286,9 @@
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Você receberá em breve um e-mail de confirmação com o seu número do pedido.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Após a conclusão do seu pagamento, você receberá um e-mail de confirmação com o seu número de pedido.",
         "delivered_description_html": "A sua encomenda foi entregue no endereço que você forneceu. %{contact_us}, se você não recebeu a encomenda ou se tiver qualquer outro problema.",
-        "contact_us_html": "Você precisa de ajuda? %{contact_us}"
+        "contact_us_html": "Você precisa de ajuda? %{contact_us}",
+        "failed_contact_merchant_no_company": "Contate-nos para agendar a entrega.",
+        "login_description_phone": "Sua número de pedido pode ser encontrado no recibo que você recebeu por mensagem de texto."
       },
       "review": {
         "title": "Verificar",
@@ -315,6 +317,11 @@
       },
       "change_currency": {
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Informações adicionais"
+        }
       }
     }
   },

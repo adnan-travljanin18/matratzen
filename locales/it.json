@@ -304,7 +304,9 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Dopo aver completato il pagamento, riceverai un'e-mail di conferma con il tuo numero d'ordine.",
         "delivered_description_html": "La tua ordine è stato consegnato all'indirizzo fornito. %{contact_us}, se non hai ricevuto l'ordine o hai altri problemi.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Dopo il completamento del pagamento, riceverai un messaggio di conferma con il tuo numero d'ordine.",
-        "contact_us_html": "Hai bisogno di aiuto? %{contact_us}"
+        "contact_us_html": "Hai bisogno di aiuto? %{contact_us}",
+        "failed_contact_merchant_no_company": "Contattaci per programmare la consegna.",
+        "login_description_phone": "La tua numero d'ordine lo trovi nel documento che hai ricevuto tramite messaggio di testo."
       },
       "review": {
         "blocks": {
@@ -334,6 +336,9 @@
       },
       "change_currency": {
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
+      },
+      "tips": {
+        "update_tip": "Aggiornare la mancia"
       }
     }
   },

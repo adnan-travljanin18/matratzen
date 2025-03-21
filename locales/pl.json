@@ -304,7 +304,9 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Po zakończeniu swojej płatności otrzymasz e-mail potwierdzający z numerem zamówienia.",
         "delivered_description_html": "Twoje zamówienie zostało dostarczone na adres, który podałeś. %{contact_us}, jeśli nie otrzymałeś zamówienia lub masz jakiekolwiek inne problemy.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Po zakończeniu płatności otrzymasz wiadomość potwierdzającą z numerem zamówienia.",
-        "contact_us_html": "Potrzebujesz pomocy? %{contact_us}"
+        "contact_us_html": "Potrzebujesz pomocy? %{contact_us}",
+        "failed_contact_merchant_no_company": "Skontaktuj się z nami, aby umówić dostawę.",
+        "login_description_phone": "Twoje numer zamówienia znajdziesz w paragonie, który otrzymałeś w wiadomości tekstowej."
       },
       "review": {
         "blocks": {
@@ -332,6 +334,9 @@
       },
       "change_currency": {
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
+      },
+      "tips": {
+        "update_tip": "Aktualizować napiwek"
       }
     }
   },
