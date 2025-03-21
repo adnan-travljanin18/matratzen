@@ -471,6 +471,15 @@
     "addresses": {
       "prefecture": "Präfektur",
       "state": "Län"
+    },
+    "collections": {
+      "sorting": {
+        "za": "Alphabetisk, Z-A"
+      }
+    },
+    "errors": {
+      "discount_expired": "Detta rabatter är inte längre giltigt",
+      "gift_card_expired": "Presentkortet har gått ut"
     }
   },
   "customer_accounts": {

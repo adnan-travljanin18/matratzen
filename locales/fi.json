@@ -439,8 +439,13 @@
     },
     "collections": {
       "sorting": {
-        "best_selling": "hyvin myyty"
+        "best_selling": "hyvin myyty",
+        "za": "Aakkosjärjestyksessä, Z-A"
       }
+    },
+    "errors": {
+      "discount_limit_reached": "Tämä alennus on saavuttanut käyttörajan",
+      "gift_card_expired": "Lahjakortti on vanhentunut"
     }
   },
   "customer_accounts": {

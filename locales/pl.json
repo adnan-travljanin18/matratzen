@@ -446,8 +446,13 @@
     },
     "collections": {
       "sorting": {
-        "best_selling": "najlepiej sprzedający się"
+        "best_selling": "najlepiej sprzedający się",
+        "za": "Alfabetycznie, Z-A"
       }
+    },
+    "errors": {
+      "discount_limit_reached": "Ten rabat osiągnął swój limit wykorzystania",
+      "gift_card_expired": "Karta podarunkowa wygasła"
     }
   },
   "customer_accounts": {

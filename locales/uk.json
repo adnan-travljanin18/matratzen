@@ -474,6 +474,15 @@
     "addresses": {
       "prefecture": "Префектура",
       "state": "федеральна земля"
+    },
+    "collections": {
+      "sorting": {
+        "az": "Алфавітний, A-Z"
+      }
+    },
+    "errors": {
+      "discount_expired": "Ця знижка більше не дійсна",
+      "invalid": "недійсний"
     }
   },
   "customer_accounts": {

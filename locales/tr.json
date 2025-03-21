@@ -473,6 +473,15 @@
     "addresses": {
       "prefecture": "Präfektür",
       "state": "Eyalet"
+    },
+    "collections": {
+      "sorting": {
+        "za": "Alfabetik, Z-A"
+      }
+    },
+    "errors": {
+      "discount_expired": "Bu indirim artık geçerli değil",
+      "invalid": "geçersiz"
     }
   },
   "customer_accounts": {

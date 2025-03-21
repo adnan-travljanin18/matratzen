@@ -450,8 +450,13 @@
     },
     "collections": {
       "sorting": {
-        "best_selling": "mest solgte"
+        "best_selling": "mest solgte",
+        "za": "Alfabetisk, Z-A"
       }
+    },
+    "errors": {
+      "discount_limit_reached": "Denne rabat har nået sin bruggrænse",
+      "gift_card_expired": "Geschenkkortet er udløbet"
     }
   },
   "customer_accounts": {

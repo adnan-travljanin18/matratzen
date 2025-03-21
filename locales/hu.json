@@ -433,6 +433,15 @@
     "addresses": {
       "prefecture": "Préfektúra",
       "state": "Szövetségi állam"
+    },
+    "collections": {
+      "sorting": {
+        "za": "Ábécé szerint, Z-A"
+      }
+    },
+    "errors": {
+      "discount_expired": "Ez a kedvezmény már nem érvényes",
+      "invalid": "érvénytelen"
     }
   },
   "customer_accounts": {

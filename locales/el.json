@@ -431,6 +431,15 @@
     "addresses": {
       "prefecture": "Περιφέρεια",
       "state": "Ομόσπονδη πολιτεία"
+    },
+    "collections": {
+      "sorting": {
+        "az": "Αλφαβητικά, A-Z"
+      }
+    },
+    "errors": {
+      "discount_limit_reached": "Αυτό το έκπτωση έχει φτάσει στο όριο χρήσης του",
+      "invalid": "είναι άκυρο"
     }
   },
   "customer_accounts": {

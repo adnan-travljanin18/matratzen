@@ -441,8 +441,13 @@
     },
     "collections": {
       "sorting": {
-        "best_selling": "најпродаваније"
+        "best_selling": "најпродаваније",
+        "az": "Abecedno, A-Z"
       }
+    },
+    "errors": {
+      "discount_limit_reached": "Ova popust je postigao svoj limit korišćenja",
+      "gift_card_currency_mismatch": "Tvoja vaučer je u %{gift_card_currency}. Kontaktiraj nas da ga izdaš u %{checkout_currency}."
     }
   },
   "customer_accounts": {

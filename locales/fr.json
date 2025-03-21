@@ -449,8 +449,13 @@
     },
     "collections": {
       "sorting": {
-        "best_selling": "le plus vendu"
+        "best_selling": "le plus vendu",
+        "za": "Alphabétique, Z-A"
       }
+    },
+    "errors": {
+      "discount_limit_reached": "Ce rabais a atteint sa limite d'utilisation",
+      "gift_card_expired": "La carte cadeau a expiré"
     }
   },
   "customer_accounts": {

@@ -433,8 +433,13 @@
     },
     "collections": {
       "sorting": {
-        "best_selling": "nejprodávanější"
+        "best_selling": "nejprodávanější",
+        "za": "Abecedně, Z-A"
       }
+    },
+    "errors": {
+      "discount_limit_reached": "Tento rabat dosáhl svého limitu využití",
+      "gift_card_expired": "Dárková karta vypršela"
     }
   },
   "customer_accounts": {
