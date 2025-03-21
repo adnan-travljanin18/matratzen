@@ -820,6 +820,13 @@
     "impressum": {
       "impressum-heading-1": "Kontakt podaci klijenata",
       "impressum-reference-details": "Die Serenity Bett GmbH ne učestvuje u postupku rešavanja sporova pred potrošačkom arbitražom. Evropska komisija pruža platformu za online rešavanje sporova, koja se može naći na"
+    },
+    "black-week-offer-text": {
+      "welcome_modal_title_3": "25 % попуст на све производе!"
+    },
+    "collection_template": {
+      "clear_all": "Obriši sve",
+      "filter_button": "Филтер"
     }
   }
 }

@@ -838,6 +838,17 @@
     "impressum": {
       "impressum-heading-1": "Kundenkontaktdaten",
       "impressum-reference-details": "Die Serenity Bett GmbH deltar inte i en tvistlösningsprocess inför en konsumenttvistlösningsmyndighet. Europeiska kommissionen tillhandahåller en plattform för online-tvistlösning som finns på"
+    },
+    "black-week-offer-text": {
+      "button_text": "JETT TILL REAN"
+    },
+    "collection_template": {
+      "clear_all": "Radera allt"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_password_label": "Lösenord"
     }
   }
 }

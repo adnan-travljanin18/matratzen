@@ -758,6 +758,11 @@
           "draft": {
             "in_review": {
               "title": "La pagamento non è ancora scaduto"
+            },
+            "submitted": {
+              "deposit": {
+                "due_on_receipt": "Riceverai una fattura per l'importo residuo."
+              }
             }
           }
         }
@@ -821,6 +826,15 @@
     },
     "impressum": {
       "impressum-reference-details": "Die Serenity Bett GmbH non partecipa a una procedura di risoluzione delle controversie davanti a un'istituzione di risoluzione delle controversie per i consumatori. La Commissione Europea mette a disposizione una piattaforma per la risoluzione online delle controversie, accessibile all'indirizzo"
+    },
+    "black-week-offer-text": {
+      "button_text": "ORA IN SALDO"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_password_label": "Password",
+      "login_form_error": "Falso password!"
     }
   }
 }

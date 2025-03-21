@@ -811,6 +811,17 @@
     "impressum": {
       "impressum-heading-1": "Kundenkontaktdaten",
       "impressum-reference-details": "Die Serenity Bett GmbH deltar ikke i en tvisteløsningsprosess foran et forbrukerklagenemnd. Europakommisjonen tilbyr en plattform for online tvisteløsning, som finnes på"
+    },
+    "black-week-offer-text": {
+      "button_text": "JETZT ZUM SALE"
+    },
+    "video-with-text": {
+      "close_video": "Lukk video"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_password_label": "Passord"
     }
   }
 }

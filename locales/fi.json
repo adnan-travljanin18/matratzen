@@ -747,6 +747,11 @@
           "draft": {
             "in_review": {
               "title": "Maksu ei ole vielä erääntynyt"
+            },
+            "submitted": {
+              "deposit": {
+                "due_on_receipt": "Saat laskun jäljellä olevasta määrästä."
+              }
             }
           }
         }
@@ -802,10 +807,14 @@
   "sections": {
     "impressum": {
       "impressum-heading-1": "Asiakastietoja",
-      "impressum-reference-details": "Die Serenity Bett GmbH ei osallistu kuluttajariitalautakunnan riitojenratkaisumenettelyyn. Euroopan komissio tarjoaa alustan verkkoriitojen ratkaisemiseksi, joka on osoitteessa"
-    },
-    "black-week-offer-text": {
-      "welcome_modal_title_1": "JOUULU ALE"
+      "impressum-reference-details": "Die Serenity Bett GmbH ei osallistu kuluttajariitalautakunnan riitojenratkaisumenettelyyn. Euroopan komissio tarjoaa alustan verkkoriitojen ratkaisemiseksi, joka on osoitteessa",
+      "impressum-business-number": "Ust-IdNr: DE367965864"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_password_label": "Salasana",
+      "powered_by_shopify_html": "Tämä kauppa on {{ shopify }} ylläpitämä"
     }
   }
 }

@@ -809,6 +809,13 @@
     "impressum": {
       "impressum-heading-1": "Dane kontaktowe klientów",
       "impressum-reference-details": "Die Serenity Bett GmbH nie uczestniczy w postępowaniu w sprawie rozwiązywania sporów przed organem do spraw pozasądowego rozwiązywania sporów. Komisja Europejska udostępnia platformę do internetowego rozwiązywania sporów, która znajduje się pod"
+    },
+    "black-week-offer-text": {
+      "button_text": "JETZT ZUM SALE"
+    },
+    "collection_template": {
+      "clear_all": "Usuń wszystko",
+      "filter_button": "Filtr"
     }
   }
 }

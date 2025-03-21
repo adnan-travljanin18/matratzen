@@ -756,6 +756,11 @@
           "draft": {
             "in_review": {
               "title": "Betalingen er endnu ikke forfalden"
+            },
+            "submitted": {
+              "deposit": {
+                "due_on_receipt": "Du modtager en faktura for det resterende beløb."
+              }
             }
           }
         }
@@ -818,6 +823,12 @@
       "impressum-heading-1": "Kundenkontaktdaten",
       "impressum-reference-details": "Die Serenity Bett GmbH delt ikke i en tvistbilæggelsesprocedure foran et forbrugerklagenævn. Den Europæiske Kommission stiller en platform til rådighed for online tvistbilæggelse, som kan findes under",
       "impressum-business-bank": "Bankforbindelse"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_password_label": "Adgangskode",
+      "powered_by_shopify_html": "Denne butik drives af {{ shopify }}"
     }
   }
 }

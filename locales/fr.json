@@ -752,6 +752,11 @@
           "draft": {
             "in_review": {
               "title": "Le paiement n'est pas encore dû"
+            },
+            "submitted": {
+              "deposit": {
+                "due_on_receipt": "Vous recevrez une facture pour le solde restant."
+              }
             }
           }
         }
@@ -812,7 +817,14 @@
     },
     "impressum": {
       "impressum-heading-1": "Informations de contact client",
-      "impressum-reference-details": "Die Serenity Bett GmbH ne participe pas à une procédure de règlement des litiges devant une instance de médiation pour les consommateurs. La Commission européenne met à disposition une plateforme de règlement des litiges en ligne, accessible à l'adresse"
+      "impressum-reference-details": "Die Serenity Bett GmbH ne participe pas à une procédure de règlement des litiges devant une instance de médiation pour les consommateurs. La Commission européenne met à disposition une plateforme de règlement des litiges en ligne, accessible à l'adresse",
+      "impressum-business-number": "Ust-IdNr: DE367965864"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_password_label": "Mot de passe",
+      "powered_by_shopify_html": "Ce magasin est géré par {{ shopify }}"
     }
   }
 }

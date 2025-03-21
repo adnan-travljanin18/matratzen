@@ -739,6 +739,11 @@
           "draft": {
             "in_review": {
               "title": "Platba dosud není splatná"
+            },
+            "submitted": {
+              "deposit": {
+                "due_on_receipt": "Obdržíte fakturu za zbývající částku."
+              }
             }
           }
         }
@@ -803,6 +808,12 @@
     },
     "black-week-offer-text": {
       "welcome_modal_title_2": "AB 10.12. BIS 26.12"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_password_label": "Heslo",
+      "powered_by_shopify_html": "Tento obchod je provozován {{ shopify }}"
     }
   }
 }

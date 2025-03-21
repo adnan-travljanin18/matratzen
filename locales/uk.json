@@ -835,6 +835,17 @@
     "impressum": {
       "impressum-heading-1": "Контактні дані клієнтів",
       "impressum-reference-details": "Die Serenity Bett GmbH не бере участі в процедурі вирішення спорів перед органом з врегулювання споживачів. Європейська Комісія надає платформу для онлайн-вирішення спорів, яка доступна за адресою"
+    },
+    "black-week-offer-text": {
+      "button_text": "ЗАРАЗ НА РОЗПРОДАЖ"
+    },
+    "collection_template": {
+      "clear_all": "Все видалити"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_password_label": "Пароль"
     }
   }
 }

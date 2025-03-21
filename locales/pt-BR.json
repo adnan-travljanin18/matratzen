@@ -810,6 +810,17 @@
     "impressum": {
       "impressum-heading-1": "Dados de contato do cliente",
       "impressum-reference-details": "Die Serenity Bett GmbH não participa de um processo de resolução de disputas perante uma entidade de conciliação de consumidores. A Comissão Europeia fornece uma plataforma para a resolução de disputas online, que pode ser encontrada em"
+    },
+    "black-week-offer-text": {
+      "welcome_modal_title_3": "25 % de desconto em todos os produtos!"
+    },
+    "collection_template": {
+      "clear_all": "Apagar tudo"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_password_label": "Senha"
     }
   }
 }

@@ -815,7 +815,16 @@
     },
     "impressum": {
       "impressum-heading-1": "Ügyfélkapcsolati adatok",
-      "impressum-reference-details": "Die Serenity Bett GmbH nem vesz részt a fogyasztói vitarendezési eljárásban. Az Európai Bizottság egy online vitarendezési platformot biztosít, amely elérhető"
+      "impressum-reference-details": "Die Serenity Bett GmbH nem vesz részt a fogyasztói vitarendezési eljárásban. Az Európai Bizottság egy online vitarendezési platformot biztosít, amely elérhető",
+      "impressum-business-ceo": "CEO: Zlatan Jusic"
+    },
+    "collection_template": {
+      "clear_all": "Minden törlése"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_password_label": "Jelszó"
     }
   }
 }
