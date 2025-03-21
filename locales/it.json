@@ -650,7 +650,14 @@
         "method": "Modalità di spedizione"
       },
       "summary_list_title_accessibility_label": "Articolo ordinato",
-      "location": "Luogo"
+      "location": "Luogo",
+      "pagination": {
+        "loading_accessibility_label": "Gli articoli vengono caricati"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Visualizza riepilogo ordinazione"
+      },
+      "marketing_description": "Riceverai email di marketing. Puoi annullare l'iscrizione in qualsiasi momento."
     }
   }
 }

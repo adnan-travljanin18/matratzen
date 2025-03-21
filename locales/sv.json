@@ -669,7 +669,14 @@
       },
       "show_items": "Artikel visa",
       "summary_list_title_accessibility_label": "Beställningsartikel",
-      "location": "Plats"
+      "location": "Plats",
+      "returns": {
+        "tracking_number": "Trackingnummer:"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Visningsübersikt för beställningar"
+      },
+      "hide_order_summary": "Beställningsöversikt dölja"
     }
   }
 }

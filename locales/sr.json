@@ -657,7 +657,11 @@
         "address_map_marker": "Isporuka adresa"
       },
       "summary_list_title_accessibility_label": "Naručeni artikli",
-      "location": "Mesto"
+      "location": "Mesto",
+      "no_data": "Нема",
+      "mobile_summary_toggle_button": {
+        "open": "Prikaži pregled narudžbine"
+      }
     }
   }
 }

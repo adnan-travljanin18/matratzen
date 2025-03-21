@@ -646,7 +646,14 @@
       },
       "show_items": "Vis artikkel",
       "summary_list_title_accessibility_label": "Bestillingsvare",
-      "location": "Beliggenhet"
+      "location": "Beliggenhet",
+      "pagination": {
+        "loading_accessibility_label": "Artikkelen lastes"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Vis bestillingsoversikt"
+      },
+      "marketing_description": "Du får markedsførings-e-poster. Du kan når som helst melde deg av."
     }
   }
 }

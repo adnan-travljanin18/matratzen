@@ -645,7 +645,11 @@
         "address_map_marker": "Endereço de entrega"
       },
       "summary_list_title_accessibility_label": "Produto de pedido",
-      "location": "Localização"
+      "location": "Localização",
+      "no_data": "Nenhum",
+      "mobile_summary_toggle_button": {
+        "open": "Mostrar Resumo do Pedido"
+      }
     }
   }
 }

@@ -672,7 +672,12 @@
         "summary": "Відправка"
       },
       "summary_list_title_accessibility_label": "Найкращі товари",
-      "location": "Місцезнаходження"
+      "location": "Місцезнаходження",
+      "no_data": "Немає",
+      "mobile_summary_toggle_button": {
+        "open": "Показати огляд замовлення"
+      },
+      "show_order_summary": "Показати огляд замовлення"
     }
   }
 }

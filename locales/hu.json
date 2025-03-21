@@ -653,7 +653,14 @@
       },
       "show_items": "Cikk megjelenítése",
       "summary_list_title_accessibility_label": "Megrendelési cikk",
-      "location": "Helyszín"
+      "location": "Helyszín",
+      "no_data": "Nincs",
+      "mobile_summary_toggle_button": {
+        "open": "Megjeleníti a rendelési áttekintést"
+      },
+      "shipment_timeline": {
+        "hide_events_accessibility_label": "A rendelés szállítási részleteit elrejteni"
+      }
     }
   }
 }

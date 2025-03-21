@@ -641,7 +641,14 @@
         "subscription": "Abonnement-toimituskulut"
       },
       "summary_list_title_accessibility_label": "Bestellituote",
-      "location": "Sijainti"
+      "location": "Sijainti",
+      "returns": {
+        "tracking_number": "Seurantanumero:"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Näytä tilauksen yhteenveto"
+      },
+      "marketing_description": "Saat markkinointisähköposteja. Voit milloin tahansa peruuttaa tilauksen."
     }
   }
 }

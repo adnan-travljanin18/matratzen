@@ -644,7 +644,16 @@
       },
       "show_items": "Wyświetl artykuł",
       "summary_list_title_accessibility_label": "Najlepsze artykuły zamówień",
-      "location": "Lokalizacja"
+      "location": "Lokalizacja",
+      "returns": {
+        "tracking_number": "Numer śledzenia:"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Wyświetl podsumowanie zamówienia"
+      },
+      "shipment_timeline": {
+        "hide_events_label": "Szczegóły ukryj"
+      }
     }
   }
 }

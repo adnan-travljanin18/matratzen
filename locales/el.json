@@ -649,7 +649,11 @@
         "address_map_marker": "Παράδοση διεύθυνσης"
       },
       "summary_list_title_accessibility_label": "Είδη παραγγελίας",
-      "location": "Τοποθεσία"
+      "location": "Τοποθεσία",
+      "no_data": "Κανένα",
+      "mobile_summary_toggle_button": {
+        "open": "Εμφάνιση επισκόπησης παραγγελίας"
+      }
     }
   }
 }

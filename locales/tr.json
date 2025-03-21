@@ -671,7 +671,12 @@
       },
       "show_items": "Makaleyi göster",
       "summary_list_title_accessibility_label": "Sipariş Ürünü",
-      "location": "Lokasyon"
+      "location": "Lokasyon",
+      "no_data": "Hiçbir",
+      "mobile_summary_toggle_button": {
+        "open": "Bestel özeti göster"
+      },
+      "hide_order_summary": "Bestelme özeti gizle"
     }
   }
 }

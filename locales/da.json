@@ -652,7 +652,14 @@
         "subscription": "Abonnement-Forsendelsesomkostninger"
       },
       "summary_list_title_accessibility_label": "Bestillingsartikel",
-      "location": "Beliggenhed"
+      "location": "Beliggenhed",
+      "returns": {
+        "tracking_number": "Trackingnummer:"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Vis bestillingsoversigt"
+      },
+      "marketing_description": "Du modtager marketing-e-mails. Du kan afmelde dig når som helst."
     }
   }
 }

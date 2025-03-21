@@ -647,7 +647,14 @@
         "subscription": "Abonnement-Frais de port"
       },
       "summary_list_title_accessibility_label": "Article commandé",
-      "location": "Lieu"
+      "location": "Lieu",
+      "pagination": {
+        "loading_accessibility_label": "Les articles sont en cours de chargement"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Afficher le résumé de la commande"
+      },
+      "marketing_description": "Vous recevrez des e-mails marketing. Vous pouvez vous désinscrire à tout moment."
     }
   }
 }
