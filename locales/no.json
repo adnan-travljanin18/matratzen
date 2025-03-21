@@ -930,5 +930,10 @@
     "reset_password": {
       "submit": "Tilbakestill passord"
     }
+  },
+  "gift_cards": {
+    "issued": {
+      "qr_image_alt": "QR-kode – skann for å løse inn gavekortet"
+    }
   }
 }

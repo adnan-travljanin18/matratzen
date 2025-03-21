@@ -930,5 +930,10 @@
     "reset_password": {
       "submit": "Réinitialiser le mot de passe"
     }
+  },
+  "gift_cards": {
+    "issued": {
+      "qr_image_alt": "QR-Code – scannez pour échanger la carte-cadeau"
+    }
   }
 }

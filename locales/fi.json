@@ -924,5 +924,10 @@
     "reset_password": {
       "submit": "Salasanan palauttaminen"
     }
+  },
+  "gift_cards": {
+    "issued": {
+      "qr_image_alt": "QR-Koodi – skannaa Go to redeem the gift card"
+    }
   }
 }

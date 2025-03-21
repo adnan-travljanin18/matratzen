@@ -940,5 +940,10 @@
     "reset_password": {
       "submit": "Ripristina password"
     }
+  },
+  "gift_cards": {
+    "issued": {
+      "qr_image_alt": "QR-Code – scansiona per riscattare la carta regalo"
+    }
   }
 }

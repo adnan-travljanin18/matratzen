@@ -935,5 +935,10 @@
     "reset_password": {
       "submit": "Resetovanje lozinke"
     }
+  },
+  "gift_cards": {
+    "issued": {
+      "add_to_apple_wallet": "Dodajte u Apple Wallet"
+    }
   }
 }

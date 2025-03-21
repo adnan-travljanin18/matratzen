@@ -926,5 +926,10 @@
     "reset_password": {
       "submit": "Zresetować hasło"
     }
+  },
+  "gift_cards": {
+    "issued": {
+      "qr_image_alt": "QR-Code – zeskanuj, aby zrealizować kartę podarunkową"
+    }
   }
 }

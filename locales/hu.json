@@ -931,5 +931,10 @@
     "reset_password": {
       "submit": "Jelszó visszaállítása"
     }
+  },
+  "gift_cards": {
+    "issued": {
+      "add_to_apple_wallet": "Apple Wallet-hoz hozzáadni"
+    }
   }
 }

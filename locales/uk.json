@@ -954,5 +954,10 @@
     "reset_password": {
       "submit": "Відновлення пароля"
     }
+  },
+  "gift_cards": {
+    "issued": {
+      "add_to_apple_wallet": "Додати до Apple Wallet"
+    }
   }
 }

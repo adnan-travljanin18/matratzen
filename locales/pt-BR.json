@@ -927,5 +927,10 @@
     "reset_password": {
       "submit": "Redefinir senha"
     }
+  },
+  "gift_cards": {
+    "issued": {
+      "add_to_apple_wallet": "Adicionar ao Apple Wallet"
+    }
   }
 }

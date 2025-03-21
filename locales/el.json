@@ -929,5 +929,10 @@
     "reset_password": {
       "submit": "Επαναφορά κωδικού πρόσβασης"
     }
+  },
+  "gift_cards": {
+    "issued": {
+      "add_to_apple_wallet": "Προσθήκη στο Apple Wallet"
+    }
   }
 }
