@@ -443,7 +443,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Le bon a déjà été ajouté à votre commande",
-          "insufficient_funds": "Sur ce bon, il n'y a plus de crédit"
+          "insufficient_funds": "Sur ce bon, il n'y a plus de crédit",
+          "not_available": "Ce bon n'est plus disponible"
         }
       }
     },
@@ -558,6 +559,14 @@
           "order_number": {
             "ascending": "Numéro de commande (du plus bas au plus élevé)"
           }
+        },
+        "payment_status": {
+          "table_view": {
+            "paid": "Payé"
+          }
+        },
+        "carousel": {
+          "six_products_accessibility_label": "Bestellung contient {{lineItemName1}} quantité {{lineItemQuantity1}}, {{lineItemName2}} quantité {{lineItemQuantity2}}, {{lineItemName3}} quantité {{lineItemQuantity3}}, {{lineItemName4}} quantité {{lineItemQuantity4}}, {{lineItemName5}} quantité {{lineItemQuantity5}}, {{lineItemName6}} quantité {{lineItemQuantity6}}"
         }
       }
     }

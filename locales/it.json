@@ -447,7 +447,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Il voucher è già stato aggiunto al tuo ordine",
-          "insufficient_funds": "Su questo voucher non è più disponibile alcun saldo"
+          "insufficient_funds": "Su questo voucher non è più disponibile alcun saldo",
+          "not_available": "Questo voucher non è più disponibile"
         }
       }
     },
@@ -563,6 +564,14 @@
           "order_number": {
             "ascending": "Numero d'ordine (dal più basso all'alto)"
           }
+        },
+        "payment_status": {
+          "table_view": {
+            "paid": "Pagato"
+          }
+        },
+        "carousel": {
+          "four_products_accessibility_label": "La tua ordine contiene {{lineItemName1}} quantità {{lineItemQuantity1}}, {{lineItemName2}} quantità {{lineItemQuantity2}}, {{lineItemName3}} quantità {{lineItemQuantity3}}, {{lineItemName4}} quantità {{lineItemQuantity4}}"
         }
       }
     }

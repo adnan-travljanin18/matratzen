@@ -470,7 +470,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "duplicate": "Сертифікат уже додано до твого замовлення"
+          "duplicate": "Сертифікат уже додано до твого замовлення",
+          "not_available": "Цей Gutschein більше недоступний"
         }
       }
     },
@@ -588,7 +589,13 @@
         "payment_status": {
           "list_view": {
             "overdue": "Платіж прострочено"
+          },
+          "table_view": {
+            "paid": "сплачено"
           }
+        },
+        "carousel": {
+          "four_products_accessibility_label": "Bestellung містить {{lineItemName1}} кількість {{lineItemQuantity1}}, {{lineItemName2}} кількість {{lineItemQuantity2}}, {{lineItemName3}} кількість {{lineItemQuantity3}}, {{lineItemName4}} кількість {{lineItemQuantity4}}"
         }
       }
     }

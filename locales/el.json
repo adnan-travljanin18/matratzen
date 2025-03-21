@@ -427,7 +427,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "duplicate": "Ο κωδικός κουπονιού έχει ήδη προστεθεί στην παραγγελία σου"
+          "duplicate": "Ο κωδικός κουπονιού έχει ήδη προστεθεί στην παραγγελία σου",
+          "not_available": "Αυτό το κουπόνι δεν είναι πια διαθέσιμο"
         }
       }
     },
@@ -565,7 +566,13 @@
         "payment_status": {
           "list_view": {
             "overdue": "Η πληρωμή είναι εκπρόθεσμη"
+          },
+          "table_view": {
+            "paid": "Πληρωμένο"
           }
+        },
+        "carousel": {
+          "four_products_accessibility_label": "Βεβαίωση παραγγελίας περιέχει {{lineItemName1}} Ποσότητα {{lineItemQuantity1}}, {{lineItemName2}} Ποσότητα {{lineItemQuantity2}}, {{lineItemName3}} Ποσότητα {{lineItemQuantity3}}, {{lineItemName4}} Ποσότητα {{lineItemQuantity4}}"
         }
       }
     }

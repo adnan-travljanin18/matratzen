@@ -470,7 +470,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Der Gutschein zaten siparişine eklendi",
-          "insufficient_funds": "Bu kuponun üzerinde artık herhangi bir bakiye yok"
+          "insufficient_funds": "Bu kuponun üzerinde artık herhangi bir bakiye yok",
+          "not_available": "Bu kupon artık mevcut değil"
         }
       }
     },
@@ -584,6 +585,14 @@
           "order_number": {
             "ascending": "Sipariş numarası (düşükten yükseğe)"
           }
+        },
+        "payment_status": {
+          "table_view": {
+            "paid": "Ödenmiş"
+          }
+        },
+        "carousel": {
+          "four_products_accessibility_label": "Bestellung enthält {{lineItemName1}} Menge {{lineItemQuantity1}}, {{lineItemName2}} Menge {{lineItemQuantity2}}, {{lineItemName3}} Menge {{lineItemQuantity3}}, {{lineItemName4}} Menge {{lineItemQuantity4}}"
         }
       }
     }

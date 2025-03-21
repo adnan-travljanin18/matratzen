@@ -441,7 +441,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Kupon został już dodany do twojego zamówienia",
-          "insufficient_funds": "Na tym bonie nie ma już salda"
+          "insufficient_funds": "Na tym bonie nie ma już salda",
+          "not_available": "Ten kupon jest już niedostępny"
         }
       }
     },
@@ -557,6 +558,14 @@
           "order_number": {
             "ascending": "Numer zamówienia (niski do wysoki)"
           }
+        },
+        "payment_status": {
+          "table_view": {
+            "paid": "Zapłacono"
+          }
+        },
+        "carousel": {
+          "four_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}} ilość {{lineItemQuantity1}}, {{lineItemName2}} ilość {{lineItemQuantity2}}, {{lineItemName3}} ilość {{lineItemQuantity3}}, {{lineItemName4}} ilość {{lineItemQuantity4}}"
         }
       }
     }

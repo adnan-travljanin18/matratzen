@@ -445,7 +445,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Gavekortet er allerede tilføjet til din ordre",
-          "insufficient_funds": "På denne kupon er der ikke længere noget kredit"
+          "insufficient_funds": "På denne kupon er der ikke længere noget kredit",
+          "not_available": "Denne kupon er ikke længere tilgængelig"
         }
       }
     },
@@ -561,6 +562,14 @@
           "order_number": {
             "ascending": "Bestillingsnummer (lav til høj)"
           }
+        },
+        "payment_status": {
+          "table_view": {
+            "paid": "Betalt"
+          }
+        },
+        "carousel": {
+          "six_products_accessibility_label": "Bestellung indeholder {{lineItemName1}} mængde {{lineItemQuantity1}}, {{lineItemName2}} mængde {{lineItemQuantity2}}, {{lineItemName3}} mængde {{lineItemQuantity3}}, {{lineItemName4}} mængde {{lineItemQuantity4}}, {{lineItemName5}} mængde {{lineItemQuantity5}}, {{lineItemName6}} mængde {{lineItemQuantity6}}"
         }
       }
     }

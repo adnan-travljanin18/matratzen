@@ -542,6 +542,17 @@
           "order_number": {
             "ascending": "Číslo objednávky (od nejnižšího po nejvyšší)"
           }
+        },
+        "payment_status": {
+          "list_view": {
+            "due_today": "Platba splatná dnes"
+          },
+          "table_view": {
+            "paid": "Zaplaceno"
+          }
+        },
+        "carousel": {
+          "six_products_accessibility_label": "Bestellung obsahuje {{lineItemName1}} množství {{lineItemQuantity1}}, {{lineItemName2}} množství {{lineItemQuantity2}}, {{lineItemName3}} množství {{lineItemQuantity3}}, {{lineItemName4}} množství {{lineItemQuantity4}}, {{lineItemName5}} množství {{lineItemQuantity5}}, {{lineItemName6}} množství {{lineItemQuantity6}}"
         }
       }
     }

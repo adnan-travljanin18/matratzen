@@ -433,7 +433,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Alennuskoodi on jo lisätty tilaukseesi",
-          "insufficient_funds": "Tässä lahjakortissa ei ole enää hyvitystä"
+          "insufficient_funds": "Tässä lahjakortissa ei ole enää hyvitystä",
+          "not_available": "Tämä kuponki ei ole enää saatavilla"
         }
       }
     },
@@ -554,6 +555,14 @@
           "order_number": {
             "ascending": "Tilauksen numero (matala korkeaan)"
           }
+        },
+        "payment_status": {
+          "table_view": {
+            "paid": "Maksettu"
+          }
+        },
+        "carousel": {
+          "six_products_accessibility_label": "Tilauksen sisältö {{lineItemName1}} määrä {{lineItemQuantity1}}, {{lineItemName2}} määrä {{lineItemQuantity2}}, {{lineItemName3}} määrä {{lineItemQuantity3}}, {{lineItemName4}} määrä {{lineItemQuantity4}}, {{lineItemName5}} määrä {{lineItemQuantity5}}, {{lineItemName6}} määrä {{lineItemQuantity6}}"
         }
       }
     }

@@ -423,7 +423,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "duplicate": "O cupom já foi adicionado ao seu pedido"
+          "duplicate": "O cupom já foi adicionado ao seu pedido",
+          "not_available": "Este voucher não está mais disponível"
         }
       }
     },
@@ -561,7 +562,13 @@
         "payment_status": {
           "list_view": {
             "overdue": "Pagamento atrasado"
+          },
+          "table_view": {
+            "paid": "Pago"
           }
+        },
+        "carousel": {
+          "four_products_accessibility_label": "Bestellung contém {{lineItemName1}} quantidade {{lineItemQuantity1}}, {{lineItemName2}} quantidade {{lineItemQuantity2}}, {{lineItemName3}} quantidade {{lineItemQuantity3}}, {{lineItemName4}} quantidade {{lineItemQuantity4}}"
         }
       }
     }

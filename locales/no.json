@@ -443,7 +443,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Gavekortet har allerede blitt lagt til bestillingen din",
-          "insufficient_funds": "På denne kupongen er det ikke lenger noe saldo"
+          "insufficient_funds": "På denne kupongen er det ikke lenger noe saldo",
+          "not_available": "Denne kupongen er ikke lenger tilgjengelig"
         }
       }
     },
@@ -559,6 +560,14 @@
           "order_number": {
             "ascending": "Bestillingsnummer (lav til høy)"
           }
+        },
+        "payment_status": {
+          "table_view": {
+            "paid": "Betalt"
+          }
+        },
+        "carousel": {
+          "four_products_accessibility_label": "Bestillingen inneholder {{lineItemName1}} Mengde {{lineItemQuantity1}}, {{lineItemName2}} Mengde {{lineItemQuantity2}}, {{lineItemName3}} Mengde {{lineItemQuantity3}}, {{lineItemName4}} Mengde {{lineItemQuantity4}}"
         }
       }
     }

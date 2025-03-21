@@ -468,7 +468,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Gutscheinet har redan lagts till i din beställning",
-          "insufficient_funds": "På detta presentkort finns det inget saldo kvar"
+          "insufficient_funds": "På detta presentkort finns det inget saldo kvar",
+          "not_available": "Denna kupong är inte längre tillgänglig"
         }
       }
     },
@@ -584,6 +585,14 @@
           "order_number": {
             "ascending": "Beställningsnummer (lågt till högt)"
           }
+        },
+        "payment_status": {
+          "table_view": {
+            "paid": "Betald"
+          }
+        },
+        "carousel": {
+          "four_products_accessibility_label": "Beställningen innehåller {{lineItemName1}} mängd {{lineItemQuantity1}}, {{lineItemName2}} mängd {{lineItemQuantity2}}, {{lineItemName3}} mängd {{lineItemQuantity3}}, {{lineItemName4}} mängd {{lineItemQuantity4}}"
         }
       }
     }

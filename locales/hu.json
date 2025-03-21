@@ -429,7 +429,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "duplicate": "A kupon már hozzá lett adva a rendelésedhez"
+          "duplicate": "A kupon már hozzá lett adva a rendelésedhez",
+          "not_available": "Ez a kupon már nem elérhető"
         }
       }
     },
@@ -567,7 +568,13 @@
         "payment_status": {
           "list_view": {
             "overdue": "A fizetés késlekedése"
+          },
+          "table_view": {
+            "paid": "Fizetett"
           }
+        },
+        "carousel": {
+          "four_products_accessibility_label": "Bestellung enthält {{lineItemName1}} mennyiség {{lineItemQuantity1}}, {{lineItemName2}} mennyiség {{lineItemQuantity2}}, {{lineItemName3}} mennyiség {{lineItemQuantity3}}, {{lineItemName4}} mennyiség {{lineItemQuantity4}}"
         }
       }
     }
