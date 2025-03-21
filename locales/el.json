@@ -17,12 +17,21 @@
         "reduced_label": "Μειωμένο",
         "unpurchasable_product": {
           "status_column_header": "Μη διαθέσιμο"
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Αυτά τα άρθρα έχουν αφαιρεθεί από το καλάθι αγορών σας, καθώς δεν υπάρχουν διαθέσιμες μέθοδοι παράδοσης για τη διεύθυνσή σας."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Οι τιμές και οι διαθέσιμες ποσότητες αυτών των ειδών έχουν αλλάξει και έχουν ενημερωθεί στο καλάθι σας."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Οι όροι εκπλήρωσης δεν πληρούνται, καθώς τα αντικείμενα δεν μπορούν να εκτελούνται στον ίδιο τόπο."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Οι όροι εκπλήρωσης δεν πληρούνται, καθώς τα αντικείμενα δεν μπορούν να εκτελούνται στον ίδιο τόπο.",
+            "wrong_number_of_delivery_lines": "Για κάθε ομάδα προϊόντων εμπορευμάτων πρέπει να καθοριστεί μια σειρά παράδοσης."
           },
           "payment": {
             "subscription_terms_not_accepted": "Οι όροι συνδρομής δεν έγιναν αποδεκτοί.",

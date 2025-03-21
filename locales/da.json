@@ -16,12 +16,21 @@
         "reduced_label": "Reduceret",
         "quantity_update": {
           "description": "Den tilgængelige mængde af disse varer er blevet ændret og er blevet opdateret i din indkøbsvogn."
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Disse artikler fjernes fra din kurv, da der ikke er tilgængelige leveringsmetoder for din adresse."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Priserne og tilgængelige mængder af disse varer er blevet ændret og er blevet opdateret i din indkøbskurv."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Betalingsbetingelserne blev ikke opfyldt, da varerne ikke kan udføres fra den samme placering."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Betalingsbetingelserne blev ikke opfyldt, da varerne ikke kan udføres fra den samme placering.",
+            "wrong_number_of_delivery_lines": "For hver merchandise-artikelgruppe skal der angives en leveringsrækkefølge."
           },
           "payment": {
             "subscription_terms_not_accepted": "Abonnementsbetingelserne blev ikke accepteret.",

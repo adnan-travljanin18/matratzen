@@ -17,12 +17,21 @@
         "reduced_label": "Smanjuje",
         "unpurchasable_product": {
           "status_column_header": "Nije dostupno"
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Ovi artikli će biti uklonjeni iz tvoje korpe, jer za tvoju adresu nisu dostupne metode isporuke."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Cene i dostupne količine ovih artikala su se promenile i ažurirane su u tvom korpusu."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "uslovi ispunjenja nisu ispunjeni, jer se artikli ne mogu izvršiti na istoj lokaciji."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "uslovi ispunjenja nisu ispunjeni, jer se artikli ne mogu izvršiti na istoj lokaciji.",
+            "wrong_number_of_delivery_lines": "Za svaku grupu artikala izmerchandisinga mora biti navedena redosled isporuke."
           },
           "payment": {
             "subscription_terms_not_accepted": "Услови претплате нису прихваћени.",

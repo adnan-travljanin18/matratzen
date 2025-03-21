@@ -16,12 +16,21 @@
         "reduced_label": "Azaltılmış",
         "unpurchasable_product": {
           "status_column_header": "Kullanılamıyor"
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Bu ürünler, adresinize teslimat yöntemleri mevcut olmadığından alışveriş sepetinizden kaldırılacaktır."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Fiyatlar ve bu maddelerin mevcut miktarları değişti ve sepete güncellendi."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Fulfillment şartları sağlanmadı, çünkü ürünler aynı konumda yapılamaz."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Fulfillment şartları sağlanmadı, çünkü ürünler aynı konumda yapılamaz.",
+            "wrong_number_of_delivery_lines": "Her merchandise ürün grubu için bir teslimat sırası belirtilmelidir."
           },
           "payment": {
             "positive_amount_expected": "Ödenecek tutar 0'dan büyük olmalıdır.",

@@ -16,12 +16,21 @@
         "reduced_label": "Minskar",
         "unpurchasable_product": {
           "status_column_header": "Ej tillgänglig"
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Dessa artiklar har tagits bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Priserna och tillgängliga mängder av dessa artiklar har förändrats och har uppdaterats i din kundvagn."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Villkoren för fullgörande har inte uppfyllts, eftersom artiklarna inte kan utföras på samma plats."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Villkoren för fullgörande har inte uppfyllts, eftersom artiklarna inte kan utföras på samma plats.",
+            "wrong_number_of_delivery_lines": "För varje merchandise-artikelgrupp måste en leveransserie anges."
           },
           "payment": {
             "subscription_terms_not_accepted": "Abonnemangs villkoren accepterades inte.",

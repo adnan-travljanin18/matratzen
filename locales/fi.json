@@ -16,12 +16,21 @@
         "reduced_label": "Vähentää",
         "quantity_update": {
           "description": "Saatavilla olevan määrän näiden tuotteiden on muuttunut ja se on päivitetty ostoskorissasi."
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Nämä artikkelit poistetaan ostos koristasi, koska osoitteesi ei mahdollista toimitusmenetelmiä."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Hinnat ja saatavilla olevat määrät näistä artikkeleista ovat muuttuneet ja ne on päivitetty ostoskoriisi."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Täyttämisehdot eivät täyttyneet, koska artikkeleita ei voida suorittaa samalla sijainnilla."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Täyttämisehdot eivät täyttyneet, koska artikkeleita ei voida suorittaa samalla sijainnilla.",
+            "wrong_number_of_delivery_lines": "Jokaiselle myynnissä olevalle tavararyhmälle on ilmoitettava toimituslinja."
           },
           "payment": {
             "subscription_terms_not_accepted": "Tilausehdot eivät olleet hyväksyttäviä.",

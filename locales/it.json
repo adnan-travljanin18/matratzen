@@ -16,12 +16,21 @@
         "reduced_label": "Ridotto",
         "unpurchasable_product": {
           "status_column_header": "Non disponibile"
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Questi articoli sono stati rimossi dal tuo carrello, poiché non sono disponibili metodi di consegna per il tuo indirizzo."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "I prezzi e le quantità disponibili di questi articoli sono cambiati e sono stati aggiornati nel tuo carrello."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Le condizioni di adempimento non sono state soddisfatte, poiché gli articoli non possono essere eseguiti nella stessa posizione."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Le condizioni di adempimento non sono state soddisfatte, poiché gli articoli non possono essere eseguiti nella stessa posizione.",
+            "wrong_number_of_delivery_lines": "Per ogni gruppo di articoli di merce, deve essere specificata una serie di consegna."
           },
           "payment": {
             "subscription_terms_not_accepted": "I termini dell'abbonamento non sono stati accettati.",

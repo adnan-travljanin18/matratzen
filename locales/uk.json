@@ -17,12 +17,21 @@
         "reduced_label": "Зменшено",
         "unpurchasable_product": {
           "status_column_header": "Не доступно"
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Ці статті будуть видалені з твоєї кошика, оскільки для твоєї адреси немає доступних методів доставки."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Ціни та доступні кількості цих товарів змінилися і були оновлені у твоєму кошику."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Умови виконання не були виконані, оскільки товари не можуть бути виконані в одному і тому ж місці."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Умови виконання не були виконані, оскільки товари не можуть бути виконані в одному і тому ж місці.",
+            "wrong_number_of_delivery_lines": "Для кожної групи товарів мерчандайзингу має бути вказано рядок доставки."
           },
           "payment": {
             "subscription_terms_not_accepted": "Умови підписки не були прийняті.",

@@ -16,12 +16,21 @@
         "reduced_label": "Snížený",
         "quantity_update": {
           "description": "Změnila se dostupná množství těchto položek a byla aktualizována ve tvém nákupním košíku."
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Tyto položky byly odstraněny z tvého nákupního košíku, protože pro tvoji adresu nejsou k dispozici žádné možnosti doručení."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Ceny a dostupné množství těchto položek se změnily a byly aktualizovány ve tvém nákupním košíku."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Podmínky plnění nebyly splněny, protože položky nemohou být provedeny na stejné lokalitě."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Podmínky plnění nebyly splněny, protože položky nemohou být provedeny na stejné lokalitě.",
+            "wrong_number_of_delivery_lines": "Pro každou skupinu zboží s merchandisem musí být uvedena dodací řada."
           },
           "payment": {
             "positive_amount_expected": "Výše platební částky musí být větší než 0.",

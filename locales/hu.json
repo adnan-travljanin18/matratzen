@@ -16,12 +16,21 @@
         "reduced_label": "Csökkent",
         "unpurchasable_product": {
           "status_column_header": "Nem elérhető"
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Ezeket a cikkeket eltávolítjuk a kosaradból, mivel a címedhez nincs elérhető szállítási módszer."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "A termékek árai és elérhető mennyiségei megváltoztak, és frissítésre kerültek a kosaradban."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "A teljesítési feltételek nem teljesültek, mivel az áruk nem ugyanazon a helyszínen hajthatók végre."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "A teljesítési feltételek nem teljesültek, mivel az áruk nem ugyanazon a helyszínen hajthatók végre.",
+            "wrong_number_of_delivery_lines": "Minden egyes áru csoporthoz meg kell adni egy szállítási sort."
           },
           "payment": {
             "subscription_terms_not_accepted": "A szolgáltatási feltételek nem lettek elfogadva.",

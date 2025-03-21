@@ -16,12 +16,21 @@
         "reduced_label": "Réduit",
         "quantity_update": {
           "title": "Mise à jour des quantités"
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Ces articles ont été retirés de votre panier car aucune méthode de livraison n'est disponible pour votre adresse."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Les prix et les quantités disponibles de ces articles ont changé et ont été mis à jour dans votre panier."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Les conditions de fulfillment n'ont pas été remplies, car les articles ne peuvent pas être exécutés au même emplacement."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Les conditions de fulfillment n'ont pas été remplies, car les articles ne peuvent pas être exécutés au même emplacement.",
+            "wrong_number_of_delivery_lines": "Pour chaque groupe d'articles de marchandises, une série de livraison doit être spécifiée."
           },
           "payment": {
             "subscription_terms_not_accepted": "Les conditions d'abonnement n'ont pas été acceptées.",

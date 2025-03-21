@@ -17,12 +17,21 @@
         "reduced_label": "Reduzido",
         "unpurchasable_product": {
           "header": "Alguns itens foram removidos do seu carrinho"
+        },
+        "unshippable_product": {
+          "message": {
+            "other": "Estes itens foram removidos do seu carrinho, pois não há métodos de entrega disponíveis para o seu endereço."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Os preços e as quantidades disponíveis desses itens mudaram e foram atualizados no seu carrinho."
         }
       },
       "general": {
         "errors": {
           "delivery": {
-            "must_fulfill_from_same_location_constraint_not_satisfied": "As condições de cumprimento não foram atendidas, pois os itens não podem ser realizados na mesma localidade."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "As condições de cumprimento não foram atendidas, pois os itens não podem ser realizados na mesma localidade.",
+            "wrong_number_of_delivery_lines": "Para cada grupo de itens de merchandising, uma sequência de entrega deve ser especificada."
           },
           "payment": {
             "subscription_terms_not_accepted": "As condições de assinatura não foram aceitas.",
