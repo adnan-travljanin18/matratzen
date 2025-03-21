@@ -31,6 +31,9 @@
           "merchandise": {
             "merchandise_variant_not_found": "Tuotemuunnosta ei löytynyt.",
             "gift_card_invalid": "Lahjakorttikoodi {{code}} ei ole voimassa."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Tämä sijainti ei ole tämänhetkisessä kaupassa saatavilla."
           }
         },
         "complete_purchase_button_label": "Ostaa",

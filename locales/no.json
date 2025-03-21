@@ -32,6 +32,9 @@
           "session_identifier_not_unique_error": "Det har skjedd en feil med bestillingen din, vær vennlig å prøve å sjekke ut igjen.",
           "merchandise": {
             "merchandise_variant_not_found": "Produktvarianten ble ikke funnet."
+          },
+          "sale_attribution": {
+            "unresolvable_target_merchandise_lines": "De foreslåtte salgstildelingene er uforenlige i den nåværende forhandlingskonteksten."
           }
         },
         "complete_purchase_button_label": "Kjøpe",

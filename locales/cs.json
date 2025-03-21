@@ -31,6 +31,9 @@
           "only_empty_terms_accepted": "Pro tuto podmínku jsou platné pouze prázdné vstupy.",
           "merchandise": {
             "gift_card_invalid": "Kód poukazu na dárky {{code}} je neplatný."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Tento umístění momentálně není v aktuálním obchodě k dispozici."
           }
         },
         "complete_purchase_button_label": "Koupit",

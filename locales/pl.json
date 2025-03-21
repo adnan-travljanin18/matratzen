@@ -31,7 +31,8 @@
           "session_identifier_not_unique_error": "Mit twoją zamówieniem coś poszło nie tak, spróbuj ponownie przejść do kasy.",
           "merchandise": {
             "merchandise_variant_not_found": "Produktvariante nie została znaleziona.",
-            "gift_card_invalid": "Kod kuponu prezentowego {{code}} jest nieprawidłowy."
+            "gift_card_invalid": "Kod kuponu prezentowego {{code}} jest nieprawidłowy.",
+            "inventory_not_found": "Dla tego artykułu z towarami nie znaleziono zapasów."
           }
         },
         "complete_purchase_button_label": "Kupować",

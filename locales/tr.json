@@ -31,7 +31,8 @@
           "session_identifier_not_unique_error": "Siparişinle ilgili bir sorun oluştu, lütfen tekrar çıkış yapmayı dene.",
           "merchandise": {
             "merchandise_variant_not_found": "Ürün varyasyonu bulunamadı.",
-            "gift_card_invalid": "Der Geschenkgutschein kodu {{code}} geçersiz."
+            "gift_card_invalid": "Der Geschenkgutschein kodu {{code}} geçersiz.",
+            "product_not_published": "Ürün yayınlanmadı."
           }
         },
         "complete_purchase_button_label": "Satın Al",

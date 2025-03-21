@@ -31,6 +31,9 @@
           "only_empty_terms_accepted": "For denne betingelse er kun tomme indtastninger gyldige.",
           "merchandise": {
             "gift_card_invalid": "Gavegavekoden {{code}} er ugyldig."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Denne placering findes ikke i den aktuelle butik."
           }
         },
         "complete_purchase_button_label": "Køb",

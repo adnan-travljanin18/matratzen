@@ -26,12 +26,16 @@
             "shop_cash_unsupported_checkout_source": "A Bolt Cash nem támogatja ezt a pénztári folyamatot.",
             "wallet_content_missing": "Hiányzik a pénztárca tartalma.",
             "saved_payment_methods_not_enabled": "A mentett fizetési módok nem aktívak ennél a boltban.",
-            "gift_cards_not_allowed_for_b2b": "A ajándékutalványok nem megengedettek a B2B üzletekben."
+            "store_credit_buying_gift_card": "Nem használhatsz bolt-észlelt egyenleget ajándékkártya vásárlására."
           },
           "session_identifier_not_unique_error": "Mit deiner Bestellung ist etwas schiefgelaufen, bitte versuche erneut auszuchecken.",
           "merchandise": {
             "merchandise_variant_not_found": "A termékvariáns nem található.",
-            "gift_card_invalid": "A ajándékutalvány kódja {{code}} érvénytelen."
+            "gift_card_invalid": "A ajándékutalvány kódja {{code}} érvénytelen.",
+            "selling_plan_not_supported": "Az előfizetések nem támogatottak."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Ez a rendelési tervezet nem található a jelenlegi boltban."
           }
         },
         "complete_purchase_button_label": "Vásárol",

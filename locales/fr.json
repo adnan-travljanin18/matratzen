@@ -31,6 +31,9 @@
           },
           "merchandise": {
             "merchandise_variant_not_found": "La variante de produit n'a pas été trouvée."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Ce site n'est pas disponible dans la boutique actuelle."
           }
         },
         "complete_purchase_button_label": "Acheter",

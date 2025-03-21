@@ -25,12 +25,17 @@
             "installments_test_mode_not_allowed": "Ο τρόπος δοκιμής δεν επιτρέπεται.",
             "shop_cash_unsupported_checkout_source": "Το Shop Cash δεν υποστηρίζει αυτήν τη διαδικασία ολοκλήρωσης της παραγγελίας.",
             "wallet_content_missing": "Λείπει το περιεχόμενο του πορτοφολιού.",
-            "saved_payment_methods_not_enabled": "Οι αποθηκευμένες μέθοδοι πληρωμής δεν είναι ενεργοποιημένες για αυτό το κατάστημα."
+            "saved_payment_methods_not_enabled": "Οι αποθηκευμένες μέθοδοι πληρωμής δεν είναι ενεργοποιημένες για αυτό το κατάστημα.",
+            "store_credit_buying_gift_card": "Δεν μπορείς να χρησιμοποιήσεις πιστώσεις καταστήματος για να αγοράσεις κουπόνι."
           },
           "session_identifier_not_unique_error": "Με την παραγγελία σου έχει γίνει κάτι λάθος, παρακαλώ προσπάθησε ξανά να ολοκληρώσεις την παραγγελία.",
           "merchandise": {
             "merchandise_variant_not_found": "Η παραλλαγή προϊόντος δεν βρέθηκε.",
-            "gift_card_invalid": "Ο κωδικός δώρου {{code}} είναι άκυρος."
+            "gift_card_invalid": "Ο κωδικός δώρου {{code}} είναι άκυρος.",
+            "selling_plan_not_supported": "Τα συνδρομές δεν υποστηρίζονται."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Αυτό το σχέδιο παραγγελίας δεν είναι διαθέσιμο στο τρέχον κατάστημα."
           }
         },
         "complete_purchase_button_label": "Αγορά",

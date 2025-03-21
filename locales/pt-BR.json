@@ -25,12 +25,17 @@
             "installments_test_mode_not_allowed": "O modo de teste não é permitido.",
             "shop_cash_unsupported_checkout_source": "A Shop Cash não suporta este checkout.",
             "wallet_content_missing": "Falta o conteúdo da carteira.",
-            "saved_payment_methods_not_enabled": "Métodos de pagamento salvos não estão ativados para esta loja."
+            "saved_payment_methods_not_enabled": "Métodos de pagamento salvos não estão ativados para esta loja.",
+            "store_credit_buying_gift_card": "Você não pode usar créditos da loja para comprar um voucher."
           },
           "session_identifier_not_unique_error": "Houve um problema com seu pedido, por favor, tente novamente fazer o checkout.",
           "only_empty_terms_accepted": "Para esta condição, somente entradas vazias são válidas.",
           "merchandise": {
-            "gift_card_invalid": "O código do vale-presente {{code}} é inválido."
+            "gift_card_invalid": "O código do vale-presente {{code}} é inválido.",
+            "selling_plan_not_supported": "Assinaturas não são suportadas."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Este rascunho de pedido não está disponível na loja atual."
           }
         },
         "complete_purchase_button_label": "Comprar",

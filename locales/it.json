@@ -31,6 +31,9 @@
           },
           "merchandise": {
             "merchandise_variant_not_found": "La variante del prodotto non è stata trovata."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "L'offerta dell'acquirente deve contenere condizioni non negoziabili."
           }
         },
         "complete_purchase_button_label": "Comprare",
