@@ -777,7 +777,12 @@
       "saturdayAbbreviation": "Sa",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Cikk elérhető"
-      }
+      },
+      "clipboardCopied": "Másolt"
+    },
+    "profile_preview_bar": {
+      "saved_at": "Gespeichert {{date}}-kor {{time}}-kor",
+      "actions_button": "Akciók"
     }
   }
 }

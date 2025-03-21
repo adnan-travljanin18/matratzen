@@ -796,6 +796,15 @@
       "saturdayAbbreviation": "Сау",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Статей доступно"
+      },
+      "clipboardCopied": "Копіювати"
+    },
+    "profile_preview_bar": {
+      "saved_at": "Збережено {{date}} о {{time}}"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "description": "Коли ви втратили свій пристрій і маєте занепокоєння щодо безпеки, вийдіть з усіх облікових записів, щоб забезпечити безпеку вашого профілю."
       }
     }
   }

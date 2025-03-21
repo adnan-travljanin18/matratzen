@@ -746,6 +746,9 @@
           "hide_all": "Alle skjule",
           "hide_all_accessibility_label": "Alle bestillinger som skal skjules, som skal godkjennes"
         }
+      },
+      "draft_order_details": {
+        "loading_finished_accessibility_message": "Bestelldetaljer ble lastet"
       }
     },
     "errors": {
@@ -772,7 +775,11 @@
       "saturdayAbbreviation": "Sa",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Artikler tilgjengelig"
-      }
+      },
+      "clipboardCopied": "Kopiert"
+    },
+    "profile_preview_bar": {
+      "saved_at": "Gespeichert den {{date}} kl {{time}}"
     }
   }
 }

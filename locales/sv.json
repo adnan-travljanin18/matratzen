@@ -799,6 +799,15 @@
       "saturdayAbbreviation": "Sa",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Artiklar tillgängliga"
+      },
+      "clipboardCopied": "Kopierat"
+    },
+    "profile_preview_bar": {
+      "saved_at": "Gespekat den {{date}} kl {{time}}"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "title": "Avsluta överallt"
       }
     }
   }

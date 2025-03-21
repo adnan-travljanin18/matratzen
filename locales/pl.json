@@ -770,6 +770,15 @@
       "saturdayAbbreviation": "Sa",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Artykułów dostępnych"
+      },
+      "clipboardCopied": "Skopiowane"
+    },
+    "profile_preview_bar": {
+      "saved_at": "Gespeichert w dniu {{date}} o {{time}}"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "title": "Wyloguj się wszędzie"
       }
     }
   }

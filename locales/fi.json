@@ -740,6 +740,9 @@
         "draft_order_list": {
           "hide_all_accessibility_label": "Poista näyttöön kaikki tilaukset, jotka tarkistetaan"
         }
+      },
+      "draft_order_details": {
+        "loading_finished_accessibility_message": "Bestelldetails on ladattu"
       }
     },
     "errors": {
@@ -766,7 +769,11 @@
       "saturdayAbbreviation": "Sa",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Artikkelia saatavilla"
-      }
+      },
+      "clipboardCopied": "Kopiert"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Säädä"
     }
   }
 }

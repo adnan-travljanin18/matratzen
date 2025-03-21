@@ -773,6 +773,15 @@
       "saturdayAbbreviation": "Sa",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Artigos disponíveis"
+      },
+      "clipboardCopied": "Copiado"
+    },
+    "profile_preview_bar": {
+      "saved_at": "Gespeichert em {{date}} às {{time}}"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "warning_message": "Você também será desconectado deste dispositivo."
       }
     }
   }

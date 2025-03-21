@@ -783,6 +783,15 @@
       "saturdayAbbreviation": "Sa",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} članaka dostupnih"
+      },
+      "clipboardCopied": "Kopiert"
+    },
+    "profile_preview_bar": {
+      "saved_at": "Čuvanje na {{date}} u {{time}}"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "warning_message": "Du ćeš biti odjavljen sa ovog uređaja."
       }
     }
   }

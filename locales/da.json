@@ -749,6 +749,9 @@
         "draft_order_list": {
           "hide_all_accessibility_label": "Alle bestillinger skjules, som skal kontrolleres"
         }
+      },
+      "draft_order_details": {
+        "loading_finished_accessibility_message": "Bestelldetaljer blev indlæst"
       }
     },
     "errors": {
@@ -778,7 +781,11 @@
       "sundayAbbreviation": "Så",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Artikler tilgængelige"
-      }
+      },
+      "clipboardCopied": "Kopieret"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Justere"
     }
   }
 }

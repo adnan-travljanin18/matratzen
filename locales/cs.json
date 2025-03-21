@@ -732,6 +732,9 @@
           "hide_all": "Skrýt vše",
           "hide_all_accessibility_label": "Skrýt všechny objednávky, které mají být zkontrolovány"
         }
+      },
+      "draft_order_details": {
+        "loading_finished_accessibility_message": "Podrobnosti objednávky byly načteny"
       }
     },
     "errors": {
@@ -761,7 +764,11 @@
       "sundayAbbreviation": "Tak",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Článků k dispozici"
-      }
+      },
+      "clipboardCopied": "Zkopírováno"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Přizpůsobit"
     }
   }
 }

@@ -775,6 +775,15 @@
       "saturdayAbbreviation": "Σα",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Άρθρα διαθέσιμα"
+      },
+      "clipboardCopied": "Αντιγράφεται"
+    },
+    "profile_preview_bar": {
+      "saved_at": "Αποθηκεύτηκε στις {{date}} στις {{time}}"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "description": "Όταν έχεις χάσει τη συσκευή σου και ανησυχείς για την ασφάλεια, αποσυνδέσου παντού για να διασφαλίσεις την ασφάλεια του λογαριασμού σου."
       }
     }
   }

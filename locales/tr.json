@@ -799,7 +799,12 @@
       "saturdayAbbreviation": "Sa",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Makale mevcut"
-      }
+      },
+      "clipboardCopied": "Kopyalandı"
+    },
+    "profile_preview_bar": {
+      "saved_at": "Kaydedildi {{date}} tarihinde {{time}}",
+      "actions_button": "İşlemler"
     }
   }
 }

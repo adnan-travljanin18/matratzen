@@ -751,6 +751,9 @@
         "draft_order_list": {
           "hide_all_accessibility_label": "Nascondi gli ordini che devono essere verificati"
         }
+      },
+      "draft_order_details": {
+        "loading_finished_accessibility_message": "I dettagli dell'ordine sono stati caricati"
       }
     },
     "errors": {
@@ -780,7 +783,11 @@
       "saturdayAbbreviation": "Sa",
       "autocompleteOptionsAvailable": {
         "other": "{{count}} Articoli disponibili"
-      }
+      },
+      "clipboardCopied": "Copiato"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Adattare"
     }
   }
 }
