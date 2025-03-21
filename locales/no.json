@@ -362,6 +362,21 @@
         "all_products_in_cart_unavailable": {
           "other": "Disse produktene er ikke tilgjengelige i ditt land / din region."
         }
+      },
+      "throttle": {
+        "inventory": {
+          "partial_inventory_banner": "En del av handlekurven din er utsolgt og er ikke tilgjengelig for kjøp ved kassen."
+        },
+        "estimated_wait_time": {
+          "other": "Die estimerte ventetid er {{count}} minutter"
+        }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "For %{count} artikler er ingen levering tilgjengelig"
+          }
+        }
       }
     }
   },

@@ -345,6 +345,14 @@
         "all_products_in_cart_unavailable": {
           "other": "Estes produtos não estão disponíveis em seu país / sua região."
         }
+      },
+      "throttle": {
+        "inventory": {
+          "partial_inventory_banner": "Uma parte do seu carrinho está esgotada e não está disponível para compra durante o checkout."
+        },
+        "estimated_wait_time": {
+          "other": "A estimativa de tempo de espera é de {{count}} minutos"
+        }
       }
     }
   },

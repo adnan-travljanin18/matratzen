@@ -387,6 +387,17 @@
         "all_products_in_cart_unavailable": {
           "other": "Bu ürünler ülkenizde / bölgenizde mevcut değil."
         }
+      },
+      "throttle": {
+        "inventory": {
+          "partial_inventory_banner": "Sepetinin bir kısmı tükendi ve ödeme sırasında satın almak için kullanılabilir değil."
+        },
+        "estimated_wait_time": {
+          "other": "Die geschätzte Wartezeit beträgt {{count}} dakika"
+        },
+        "too_many_attempts": {
+          "description": "Lütfen birkaç dakika içinde tekrar deneyin"
+        }
       }
     }
   },

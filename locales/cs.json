@@ -347,6 +347,19 @@
         "all_products_in_cart_unavailable": {
           "other": "Tyto produkty nejsou ve tvé zemi / tvém regionu k dispozici."
         }
+      },
+      "throttle": {
+        "inventory": {
+          "sold_out": {
+            "no_storefront_body": "Je nám líto, ale článek, který si chcete zakoupit, již není k dispozici."
+          }
+        },
+        "estimated_wait_time": {
+          "other": "Očekávaná doba čekání je {{count}} minut"
+        },
+        "too_many_attempts": {
+          "description": "Prosím, zkuste to znovu za pár minut"
+        }
       }
     }
   },

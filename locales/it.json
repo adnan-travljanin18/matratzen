@@ -362,6 +362,21 @@
         "all_products_in_cart_unavailable": {
           "other": "Questi prodotti non sono disponibili nel tuo paese / nella tua regione."
         }
+      },
+      "throttle": {
+        "inventory": {
+          "partial_inventory_banner": "Una parte del tuo carrello è esaurita e non è disponibile per l'acquisto al momento del pagamento."
+        },
+        "estimated_wait_time": {
+          "other": "Il tempo di attesa stimato è di {{count}} minuti"
+        }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Per %{count} articoli non è disponibile la consegna"
+          }
+        }
       }
     }
   },

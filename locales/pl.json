@@ -360,6 +360,21 @@
         "all_products_in_cart_unavailable": {
           "other": "Te produkty nie są dostępne w twoim kraju / twoim regionie."
         }
+      },
+      "throttle": {
+        "inventory": {
+          "partial_inventory_banner": "Część twojego koszyka jest niedostępna i nie można jej kupić przy realizacji zamówienia."
+        },
+        "estimated_wait_time": {
+          "other": "Czas oczekiwania wynosi {{count}} minut"
+        }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Dla %{count} artykułów brak dostawy dostępnej"
+          }
+        }
       }
     }
   },

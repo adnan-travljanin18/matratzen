@@ -360,6 +360,19 @@
         "all_products_in_cart_unavailable": {
           "other": "Disse produkter er ikke tilgængelige i dit land / din region."
         }
+      },
+      "throttle": {
+        "inventory": {
+          "sold_out": {
+            "no_storefront_body": "Desværre er den artikel, du ønsker at købe, ikke længere tilgængelig."
+          }
+        },
+        "estimated_wait_time": {
+          "other": "Den estimerede ventetid er {{count}} minutter"
+        },
+        "too_many_attempts": {
+          "description": "Prøv det venligst igen om et par minutter"
+        }
       }
     }
   },

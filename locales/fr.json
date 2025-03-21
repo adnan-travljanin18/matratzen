@@ -357,6 +357,19 @@
         "all_products_in_cart_unavailable": {
           "other": "Ces produits ne sont pas disponibles dans votre pays / région."
         }
+      },
+      "throttle": {
+        "inventory": {
+          "sold_out": {
+            "no_storefront_body": "Malheureusement, l'article que vous souhaitez acheter n'est plus disponible."
+          }
+        },
+        "estimated_wait_time": {
+          "other": "Le temps d'attente estimé est de {{count}} minutes"
+        },
+        "too_many_attempts": {
+          "description": "Veuillez réessayer dans quelques minutes"
+        }
       }
     }
   },

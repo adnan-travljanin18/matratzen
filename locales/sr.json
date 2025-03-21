@@ -355,6 +355,17 @@
         "all_products_in_cart_unavailable": {
           "other": "Ovi proizvodi nisu dostupni u tvojoj zemlji / tvojoj regiji."
         }
+      },
+      "throttle": {
+        "inventory": {
+          "partial_inventory_banner": "Deo vašeg korpe za kupovinu je rasprodat i nije dostupan za kupovinu pri odlasku na blagajnu."
+        },
+        "estimated_wait_time": {
+          "other": "Očekivano vreme čekanja je {{count}} minuta"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Došlo je do problema prilikom obrade vašeg zahteva. Molimo vas da se obratite vlasniku prodavnice."
       }
     }
   },

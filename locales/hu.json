@@ -347,6 +347,17 @@
         "all_products_in_cart_unavailable": {
           "other": "Ezek a termékek nem elérhetőek az országodban / a régiódra"
         }
+      },
+      "throttle": {
+        "inventory": {
+          "partial_inventory_banner": "A kosarad egy része elfogyott, és a pénztárnál nem elérhető megvásárlásra."
+        },
+        "estimated_wait_time": {
+          "other": "A várható várakozási idő {{count}} perc"
+        },
+        "too_many_attempts": {
+          "description": "Kérlek, próbáld meg újra pár perc múlva"
+        }
       }
     }
   },

@@ -385,6 +385,17 @@
         "all_products_in_cart_unavailable": {
           "other": "Dessa produkter är inte tillgängliga i ditt land / din region."
         }
+      },
+      "throttle": {
+        "inventory": {
+          "partial_inventory_banner": "En del av din varukorg är slutsåld och finns inte tillgänglig för köp vid kassan."
+        },
+        "estimated_wait_time": {
+          "other": "Den uppskattade väntetiden är {{count}} minuter"
+        },
+        "too_many_attempts": {
+          "description": "Snälla försök igen om några minuter"
+        }
       }
     }
   },

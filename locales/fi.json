@@ -347,6 +347,19 @@
         "all_products_in_cart_unavailable": {
           "other": "Nämä tuotteet eivät ole saatavilla maassasi / alueellasi."
         }
+      },
+      "throttle": {
+        "inventory": {
+          "sold_out": {
+            "no_storefront_body": "Valitettavasti artikkeli, jota haluat ostaa, ei ole enää saatavilla."
+          }
+        },
+        "estimated_wait_time": {
+          "other": "Odotettu odotusaika on {{count}} minuuttia"
+        },
+        "too_many_attempts": {
+          "description": "Yritä uudelleen muutaman minuutin kuluttua"
+        }
       }
     }
   },
