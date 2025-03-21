@@ -815,6 +815,21 @@
           "one": "vor {{count}} dakika"
         }
       }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Lütfen birkaç dakika içinde yeniden deneyin"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "cart_count": {
+        "other": "{{ count }} Makale"
+      }
+    },
+    "cart": {
+      "cart_error": "Bir hata oluştu, lütfen alışveriş sepetinizi güncellerken tekrar deneyin."
     }
   }
 }

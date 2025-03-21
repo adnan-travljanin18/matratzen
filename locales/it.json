@@ -753,7 +753,14 @@
         }
       },
       "draft_order_details": {
-        "loading_finished_accessibility_message": "I dettagli dell'ordine sono stati caricati"
+        "loading_finished_accessibility_message": "I dettagli dell'ordine sono stati caricati",
+        "payment_status": {
+          "draft": {
+            "in_review": {
+              "title": "La pagamento non è ancora scaduto"
+            }
+          }
+        }
       }
     },
     "errors": {
@@ -795,6 +802,18 @@
         "lessThanOneHourAgo": {
           "one": "vor {{count}} minuti"
         }
+      }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Per favore riprova tra qualche minuto"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "cart_count": {
+        "other": "{{ count }} Articoli"
       }
     }
   }

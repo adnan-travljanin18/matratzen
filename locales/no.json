@@ -788,6 +788,21 @@
           "one": "vor {{count}} minutt"
         }
       }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Vennligst prøv igjen om et par minutter"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "cart_count": {
+        "other": "{{ count }} Artikler"
+      }
+    },
+    "footer": {
+      "copyright": "Serenity"
     }
   }
 }

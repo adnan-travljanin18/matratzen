@@ -793,6 +793,21 @@
           "one": "vor {{count}} perc"
         }
       }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Kérlek, próbáld meg néhány perc múlva újra"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "cart_count": {
+        "other": "{{ count }} Cikk"
+      }
+    },
+    "footer": {
+      "klarna-number": "Registrációs szám: HRB13083"
     }
   }
 }

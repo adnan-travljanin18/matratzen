@@ -786,6 +786,21 @@
           "one": "vor {{count}} minut"
         }
       }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Proszę spróbować ponownie za kilka minut"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "cart_count": {
+        "other": "{{ count }} Artykuł"
+      }
+    },
+    "footer": {
+      "copyright": "Serenity"
     }
   }
 }

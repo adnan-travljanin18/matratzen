@@ -787,6 +787,18 @@
           "one": "vor {{count}} minuto"
         }
       }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Por favor, tente novamente em alguns minutos"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "cart_count": {
+        "other": "{{ count }} Artigos"
+      }
     }
   }
 }

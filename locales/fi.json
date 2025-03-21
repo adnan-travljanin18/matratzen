@@ -742,7 +742,14 @@
         }
       },
       "draft_order_details": {
-        "loading_finished_accessibility_message": "Bestelldetails on ladattu"
+        "loading_finished_accessibility_message": "Bestelldetails on ladattu",
+        "payment_status": {
+          "draft": {
+            "in_review": {
+              "title": "Maksu ei ole vielä erääntynyt"
+            }
+          }
+        }
       }
     },
     "errors": {
@@ -782,6 +789,14 @@
           "one": "vor {{count}} minuutti"
         }
       }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Yritä uudelleen muutaman minuutin kuluttua"
+      }
+    },
+    "shop_ads": {
+      "button": "Kaupassa löydät"
     }
   }
 }

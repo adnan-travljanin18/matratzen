@@ -791,6 +791,18 @@
           "one": "πριν από {{count}} λεπτό"
         }
       }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Παρακαλώ προσπαθήστε ξανά σε λίγα λεπτά"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "cart_count": {
+        "other": "{{ count }} Άρθρα"
+      }
     }
   }
 }

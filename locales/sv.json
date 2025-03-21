@@ -815,6 +815,21 @@
           "one": "vor {{count}} minut"
         }
       }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Försök igen om några minuter"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "cart_count": {
+        "other": "{{ count }} Artikel"
+      }
+    },
+    "footer": {
+      "klarna-name": "Registrerade namn: Serenity Bett GmbH"
     }
   }
 }

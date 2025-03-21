@@ -812,6 +812,21 @@
           "one": "vor {{count}} хвилини"
         }
       }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Будь ласка, спробуйте ще раз через кілька хвилин"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "cart_count": {
+        "other": "{{ count }} Стаття"
+      }
+    },
+    "cart": {
+      "cart_quantity_error_html": "Ви можете додати до кошика лише [quantity] цього товару."
     }
   }
 }

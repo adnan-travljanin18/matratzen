@@ -797,6 +797,18 @@
           "one": "za {{count}} minut"
         }
       }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Molim vas, pokušajte ponovo za nekoliko minuta"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "cart_count": {
+        "other": "{{ count }} Članak"
+      }
     }
   }
 }
