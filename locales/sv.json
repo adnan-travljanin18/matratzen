@@ -464,6 +464,12 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Leveransadress"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Gutscheinet har redan lagts till i din beställning",
+          "insufficient_funds": "På detta presentkort finns det inget saldo kvar"
+        }
       }
     },
     "pagination": {
@@ -575,8 +581,8 @@
           "next": "Fortsätta"
         },
         "sort": {
-          "location": {
-            "ascending": "Standort (A–Z)"
+          "order_number": {
+            "ascending": "Beställningsnummer (lågt till högt)"
           }
         }
       }

@@ -440,7 +440,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "duplicate": "Kupon został już dodany do twojego zamówienia"
+          "duplicate": "Kupon został już dodany do twojego zamówienia",
+          "insufficient_funds": "Na tym bonie nie ma już salda"
         }
       }
     },
@@ -551,6 +552,11 @@
         "order_link": "Zamówienie {{name}} wyświetl",
         "pagination": {
           "next": "Kontynuuj"
+        },
+        "sort": {
+          "order_number": {
+            "ascending": "Numer zamówienia (niski do wysoki)"
+          }
         }
       }
     }

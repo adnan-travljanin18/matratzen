@@ -466,6 +466,12 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Teslimat adresi"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Der Gutschein zaten siparişine eklendi",
+          "insufficient_funds": "Bu kuponun üzerinde artık herhangi bir bakiye yok"
+        }
       }
     },
     "pagination": {
@@ -575,8 +581,8 @@
           "next": "Devam"
         },
         "sort": {
-          "location": {
-            "descending": "Standort (Z–A)"
+          "order_number": {
+            "ascending": "Sipariş numarası (düşükten yükseğe)"
           }
         }
       }

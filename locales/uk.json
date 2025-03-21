@@ -467,6 +467,11 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Доставка адреси"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Сертифікат уже додано до твого замовлення"
+        }
       }
     },
     "pagination": {
@@ -575,7 +580,16 @@
         "pagination": {
           "next": "Продовжувати"
         },
-        "sort_show_options_accessibility_label": "Показати параметри сортування для підтверджених замовлень."
+        "sort": {
+          "order_number": {
+            "ascending": "Номер замовлення (від низького до високого)"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Платіж прострочено"
+          }
+        }
       }
     }
   }

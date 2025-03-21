@@ -444,7 +444,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "duplicate": "Gavekortet er allerede tilføjet til din ordre"
+          "duplicate": "Gavekortet er allerede tilføjet til din ordre",
+          "insufficient_funds": "På denne kupon er der ikke længere noget kredit"
         }
       }
     },
@@ -555,6 +556,11 @@
         "order_link": "Bestellung {{name}} se",
         "pagination": {
           "next": "Fortsæt"
+        },
+        "sort": {
+          "order_number": {
+            "ascending": "Bestillingsnummer (lav til høj)"
+          }
         }
       }
     }

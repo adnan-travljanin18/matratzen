@@ -446,7 +446,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "duplicate": "Il voucher è già stato aggiunto al tuo ordine"
+          "duplicate": "Il voucher è già stato aggiunto al tuo ordine",
+          "insufficient_funds": "Su questo voucher non è più disponibile alcun saldo"
         }
       }
     },
@@ -557,6 +558,11 @@
         "order_link": "Ordine {{name}} da visualizzare",
         "pagination": {
           "next": "Continuare"
+        },
+        "sort": {
+          "order_number": {
+            "ascending": "Numero d'ordine (dal più basso all'alto)"
+          }
         }
       }
     }

@@ -442,7 +442,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "duplicate": "Gavekortet har allerede blitt lagt til bestillingen din"
+          "duplicate": "Gavekortet har allerede blitt lagt til bestillingen din",
+          "insufficient_funds": "På denne kupongen er det ikke lenger noe saldo"
         }
       }
     },
@@ -553,6 +554,11 @@
         "order_link": "Bestilling {{name}} se",
         "pagination": {
           "next": "Videre"
+        },
+        "sort": {
+          "order_number": {
+            "ascending": "Bestillingsnummer (lav til høy)"
+          }
         }
       }
     }

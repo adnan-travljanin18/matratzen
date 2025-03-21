@@ -442,7 +442,8 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "duplicate": "Le bon a déjà été ajouté à votre commande"
+          "duplicate": "Le bon a déjà été ajouté à votre commande",
+          "insufficient_funds": "Sur ce bon, il n'y a plus de crédit"
         }
       }
     },
@@ -552,6 +553,11 @@
         "order_link": "Commande {{name}} à consulter",
         "pagination": {
           "next": "Continuer"
+        },
+        "sort": {
+          "order_number": {
+            "ascending": "Numéro de commande (du plus bas au plus élevé)"
+          }
         }
       }
     }

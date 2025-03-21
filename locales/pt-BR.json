@@ -420,6 +420,11 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Endereço de entrega"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "O cupom já foi adicionado ao seu pedido"
+        }
       }
     },
     "pagination": {
@@ -549,8 +554,13 @@
           "next": "Continuar"
         },
         "sort": {
-          "date": {
-            "oldest": "Mais Antigo–Mais Novo"
+          "order_number": {
+            "ascending": "Número do pedido (baixo para alto)"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Pagamento atrasado"
           }
         }
       }

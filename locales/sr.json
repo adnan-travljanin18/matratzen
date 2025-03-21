@@ -429,6 +429,11 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Isporuka adresa"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Дугме је већ додато вашој поруџбини"
+        }
       }
     },
     "pagination": {
@@ -561,8 +566,13 @@
           "next": "Dalje"
         },
         "sort": {
-          "date": {
-            "oldest": "Najstarije–Najnovije"
+          "order_number": {
+            "ascending": "Broj narudžbine (od najnižih do najviših)"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Plaćanje je zakasnilo"
           }
         }
       }

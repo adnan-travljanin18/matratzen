@@ -426,6 +426,11 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Szállítási cím"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "A kupon már hozzá lett adva a rendelésedhez"
+        }
       }
     },
     "pagination": {
@@ -554,7 +559,16 @@
         "pagination": {
           "next": "Tovább"
         },
-        "sort_title": "Rendezés"
+        "sort": {
+          "order_number": {
+            "ascending": "Megrendelési szám (alacsony közepes)"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "A fizetés késlekedése"
+          }
+        }
       }
     }
   }

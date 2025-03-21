@@ -424,6 +424,11 @@
         "reveal_more_label": {
           "other": "%{count} další místa zobrazit"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "insufficient_funds": "Na tomto poukazu již není žádný zůstatek"
+        }
       }
     },
     "pagination": {
@@ -532,7 +537,12 @@
         "pagination": {
           "next": "Pokračovat"
         },
-        "sort_title": "Seřadit"
+        "sort_title": "Seřadit",
+        "sort": {
+          "order_number": {
+            "ascending": "Číslo objednávky (od nejnižšího po nejvyšší)"
+          }
+        }
       }
     }
   }

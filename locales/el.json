@@ -424,6 +424,11 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Παράδοση διεύθυνσης"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Ο κωδικός κουπονιού έχει ήδη προστεθεί στην παραγγελία σου"
+        }
       }
     },
     "pagination": {
@@ -553,8 +558,13 @@
           "next": "Συνεχίστε"
         },
         "sort": {
-          "date": {
-            "newest": "Νεότερη–Παλαιότερη"
+          "order_number": {
+            "ascending": "Αριθμός παραγγελίας (χαμηλός προς υψηλό)"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Η πληρωμή είναι εκπρόθεσμη"
           }
         }
       }
