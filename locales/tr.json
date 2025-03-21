@@ -680,7 +680,12 @@
       "marketing_checkmark_label": "Abonelik kaydınız için e-posta ile haberler ve teklifler almaya başladınız",
       "shop_order_tracking": {
         "real_time_delivery_updates": "Mağaza, siparişin gönderildiği anda sana gerçek zamanlı teslimat güncellemeleri gönderir."
-      }
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} eklendi",
+        "return_line_item_removed": "Geri dönüşten çıkarıldı"
+      },
+      "login_to_view_all_order_details": "Giriş yaparak tüm sipariş detaylarını görüntüleyin."
     }
   }
 }

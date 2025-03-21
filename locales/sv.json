@@ -680,7 +680,12 @@
       "marketing_checkmark_label": "Du har en prenumeration för att ta emot nyheter och erbjudanden via e-post",
       "shop_order_tracking": {
         "real_time_delivery_updates": "Butiken skickar dig leveransuppdateringar i realtid så snart din beställning har skickats."
-      }
+      },
+      "edit_summary": {
+        "added_with_quantity": "'{{quantity}} tillagt'",
+        "return_line_item_removed": "Borttagen från återlämning"
+      },
+      "login_to_view_all_order_details": "Logga in för att se alla beställningsdetaljer."
     }
   }
 }

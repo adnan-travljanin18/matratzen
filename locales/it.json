@@ -661,6 +661,13 @@
       "marketing_checkmark_label": "Hai sottoscritto un abbonamento per ricevere notizie e offerte tramite email",
       "shop_order_tracking": {
         "real_time_delivery_updates": "Il negozio ti invia aggiornamenti sulla consegna in tempo reale, non appena il tuo ordine è stato spedito."
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} aggiunto",
+        "return_line_item_removed": "Rimosso dalla restituzione"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "description": "Mantieni sotto controllo la tua pianificazione dei pagamenti con i promemoria nell'app del negozio."
       }
     }
   }

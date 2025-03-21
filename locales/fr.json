@@ -657,8 +657,11 @@
       "marketing_description": "Vous recevrez des e-mails marketing. Vous pouvez vous désinscrire à tout moment.",
       "marketing_checkmark_label": "Vous avez souscrit à un abonnement pour recevoir des nouvelles et des offres par e-mail.",
       "edit_summary": {
-        "added": "Ajouté"
-      }
+        "added": "Ajouté",
+        "added_with_quantity": "{{quantity}} ajouté",
+        "return_line_item_removed": "Aus retour enlevé"
+      },
+      "login_to_view_all_order_details": "Connectez-vous pour voir tous les détails de la commande."
     }
   }
 }

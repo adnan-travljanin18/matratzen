@@ -666,7 +666,12 @@
       "marketing_checkmark_label": "Završili ste pretplatu za primanje vesti i ponuda putem e-pošte",
       "shop_order_tracking": {
         "real_time_delivery_updates": "Prodavnica ti šalje ažuriranja o isporuci u realnom vremenu, čim tvoja porudžbina bude poslata."
-      }
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} dodat",
+        "return_line_item_removed": "Uklonjeno iz povratka"
+      },
+      "login_to_view_all_order_details": "Пријавите се да бисте видели све детаље поруџбине."
     }
   }
 }

@@ -654,6 +654,13 @@
       "marketing_checkmark_label": "Você se inscreveu para receber novidades e ofertas por e-mail.",
       "shop_order_tracking": {
         "real_time_delivery_updates": "A loja envia atualizações de entrega em tempo real assim que seu pedido for enviado."
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} adicionado",
+        "return_line_item_removed": "Aus Rückgabe removido"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "description": "Mantenha seu planejamento de pagamento sob controle com os lembretes no aplicativo da loja."
       }
     }
   }

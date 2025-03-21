@@ -655,7 +655,12 @@
       "marketing_checkmark_label": "Zarejestrowałeś subskrypcję, aby otrzymywać wiadomości i oferty e-mailowe",
       "shop_order_tracking": {
         "real_time_delivery_updates": "Sklep wysyła Ci aktualizacje dostawy w czasie rzeczywistym, gdy Twoje zamówienie zostanie wysłane."
-      }
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} dodane",
+        "return_line_item_removed": "Usunięto z zwrotu"
+      },
+      "login_to_view_all_order_details": "Zaloguj się, aby zobaczyć wszystkie szczegóły zamówienia."
     }
   }
 }

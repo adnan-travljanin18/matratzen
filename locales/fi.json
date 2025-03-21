@@ -651,8 +651,11 @@
       "marketing_description": "Saat markkinointisähköposteja. Voit milloin tahansa peruuttaa tilauksen.",
       "marketing_checkmark_label": "Olet tilannut uutiskirjeen ja tarjouksia sähköpostitse",
       "edit_summary": {
-        "added": "Lisätty"
-      }
+        "added": "Lisätty",
+        "added_with_quantity": "{{quantity}} lisätty",
+        "return_line_item_removed": "Poistettu palautuksesta"
+      },
+      "login_to_view_all_order_details": "Kirjaudu sisään nähdäksesi kaikki tilauksen tiedot."
     }
   }
 }

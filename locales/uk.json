@@ -681,7 +681,12 @@
       "marketing_checkmark_label": "Ви підписалися на отримання новин та пропозицій електронною поштою",
       "shop_order_tracking": {
         "real_time_delivery_updates": "Магазин надсилає тобі оновлення про доставку в реальному часі, щойно твоє замовлення буде відправлено."
-      }
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} додано",
+        "return_line_item_removed": "Вилучено з повернення"
+      },
+      "login_to_view_all_order_details": "Увійди, щоб переглянути всі деталі замовлення."
     }
   }
 }

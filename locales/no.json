@@ -657,6 +657,13 @@
       "marketing_checkmark_label": "Du har abonnement på å motta nyheter og tilbud via e-post",
       "shop_order_tracking": {
         "real_time_delivery_updates": "Butikken sender deg leveringsoppdateringer i sanntid, så snart bestillingen din er sendt."
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} lagt til",
+        "return_line_item_removed": "Aus tilbakeført"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "description": "Behold din betalingsplanlegging med påminnelsene i butikkappen under kontroll."
       }
     }
   }

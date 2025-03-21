@@ -645,8 +645,11 @@
       "marketing_description": "Dostaneš marketingové e-maily. Můžeš se kdykoli znovu odhlásit.",
       "marketing_checkmark_label": "Uzavřel(a) jsi předplatné pro přijímání novinek a nabídek e-mailem",
       "edit_summary": {
-        "added": "Přidáno"
-      }
+        "added": "Přidáno",
+        "added_with_quantity": "{{quantity}} přidáno",
+        "return_line_item_removed": "Z návratu odstraněno"
+      },
+      "login_to_view_all_order_details": "Přihlas se, abys viděl všechny detaily objednávky."
     }
   }
 }

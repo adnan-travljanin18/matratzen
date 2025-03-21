@@ -662,8 +662,11 @@
       "marketing_description": "Du modtager marketing-e-mails. Du kan afmelde dig når som helst.",
       "marketing_checkmark_label": "Du har tilmeldt dig et abonnement for at modtage nyheder og tilbud via e-mail",
       "edit_summary": {
-        "added": "Tilføjet"
-      }
+        "added": "Tilføjet",
+        "added_with_quantity": "{{quantity}} tilføjet",
+        "return_line_item_removed": "Fjernet fra tilbagelevering"
+      },
+      "login_to_view_all_order_details": "Log ind for at se alle bestillingsdetaljer."
     }
   }
 }
