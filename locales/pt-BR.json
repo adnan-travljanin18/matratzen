@@ -304,6 +304,17 @@
       },
       "shop_policies": {
         "refund_policy": "Direito de revogação"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "Adicionado"
+          }
+        },
+        "checkout_review_and_pay": "Sua pedido %{order_name} foi atualizado. Verifique estas alterações e pague em seguida para confirmar seu pedido."
+      },
+      "change_currency": {
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
       }
     }
   },

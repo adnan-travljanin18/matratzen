@@ -347,6 +347,17 @@
       },
       "shop_policies": {
         "purchase_options_policy": "Richtlinie для купівельних опцій"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "Додано"
+          }
+        },
+        "checkout_review_and_pay": "Твоє замовлення %{order_name} було оновлено. Перевір ці зміни і потім сплати, щоб підтвердити своє замовлення."
+      },
+      "change_currency": {
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
       }
     }
   },

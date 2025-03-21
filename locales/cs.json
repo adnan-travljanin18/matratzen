@@ -310,8 +310,12 @@
         "changes_summary": {
           "added": {
             "one": "Přidáno"
-          }
+          },
+          "subtracted": "%{count} odstraněno"
         }
+      },
+      "change_currency": {
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
       }
     }
   },

@@ -320,9 +320,13 @@
       "order_payment_collection": {
         "changes_summary": {
           "added": {
-            "other": "%{count} tilføjet"
-          }
+            "one": "Tilføjet"
+          },
+          "subtracted": "%{count} fjernet"
         }
+      },
+      "change_currency": {
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
       }
     }
   },

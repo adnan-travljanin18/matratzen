@@ -321,6 +321,17 @@
       },
       "shop_policies": {
         "purchase_options_policy": "Wytyczne dotyczące opcji zakupu"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "Dodane"
+          },
+          "subtracted": "%{count} usunięto"
+        }
+      },
+      "change_currency": {
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
       }
     }
   },

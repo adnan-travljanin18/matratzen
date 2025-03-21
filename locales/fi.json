@@ -306,8 +306,18 @@
         }
       },
       "shop_policies": {
-        "purchase_options_policy": "Ostovaihtoehtojen ohjeistus",
-        "purchase_options_cancellation_policy": "Peruutuskäytäntö"
+        "purchase_options_policy": "Ostovaihtoehtojen ohjeistus"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "Lisätty"
+          },
+          "subtracted": "%{count} poistettu"
+        }
+      },
+      "change_currency": {
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
       }
     }
   },

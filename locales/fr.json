@@ -319,7 +319,15 @@
         "purchase_options_policy": "Richtlinie pour les options d'achat"
       },
       "order_payment_collection": {
-        "custom_line_item_description": "Pour la commande %{order_name}, montant à payer"
+        "changes_summary": {
+          "added": {
+            "one": "Ajouté"
+          },
+          "subtracted": "%{count} éloigné"
+        }
+      },
+      "change_currency": {
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}"
       }
     }
   },
