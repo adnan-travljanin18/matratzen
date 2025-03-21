@@ -48,15 +48,10 @@
         "expand_notice_label": "Vis flere",
         "autocomplete_selection": "{{number}} av {{total}}",
         "display_name": "{{firstName}} {{lastName}}",
-        "continue_to_payment_plans_button_label": "Videre til betalingsplanene",
-        "dates": {
-          "months": {
-            "february": "Februar"
-          }
-        }
+        "remove_item": "%{label} fjerne"
       },
       "contact": {
-        "postal_code_label": "Postnummer"
+        "different_shipping_address_text": "En unik adresse for denne bestillingen bruke"
       }
     }
   },

@@ -48,15 +48,14 @@
         "choose_payment_method": "Vælg en betalingsmetode",
         "autocomplete_close": "Forslag lukker",
         "display_name": "{{firstName}} {{lastName}}",
-        "submit_for_review_button_label": "Indsend til vurdering",
         "dates": {
-          "months": {
-            "february": "Februar"
+          "weekdays": {
+            "tuesday": "Tirsdag"
           }
         }
       },
       "contact": {
-        "zip_code_label": "Postnummer"
+        "different_shipping_address_text": "En engangsadresse til denne bestilling bruge"
       }
     }
   },

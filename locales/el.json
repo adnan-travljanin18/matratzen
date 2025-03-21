@@ -55,10 +55,13 @@
           "months": {
             "february": "Φεβρουάριος"
           }
-        }
+        },
+        "remove_item": "%{label} απομάκρυνση"
       },
       "contact": {
-        "postal_code_label": "Ταχυδρομικός Κωδικός"
+        "postal_code_label": "Ταχυδρομικός Κωδικός",
+        "region_none": "Δεν έχει επιλεγεί",
+        "different_shipping_address_text": "Μία μοναδική διεύθυνση για αυτή την παραγγελία χρησιμοποιήστε"
       }
     }
   },

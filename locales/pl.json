@@ -48,15 +48,10 @@
         "continue_to_shipping_method": "Kontynuuj do wysyłki",
         "autocomplete_selection": "{{numer}} von {{całkowity}}",
         "display_name": "{{firstName}} {{lastName}}",
-        "continue_to_payment_plans_button_label": "Przejdź do planów płatności",
-        "dates": {
-          "months": {
-            "february": "Luty"
-          }
-        }
+        "remove_item": "%{label} usunąć"
       },
       "contact": {
-        "postal_code_label": "Kod pocztowy"
+        "different_shipping_address_text": "Unikalny adres do tego zamówienia użyć"
       }
     }
   },

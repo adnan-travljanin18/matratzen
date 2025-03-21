@@ -50,15 +50,10 @@
         "close_modal_label": "Fechar",
         "continue_to_shipping_method": "Continuar para o envio",
         "autocomplete_selection": "{{number}} de {{total}}",
-        "processing": "Está sendo processado ...",
-        "dates": {
-          "months": {
-            "march": "Março"
-          }
-        }
+        "remove_item": "' => %{label} remover"
       },
       "contact": {
-        "postal_code_label": "Código Postal"
+        "different_shipping_address_text": "Uma única morada para este pedido usar"
       }
     }
   },

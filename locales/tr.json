@@ -53,10 +53,13 @@
           "months": {
             "february": "Şubat"
           }
-        }
+        },
+        "remove_item": "%{label} kaldır"
       },
       "contact": {
-        "postal_code_label": "Posta kodu"
+        "postal_code_label": "Posta kodu",
+        "postcode_label": "Posta kodu",
+        "different_shipping_address_text": "Tek seferlik bir adres kullanın bu sipariş için"
       }
     }
   },

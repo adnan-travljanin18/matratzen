@@ -30,7 +30,8 @@
             "store_credit_buying_gift_card": "Non puoi utilizzare il credito del negozio per acquistare un coupon."
           },
           "merchandise": {
-            "merchandise_variant_not_found": "La variante del prodotto non è stata trovata."
+            "merchandise_variant_not_found": "La variante del prodotto non è stata trovata.",
+            "bundle_requires_components": "Questo bundle di articoli di merchandising non ha componenti."
           },
           "sale_attribution": {
             "location_not_exist": "Questo punto vendita non è presente nell'attuale negozio."
@@ -47,16 +48,10 @@
         "expand_notice_label": "Mostra di più",
         "autocomplete_selection": "{{number}} di {{total}}",
         "autocomplete_close": "Suggerimenti chiusi",
-        "display_name": "{{firstName}} {{lastName}}",
-        "continue_to_payment_plans_button_label": "Proseguire ai piani di pagamento",
-        "dates": {
-          "months": {
-            "february": "febbraio"
-          }
-        }
+        "display_name": "{{firstName}} {{lastName}}"
       },
       "contact": {
-        "postal_code_label": "Codice postale"
+        "different_shipping_address_text": "Un indirizzo unico per questo ordine utilizzare"
       }
     }
   },

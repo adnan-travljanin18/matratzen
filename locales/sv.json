@@ -53,10 +53,13 @@
           "months": {
             "february": "Februari"
           }
-        }
+        },
+        "remove_item": "%{label} ta bort"
       },
       "contact": {
-        "postal_code_label": "Postnummer"
+        "postal_code_label": "Postnummer",
+        "region_none": "Ingen vald",
+        "different_shipping_address_text": "En unik adress för denna beställning använda"
       }
     }
   },

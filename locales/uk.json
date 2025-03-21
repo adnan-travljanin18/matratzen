@@ -53,10 +53,13 @@
           "months": {
             "february": "Лютий"
           }
-        }
+        },
+        "remove_item": "%{label} видалити"
       },
       "contact": {
-        "postal_code_label": "Поштовий індекс"
+        "postal_code_label": "Поштовий індекс",
+        "postcode_label": "Поштовий індекс",
+        "different_shipping_address_text": "Унікальна адреса для цього замовлення використовуйте"
       }
     }
   },

@@ -47,15 +47,10 @@
         "continue_to_shipping_method": "Nastavite ka isporuci",
         "autocomplete_selection": "{{number}} von {{total}}",
         "title": "Checkout – {{shopName}}",
-        "processing": "Обрађује се ...",
-        "dates": {
-          "months": {
-            "march": "Mart"
-          }
-        }
+        "remove_item": "%{label} ukloniti"
       },
       "contact": {
-        "postal_code_label": "Poštanski broj"
+        "different_shipping_address_text": "Jedinstvena adresa za ovu narudžbinu"
       }
     }
   },

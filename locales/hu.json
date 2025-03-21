@@ -50,15 +50,10 @@
         "continue_to_shipping_method": "Tovább a szállításhoz",
         "autocomplete_selection": "{{number}} von {{total}}",
         "display_name": "{{firstName}} {{lastName}}",
-        "continue_to_payment_plans_button_label": "Tovább a fizetési tervekhez",
-        "dates": {
-          "months": {
-            "february": "Február"
-          }
-        }
+        "remove_item": "%{label} eltávolítása"
       },
       "contact": {
-        "postal_code_label": "Irányítószám"
+        "different_shipping_address_text": "Egy egyedi cím használata ehhez a megrendeléshez"
       }
     }
   },
