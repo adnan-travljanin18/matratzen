@@ -592,7 +592,14 @@
           }
         },
         "carousel": {
-          "four_products_accessibility_label": "Beställningen innehåller {{lineItemName1}} mängd {{lineItemQuantity1}}, {{lineItemName2}} mängd {{lineItemQuantity2}}, {{lineItemName3}} mängd {{lineItemQuantity3}}, {{lineItemName4}} mängd {{lineItemQuantity4}}"
+          "four_products_accessibility_label": "Beställningen innehåller {{lineItemName1}} mängd {{lineItemQuantity1}}, {{lineItemName2}} mängd {{lineItemQuantity2}}, {{lineItemName3}} mängd {{lineItemQuantity3}}, {{lineItemName4}} mängd {{lineItemQuantity4}}",
+          "next": "Fortsätta"
+        },
+        "plus_more_products": "{{numberOfAdditionalProducts}} Produkter",
+        "order_status_message": {
+          "table_view": {
+            "last_updated": "{{datum}}"
+          }
         }
       }
     }

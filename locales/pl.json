@@ -565,8 +565,11 @@
           }
         },
         "carousel": {
-          "four_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}} ilość {{lineItemQuantity1}}, {{lineItemName2}} ilość {{lineItemQuantity2}}, {{lineItemName3}} ilość {{lineItemQuantity3}}, {{lineItemName4}} ilość {{lineItemQuantity4}}"
-        }
+          "four_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}} ilość {{lineItemQuantity1}}, {{lineItemName2}} ilość {{lineItemQuantity2}}, {{lineItemName3}} ilość {{lineItemQuantity3}}, {{lineItemName4}} ilość {{lineItemQuantity4}}",
+          "next": "Kontynuuj"
+        },
+        "plus_more_products": "{{numberOfAdditionalProducts}} Produkty",
+        "more_than_three_products_accessibility_label": "Zamówienie obejmuje {{lineItemName1}}, {{lineItemName2}} oraz {{numberOfAdditionalProducts}} dodatkowe produkty"
       }
     }
   }

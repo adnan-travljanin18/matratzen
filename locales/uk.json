@@ -471,7 +471,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Сертифікат уже додано до твого замовлення",
-          "not_available": "Цей Gutschein більше недоступний"
+          "not_available": "Цей Gutschein більше недоступний",
+          "generic": "Чек на знижку не вдалося додати до оформлення замовлення"
         }
       }
     },
@@ -596,6 +597,12 @@
         },
         "carousel": {
           "four_products_accessibility_label": "Bestellung містить {{lineItemName1}} кількість {{lineItemQuantity1}}, {{lineItemName2}} кількість {{lineItemQuantity2}}, {{lineItemName3}} кількість {{lineItemQuantity3}}, {{lineItemName4}} кількість {{lineItemQuantity4}}"
+        },
+        "plus_more_products": "+{{numberOfAdditionalProducts}} Продукти",
+        "order_status_message": {
+          "table_view": {
+            "last_updated": "{{date}}"
+          }
         }
       }
     }

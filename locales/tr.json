@@ -471,7 +471,8 @@
         "gift_card": {
           "duplicate": "Der Gutschein zaten siparişine eklendi",
           "insufficient_funds": "Bu kuponun üzerinde artık herhangi bir bakiye yok",
-          "not_available": "Bu kupon artık mevcut değil"
+          "not_available": "Bu kupon artık mevcut değil",
+          "generic": "Der Gutschein checkout'a eklenemedı"
         }
       }
     },
@@ -593,6 +594,12 @@
         },
         "carousel": {
           "four_products_accessibility_label": "Bestellung enthält {{lineItemName1}} Menge {{lineItemQuantity1}}, {{lineItemName2}} Menge {{lineItemQuantity2}}, {{lineItemName3}} Menge {{lineItemQuantity3}}, {{lineItemName4}} Menge {{lineItemQuantity4}}"
+        },
+        "plus_more_products": "+{{numberOfAdditionalProducts}} Ürün",
+        "order_status_message": {
+          "table_view": {
+            "last_updated": "{{tarih}}"
+          }
         }
       }
     }

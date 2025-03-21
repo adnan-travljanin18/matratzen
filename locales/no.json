@@ -567,7 +567,12 @@
           }
         },
         "carousel": {
-          "four_products_accessibility_label": "Bestillingen inneholder {{lineItemName1}} Mengde {{lineItemQuantity1}}, {{lineItemName2}} Mengde {{lineItemQuantity2}}, {{lineItemName3}} Mengde {{lineItemQuantity3}}, {{lineItemName4}} Mengde {{lineItemQuantity4}}"
+          "four_products_accessibility_label": "Bestillingen inneholder {{lineItemName1}} Mengde {{lineItemQuantity1}}, {{lineItemName2}} Mengde {{lineItemQuantity2}}, {{lineItemName3}} Mengde {{lineItemQuantity3}}, {{lineItemName4}} Mengde {{lineItemQuantity4}}",
+          "next": "Videre"
+        },
+        "plus_more_products": "{{numberOfAdditionalProducts}} Produkter",
+        "filter": {
+          "apply": "Bruke"
         }
       }
     }

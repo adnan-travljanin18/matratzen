@@ -566,7 +566,12 @@
           }
         },
         "carousel": {
-          "six_products_accessibility_label": "Bestellung contient {{lineItemName1}} quantité {{lineItemQuantity1}}, {{lineItemName2}} quantité {{lineItemQuantity2}}, {{lineItemName3}} quantité {{lineItemQuantity3}}, {{lineItemName4}} quantité {{lineItemQuantity4}}, {{lineItemName5}} quantité {{lineItemQuantity5}}, {{lineItemName6}} quantité {{lineItemQuantity6}}"
+          "six_products_accessibility_label": "Bestellung contient {{lineItemName1}} quantité {{lineItemQuantity1}}, {{lineItemName2}} quantité {{lineItemQuantity2}}, {{lineItemName3}} quantité {{lineItemQuantity3}}, {{lineItemName4}} quantité {{lineItemQuantity4}}, {{lineItemName5}} quantité {{lineItemQuantity5}}, {{lineItemName6}} quantité {{lineItemQuantity6}}",
+          "next": "Continuer"
+        },
+        "plus_more_products": "{{numberOfAdditionalProducts}} Produits",
+        "filter": {
+          "clear_all": "Tout effacer"
         }
       }
     }

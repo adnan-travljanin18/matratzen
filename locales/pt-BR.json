@@ -424,7 +424,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "O cupom já foi adicionado ao seu pedido",
-          "not_available": "Este voucher não está mais disponível"
+          "not_available": "Este voucher não está mais disponível",
+          "generic": "O cupom não pôde ser adicionado ao checkout"
         }
       }
     },
@@ -569,7 +570,8 @@
         },
         "carousel": {
           "four_products_accessibility_label": "Bestellung contém {{lineItemName1}} quantidade {{lineItemQuantity1}}, {{lineItemName2}} quantidade {{lineItemQuantity2}}, {{lineItemName3}} quantidade {{lineItemQuantity3}}, {{lineItemName4}} quantidade {{lineItemQuantity4}}"
-        }
+        },
+        "plus_more_products": "{{numberOfAdditionalProducts}} Produtos"
       }
     }
   }

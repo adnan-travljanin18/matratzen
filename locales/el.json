@@ -428,7 +428,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Ο κωδικός κουπονιού έχει ήδη προστεθεί στην παραγγελία σου",
-          "not_available": "Αυτό το κουπόνι δεν είναι πια διαθέσιμο"
+          "not_available": "Αυτό το κουπόνι δεν είναι πια διαθέσιμο",
+          "generic": "Το κουπόνι δεν μπόρεσε να προστεθεί στο ταμείο"
         }
       }
     },
@@ -573,6 +574,12 @@
         },
         "carousel": {
           "four_products_accessibility_label": "Βεβαίωση παραγγελίας περιέχει {{lineItemName1}} Ποσότητα {{lineItemQuantity1}}, {{lineItemName2}} Ποσότητα {{lineItemQuantity2}}, {{lineItemName3}} Ποσότητα {{lineItemQuantity3}}, {{lineItemName4}} Ποσότητα {{lineItemQuantity4}}"
+        },
+        "plus_more_products": "+{{numberOfAdditionalProducts}} Προϊόντα",
+        "order_status_message": {
+          "table_view": {
+            "last_updated": "{{date}}"
+          }
         }
       }
     }

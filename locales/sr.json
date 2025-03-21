@@ -433,7 +433,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Дугме је већ додато вашој поруџбини",
-          "not_available": "Ova kupon više nije dostupan"
+          "not_available": "Ova kupon više nije dostupan",
+          "generic": "Kupon nije mogao biti dodat na naplatu"
         }
       }
     },
@@ -581,7 +582,8 @@
         },
         "carousel": {
           "four_products_accessibility_label": "\"Porudžbina sadrži {{lineItemName1}} količina {{lineItemQuantity1}}, {{lineItemName2}} količina {{lineItemQuantity2}}, {{lineItemName3}} količina {{lineItemQuantity3}}, {{lineItemName4}} količina {{lineItemQuantity4}}\""
-        }
+        },
+        "plus_more_products": "+{{numberOfAdditionalProducts}} proizvoda"
       }
     }
   }

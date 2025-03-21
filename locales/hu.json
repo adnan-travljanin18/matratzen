@@ -430,7 +430,8 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "A kupon már hozzá lett adva a rendelésedhez",
-          "not_available": "Ez a kupon már nem elérhető"
+          "not_available": "Ez a kupon már nem elérhető",
+          "generic": "A kedvezménykupon nem adható hozzá a pénztárhoz"
         }
       }
     },
@@ -575,6 +576,12 @@
         },
         "carousel": {
           "four_products_accessibility_label": "Bestellung enthält {{lineItemName1}} mennyiség {{lineItemQuantity1}}, {{lineItemName2}} mennyiség {{lineItemQuantity2}}, {{lineItemName3}} mennyiség {{lineItemQuantity3}}, {{lineItemName4}} mennyiség {{lineItemQuantity4}}"
+        },
+        "plus_more_products": "{{numberOfAdditionalProducts}} Termék",
+        "order_status_message": {
+          "table_view": {
+            "last_updated": "{{date}}"
+          }
         }
       }
     }
