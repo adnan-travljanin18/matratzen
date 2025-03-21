@@ -881,6 +881,17 @@
     },
     "contact": {
       "subtitle": "Preencha o formulário e nossa equipe entrará em contato com você dentro de 24 horas."
+    },
+    "blogs": {
+      "article": {
+        "read_more": "Ler mais"
+      },
+      "comments": {
+        "name": "Nome"
+      },
+      "modern_navigation": {
+        "next": "Próxima"
+      }
     }
   }
 }

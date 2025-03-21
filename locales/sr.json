@@ -889,6 +889,17 @@
     },
     "contact": {
       "subtitle": "Ispunite obrazac, a naš tim će vas kontaktirati u roku od 24 sata."
+    },
+    "blogs": {
+      "article": {
+        "read_more": "Pročitajte više"
+      },
+      "comments": {
+        "name": "Ime"
+      },
+      "modern_navigation": {
+        "next": "Следећи"
+      }
     }
   }
 }

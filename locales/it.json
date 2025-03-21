@@ -890,8 +890,18 @@
     },
     "contact": {
       "form": {
-        "email": "Indirizzo E-Mail",
-        "error_heading": "Per favore controlla quanto segue:"
+        "email": "Indirizzo E-Mail"
+      }
+    },
+    "blogs": {
+      "article": {
+        "read_more": "Leggi di più"
+      },
+      "comments": {
+        "name": "Nome",
+        "with_count": {
+          "other": "{{ count }} Commenti"
+        }
       }
     }
   }

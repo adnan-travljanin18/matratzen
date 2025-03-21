@@ -872,8 +872,18 @@
     },
     "contact": {
       "form": {
-        "phone": "Puhelinnumero",
-        "post_success": "Kiitos yhteydenotostanne. Olemme yhteydessä teihin mahdollisimman pian."
+        "phone": "Puhelinnumero"
+      }
+    },
+    "blogs": {
+      "article": {
+        "read_more": "Lue lisää"
+      },
+      "comments": {
+        "name": "Nimi",
+        "with_count": {
+          "other": "{{ count }} Kommenttia"
+        }
       }
     }
   }

@@ -874,6 +874,14 @@
         "phone": "Telefonní číslo",
         "post_success": "Děkujeme za váš kontakt. Ozveme se vám co nejdříve."
       }
+    },
+    "blogs": {
+      "comments": {
+        "name": "Název",
+        "with_count": {
+          "other": "{{ count }} komentářů"
+        }
+      }
     }
   }
 }

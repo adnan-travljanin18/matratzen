@@ -885,7 +885,13 @@
     },
     "blogs": {
       "article": {
-        "comment_meta_html": "{{ author }} er {{ date }}"
+        "read_more": "Les mer"
+      },
+      "comments": {
+        "name": "Navn",
+        "with_count": {
+          "other": "{{ count }} Kommentarer"
+        }
       }
     }
   }

@@ -878,6 +878,17 @@
       "form": {
         "email": "Adres e-mail"
       }
+    },
+    "blogs": {
+      "article": {
+        "read_more": "Przeczytaj więcej"
+      },
+      "comments": {
+        "name": "Nazwa",
+        "with_count": {
+          "other": "{{ count }} komentarzy"
+        }
+      }
     }
   }
 }

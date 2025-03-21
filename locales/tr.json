@@ -905,6 +905,17 @@
     },
     "contact": {
       "subtitle": "Formu doldurun ve ekibimiz sizinle 24 saat içinde iletişime geçecektir."
+    },
+    "blogs": {
+      "article": {
+        "read_more": "Daha fazla oku"
+      },
+      "comments": {
+        "name": "İsim"
+      },
+      "modern_navigation": {
+        "next": "Sonraki"
+      }
     }
   }
 }

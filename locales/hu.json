@@ -885,6 +885,17 @@
     },
     "contact": {
       "subtitle": "Töltse ki a űrlapot, és csapatunk 24 órán belül felveszi Önnel a kapcsolatot."
+    },
+    "blogs": {
+      "article": {
+        "read_more": "További információk"
+      },
+      "comments": {
+        "name": "Név"
+      },
+      "modern_navigation": {
+        "next": "Következő"
+      }
     }
   }
 }

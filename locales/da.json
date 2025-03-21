@@ -889,6 +889,14 @@
         "phone": "Telefonnummer",
         "post_success": "Tak for din henvendelse. Vi vender tilbage til dig så hurtigt som muligt."
       }
+    },
+    "blogs": {
+      "comments": {
+        "name": "Navn",
+        "with_count": {
+          "other": "{{ count }} Kommentarer"
+        }
+      }
     }
   }
 }

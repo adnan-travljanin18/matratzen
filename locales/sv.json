@@ -907,6 +907,17 @@
       "form": {
         "email": "E-postadress"
       }
+    },
+    "blogs": {
+      "article": {
+        "read_more": "Läs mer"
+      },
+      "comments": {
+        "name": "Namn",
+        "with_count": {
+          "other": "{{ count }} Kommentarer"
+        }
+      }
     }
   }
 }

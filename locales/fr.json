@@ -885,7 +885,13 @@
     },
     "blogs": {
       "article": {
-        "author_on_date_html": "Publié par {{ author }} le {{ date }}"
+        "read_more": "Lire la suite"
+      },
+      "comments": {
+        "name": "Nom",
+        "with_count": {
+          "other": "{{ count }} Commentaires"
+        }
       }
     }
   }
