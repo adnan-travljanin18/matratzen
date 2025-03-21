@@ -677,7 +677,12 @@
       "add_button": "Προσθήκη διεύθυνσης",
       "delete_confirmation_button_accessibility_label": "{{address}} διαγραφή",
       "loading_accessibility_message": "Η διεύθυνση φορτώνεται",
-      "delete_confirmation_description": "Οι υπάρχουσες παραγγελίες δεν επηρεάζονται."
+      "delete_confirmation_description": "Οι υπάρχουσες παραγγελίες δεν επηρεάζονται.",
+      "add_button_text": "Προσθήκη"
+    },
+    "address_form": {
+      "billing_address": "Χρησιμοποιήστε ως διεύθυνση τιμολόγησης",
+      "default_address_creation_success_notification": "Προστέθηκε τυπική διεύθυνση"
     }
   }
 }

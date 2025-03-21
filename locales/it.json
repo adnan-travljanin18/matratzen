@@ -682,7 +682,16 @@
       "add_button": "Aggiungi indirizzo",
       "delete_confirmation_button_accessibility_label": "{{address}} eliminare",
       "loading_accessibility_message": "L'indirizzo viene caricato",
-      "delete_confirmation_description": "Gli ordini esistenti non sono interessati."
+      "delete_confirmation_description": "Gli ordini esistenti non sono interessati.",
+      "add_button_text": "Aggiungere"
+    },
+    "address_form": {
+      "billing_address": "Utilizzare come indirizzo di fatturazione"
+    },
+    "B2B": {
+      "location_selection": {
+        "list_loading_address_accessibility_message": "Indirizzo per {{locationName}} sta caricando"
+      }
     }
   }
 }

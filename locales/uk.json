@@ -700,7 +700,12 @@
       "add_button": "Додати адресу",
       "delete_confirmation_button_accessibility_label": "{{address}} видалити",
       "edit_button": "Редагувати",
-      "delete_confirmation_description": "Існуючі замовлення не підлягають змінам."
+      "delete_confirmation_description": "Існуючі замовлення не підлягають змінам.",
+      "add_button_text": "Додати"
+    },
+    "address_form": {
+      "billing_address": "Використовувати як платіжну адресу",
+      "default_address_creation_success_notification": "Стандартну адресу додано"
     }
   }
 }

@@ -674,7 +674,12 @@
       "add_button": "Dodaj adres",
       "delete_button_accessibility_label": "{{address}} usuń",
       "loading_accessibility_message": "Adres jest wczytywany",
-      "delete_confirmation_description": "Istniejące zamówienia nie są dotknięte."
+      "delete_confirmation_description": "Istniejące zamówienia nie są dotknięte.",
+      "add_button_text": "Dodaj"
+    },
+    "address_form": {
+      "billing_address": "Użyj jako adresu do faktury",
+      "loading_add_form_accessibility_message": "Nowy formularz adresowy jest ładowany"
     }
   }
 }

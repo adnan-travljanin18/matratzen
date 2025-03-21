@@ -699,7 +699,16 @@
       "add_button": "Adres ekle",
       "delete_button_accessibility_label": "{{address}} silmek",
       "edit_button": "Düzenle",
-      "delete_confirmation_description": "Mevcut siparişler etkilenmemektedir."
+      "delete_confirmation_description": "Mevcut siparişler etkilenmemektedir.",
+      "add_button_text": "Ekle"
+    },
+    "address_form": {
+      "billing_address": "Fatura adresi olarak kullanın"
+    },
+    "B2B": {
+      "location_selection": {
+        "list_loading_finished_accessibility_message": "Standort listesi yüklendi"
+      }
     }
   }
 }

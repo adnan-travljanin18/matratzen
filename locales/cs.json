@@ -665,7 +665,12 @@
       "loading_accessibility_message": "Adresa se načítá",
       "pagination": {
         "load_more_accessibility_label": "Další adresy načíst"
-      }
+      },
+      "add_button_text": "Přidat"
+    },
+    "address_form": {
+      "billing_address": "Použít jako fakturační adresu",
+      "default_address_update_success_notification": "Standardní adresa aktualizována"
     }
   }
 }

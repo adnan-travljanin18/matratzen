@@ -680,7 +680,16 @@
       "add_button": "Tilføj adresse",
       "delete_confirmation_button_accessibility_label": "{{address}} slette",
       "loading_accessibility_message": "Adresse bliver indlæst",
-      "delete_confirmation_description": "Eksisterende bestillinger er ikke berørt."
+      "delete_confirmation_description": "Eksisterende bestillinger er ikke berørt.",
+      "add_button_text": "Tilføjelse"
+    },
+    "address_form": {
+      "billing_address": "Brug som faktureringsadresse"
+    },
+    "B2B": {
+      "location_selection": {
+        "list_loading_address_accessibility_message": "Adresse for {{locationName}} indlæses"
+      }
     }
   }
 }

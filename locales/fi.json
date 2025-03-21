@@ -669,7 +669,16 @@
       "add_button": "Osoite lisätä",
       "delete_confirmation_button_accessibility_label": "{{address}} poista",
       "loading_accessibility_message": "Osoitetta ladataan",
-      "delete_confirmation_description": "Nykyiset tilaukset eivät ole vaikuttaneet."
+      "delete_confirmation_description": "Nykyiset tilaukset eivät ole vaikuttaneet.",
+      "add_button_text": "Lisätä"
+    },
+    "address_form": {
+      "billing_address": "Käytä laskutusosoitteena"
+    },
+    "B2B": {
+      "location_selection": {
+        "list_loading_address_accessibility_message": "Adresse for {{locationName}} lataa"
+      }
     }
   }
 }

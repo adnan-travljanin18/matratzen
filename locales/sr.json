@@ -685,7 +685,12 @@
       "add_button": "Dodaj adresu",
       "delete_confirmation_button_accessibility_label": "{{address}} обрисати",
       "loading_accessibility_message": "Адреса се учитава",
-      "delete_confirmation_description": "Postojeće narudžbe nisu pogođene."
+      "delete_confirmation_description": "Postojeće narudžbe nisu pogođene.",
+      "add_button_text": "Dodati"
+    },
+    "address_form": {
+      "billing_address": "Koristiti kao adresu za fakturiranje",
+      "default_address_creation_success_notification": "Standardna adresa dodata"
     }
   }
 }

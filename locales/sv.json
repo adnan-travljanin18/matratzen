@@ -699,7 +699,16 @@
       "add_button": "Lägg till adress",
       "delete_button_accessibility_label": "{{address}} radera",
       "edit_button": "Redigera",
-      "delete_confirmation_description": "Befintliga beställningar påverkas inte."
+      "delete_confirmation_description": "Befintliga beställningar påverkas inte.",
+      "add_button_text": "Lägga till"
+    },
+    "address_form": {
+      "billing_address": "Använd som faktureringsadress"
+    },
+    "B2B": {
+      "location_selection": {
+        "list_item_without_address_accessibility_label": "{{name}}: Ingen adress"
+      }
     }
   }
 }

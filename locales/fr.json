@@ -675,7 +675,16 @@
       "add_button": "Ajouter une adresse",
       "delete_confirmation_button_accessibility_label": "{{address}} supprimer",
       "loading_accessibility_message": "Adresse est en cours de chargement",
-      "delete_confirmation_description": "Les commandes existantes ne sont pas affectées."
+      "delete_confirmation_description": "Les commandes existantes ne sont pas affectées.",
+      "add_button_text": "Ajouter"
+    },
+    "address_form": {
+      "billing_address": "Utiliser comme adresse de facturation"
+    },
+    "B2B": {
+      "location_selection": {
+        "list_loading_address_accessibility_message": "L'adresse pour {{locationName}} est en cours de chargement"
+      }
     }
   }
 }
