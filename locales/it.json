@@ -149,7 +149,8 @@
         "local_pickup": {
           "search_address": "Cerca indirizzi"
         },
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ulteriori"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ulteriori",
+        "pre_order_ships_now": "Ora viene spedito"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Inserisci l'indirizzo associato alla tua carta o metodo di pagamento.",
@@ -174,7 +175,17 @@
         "store_credit": {
           "buying_gift_card": "Non puoi utilizzare il saldo del negozio per acquistare un coupon"
         },
-        "no_working_method_error": "Questo negozio non può accettare pagamenti al momento. Aggiorna questa pagina o riprova più tardi."
+        "no_working_method_error": "Questo negozio non può accettare pagamenti al momento. Aggiorna questa pagina o riprova più tardi.",
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Inserisci un codice CVV o di sicurezza valido"
+            }
+          }
+        },
+        "saved_credit_cards_modal": {
+          "done": "Completato"
+        }
       }
     }
   },

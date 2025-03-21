@@ -145,7 +145,8 @@
           "incomplete_address_selected": "Vyberte úplnou dodací adresu, abyste zobrazili dostupné způsoby dopravy."
         },
         "missing_shipping_address": "Chybí dodací adresa",
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} dalších"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} dalších",
+        "pre_order_ships_now": "Bude nyní odesláno"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Zadej adresu spojenou s tvou kartou nebo platební metodou.",
@@ -162,7 +163,17 @@
         "store_credit": {
           "buying_gift_card": "Nemůžeš použít kredit obchodu k zakoupení dárkového poukazu"
         },
-        "no_working_method_error": "Tento obchod momentálně nemůže přijímat platby. Aktualizujte tuto stránku nebo to zkuste znovu později."
+        "no_working_method_error": "Tento obchod momentálně nemůže přijímat platby. Aktualizujte tuto stránku nebo to zkuste znovu později.",
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Zadejte platný CVV nebo bezpečnostní kód"
+            }
+          }
+        },
+        "saved_credit_cards_modal": {
+          "done": "Hotovo"
+        }
       }
     }
   },

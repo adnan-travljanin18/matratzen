@@ -169,7 +169,16 @@
         "store_credit": {
           "buying_gift_card": "Você não pode usar o saldo da loja para comprar um voucher"
         },
-        "no_working_method_error": "Este loja não pode aceitar pagamentos no momento. Atualize esta página ou tente novamente mais tarde."
+        "no_working_method_error": "Este loja não pode aceitar pagamentos no momento. Atualize esta página ou tente novamente mais tarde.",
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Insira um CVV ou código de segurança válido"
+            }
+          }
+        },
+        "saved_credit_card": "Sua carta de crédito salva",
+        "local_payment_method_receiver_notice": "Após fazer seu pedido, você receberá os detalhes de pagamento. Realize o pagamento em um caixa eletrônico ou online dentro de {{dueDays}} dias."
       }
     }
   },

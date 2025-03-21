@@ -179,7 +179,16 @@
         "store_credit": {
           "buying_gift_card": "Ne možete koristiti kredit u trgovini da kupite vaučer"
         },
-        "no_working_method_error": "Ova prodavnica trenutno ne može da prihvati uplate. Ažurirajte ovu stranicu ili pokušajte ponovo kasnije."
+        "no_working_method_error": "Ova prodavnica trenutno ne može da prihvati uplate. Ažurirajte ovu stranicu ili pokušajte ponovo kasnije.",
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Unesite važeći CVV ili sigurnosni kod"
+            }
+          }
+        },
+        "saved_credit_card": "Tvoja sačuvana kreditna kartica",
+        "local_payment_method_receiver_notice": "Nakon što izvršiš svoju narudžbinu, primićeš detalje o plaćanju. Izvrši plaćanje u roku od {{dueDays}} dana na bankomatu ili putem interneta."
       }
     }
   },

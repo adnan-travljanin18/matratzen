@@ -148,7 +148,8 @@
         "method_summary": {
           "incomplete_address_selected": "Valitse täydellinen toimitusosoite nähdäksesi käytettävissä olevat toimitustavat."
         },
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} lisää"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} lisää",
+        "pre_order_ships_now": "Nyt lähetetään"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Syötä kortillesi tai maksutavallesi liitetty osoite.",
@@ -168,7 +169,17 @@
         "store_credit": {
           "buying_gift_card": "Et voi käyttää kaupan saldoa ostaaksesi lahjakortin"
         },
-        "no_working_method_error": "Tämä kauppa ei voi tällä hetkellä hyväksyä maksuja. Päivitä tämä sivu tai yritä myöhemmin uudelleen."
+        "no_working_method_error": "Tämä kauppa ei voi tällä hetkellä hyväksyä maksuja. Päivitä tämä sivu tai yritä myöhemmin uudelleen.",
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Syötä voimassa oleva CVV- tai turvakoodi"
+            }
+          }
+        },
+        "expired_cards_info": {
+          "other": "On olemassa %{count} vanhentunutta korttia, joita voit tarkastella ja muokata tililläsi."
+        }
       }
     }
   },

@@ -179,7 +179,8 @@
           "search_address": "Sök efter adress"
         },
         "delivery_title": "Leverans",
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ytterligare"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ytterligare",
+        "pre_order_ships_now": "Nu skickas"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Ange din adress kopplad till ditt kort eller betalningsmetod.",
@@ -203,7 +204,11 @@
         "store_credit": {
           "buying_gift_card": "Du kan inte använda butiksinkredit för att köpa ett presentkort"
         },
-        "no_working_method_error": "Denna butik kan för närvarande inte ta emot betalningar. Uppdatera denna sida eller försök igen senare."
+        "no_working_method_error": "Denna butik kan för närvarande inte ta emot betalningar. Uppdatera denna sida eller försök igen senare.",
+        "simulated_checkout": "Förhandsvisning kommer snart att vara tillgänglig",
+        "expired_cards_info": {
+          "other": "Det finns %{count} utgångna kort som du kan visa och redigera i ditt konto."
+        }
       }
     }
   },

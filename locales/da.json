@@ -152,7 +152,8 @@
           "incomplete_address_selected": "Vælg en fuldstændig leveringsadresse for at se tilgængelige forsendelsesmetoder."
         },
         "missing_shipping_address": "Leveringsadresse mangler",
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} flere"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} flere",
+        "pre_order_ships_now": "Nu bliver sendt"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Indtast den adresse, der er knyttet til dit kort eller betalingsmetode.",
@@ -171,7 +172,17 @@
         "store_credit": {
           "buying_gift_card": "Du kan ikke bruge shop-kredit til at købe et gavekort"
         },
-        "no_working_method_error": "Denne butik kan i øjeblikket ikke acceptere betalinger. Opdater denne side eller prøv igen senere."
+        "no_working_method_error": "Denne butik kan i øjeblikket ikke acceptere betalinger. Opdater denne side eller prøv igen senere.",
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Indtast en gyldig CVV- eller sikkerhedskode"
+            }
+          }
+        },
+        "saved_credit_cards_modal": {
+          "done": "Fertig"
+        }
       }
     }
   },

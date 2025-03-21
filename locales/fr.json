@@ -150,7 +150,8 @@
         "local_pickup": {
           "search_address": "Chercher par adresse"
         },
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} autres"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} autres",
+        "pre_order_ships_now": "Maintenant expédié"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Entrez l'adresse associée à votre carte ou méthode de paiement.",
@@ -174,7 +175,17 @@
         "store_credit": {
           "buying_gift_card": "Vous ne pouvez pas utiliser le crédit de boutique pour acheter un bon de réduction"
         },
-        "no_working_method_error": "Ce magasin ne peut actuellement pas accepter de paiements. Veuillez actualiser cette page ou réessayer plus tard."
+        "no_working_method_error": "Ce magasin ne peut actuellement pas accepter de paiements. Veuillez actualiser cette page ou réessayer plus tard.",
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Entrez un CVV ou un code de sécurité valide"
+            }
+          }
+        },
+        "saved_credit_cards_modal": {
+          "done": "Terminé"
+        }
       }
     }
   },

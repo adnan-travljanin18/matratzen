@@ -178,7 +178,8 @@
           "search_address": "Adres Ara"
         },
         "delivery_title": "Teslimat",
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} daha"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} daha",
+        "pre_order_ships_now": "Şimdi gönderiliyor"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -203,7 +204,11 @@
         "store_credit": {
           "buying_gift_card": "Sen bir kupon satın almak için mağaza kredisi kullanamazsın"
         },
-        "no_working_method_error": "Bu mağaza şu anda ödeme kabul edemiyor. Bu sayfayı güncelleyin veya daha sonra tekrar deneyin."
+        "no_working_method_error": "Bu mağaza şu anda ödeme kabul edemiyor. Bu sayfayı güncelleyin veya daha sonra tekrar deneyin.",
+        "simulated_checkout": "Önizleme yakında mevcut olacak",
+        "expired_cards_info": {
+          "other": "Es gibt %{count} abgelaufene kartlar, die du görüntüleyebilir ve hesabında düzenleyebilirsin."
+        }
       }
     }
   },

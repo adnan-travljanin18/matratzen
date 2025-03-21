@@ -152,7 +152,8 @@
           "search_address": "Cím keresése"
         },
         "delivery_title": "Szállítás",
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} további"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} további",
+        "pre_order_ships_now": "Most most küldve"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -177,7 +178,9 @@
         "store_credit": {
           "buying_gift_card": "Nem használhatsz boltban lévő egyenleget ajándékkártya vásárlására."
         },
-        "no_working_method_error": "Ez a bolt jelenleg nem tudja elfogadni a kifizetéseket. Frissítsd ezt az oldalt, vagy próbáld meg később újra."
+        "no_working_method_error": "Ez a bolt jelenleg nem tudja elfogadni a kifizetéseket. Frissítsd ezt az oldalt, vagy próbáld meg később újra.",
+        "simulated_checkout": "A megtekintés hamarosan elérhető",
+        "local_payment_method_receiver_notice": "Nachdem du deine Bestellung aufgegeben hast, erhältst du die Zahlungsdetails. Führe die Zahlung innerhalb von {{dueDays}} Tagen an einem Geldautomaten vagy online."
       }
     }
   },

@@ -148,7 +148,8 @@
           "search_address": "Søk etter adresse"
         },
         "delivery_title": "Levering",
-        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} flere"
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} flere",
+        "pre_order_ships_now": "Blir nå sendt"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Skriv inn adressen som er knyttet til kortet ditt eller betalingsmetoden.",
@@ -172,7 +173,17 @@
         "store_credit": {
           "buying_gift_card": "Du kan ikke bruke butikkutgifter for å kjøpe et gavekort"
         },
-        "no_working_method_error": "Denne butikken kan for øyeblikket ikke akseptere betalinger. Oppdater denne siden eller prøv igjen senere."
+        "no_working_method_error": "Denne butikken kan for øyeblikket ikke akseptere betalinger. Oppdater denne siden eller prøv igjen senere.",
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Skriv inn en gyldig CVV- eller sikkerhetskode"
+            }
+          }
+        },
+        "expired_cards_info": {
+          "other": "Det er %{count} utløpte kort som du kan vise og redigere i kontoen din."
+        }
       }
     }
   },
