@@ -131,6 +131,15 @@
           "first_order_shipping_price_included": "Første bestilling inkludert, etterfulgt av %{recurring_order_shipping_price}",
           "free_shipping_cycles": {
             "other": "Gratis frakt for %{count} ytterligere leveranser"
+          },
+          "first_n_order_free_with_cycle": {
+            "other": "Gratis frakt for %{count} flere leveranser, deretter %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "other": "%{shipping_price} for %{count} leveranser (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} for %{count} levering, deretter %{recurring_order_shipping_price}"
           }
         }
       }

@@ -135,6 +135,13 @@
           },
           "first_n_order_free": {
             "other": "As primeiras %{count} encomendas são gratuitas"
+          },
+          "subscription_free_with_frequency_label": "Envio Gratuito %{delivery_frequency}",
+          "first_n_order_free_with_cycle": {
+            "one": "Frete grátis para %{count} entregas adicionais, então %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "other": "%{shipping_price} para %{count} entregas adicionais (%{per_delivery_cost})"
           }
         }
       }

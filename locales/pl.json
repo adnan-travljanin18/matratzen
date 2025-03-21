@@ -131,8 +131,15 @@
             }
           },
           "first_order_shipping_price_included": "Pierwsze zamówienie w cenie, a następnie %{recurring_order_shipping_price}",
-          "free_shipping_cycles": {
-            "other": "Darmowy transport dla %{count} kolejnych dostaw"
+          "subscription_free_with_frequency_label": "Darmowa wysyłka %{delivery_frequency}",
+          "first_n_order_free_with_cycle": {
+            "other": "Darmowa wysyłka dla %{count} kolejnych dostaw, potem %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "other": "%{shipping_price} za %{count} dostaw (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} za %{count} dostawę, potem %{recurring_order_shipping_price}"
           }
         }
       }

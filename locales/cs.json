@@ -127,8 +127,15 @@
           "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} za doručení), následované %{recurring_order_shipping_price}",
           "free_shipping_cycles": {
             "other": "Zdarma doprava pro %{count} další doručení"
+          },
+          "first_n_order_free_with_cycle": {
+            "other": "Bezplatná doprava pro %{count} dalších dodávek, pak %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "other": "%{shipping_price} za %{count} dalších dodávek (%{per_delivery_cost})"
           }
-        }
+        },
+        "address_confirm": "Chcete tuto adresu skutečně smazat ze svého účtu?"
       }
     }
   },

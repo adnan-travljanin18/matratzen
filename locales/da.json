@@ -134,8 +134,15 @@
           },
           "free_shipping_cycles": {
             "other": "Gratis levering for %{count} ekstra levering"
+          },
+          "first_n_order_free_with_cycle": {
+            "other": "Gratis levering for %{count} yderligere levering, så %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "other": "%{shipping_price} for %{count} yderligere leverancer (%{per_delivery_cost})"
           }
-        }
+        },
+        "address_confirm": "Vil du virkelig slette denne adresse fra din konto?"
       }
     }
   },

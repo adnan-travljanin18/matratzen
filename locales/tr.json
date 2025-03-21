@@ -162,10 +162,15 @@
             }
           },
           "first_order_shipping_price_included": "İlk sipariş dahil, ardından %{recurring_order_shipping_price}",
-          "free_for_first_n_order": {
-            "one": "İlk sipariş için"
+          "subscription_free_with_frequency_label": "Ücretsiz Kargo %{delivery_frequency}",
+          "first_n_order_free_with_cycle": {
+            "one": "Ücretsiz kargo için %{count} diğer teslimat, ardından %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "other": "%{shipping_price} için %{count} teslimatlar (%{per_delivery_cost})"
           }
-        }
+        },
+        "edit": "Düzenle"
       }
     }
   },

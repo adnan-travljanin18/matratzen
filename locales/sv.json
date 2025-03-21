@@ -162,8 +162,15 @@
             }
           },
           "first_order_shipping_price_included": "Första beställningen ingår, följt av %{recurring_order_shipping_price}",
-          "free_shipping_cycles_delivery_not_included": {
-            "one": "Gratis frakt för %{count} leveranser"
+          "subscription_free_with_frequency_label": "Kostnadsfri frakt %{delivery_frequency}",
+          "first_n_order_free_with_cycle": {
+            "other": "Kostnadsfri frakt för %{count} ytterligare leveranser, sedan %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "other": "%{shipping_price} för %{count} leveranser (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} för %{count} Leverans, därefter %{recurring_order_shipping_price}"
           }
         }
       }

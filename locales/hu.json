@@ -136,10 +136,15 @@
             }
           },
           "first_order_shipping_price_included": "Az első rendelés beleértve, követi a %{recurring_order_shipping_price}",
-          "free_shipping_cycles": {
-            "one": "Ingyenes szállítás %{count} további kézbesítésre"
+          "subscription_free_with_frequency_label": "Ingyenes szállítás %{delivery_frequency}",
+          "first_n_order_free_with_cycle": {
+            "one": "Ingyenes szállítás %{count} további kézbesítésre, majd %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "other": "%{shipping_price} für %{count} Zustellungen (%{per_delivery_cost})"
           }
-        }
+        },
+        "edit": "Szerkesztés"
       }
     }
   },

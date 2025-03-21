@@ -135,6 +135,13 @@
           },
           "first_n_order_free": {
             "other": "Οι πρώτες %{count} παραγγελίες είναι δωρεάν"
+          },
+          "subscription_free_with_frequency_label": "Δωρεάν αποστολή %{delivery_frequency}",
+          "first_n_order_free_with_cycle": {
+            "one": "Δωρεάν αποστολή για %{count} επιπλέον παραδόσεις, τότε %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "other": "%{shipping_price} για %{count} επιπλέον παραδόσεις (%{per_delivery_cost})"
           }
         }
       }

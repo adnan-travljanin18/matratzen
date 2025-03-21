@@ -131,8 +131,15 @@
           },
           "free_shipping_cycles": {
             "other": "Ilmainen toimitus %{count} lisätoimitukselle"
+          },
+          "first_n_order_free_with_cycle": {
+            "other": "Ilmainen toimitus %{count} lisätoimitukselle, sitten %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "other": "%{shipping_price} for %{count} additional deliveries (%{per_delivery_cost})"
           }
-        }
+        },
+        "address_confirm": "Haluatko todella poistaa tämän osoitteen tililtäsi?"
       }
     }
   },

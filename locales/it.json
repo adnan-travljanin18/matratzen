@@ -133,8 +133,15 @@
           "first_order_shipping_price_included": "Prima ordinazione inclusa, seguita da %{recurring_order_shipping_price}",
           "free_shipping_cycles": {
             "other": "Spedizione gratuita per %{count} ulteriori consegne"
+          },
+          "first_n_order_free_with_cycle": {
+            "other": "Spedizione gratuita per %{count} ulteriori consegne, poi %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "other": "%{shipping_price} per %{count} consegne (%{per_delivery_cost})"
           }
-        }
+        },
+        "address_confirm": "Vuoi davvero eliminare questo indirizzo dal tuo account?"
       }
     }
   },

@@ -145,6 +145,13 @@
           },
           "first_n_order_free": {
             "other": "Prvih %{count} porudžbina je besplatno"
+          },
+          "subscription_free_with_frequency_label": "Besplatna dostava %{delivery_frequency}",
+          "first_n_order_free_with_cycle": {
+            "one": "Besplatna dostava za %{count} dodatnih isporuka, zatim %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "other": "%{shipping_price} za %{count} dodatnih isporuka (%{per_delivery_cost})"
           }
         }
       }

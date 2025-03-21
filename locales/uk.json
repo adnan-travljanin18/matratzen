@@ -174,6 +174,13 @@
           },
           "first_n_order_free": {
             "other": "Перші %{count} замовлення безкоштовні"
+          },
+          "subscription_free_with_frequency_label": "Безкоштовна доставка %{delivery_frequency}",
+          "first_n_order_free_with_cycle": {
+            "one": "Безкоштовна доставка для %{count} інших замовлень, тоді %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "other": "%{shipping_price} за %{count} поставки (%{per_delivery_cost})"
           }
         }
       }

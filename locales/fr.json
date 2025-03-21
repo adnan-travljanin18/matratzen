@@ -131,8 +131,15 @@
           },
           "free_shipping_cycles": {
             "other": "Livraison gratuite pour %{count} autres livraisons"
+          },
+          "first_n_order_free_with_cycle": {
+            "other": "Livraison gratuite pour %{count} autres livraisons, puis %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "other": "%{shipping_price} pour %{count} livraisons (%{per_delivery_cost})"
           }
-        }
+        },
+        "address_confirm": "Voulez-vous vraiment supprimer cette adresse de votre compte ?"
       }
     }
   },
