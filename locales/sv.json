@@ -519,31 +519,19 @@
       "cart": {
         "link_expired": "Länken har löpt ut",
         "variant_not_found": "Kan inte hitta variant",
-        "less_than_minimum": "Denna artikel har ett minimum av %{min}.",
-        "gift_card_price_must_be_greater_than_zero": "Bundle-produkten \"%{name}\" kan inte läggas till i kundvagnen.",
-        "cart_too_large": "Varukorgen är för stor."
-      },
-      "tags": {
-        "add_products": "Begränsa urvalet av produkter som matchar taggen %{tag}"
-      },
-      "line_item": {
-        "item_status": {
-          "add_variant": "%{delta} added"
-        }
+        "less_than_minimum": "Denna artikel har ett minimum av %{min}."
       }
-    },
-    "page_titles": {
-      "shopping_cart": "Din kundvagn",
-      "blog_or_article_with_error": "Fel – %{title}"
-    },
-    "challenge": {
-      "error": "Din svar var inte korrekt, vänligen försök igen."
     },
     "email_marketing": {
       "open_tracking": {
-        "opt_in": {
-          "opt_out_html": "Du kan inaktivera spårning av öppnade e-postmeddelanden <a style='text-decoration:underline;' href='%{link}'>om du inte vill dela denna information</a>."
+        "no_longer_track": {
+          "privacy_policy": "Efter att detta e-postmeddelande har skickats har vi uppdaterat vår integritetspolicy och spårar inte längre öppnade e-postmeddelanden."
         }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Vanligtvis klart inom 1 timme"
       }
     }
   },

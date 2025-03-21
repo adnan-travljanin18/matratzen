@@ -479,7 +479,39 @@
       "cart": {
         "empty_update": "δεν μπορεί να ενημερώσει το κενό καλάθι αγορών",
         "variant_not_found": "Δεν μπορώ να βρω την ποικιλία",
-        "product_not_available": "Το προϊόν δεν είναι διαθέσιμο"
+        "more_than_maximum": "Αυτό το άρθρο έχει ένα μέγιστο των %{max}.",
+        "gift_card_price_must_be_greater_than_zero": "Το προσφερόμενο προϊόν \"%{name}\" δεν μπορεί να προστεθεί στο καλάθι αγορών.",
+        "cart_too_large": "Ο κάδος αγορών είναι πολύ μεγάλος."
+      },
+      "tags": {
+        "add_products": "Περιορίστε την επιλογή σε προϊόντα που ταιριάζουν με την ετικέτα %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} προστέθηκε"
+        }
+      }
+    },
+    "page_titles": {
+      "shopping_cart": "Ο καλαθάς αγορών σου",
+      "blog_or_article_with_error": "Σφάλμα – %{title}"
+    },
+    "challenge": {
+      "error": "Η απάντησή σου δεν ήταν σωστή, παρακαλώ προσπάθησε ξανά."
+    },
+    "email_marketing": {
+      "unsubscribed": {
+        "confirmation": "Έχεις απεγγραφεί από τη λίστα αλληλογραφίας μας."
+      },
+      "open_tracking": {
+        "no_longer_track": {
+          "privacy_policy": "Μετά την αποστολή αυτού του email, έχουμε ενημερώσει την πολιτική απορρήτου μας και δεν παρακολουθούμε πλέον τα ανοιγμένα email."
+        }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Συνήθως έτοιμο σε 1 ώρα"
       }
     }
   },

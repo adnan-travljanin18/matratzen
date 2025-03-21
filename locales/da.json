@@ -498,6 +498,16 @@
         "empty_update": "kan ikke opdatere den tomme indkøbskurv",
         "less_than_minimum": "Denne artikel har et minimum på %{min}."
       }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "no_longer_track": {
+          "privacy_policy": "Efter at denne e-mail er sendt, har vi opdateret vores fortrolighedspolitik, og vi sporer ikke længere åbnede e-mails."
+        },
+        "updated_policy": {
+          "visibility": "Vi har opdateret vores privatlivspolitik og sporer åbnede e-mails. E-mail-åbningsrater registreres anonymt. Vi ser kun som en del af den samlede e-mail-åbningsrate, om du har åbnet en e-mail."
+        }
+      }
     }
   },
   "customer_accounts": {

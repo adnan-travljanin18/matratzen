@@ -498,29 +498,19 @@
       "cart": {
         "link_expired": "Link scaduto",
         "link_no_longer_exists": "Il link non esiste più.",
-        "less_than_minimum": "Questo articolo ha un minimo di %{min}.",
-        "gift_card_price_must_be_greater_than_zero": "Il prodotto bundle \"%{name}\" non può essere aggiunto al carrello.",
-        "cart_too_large": "Il carrello è troppo grande."
-      },
-      "tags": {
-        "add_products": "Limitare la selezione ai prodotti che corrispondono al tag %{tag}"
-      },
-      "line_item": {
-        "item_status": {
-          "add_variant": "%{delta} aggiunto"
+        "less_than_minimum": "Questo articolo ha un minimo di %{min}."
+      }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "no_longer_track": {
+          "privacy_policy": "Dopo l'invio di questa email, abbiamo aggiornato la nostra informativa sulla privacy e non seguiamo più le email aperte."
         }
       }
     },
-    "page_titles": {
-      "order": "Ordine %{name}",
-      "collections": "Collezioni"
-    },
-    "checkpoint": {
-      "submit_button_text": "Invia"
-    },
-    "email_marketing": {
-      "unsubscribed": {
-        "preview": "Vedi un'anteprima di ciò che i clienti vedono al momento della disconnessione."
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Normalmente pronto in 1 ora"
       }
     }
   },

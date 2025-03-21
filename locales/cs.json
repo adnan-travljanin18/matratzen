@@ -479,6 +479,16 @@
         "empty_update": "Nemohu aktualizovat prázdný nákupní košík",
         "less_than_minimum": "Tento článek má minimum %{min}."
       }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "no_longer_track": {
+          "privacy_policy": "Poté, co byla tato e-mailová zpráva odeslána, jsme aktualizovali naše prohlášení o ochraně soukromí a více nesledujeme otevřené e-maily."
+        },
+        "updated_policy": {
+          "visibility": "Aktualizovali jsme naše prohlášení o ochraně osobních údajů a sledujeme otevřené e-maily. Míra otevření e-mailů je zaznamenávána anonymně. Vidíme pouze jako součást souhrnné míry otevření e-mailů, zda jsi e-mail otevřel."
+        }
+      }
     }
   },
   "customer_accounts": {

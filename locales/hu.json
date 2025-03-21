@@ -502,8 +502,18 @@
       "error": "A válaszod nem volt helyes, kérlek próbáld meg újra."
     },
     "email_marketing": {
-      "subscribed": {
-        "unsubscribe": "Kijelentkezés"
+      "unsubscribed": {
+        "confirmation": "Leiratkoztál a hírlevelünkről."
+      },
+      "open_tracking": {
+        "no_longer_track": {
+          "privacy_policy": "Nachdem diese E-Mail versendet wurde, haben wir unsere Datenschutzerklärung aktualisiert und verfolgen keine geöffneten E-Mails mehr nach."
+        }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Szokásosan 1 órán belül kész"
       }
     }
   },

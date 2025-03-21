@@ -492,31 +492,19 @@
       "cart": {
         "link_expired": "Link wygasł",
         "variant_not_found": "Nie można znaleźć wariantu",
-        "less_than_minimum": "Ten artykuł ma minimum %{min}.",
-        "gift_card_price_must_be_greater_than_zero": "Produkt pakietowy \"%{name}\" nie może zostać dodany do koszyka.",
-        "cart_too_large": "Koszyk jest za duży."
-      },
-      "tags": {
-        "add_products": "Ogranicz wybór produktów, które odpowiadają etykiecie %{tag}"
-      },
-      "line_item": {
-        "item_status": {
-          "add_variant": "%{delta} dodane"
-        }
+        "less_than_minimum": "Ten artykuł ma minimum %{min}."
       }
-    },
-    "page_titles": {
-      "create_account": "Konto utworzyć",
-      "blog_or_article_with_error": "Błąd – %{title}"
-    },
-    "challenge": {
-      "error": "Twoja odpowiedź nie była poprawna, spróbuj ponownie."
     },
     "email_marketing": {
       "open_tracking": {
-        "opt_in": {
-          "visibility": "E-Mail-Öffnungsraten są rejestrowane anonimowo. Widzimy tylko jako część zsumowanej stawki otwarcia e-maila, czy otworzyłeś e-mail."
+        "no_longer_track": {
+          "privacy_policy": "Po wysłaniu tej wiadomości e-mail zaktualizowaliśmy naszą politykę prywatności i nie śledzimy już otwartych wiadomości e-mail."
         }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Zwykle gotowe w 1 godzinę"
       }
     }
   },

@@ -494,29 +494,19 @@
       "cart": {
         "link_expired": "Lenken utløpt",
         "link_no_longer_exists": "Lenken eksisterer ikke lenger.",
-        "less_than_minimum": "Denne artikkelen har et minimum på %{min}.",
-        "gift_card_price_must_be_greater_than_zero": "Bundle-produktet \"%{name}\" kan ikke legges til i handlekurven.",
-        "cart_too_large": "Handlevogn er for stor."
-      },
-      "tags": {
-        "add_products": "Begrens utvalget til produkter som samsvarer med taggen %{tag}"
-      },
-      "line_item": {
-        "item_status": {
-          "add_variant": "%{delta} lagt til"
+        "less_than_minimum": "Denne artikkelen har et minimum på %{min}."
+      }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "no_longer_track": {
+          "privacy_policy": "Etter at denne e-posten ble sendt, har vi oppdatert vår personvernerklæring, og vi sporer ikke åpne e-poster lenger."
         }
       }
     },
-    "page_titles": {
-      "create_account": "Opprett konto",
-      "collections": "Kollektionen"
-    },
-    "challenge": {
-      "error": "Din svar var ikke korrekt, vennligst prøv igjen."
-    },
-    "email_marketing": {
-      "unsubscribed": {
-        "preview": "Du ser en forhåndsvisning av hva kunder ser når de melder seg av."
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Vanligvis ferdig på 1 time"
       }
     }
   },

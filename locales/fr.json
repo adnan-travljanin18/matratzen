@@ -495,31 +495,19 @@
       "cart": {
         "link_expired": "Le lien a expiré",
         "link_no_longer_exists": "Le lien n'existe plus.",
-        "less_than_minimum": "Cet article a un minimum de %{min}.",
-        "gift_card_price_must_be_greater_than_zero": "Le produit en bundle \"%{name}\" ne peut pas être ajouté au panier.",
-        "cart_too_large": "Le panier est trop grand."
-      },
-      "tags": {
-        "add_products": "Limiter la sélection aux produits qui correspondent au tag %{tag}"
-      },
-      "line_item": {
-        "item_status": {
-          "add_variant": "%{delta} ajouté"
-        }
+        "less_than_minimum": "Cet article a un minimum de %{min}."
       }
-    },
-    "page_titles": {
-      "reset_account": "Réinitialiser le compte",
-      "blog_or_article_with_error": "Erreur – %{title}"
-    },
-    "checkpoint": {
-      "submit_button_text": "Envoyer"
     },
     "email_marketing": {
       "open_tracking": {
-        "opt_in": {
-          "visibility": "E-Mail taux d'ouverture sont enregistrés de manière anonyme. Nous voyons seulement en tant que partie d'un taux d'ouverture d'e-mail résumé, si vous avez ouvert un e-mail."
+        "no_longer_track": {
+          "privacy_policy": "Après l'envoi de cet e-mail, nous avons mis à jour notre politique de confidentialité et nous ne suivons plus les e-mails ouverts."
         }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Habituellement prêt en 1 heure"
       }
     }
   },

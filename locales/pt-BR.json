@@ -494,6 +494,21 @@
     },
     "challenge": {
       "error": "Sua resposta não estava correta, por favor, tente novamente."
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Você ativou o rastreamento de e-mails abertos.</b>"
+        },
+        "no_longer_track": {
+          "privacy_policy": "Depois que este e-mail foi enviado, atualizamos nossa política de privacidade e não rastreamos mais e-mails abertos."
+        }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Normalmente pronto em 1 hora"
+      }
     }
   },
   "customer_accounts": {

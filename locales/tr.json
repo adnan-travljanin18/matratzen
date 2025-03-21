@@ -521,29 +521,19 @@
       "cart": {
         "link_expired": "Bağlantı süresi dolmuş",
         "variant_not_found": "Variante bulunamıyor",
-        "less_than_minimum": "Bu makale, %{min} kadar minimuma sahiptir.",
-        "gift_card_price_must_be_greater_than_zero": "\"%{name}\" bundle ürünü sepete eklenemez.",
-        "cart_too_large": "Sepet çok büyük."
-      },
-      "tags": {
-        "add_products": "Ürünü %{tag} ile eşleşen etiketle sınırlama"
-      },
-      "line_item": {
-        "item_status": {
-          "add_variant": "%{delta} eklendi"
+        "less_than_minimum": "Bu makale, %{min} kadar minimuma sahiptir."
+      }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "no_longer_track": {
+          "privacy_policy": "Bir bu e-posta gönderildikten sonra, gizlilik politikamızı güncelledik ve açılan e-postaları artık takip etmiyoruz."
         }
       }
     },
-    "page_titles": {
-      "shopping_cart": "Sepetiniz",
-      "blog_or_article_with_error": "Hata – %{title}"
-    },
-    "challenge": {
-      "error": "Senin cevabın doğru değildi, lütfen tekrar dene."
-    },
-    "email_marketing": {
-      "subscribed": {
-        "disclaimer": "Her zaman yeniden abone olabilirsin."
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Genellikle 1 saatte hazır"
       }
     }
   },

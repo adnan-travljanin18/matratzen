@@ -522,25 +522,20 @@
       "cart": {
         "empty_update": "Не вдалося оновити порожній кошик",
         "variant_not_found": "Не можу знайти варіант",
-        "more_than_maximum": "Ця стаття має максимум %{max}.",
-        "gift_card_price_must_be_greater_than_zero": "Продукт пакету \"%{name}\" не може бути доданий до кошика.",
-        "cart_too_large": "Кошик надто великий."
-      },
-      "tags": {
-        "add_products": "Обмежити вибір продуктів, що відповідають тегу %{tag}"
-      },
-      "line_item": {
-        "item_status": {
-          "add_variant": "%{delta} додано"
+        "selling_plan_not_applicable": "План продажу не можна застосувати до варіанту"
+      }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "no_longer_track": {
+          "privacy_policy": "Після відправлення цього електронного листа ми оновили нашу політику конфіденційності і більше не відстежуємо відкриті електронні листи."
         }
       }
     },
-    "page_titles": {
-      "shopping_cart": "Ваш кошик",
-      "blog_or_article_with_error": "Помилка – %{title}"
-    },
-    "challenge": {
-      "error": "Твоя відповідь була неправильна, будь ласка, спробуй ще раз."
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Зазвичай готовий за 1 годину"
+      }
     }
   },
   "customer_accounts": {

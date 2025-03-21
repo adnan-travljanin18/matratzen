@@ -506,6 +506,21 @@
     },
     "challenge": {
       "error": "Tvoj odgovor nije bio tačan, molim te pokušaj ponovo."
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Aktivirali ste praćenje otvorenih e-mailova.</b>"
+        },
+        "no_longer_track": {
+          "privacy_policy": "Nakon što je ova e-pošta poslata, ažurirali smo našu politiku privatnosti i više ne pratimo otvorene e-pošte."
+        }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Obično završeno za 1 sat"
+      }
     }
   },
   "customer_accounts": {
