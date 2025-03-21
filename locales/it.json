@@ -494,6 +494,11 @@
         "cancel_reason": {
           "declined": "Pagamento rifiutato"
         }
+      },
+      "cart": {
+        "link_expired": "Link scaduto",
+        "link_no_longer_exists": "Il link non esiste più.",
+        "less_than_minimum": "Questo articolo ha un minimo di %{min}."
       }
     }
   },

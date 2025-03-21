@@ -399,7 +399,8 @@
             "city": "Zadej město"
           },
           "formatting": {
-            "first_name_too_long": "Vorname obsahuje příliš mnoho písmen"
+            "first_name_too_long": "Vorname obsahuje příliš mnoho písmen",
+            "last_name_too_long": "Nachname obsahuje příliš mnoho písmen"
           }
         }
       },
@@ -473,6 +474,10 @@
         "cancel_reason": {
           "declined": "Platba zamítnuta"
         }
+      },
+      "cart": {
+        "empty_update": "Nemohu aktualizovat prázdný nákupní košík",
+        "less_than_minimum": "Tento článek má minimum %{min}."
       }
     }
   },

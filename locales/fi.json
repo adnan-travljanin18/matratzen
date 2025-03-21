@@ -481,6 +481,11 @@
         "cancel_reason": {
           "declined": "Maksu hylätty"
         }
+      },
+      "cart": {
+        "link_expired": "Link vanhentunut",
+        "link_no_longer_exists": "Link ei enää ole olemassa.",
+        "less_than_minimum": "Tämä artikkeli sisältää vähintään %{min}."
       }
     }
   },

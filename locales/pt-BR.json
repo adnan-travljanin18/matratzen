@@ -471,6 +471,11 @@
         "cancel_reason": {
           "declined": "Pagamento recusado"
         }
+      },
+      "cart": {
+        "only_n_items_available": "Você só pode adicionar %{count} %{name} ao carrinho.",
+        "variant_not_found": "Não foi possível encontrar a variante",
+        "shipping_address_not_required": "Este carrinho não requer envio"
       }
     }
   },

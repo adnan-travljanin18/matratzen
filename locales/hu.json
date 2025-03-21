@@ -477,6 +477,11 @@
         "cancel_reason": {
           "staff": "Dolgozói hiba"
         }
+      },
+      "cart": {
+        "empty_update": "nem tudja frissíteni az üres kosarat",
+        "variant_not_found": "Nem találom a változatot",
+        "selling_plan_not_applicable": "A értékesítési terv nem alkalmazható a variánsra"
       }
     }
   },

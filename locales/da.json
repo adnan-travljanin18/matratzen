@@ -411,7 +411,8 @@
             "city": "Indtast en by"
           },
           "formatting": {
-            "first_name_too_long": "Fornavn indeholder for mange bogstaver"
+            "first_name_too_long": "Fornavn indeholder for mange bogstaver",
+            "last_name_too_long": "Efternavnet indeholder for mange bogstaver"
           }
         },
         "payment_in_progress_title": "Betalingen behandles"
@@ -492,6 +493,10 @@
         "cancel_reason": {
           "declined": "Betaling afvist"
         }
+      },
+      "cart": {
+        "empty_update": "kan ikke opdatere den tomme indkøbskurv",
+        "less_than_minimum": "Denne artikel har et minimum på %{min}."
       }
     }
   },

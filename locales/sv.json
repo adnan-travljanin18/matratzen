@@ -515,6 +515,11 @@
         "cancel_reason": {
           "declined": "Betalning avvisad"
         }
+      },
+      "cart": {
+        "link_expired": "Länken har löpt ut",
+        "variant_not_found": "Kan inte hitta variant",
+        "less_than_minimum": "Denna artikel har ett minimum av %{min}."
       }
     }
   },

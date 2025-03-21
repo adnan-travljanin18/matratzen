@@ -517,6 +517,11 @@
         "cancel_reason": {
           "declined": "Ödeme reddedildi"
         }
+      },
+      "cart": {
+        "link_expired": "Bağlantı süresi dolmuş",
+        "variant_not_found": "Variante bulunamıyor",
+        "less_than_minimum": "Bu makale, %{min} kadar minimuma sahiptir."
       }
     }
   },

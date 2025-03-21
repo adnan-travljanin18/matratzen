@@ -488,6 +488,11 @@
         "cancel_reason": {
           "declined": "Płatność odrzucona"
         }
+      },
+      "cart": {
+        "link_expired": "Link wygasł",
+        "variant_not_found": "Nie można znaleźć wariantu",
+        "less_than_minimum": "Ten artykuł ma minimum %{min}."
       }
     }
   },

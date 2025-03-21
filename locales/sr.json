@@ -483,6 +483,11 @@
         "cancel_reason": {
           "declined": "Plaćanje odbijeno"
         }
+      },
+      "cart": {
+        "only_n_items_available": "Možeš dodati samo %{count} %{name} u korpu.",
+        "variant_not_found": "Ne mogu pronaći varijantu",
+        "selling_plan_not_available_for_company_locations": "Samo jednokratne kupovine su dostupne za B2B narudžbine"
       }
     }
   },
