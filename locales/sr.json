@@ -778,7 +778,12 @@
     "ui_components": {
       "submit": "Pošaljite",
       "may": "Мај",
-      "monday": "Ponedeljak"
+      "monday": "Ponedeljak",
+      "thursday": "Четвртак",
+      "saturdayAbbreviation": "Sa",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} članaka dostupnih"
+      }
     }
   }
 }

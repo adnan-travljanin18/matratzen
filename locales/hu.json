@@ -772,7 +772,12 @@
       "closeModal": "Zárás",
       "submit": "Senden",
       "may": "Mai",
-      "monday": "Hétfő"
+      "monday": "Hétfő",
+      "thursday": "Csütörtök",
+      "saturdayAbbreviation": "Sa",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Cikk elérhető"
+      }
     }
   }
 }

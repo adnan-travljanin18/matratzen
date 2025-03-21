@@ -770,7 +770,12 @@
     "ui_components": {
       "submit": "Αποστολή",
       "may": "Μάι",
-      "monday": "Δευτέρα"
+      "monday": "Δευτέρα",
+      "thursday": "Πέμπτη",
+      "saturdayAbbreviation": "Σα",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Άρθρα διαθέσιμα"
+      }
     }
   }
 }

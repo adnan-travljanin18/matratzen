@@ -794,7 +794,12 @@
       "closeModal": "Stänga",
       "submit": "Sända",
       "may": "Mai",
-      "monday": "Måndag"
+      "monday": "Måndag",
+      "thursday": "Torsdag",
+      "saturdayAbbreviation": "Sa",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Artiklar tillgängliga"
+      }
     }
   }
 }

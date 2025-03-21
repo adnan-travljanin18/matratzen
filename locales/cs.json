@@ -756,7 +756,12 @@
     "ui_components": {
       "submit": "Odeslat",
       "may": "Mai",
-      "monday": "Pondělí"
+      "monday": "Pondělí",
+      "tuesdayAbbreviation": "Di",
+      "sundayAbbreviation": "Tak",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Článků k dispozici"
+      }
     }
   }
 }

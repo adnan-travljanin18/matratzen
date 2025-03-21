@@ -773,7 +773,12 @@
     "ui_components": {
       "submit": "Sende",
       "may": "Maj",
-      "monday": "Mandag"
+      "monday": "Mandag",
+      "thursday": "Torsdag",
+      "sundayAbbreviation": "Så",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Artikler tilgængelige"
+      }
     }
   }
 }

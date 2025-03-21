@@ -769,7 +769,12 @@
       "closeModal": "Fermer",
       "submit": "Envoyer",
       "may": "Mai",
-      "monday": "Lundi"
+      "monday": "Lundi",
+      "mondayAbbreviation": "Mo",
+      "saturdayAbbreviation": "Sa",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Articles disponibles"
+      }
     }
   }
 }

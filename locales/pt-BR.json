@@ -768,7 +768,12 @@
     "ui_components": {
       "submit": "Enviar",
       "may": "Mai",
-      "monday": "Montag"
+      "monday": "Montag",
+      "thursday": "Quinta-feira",
+      "saturdayAbbreviation": "Sa",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Artigos disponíveis"
+      }
     }
   }
 }

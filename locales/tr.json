@@ -794,7 +794,12 @@
       "closeModal": "Kapat",
       "submit": "Senden",
       "may": "Mai",
-      "monday": "Pazartesi"
+      "monday": "Pazartesi",
+      "thursday": "Perşembe",
+      "saturdayAbbreviation": "Sa",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Makale mevcut"
+      }
     }
   }
 }

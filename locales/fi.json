@@ -761,7 +761,12 @@
     "ui_components": {
       "submit": "Lähetä",
       "may": "Mai",
-      "monday": "Maanantai"
+      "monday": "Maanantai",
+      "thursday": "Torstai",
+      "saturdayAbbreviation": "Sa",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Artikkelia saatavilla"
+      }
     }
   }
 }

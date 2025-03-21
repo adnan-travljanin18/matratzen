@@ -767,7 +767,12 @@
       "closeModal": "Lukk",
       "submit": "Senden",
       "may": "Mai",
-      "monday": "Mandag"
+      "monday": "Mandag",
+      "mondayAbbreviation": "Mo",
+      "saturdayAbbreviation": "Sa",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Artikler tilgjengelig"
+      }
     }
   }
 }

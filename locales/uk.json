@@ -791,7 +791,12 @@
     "ui_components": {
       "submit": "Надіслати",
       "may": "Май",
-      "monday": "Монталь"
+      "monday": "Монталь",
+      "thursday": "Четверг",
+      "saturdayAbbreviation": "Сау",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Статей доступно"
+      }
     }
   }
 }

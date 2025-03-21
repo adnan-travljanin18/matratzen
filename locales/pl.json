@@ -765,7 +765,12 @@
       "closeModal": "Zamknij",
       "submit": "Wysłać",
       "may": "Maj",
-      "monday": "Montag"
+      "monday": "Montag",
+      "mondayAbbreviation": "Mo",
+      "saturdayAbbreviation": "Sa",
+      "autocompleteOptionsAvailable": {
+        "other": "{{count}} Artykułów dostępnych"
+      }
     }
   }
 }
