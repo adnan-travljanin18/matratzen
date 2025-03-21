@@ -616,7 +616,12 @@
         },
         "delivery_promise_v2": {
           "promise_line": {
-            "delivery_guarantee_expired_label": "Prazo de entrega garantido expirou"
+            "delivery_guarantee_expired_label": "Prazo de entrega garantido expirou",
+            "download_shop_app_button_label": "Baixar o Shop de Rastreamento"
+          },
+          "details_modal": {
+            "expired_badge_label": "Vencido",
+            "eligible_to_claim_shop_cash_description": "Como seu pedido chegou atrasado, você tem direito a {{amount}} Shop Cash."
           }
         }
       }

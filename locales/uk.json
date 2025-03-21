@@ -485,6 +485,9 @@
         "external": {
           "instructions": "Підтвердіть платіж у додатку, щоб завершити цю покупку."
         }
+      },
+      "merchant_instruction_errors": {
+        "invalid_stable_id_target": "Die інструкція для товару мерчандайзингу %{position} %{name} стосується стабільного ID %{stable_id}, який проте не входить до асортименту товарів мерчандайзингу."
       }
     },
     "pagination": {
@@ -641,7 +644,11 @@
         },
         "delivery_promise_v2": {
           "promise_line": {
-            "delivery_guarantee_expired_label": "Гарантований термін доставки минув"
+            "delivery_guarantee_expired_label": "Гарантований термін доставки минув",
+            "download_shop_app_button_label": "Завантажити магазин для відстеження"
+          },
+          "details_modal": {
+            "view_balance_in_shop_button_label": "Показати баланс у магазині"
           }
         }
       }

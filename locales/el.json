@@ -442,6 +442,9 @@
         "external": {
           "instructions": "Επιβεβαίωσε την πληρωμή στην εφαρμογή για να ολοκληρώσεις αυτήν την αγορά."
         }
+      },
+      "merchant_instruction_errors": {
+        "invalid_stable_id_target": "Η εντολή για το εμπορεύσιμο προϊόν %{position} %{name} αναφέρεται στην σταθερή ταυτότητα %{stable_id}, η οποία όμως δεν ανήκει στη σειρά εμπορευμάτων."
       }
     },
     "pagination": {
@@ -618,7 +621,11 @@
         },
         "delivery_promise_v2": {
           "promise_line": {
-            "delivery_guarantee_expired_label": "Η εγγυημένη προθεσμία παράδοσης έχει λήξει"
+            "delivery_guarantee_expired_label": "Η εγγυημένη προθεσμία παράδοσης έχει λήξει",
+            "download_shop_app_button_label": "Αποκτήστε το κατάστημα παρακολούθησης"
+          },
+          "details_modal": {
+            "eligible_to_claim_shop_cash_description": "Δεδομένου ότι η παραγγελία σου έφτασε καθυστερημένα, έχεις δικαίωμα σε {{amount}} Shop Cash."
           }
         }
       }

@@ -628,7 +628,12 @@
         },
         "delivery_promise_v2": {
           "promise_line": {
-            "delivery_guarantee_expired_label": "Vreme isporuke je isteklo"
+            "delivery_guarantee_expired_label": "Vreme isporuke je isteklo",
+            "download_shop_app_button_label": "За праћење преузмите продавницу"
+          },
+          "details_modal": {
+            "expired_badge_label": "Isteklo",
+            "eligible_to_claim_shop_cash_description": "Da je vaša narudžbina stigla sa zakašnjenjem, imate pravo na {{amount}} Shop Cash."
           }
         }
       }

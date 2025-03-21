@@ -457,6 +457,9 @@
         "external": {
           "instructions": "Bekreft betalingen i appen for å fullføre dette kjøpet."
         }
+      },
+      "merchant_instruction_errors": {
+        "invalid_stable_id_target": "Die instruksjonen for merchandise-artikkelen %{position} %{name} gjelder den stabile ID %{stable_id}, som imidlertid ikke er i merchandise-artikkelserien."
       }
     },
     "pagination": {
@@ -613,10 +616,11 @@
         },
         "delivery_promise_v2": {
           "promise_line": {
-            "delivery_guarantee_expired_label": "Garantert leveringstid utløpt"
+            "delivery_guarantee_expired_label": "Garantert leveringstid utløpt",
+            "download_shop_app_button_label": "Last ned Shop for å spore"
           },
           "details_modal": {
-            "active_delivery_guarantee_label": "Zustellung bis {{date}}"
+            "view_balance_in_shop_button_label": "Vis saldo i butikken"
           }
         }
       }

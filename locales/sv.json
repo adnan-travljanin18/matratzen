@@ -639,7 +639,11 @@
         "delivery_promise_v2": {
           "promise_line": {
             "delivery_guarantee_expired_label": "Garantit leveranstid har gått ut",
-            "modal_accessibility_button_label": "Detaljer om leveransåtagandet"
+            "download_shop_app_button_label": "Ladda ner butik för att spåra"
+          },
+          "details_modal": {
+            "expired_badge_label": "Utgången",
+            "view_balance_in_shop_button_label": "Visa saldo i butik"
           }
         }
       }

@@ -440,6 +440,9 @@
         "external": {
           "instructions": "Potvrďte platbu v aplikaci, abyste dokončili tento nákup."
         }
+      },
+      "merchant_instruction_errors": {
+        "invalid_stable_id_target": "Die Anweisung für den Merchandise-Artikel %{position} %{name} se vztahuje na stabilní ID %{stable_id}, které však není v řadě merchandise článků."
       }
     },
     "pagination": {
@@ -605,6 +608,12 @@
           "details_modal": {
             "title": "Garantovaná doručení"
           }
+        },
+        "tracking_number": {
+          "one": "Trackingové číslo"
+        },
+        "gift_card_resend_button": {
+          "one": "Gutschein znovu odeslat"
         }
       }
     }

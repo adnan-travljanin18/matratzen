@@ -459,6 +459,9 @@
         "external": {
           "instructions": "Bekræft betalingen i appen for at afslutte dette køb."
         }
+      },
+      "merchant_instruction_errors": {
+        "invalid_stable_id_target": "Die instruktion for merchandise artikel %{position} %{name} vedrører den stabile ID %{stable_id}, som dog ikke er i merchandise artikellinjen."
       }
     },
     "pagination": {
@@ -622,8 +625,12 @@
           "details_modal": {
             "title": "Garantet levering"
           }
+        },
+        "tracking_number": {
+          "one": "Trackingnummer"
         }
-      }
+      },
+      "buy_again": "Erhverv igen"
     }
   }
 }

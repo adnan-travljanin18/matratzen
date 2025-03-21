@@ -487,7 +487,7 @@
         }
       },
       "merchant_instruction_errors": {
-        "empty_stable_id": "Die Anweisung für den Merchandise-Artikel %{position} %{name} enthält eine leere stabile ID."
+        "invalid_stable_id_target": "Die talimatın ürün için %{position} %{name} sabit ID %{stable_id} ile ilgili olup, ancak ürünler arasında yer almamaktadır."
       }
     },
     "pagination": {
@@ -641,7 +641,11 @@
         },
         "delivery_promise_v2": {
           "promise_line": {
-            "delivery_guarantee_expired_label": "Garantili teslimat süresi sona erdi"
+            "delivery_guarantee_expired_label": "Garantili teslimat süresi sona erdi",
+            "download_shop_app_button_label": "Mağaza Takibi için İndir"
+          },
+          "details_modal": {
+            "view_balance_in_shop_button_label": "Guthabeyi mağazada göster"
           }
         }
       }

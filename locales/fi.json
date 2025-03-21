@@ -447,6 +447,9 @@
         "external": {
           "instructions": "Vahvista maksusi sovelluksessa, jotta voit tehdä tämän oston."
         }
+      },
+      "merchant_instruction_errors": {
+        "invalid_stable_id_target": "Die Anweisung für den Merchandise-Artikel %{position} %{name} bezieht sich auf die stabile ID %{stable_id}, die jedoch nicht in der Merchandise-Artikel-Reihe steht."
       }
     },
     "pagination": {
@@ -611,8 +614,12 @@
             "delivery_guarantee_expired_label": "Takuuajan toimitusaika on umpeutunut",
             "download_shop_app_button_label": "Liitän Seurantakauppa"
           }
+        },
+        "tracking_number": {
+          "one": "Seurantanumero"
         }
-      }
+      },
+      "buy_again": "Osta uudelleen"
     }
   }
 }

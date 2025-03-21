@@ -444,6 +444,9 @@
         "external": {
           "instructions": "Erősítse meg a vásárlást az alkalmazásban a vásárlás befejezéséhez."
         }
+      },
+      "merchant_instruction_errors": {
+        "invalid_stable_id_target": "Die Anweisung für den Merchandise-Artikel %{position} %{name} bezieht sich a a stabil ID %{stable_id}, amely azonban nem szerepel a Merchandise-Artikel sorozatban."
       }
     },
     "pagination": {
@@ -620,7 +623,11 @@
         },
         "delivery_promise_v2": {
           "promise_line": {
-            "delivery_guarantee_expired_label": "A garantált szállítási idő lejárt"
+            "delivery_guarantee_expired_label": "A garantált szállítási idő lejárt",
+            "download_shop_app_button_label": "A bolt letöltéséhez"
+          },
+          "details_modal": {
+            "view_balance_in_shop_button_label": "Guthaben a boltban megjelenítése"
           }
         }
       }

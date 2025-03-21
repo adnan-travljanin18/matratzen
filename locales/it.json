@@ -461,6 +461,9 @@
         "external": {
           "instructions": "Conferma il pagamento nell'app per completare questo acquisto."
         }
+      },
+      "merchant_instruction_errors": {
+        "invalid_stable_id_target": "La dichiarazione per l'articolo di merchandising %{position} %{name} si riferisce all'ID stabile %{stable_id}, che però non fa parte della serie di articoli di merchandising."
       }
     },
     "pagination": {
@@ -617,10 +620,11 @@
         },
         "delivery_promise_v2": {
           "promise_line": {
-            "delivery_guarantee_expired_label": "Tempo di consegna garantito scaduto"
+            "delivery_guarantee_expired_label": "Tempo di consegna garantito scaduto",
+            "download_shop_app_button_label": "Scarica il negozio per il monitoraggio"
           },
           "details_modal": {
-            "active_delivery_guarantee_label": "Zustellung entro {{date}}"
+            "view_balance_in_shop_button_label": "Mostra il saldo nel negozio"
           }
         }
       }
