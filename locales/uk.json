@@ -324,7 +324,10 @@
         "thank_you_payments_app_failed_pending_payment_payment": "Вам нічого не було стягнуто за ваше замовлення. Поверніться до свого кошика, щоб перевірити своє замовлення і сплатити ще раз.",
         "order_status_payments_app_pending_payment_description_default_with_email_payment": "Ви незабаром отримаєте підтверджувальний електронний лист. Слідкуйте за своїм замовленням за допомогою магазину-додатку.",
         "in_transit_title": "Твоє замовлення в дорозі",
-        "order_status_payments_app_failed_pending_payment_payment": "Вам нічого не було стягнуто за ваше замовлення. Поверніться до свого кошика, щоб перевірити своє замовлення і сплатити ще раз."
+        "order_status_payments_app_failed_pending_payment_payment": "Вам нічого не було стягнуто за ваше замовлення. Поверніться до свого кошика, щоб перевірити своє замовлення і сплатити ще раз.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Ви отримаєте підтвердження на електронну пошту з вашим номером замовлення найближчим часом.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Ви отримаєте підтвердження на електронну пошту з вашим номером замовлення найближчим часом.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Після завершення вашого платежу ви отримаєте електронний лист із підтвердженням з вашим номером замовлення."
       }
     }
   },

@@ -292,7 +292,10 @@
         "order_status_payments_app_pending_payment_description_default_with_email_payment": "Du modtager snart en bekræftelses-e-mail. Spor din ordre med Shop-app'en.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Efter at have gennemført din betaling modtager du en bekræftelses-e-mail. Spor din ordre med shop-appen.",
         "order_status_payments_app_failed_pending_payment_payment": "Dir blev der ikke opkrævet noget for din bestilling. Gå tilbage til din indkøbskurv for at gennemgå din bestilling og betale igen.",
-        "in_transit_description_tomorrow": "Du bør modtage din ordre i morgen."
+        "in_transit_description_tomorrow": "Du bør modtage din ordre i morgen.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Du vil snart modtage en SMS med dit ordrenummer til bekræftelse.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Efter afslutningen af din betaling vil du modtage en bekræftelses-e-mail med dit bestillingsnummer.",
+        "delivered_description_html": "Deine ordre er blevet leveret til den adresse, du angav. %{contact_us}, hvis du ikke har modtaget ordren eller hvis du har andre problemer."
       }
     }
   },

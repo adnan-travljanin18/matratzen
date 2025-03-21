@@ -293,7 +293,10 @@
         "order_status_payments_app_pending_payment_description_default_with_email_payment": "Vous recevrez bientôt un e-mail de confirmation. Suivez votre commande avec l'application Shop.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Après la confirmation de votre paiement, vous recevrez un e-mail de confirmation. Suivez votre commande avec l'application de magasin.",
         "order_status_payments_app_failed_pending_payment_payment": "Dir ne sera rien facturé pour ta commande. Retourne à ton panier pour vérifier ta commande et effectuer le paiement à nouveau.",
-        "thank_you_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande."
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
+        "out_for_delivery_description_html": "Votre commande est en route et devrait arriver aujourd'hui. Si la commande n'arrive pas dans les 2 prochains jours, %{contact_us}.",
+        "delivered": "Livré"
       }
     }
   },

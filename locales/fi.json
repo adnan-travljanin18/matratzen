@@ -283,7 +283,10 @@
         "order_status_payments_app_pending_payment_description_default_with_email_payment": "Saat pian vahvistus sähköpostin. Seuraa tilaustasi kauppa-sovelluksella.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Maksun jälkeen saat vahvistussähköpostin. Seuraa tilaustasi kaupan sovelluksen avulla.",
         "order_status_payments_app_failed_pending_payment_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen.",
-        "in_transit_description_tomorrow": "Sinun pitäisi saada tilauksesi huomenna."
+        "in_transit_description_tomorrow": "Sinun pitäisi saada tilauksesi huomenna.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Saat pian vahvistuksen, jossa on tilausnumerosi, sähköpostitse.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Maksun suorittamisen jälkeen saat vahvistusviestin, jossa on tilausnumerosi.",
+        "delivered": "Toimitettu"
       }
     }
   },

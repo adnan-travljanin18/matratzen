@@ -323,7 +323,10 @@
         "thank_you_confirmed_order_with_draft_payment": "Bunu bilmeni isteriz, eğer daha fazla bilgiye ihtiyacımız olursa ya da siparişin onaylandığında.",
         "order_status_payments_app_pending_payment_description_default_with_email_payment": "Yakında bir onay e-postası alacaksın. Siparişini mağaza uygulaması ile takip et.",
         "in_transit_title": "Siparişiniz yolda",
-        "order_status_payments_app_failed_pending_payment_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen."
+        "order_status_payments_app_failed_pending_payment_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Kısa süre içinde sipariş numaran ile birlikte bir onay e-postası alacaksın.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Kısa süre içinde sipariş numaran ile birlikte bir onay e-postası alacaksın.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Ödemenizi tamamladıktan sonra, sipariş numaranızla birlikte bir onay e-postası alacaksınız."
       }
     }
   },

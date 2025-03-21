@@ -281,7 +281,10 @@
         "order_status_payments_app_pending_payment_description_default_with_email_payment": "Dostaneš brzy potvrzovací e-mail. Sleduj svou objednávku pomocí aplikace obchodu.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Po dokončení platby obdržíš potvrzovací e-mail. Sledování objednávky můžeš provést pomocí aplikace obchodu.",
         "order_status_payments_app_failed_pending_payment_payment": "Dir byla za tvou objednávku nic neúčtováno. Vrať se do svého nákupního košíku, abys zkontroloval svou objednávku a znovu zaplatil.",
-        "in_transit_description_tomorrow": "Měl bys svou objednávku obdržet zítra."
+        "in_transit_description_tomorrow": "Měl bys svou objednávku obdržet zítra.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Kontaktujte nás e-mailem nebo telefonem, abyste získali potvrzení objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Po dokončení vaší platby obdržíte potvrzovací e-mail s vaším číslem objednávky.",
+        "delivered": "Doručeno"
       }
     }
   },

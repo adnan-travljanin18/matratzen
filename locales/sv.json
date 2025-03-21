@@ -321,7 +321,11 @@
         "thank_you_confirmed_order_with_draft_payment": "Vi meddelar dig om vi behöver mer information eller när din beställning har bekräftats.",
         "order_status_payments_app_pending_payment_description_default_with_email_payment": "Du får snart ett bekräftelse-e-post. Spåra din beställning med butikens app.",
         "in_transit_title": "Din beställning är på väg",
-        "order_status_payments_app_failed_pending_payment_payment": "Dir blev inget debiterat för din beställning. Återgå till din varukorg för att granska din beställning och betala igen."
+        "order_status_payments_app_failed_pending_payment_payment": "Dir blev inget debiterat för din beställning. Återgå till din varukorg för att granska din beställning och betala igen.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Du får snart ett e-postmeddelande med din beställningsnummer som bekräftelse.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Du får snart ett e-postmeddelande med din beställningsnummer som bekräftelse.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Efter att du har slutfört din betalning kommer du att få ett bekräftelsemejl med ditt beställningsnummer.",
+        "delivered_title": "Din beställning har levererats"
       }
     }
   },
