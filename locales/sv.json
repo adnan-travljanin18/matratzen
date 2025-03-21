@@ -139,12 +139,15 @@
         "product_image_quantity_label": "Antal",
         "view_all_items": {
           "other": "Visa alla %{count} artiklar"
-        }
+        },
+        "total_due_today_label": "Idag förfaller det totala beloppet"
       },
       "shipping": {
         "duties_and_taxes_options": {
-          "ddu_caption": "Det kan tillkomma ytterligare avgifter"
-        }
+          "ddu_caption": "Det kan tillkomma ytterligare avgifter",
+          "ddp_title": "Sofort betala"
+        },
+        "no_rates_for_country_notice": "För denna adress hittades inga fraktavgifter."
       }
     }
   },

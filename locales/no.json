@@ -103,15 +103,18 @@
         "product_image_quantity_label": "Antall",
         "view_all_items": {
           "other": "Vis alle %{count} artikler"
-        }
+        },
+        "total_due_today_label": "Den totale beløp som forfaller i dag"
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Vanligvis ferdig på 1 time"
       },
       "shipping": {
         "duties_and_taxes_options": {
-          "ddu_caption": "Det kan påløpe ekstra avgifter"
-        }
+          "ddu_caption": "Det kan påløpe ekstra avgifter",
+          "ddp_title": "Sofort betale"
+        },
+        "no_rates_for_country_notice": "Ingen fraktkostnader ble funnet for denne adressen."
       }
     }
   },

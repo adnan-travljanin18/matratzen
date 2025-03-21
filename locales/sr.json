@@ -122,8 +122,13 @@
         "view_all_items": {
           "other": "Prikaži svih %{count} članaka"
         },
-        "pickup_unavailable_banner_body": {
-          "ship_to_address": "' Pošalji na adresu"
+        "total_due_today_label": "Ukupni iznos koji je dospjelo danas"
+      },
+      "shipping": {
+        "no_other_methods_available": "Nema drugih dostupnih metoda",
+        "no_rates_for_country_notice": "Za ovu adresu nisu pronađene troškove dostave.",
+        "duties_and_taxes_options": {
+          "ddp_caption": "Nema dodatnih troškova za isporuku"
         }
       }
     }

@@ -99,6 +99,9 @@
         "product_image_quantity_label": "Määrä",
         "view_all_items": {
           "other": "Näytä %{count} artikkelia"
+        },
+        "pickup_unavailable_banner_title": {
+          "other": "Artikkelisi eivät ole noudettavissa myymälästä"
         }
       },
       "delivery_options": {
@@ -107,7 +110,11 @@
       },
       "shipping": {
         "delivery": "Zustellung um %{time}",
-        "no_other_methods_available": "Ei muita menetelmiä saatavilla"
+        "no_other_methods_available": "Ei muita menetelmiä saatavilla",
+        "no_rates_for_country_notice": "Tälle osoitteelle ei löytynyt toimitushintoja.",
+        "duties_and_taxes_options": {
+          "ddp_title": "Maksa heti"
+        }
       }
     }
   },

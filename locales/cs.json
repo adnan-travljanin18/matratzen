@@ -99,13 +99,20 @@
         },
         "view_all_items": {
           "one": "Zobrazit %{count} článků"
+        },
+        "pickup_unavailable_banner_title": {
+          "other": "Tvé články nejsou k vyzvednutí v obchodě dostupné"
         }
       },
       "delivery_options": {
         "pick_up_immediately": "Nyní připraveno k vyzvednutí"
       },
       "shipping": {
-        "no_other_methods_available": "Žádné jiné metody nejsou k dispozici"
+        "no_other_methods_available": "Žádné jiné metody nejsou k dispozici",
+        "no_rates_for_country_notice": "Pro tuto adresu nebyly nalezeny žádné přepravní sazby.",
+        "duties_and_taxes_options": {
+          "ddp_title": "Ihned zaplatit"
+        }
       }
     }
   },

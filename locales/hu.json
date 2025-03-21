@@ -108,7 +108,8 @@
         "product_image_quantity_label": "Szám",
         "view_all_items": {
           "other": "Alle %{count} cikk megjelenítése"
-        }
+        },
+        "total_due_today_label": "A mai napon esedékes teljes összeg"
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Általában 2 órán belül kész",
@@ -116,9 +117,9 @@
         "pickup_point_method_definition": "Egy átvevőhelyre küldés"
       },
       "shipping": {
-        "duties_and_taxes_options": {
-          "ddu_caption": "További díjak merülhetnek fel"
-        }
+        "no_other_methods_available": "Nincsenek más módszerek elérhetők",
+        "no_rates_for_country_notice": "Az adott címre nem található szállítási díj.",
+        "shipping_line_phone_label": "Mobiltelefon szám (kötelező)"
       }
     }
   },

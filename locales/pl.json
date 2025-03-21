@@ -105,15 +105,18 @@
         },
         "view_all_items": {
           "other": "Pokaż wszystkie %{count} artykuły"
-        }
+        },
+        "total_due_today_label": "Dzisiaj należna kwota całkowita"
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Zwykle gotowe w 1 godzinę"
       },
       "shipping": {
         "duties_and_taxes_options": {
-          "ddu_caption": "Mogą zostać nałożone dodatkowe opłaty"
-        }
+          "ddu_caption": "Mogą zostać nałożone dodatkowe opłaty",
+          "ddp_title": "Natychmiast zapłać"
+        },
+        "no_rates_for_country_notice": "Nie znaleziono stawek wysyłkowych dla tego adresu."
       }
     }
   },

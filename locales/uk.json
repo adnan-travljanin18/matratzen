@@ -150,11 +150,14 @@
         "product_image_quantity_label": "Кількість",
         "view_all_items": {
           "other": "Показати всі %{count} статей"
-        }
+        },
+        "total_due_today_label": "Сьогодні терміновий загальний платіж"
       },
       "shipping": {
-        "duties_and_taxes_options": {
-          "ddu_caption": "Можливі додаткові збори"
+        "no_other_methods_available": "Немає інших доступних методів",
+        "no_rates_for_country_notice": "Для цієї адреси не були знайдені тарифи на доставку.",
+        "estimated_delivery_date": {
+          "other": "%{count} робочих днів"
         }
       }
     }

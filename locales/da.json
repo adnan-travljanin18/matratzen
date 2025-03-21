@@ -104,13 +104,20 @@
         "more_items_modal": {
           "clear_search": "Nulstil søgning",
           "search_item": "Søge"
+        },
+        "pickup_unavailable_banner_title": {
+          "other": "Dine artikler er ikke tilgængelige for afhentning i butikken"
         }
       },
       "delivery_options": {
         "pick_up_in_five_or_more_days": "Almindeligvis færdig på 5 dage eller mere"
       },
       "shipping": {
-        "no_other_methods_available": "Ingen andre metoder tilgængelige"
+        "no_other_methods_available": "Ingen andre metoder tilgængelige",
+        "no_rates_for_country_notice": "Ingen forsendelsesomkostninger blev fundet for denne adresse.",
+        "duties_and_taxes_options": {
+          "ddp_title": "Sofort betale"
+        }
       }
     }
   },

@@ -100,6 +100,9 @@
         "product_image_quantity_label": "Nombre",
         "view_all_items": {
           "other": "Afficher %{count} articles"
+        },
+        "pickup_unavailable_banner_title": {
+          "other": "Vos articles ne sont pas disponibles pour le retrait en magasin"
         }
       },
       "delivery_options": {
@@ -107,7 +110,11 @@
       },
       "shipping": {
         "delivery": "Livraison à %{time}",
-        "no_other_methods_available": "Aucune autre méthode disponible"
+        "no_other_methods_available": "Aucune autre méthode disponible",
+        "no_rates_for_country_notice": "Pour cette adresse, aucun tarif d'expédition n'a été trouvé.",
+        "duties_and_taxes_options": {
+          "ddp_title": "Payer immédiatement"
+        }
       }
     }
   },

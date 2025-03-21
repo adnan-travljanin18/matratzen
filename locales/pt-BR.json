@@ -106,7 +106,8 @@
         "product_image_quantity_label": "Número",
         "view_all_items": {
           "other": "Mostrar todos os %{count} artigos"
-        }
+        },
+        "total_due_today_label": "Hoje, o total due"
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Normalmente pronto em 2 horas",
@@ -114,8 +115,10 @@
         "pickup_point_method_definition": "Um ponto de coleta enviar"
       },
       "shipping": {
+        "no_other_methods_available": "Nenhum outro método disponível",
+        "no_rates_for_country_notice": "Para este endereço, nenhuma tarifa de envio foi encontrada.",
         "duties_and_taxes_options": {
-          "ddu_title": "Pague na entrega"
+          "ddp_caption": "Sem taxas adicionais na entrega"
         }
       }
     }

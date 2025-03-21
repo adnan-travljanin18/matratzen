@@ -107,12 +107,17 @@
         "view_all_items": {
           "other": "Εμφάνιση %{count} άρθρων"
         },
-        "discount_code_aria_text": "Κωδικός έκπτωσης"
+        "total_due_today_label": "Σημερινό συνολικό ποσό που οφείλεται"
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Συνήθως έτοιμο σε 2 ώρες",
         "pick_up_in_one_hour": "Συνήθως έτοιμο σε 1 ώρα",
         "pickup_point_method_definition": "Ένα σημείο παραλαβής αποστολής"
+      },
+      "shipping": {
+        "no_other_methods_available": "Δεν υπάρχουν άλλες μέθοδοι διαθέσιμες",
+        "no_rates_for_country_notice": "Για αυτή τη διεύθυνση δεν βρέθηκαν χρεώσεις αποστολής.",
+        "estimated_delivery_date_range": "%{minimum} bis %{maximum} εργάσιμες ημέρες"
       }
     }
   },
