@@ -400,6 +400,15 @@
       "local_pickup": {
         "location_information": {
           "one": "Az %{count} bolt áll rendelkezésre raktárkészlettel a(z) %{address} közelében"
+        },
+        "cancel": "Stornieren",
+        "paginator": {
+          "label": {
+            "one": "%{first}–%{last} von %{count} Bolt"
+          }
+        },
+        "all_stores_far_away": {
+          "ship_to_address_link": "Szállítási cím"
         }
       }
     }

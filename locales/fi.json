@@ -406,6 +406,15 @@
       "local_pickup": {
         "location_information": {
           "one": "On %{count} kauppaa, joilla on saatavilla olevaa varastoa lähellä %{address}"
+        },
+        "cancel": "Peruuttaa",
+        "paginator": {
+          "label": {
+            "other": "%{first}–%{last} von %{count} Shops"
+          }
+        },
+        "all_stores_far_away": {
+          "ship_to_address_link": "Toimitusosoite"
         }
       }
     }

@@ -438,6 +438,15 @@
       "local_pickup": {
         "location_information": {
           "one": "Det finns %{count} butik med tillgängligt lager i närheten av %{address}"
+        },
+        "cancel": "Avboka",
+        "paginator": {
+          "label": {
+            "one": "%{first}–%{last} von %{count} Shop"
+          }
+        },
+        "all_stores_far_away": {
+          "ship_to_address_link": "Leveransadress"
         }
       }
     }

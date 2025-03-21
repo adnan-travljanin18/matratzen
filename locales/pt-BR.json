@@ -394,6 +394,15 @@
       "local_pickup": {
         "location_information": {
           "one": "Existem %{count} lojas com estoque disponível perto de %{address}"
+        },
+        "cancel": "Cancelar",
+        "paginator": {
+          "label": {
+            "one": "%{first}–%{last} von %{count} Shop"
+          }
+        },
+        "all_stores_far_away": {
+          "ship_to_address_link": "Endereço de entrega"
         }
       }
     }

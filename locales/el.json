@@ -398,6 +398,15 @@
       "local_pickup": {
         "location_information": {
           "one": "Είναι %{count} καταστήματα με διαθέσιμες αποθέσεις κοντά στο %{address}"
+        },
+        "cancel": "Ακύρωση",
+        "paginator": {
+          "label": {
+            "one": "%{first}–%{last} von %{count} Κατάστημα"
+          }
+        },
+        "all_stores_far_away": {
+          "ship_to_address_link": "Παράδοση διεύθυνσης"
         }
       }
     }

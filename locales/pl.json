@@ -413,6 +413,15 @@
       "local_pickup": {
         "location_information": {
           "one": "Jest %{count} sklepów z dostępnym zapasem w pobliżu %{address}"
+        },
+        "cancel": "Anulować",
+        "paginator": {
+          "label": {
+            "one": "%{first}–%{last} von %{count} Sklep"
+          }
+        },
+        "all_stores_far_away": {
+          "ship_to_address_link": "Adres dostawy"
         }
       }
     }

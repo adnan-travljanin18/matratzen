@@ -440,6 +440,15 @@
       "local_pickup": {
         "location_information": {
           "one": "Es verfügbar %{count} mağaza, %{address} yakınında stok bulunmaktadır."
+        },
+        "cancel": "İptal etmek",
+        "paginator": {
+          "label": {
+            "one": "%{first}–%{last} von %{count} Dükkan"
+          }
+        },
+        "all_stores_far_away": {
+          "ship_to_address_link": "Teslimat adresi"
         }
       }
     }

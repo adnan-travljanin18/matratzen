@@ -400,6 +400,15 @@
       "local_pickup": {
         "location_information": {
           "one": "Je %{count} obchod s dostupnými zásobami v blízkosti %{address}"
+        },
+        "cancel": "Zrušit",
+        "paginator": {
+          "label": {
+            "other": "%{first}–%{last} von %{count} Obchodů"
+          }
+        },
+        "reveal_more_label": {
+          "other": "%{count} další místa zobrazit"
         }
       }
     }

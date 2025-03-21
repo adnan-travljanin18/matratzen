@@ -441,6 +441,15 @@
       "local_pickup": {
         "location_information": {
           "one": "Це %{count} магазин(и) з доступним запасом поруч з %{address}"
+        },
+        "cancel": "Скасувати",
+        "paginator": {
+          "label": {
+            "one": "%{first}–%{last} від %{count} Магазин"
+          }
+        },
+        "all_stores_far_away": {
+          "ship_to_address_link": "Доставка адреси"
         }
       }
     }

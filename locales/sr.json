@@ -406,6 +406,15 @@
       "local_pickup": {
         "location_information": {
           "one": "Es ist %{count} Shop sa dostupnim zalihama u blizini %{address}"
+        },
+        "cancel": "Отказати",
+        "paginator": {
+          "label": {
+            "one": "%{first}–%{last} von %{count} Shop"
+          }
+        },
+        "all_stores_far_away": {
+          "ship_to_address_link": "Isporuka adresa"
         }
       }
     }
