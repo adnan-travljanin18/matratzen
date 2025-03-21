@@ -582,6 +582,13 @@
         "total_amount_of_subscription_line_items_left": "und {{total}} ще",
         "edit_payment_method_button_accessibility_label": "Метод оплати редагувати, який закінчується на {{lastDigits}}",
         "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
+      },
+      "generic_card": "Карта",
+      "payment_delete": {
+        "error_when_deleting": "Нам шкода, але щось пішло не так, і ми не змогли видалити цей спосіб оплати. Будь ласка, спробуйте ще раз пізніше або оновіть сторінку.",
+        "warning_message_with_replacement": {
+          "with_subscriptions": "Коли ви видаляєте цей метод оплати, це вплине на попередньо авторизовані платежі. Замініть його на альтернативний метод оплати, щоб продовжити отримувати замовлення."
+        }
       }
     },
     "navigation_and_structure": {

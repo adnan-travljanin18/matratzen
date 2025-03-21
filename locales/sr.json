@@ -567,6 +567,13 @@
         "close_payment_modal": "Zatvoriti",
         "edit_payment_method_button_accessibility_label": "Метод плаћања за измену, који се завршава на {{lastDigits}}",
         "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
+      },
+      "generic_card": "Karte",
+      "payment_delete": {
+        "error_when_deleting": "Žao nam je, nešto je pošlo po zlu i nismo mogli da obrišemo ovu metodu plaćanja. Molimo vas da pokušate kasnije ili da osvežite stranicu.",
+        "warning_message_with_replacement": {
+          "with_subscriptions": "Kada izbrišete ovu metodu plaćanja, to će uticati na prethodno autorizovane uplate. Zamenite je alternativnom metodom plaćanja kako biste i dalje mogli da primate narudžbine."
+        }
       }
     },
     "navigation_and_structure": {

@@ -581,7 +581,14 @@
       "payment_details": {
         "total_amount_of_subscription_line_items_left": "und {{total}} daha",
         "edit_payment_method_button_accessibility_label": "Zahlungsmethode düzenleme, {{lastDigits}} ile biten",
-        "credit_card_details": "{{ krediKartıMarkası }} •••• {{ sonHaneler }}"
+        "credit_card_details": "{{ krediKartıMarkası }} •••• {{ sonHaneler }}",
+        "default_checkbox_accessibility_label": "Bu ödeme yöntemini varsayılan olarak ayarlayın"
+      },
+      "payment_delete": {
+        "error_when_deleting": "Es tut uns leid, etwas ist schiefgelaufen und wir konnten diese Zahlungsmethode nicht löschen. Bitte versuche es später erneut oder aktualisiere die Seite.",
+        "warning_message_with_replacement": {
+          "with_subscriptions": "Eğer bu ödeme yöntemini silerseniz, bu ön yetkilendirilmiş ödemeleri etkiler. Sipariş almaya devam etmek için bunu alternatif bir ödeme yöntemi ile değiştirin."
+        }
       }
     },
     "navigation_and_structure": {

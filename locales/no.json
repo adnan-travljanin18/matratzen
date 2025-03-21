@@ -553,7 +553,14 @@
       "payment_details": {
         "total_amount_of_subscription_line_items_left": "und {{total}} ytterligere",
         "edit_payment_method_button": "Redigere",
-        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}",
+        "default_checkbox_accessibility_label": "Denne betalingsmetoden som standard"
+      },
+      "payment_delete": {
+        "error_when_deleting": "Es tut uns leid, etwas ist schiefgelaufen und wir konnten diese Zahlungsmethode nicht löschen. Bitte versuche es später erneut oder aktualisiere die Seite.",
+        "warning_message_with_replacement": {
+          "with_subscriptions": "Hvis du sletter denne betalingsmetoden, vil det påvirke forhåndsgodkjente betalinger. Erstatt den med en alternativ betalingsmetode for å fortsette å motta bestillinger."
+        }
       }
     },
     "navigation_and_structure": {

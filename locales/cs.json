@@ -540,7 +540,13 @@
         "edit_payment_method_button": "Upravte",
         "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
       },
-      "generic_card": "Karte"
+      "generic_card": "Karte",
+      "payment_delete": {
+        "error_when_deleting": "Je nám líto, něco se pokazilo a tuto platební metodu jsme nemohli smazat. Prosím, zkus to znovu později nebo aktualizuj stránku.",
+        "warning_message_with_replacement": {
+          "with_subscriptions": "Pokud tuto platební metodu odstraníte, ovlivní to předautorizované platby. Nahraďte ji alternativní platební metodou, abyste mohli nadále přijímat objednávky."
+        }
+      }
     },
     "navigation_and_structure": {
       "action_menu_accessibility_label": "Další akce",

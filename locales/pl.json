@@ -551,7 +551,14 @@
       "payment_details": {
         "total_amount_of_subscription_line_items_left": "und {{total}} weitere",
         "edit_payment_method_button": "Edytować",
-        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}",
+        "default_checkbox_accessibility_label": "Ustawić tę metodę płatności jako domyślną"
+      },
+      "payment_delete": {
+        "error_when_deleting": "Przykro nam, coś poszło nie tak i nie mogliśmy usunąć tej metody płatności. Proszę spróbować ponownie później lub odświeżyć stronę.",
+        "warning_message_with_replacement": {
+          "with_subscriptions": "Gdy usuniesz tę metodę płatności, wpłynie to na wcześniej autoryzowane płatności. Zastąp ją alternatywną metodą płatności, aby nadal otrzymywać zamówienia."
+        }
       }
     },
     "navigation_and_structure": {

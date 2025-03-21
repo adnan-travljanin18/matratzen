@@ -575,7 +575,14 @@
       "payment_details": {
         "total_amount_of_subscription_line_items_left": "und {{total}} ytterligare",
         "edit_payment_method_button_accessibility_label": "Betalningsmetod att redigera, som slutar på {{lastDigits}}",
-        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}",
+        "default_checkbox_accessibility_label": "Denna betalningsmetod som standard inställd"
+      },
+      "payment_delete": {
+        "error_when_deleting": "Det är oss mycket ledsen, något gick fel och vi kunde inte ta bort denna betalningsmetod. Vänligen försök igen senare eller uppdatera sidan.",
+        "warning_message_with_replacement": {
+          "with_subscriptions": "Wenn du diese Zahlungsmethode tar bort, får det konsekvenser för förautoriseringar. Ersätt den med en alternativ betalningsmetod för att fortsätta ta emot beställningar."
+        }
       }
     },
     "navigation_and_structure": {

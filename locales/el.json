@@ -559,6 +559,13 @@
         "total_amount_of_subscription_line_items_left": "und {{total}} weitere",
         "edit_payment_method_button_accessibility_label": "Επεξεργασία μεθόδου πληρωμής που τελειώνει σε {{lastDigits}}",
         "credit_card_details": "'{{creditCardBrand}} •••• {{lastDigits}}'"
+      },
+      "generic_card": "Κάρτα",
+      "payment_delete": {
+        "error_when_deleting": "Λυπούμαστε, κάτι πήγε στραβά και δεν μπορέσαμε να διαγράψουμε αυτή τη μέθοδο πληρωμής. Παρακαλούμε δοκιμάστε ξανά αργότερα ή ανανεώστε τη σελίδα.",
+        "warning_message_with_replacement": {
+          "with_subscriptions": "Όταν διαγράφετε αυτήν τη μέθοδο πληρωμής, αυτό έχει επιπτώσεις στις προεγκριμένες πληρωμές. Αντικαταστήστε την με μια εναλλακτική μέθοδο πληρωμής για να συνεχίσετε να δέχεστε παραγγελίες."
+        }
       }
     },
     "navigation_and_structure": {

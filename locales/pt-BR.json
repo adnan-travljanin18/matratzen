@@ -555,6 +555,13 @@
         "close_payment_modal": "Fechar",
         "edit_payment_method_button_accessibility_label": "Editar método de pagamento que termina em {{lastDigits}}",
         "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
+      },
+      "generic_card": "Karte",
+      "payment_delete": {
+        "error_when_deleting": "Lamentamos, algo deu errado e não conseguimos excluir este método de pagamento. Por favor, tente novamente mais tarde ou atualize a página.",
+        "warning_message_with_replacement": {
+          "with_subscriptions": "Quando você excluir este método de pagamento, isso afetará os pagamentos pré-autorizados. Substitua-o por um método de pagamento alternativo para continuar recebendo pedidos."
+        }
       }
     },
     "navigation_and_structure": {
