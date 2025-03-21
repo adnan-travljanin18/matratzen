@@ -396,8 +396,15 @@
           },
           "outdated": {
             "payment_terms": "Warunki płatności uległy zmianie. Proszę sprawdzić swoje zamówienie."
+          },
+          "invalid": {
+            "billing_must_match_shipping": "Musi zgadzać się z adresem dostawy"
+          },
+          "detour": {
+            "currency_change": "Du nie możesz używać innego adresu z {{walletName}}. Użyj oryginalnego adresu lub spróbuj z inną metodą płatności."
           }
-        }
+        },
+        "payment_in_progress_title": "Płatność jest przetwarzana"
       },
       "error_page": {
         "terminal": {

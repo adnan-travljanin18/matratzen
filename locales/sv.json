@@ -421,6 +421,15 @@
           },
           "outdated": {
             "payment_terms": "Betalningsvillkoren har ändrats. Vänligen kontrollera din beställning."
+          },
+          "invalid": {
+            "billing_must_match_shipping": "Muss must match the delivery address"
+          },
+          "unavailable": {
+            "description": "{{walletName}} är inte tillgänglig. Försök med en annan betalningsmetod eller försök igen senare."
+          },
+          "detour": {
+            "currency_change": "Du kan inte använda en annan adress med {{walletName}}. Använd den ursprungliga adressen eller försök med en annan betalningsmetod."
           }
         }
       },

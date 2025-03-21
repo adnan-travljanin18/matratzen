@@ -398,8 +398,15 @@
           },
           "outdated": {
             "payment_terms": "Betalingsbetingelsene har endret seg. Vennligst sjekk bestillingen din."
+          },
+          "invalid": {
+            "billing_must_match_shipping": "Må matche leveringsadressen"
+          },
+          "detour": {
+            "currency_change": "Du kan ikke bruke en annen adresse med {{walletName}}. Bruk den opprinnelige adressen eller prøv med en annen betalingsmetode."
           }
-        }
+        },
+        "payment_in_progress_title": "Betalingen behandles"
       },
       "error_page": {
         "terminal": {

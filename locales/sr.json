@@ -394,6 +394,12 @@
           },
           "outdated": {
             "payment_terms": "Услови плаћања су се променили. Молимо вас да проверите вашу поруџбину."
+          },
+          "invalid": {
+            "billing_must_match_shipping": "Mora se poklapati sa adresom za dostavu"
+          },
+          "unavailable": {
+            "description": "{{walletName}} nije dostupan. Pokušajte sa drugom metodom plaćanja ili pokušajte ponovo kasnije."
           }
         }
       },

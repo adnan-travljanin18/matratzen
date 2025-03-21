@@ -402,8 +402,15 @@
           },
           "outdated": {
             "payment_terms": "Le condizioni di pagamento sono cambiate. Per favore controlla il tuo ordine."
+          },
+          "invalid": {
+            "billing_must_match_shipping": "Deve corrispondere all'indirizzo di consegna"
+          },
+          "detour": {
+            "currency_change": "Du puoi utilizzare solo l'indirizzo originale con {{walletName}}. Usa l'indirizzo originale o prova con un altro metodo di pagamento."
           }
-        }
+        },
+        "payment_in_progress_title": "Il pagamento è in fase di elaborazione"
       },
       "error_page": {
         "terminal": {

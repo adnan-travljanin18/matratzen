@@ -400,8 +400,15 @@
           },
           "outdated": {
             "payment_terms": "Betalingsbetingelserne er ændret. Venligst tjek din bestilling."
+          },
+          "invalid": {
+            "billing_must_match_shipping": "Skal matche leveringsadressen"
+          },
+          "detour": {
+            "price_change": "Einige artikelpriser har ændret sig. Luk {{walletName}} for at gennemgå din bestilling og prøv igen."
           }
-        }
+        },
+        "payment_in_progress_title": "Betalingen behandles"
       },
       "error_page": {
         "terminal": {

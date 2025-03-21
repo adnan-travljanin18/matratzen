@@ -387,6 +387,13 @@
           },
           "outdated": {
             "payment_terms": "Podmínky platby se změnily. Prosím, zkontrolujte svou objednávku."
+          },
+          "invalid": {
+            "billing_must_match_shipping": "Musí odpovídat dodací adrese"
+          },
+          "generic": "Es ist ein problém s funkcí Koupit pomocí {{walletName}}. Vraťte se do obchodu a zkuste to znovu, nebo zaplaťte jinou metodou.",
+          "detour": {
+            "stock_problems": "Některé položky již nejsou k dispozici. Zavřete {{walletName}} a zkuste to znovu."
           }
         }
       },

@@ -384,6 +384,12 @@
           },
           "outdated": {
             "payment_terms": "As condições de pagamento mudaram. Por favor, verifique seu pedido."
+          },
+          "invalid": {
+            "billing_must_match_shipping": "Deve corresponder ao endereço de entrega"
+          },
+          "unavailable": {
+            "description": "{{walletName}} não está disponível. Tente com um método de pagamento diferente ou tente novamente mais tarde."
           }
         }
       },

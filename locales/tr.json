@@ -423,6 +423,15 @@
           },
           "outdated": {
             "payment_terms": "Ödeme koşulları değişti. Lütfen siparişinizi kontrol edin."
+          },
+          "invalid": {
+            "billing_must_match_shipping": "Teslimat adresiyle eşleşmelidir"
+          },
+          "unavailable": {
+            "description": "{{walletName}} mevcut değil. Başka bir ödeme yöntemiyle dene veya daha sonra tekrar deneyin."
+          },
+          "detour": {
+            "price_change": "Bazı ürün fiyatları değişti. Siparişini kontrol etmek için {{walletName}}'i kapat ve tekrar dene."
           }
         }
       },
