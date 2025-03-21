@@ -300,7 +300,10 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Après avoir effectué votre paiement, vous recevrez un message de confirmation avec votre numéro de commande.",
         "contact_us_html": "As-tu besoin d'aide ? %{contact_us}",
         "failed_contact_merchant_no_company": "Contactez-nous pour organiser la livraison.",
-        "login_description_phone": "Votre numéro de commande se trouve sur le reçu que vous avez reçu par SMS."
+        "login_description_phone": "Votre numéro de commande se trouve sur le reçu que vous avez reçu par SMS.",
+        "login_reorder_link_text": {
+          "one": "achetez aussi ce produit"
+        }
       },
       "review": {
         "blocks": {
@@ -348,6 +351,11 @@
             "one": "ensuite %{count} paiement de %{total_price}",
             "other": "ensuite %{count} paiements de %{total_price} chacun"
           }
+        }
+      },
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "other": "Ces produits ne sont pas disponibles dans votre pays / région."
         }
       }
     }

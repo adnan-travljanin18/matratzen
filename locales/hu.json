@@ -293,7 +293,10 @@
         },
         "contact_us_html": "Szükséged van segítségre? %{contact_us}",
         "failed_contact_merchant_no_company": "Lépj velünk kapcsolatba a kézbesítés időpontjának egyeztetéséhez.",
-        "login_description_phone": "A megrendelési számot a számlán találod, amelyet SMS-ben kaptál."
+        "login_description_phone": "A megrendelési számot a számlán találod, amelyet SMS-ben kaptál.",
+        "login_reorder_link_text": {
+          "one": "Vedd meg ezt a terméket is"
+        }
       },
       "review": {
         "blocks": {
@@ -336,8 +339,13 @@
         },
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
-            "one": "anschließend %{count} Zahlung über %{total_price}"
+            "other": "anschließend %{count} kifizetés összeg: %{total_price}"
           }
+        }
+      },
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "other": "Ezek a termékek nem elérhetőek az országodban / a régiódra"
         }
       }
     }

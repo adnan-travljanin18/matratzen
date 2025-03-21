@@ -334,7 +334,19 @@
             "other": "%{count} χρόνια"
           }
         },
-        "recurring_totals_with_initial_order_shipping_discount": "Πρώτη πληρωμή %{total_price_with_discount}, στη συνέχεια %{recurring_total}"
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": "στη συνέχεια %{count} πληρωμές των %{total_price} κάθε μία"
+          }
+        }
+      },
+      "contextual_availability": {
+        "title": {
+          "other": "Μη διαθέσιμα προϊόντα"
+        },
+        "all_products_in_cart_unavailable": {
+          "other": "Αυτά τα προϊόντα δεν είναι διαθέσιμα στη χώρα / την περιοχή σας."
+        }
       }
     }
   },

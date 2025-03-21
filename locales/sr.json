@@ -341,10 +341,20 @@
           "year": {
             "other": "%{count} godina"
           }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": "anschließend %{count} плаћања по %{total_price}"
+          }
         }
       },
-      "customer_payment_methods": {
-        "page_title": "Načini plaćanja"
+      "contextual_availability": {
+        "title": {
+          "other": "Nepostavljeni proizvodi"
+        },
+        "all_products_in_cart_unavailable": {
+          "other": "Ovi proizvodi nisu dostupni u tvojoj zemlji / tvojoj regiji."
+        }
       }
     }
   },

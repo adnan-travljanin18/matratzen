@@ -339,6 +339,14 @@
       },
       "customer_payment_methods": {
         "title": "Způsoby platby"
+      },
+      "contextual_availability": {
+        "title": {
+          "other": "Nepřístupné produkty"
+        },
+        "all_products_in_cart_unavailable": {
+          "other": "Tyto produkty nejsou ve tvé zemi / tvém regionu k dispozici."
+        }
       }
     }
   },

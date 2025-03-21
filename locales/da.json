@@ -299,7 +299,10 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Efter afslutningen af din betaling modtager du en bekræftelsesbesked med dit ordre nummer.",
         "contact_us_html": "Har du brug for hjælp? %{contact_us}",
         "failed_contact_merchant_no_company": "Kontakt os for at arrangere leveringen.",
-        "login_description_phone": "Din ordrenummer finder du på kvitteringen, som du har modtaget via sms."
+        "login_description_phone": "Din ordrenummer finder du på kvitteringen, som du har modtaget via sms.",
+        "login_reorder_link_text": {
+          "one": "køb også dette produkt"
+        }
       },
       "review": {
         "blocks": {
@@ -351,6 +354,11 @@
       "customer_payment_methods": {
         "delete_customer_mandate": {
           "generic_error": "Der opstod et problem ved behandling af din anmodning."
+        }
+      },
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "other": "Disse produkter er ikke tilgængelige i dit land / din region."
         }
       }
     }

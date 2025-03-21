@@ -306,7 +306,10 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Etter at betalingen din er fullført, vil du motta en bekreftelsesmelding med bestillingsnummeret ditt.",
         "contact_us_html": "Trenger du hjelp? %{contact_us}",
         "failed_contact_merchant_no_company": "Kontakt oss for å avtale levering.",
-        "login_description_phone": "Din bestillingsnummer finner du i kvitteringen som du har mottatt via tekstmelding."
+        "login_description_phone": "Din bestillingsnummer finner du i kvitteringen som du har mottatt via tekstmelding.",
+        "login_reorder_link_text": {
+          "one": "kjøp også dette produktet"
+        }
       },
       "review": {
         "blocks": {
@@ -348,10 +351,17 @@
           "year": {
             "other": "%{count} år"
           }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": "anschließend %{count} betalinger over hver %{total_price}"
+          }
         }
       },
-      "customer_payment_methods": {
-        "update_card_button_label": "Oppdatere kart"
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "other": "Disse produktene er ikke tilgjengelige i ditt land / din region."
+        }
       }
     }
   },

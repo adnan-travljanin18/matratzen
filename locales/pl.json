@@ -306,7 +306,10 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Po zakończeniu płatności otrzymasz wiadomość potwierdzającą z numerem zamówienia.",
         "contact_us_html": "Potrzebujesz pomocy? %{contact_us}",
         "failed_contact_merchant_no_company": "Skontaktuj się z nami, aby umówić dostawę.",
-        "login_description_phone": "Twoje numer zamówienia znajdziesz w paragonie, który otrzymałeś w wiadomości tekstowej."
+        "login_description_phone": "Twoje numer zamówienia znajdziesz w paragonie, który otrzymałeś w wiadomości tekstowej.",
+        "login_reorder_link_text": {
+          "one": "kup również ten produkt"
+        }
       },
       "review": {
         "blocks": {
@@ -346,10 +349,17 @@
           "year": {
             "other": "%{count} lat"
           }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": "następnie %{count} płatności po %{total_price} każda"
+          }
         }
       },
-      "customer_payment_methods": {
-        "update_card_button_label": "Zaktualizuj kartę"
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "other": "Te produkty nie są dostępne w twoim kraju / twoim regionie."
+        }
       }
     }
   },

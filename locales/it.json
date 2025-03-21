@@ -306,7 +306,10 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Dopo il completamento del pagamento, riceverai un messaggio di conferma con il tuo numero d'ordine.",
         "contact_us_html": "Hai bisogno di aiuto? %{contact_us}",
         "failed_contact_merchant_no_company": "Contattaci per programmare la consegna.",
-        "login_description_phone": "La tua numero d'ordine lo trovi nel documento che hai ricevuto tramite messaggio di testo."
+        "login_description_phone": "La tua numero d'ordine lo trovi nel documento che hai ricevuto tramite messaggio di testo.",
+        "login_reorder_link_text": {
+          "one": "acquista anche questo prodotto"
+        }
       },
       "review": {
         "blocks": {
@@ -353,6 +356,11 @@
           "first_cycles": {
             "other": "successivamente %{count} pagamenti di %{total_price} ciascuno"
           }
+        }
+      },
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "other": "Questi prodotti non sono disponibili nel tuo paese / nella tua regione."
         }
       }
     }

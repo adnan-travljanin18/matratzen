@@ -333,7 +333,10 @@
         },
         "contact_us_html": "Yardıma mı ihtiyacın var? %{contact_us}",
         "failed_contact_merchant_no_company": "Bize ulaşın, teslimatı planlamak için.",
-        "login_description_phone": "Sipariş numaranı, kısa mesaj ile aldığın belgeden bulabilirsin."
+        "login_description_phone": "Sipariş numaranı, kısa mesaj ile aldığın belgeden bulabilirsin.",
+        "login_reorder_link_text": {
+          "one": "bu ürünü de satın al"
+        }
       },
       "review": {
         "blocks": {
@@ -376,8 +379,13 @@
         },
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
-            "one": "' anschließend %{count} ödeme üzerinden %{total_price}"
+            "other": "ardından %{count} adet ödeme, her biri %{total_price}"
           }
+        }
+      },
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "other": "Bu ürünler ülkenizde / bölgenizde mevcut değil."
         }
       }
     }

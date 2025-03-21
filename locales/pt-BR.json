@@ -331,10 +331,20 @@
           "year": {
             "other": "%{count} anos"
           }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": "posteriormente %{count} pagamentos de %{total_price} cada"
+          }
         }
       },
-      "customer_payment_methods": {
-        "page_title": "Métodos de pagamento"
+      "contextual_availability": {
+        "title": {
+          "other": "Produtos não disponíveis"
+        },
+        "all_products_in_cart_unavailable": {
+          "other": "Estes produtos não estão disponíveis em seu país / sua região."
+        }
       }
     }
   },

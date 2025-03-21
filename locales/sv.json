@@ -331,7 +331,10 @@
         },
         "contact_us_html": "Ben behöver du hjälp? %{contact_us}",
         "failed_contact_merchant_no_company": "Kontakta oss för att boka leverans.",
-        "login_description_phone": "Din beställningsnummer hittar du i kvittot som du fått via textmeddelande."
+        "login_description_phone": "Din beställningsnummer hittar du i kvittot som du fått via textmeddelande.",
+        "login_reorder_link_text": {
+          "one": "Köp också denna produkt"
+        }
       },
       "review": {
         "blocks": {
@@ -371,11 +374,16 @@
           "year": {
             "other": "%{count} år"
           }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": "anschließend %{count} betalningar av %{total_price} vardera"
+          }
         }
       },
-      "customer_payment_methods": {
-        "delete_customer_mandate": {
-          "generic_error": "Det uppstod ett problem vid behandlingen av din begäran."
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "other": "Dessa produkter är inte tillgängliga i ditt land / din region."
         }
       }
     }
