@@ -47,7 +47,16 @@
         "close_modal_label": "Kapat",
         "continue_to_shipping_method": "Devam et gönderime",
         "autocomplete_selection": "{{number}} üzerinde {{total}}",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "continue_to_payment_plans_button_label": "Weiter zu den Zahlungsplänen",
+        "dates": {
+          "months": {
+            "february": "Şubat"
+          }
+        }
+      },
+      "contact": {
+        "postal_code_label": "Posta kodu"
       }
     }
   },

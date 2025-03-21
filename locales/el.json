@@ -49,7 +49,16 @@
         "close_modal_label": "Κλείσιμο",
         "continue_to_shipping_method": "Μετάβαση στην αποστολή",
         "autocomplete_selection": "{{αριθμός}} von {{σύνολο}}",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "continue_to_payment_plans_button_label": "Μετάβαση στα σχέδια πληρωμών",
+        "dates": {
+          "months": {
+            "february": "Φεβρουάριος"
+          }
+        }
+      },
+      "contact": {
+        "postal_code_label": "Ταχυδρομικός Κωδικός"
       }
     }
   },

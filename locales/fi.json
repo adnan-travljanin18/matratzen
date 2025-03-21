@@ -47,7 +47,16 @@
         "expand_notice_label": "Näytä lisää",
         "choose_payment_method": "Valitse maksutapa",
         "autocomplete_close": "Ehdotukset sulkevat",
-        "loading_title": "Checkout – {{shopName}}"
+        "loading_title": "Checkout – {{shopName}}",
+        "continue_to_payment_plans_button_label": "Jatka maksusuunnitelmiin",
+        "dates": {
+          "months": {
+            "february": "Helmikuu"
+          }
+        }
+      },
+      "contact": {
+        "zip_code_label": "Postinumero"
       }
     }
   },

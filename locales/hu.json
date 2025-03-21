@@ -49,7 +49,16 @@
         "close_modal_label": "Zárás",
         "continue_to_shipping_method": "Tovább a szállításhoz",
         "autocomplete_selection": "{{number}} von {{total}}",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "continue_to_payment_plans_button_label": "Tovább a fizetési tervekhez",
+        "dates": {
+          "months": {
+            "february": "Február"
+          }
+        }
+      },
+      "contact": {
+        "postal_code_label": "Irányítószám"
       }
     }
   },

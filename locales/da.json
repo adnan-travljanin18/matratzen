@@ -47,7 +47,16 @@
         "expand_notice_label": "Vis mere",
         "choose_payment_method": "Vælg en betalingsmetode",
         "autocomplete_close": "Forslag lukker",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "submit_for_review_button_label": "Indsend til vurdering",
+        "dates": {
+          "months": {
+            "february": "Februar"
+          }
+        }
+      },
+      "contact": {
+        "zip_code_label": "Postnummer"
       }
     }
   },

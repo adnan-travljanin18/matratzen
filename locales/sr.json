@@ -46,7 +46,16 @@
         "close_modal_label": "Zatvoriti",
         "continue_to_shipping_method": "Nastavite ka isporuci",
         "autocomplete_selection": "{{number}} von {{total}}",
-        "title": "Checkout – {{shopName}}"
+        "title": "Checkout – {{shopName}}",
+        "processing": "Обрађује се ...",
+        "dates": {
+          "months": {
+            "march": "Mart"
+          }
+        }
+      },
+      "contact": {
+        "postal_code_label": "Poštanski broj"
       }
     }
   },

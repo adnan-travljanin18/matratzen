@@ -47,7 +47,16 @@
         "back_to_payment_method": "Návrat k platbě",
         "choose_payment_method": "Vyberte způsob platby",
         "autocomplete_close": "Návrhy uzavřít",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "submit_for_review_button_label": "K odevzdání k přezkoumání",
+        "dates": {
+          "months": {
+            "february": "Únor"
+          }
+        }
+      },
+      "contact": {
+        "zip_code_label": "PSČ"
       }
     }
   },

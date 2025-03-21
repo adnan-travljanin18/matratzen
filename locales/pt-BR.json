@@ -49,7 +49,16 @@
         "complete_purchase_button_label": "Comprar",
         "close_modal_label": "Fechar",
         "continue_to_shipping_method": "Continuar para o envio",
-        "autocomplete_selection": "{{number}} de {{total}}"
+        "autocomplete_selection": "{{number}} de {{total}}",
+        "processing": "Está sendo processado ...",
+        "dates": {
+          "months": {
+            "march": "Março"
+          }
+        }
+      },
+      "contact": {
+        "postal_code_label": "Código Postal"
       }
     }
   },

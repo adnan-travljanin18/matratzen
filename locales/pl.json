@@ -47,7 +47,16 @@
         "close_modal_label": "Zamknij",
         "continue_to_shipping_method": "Kontynuuj do wysyłki",
         "autocomplete_selection": "{{numer}} von {{całkowity}}",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "continue_to_payment_plans_button_label": "Przejdź do planów płatności",
+        "dates": {
+          "months": {
+            "february": "Luty"
+          }
+        }
+      },
+      "contact": {
+        "postal_code_label": "Kod pocztowy"
       }
     }
   },

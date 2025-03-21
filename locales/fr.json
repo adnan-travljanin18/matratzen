@@ -47,7 +47,16 @@
         "expand_notice_label": "Voir plus",
         "choose_payment_method": "Choisissez un mode de paiement",
         "autocomplete_close": "Suggestions fermées",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "continue_to_payment_plans_button_label": "À propos des plans de paiement",
+        "dates": {
+          "months": {
+            "february": "Février"
+          }
+        }
+      },
+      "contact": {
+        "postal_code_label": "Code postal"
       }
     }
   },

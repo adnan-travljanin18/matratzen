@@ -47,7 +47,16 @@
         "close_modal_label": "Закрити",
         "continue_to_shipping_method": "Продовжити до відправки",
         "autocomplete_selection": "{{number}} з {{total}}",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "continue_to_payment_plans_button_label": "Продовжити до планів платежів",
+        "dates": {
+          "months": {
+            "february": "Лютий"
+          }
+        }
+      },
+      "contact": {
+        "postal_code_label": "Поштовий індекс"
       }
     }
   },

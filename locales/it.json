@@ -47,7 +47,16 @@
         "expand_notice_label": "Mostra di più",
         "autocomplete_selection": "{{number}} di {{total}}",
         "autocomplete_close": "Suggerimenti chiusi",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "continue_to_payment_plans_button_label": "Proseguire ai piani di pagamento",
+        "dates": {
+          "months": {
+            "february": "febbraio"
+          }
+        }
+      },
+      "contact": {
+        "postal_code_label": "Codice postale"
       }
     }
   },

@@ -47,7 +47,16 @@
         "close_modal_label": "Stänga",
         "continue_to_shipping_method": "Fortsätt till frakt",
         "autocomplete_selection": "{{number}} av {{total}}",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "continue_to_payment_plans_button_label": "Vidare till betalningsplanerna",
+        "dates": {
+          "months": {
+            "february": "Februari"
+          }
+        }
+      },
+      "contact": {
+        "postal_code_label": "Postnummer"
       }
     }
   },
