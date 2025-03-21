@@ -143,7 +143,19 @@
           "add_code": "Додати знижку"
         },
         "group_title_label": "Час від \"%{group_title}\"",
-        "shipping_discount_title": "Відправлення знижки"
+        "shipping_discount_title": "Відправлення знижки",
+        "deferred_balance_info": {
+          "title": "Guthaben {{amount_due}} має бути сплачений до {{due_at}}"
+        },
+        "product_image_quantity_label": "Кількість",
+        "view_all_items": {
+          "other": "Показати всі %{count} статей"
+        }
+      },
+      "shipping": {
+        "duties_and_taxes_options": {
+          "ddu_caption": "Можливі додаткові збори"
+        }
       }
     }
   },

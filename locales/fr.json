@@ -96,13 +96,18 @@
           "add_code": "Ajouter une remise"
         },
         "group_title_label": "Partie de \"%{group_title}\"",
-        "shipping_discount_title": "Remise sur l'expédition"
+        "shipping_discount_title": "Remise sur l'expédition",
+        "product_image_quantity_label": "Nombre",
+        "view_all_items": {
+          "other": "Afficher %{count} articles"
+        }
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Habituellement prêt en 1 heure"
       },
       "shipping": {
-        "delivery": "Livraison à %{time}"
+        "delivery": "Livraison à %{time}",
+        "no_other_methods_available": "Aucune autre méthode disponible"
       }
     }
   },

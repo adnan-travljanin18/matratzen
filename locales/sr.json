@@ -114,7 +114,17 @@
           "add_code": "Dodati popust"
         },
         "group_title_label": "Deo od \"%{group_title}\"",
-        "shipping_discount_title": "Попуст на доставу"
+        "shipping_discount_title": "Попуст на доставу",
+        "deferred_balance_info": {
+          "title": "Das Guthaben von {{amount_due}} je {{due_at}} dospjelo"
+        },
+        "product_image_quantity_label": "Broj",
+        "view_all_items": {
+          "other": "Prikaži svih %{count} članaka"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "' Pošalji na adresu"
+        }
       }
     }
   },

@@ -93,10 +93,19 @@
         "return_restocking_fee_label": "Wiedereinlagerungsgebühr",
         "deferred_balance_info": {
           "title": "Das Guthaben von {{amount_due}} je splatné dne {{due_at}}"
+        },
+        "more_items_modal": {
+          "clear_search": "Vymazat hledání"
+        },
+        "view_all_items": {
+          "one": "Zobrazit %{count} článků"
         }
       },
       "delivery_options": {
         "pick_up_immediately": "Nyní připraveno k vyzvednutí"
+      },
+      "shipping": {
+        "no_other_methods_available": "Žádné jiné metody nejsou k dispozici"
       }
     }
   },

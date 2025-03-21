@@ -99,6 +99,13 @@
         "shipping_discount_title": "Sconto sulla spedizione",
         "deferred_balance_info": {
           "title": "Il saldo di {{amount_due}} è dovuto il {{due_at}}"
+        },
+        "product_image_quantity_label": "Numero",
+        "view_all_items": {
+          "other": "Mostra %{count} articoli"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Inviare un indirizzo"
         }
       },
       "delivery_options": {

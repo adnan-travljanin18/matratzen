@@ -132,10 +132,19 @@
           "add_code": "Rabatt lägga till"
         },
         "group_title_label": "Del av \"%{group_title}\"",
-        "shipping_discount_title": "Fraktavdrag"
+        "shipping_discount_title": "Fraktavdrag",
+        "deferred_balance_info": {
+          "title": "Das Guthaben von {{amount_due}} är förfallet den {{due_at}}"
+        },
+        "product_image_quantity_label": "Antal",
+        "view_all_items": {
+          "other": "Visa alla %{count} artiklar"
+        }
       },
       "shipping": {
-        "duties_and_taxes_title": "Zollavgifter och skatter"
+        "duties_and_taxes_options": {
+          "ddu_caption": "Det kan tillkomma ytterligare avgifter"
+        }
       }
     }
   },

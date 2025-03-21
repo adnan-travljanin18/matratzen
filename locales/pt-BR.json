@@ -99,12 +99,24 @@
           "add_code": "Adicionar desconto"
         },
         "group_title_label": "Parte de \"%{group_title}\"",
-        "shipping_discount_title": "Desconto de envio"
+        "shipping_discount_title": "Desconto de envio",
+        "deferred_balance_info": {
+          "title": "O saldo de {{amount_due}} é devido em {{due_at}}"
+        },
+        "product_image_quantity_label": "Número",
+        "view_all_items": {
+          "other": "Mostrar todos os %{count} artigos"
+        }
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Normalmente pronto em 2 horas",
         "pick_up_in_one_hour": "Normalmente pronto em 1 hora",
         "pickup_point_method_definition": "Um ponto de coleta enviar"
+      },
+      "shipping": {
+        "duties_and_taxes_options": {
+          "ddu_title": "Pague na entrega"
+        }
       }
     }
   },

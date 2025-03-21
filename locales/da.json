@@ -100,10 +100,17 @@
         "return_restocking_fee_label": "Wiedereinlageringsgebyr",
         "deferred_balance_info": {
           "title": "Saldoet på {{amount_due}} forfalder den {{due_at}}"
+        },
+        "more_items_modal": {
+          "clear_search": "Nulstil søgning",
+          "search_item": "Søge"
         }
       },
       "delivery_options": {
         "pick_up_in_five_or_more_days": "Almindeligvis færdig på 5 dage eller mere"
+      },
+      "shipping": {
+        "no_other_methods_available": "Ingen andre metoder tilgængelige"
       }
     }
   },

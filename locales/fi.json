@@ -95,14 +95,19 @@
           "add_code": "Rabatt lisätä"
         },
         "group_title_label": "Osa \"%{group_title}\"",
-        "return_restocking_fee_label": "Varastointimaksu"
+        "return_restocking_fee_label": "Varastointimaksu",
+        "product_image_quantity_label": "Määrä",
+        "view_all_items": {
+          "other": "Näytä %{count} artikkelia"
+        }
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Tavallisesti valmis 1 tunnissa",
         "pickup_point_method_definition": "Toimituspaikka lähettää"
       },
       "shipping": {
-        "delivery": "Zustellung um %{time}"
+        "delivery": "Zustellung um %{time}",
+        "no_other_methods_available": "Ei muita menetelmiä saatavilla"
       }
     }
   },

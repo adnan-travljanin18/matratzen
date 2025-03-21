@@ -134,8 +134,15 @@
         "group_title_label": "Teil von \"%{group_title}\"",
         "shipping_discount_title": "İade İndirimi",
         "deferred_balance_info": {
-          "due_on_fulfillment_title": "Das Guthaben von {{amount_due}} ist bei Fulfillment fällig"
+          "title": "Das Guthaben von {{amount_due}} {{due_at}} tarihinde vadesi dolacak"
+        },
+        "product_image_quantity_label": "Sayı",
+        "view_all_items": {
+          "other": "Tüm %{count} makaleleri göster"
         }
+      },
+      "shipping": {
+        "no_other_methods_available": "Diğer yöntemler mevcut değil"
       }
     }
   },

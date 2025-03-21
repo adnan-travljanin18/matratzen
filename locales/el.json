@@ -99,7 +99,15 @@
           "add_code": "Προσθήκη έκπτωσης"
         },
         "group_title_label": "Μέρος του \"%{group_title}\"",
-        "shipping_discount_title": "Επιστροφή αποστολής"
+        "shipping_discount_title": "Επιστροφή αποστολής",
+        "deferred_balance_info": {
+          "title": "Το υπόλοιπο των {{amount_due}} είναι ληξιπρόθεσμο στις {{due_at}}"
+        },
+        "product_image_quantity_label": "Πλήθος",
+        "view_all_items": {
+          "other": "Εμφάνιση %{count} άρθρων"
+        },
+        "discount_code_aria_text": "Κωδικός έκπτωσης"
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Συνήθως έτοιμο σε 2 ώρες",

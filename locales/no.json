@@ -99,10 +99,19 @@
         "shipping_discount_title": "Frakt Rabatt",
         "deferred_balance_info": {
           "title": "Das kredittet {{amount_due}} er forfalt den {{due_at}}"
+        },
+        "product_image_quantity_label": "Antall",
+        "view_all_items": {
+          "other": "Vis alle %{count} artikler"
         }
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Vanligvis ferdig på 1 time"
+      },
+      "shipping": {
+        "duties_and_taxes_options": {
+          "ddu_caption": "Det kan påløpe ekstra avgifter"
+        }
       }
     }
   },

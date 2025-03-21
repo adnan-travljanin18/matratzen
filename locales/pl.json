@@ -97,10 +97,23 @@
         },
         "group_title_label": "Część \"%{group_title}\"",
         "shipping_discount_title": "Rabat wysyłkowy",
-        "duties_included_label": "Całkowita kwota zawiera podatki i opłaty celne. Brak dodatkowych opłat przy dostawie."
+        "deferred_balance_info": {
+          "title": "Das Guthaben von {{amount_due}} jest wymagalne w dniu {{due_at}}"
+        },
+        "more_items_modal": {
+          "clear_search": "Resetowanie wyszukiwania"
+        },
+        "view_all_items": {
+          "other": "Pokaż wszystkie %{count} artykuły"
+        }
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Zwykle gotowe w 1 godzinę"
+      },
+      "shipping": {
+        "duties_and_taxes_options": {
+          "ddu_caption": "Mogą zostać nałożone dodatkowe opłaty"
+        }
       }
     }
   },

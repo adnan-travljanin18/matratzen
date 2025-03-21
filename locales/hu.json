@@ -101,12 +101,24 @@
           "add_code": "Rabatt hozzáadása"
         },
         "group_title_label": "A \"%{group_title}\" része",
-        "shipping_discount_title": "Szállítási kedvezmény"
+        "shipping_discount_title": "Szállítási kedvezmény",
+        "deferred_balance_info": {
+          "title": "A {{amount_due}} összeg a {{due_at}} dátummal esedékes"
+        },
+        "product_image_quantity_label": "Szám",
+        "view_all_items": {
+          "other": "Alle %{count} cikk megjelenítése"
+        }
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Általában 2 órán belül kész",
         "pick_up_in_one_hour": "Szokásosan 1 órán belül kész",
         "pickup_point_method_definition": "Egy átvevőhelyre küldés"
+      },
+      "shipping": {
+        "duties_and_taxes_options": {
+          "ddu_caption": "További díjak merülhetnek fel"
+        }
       }
     }
   },
