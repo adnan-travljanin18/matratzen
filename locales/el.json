@@ -232,7 +232,8 @@
         "invalid_expiry_date": "Εισάγετε μια έγκυρη ημερομηνία λήξης"
       },
       "payment_gateway": {
-        "credit_card_label": "Κάρτα Πιστωτική"
+        "credit_card_label": "Κάρτα Πιστωτική",
+        "deferred_payment_label": "Η μέθοδος πληρωμής θα επιλεγεί αργότερα"
       }
     }
   },

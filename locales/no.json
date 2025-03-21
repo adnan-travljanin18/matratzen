@@ -242,7 +242,7 @@
       },
       "payment_gateway": {
         "credit_card_label": "Kredittkort",
-        "generic_payment_terms": "For deg gjelder vilkårene \"{{translatedName}}\". Din betaling forfaller den {{dueDate}}."
+        "deferred_payment_label": "Zahlungsmethode senere velge"
       }
     }
   },

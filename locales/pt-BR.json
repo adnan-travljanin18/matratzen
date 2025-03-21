@@ -232,7 +232,8 @@
         "invalid_expiry_date": "Insira uma data de validade válida"
       },
       "payment_gateway": {
-        "credit_card_label": "Cartão de Crédito"
+        "credit_card_label": "Cartão de Crédito",
+        "deferred_payment_label": "Método de pagamento a ser selecionado mais tarde"
       }
     }
   },

@@ -275,7 +275,8 @@
         "invalid_expiry_date": "Введіть дійсну дату закінчення"
       },
       "payment_gateway": {
-        "credit_card_label": "Кредитна картка"
+        "credit_card_label": "Кредитна картка",
+        "deferred_payment_label": "Спосіб оплати вибрати пізніше"
       }
     }
   },

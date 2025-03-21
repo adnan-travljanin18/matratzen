@@ -242,7 +242,8 @@
         "invalid_expiry_date": "Unesite validan datum isteka"
       },
       "payment_gateway": {
-        "credit_card_label": "Kreditna karta"
+        "credit_card_label": "Kreditna karta",
+        "deferred_payment_label": "Metoda plaćanja može se odabrati kasnije"
       }
     }
   },

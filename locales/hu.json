@@ -234,7 +234,8 @@
         "invalid_expiry_date": "Érvényes lejárati dátum megadása"
       },
       "payment_gateway": {
-        "credit_card_label": "Kreditkarte"
+        "credit_card_label": "Kreditkarte",
+        "deferred_payment_label": "Később válassza ki a fizetési módot"
       }
     }
   },

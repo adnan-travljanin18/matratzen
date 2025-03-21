@@ -241,8 +241,10 @@
         "pay_later_failed": "Bei la gestione del pagamento con fattura si è verificato un errore. Scegli un'altra modalità di pagamento e riprova.",
         "deferred_amount_changed": "La tua pagamento non è stato elaborato poiché l'importo del rinvio del pagamento è cambiato. Per favore, controlla il tuo ordine e riprova.",
         "invalid_number": "Inserisci un numero di carta valido",
-        "invalid_expiry_date": "Inserire una data di scadenza valida",
-        "successful_offsite_with_gift_card_error": "Bei der Verarbeitung deiner Zahlung mit Geschenkgutschein ist ein Problem aufgetreten. Versuche es erneut oder verwende eine andere Zahlungsmethode."
+        "invalid_expiry_date": "Inserire una data di scadenza valida"
+      },
+      "payment_gateway": {
+        "deferred_payment_label": "Metodo di pagamento da scegliere in seguito"
       }
     }
   },
