@@ -364,6 +364,21 @@
       },
       "tips": {
         "update_tip": "Trinkgeld güncellemek"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Sepetiniz, gönderim ülkenize göre güncellendi."
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "year": {
+            "other": "%{count} Yıl"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": "' anschließend %{count} ödeme üzerinden %{total_price}"
+          }
+        }
       }
     }
   },

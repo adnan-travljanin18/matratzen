@@ -323,6 +323,22 @@
       },
       "tips": {
         "update_tip": "Trinkgeld päivittää"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Ostoskoriasi on päivitetty toimitusmaasi perusteella."
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "year": {
+            "other": "%{count} vuotta"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Ensimmäinen maksaminen %{total_price_with_discount}, sen jälkeen %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": "anschließend %{count} maksua jokaisesta %{total_price}"
+          }
+        }
       }
     }
   },

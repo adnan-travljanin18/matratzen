@@ -323,7 +323,22 @@
         "update_tip": "Aktualizovat spropitné"
       },
       "change_country": {
-        "cart_and_currency_updated_based_on_country": "Tvá nákupní taška a tvoje měna byly aktualizovány na základě tvé země dodání."
+        "cart_updated_based_on_country": "Tvá nákupní taška byla aktualizována na základě tvé země doručení."
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "month": {
+            "other": "%{count} Měsíců"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": "následně %{count} plateb po %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "title": "Způsoby platby"
       }
     }
   },

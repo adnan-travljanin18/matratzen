@@ -333,9 +333,24 @@
       "tips": {
         "update_tip": "Opdater drikkepenge"
       },
+      "change_country": {
+        "cart_updated_based_on_country": "Din indkøbskurv er blevet opdateret baseret på dit forsendelsesland."
+      },
       "subscriptions": {
-        "recurring_totals_with_policies": {
-          "following_cycles": ", derefter %{total_price} alle eller hver/n %{interval}"
+        "recurring_total_intervals": {
+          "month": {
+            "other": "%{count} måneder"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": ", derefter %{count} betalinger á %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Der opstod et problem ved behandling af din anmodning."
         }
       }
     }
