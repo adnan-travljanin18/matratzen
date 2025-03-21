@@ -68,6 +68,11 @@
       },
       "customer_account": {
         "saved_address_modal_title": "Bruk min lagrede adresse"
+      },
+      "order_summary": {
+        "discount_label": "Rabattkode",
+        "gift_card_placeholder": "Geschenkkarte",
+        "discount_has_been_applied": "Rabatten ble brukt"
       }
     }
   },

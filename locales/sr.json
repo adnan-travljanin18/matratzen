@@ -80,6 +80,11 @@
       },
       "customer_account": {
         "incomplete_address": "Izabrana adresa je nepotpuna. %{update_address_link} ili izaberi drugu adresu."
+      },
+      "order_summary": {
+        "discount_label": "Rabattcode",
+        "gift_card_placeholder": "Poklon kartica",
+        "discount_has_been_applied": "Popust je iskorišćen"
       }
     }
   },

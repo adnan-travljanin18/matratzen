@@ -68,6 +68,11 @@
       },
       "customer_account": {
         "saved_address_modal_title": "Użyj mojego zapisanego adresu"
+      },
+      "order_summary": {
+        "discount_label": "Rabattcode",
+        "gift_card_placeholder": "Karta podarunkowa",
+        "discount_has_been_applied": "Zniżka została wykorzystana"
       }
     }
   },

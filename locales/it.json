@@ -68,6 +68,11 @@
       },
       "customer_account": {
         "saved_address_modal_title": "Utilizzare il mio indirizzo salvato"
+      },
+      "order_summary": {
+        "discount_label": "Codice sconto",
+        "gift_card_placeholder": "Carta regalo",
+        "discount_has_been_applied": "Il discount è stato utilizzato"
       }
     }
   },

@@ -68,6 +68,11 @@
       },
       "customer_account": {
         "saved_address_modal_title": "Utiliser mon adresse enregistrée"
+      },
+      "order_summary": {
+        "discount_label": "Code de réduction",
+        "discount_placeholder": "Code de réduction",
+        "discount_has_been_applied": "Le rabais a été utilisé"
       }
     }
   },

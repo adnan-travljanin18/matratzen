@@ -72,6 +72,11 @@
         "saved_address_option_description": {
           "one": "Du hast {{count}} mentett címet."
         }
+      },
+      "order_summary": {
+        "discount_label": "Rabattkód",
+        "gift_card_placeholder": "Ajándék kártya",
+        "discount_has_been_applied": "A kedvezményt felhasználták"
       }
     }
   },

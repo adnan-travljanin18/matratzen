@@ -68,6 +68,11 @@
         "continue_to_shipping_method": "Μετάβαση στην αποστολή",
         "autocomplete_selection": "{{αριθμός}} von {{σύνολο}}",
         "display_name": "{{firstName}} {{lastName}}"
+      },
+      "order_summary": {
+        "discount_label": "Κωδικός έκπτωσης",
+        "gift_card_placeholder": "Κάρτα Δώρου",
+        "discount_has_been_applied": "Η έκπτωση χρησιμοποιήθηκε"
       }
     }
   },

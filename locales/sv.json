@@ -103,6 +103,11 @@
       "customer_account": {
         "sign_in_link_label": "Anmäla",
         "saved_address_modal_title": "Använda min sparade adress"
+      },
+      "order_summary": {
+        "discount_label": "Rabattkod",
+        "gift_card_placeholder": "Presentkort",
+        "discount_has_been_applied": "Rabatten utnyttjades"
       }
     }
   },

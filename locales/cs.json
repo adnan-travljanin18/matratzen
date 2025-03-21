@@ -66,6 +66,11 @@
         "choose_payment_method": "Vyberte způsob platby",
         "autocomplete_close": "Návrhy uzavřít",
         "display_name": "{{firstName}} {{lastName}}"
+      },
+      "order_summary": {
+        "discount_label": "Rabattový kód",
+        "discount_placeholder": "Rabattový kód",
+        "discount_has_been_applied": "Sleva byla využita"
       }
     }
   },

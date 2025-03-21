@@ -109,6 +109,11 @@
         "saved_address_option_description": {
           "one": "Ти маєш {{count}} збережену адресу."
         }
+      },
+      "order_summary": {
+        "discount_label": "Код знижки",
+        "gift_card_placeholder": "Подарункова картка",
+        "discount_has_been_applied": "Знижка була використана"
       }
     }
   },

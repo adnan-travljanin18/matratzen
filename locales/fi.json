@@ -68,6 +68,11 @@
       },
       "customer_account": {
         "saved_address_modal_title": "Käytä tallennettua osoitettani"
+      },
+      "order_summary": {
+        "discount_label": "Rabattikoodi",
+        "discount_placeholder": "Rabattikoodi",
+        "discount_has_been_applied": "Alennus käytettiin"
       }
     }
   },

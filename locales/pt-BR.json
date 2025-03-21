@@ -68,6 +68,11 @@
         "close_modal_label": "Fechar",
         "continue_to_shipping_method": "Continuar para o envio",
         "autocomplete_selection": "{{number}} de {{total}}"
+      },
+      "order_summary": {
+        "discount_label": "Código de desconto",
+        "gift_card_placeholder": "Cartão Presente",
+        "applied_discount_message": "%{amount} de desconto sobre o preço total"
       }
     }
   },

@@ -103,6 +103,11 @@
       "customer_account": {
         "incomplete_address": "Seçilen adres eksik. %{update_address_link} veya başka bir adres seçin.",
         "saved_address_modal_title": "Kaydedilmiş adresimi kullan"
+      },
+      "order_summary": {
+        "discount_label": "İndirim kodu",
+        "gift_card_placeholder": "Hediye Kartı",
+        "discount_has_been_applied": "İndirim kullanıldı"
       }
     }
   },
