@@ -281,7 +281,14 @@
         },
         "contact_information_title": "Informazioni di contatto",
         "thank_you_title": "La tua ordinazione è stata confermata",
-        "order_status_updates_with_email": "Riceverai aggiornamenti su spedizione e consegna via email."
+        "order_status_updates_with_email": "Riceverai aggiornamenti su spedizione e consegna via email.",
+        "missing_shipping_address_banner": {
+          "text_html": "%{contattaci}, per aggiungere il tuo indirizzo"
+        },
+        "location_title": "Luogo",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Riceverai un messaggio di testo con il tuo coupon tra pochi minuti."
+        }
       }
     }
   },

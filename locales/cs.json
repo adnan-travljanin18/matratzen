@@ -264,7 +264,13 @@
         "shipping_method_title": "Způsob doručení",
         "thank_you_title": "Tvá objednávka byla potvrzena",
         "breadcrumbs_submitted": "Odesláno",
-        "breadcrumbs_confirmed": "Potvrzeno"
+        "missing_shipping_address_banner": {
+          "text_html": "%{kontaktujte_nás}, abyste přidali svou adresu"
+        },
+        "location_title": "Místo",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Dostaneš během několika minut textovou zprávu se svým voucherem."
+        }
       }
     }
   },

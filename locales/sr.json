@@ -274,7 +274,12 @@
         },
         "shipping_method_title": "Način isporuke",
         "thank_you_title": "Tvoja narudžbina je potvrđena",
-        "order_status_updates_with_email": "Dobijaćeš ažuriranja o isporuci i dostavi putem e-pošte."
+        "order_status_updates_with_email": "Dobijaćeš ažuriranja o isporuci i dostavi putem e-pošte.",
+        "order_status_confirmed_with_installments_payment_confirm": "Uskoro ćeš primiti e-mail sa potvrdom sa tvojim brojem narudžbine i tvojim planom otplate.",
+        "location_title": "Mesto",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "U nekoliko minuta ćeš dobiti tekstualnu poruku sa svojim vaučerom."
+        }
       }
     }
   },

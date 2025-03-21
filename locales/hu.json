@@ -266,7 +266,12 @@
         },
         "contact_information_title": "Kontaktinformáció",
         "thank_you_title": "A rendelésed meg lett erősítve",
-        "order_status_updates_with_email": "A szállítással és kézbesítéssel kapcsolatos frissítéseket e-mailben kapsz."
+        "order_status_updates_with_email": "A szállítással és kézbesítéssel kapcsolatos frissítéseket e-mailben kapsz.",
+        "order_status_confirmed_with_installments_payment_confirm": "Hamarosan megkapod a rendelési számodat és a részletfizetési tervedet tartalmazó visszaigazoló e-mailt.",
+        "location_title": "Helyszín",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "A következő néhány percben kapsz egy szöveges üzenetet a kuponoddal."
+        }
       }
     }
   },

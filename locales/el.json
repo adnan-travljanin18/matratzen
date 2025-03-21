@@ -264,7 +264,12 @@
         },
         "shipping_method_title": "Τρόπος αποστολής",
         "thank_you_title": "Η παραγγελία σας έχει επιβεβαιωθεί",
-        "order_status_updates_with_email": "Θα λαμβάνεις ενημερώσεις σχετικά με την αποστολή και την παράδοση μέσω email."
+        "order_status_updates_with_email": "Θα λαμβάνεις ενημερώσεις σχετικά με την αποστολή και την παράδοση μέσω email.",
+        "order_status_confirmed_with_installments_payment_confirm": "Θα λάβεις σύντομα ένα email επιβεβαίωσης με τον αριθμό παραγγελίας σου και το σχέδιο δόσεων σου.",
+        "location_title": "Τοποθεσία",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Θα λάβεις σε λίγα λεπτά ένα μήνυμα κειμένου με το κουπόνι σου."
+        }
       }
     }
   },

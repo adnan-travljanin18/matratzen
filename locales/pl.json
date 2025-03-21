@@ -279,7 +279,14 @@
         },
         "contact_information_title": "Kontaktinformation",
         "thank_you_title": "Twoje zamówienie zostało potwierdzone",
-        "order_status_updates_with_email": "Otrzymasz aktualizacje dotyczące wysyłki i dostawy za pośrednictwem e-maila."
+        "order_status_updates_with_email": "Otrzymasz aktualizacje dotyczące wysyłki i dostawy za pośrednictwem e-maila.",
+        "missing_shipping_address_banner": {
+          "contact_us": "Skontaktuj się z nami"
+        },
+        "location_title": "Lokalizacja",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Otrzymasz za kilka minut wiadomość tekstową z twoim bonem."
+        }
       }
     }
   },

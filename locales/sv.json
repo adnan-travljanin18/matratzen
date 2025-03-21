@@ -304,7 +304,12 @@
         },
         "contact_information_title": "Kontaktinformation",
         "thank_you_title": "Din beställning har bekräftats",
-        "order_status_updates_with_email": "Du får uppdateringar om frakt och leverans via e-post."
+        "order_status_updates_with_email": "Du får uppdateringar om frakt och leverans via e-post.",
+        "order_status_confirmed_with_installments_payment_confirm": "Du kommer snart att få ett bekräftelse-e-post med ditt beställningsnummer och din avbetalningsplan.",
+        "location_title": "Plats",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Du får ett sms med din kupong om några minuter."
+        }
       }
     }
   },

@@ -306,7 +306,12 @@
         },
         "contact_information_title": "İletişim Bilgileri",
         "thank_you_title": "Siparişiniz onaylandı",
-        "order_status_updates_with_email": "Du, e-posta ile gönderim ve teslimat güncellemeleri alacaksın."
+        "order_status_updates_with_email": "Du, e-posta ile gönderim ve teslimat güncellemeleri alacaksın.",
+        "order_status_confirmed_with_installments_payment_confirm": "Yakında sipariş numaran ve taksit planınla birlikte bir onay e-postası alacaksın.",
+        "location_title": "Lokasyon",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Birkaç dakika içinde kuponunla ilgili bir metin mesajı alacaksın."
+        }
       }
     }
   },

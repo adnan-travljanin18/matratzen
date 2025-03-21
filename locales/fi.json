@@ -265,7 +265,14 @@
         "thank_you_confirmed_order_with_draft": "Me ilmoitamme sinulle, jos tarvitsemme lisätietoja tai kun tilauksesi on vahvistettu.",
         "contact_information_title": "Yhteystiedot",
         "thank_you_title": "Tilauksesi on vahvistettu",
-        "breadcrumbs_submitted": "Lähetetty"
+        "breadcrumbs_submitted": "Lähetetty",
+        "missing_shipping_address_banner": {
+          "text_html": "%{contact_us}, jotta voit lisätä osoitteesi"
+        },
+        "location_title": "Sijainti",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Saat tekstiviestin alennuskoodistasi muutaman minuutin kuluttua."
+        }
       }
     }
   },

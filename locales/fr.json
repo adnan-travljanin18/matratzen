@@ -275,7 +275,14 @@
         "thank_you_confirmed_order_with_draft": "Nous te tiendrons informé si nous avons besoin de plus d'informations ou lorsque ta commande sera confirmée.",
         "contact_information_title": "'Contact Information'",
         "thank_you_title": "Votre commande a été confirmée",
-        "breadcrumbs_submitted": "Envoyé"
+        "breadcrumbs_submitted": "Envoyé",
+        "missing_shipping_address_banner": {
+          "text_html": "%{contact_us}, pour ajouter votre adresse"
+        },
+        "location_title": "Lieu",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Vous recevrez dans quelques minutes un message texte avec votre bon."
+        }
       }
     }
   },
