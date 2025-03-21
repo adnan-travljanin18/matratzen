@@ -786,7 +786,8 @@
             "title_with_date": "Betalt den {{date}}"
           },
           "pending": {
-            "description_due_on_receipt": "Du får en faktura så snart betalningen är förfallen."
+            "description_due_on_receipt": "Du får en faktura så snart betalningen är förfallen.",
+            "description_waiting_for_manual_payment": "För denna beställning finns en betalning utestående. Saldo kommer att uppdateras efter mottagandet av betalningen."
           }
         }
       }
@@ -931,6 +932,12 @@
     "addresses": {
       "last_name": "Efternamn",
       "phone": "Telefon"
+    },
+    "login_page": {
+      "sign_in": "Registrera"
+    },
+    "order": {
+      "date_html": "Platserat den {{ date }}"
     }
   }
 }

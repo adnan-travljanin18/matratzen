@@ -792,7 +792,8 @@
             "banner_overdue": {
               "one": "Deine Zahlung ist seit {{count}} gün gecikmeli"
             },
-            "description_due_on_receipt": "Du, ödemeniz vadesi geldiğinde bir fatura alacaksınız."
+            "description_due_on_receipt": "Du, ödemeniz vadesi geldiğinde bir fatura alacaksınız.",
+            "description_waiting_for_manual_payment": "Bu sipariş için bir ödeme bekleniyor. Bakiyeniz ödeme alındıktan sonra güncellenecektir."
           }
         }
       }
@@ -927,6 +928,12 @@
     "addresses": {
       "last_name": "Soyadı",
       "phone": "Telefon"
+    },
+    "login_page": {
+      "sign_in": "Giriş Yap"
+    },
+    "order": {
+      "billing_address": "Fatura Adresi"
     }
   }
 }

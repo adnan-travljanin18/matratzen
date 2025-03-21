@@ -905,6 +905,13 @@
     "addresses": {
       "country": "Γη/Περιοχή",
       "phone": "Τηλέφωνο"
+    },
+    "login_page": {
+      "cancel": "Ακύρωση",
+      "sign_in": "Εγγραφή"
+    },
+    "order": {
+      "billing_address": "Διεύθυνση τιμολόγησης"
     }
   }
 }

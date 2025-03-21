@@ -764,7 +764,7 @@
           },
           "pending": {
             "description_due_on_receipt": "Vous recevrez une facture dès que le paiement sera dû.",
-            "description_due_on_fulfillment": "Le paiement est dû dès que tous les articles de cette commande ont été exécutés."
+            "description_waiting_for_manual_payment": "Pour cette commande, un paiement est en attente. Le solde sera mis à jour après réception du paiement."
           }
         }
       }
@@ -907,6 +907,13 @@
     "addresses": {
       "last_name": "Nom de famille",
       "set_default": "Définir comme adresse par défaut"
+    },
+    "login_page": {
+      "sign_in": "Se connecter"
+    },
+    "order": {
+      "date_html": "Platziert le {{ date }}",
+      "total": "Global"
     }
   }
 }

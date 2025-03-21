@@ -770,7 +770,8 @@
             "banner_overdue": {
               "one": "A kifizetésed {{count}} napja késlekedik"
             },
-            "description_due_on_receipt": "Megkapod a számlát, amint a fizetés esedékessé válik."
+            "description_due_on_receipt": "Megkapod a számlát, amint a fizetés esedékessé válik.",
+            "description_waiting_for_manual_payment": "A megrendeléshez kifizetés áll rendelkezésre. Az egyenleg frissítve lesz, miután a kifizetés megérkezik."
           }
         }
       }
@@ -907,6 +908,12 @@
     "addresses": {
       "last_name": "Vezetéknév",
       "phone": "Telefon"
+    },
+    "login_page": {
+      "sign_in": "Bejelentkezés"
+    },
+    "order": {
+      "billing_address": "Számlázási cím"
     }
   }
 }

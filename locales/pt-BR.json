@@ -903,6 +903,13 @@
     "addresses": {
       "address1": "Endereço 1",
       "phone": "Telefone"
+    },
+    "login_page": {
+      "cancel": "Cancelar",
+      "forgot_password": "Esqueceu a senha?"
+    },
+    "order": {
+      "shipping_address": "Endereço de envio"
     }
   }
 }

@@ -911,6 +911,13 @@
     "addresses": {
       "country": "Zemlja/Region",
       "phone": "телефон"
+    },
+    "login_page": {
+      "cancel": "Otkazati",
+      "forgot_password": "Zaboravili ste lozinku?"
+    },
+    "order": {
+      "billing_address": "Adresa za fakturiranje"
     }
   }
 }

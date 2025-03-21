@@ -768,7 +768,7 @@
           },
           "pending": {
             "description_due_on_receipt": "Du modtager en faktura, så snart betalingen er forfalden.",
-            "description_due_on_receipt_partially_paid": "Denne ordre er delvist betalt. Du har stadig et resterende beløb. Du modtager en faktura, så snart betalingen forfalder."
+            "description_waiting_for_manual_payment": "For this order, a payment is outstanding. The balance will be updated upon receipt of payment."
           }
         }
       }
@@ -913,6 +913,13 @@
     "addresses": {
       "last_name": "Efternavn",
       "phone": "Telefon"
+    },
+    "login_page": {
+      "password": "Adgangskode"
+    },
+    "order": {
+      "date_html": "Platziert den {{ date }}",
+      "price": "Pris"
     }
   }
 }

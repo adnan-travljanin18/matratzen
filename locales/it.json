@@ -769,7 +769,8 @@
             "title_with_date": "Pagato il {{date}}"
           },
           "pending": {
-            "description_due_on_receipt": "Riceverai una fattura non appena il pagamento sarà dovuto."
+            "description_due_on_receipt": "Riceverai una fattura non appena il pagamento sarà dovuto.",
+            "description_waiting_for_manual_payment": "Per questo ordine è in attesa un pagamento. Il saldo verrà aggiornato dopo la ricezione del pagamento."
           }
         }
       }
@@ -916,6 +917,13 @@
     "addresses": {
       "last_name": "Cognome",
       "set_default": "Impostare come indirizzo predefinito"
+    },
+    "login_page": {
+      "sign_in": "Registrarsi"
+    },
+    "order": {
+      "date_html": "Platizzato il {{ date }}",
+      "product": "Prodotto"
     }
   }
 }

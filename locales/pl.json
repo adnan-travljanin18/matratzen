@@ -757,7 +757,8 @@
             "title_with_date": "Zapłacono {{date}}"
           },
           "pending": {
-            "description_due_on_receipt": "Otrzymasz fakturę, gdy płatność będzie wymagana."
+            "description_due_on_receipt": "Otrzymasz fakturę, gdy płatność będzie wymagana.",
+            "description_waiting_for_manual_payment": "Dla tego zamówienia oczekuje się płatności. Saldo zostanie zaktualizowane po otrzymaniu płatności."
           }
         }
       }
@@ -902,6 +903,12 @@
     "addresses": {
       "last_name": "Nazwisko",
       "phone": "Telefon"
+    },
+    "login_page": {
+      "sign_in": "Zarejestruj się"
+    },
+    "order": {
+      "date_html": "Platziert am {{ date }}"
     }
   }
 }

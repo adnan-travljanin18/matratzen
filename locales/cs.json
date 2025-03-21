@@ -898,6 +898,13 @@
     "addresses": {
       "last_name": "Příjmení",
       "phone": "Telefon"
+    },
+    "login_page": {
+      "password": "Heslo"
+    },
+    "order": {
+      "date_html": "Platziert dne {{ date }}",
+      "price": "Cena"
     }
   }
 }
