@@ -762,7 +762,8 @@
             "banner_overdue": {
               "one": "Tvoja uplata je preko {{count}} dana dospjela"
             },
-            "title": "Zahlbar do"
+            "title": "Zahlbar do",
+            "description_due_on_receipt": "Dobijaš račun čim dospjela uplata."
           }
         }
       },
@@ -908,7 +909,8 @@
       "my_wishlist": "Мој списак жеља"
     },
     "addresses": {
-      "add_new": "Dodajte novu adresu"
+      "country": "Zemlja/Region",
+      "phone": "телефон"
     }
   }
 }

@@ -898,6 +898,10 @@
     "account": {
       "return": "Powrót do szczegółów konta",
       "my_wishlist": "Moja lista życzeń"
+    },
+    "addresses": {
+      "last_name": "Nazwisko",
+      "phone": "Telefon"
     }
   }
 }

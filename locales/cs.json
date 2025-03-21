@@ -750,7 +750,8 @@
             "title_with_date": "Bezahlt dne {{date}}"
           },
           "pending": {
-            "description_due_on_receipt": "Dostanete fakturu, jakmile bude platba splatná."
+            "description_due_on_receipt": "Dostanete fakturu, jakmile bude platba splatná.",
+            "description_waiting_for_manual_payment": "Pro tuto objednávku je čekající platba. Zůstatek bude aktualizován po obdržení platby."
           }
         }
       }
@@ -893,6 +894,10 @@
     },
     "activate_account": {
       "title": "Aktivujte účet"
+    },
+    "addresses": {
+      "last_name": "Příjmení",
+      "phone": "Telefon"
     }
   }
 }

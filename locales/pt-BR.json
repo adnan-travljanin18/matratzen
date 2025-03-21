@@ -752,7 +752,8 @@
             "banner_overdue": {
               "one": "Sua pagamento está atrasado há {{count}} dias"
             },
-            "title": "Pagável até"
+            "title": "Pagável até",
+            "description_due_on_receipt": "Você receberá uma fatura assim que o pagamento estiver vencido."
           }
         }
       },
@@ -900,7 +901,8 @@
       "my_wishlist": "Meu Wishlist"
     },
     "addresses": {
-      "default": "Padrão"
+      "address1": "Endereço 1",
+      "phone": "Telefone"
     }
   }
 }

@@ -927,6 +927,10 @@
     "account": {
       "return": "Tillbaka till kontodetaljer",
       "my_wishlist": "Min önskelista"
+    },
+    "addresses": {
+      "last_name": "Efternamn",
+      "phone": "Telefon"
     }
   }
 }

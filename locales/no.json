@@ -902,6 +902,10 @@
     "account": {
       "return": "Tilbake til kontodetaljene",
       "my_wishlist": "Min ønskeliste"
+    },
+    "addresses": {
+      "last_name": "Etternavn",
+      "phone": "Telefon"
     }
   }
 }

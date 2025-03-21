@@ -763,7 +763,8 @@
             "title_with_date": "Payé le {{date}}"
           },
           "pending": {
-            "description_due_on_receipt": "Vous recevrez une facture dès que le paiement sera dû."
+            "description_due_on_receipt": "Vous recevrez une facture dès que le paiement sera dû.",
+            "description_due_on_fulfillment": "Le paiement est dû dès que tous les articles de cette commande ont été exécutés."
           }
         }
       }
@@ -902,6 +903,10 @@
     "account": {
       "return": "Retour aux détails du compte",
       "my_wishlist": "Mon liste de souhaits"
+    },
+    "addresses": {
+      "last_name": "Nom de famille",
+      "set_default": "Définir comme adresse par défaut"
     }
   }
 }

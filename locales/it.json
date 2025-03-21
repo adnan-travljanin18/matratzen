@@ -912,6 +912,10 @@
     "account": {
       "return": "Torna ai dettagli del conto",
       "my_wishlist": "La mia lista dei desideri"
+    },
+    "addresses": {
+      "last_name": "Cognome",
+      "set_default": "Impostare come indirizzo predefinito"
     }
   }
 }

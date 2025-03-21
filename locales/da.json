@@ -767,7 +767,8 @@
             "title_with_date": "Betalt den {{date}}"
           },
           "pending": {
-            "description_due_on_receipt": "Du modtager en faktura, så snart betalingen er forfalden."
+            "description_due_on_receipt": "Du modtager en faktura, så snart betalingen er forfalden.",
+            "description_due_on_receipt_partially_paid": "Denne ordre er delvist betalt. Du har stadig et resterende beløb. Du modtager en faktura, så snart betalingen forfalder."
           }
         }
       }
@@ -908,6 +909,10 @@
     },
     "activate_account": {
       "title": "Konto aktivere"
+    },
+    "addresses": {
+      "last_name": "Efternavn",
+      "phone": "Telefon"
     }
   }
 }

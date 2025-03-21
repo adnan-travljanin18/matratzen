@@ -923,6 +923,10 @@
     "account": {
       "return": "Kontodetails'e geri",
       "my_wishlist": "Benim İstek Listem"
+    },
+    "addresses": {
+      "last_name": "Soyadı",
+      "phone": "Telefon"
     }
   }
 }

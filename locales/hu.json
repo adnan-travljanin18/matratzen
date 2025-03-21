@@ -903,6 +903,10 @@
     "account": {
       "return": "Vissza a fiókadatokhoz",
       "my_wishlist": "A kívánságlistám"
+    },
+    "addresses": {
+      "last_name": "Vezetéknév",
+      "phone": "Telefon"
     }
   }
 }
