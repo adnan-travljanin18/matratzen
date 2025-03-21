@@ -600,7 +600,13 @@
       "google_pay": {
         "iframe_title_accessibility_label": "Додати метод оплати Google Pay"
       },
-      "no_payment_methods_banner": "Жодні методи оплати не додані"
+      "no_payment_methods_banner": "Жодні методи оплати не додані",
+      "store_credit": {
+        "details_modal": {
+          "balance_label": "Гутен",
+          "expirable_amounts_button": "Оголошення"
+        }
+      }
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -756,7 +762,7 @@
       },
       "orders": {
         "draft_order_list": {
-          "show_all_accessibility_label": "Показати всі замовлення, які потрібно перевірити"
+          "hide_all_accessibility_label": "Вимкнути всі замовлення, які потрібно перевірити"
         }
       }
     },

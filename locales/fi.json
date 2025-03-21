@@ -568,7 +568,13 @@
       "google_pay": {
         "iframe_title_accessibility_label": "Lisää Google Pay -maksutapa"
       },
-      "default": "Vakiovarusteet"
+      "default": "Vakiovarusteet",
+      "store_credit": {
+        "details_modal": {
+          "balance_label": "Guthaben",
+          "expirable_amounts_button": "Ilmoitukset"
+        }
+      }
     },
     "navigation_and_structure": {
       "action_menu_accessibility_label": "Lisätietoja",

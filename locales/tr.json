@@ -605,7 +605,13 @@
           "not_available": "Apple Pay bu cihazda kullanılamıyor."
         }
       },
-      "no_payment_methods_banner": "Hiçbir ödeme yöntemi eklenmedi"
+      "no_payment_methods_banner": "Hiçbir ödeme yöntemi eklenmedi",
+      "store_credit": {
+        "details_modal": {
+          "balance_label": "Guthaben",
+          "expirable_amounts_button": "İlanlar"
+        }
+      }
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -759,9 +765,7 @@
       },
       "orders": {
         "draft_order_list": {
-          "pagination": {
-            "nav_accessibility_label": "Navigasyon düğmeleri için inceleme siparişleri"
-          }
+          "hide_all_accessibility_label": "Tüm inceleme yapılacak siparişleri gizle"
         }
       }
     },

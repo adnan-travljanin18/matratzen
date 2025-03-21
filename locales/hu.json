@@ -579,7 +579,13 @@
       "google_pay": {
         "iframe_title_accessibility_label": "Google Pay - Fizetési mód hozzáadása"
       },
-      "no_payment_methods_banner": "Nincsenek hozzáadva fizetési módok"
+      "no_payment_methods_banner": "Nincsenek hozzáadva fizetési módok",
+      "store_credit": {
+        "details_modal": {
+          "balance_label": "Jótállás",
+          "expirable_amounts_button": "Hirdetések"
+        }
+      }
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -737,9 +743,7 @@
       },
       "orders": {
         "draft_order_list": {
-          "pagination": {
-            "nav_accessibility_label": "Navigációs gombok a rendelés ellenőrzéséhez"
-          }
+          "hide_all_accessibility_label": "Minden ellenőrzés alatt álló rendelést rejtsen el"
         }
       }
     },

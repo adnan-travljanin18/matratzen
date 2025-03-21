@@ -580,7 +580,13 @@
       "google_pay": {
         "iframe_title_accessibility_label": "Προσθήκη μεθόδου πληρωμής Google Pay"
       },
-      "no_payment_methods_banner": "Δεν έχουν προστεθεί μέθοδοι πληρωμής"
+      "no_payment_methods_banner": "Δεν έχουν προστεθεί μέθοδοι πληρωμής",
+      "store_credit": {
+        "details_modal": {
+          "balance_label": "Πίστωση",
+          "expirable_amounts_button": "Ανακοινώσεις"
+        }
+      }
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -735,7 +741,7 @@
       },
       "orders": {
         "draft_order_list": {
-          "show_all_orders_in_review": "Εμφάνιση όλων των παραγγελιών που ελέγχθηκαν"
+          "hide_all_accessibility_label": "Αποκρύψτε όλες τις παραγγελίες που πρέπει να ελεγχθούν"
         }
       }
     },

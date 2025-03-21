@@ -588,7 +588,13 @@
       "apple_pay": {
         "loading": "Apple Pay се учитава"
       },
-      "no_payment_methods_banner": "Nisu dodate metode plaćanja"
+      "no_payment_methods_banner": "Nisu dodate metode plaćanja",
+      "store_credit": {
+        "details_modal": {
+          "balance_label": "stanje",
+          "expirable_amounts_button": "Prikazivanje"
+        }
+      }
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -740,6 +746,11 @@
       "addresses": {
         "add_billing_address_button": "Додајте адресу за наплату",
         "save_new_shipping_address_accessibility_label": "Sačuvaj adresu za isporuku"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Sakrijte sve porudžbine koje treba da se provere"
+        }
       }
     },
     "errors": {

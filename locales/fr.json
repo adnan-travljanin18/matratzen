@@ -574,7 +574,13 @@
       "google_pay": {
         "iframe_title_accessibility_label": "Ajouter un mode de paiement Google Pay"
       },
-      "default": "Standard"
+      "default": "Standard",
+      "store_credit": {
+        "details_modal": {
+          "balance_label": "Crédit",
+          "expirable_amounts_button": "Annonces"
+        }
+      }
     },
     "navigation_and_structure": {
       "account_menu": {

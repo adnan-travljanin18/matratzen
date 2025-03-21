@@ -555,7 +555,13 @@
         }
       },
       "credit_or_debit_card_title": "Kreditní nebo debetní karta",
-      "no_payment_methods_banner": "Žádné platební metody nebyly přidány"
+      "no_payment_methods_banner": "Žádné platební metody nebyly přidány",
+      "store_credit": {
+        "details_modal": {
+          "balance_label": "Guthaben",
+          "expirable_amounts_button": "Oznámení"
+        }
+      }
     },
     "navigation_and_structure": {
       "action_menu_accessibility_label": "Další akce",

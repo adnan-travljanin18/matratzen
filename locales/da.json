@@ -579,7 +579,13 @@
       "google_pay": {
         "loading": "Google Pay bliver indlæst"
       },
-      "default": "Standard"
+      "default": "Standard",
+      "store_credit": {
+        "details_modal": {
+          "balance_label": "Guthaben",
+          "expirable_amounts_button": "Annoncer"
+        }
+      }
     },
     "navigation_and_structure": {
       "action_menu_accessibility_label": "Yderligere handlinger",

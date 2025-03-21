@@ -570,7 +570,13 @@
         }
       },
       "credit_or_debit_card_title": "Kredit- lub Debetowa Karta",
-      "default": "Standard"
+      "default": "Standard",
+      "store_credit": {
+        "details_modal": {
+          "balance_label": "Guthaben",
+          "expirable_amounts_button": "Ogłoszenia"
+        }
+      }
     },
     "navigation_and_structure": {
       "account_menu": {
