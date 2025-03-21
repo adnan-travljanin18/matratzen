@@ -154,9 +154,16 @@
         },
         "subscription_delivery_description": {
           "subscription_delivery_frequency": {
-            "day": {
-              "other": "alla %{count} dagar"
+            "week": {
+              "other": "alla %{count} veckor"
+            },
+            "month": {
+              "other": "alla %{count} månader"
             }
+          },
+          "first_order_shipping_price_included": "Första beställningen ingår, följt av %{recurring_order_shipping_price}",
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Gratis frakt för %{count} leveranser"
           }
         }
       }

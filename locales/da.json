@@ -124,7 +124,16 @@
           "subscription_delivery_frequency": {
             "week": {
               "other": "alle %{count} uger"
+            },
+            "month": {
+              "other": "alle %{count} måneder"
             }
+          },
+          "first_n_order_free": {
+            "other": "De første %{count} ordrer er gratis"
+          },
+          "free_shipping_cycles": {
+            "other": "Gratis levering for %{count} ekstra levering"
           }
         }
       }

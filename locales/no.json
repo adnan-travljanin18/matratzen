@@ -121,9 +121,16 @@
         },
         "subscription_delivery_description": {
           "subscription_delivery_frequency": {
-            "day": {
-              "one": "hver dag"
+            "week": {
+              "other": "alle %{count} uker"
+            },
+            "month": {
+              "other": "alle %{count} måneder"
             }
+          },
+          "first_order_shipping_price_included": "Første bestilling inkludert, etterfulgt av %{recurring_order_shipping_price}",
+          "free_shipping_cycles": {
+            "other": "Gratis frakt for %{count} ytterligere leveranser"
           }
         }
       }

@@ -154,9 +154,16 @@
         },
         "subscription_delivery_description": {
           "subscription_delivery_frequency": {
+            "week": {
+              "other": "her %{count} haftalar"
+            },
             "month": {
-              "one": "her ay"
+              "other": "alle %{count} Ay"
             }
+          },
+          "first_order_shipping_price_included": "İlk sipariş dahil, ardından %{recurring_order_shipping_price}",
+          "free_for_first_n_order": {
+            "one": "İlk sipariş için"
           }
         }
       }

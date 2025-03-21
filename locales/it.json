@@ -123,9 +123,16 @@
         },
         "subscription_delivery_description": {
           "subscription_delivery_frequency": {
-            "day": {
-              "one": "ogni giorno"
+            "week": {
+              "other": "alle %{count} settimane"
+            },
+            "month": {
+              "other": "alle %{count} mesi"
             }
+          },
+          "first_order_shipping_price_included": "Prima ordinazione inclusa, seguita da %{recurring_order_shipping_price}",
+          "free_shipping_cycles": {
+            "other": "Spedizione gratuita per %{count} ulteriori consegne"
           }
         }
       }

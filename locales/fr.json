@@ -118,8 +118,19 @@
         "shipping_line_delivery_phone": "Vous recevrez, le cas échéant, des informations actualisées sur la livraison.",
         "address_update": "Mettre à jour l'adresse",
         "subscription_delivery_description": {
-          "prepaid_delivery_frequency": {
-            "one": "pour %{count} livraison"
+          "subscription_delivery_frequency": {
+            "week": {
+              "other": "toutes les %{count} semaines"
+            },
+            "month": {
+              "other": "alle %{count} mois"
+            }
+          },
+          "first_n_order_free": {
+            "other": "Les ${count} premières commandes sont gratuites"
+          },
+          "free_shipping_cycles": {
+            "other": "Livraison gratuite pour %{count} autres livraisons"
           }
         }
       }

@@ -125,6 +125,20 @@
         "shipping_line_delivery_phone": "Jelenleg érvényes információkat kapsz a kézbesítésről.",
         "shipping_method_combinations": {
           "without_separator": "%{firstMethod}, %{secondMethod}"
+        },
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "week": {
+              "other": "alle %{count} hét"
+            },
+            "month": {
+              "other": "alle %{count} hónap"
+            }
+          },
+          "first_order_shipping_price_included": "Az első rendelés beleértve, követi a %{recurring_order_shipping_price}",
+          "free_shipping_cycles": {
+            "one": "Ingyenes szállítás %{count} további kézbesítésre"
+          }
         }
       }
     }

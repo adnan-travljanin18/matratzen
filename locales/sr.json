@@ -133,6 +133,19 @@
         "shipping_line_delivery_phone": "Dobijaćeš, po potrebi, ažurirane informacije o isporuci.",
         "shipping_method_combinations": {
           "without_separator": "%{firstMethod}, %{secondMethod}"
+        },
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "week": {
+              "other": "svake %{count} nedelje"
+            },
+            "month": {
+              "other": "svi %{count} meseci"
+            }
+          },
+          "first_n_order_free": {
+            "other": "Prvih %{count} porudžbina je besplatno"
+          }
         }
       }
     }

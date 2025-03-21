@@ -123,6 +123,19 @@
         "shipping_line_delivery_phone": "Θα λάβεις, αν χρειάζεται, τρέχουσες πληροφορίες σχετικά με την παράδοση.",
         "shipping_method_combinations": {
           "without_separator": "%{firstMethod}, %{secondMethod}"
+        },
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "week": {
+              "other": "alle %{count} εβδομάδες"
+            },
+            "month": {
+              "other": "όλα %{count} μήνες"
+            }
+          },
+          "first_n_order_free": {
+            "other": "Οι πρώτες %{count} παραγγελίες είναι δωρεάν"
+          }
         }
       }
     }

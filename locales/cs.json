@@ -116,8 +116,17 @@
         "shipping_line_delivery_phone": "Dostanete případně aktuální informace o dodání.",
         "shipping_address_title": "Odeslat na",
         "subscription_delivery_description": {
-          "prepaid_delivery_frequency": {
-            "one": "pro %{count} dodání"
+          "subscription_delivery_frequency": {
+            "week": {
+              "other": "alle %{count} týdne"
+            },
+            "month": {
+              "other": "alle %{count} měsíce"
+            }
+          },
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} za doručení), následované %{recurring_order_shipping_price}",
+          "free_shipping_cycles": {
+            "other": "Zdarma doprava pro %{count} další doručení"
           }
         }
       }

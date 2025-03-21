@@ -162,6 +162,19 @@
         "shipping_line_delivery_phone": "Ви отримаєте відповідну інформацію про доставку.",
         "shipping_method_combinations": {
           "without_separator": "%{першийМетод}, %{другийМетод}"
+        },
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "week": {
+              "other": "alle %{count} тижнів"
+            },
+            "month": {
+              "other": "всі %{count} місяці"
+            }
+          },
+          "first_n_order_free": {
+            "other": "Перші %{count} замовлення безкоштовні"
+          }
         }
       }
     }

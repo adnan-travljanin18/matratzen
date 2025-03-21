@@ -121,7 +121,16 @@
           "subscription_delivery_frequency": {
             "week": {
               "other": "alle %{count} Wochen"
+            },
+            "month": {
+              "other": "alle %{count} kuukautta"
             }
+          },
+          "first_n_order_free": {
+            "other": "Ensimmäiset %{count} tilausta ovat ilmaisia"
+          },
+          "free_shipping_cycles": {
+            "other": "Ilmainen toimitus %{count} lisätoimitukselle"
           }
         }
       }
