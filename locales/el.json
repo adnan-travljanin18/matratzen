@@ -35,13 +35,21 @@
             "selling_plan_not_supported": "Τα συνδρομές δεν υποστηρίζονται."
           },
           "sale_attribution": {
-            "draft_order_not_exist": "Αυτό το σχέδιο παραγγελίας δεν είναι διαθέσιμο στο τρέχον κατάστημα."
+            "draft_order_not_exist": "Αυτό το σχέδιο παραγγελίας δεν είναι διαθέσιμο στο τρέχον κατάστημα.",
+            "location_not_exist": "Ο συγκεκριμένος τόπος δεν είναι διαθέσιμος στο τρέχον κατάστημα."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Αυτή τη στιγμή επιτρέπεται μόνο μία συμπεριφορά αποθέματος ανά διαδικασία ολοκλήρωσης αγοράς."
+          },
+          "captcha": {
+            "job_already_queued": "Η επικύρωση Captcha για αυτό το Captcha-Token έχει ήδη προστεθεί στη λίστα αναμονής."
           }
         },
         "complete_purchase_button_label": "Αγορά",
         "close_modal_label": "Κλείσιμο",
         "continue_to_shipping_method": "Μετάβαση στην αποστολή",
-        "autocomplete_selection": "{{αριθμός}} von {{σύνολο}}"
+        "autocomplete_selection": "{{αριθμός}} von {{σύνολο}}",
+        "display_name": "{{firstName}} {{lastName}}"
       }
     }
   },

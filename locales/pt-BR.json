@@ -32,10 +32,18 @@
           "only_empty_terms_accepted": "Para esta condição, somente entradas vazias são válidas.",
           "merchandise": {
             "gift_card_invalid": "O código do vale-presente {{code}} é inválido.",
-            "selling_plan_not_supported": "Assinaturas não são suportadas."
+            "selling_plan_not_supported": "Assinaturas não são suportadas.",
+            "maximum_quantity_exceeded": "A quantidade de alguns itens ultrapassa a quantidade máxima."
           },
           "sale_attribution": {
-            "draft_order_not_exist": "Este rascunho de pedido não está disponível na loja atual."
+            "draft_order_not_exist": "Este rascunho de pedido não está disponível na loja atual.",
+            "location_not_exist": "Este local não está disponível na loja atual."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Atualmente, apenas um comportamento de inventário por checkout é permitido."
+          },
+          "captcha": {
+            "job_already_queued": "A validação de captcha para este token de captcha já foi adicionada à fila."
           }
         },
         "complete_purchase_button_label": "Comprar",

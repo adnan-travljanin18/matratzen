@@ -34,13 +34,20 @@
           },
           "sale_attribution": {
             "location_not_exist": "Denne placering findes ikke i den aktuelle butik."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Der er i øjeblikket kun tilladt ét inventaradfærd pr. checkout."
+          },
+          "captcha": {
+            "job_already_queued": "Captcha-valideringen for denne Captcha-token er allerede tilføjet til køen."
           }
         },
         "complete_purchase_button_label": "Køb",
         "close_modal_label": "Luk",
         "expand_notice_label": "Vis mere",
         "choose_payment_method": "Vælg en betalingsmetode",
-        "autocomplete_close": "Forslag lukker"
+        "autocomplete_close": "Forslag lukker",
+        "display_name": "{{firstName}} {{lastName}}"
       }
     }
   },

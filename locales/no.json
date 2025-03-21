@@ -34,13 +34,20 @@
             "merchandise_variant_not_found": "Produktvarianten ble ikke funnet."
           },
           "sale_attribution": {
-            "unresolvable_target_merchandise_lines": "De foreslåtte salgstildelingene er uforenlige i den nåværende forhandlingskonteksten."
+            "location_not_exist": "Denne plasseringen er ikke tilgjengelig i den nåværende butikken."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "For tiden er det kun tillatt med én lageroppførsel per utsjekking."
+          },
+          "captcha": {
+            "job_already_queued": "Captcha-valideringen for dette Captcha-tokenet har allerede blitt lagt til i køen."
           }
         },
         "complete_purchase_button_label": "Kjøpe",
         "close_modal_label": "Lukk",
         "expand_notice_label": "Vis flere",
-        "autocomplete_selection": "{{number}} av {{total}}"
+        "autocomplete_selection": "{{number}} av {{total}}",
+        "display_name": "{{firstName}} {{lastName}}"
       }
     }
   },

@@ -34,13 +34,20 @@
           },
           "sale_attribution": {
             "location_not_exist": "Ce site n'est pas disponible dans la boutique actuelle."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Actuellement, un seul comportement d'inventaire par commande est autorisé."
+          },
+          "captcha": {
+            "job_already_queued": "La validation Captcha pour ce jeton Captcha a déjà été ajoutée à la file d'attente."
           }
         },
         "complete_purchase_button_label": "Acheter",
         "close_modal_label": "Fermer",
         "expand_notice_label": "Voir plus",
         "choose_payment_method": "Choisissez un mode de paiement",
-        "autocomplete_close": "Suggestions fermées"
+        "autocomplete_close": "Suggestions fermées",
+        "display_name": "{{firstName}} {{lastName}}"
       }
     }
   },

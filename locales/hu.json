@@ -35,13 +35,21 @@
             "selling_plan_not_supported": "Az előfizetések nem támogatottak."
           },
           "sale_attribution": {
-            "draft_order_not_exist": "Ez a rendelési tervezet nem található a jelenlegi boltban."
+            "draft_order_not_exist": "Ez a rendelési tervezet nem található a jelenlegi boltban.",
+            "location_not_exist": "Ez a helyszín nem érhető el a jelenlegi boltban."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Jelenleg csak egy készletkezelési viselkedés engedélyezett a pénztárnál."
+          },
+          "captcha": {
+            "job_already_queued": "A Captcha-érvényesítés ehez a Captcha-tokenhez már a várólistára került."
           }
         },
         "complete_purchase_button_label": "Vásárol",
         "close_modal_label": "Zárás",
         "continue_to_shipping_method": "Tovább a szállításhoz",
-        "autocomplete_selection": "{{number}} von {{total}}"
+        "autocomplete_selection": "{{number}} von {{total}}",
+        "display_name": "{{firstName}} {{lastName}}"
       }
     }
   },

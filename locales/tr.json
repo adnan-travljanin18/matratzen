@@ -31,14 +31,23 @@
           "session_identifier_not_unique_error": "Siparişinle ilgili bir sorun oluştu, lütfen tekrar çıkış yapmayı dene.",
           "merchandise": {
             "merchandise_variant_not_found": "Ürün varyasyonu bulunamadı.",
-            "gift_card_invalid": "Der Geschenkgutschein kodu {{code}} geçersiz.",
-            "product_not_published": "Ürün yayınlanmadı."
+            "gift_card_invalid": "Der Geschenkgutschein kodu {{code}} geçersiz."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Bu konum mevcut mağazada yok."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Şu anda her ödeme işlemi için yalnızca bir envanter davranışına izin verilmektedir."
+          },
+          "captcha": {
+            "job_already_queued": "Captcha Jetonuna yönelik bu Captcha doğrulaması zaten sıraya eklendi."
           }
         },
         "complete_purchase_button_label": "Satın Al",
         "close_modal_label": "Kapat",
         "continue_to_shipping_method": "Devam et gönderime",
-        "autocomplete_selection": "{{number}} üzerinde {{total}}"
+        "autocomplete_selection": "{{number}} üzerinde {{total}}",
+        "display_name": "{{firstName}} {{lastName}}"
       }
     }
   },

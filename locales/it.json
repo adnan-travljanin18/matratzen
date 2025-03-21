@@ -32,15 +32,22 @@
           "merchandise": {
             "merchandise_variant_not_found": "La variante del prodotto non è stata trovata."
           },
-          "non_negotiable": {
-            "missing_non_negotiable_terms": "L'offerta dell'acquirente deve contenere condizioni non negoziabili."
+          "sale_attribution": {
+            "location_not_exist": "Questo punto vendita non è presente nell'attuale negozio."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Attualmente è consentito solo un comportamento di inventario per checkout."
+          },
+          "captcha": {
+            "job_already_queued": "La convalida del Captcha per questo token Captcha è già stata aggiunta alla coda."
           }
         },
         "complete_purchase_button_label": "Comprare",
         "close_modal_label": "Chiudere",
         "expand_notice_label": "Mostra di più",
         "autocomplete_selection": "{{number}} di {{total}}",
-        "autocomplete_close": "Suggerimenti chiusi"
+        "autocomplete_close": "Suggerimenti chiusi",
+        "display_name": "{{firstName}} {{lastName}}"
       }
     }
   },

@@ -32,12 +32,22 @@
           "merchandise": {
             "merchandise_variant_not_found": "Варіант продукту не знайдено.",
             "gift_card_invalid": "Код подарочного ваучера {{code}} недействителен."
+          },
+          "sale_attribution": {
+            "location_not_exist": "Цей місце в поточному магазині недоступне."
+          },
+          "inventory": {
+            "only_one_inventory_behavior_allowed": "Зараз дозволено лише одну поведінку інвентарю на одинCheckout."
+          },
+          "captcha": {
+            "job_already_queued": "Валідація Captcha для цього токена Captcha вже була додана до черги."
           }
         },
         "complete_purchase_button_label": "Купити",
         "close_modal_label": "Закрити",
         "continue_to_shipping_method": "Продовжити до відправки",
-        "autocomplete_selection": "{{number}} з {{total}}"
+        "autocomplete_selection": "{{number}} з {{total}}",
+        "display_name": "{{firstName}} {{lastName}}"
       }
     }
   },

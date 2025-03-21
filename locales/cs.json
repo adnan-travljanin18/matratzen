@@ -34,13 +34,20 @@
           },
           "sale_attribution": {
             "location_not_exist": "Tento umístění momentálně není v aktuálním obchodě k dispozici."
+          },
+          "attribution": {
+            "retail_attribution_required": "Při tomto nákupu je při pokladně vyžadováno přiřazení maloobchodu."
+          },
+          "captcha": {
+            "job_already_queued": "Validace Captcha pro tento Captcha-token již byla přidána do fronty."
           }
         },
         "complete_purchase_button_label": "Koupit",
         "close_modal_label": "Zavřít",
         "back_to_payment_method": "Návrat k platbě",
         "choose_payment_method": "Vyberte způsob platby",
-        "autocomplete_close": "Návrhy uzavřít"
+        "autocomplete_close": "Návrhy uzavřít",
+        "display_name": "{{firstName}} {{lastName}}"
       }
     }
   },
