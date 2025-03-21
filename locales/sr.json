@@ -376,6 +376,17 @@
       },
       "order_errors": {
         "creation_failure": "Bilo je problema prilikom kreiranja vaše narudžbine. Pokušajte ponovo ili kontaktirajte nas za dodatne detalje."
+      },
+      "pickup_point": {
+        "business_hours": "Radno vreme",
+        "could_not_resolve_address": "Tvoja adresa nije mogla biti locirana. Pokušaj ponovo ili koristi drugu adresu"
+      },
+      "wallets": {
+        "errors": {
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} не може да се користи са овом адресом. Изабери другу адресу или затвори {{walletName}}, да завршиш куповину."
+          }
+        }
       }
     }
   },

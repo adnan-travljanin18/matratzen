@@ -310,7 +310,10 @@
         "login_reorder_link_text": {
           "one": "kjøp også dette produktet"
         },
-        "login": "Registrere"
+        "login": "Registrere",
+        "marker": {
+          "shipping": "Leveringsadresse"
+        }
       },
       "review": {
         "blocks": {
@@ -383,7 +386,14 @@
         "title": "Standort uten adresse"
       },
       "pickup_point": {
-        "or": "ODER"
+        "could_not_resolve_address": "Din adresse kunne ikke bli lokalisert. Prøv igjen eller bruk en annen adresse"
+      },
+      "wallets": {
+        "errors": {
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} kan ikke brukes med denne adressen. Velg en annen adresse eller lukk {{walletName}} for å fullføre kjøpet."
+          }
+        }
       }
     }
   },

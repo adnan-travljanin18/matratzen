@@ -371,6 +371,19 @@
             "other": "Tyto položky byly odstraněny z tvého nákupního košíku, protože pro tvoji adresu nejsou k dispozici žádné možnosti doručení."
           }
         }
+      },
+      "pickup_point": {
+        "could_not_resolve_address": "Tva adresa nemohla být lokalizována. Zkus to znovu nebo použij jinou adresu",
+        "geolocation": {
+          "shared_location_button": "Použít moji polohu"
+        }
+      },
+      "wallets": {
+        "errors": {
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} nelze použít s touto adresou. Vyber jinou adresu nebo zavři {{walletName}}, abys dokončil svůj nákup."
+          }
+        }
       }
     }
   },

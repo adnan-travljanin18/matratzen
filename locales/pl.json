@@ -310,7 +310,10 @@
         "login_reorder_link_text": {
           "one": "kup również ten produkt"
         },
-        "login": "Zaloguj się"
+        "login": "Zaloguj się",
+        "marker": {
+          "shipping": "Adres dostawy"
+        }
       },
       "review": {
         "blocks": {
@@ -380,8 +383,15 @@
           }
         }
       },
-      "session_errors": {
-        "session_not_unique": "Przy przetwarzaniu Twojego zamówienia wystąpił problem. Zaktualizuj tę stronę, aby wrócić do sklepu."
+      "pickup_point": {
+        "could_not_resolve_address": "Twoja adresa nie mogła zostać zlokalizowana. Spróbuj ponownie lub użyj innego adresu"
+      },
+      "wallets": {
+        "errors": {
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} nie może być użyta z tym adresem. Wybierz inny adres lub zamknij {{walletName}}, aby zakończyć zakupu."
+          }
+        }
       }
     }
   },

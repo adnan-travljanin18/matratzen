@@ -366,6 +366,17 @@
       },
       "no_address_location": {
         "alt_header": "Endereço de entrega ausente"
+      },
+      "pickup_point": {
+        "business_hours": "Horário de Funcionamento",
+        "could_not_resolve_address": "Sua localização não pôde ser encontrada. Tente novamente ou use um endereço diferente"
+      },
+      "wallets": {
+        "errors": {
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} não pode ser usado com este endereço. Escolha outro endereço ou feche {{walletName}} para concluir sua compra."
+          }
+        }
       }
     }
   },

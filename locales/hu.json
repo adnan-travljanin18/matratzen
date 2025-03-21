@@ -368,6 +368,17 @@
       },
       "order_errors": {
         "network_failure": "Deine Bestellung konnte aufgrund eines Netzwerkfehlers nicht eingereicht werden. Überprüfe deine Verbindung und versuche es erneut."
+      },
+      "pickup_point": {
+        "business_hours": "Nyitvatartás",
+        "could_not_resolve_address": "A címed nem volt lokalizálható. Próbáld újra, vagy használj egy másik címet"
+      },
+      "wallets": {
+        "errors": {
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} nem használható ezzel a címmel. Válassz egy másik címet, vagy zárd be a {{walletName}}-t a vásárlás befejezéséhez."
+          }
+        }
       }
     }
   },

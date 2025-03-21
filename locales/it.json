@@ -309,6 +309,9 @@
         "login_description_phone": "La tua numero d'ordine lo trovi nel documento che hai ricevuto tramite messaggio di testo.",
         "login_reorder_link_text": {
           "one": "acquista anche questo prodotto"
+        },
+        "marker": {
+          "shipping": "Indirizzo di consegna"
         }
       },
       "review": {
@@ -384,8 +387,15 @@
       "order_errors": {
         "inventory_reservation_failure": "Alcuni articoli non sono più disponibili."
       },
-      "session_errors": {
-        "session_already_finished": "Questa ordinazione è già stata inviata. Puoi tornare al negozio per effettuare un nuovo ordine."
+      "pickup_point": {
+        "could_not_resolve_address": "La tua indirizzo non può essere localizzato. Riprova o usa un altro indirizzo"
+      },
+      "wallets": {
+        "errors": {
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} non può essere utilizzato con questo indirizzo. Scegli un altro indirizzo oppure chiudi {{walletName}} per completare il tuo acquisto."
+          }
+        }
       }
     }
   },

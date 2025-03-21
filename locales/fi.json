@@ -373,6 +373,16 @@
       },
       "order_errors": {
         "inventory_reservation_failure": "Joitakin tuotteita ei ole enää saatavilla."
+      },
+      "pickup_point": {
+        "could_not_resolve_address": "Osoitettasi ei voitu paikantaa. Yritä uudelleen tai käytä toista osoitetta"
+      },
+      "wallets": {
+        "errors": {
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} ei voi käyttää tätä osoitetta. Valitse toinen osoite tai sulje {{walletName}}, jotta voit lopettaa ostoksesi."
+          }
+        }
       }
     }
   },

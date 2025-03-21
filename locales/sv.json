@@ -337,7 +337,7 @@
         },
         "login": "Anmäla",
         "marker": {
-          "current": "Nuvarande plats för försändelsen"
+          "shipping": "Leveransadress"
         }
       },
       "review": {
@@ -405,6 +405,16 @@
           },
           "message": {
             "other": "Dessa artiklar har tagits bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress."
+          }
+        }
+      },
+      "pickup_point": {
+        "could_not_resolve_address": "Din adress kunde inte lokaliseras. Försök igen eller använd en annan adress"
+      },
+      "wallets": {
+        "errors": {
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} kan inte användas med denna adress. Välj en annan adress eller stäng {{walletName}} för att slutföra ditt köp."
           }
         }
       }

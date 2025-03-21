@@ -384,6 +384,16 @@
             "other": "Disse artikler fjernes fra din kurv, da der ikke er tilgængelige leveringsmetoder for din adresse."
           }
         }
+      },
+      "pickup_point": {
+        "could_not_resolve_address": "Din adresse kunne ikke lokaliseres. Prøv igen eller brug en anden adresse"
+      },
+      "wallets": {
+        "errors": {
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} kan ikke bruges med denne adresse. Vælg en anden adresse, eller luk {{walletName}}, for at afslutte dit køb."
+          }
+        }
       }
     }
   },

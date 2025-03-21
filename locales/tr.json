@@ -336,9 +336,6 @@
         "login_description_phone": "Sipariş numaranı, kısa mesaj ile aldığın belgeden bulabilirsin.",
         "login_reorder_link_text": {
           "one": "bu ürünü de satın al"
-        },
-        "marker": {
-          "current": "Mevcut Gönderi Konumu"
         }
       },
       "review": {
@@ -411,6 +408,17 @@
       },
       "order_errors": {
         "network_failure": "Deine Bestellung konnte aufgrund eines Netzwerkfehlers nicht eingereicht werden. Überprüfe deine Verbindung und versuche es erneut."
+      },
+      "pickup_point": {
+        "business_hours": "Açılış Saatleri",
+        "could_not_resolve_address": "Adresin belirlenemedi. Tekrar dene veya başka bir adres kullan"
+      },
+      "wallets": {
+        "errors": {
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} bu adresle kullanılamaz. Başka bir adres seç veya {{walletName}}'i kapatıp satın alımını tamamla."
+          }
+        }
       }
     }
   },
