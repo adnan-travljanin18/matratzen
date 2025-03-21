@@ -409,13 +409,29 @@
         }
       },
       "pickup_point": {
-        "could_not_resolve_address": "Din adress kunde inte lokaliseras. Försök igen eller använd en annan adress"
+        "could_not_resolve_address": "Din adress kunde inte lokaliseras. Försök igen eller använd en annan adress",
+        "geolocation": {
+          "shared_location_button": "Använda min plats"
+        }
       },
       "wallets": {
         "errors": {
           "unsupported": {
             "wallet_is_unavailable": "{{walletName}} kan inte användas med denna adress. Välj en annan adress eller stäng {{walletName}} för att slutföra ditt köp."
+          },
+          "outdated": {
+            "payment_terms": "Betalningsvillkoren har ändrats. Vänligen kontrollera din beställning."
           }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "message": "Uppdatera den här sidan eller försök igen om några minuter"
+        }
+      },
+      "notice_banner": {
+        "individual_violations_title": {
+          "DeliveryViolations": "Leveransadress"
         }
       }
     }

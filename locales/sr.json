@@ -379,12 +379,21 @@
       },
       "pickup_point": {
         "business_hours": "Radno vreme",
-        "could_not_resolve_address": "Tvoja adresa nije mogla biti locirana. Pokušaj ponovo ili koristi drugu adresu"
+        "could_not_resolve_address": "Tvoja adresa nije mogla biti locirana. Pokušaj ponovo ili koristi drugu adresu",
+        "geolocation": {
+          "shared_location_button": "Koristiti moju lokaciju"
+        },
+        "pickup_unavailable_banner_title": {
+          "other": "Tvoji članci nisu dostupni na lokacijama za preuzimanje"
+        }
       },
       "wallets": {
         "errors": {
           "unsupported": {
             "wallet_is_unavailable": "{{walletName}} не може да се користи са овом адресом. Изабери другу адресу или затвори {{walletName}}, да завршиш куповину."
+          },
+          "outdated": {
+            "payment_terms": "Услови плаћања су се променили. Молимо вас да проверите вашу поруџбину."
           }
         }
       }

@@ -386,13 +386,29 @@
         "title": "Standort uten adresse"
       },
       "pickup_point": {
-        "could_not_resolve_address": "Din adresse kunne ikke bli lokalisert. Prøv igjen eller bruk en annen adresse"
+        "could_not_resolve_address": "Din adresse kunne ikke bli lokalisert. Prøv igjen eller bruk en annen adresse",
+        "geolocation": {
+          "shared_location_button": "Bruk min posisjon"
+        }
       },
       "wallets": {
         "errors": {
           "unsupported": {
             "wallet_is_unavailable": "{{walletName}} kan ikke brukes med denne adressen. Velg en annen adresse eller lukk {{walletName}} for å fullføre kjøpet."
+          },
+          "outdated": {
+            "payment_terms": "Betalingsbetingelsene har endret seg. Vennligst sjekk bestillingen din."
           }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "message": "Oppdater denne siden eller prøv igjen om noen minutter"
+        }
+      },
+      "notice_banner": {
+        "individual_violations_title": {
+          "PaymentViolations": "Fakturaadresse"
         }
       }
     }

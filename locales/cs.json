@@ -375,14 +375,25 @@
       "pickup_point": {
         "could_not_resolve_address": "Tva adresa nemohla být lokalizována. Zkus to znovu nebo použij jinou adresu",
         "geolocation": {
-          "shared_location_button": "Použít moji polohu"
+          "errors": {
+            "permission_not_allowed": "Schválit uvolnění vaší polohy."
+          }
         }
       },
       "wallets": {
         "errors": {
           "unsupported": {
             "wallet_is_unavailable": "{{walletName}} nelze použít s touto adresou. Vyber jinou adresu nebo zavři {{walletName}}, abys dokončil svůj nákup."
+          },
+          "outdated": {
+            "payment_terms": "Podmínky platby se změnily. Prosím, zkontrolujte svou objednávku."
           }
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text}, pro aktualizaci množství",
+        "individual_violations_title": {
+          "OtherViolations": "Bestellinformationen"
         }
       }
     }

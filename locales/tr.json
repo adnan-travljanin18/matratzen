@@ -411,14 +411,28 @@
       },
       "pickup_point": {
         "business_hours": "Açılış Saatleri",
-        "could_not_resolve_address": "Adresin belirlenemedi. Tekrar dene veya başka bir adres kullan"
+        "could_not_resolve_address": "Adresin belirlenemedi. Tekrar dene veya başka bir adres kullan",
+        "geolocation": {
+          "shared_location_button": "Mevcut konumumu kullan"
+        }
       },
       "wallets": {
         "errors": {
           "unsupported": {
             "wallet_is_unavailable": "{{walletName}} bu adresle kullanılamaz. Başka bir adres seç veya {{walletName}}'i kapatıp satın alımını tamamla."
+          },
+          "outdated": {
+            "payment_terms": "Ödeme koşulları değişti. Lütfen siparişinizi kontrol edin."
           }
         }
+      },
+      "error_page": {
+        "terminal": {
+          "message": "Sayfayı güncelleyin veya birkaç dakika içinde tekrar deneyin"
+        }
+      },
+      "notice_banner": {
+        "violations_title": "{{ihlal}} eksik veya geçersiz"
       }
     }
   },

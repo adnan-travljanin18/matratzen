@@ -369,12 +369,21 @@
       },
       "pickup_point": {
         "business_hours": "Horário de Funcionamento",
-        "could_not_resolve_address": "Sua localização não pôde ser encontrada. Tente novamente ou use um endereço diferente"
+        "could_not_resolve_address": "Sua localização não pôde ser encontrada. Tente novamente ou use um endereço diferente",
+        "geolocation": {
+          "shared_location_button": "Usar minha localização"
+        },
+        "pickup_unavailable_banner_title": {
+          "other": "Seus artigos não estão disponíveis em locais de retirada"
+        }
       },
       "wallets": {
         "errors": {
           "unsupported": {
             "wallet_is_unavailable": "{{walletName}} não pode ser usado com este endereço. Escolha outro endereço ou feche {{walletName}} para concluir sua compra."
+          },
+          "outdated": {
+            "payment_terms": "As condições de pagamento mudaram. Por favor, verifique seu pedido."
           }
         }
       }

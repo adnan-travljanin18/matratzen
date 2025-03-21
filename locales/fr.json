@@ -385,13 +385,31 @@
         "inventory_reservation_failure": "Certains articles ne sont plus disponibles."
       },
       "pickup_point": {
-        "could_not_resolve_address": "Votre adresse n'a pas pu être localisée. Réessayez ou utilisez une autre adresse"
+        "could_not_resolve_address": "Votre adresse n'a pas pu être localisée. Réessayez ou utilisez une autre adresse",
+        "geolocation": {
+          "errors": {
+            "permission_not_allowed": "Autorisez le partage de votre emplacement."
+          }
+        }
       },
       "wallets": {
         "errors": {
           "unsupported": {
             "wallet_is_unavailable": "{{walletName}} ne peut pas être utilisé avec cette adresse. Choisissez une autre adresse ou fermez {{walletName}} pour finaliser votre achat."
+          },
+          "outdated": {
+            "payment_terms": "Les conditions de paiement ont changé. Veuillez vérifier votre commande."
           }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "message": "Mettez à jour cette page ou réessayez dans quelques minutes"
+        }
+      },
+      "notice_banner": {
+        "individual_violations_title": {
+          "OtherViolations": "Informations de commande"
         }
       }
     }

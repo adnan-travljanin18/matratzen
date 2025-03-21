@@ -371,14 +371,28 @@
       },
       "pickup_point": {
         "business_hours": "Nyitvatartás",
-        "could_not_resolve_address": "A címed nem volt lokalizálható. Próbáld újra, vagy használj egy másik címet"
+        "could_not_resolve_address": "A címed nem volt lokalizálható. Próbáld újra, vagy használj egy másik címet",
+        "geolocation": {
+          "shared_location_button": "A helyem használata"
+        }
       },
       "wallets": {
         "errors": {
           "unsupported": {
             "wallet_is_unavailable": "{{walletName}} nem használható ezzel a címmel. Válassz egy másik címet, vagy zárd be a {{walletName}}-t a vásárlás befejezéséhez."
+          },
+          "outdated": {
+            "payment_terms": "A fizetési feltételek megváltoztak. Kérlek, ellenőrizd a rendelésed."
           }
         }
+      },
+      "error_page": {
+        "terminal": {
+          "message": "Frissítsd az oldalt, vagy próbáld meg újra néhány perc múlva"
+        }
+      },
+      "notice_banner": {
+        "violations_title": "{{a megsértés}} hiányzik vagy érvénytelen"
       }
     }
   },

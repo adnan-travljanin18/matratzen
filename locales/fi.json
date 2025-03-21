@@ -375,13 +375,31 @@
         "inventory_reservation_failure": "Joitakin tuotteita ei ole enää saatavilla."
       },
       "pickup_point": {
-        "could_not_resolve_address": "Osoitettasi ei voitu paikantaa. Yritä uudelleen tai käytä toista osoitetta"
+        "could_not_resolve_address": "Osoitettasi ei voitu paikantaa. Yritä uudelleen tai käytä toista osoitetta",
+        "geolocation": {
+          "errors": {
+            "permission_not_allowed": "Hyväksy sijaintisi jakaminen."
+          }
+        }
       },
       "wallets": {
         "errors": {
           "unsupported": {
             "wallet_is_unavailable": "{{walletName}} ei voi käyttää tätä osoitetta. Valitse toinen osoite tai sulje {{walletName}}, jotta voit lopettaa ostoksesi."
+          },
+          "outdated": {
+            "payment_terms": "Maksuehdot ovat muuttuneet. Ole hyvä ja tarkista tilauksesi."
           }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "message": "Päivitä tämä sivu tai yritä myöhemmin uudelleen"
+        }
+      },
+      "notice_banner": {
+        "individual_violations_title": {
+          "OtherViolations": "Tilausehdot"
         }
       }
     }
