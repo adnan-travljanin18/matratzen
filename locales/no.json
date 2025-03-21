@@ -213,7 +213,8 @@
         "apply_gift_card_button_label": "Bruke",
         "card_expiry_placeholder": "Giltig til (MM/ÅÅ)",
         "card_verification_value_explanation": "Ein tredelt sikkerhetskode, som vanligvis finnes på baksiden av kortet ditt. American Express-kort har en fire-sifret kode på forsiden.",
-        "card_verification_value_explanation_other": "3-sifret sikkerhetskode på baksiden av kortet"
+        "card_verification_value_explanation_other": "3-sifret sikkerhetskode på baksiden av kortet",
+        "card_issue_number_placeholder": "Nummer"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuelt saldo: %{amount}"
@@ -226,7 +227,9 @@
         "delivery_line_detail_changed": "Noen leveringsdetaljer kan ha endret seg. Sjekk fraktmetoden din og prøv igjen.",
         "gift_card_already_applied": "Denne kupongen har allerede blitt lagt til bestillingen din",
         "address_last_name_contains_html_tags": "Etternavnet kan ikke inneholde HTML-tagger.",
-        "address_address2_contains_emojis": "Adresse 2 kan ikke inneholde emojier"
+        "address_address2_contains_emojis": "Adresse 2 kan ikke inneholde emojier",
+        "payment_gateway_unsupported_for_development_store_html": "Du må bruke en testbetalingsgateway for å kunne legge inn en testbestilling. Lær mer om <a href=\"%{docs_link}\">Testing av bestillinger i utviklingsbutikker</a>.",
+        "address_zip_invalid": "Skriv inn et gyldig postnummer"
       }
     }
   },

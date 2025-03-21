@@ -212,7 +212,8 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Appliquer",
         "card_expiry_placeholder": "Valide jusqu'au (MM/AA)",
-        "card_verification_value_explanation_other": "3-digit security code on the back of your card"
+        "card_verification_value_explanation_other": "3-digit security code on the back of your card",
+        "card_issue_number_placeholder": "Numéro"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Solde actuel : %{amount}"
@@ -226,7 +227,9 @@
         "gift_card_already_applied": "Ce bon a déjà été ajouté à votre commande",
         "physical_gift_card_invalid_code": "Le code du bon est invalide.",
         "address_last_name_contains_html_tags": "Le nom de famille ne doit pas contenir de balises HTML.",
-        "address_phone_contains_emojis": "Le numéro de téléphone ne doit pas contenir d'émojis"
+        "address_phone_contains_emojis": "Le numéro de téléphone ne doit pas contenir d'émojis",
+        "payment_gateway_unsupported_for_development_store_html": "Du dois utiliser une passerelle de paiement de test pour pouvoir passer une commande test. En savoir plus sur <a href=\"%{docs_link}\">Tester des commandes dans des boutiques de développement</a>.",
+        "address_zip_invalid": "Entrez un code postal valide"
       }
     }
   },

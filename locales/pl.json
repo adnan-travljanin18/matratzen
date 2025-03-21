@@ -213,7 +213,8 @@
         "apply_gift_card_button_label": "Zastosować",
         "card_expiry_placeholder": "Ważne do (MM/RR)",
         "card_verification_value_explanation": "Kod bezpieczeństwa składający się z trzech cyfr, który zazwyczaj znajduje się na odwrocie twojej karty. Karty American Express mają czterocyfrowy kod z przodu.",
-        "card_verification_value_explanation_other": "3-cyfrowy kod zabezpieczający na odwrocie twojej karty"
+        "card_verification_value_explanation_other": "3-cyfrowy kod zabezpieczający na odwrocie twojej karty",
+        "card_issue_number_placeholder": "Numer"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktualne saldo: %{amount}"
@@ -226,7 +227,9 @@
         "reduction_code_gift_card_code_invalid": "Wprowadź ważny kupon",
         "gift_card_already_applied": "Ten kupon został już dodany do Twojego zamówienia",
         "address_last_name_contains_html_tags": "Nazwisko nie może zawierać znaczników HTML.",
-        "address_address2_contains_emojis": "Adres 2 nie może zawierać emotikonów"
+        "address_address2_contains_emojis": "Adres 2 nie może zawierać emotikonów",
+        "payment_gateway_unsupported_for_development_store_html": "Du musisz użyć testowej bramki płatności, aby móc złożyć testowe zamówienie. Dowiedz się więcej o <a href=\"%{docs_link}\">Testowaniu zamówień w Sklepach Deweloperskich</a>.",
+        "address_zip_invalid": "Wprowadź prawidłowy kod pocztowy"
       }
     }
   },

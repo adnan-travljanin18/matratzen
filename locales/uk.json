@@ -260,7 +260,10 @@
         "gift_card_already_applied": "Цей купон вже було додано до твого замовлення",
         "address_last_name_contains_html_tags": "Прізвище не повинно містити HTML-теги.",
         "address_company_contains_html_tags": "Підприємство не повинно містити HTML-теги.",
-        "address_zip_contains_emojis": "Поштовий індекс не може містити емодзі"
+        "address_address2_contains_emojis": "Адреса 2 не повинна містити емодзі",
+        "address_zip_not_supported": "Ця локація не підтримується",
+        "payment_gateway_unsupported_for_development_store_html": "Du musst ein тестове платіжне шлюз використовувати, щоб мати можливість зробити тестове замовлення. Дізнайся більше про <a href=\"%{docs_link}\">Тестування замовлень у розробницьких магазинах</a>.",
+        "address_zip_invalid": "Введіть дійсний поштовий індекс"
       }
     }
   },

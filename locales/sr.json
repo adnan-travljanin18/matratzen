@@ -227,7 +227,10 @@
         "gift_card_currency_mismatch": "Samo poklon vaučeri u %{checkout_currency} mogu se koristiti za ovu narudžbinu",
         "address_last_name_contains_html_tags": "Prezime ne sme sadržati HTML oznake.",
         "address_company_contains_html_tags": "Preduzeće ne sme sadržati HTML oznake.",
-        "address_company_contains_emojis": "Preduzeće ne sme sadržati emotikone"
+        "address_address2_contains_emojis": "Адреса 2 не сме садржавати емоджи",
+        "address_zip_not_supported": "Ova lokacija nije podržana",
+        "payment_gateway_unsupported_for_development_store_html": "Du moraš koristiti test-platni sistem da bi mogao da postaviš test narudžbinu. Saznaj više o <a href=\"%{docs_link}\">testiranju narudžbina u razvojnom prodavnicama</a>.",
+        "vaulting_agreement_blank": "Tvoja karta mora biti sačuvana, jer je plaćanje za stanje ove narudžbine kasnije dospjelo."
       }
     }
   },

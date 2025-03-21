@@ -219,7 +219,10 @@
         "gift_card_already_applied": "Ez a kupon már hozzá lett adva a rendelésedhez",
         "address_last_name_contains_html_tags": "A vezetéknév nem tartalmazhat HTML-címkéket.",
         "address_company_contains_html_tags": "A vállalkozásnak nem szabad HTML-címkéket tartalmaznia.",
-        "address_city_contains_emojis": "A városnak nem szabad emotikonokat tartalmaznia"
+        "address_city_contains_emojis": "A városnak nem szabad emotikonokat tartalmaznia",
+        "address_zip_not_supported": "Ez a helyszín nem támogatott",
+        "payment_gateway_unsupported_for_development_store_html": "Du musst ein Tesztfizetési átjárót használni a tesztmegrendelés leadásához. Tudd meg többet a <a href=\"%{docs_link}\">Megrendelések tesztelése a fejlesztési boltokban</a>",
+        "address_zip_invalid": "Írj be egy érvényes irányítószámot"
       }
     }
   },

@@ -207,7 +207,8 @@
         "apply_gift_card_button_label": "Käyttää",
         "card_expiry_placeholder": "Voimassa kuni (KK/VV)",
         "card_verification_value_explanation_amex": "4-numeroinen turvakoodi korttisi etupuolella",
-        "card_verification_value_explanation_other": "3-stelliger turvallisuusnumero korttisi takana"
+        "card_verification_value_explanation_other": "3-stelliger turvallisuusnumero korttisi takana",
+        "card_change_label": "Muuttaa"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktiivinen saldo: %{amount}"
@@ -220,7 +221,9 @@
         "delivery_line_detail_changed": "Joitakin toimitustietoja on saattanut muuttua. Tarkista toimitustapasi ja yritä uudelleen.",
         "gift_card_already_applied": "Tämä lahjakortti on jo lisätty tilauksesi mukaan",
         "address_last_name_contains_html_tags": "Sukunimi ei saa sisältää HTML-tageja.",
-        "address_phone_contains_emojis": "Puhelinnumerossa ei saa olla emojeja"
+        "address_phone_contains_emojis": "Puhelinnumerossa ei saa olla emojeja",
+        "payment_gateway_unsupported_for_development_store_html": "Du musst ein Test-Zahlungs-Gateway nutzen, um eine Testbestellung aufgeben zu können. Erfahre mehr über <a href=\"%{docs_link}\">Testen von Bestellungen in Development Shops</a>.",
+        "address_zip_invalid": "Anna voimassa oleva postinumero"
       }
     }
   },

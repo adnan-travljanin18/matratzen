@@ -214,7 +214,8 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Applicare",
         "card_expiry_placeholder": "Valido fino a (MM/AA)",
-        "card_verification_value_explanation_other": "Codice di sicurezza a 3 cifre sul retro della tua carta"
+        "card_verification_value_explanation_other": "Codice di sicurezza a 3 cifre sul retro della tua carta",
+        "card_issue_number_placeholder": "Numero"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Saldo attuale: %{amount}"
@@ -228,7 +229,9 @@
         "gift_card_already_applied": "Questo coupon è stato già aggiunto al tuo ordine",
         "physical_gift_card_invalid_code": "Il codice del coupon non è valido.",
         "address_last_name_contains_html_tags": "Il cognome non deve contenere tag HTML.",
-        "address_phone_contains_emojis": "Il numero di telefono non deve contenere emoji"
+        "address_phone_contains_emojis": "Il numero di telefono non deve contenere emoji",
+        "payment_gateway_unsupported_for_development_store_html": "Du devi utilizzare un gateway di pagamento di prova per poter effettuare un ordine di prova. Scopri di più su <a href=\"%{docs_link}\">Testare gli ordini nei negozi di sviluppo</a>.",
+        "address_zip_invalid": "Inserisci un codice postale valido"
       }
     }
   },

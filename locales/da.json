@@ -212,7 +212,8 @@
         "apply_gift_card_button_label": "Anvende",
         "card_expiry_placeholder": "Giltig til (MM/ÅÅ)",
         "card_verification_value_explanation_amex": "4-stellig sikkerhedskode på forsiden af dit kort",
-        "card_verification_value_explanation_other": "3-cifret sikkerhedskode på bagsiden af dit kort"
+        "card_verification_value_explanation_other": "3-cifret sikkerhedskode på bagsiden af dit kort",
+        "card_change_label": "Ændre"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuelt saldo: %{amount}"
@@ -225,7 +226,9 @@
         "delivery_line_detail_changed": "Nogle leveringsoplysninger kan være ændret. Tjek din forsendelsesmetode og prøv igen.",
         "gift_card_already_applied": "Denne kupon er allerede tilføjet til din bestilling",
         "address_last_name_contains_html_tags": "Efternavnet må ikke indeholde HTML-tags.",
-        "address_phone_contains_emojis": "Telefonnummer må ikke indeholde emojis"
+        "address_phone_contains_emojis": "Telefonnummer må ikke indeholde emojis",
+        "payment_gateway_unsupported_for_development_store_html": "Du skal bruge en testbetalingsgateway for at kunne oprette en testbestilling. Læs mere om <a href=\"%{docs_link}\">test af bestillinger i udviklingsbutikker</a>.",
+        "address_zip_invalid": "Indtast et gyldigt postnummer"
       }
     }
   },

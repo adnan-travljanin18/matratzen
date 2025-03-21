@@ -240,7 +240,8 @@
         "apply_gift_card_button_label": "Uygula",
         "card_expiry_placeholder": "Gültü tarihe kadar (AA/YY)",
         "card_verification_value_explanation": "Bir üç haneli güvenlik kodu genellikle kartının arkasında bulunur. American Express kartlarının ön yüzünde dört haneli bir kod vardır.",
-        "card_verification_value_explanation_other": "3 haneli güvenlik kodu kartının arkasında"
+        "card_verification_value_explanation_other": "3 haneli güvenlik kodu kartının arkasında",
+        "card_issue_number_placeholder": "Numara"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktif Bakiyeniz: %{amount}"
@@ -253,7 +254,9 @@
         "reduction_code_gift_card_code_invalid": "Geçerli bir kupon girin",
         "gift_card_already_applied": "Bu hediye çeki zaten siparişinize eklenmiştir",
         "address_last_name_contains_html_tags": "Soyadı HTML etiketleri içermemelidir.",
-        "address_address2_contains_emojis": "Adresse 2 emoji içermemelidir"
+        "address_address2_contains_emojis": "Adresse 2 emoji içermemelidir",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Du, bu ödeme işlemcisi ile Geliştirme Mağazası siparişleri için limiti aştın. Başka bir sipariş verebilmek için bir Test Ödeme Geçidi kullanmalısın. <a href=\"%{docs_link}\">Geliştirme Mağazalarında Siparişleri Test Etme</a> hakkında daha fazla bilgi edin.",
+        "address_zip_invalid": "Geçerli bir posta kodu girin"
       }
     }
   },

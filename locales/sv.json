@@ -238,7 +238,8 @@
         "apply_gift_card_button_label": "Tillämpa",
         "card_expiry_placeholder": "Giltig till (MM/ÅÅ)",
         "card_verification_value_explanation": "En tre-siffrig säkerhetskod som vanligtvis finns på baksidan av ditt kort. American Express-kort har en fyra-siffrig kod på framsidan.",
-        "card_verification_value_explanation_other": "3-siffrig säkerhetskod på baksidan av ditt kort"
+        "card_verification_value_explanation_other": "3-siffrig säkerhetskod på baksidan av ditt kort",
+        "card_issue_number_placeholder": "Nummer"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuellt saldo: %{amount}"
@@ -251,7 +252,9 @@
         "reduction_code_gift_card_code_invalid": "Ange ett giltigt kupongkod",
         "gift_card_already_applied": "Den här kupongen har redan lagts till i din beställning",
         "address_last_name_contains_html_tags": "Efternamnet får inte innehålla HTML-taggar.",
-        "address_address2_contains_emojis": "Adress 2 får inte innehålla emojis"
+        "address_address2_contains_emojis": "Adress 2 får inte innehålla emojis",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Du har nått gränsen för beställningar i Development Shop med denna betalningslösare. Du måste använda en testbetalningsgateway för att kunna göra en ny beställning. Lär dig mer om <a href=\"%{docs_link}\">Testa beställningar i Development Shops</a>.",
+        "address_zip_invalid": "Ange en giltig postnummer"
       }
     }
   },

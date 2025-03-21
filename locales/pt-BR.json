@@ -207,7 +207,8 @@
         "swish_label": "Swish",
         "card_number_placeholder": "Número do cartão",
         "card_expiry_placeholder": "Válido até (MM/AA)",
-        "card_verification_value_explanation": "Um código de segurança de três dígitos, que geralmente se encontra na parte de trás do seu cartão. Cartões American Express têm um código de quatro dígitos na parte da frente."
+        "card_verification_value_explanation": "Um código de segurança de três dígitos, que geralmente se encontra na parte de trás do seu cartão. Cartões American Express têm um código de quatro dígitos na parte da frente.",
+        "card_issue_number_placeholder": "Número"
       },
       "field_errors": {
         "handle_phone_invalid": "Digite um número de telefone válido",
@@ -217,7 +218,9 @@
         "gift_card_currency_mismatch": "Apenas vale gift vouchers em %{checkout_currency} para este pedido",
         "address_last_name_contains_html_tags": "O sobrenome não pode conter tags HTML.",
         "address_company_contains_html_tags": "A empresa não pode conter tags HTML.",
-        "address_company_contains_emojis": "A empresa não deve conter Emojis"
+        "address_address2_contains_emojis": "O endereço 2 não pode conter emojis",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Os cupons não são suportados em opções de compra com adiamento de pagamento.",
+        "vaulting_agreement_blank": "Sua carta deve ser salva, pois o pagamento pelo crédito deste pedido será devido mais tarde."
       }
     }
   },

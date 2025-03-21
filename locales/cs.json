@@ -201,7 +201,8 @@
         "apply_gift_card_button_label": "Použít",
         "card_expiry_placeholder": "Platnost do (MM/RRRR)",
         "card_verification_value_explanation_amex": "4-ciferný bezpečnostní kód na přední straně tvé karty",
-        "card_verification_value_explanation_other": "Tříciferný bezpečnostní kód na zadní straně tvé karty"
+        "card_verification_value_explanation_other": "Tříciferný bezpečnostní kód na zadní straně tvé karty",
+        "card_change_label": "Změnit"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuální zůstatek: %{amount}"
@@ -214,7 +215,9 @@
         "delivery_line_detail_changed": "Některé podrobnosti o dodání se mohly změnit. Zkontrolujte svůj způsob doručení a zkuste to znovu.",
         "gift_card_disabled": "Tento voucher již není k dispozici",
         "address_last_name_contains_html_tags": "Příjmení nesmí obsahovat žádné HTML značky.",
-        "address_phone_contains_emojis": "Telefonní číslo nesmí obsahovat emoji"
+        "address_phone_contains_emojis": "Telefonní číslo nesmí obsahovat emoji",
+        "payment_gateway_unsupported_for_development_store_html": "Du musíš použít testovací platební bránu, abys mohl provést testovací objednávku. Zjisti více o <a href=\"%{docs_link}\">testování objednávek v rozvojových obchodech</a>.",
+        "address_zip_invalid": "Zadejte platné PSČ"
       }
     }
   },
