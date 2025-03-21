@@ -31,27 +31,14 @@
           },
           "session_identifier_not_unique_error": "Det har skjedd en feil med bestillingen din, vær vennlig å prøve å sjekke ut igjen.",
           "merchandise": {
-            "merchandise_variant_not_found": "Produktvarianten ble ikke funnet."
-          },
-          "sale_attribution": {
-            "location_not_exist": "Denne plasseringen er ikke tilgjengelig i den nåværende butikken."
-          },
-          "inventory": {
-            "only_one_inventory_behavior_allowed": "For tiden er det kun tillatt med én lageroppførsel per utsjekking."
-          },
-          "captcha": {
-            "job_already_queued": "Captcha-valideringen for dette Captcha-tokenet har allerede blitt lagt til i køen."
+            "merchandise_variant_not_found": "Produktvarianten ble ikke funnet.",
+            "title_too_long": "Merchandise-artikkeltittelen er for lang."
           }
         },
         "complete_purchase_button_label": "Kjøpe",
         "close_modal_label": "Lukk",
         "expand_notice_label": "Vis flere",
-        "autocomplete_selection": "{{number}} av {{total}}",
-        "display_name": "{{firstName}} {{lastName}}",
-        "remove_item": "%{label} fjerne"
-      },
-      "contact": {
-        "different_shipping_address_text": "En unik adresse for denne bestillingen bruke"
+        "autocomplete_selection": "{{number}} av {{total}}"
       }
     }
   },

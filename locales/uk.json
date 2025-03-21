@@ -52,9 +52,20 @@
         "dates": {
           "months": {
             "february": "Лютий"
+          },
+          "weekdays_abbreviation": {
+            "wednesday": "Мі"
           }
         },
-        "remove_item": "%{label} видалити"
+        "remove_item": "%{label} видалити",
+        "datepicker": {
+          "show_previous_month": "Показати попередній місяць, {{month}} {{year}}"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} und {{lastWord}}"
+          }
+        }
       },
       "contact": {
         "postal_code_label": "Поштовий індекс",

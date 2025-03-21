@@ -31,26 +31,17 @@
           "only_empty_terms_accepted": "Za ovaj uslov samo prazni unosi su validni.",
           "merchandise": {
             "gift_card_invalid": "Код за поклон-вукан {{code}} је неважећи."
-          },
-          "sale_attribution": {
-            "location_not_exist": "Ova lokacija nije dostupna u trenutnoj prodavnici."
-          },
-          "inventory": {
-            "only_one_inventory_behavior_allowed": "Trenutno je dozvoljeno samo jedno ponašanje inventara po izlazu."
-          },
-          "captcha": {
-            "job_already_queued": "Validacija Captcha za ovaj Captcha-token je već stavljena na čekanje."
           }
         },
         "complete_purchase_button_label": "Kupovina",
         "close_modal_label": "Zatvoriti",
         "continue_to_shipping_method": "Nastavite ka isporuci",
         "autocomplete_selection": "{{number}} von {{total}}",
-        "title": "Checkout – {{shopName}}",
-        "remove_item": "%{label} ukloniti"
-      },
-      "contact": {
-        "different_shipping_address_text": "Jedinstvena adresa za ovu narudžbinu"
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} und {{lastWord}}"
+          }
+        }
       }
     }
   },

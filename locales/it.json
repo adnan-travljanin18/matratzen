@@ -31,27 +31,14 @@
           },
           "merchandise": {
             "merchandise_variant_not_found": "La variante del prodotto non è stata trovata.",
-            "bundle_requires_components": "Questo bundle di articoli di merchandising non ha componenti."
-          },
-          "sale_attribution": {
-            "location_not_exist": "Questo punto vendita non è presente nell'attuale negozio."
-          },
-          "inventory": {
-            "only_one_inventory_behavior_allowed": "Attualmente è consentito solo un comportamento di inventario per checkout."
-          },
-          "captcha": {
-            "job_already_queued": "La convalida del Captcha per questo token Captcha è già stata aggiunta alla coda."
+            "title_too_long": "Il titolo dell'articolo di merchandising è troppo lungo."
           }
         },
         "complete_purchase_button_label": "Comprare",
         "close_modal_label": "Chiudere",
         "expand_notice_label": "Mostra di più",
         "autocomplete_selection": "{{number}} di {{total}}",
-        "autocomplete_close": "Suggerimenti chiusi",
-        "display_name": "{{firstName}} {{lastName}}"
-      },
-      "contact": {
-        "different_shipping_address_text": "Un indirizzo unico per questo ordine utilizzare"
+        "autocomplete_close": "Suggerimenti chiusi"
       }
     }
   },

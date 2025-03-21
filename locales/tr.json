@@ -31,7 +31,8 @@
           "session_identifier_not_unique_error": "Siparişinle ilgili bir sorun oluştu, lütfen tekrar çıkış yapmayı dene.",
           "merchandise": {
             "merchandise_variant_not_found": "Ürün varyasyonu bulunamadı.",
-            "gift_card_invalid": "Der Geschenkgutschein kodu {{code}} geçersiz."
+            "gift_card_invalid": "Der Geschenkgutschein kodu {{code}} geçersiz.",
+            "title_too_long": "Merchandise item title is too long."
           },
           "sale_attribution": {
             "location_not_exist": "Bu konum mevcut mağazada yok."
@@ -52,9 +53,15 @@
         "dates": {
           "months": {
             "february": "Şubat"
+          },
+          "weekdays_abbreviation": {
+            "wednesday": "Mi"
           }
         },
-        "remove_item": "%{label} kaldır"
+        "remove_item": "%{label} kaldır",
+        "datepicker": {
+          "show_previous_month": "Vormonat göster, {{month}} {{year}}"
+        }
       },
       "contact": {
         "postal_code_label": "Posta kodu",
