@@ -104,7 +104,8 @@
         "subscription_pickup_information": "Denna leveransmetod gäller för alla artiklar i denna beställning och för alla framtida beställningar för denna prenumeration.",
         "pick_up_in_two_hours": "Vanligtvis färdigt om 2 timmar",
         "pick_up_in_one_hour": "Vanligtvis klart inom 1 timme",
-        "pickup_point_method_definition": "En avhämtningsplats att skicka"
+        "pickup_point_method_definition": "En avhämtningsplats att skicka",
+        "none_method_definition": "Ingen frakt"
       },
       "customer_account": {
         "sign_in_link_label": "Anmäla",
@@ -958,7 +959,9 @@
   },
   "gift_cards": {
     "issued": {
-      "qr_image_alt": "QR-kod – skanna för att lösa in presentkortet"
+      "qr_image_alt": "QR-kod – skanna för att lösa in presentkortet",
+      "expired": "Utgången",
+      "copy_code_success": "Koden har kopierats framgångsrikt"
     }
   }
 }

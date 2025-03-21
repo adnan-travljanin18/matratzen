@@ -110,7 +110,8 @@
         }
       },
       "delivery_options": {
-        "pick_up_in_five_or_more_days": "Almindeligvis færdig på 5 dage eller mere"
+        "pick_up_in_five_or_more_days": "Almindeligvis færdig på 5 dage eller mere",
+        "none_method_definition": "Ingen forsendelse"
       },
       "shipping": {
         "no_other_methods_available": "Ingen andre metoder tilgængelige",
@@ -939,7 +940,14 @@
   },
   "gift_cards": {
     "issued": {
-      "qr_image_alt": "QR-Kode – scann for at indløse gavekortet"
+      "qr_image_alt": "QR-Kode – scann for at indløse gavekortet",
+      "expired": "Udløbet",
+      "print_gift_card": "Trykke"
+    }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
     }
   }
 }

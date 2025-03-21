@@ -109,7 +109,8 @@
         "total_due_today_label": "Dzisiaj należna kwota całkowita"
       },
       "delivery_options": {
-        "pick_up_in_one_hour": "Zwykle gotowe w 1 godzinę"
+        "pick_up_in_one_hour": "Zwykle gotowe w 1 godzinę",
+        "none_method_definition": "Brak wysyłki"
       },
       "shipping": {
         "duties_and_taxes_options": {
@@ -929,7 +930,9 @@
   },
   "gift_cards": {
     "issued": {
-      "qr_image_alt": "QR-Code – zeskanuj, aby zrealizować kartę podarunkową"
+      "qr_image_alt": "QR-Code – zeskanuj, aby zrealizować kartę podarunkową",
+      "expired": "Przeterminowany",
+      "copy_code_success": "Kod pomyślnie skopiowany"
     }
   }
 }

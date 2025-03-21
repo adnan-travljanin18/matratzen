@@ -104,7 +104,8 @@
         "subscription_pickup_information": "Bu teslimat yöntemi, bu siparişteki tüm ürünler ve bu abonelik için tüm gelecekteki siparişler için geçerlidir.",
         "pick_up_in_two_hours": "Genellikle 2 saatte hazır",
         "pick_up_in_one_hour": "Genellikle 1 saatte hazır",
-        "pickup_point_method_definition": "Bir Abholstandort gönderme"
+        "pickup_point_method_definition": "Bir Abholstandort gönderme",
+        "none_method_definition": "Hiçbir gönderim"
       },
       "customer_account": {
         "incomplete_address": "Seçilen adres eksik. %{update_address_link} veya başka bir adres seçin.",
@@ -954,7 +955,9 @@
   },
   "gift_cards": {
     "issued": {
-      "qr_image_alt": "QR Kodu – hediye kartını almak için tarayın"
+      "qr_image_alt": "QR Kodu – hediye kartını almak için tarayın",
+      "expired": "Geçmiş",
+      "copy_code_success": "Kod başarıyla kopyalandı"
     }
   }
 }

@@ -87,7 +87,8 @@
         "subscription_pickup_information": "Ova metoda isporuke važi za sve artikle u ovoj narudžbini i za sve buduće narudžbine za ovu pretplatu.",
         "pick_up_in_two_hours": "Obično završeno za 2 sata",
         "pick_up_in_one_hour": "Obično završeno za 1 sat",
-        "pickup_point_method_definition": "Поинт за преузимање шаљемо"
+        "pickup_point_method_definition": "Поинт за преузимање шаљемо",
+        "none_method_definition": "Nema isporuke"
       },
       "customer_account": {
         "incomplete_address": "Izabrana adresa je nepotpuna. %{update_address_link} ili izaberi drugu adresu."
@@ -938,7 +939,9 @@
   },
   "gift_cards": {
     "issued": {
-      "add_to_apple_wallet": "Dodajte u Apple Wallet"
+      "add_to_apple_wallet": "Dodajte u Apple Wallet",
+      "expired": "Istekao",
+      "copy_code_success": "Код је успешно копиран"
     }
   }
 }

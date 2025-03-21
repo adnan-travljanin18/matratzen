@@ -107,7 +107,8 @@
         "total_due_today_label": "Den totale beløp som forfaller i dag"
       },
       "delivery_options": {
-        "pick_up_in_one_hour": "Vanligvis ferdig på 1 time"
+        "pick_up_in_one_hour": "Vanligvis ferdig på 1 time",
+        "none_method_definition": "Ingen frakt"
       },
       "shipping": {
         "duties_and_taxes_options": {
@@ -933,7 +934,9 @@
   },
   "gift_cards": {
     "issued": {
-      "qr_image_alt": "QR-kode – skann for å løse inn gavekortet"
+      "qr_image_alt": "QR-kode – skann for å løse inn gavekortet",
+      "expired": "Utgått",
+      "copy_code_success": "Koden er vellykket kopiert"
     }
   }
 }

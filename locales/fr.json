@@ -106,7 +106,8 @@
         }
       },
       "delivery_options": {
-        "pick_up_in_one_hour": "Habituellement prêt en 1 heure"
+        "pick_up_in_one_hour": "Habituellement prêt en 1 heure",
+        "none_method_definition": "Aucun envoi"
       },
       "shipping": {
         "delivery": "Livraison à %{time}",
@@ -933,7 +934,14 @@
   },
   "gift_cards": {
     "issued": {
-      "qr_image_alt": "QR-Code – scannez pour échanger la carte-cadeau"
+      "qr_image_alt": "QR-Code – scannez pour échanger la carte-cadeau",
+      "expired": "Expiré",
+      "copy_code_success": "Code copié avec succès"
+    }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
     }
   }
 }

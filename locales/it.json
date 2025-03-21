@@ -110,7 +110,8 @@
         "total_due_today_label": "Importo totale dovuto oggi"
       },
       "delivery_options": {
-        "pick_up_in_one_hour": "Normalmente pronto in 1 ora"
+        "pick_up_in_one_hour": "Normalmente pronto in 1 ora",
+        "none_method_definition": "Nessuna spedizione"
       },
       "shipping": {
         "no_rates_for_country_notice": "Per questo indirizzo non sono state trovate tariffe di spedizione.",
@@ -943,7 +944,14 @@
   },
   "gift_cards": {
     "issued": {
-      "qr_image_alt": "QR-Code – scansiona per riscattare la carta regalo"
+      "qr_image_alt": "QR-Code – scansiona per riscattare la carta regalo",
+      "expired": "Scaduto",
+      "copy_code_success": "Codice copiato correttamente"
+    }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
     }
   }
 }

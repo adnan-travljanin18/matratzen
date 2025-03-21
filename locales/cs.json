@@ -105,7 +105,8 @@
         }
       },
       "delivery_options": {
-        "pick_up_immediately": "Nyní připraveno k vyzvednutí"
+        "pick_up_immediately": "Nyní připraveno k vyzvednutí",
+        "none_method_definition": "Žádná doprava"
       },
       "shipping": {
         "no_other_methods_available": "Žádné jiné metody nejsou k dispozici",
@@ -925,7 +926,14 @@
   },
   "gift_cards": {
     "issued": {
-      "qr_image_alt": "QR-Code – skenujte pro uplatnění dárkové karty"
+      "qr_image_alt": "QR-Code – skenujte pro uplatnění dárkové karty",
+      "expired": "Expirace",
+      "print_gift_card": "Tisk"
+    }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
     }
   }
 }

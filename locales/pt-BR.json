@@ -112,7 +112,8 @@
       "delivery_options": {
         "pick_up_in_two_hours": "Normalmente pronto em 2 horas",
         "pick_up_in_one_hour": "Normalmente pronto em 1 hora",
-        "pickup_point_method_definition": "Um ponto de coleta enviar"
+        "pickup_point_method_definition": "Um ponto de coleta enviar",
+        "none_method_definition": "Nenhuma entrega"
       },
       "shipping": {
         "no_other_methods_available": "Nenhum outro método disponível",
@@ -930,7 +931,9 @@
   },
   "gift_cards": {
     "issued": {
-      "add_to_apple_wallet": "Adicionar ao Apple Wallet"
+      "add_to_apple_wallet": "Adicionar ao Apple Wallet",
+      "expired": "Expirado",
+      "copy_code_success": "Código copiado com sucesso"
     }
   }
 }

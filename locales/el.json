@@ -112,7 +112,8 @@
       "delivery_options": {
         "pick_up_in_two_hours": "Συνήθως έτοιμο σε 2 ώρες",
         "pick_up_in_one_hour": "Συνήθως έτοιμο σε 1 ώρα",
-        "pickup_point_method_definition": "Ένα σημείο παραλαβής αποστολής"
+        "pickup_point_method_definition": "Ένα σημείο παραλαβής αποστολής",
+        "none_method_definition": "Κανένα αποστολή"
       },
       "shipping": {
         "no_other_methods_available": "Δεν υπάρχουν άλλες μέθοδοι διαθέσιμες",
@@ -932,7 +933,9 @@
   },
   "gift_cards": {
     "issued": {
-      "add_to_apple_wallet": "Προσθήκη στο Apple Wallet"
+      "add_to_apple_wallet": "Προσθήκη στο Apple Wallet",
+      "expired": "Ξεπερασμένο",
+      "copy_code_success": "Ο κώδικας έχει αντιγραφεί με επιτυχία"
     }
   }
 }

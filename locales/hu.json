@@ -114,7 +114,8 @@
       "delivery_options": {
         "pick_up_in_two_hours": "Általában 2 órán belül kész",
         "pick_up_in_one_hour": "Szokásosan 1 órán belül kész",
-        "pickup_point_method_definition": "Egy átvevőhelyre küldés"
+        "pickup_point_method_definition": "Egy átvevőhelyre küldés",
+        "none_method_definition": "Nincs szállítás"
       },
       "shipping": {
         "no_other_methods_available": "Nincsenek más módszerek elérhetők",
@@ -934,7 +935,9 @@
   },
   "gift_cards": {
     "issued": {
-      "add_to_apple_wallet": "Apple Wallet-hoz hozzáadni"
+      "add_to_apple_wallet": "Apple Wallet-hoz hozzáadni",
+      "expired": "Lejárt",
+      "copy_code_success": "A kód sikeresen másolva"
     }
   }
 }

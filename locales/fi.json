@@ -106,7 +106,8 @@
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Tavallisesti valmis 1 tunnissa",
-        "pickup_point_method_definition": "Toimituspaikka lähettää"
+        "pickup_point_method_definition": "Toimituspaikka lähettää",
+        "none_method_definition": "Ei toimitusta"
       },
       "shipping": {
         "delivery": "Zustellung um %{time}",
@@ -927,7 +928,14 @@
   },
   "gift_cards": {
     "issued": {
-      "qr_image_alt": "QR-Koodi – skannaa Go to redeem the gift card"
+      "qr_image_alt": "QR-Koodi – skannaa Go to redeem the gift card",
+      "expired": "Vanhentunut",
+      "copy_code_success": "Koodi kopioitu onnistuneesti"
+    }
+  },
+  "collections": {
+    "general": {
+      "link_title": "TODO"
     }
   }
 }

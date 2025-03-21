@@ -112,7 +112,8 @@
         "subscription_pickup_information": "Цей спосіб доставки стосується всіх товарів у цьому замовленні та всіх майбутніх замовлень для цього підписки.",
         "pick_up_in_two_hours": "Зазвичай готово за 2 години",
         "pick_up_in_one_hour": "Зазвичай готовий за 1 годину",
-        "pickup_point_method_definition": "Відправити на пункт видачі"
+        "pickup_point_method_definition": "Відправити на пункт видачі",
+        "none_method_definition": "Жодної доставки"
       },
       "customer_account": {
         "incomplete_address": "Вибрана адреса неповна. %{update_address_link} або виберіть іншу адресу.",
@@ -957,7 +958,9 @@
   },
   "gift_cards": {
     "issued": {
-      "add_to_apple_wallet": "Додати до Apple Wallet"
+      "add_to_apple_wallet": "Додати до Apple Wallet",
+      "expired": "Прострочено",
+      "copy_code_success": "Код успішно скопійовано"
     }
   }
 }
