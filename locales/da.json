@@ -535,6 +535,12 @@
         "cancel": "Stornere"
       },
       "orders_link_label": "Bestillinger"
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "Stornere",
+        "save_accessibility_label": "Profil gemme"
+      }
     }
   }
 }

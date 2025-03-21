@@ -524,6 +524,12 @@
         "cancel": "Peruuttaa"
       },
       "orders_link_label": "Tilaukset"
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "Peruuttaa",
+        "save_accessibility_label": "Profiili tallentaa"
+      }
     }
   }
 }

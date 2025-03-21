@@ -528,7 +528,14 @@
         "label": "Konto",
         "close_menu_accessibility_label": "Fechar navegação da conta"
       },
-      "generic_accessibility_label": "{{label}}: {{value}}"
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "logout_overlay_label": "Abmeldung em andamento ..."
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "Cancelar",
+        "save_accessibility_label": "Salvar perfil"
+      }
     }
   }
 }

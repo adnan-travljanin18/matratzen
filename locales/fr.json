@@ -530,6 +530,12 @@
       "action_menu_accessibility_label": "Autres actions",
       "dismiss_toast": "Annuler",
       "orders_link_label": "Commandes"
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "Annuler",
+        "save_accessibility_label": "Enregistrer le profil"
+      }
     }
   }
 }

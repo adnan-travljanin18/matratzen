@@ -535,7 +535,13 @@
       },
       "action_menu_accessibility_label": "További műveletek",
       "generic_accessibility_label": "{{label}}: {{value}}",
-      "nav_label_accessibility_label": "Főmenü"
+      "logout_overlay_label": "A leiratkozás folyamatban van ..."
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "Stornieren",
+        "save_accessibility_label": "Profil mentése"
+      }
     }
   }
 }

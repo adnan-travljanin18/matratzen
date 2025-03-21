@@ -466,9 +466,6 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Teslimat adresi"
         }
-      },
-      "billing": {
-        "edit": "Düzenle"
       }
     },
     "pagination": {
@@ -557,7 +554,14 @@
         "label": "Konto"
       },
       "action_menu_accessibility_label": "Diğer İşlemler",
-      "generic_accessibility_label": "{{label}}: {{value}}"
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "logout_overlay_label": "Abonelik iptali sürüyor..."
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "İptal etmek",
+        "save_accessibility_label": "Profil kaydet"
+      }
     }
   }
 }

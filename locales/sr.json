@@ -540,7 +540,14 @@
         "label": "Konto"
       },
       "action_menu_accessibility_label": "Dodatne akcije",
-      "generic_accessibility_label": "{{label}}: {{value}}"
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "logout_overlay_label": "Abmeldung traje ..."
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "Отказати",
+        "save_accessibility_label": "Sačuvaj profil"
+      }
     }
   }
 }

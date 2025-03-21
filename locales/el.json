@@ -533,7 +533,13 @@
       },
       "action_menu_accessibility_label": "Περισσότερες ενέργειες",
       "generic_accessibility_label": "{{label}}: {{value}}",
-      "navigation_accessibility_message": "Έχεις μεταβεί στο {{sectionName}}"
+      "logout_overlay_label": "Η διαδικασία αποσύνδεσης εκτελείται ..."
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "Ακύρωση",
+        "save_accessibility_label": "Αποθήκευση προφίλ"
+      }
     }
   }
 }

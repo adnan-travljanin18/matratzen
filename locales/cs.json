@@ -516,6 +516,12 @@
         "cancel": "Zrušit"
       },
       "orders_link_label": "Objednávky"
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "Zrušit",
+        "save_accessibility_label": "Uložit profil"
+      }
     }
   }
 }

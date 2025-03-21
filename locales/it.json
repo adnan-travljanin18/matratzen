@@ -533,6 +533,12 @@
       "action_menu_accessibility_label": "Ulteriori azioni",
       "dismiss_toast": "Annullare",
       "orders_link_label": "Ordini"
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "Annullare",
+        "save_accessibility_label": "Salva profilo"
+      }
     }
   }
 }

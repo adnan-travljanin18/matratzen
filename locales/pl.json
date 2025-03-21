@@ -437,9 +437,6 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Adres dostawy"
         }
-      },
-      "billing": {
-        "address_more": "Więcej akcji dla tego adresu"
       }
     },
     "pagination": {
@@ -528,7 +525,14 @@
         "label": "Konto"
       },
       "action_menu_accessibility_label": "Dalsze akcje",
-      "dismiss_toast": "Odrzuć"
+      "dismiss_toast": "Odrzuć",
+      "orders_link_label": "Zamówienia"
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "Anulować",
+        "save_accessibility_label": "Zapisz profil"
+      }
     }
   }
 }
