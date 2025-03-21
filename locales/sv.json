@@ -892,7 +892,15 @@
     },
     "search": {
       "sortby_lable": "Sortera efter",
-      "title": "Sökeresultat"
+      "results_with_count": {
+        "one": "{{ count }} resultat för „{{ terms }}“ hittades"
+      }
+    },
+    "cart": {
+      "quantity": {
+        "decrease": "Minska mängden för {{ product }}"
+      },
+      "back_to_shop": "Visa alla artiklar"
     }
   }
 }

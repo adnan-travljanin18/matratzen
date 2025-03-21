@@ -751,7 +751,8 @@
           "pending": {
             "banner_overdue": {
               "one": "Sua pagamento está atrasado há {{count}} dias"
-            }
+            },
+            "title": "Pagável até"
           }
         }
       },
@@ -869,7 +870,13 @@
       "apply_btn": "Aplicar"
     },
     "search": {
-      "sortby_lable": "Classificar por"
+      "sortby_lable": "Classificar por",
+      "results_with_count": {
+        "one": "{{ count }} Resultados para \"{{ terms }}\" encontrados"
+      }
+    },
+    "cart": {
+      "back_to_shop": "Exibir todos os artigos"
     }
   }
 }

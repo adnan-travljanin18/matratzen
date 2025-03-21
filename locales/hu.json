@@ -871,7 +871,16 @@
       "apply_btn": "Alkalmazás"
     },
     "search": {
-      "sortby_lable": "Rendezés szerint"
+      "sortby_lable": "Rendezés szerint",
+      "results_with_count": {
+        "one": "{{ count }} Eredmény a „{{ terms }}“ keresésére talált"
+      }
+    },
+    "cart": {
+      "quantity": {
+        "decrease": "Menge csökkentése a {{ product }} esetében"
+      },
+      "back_to_shop": "Minden cikk megjelenítése"
     }
   }
 }

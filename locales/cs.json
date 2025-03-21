@@ -861,6 +861,12 @@
       "results_with_count": {
         "one": "{{ count }} Výsledek pro „{{ terms }}“ nalezen"
       }
+    },
+    "cart": {
+      "quantity": {
+        "decrease": "Menge pro {{ product }} snížit"
+      },
+      "back_to_shop": "Zobrazit všechny články"
     }
   }
 }

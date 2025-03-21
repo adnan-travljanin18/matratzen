@@ -864,8 +864,14 @@
     "search": {
       "sortby_lable": "Sortuj według",
       "results_with_count": {
-        "other": "{{ count }} wyniki dla „{{ terms }}“ znaleziono"
+        "one": "{{ count }} Wynik dla „{{ terms }}“ znaleziono"
       }
+    },
+    "cart": {
+      "quantity": {
+        "decrease": "Menge dla {{ product }} zmniejszyć"
+      },
+      "back_to_shop": "Wyświetl wszystkie artykuły"
     }
   }
 }

@@ -891,7 +891,16 @@
       "apply_btn": "Uygula"
     },
     "search": {
-      "sortby_lable": "Sırala"
+      "sortby_lable": "Sırala",
+      "results_with_count": {
+        "one": "{{ count }} \"{{ terms }}\" için sonuç bulundu"
+      }
+    },
+    "cart": {
+      "quantity": {
+        "decrease": "Mengeyi {{ product }} azalt"
+      },
+      "back_to_shop": "Tüm makaleleri göster"
     }
   }
 }

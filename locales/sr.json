@@ -761,7 +761,8 @@
           "pending": {
             "banner_overdue": {
               "one": "Tvoja uplata je preko {{count}} dana dospjela"
-            }
+            },
+            "title": "Zahlbar do"
           }
         }
       },
@@ -877,7 +878,13 @@
       "apply_btn": "Primeniti"
     },
     "search": {
-      "sortby_lable": "Sortiraj po"
+      "sortby_lable": "Sortiraj po",
+      "results_with_count": {
+        "one": "{{ count }} Резултат за „{{ terms }}“ пронађен"
+      }
+    },
+    "cart": {
+      "back_to_shop": "Prikaži sve članke"
     }
   }
 }

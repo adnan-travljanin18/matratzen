@@ -894,7 +894,16 @@
       "apply_btn": "Застосувати"
     },
     "search": {
-      "sortby_lable": "Сортувати за"
+      "sortby_lable": "Сортувати за",
+      "results_with_count": {
+        "one": "{{ count }} Результат для „{{ terms }}“ знайдено"
+      }
+    },
+    "cart": {
+      "quantity": {
+        "decrease": "Зменшити кількість для {{ product }}"
+      },
+      "back_to_shop": "Показати всі статті"
     }
   }
 }

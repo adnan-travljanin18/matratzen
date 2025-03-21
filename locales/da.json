@@ -872,12 +872,16 @@
       "apply_btn": "Anvende"
     },
     "search": {
-      "sortby_lable": "Sorter efter"
+      "sortby_lable": "Sorter efter",
+      "results_with_count": {
+        "one": "{{ count }} resultat for „{{ terms }}“ fundet"
+      }
     },
     "cart": {
-      "update_cart_message": {
-        "locked": "Nur {{ quantity }} tilgængelig til køb."
-      }
+      "quantity": {
+        "decrease": "Menge for {{ product }} reducere"
+      },
+      "back_to_shop": "Vis alle artikler"
     }
   }
 }

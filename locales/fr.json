@@ -866,12 +866,16 @@
       "apply_btn": "Appliquer"
     },
     "search": {
-      "sortby_lable": "Trier par"
+      "sortby_lable": "Trier par",
+      "results_with_count": {
+        "one": "{{ count }} résultat pour « {{ terms }} » trouvé"
+      }
     },
     "cart": {
-      "update_cart_message": {
-        "locked": "Nur {{ quantité }} disponible à l'achat."
-      }
+      "quantity": {
+        "decrease": "Menge pour {{ product }} verringern"
+      },
+      "back_to_shop": "Afficher tous les articles"
     }
   }
 }

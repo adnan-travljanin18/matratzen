@@ -876,10 +876,16 @@
       "apply_btn": "Applicare"
     },
     "search": {
-      "sortby_lable": "Ordinare per"
+      "sortby_lable": "Ordinare per",
+      "results_with_count": {
+        "one": "{{ count }} Risultato per „{{ terms }}“ trovato"
+      }
     },
     "cart": {
-      "title": "Carrello"
+      "quantity": {
+        "decrease": "Menge per {{ product }} ridurre"
+      },
+      "back_to_shop": "Mostra tutti gli articoli"
     }
   }
 }

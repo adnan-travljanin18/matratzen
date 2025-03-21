@@ -866,12 +866,16 @@
       "apply_btn": "Bruk"
     },
     "search": {
-      "sortby_lable": "Sortere etter"
+      "sortby_lable": "Sortere etter",
+      "results_with_count": {
+        "one": "{{ count }} Resultat for „{{ terms }}“ funnet"
+      }
     },
     "cart": {
-      "update_cart_message": {
-        "modify": "Nur {{ quantity }} tilgjengelig for kjøp. Endre gjeldende verdi."
-      }
+      "quantity": {
+        "decrease": "Menge for {{ product }} redusere"
+      },
+      "back_to_shop": "Alle artikler vises"
     }
   }
 }

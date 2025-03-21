@@ -858,12 +858,16 @@
       "apply_btn": "Käytä"
     },
     "search": {
-      "sortby_lable": "Järjestä mukaan"
+      "sortby_lable": "Järjestä mukaan",
+      "results_with_count": {
+        "one": "{{ count }} Tulosta „{{ terms }}“ löydetty"
+      }
     },
     "cart": {
-      "update_cart_message": {
-        "locked": "Nur {{ quantity }} saatavilla ostettavaksi."
-      }
+      "quantity": {
+        "decrease": "Menge für {{ product }} verringern"
+      },
+      "back_to_shop": "Näytä kaikki artikkelit"
     }
   }
 }
