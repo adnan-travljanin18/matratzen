@@ -32,6 +32,9 @@
           "merchandise": {
             "gift_card_invalid": "Код за поклон-вукан {{code}} је неважећи.",
             "product_not_published_in_buyer_location": "Proizvod nije objavljen na lokaciji kupca."
+          },
+          "buyer_identity": {
+            "email_required": "Potrebna je e-pošta kada se robni predmet kupuje u okviru pretplate."
           }
         },
         "complete_purchase_button_label": "Kupovina",
@@ -49,6 +52,10 @@
         "dropzone": {
           "dragged_over": "Фајл за учитавање оставите"
         }
+      },
+      "contact": {
+        "ship_to_company": "An {{companyName}} versenden",
+        "optional_first_name_label": "Vorname (opciono)"
       }
     }
   },

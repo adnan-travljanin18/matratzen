@@ -34,6 +34,9 @@
             "merchandise_variant_not_found": "Produktvarianten ble ikke funnet.",
             "title_too_long": "Merchandise-artikkeltittelen er for lang.",
             "product_not_published_in_buyer_location": "Produktet er ikke publisert på kjøperens sted."
+          },
+          "buyer_identity": {
+            "email_required": "En e-postadresse er nødvendig når merchandise-artikkelen kjøpes som en del av et abonnement."
           }
         },
         "complete_purchase_button_label": "Kjøpe",
@@ -46,6 +49,11 @@
         "dropzone": {
           "dragged_over": "Datei zum Hochladen ablegen"
         }
+      },
+      "contact": {
+        "stored_addresses_label": "Lagrede adresser",
+        "optional_zip_code_label": "Postnummer (valgfritt)",
+        "province_label": "Bundesland"
       }
     }
   },

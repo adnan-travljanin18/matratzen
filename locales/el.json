@@ -32,6 +32,9 @@
             "merchandise_variant_not_found": "Η παραλλαγή προϊόντος δεν βρέθηκε.",
             "gift_card_invalid": "Ο κωδικός δώρου {{code}} είναι άκυρος.",
             "product_not_published_in_buyer_location": "Το προϊόν δεν έχει δημοσιευτεί στην τοποθεσία του αγοραστή."
+          },
+          "buyer_identity": {
+            "email_required": "Μια διεύθυνση ηλεκτρονικού ταχυδρομείου είναι απαραίτητη όταν το είδος merchandise αγοράζεται στο πλαίσιο ενός συνδρομητικού προγράμματος."
           }
         },
         "complete_purchase_button_label": "Αγορά",
@@ -49,6 +52,10 @@
         "dropzone": {
           "dragged_over": "Αφήστε το αρχείο για φόρτωση"
         }
+      },
+      "contact": {
+        "ship_to_company": "Ένα {{companyName}} αποστέλλεται",
+        "optional_zip_code_label": "Ταχυδρομικός Κωδικός (προαιρετικός)"
       }
     }
   },

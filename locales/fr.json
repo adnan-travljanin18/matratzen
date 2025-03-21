@@ -46,6 +46,12 @@
         "dropzone": {
           "dragged_over": "Déposez le fichier à télécharger"
         }
+      },
+      "contact": {
+        "stored_addresses_label": "Adresses enregistrées",
+        "optional_zip_code_label": "Code postal (facultatif)",
+        "city_label": "Ville",
+        "region_label": "Région"
       }
     }
   },

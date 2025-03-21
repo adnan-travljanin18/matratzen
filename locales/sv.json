@@ -43,6 +43,9 @@
           },
           "captcha": {
             "job_already_queued": "Captcha-valideringen för detta Captcha-token har redan lagts till i kön."
+          },
+          "buyer_identity": {
+            "email_required": "En e-postadress krävs när merchandisevaran köps som en del av en prenumeration."
           }
         },
         "complete_purchase_button_label": "Köpa",
@@ -73,7 +76,9 @@
       "contact": {
         "postal_code_label": "Postnummer",
         "region_none": "Ingen vald",
-        "different_shipping_address_text": "En unik adress för denna beställning använda"
+        "different_shipping_address_text": "En unik adress för denna beställning använda",
+        "ship_to_company": "An {{companyName}} skickar",
+        "optional_postcode_label": "Postnummer (valfritt)"
       }
     }
   },

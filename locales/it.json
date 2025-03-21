@@ -46,6 +46,12 @@
         "dropzone": {
           "dragged_over": "Trascina il file da caricare"
         }
+      },
+      "contact": {
+        "stored_addresses_label": "Indirizzi salvati",
+        "optional_zip_code_label": "Codice postale (opzionale)",
+        "city_label": "Città",
+        "state_label": "Bundesland"
       }
     }
   },

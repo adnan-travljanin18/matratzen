@@ -32,6 +32,9 @@
           "merchandise": {
             "gift_card_invalid": "O código do vale-presente {{code}} é inválido.",
             "product_not_published_in_buyer_location": "O produto não está publicado no local do comprador."
+          },
+          "buyer_identity": {
+            "email_required": "Um e-mail é necessário quando o item de mercadoria é comprado como parte de uma assinatura."
           }
         },
         "complete_purchase_button_label": "Comprar",
@@ -49,6 +52,10 @@
         "dropzone": {
           "dragged_over": "Arquivo para carregar"
         }
+      },
+      "contact": {
+        "ship_to_company": "An {{companyName}} versenden",
+        "optional_first_name_label": "Vorname (opcional)"
       }
     }
   },

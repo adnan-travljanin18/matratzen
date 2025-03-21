@@ -33,6 +33,9 @@
             "merchandise_variant_not_found": "A termékvariáns nem található.",
             "gift_card_invalid": "A ajándékutalvány kódja {{code}} érvénytelen.",
             "product_not_published_in_buyer_location": "A termék a vásárló helyszínén nincs nyilvános forgalomban."
+          },
+          "buyer_identity": {
+            "email_required": "Egy e-mail szükséges, ha a terméket egy előfizetés keretein belül vásárolják."
           }
         },
         "complete_purchase_button_label": "Vásárol",
@@ -50,6 +53,10 @@
         "dropzone": {
           "dragged_over": "Fájl feltöltéshez húzása"
         }
+      },
+      "contact": {
+        "ship_to_company": "A {{companyName}} által küldött",
+        "optional_zip_code_label": "Irányítószám (opcionális)"
       }
     }
   },

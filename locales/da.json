@@ -46,6 +46,12 @@
         "dropzone": {
           "dragged_over": "Fil til upload skal placeres"
         }
+      },
+      "contact": {
+        "ship_to_company": "An {{companyName}} versenden",
+        "optional_zip_code_label": "Postnummer (valgfrit)",
+        "city_label": "By",
+        "region_label": "Region"
       }
     }
   },

@@ -44,6 +44,12 @@
         "dropzone": {
           "dragged_over": "Přetáhněte soubor k nahrání"
         }
+      },
+      "contact": {
+        "ship_to_company": "An {{companyName}} zasílání",
+        "optional_zip_code_label": "PSČ (volitelné)",
+        "country_label": "Země / Region",
+        "region_label": "Region"
       }
     }
   },

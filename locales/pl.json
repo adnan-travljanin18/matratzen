@@ -34,6 +34,9 @@
             "gift_card_invalid": "Kod kuponu prezentowego {{code}} jest nieprawidłowy.",
             "title_too_long": "Tytuł artykułu merchandisingowego jest za długi.",
             "product_not_published_in_buyer_location": "Produkt nie jest publikowane w lokalizacji nabywcy."
+          },
+          "buyer_identity": {
+            "email_required": "E-mail jest wymagana, gdy artykuł towarowy jest kupowany w ramach subskrypcji."
           }
         },
         "complete_purchase_button_label": "Kupować",
@@ -46,6 +49,11 @@
         "dropzone": {
           "dragged_over": "Przeciągnij plik, aby go przesłać"
         }
+      },
+      "contact": {
+        "ship_to_company": "An {{companyName}} wysyłamy",
+        "optional_zip_code_label": "Kod pocztowy (opcjonalnie)",
+        "province_placeholder": "Kraj związkowy"
       }
     }
   },

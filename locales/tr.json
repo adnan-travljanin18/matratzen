@@ -43,6 +43,9 @@
           },
           "captcha": {
             "job_already_queued": "Captcha Jetonuna yönelik bu Captcha doğrulaması zaten sıraya eklendi."
+          },
+          "buyer_identity": {
+            "email_required": "Bir e-posta gereklidir, eğer ürün, bir abonelik kapsamında satın alınıyorsa."
           }
         },
         "complete_purchase_button_label": "Satın Al",
@@ -73,7 +76,9 @@
       "contact": {
         "postal_code_label": "Posta kodu",
         "postcode_label": "Posta kodu",
-        "different_shipping_address_text": "Tek seferlik bir adres kullanın bu sipariş için"
+        "different_shipping_address_text": "Tek seferlik bir adres kullanın bu sipariş için",
+        "ship_to_company": "An {{companyName}} versenden",
+        "optional_zip_code_label": "Posta kodu (isteğe bağlı)"
       }
     }
   },

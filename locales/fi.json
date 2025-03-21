@@ -46,6 +46,12 @@
         "dropzone": {
           "dragged_over": "Tiedosto, joka ladataan, jätetään"
         }
+      },
+      "contact": {
+        "stored_addresses_label": "Tallennetut osoitteet",
+        "optional_zip_code_label": "Postinumero (valinnainen)",
+        "city_label": "Kaupunki",
+        "region_label": "Alue"
       }
     }
   },
