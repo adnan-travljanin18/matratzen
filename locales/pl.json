@@ -270,7 +270,14 @@
         "qr_code": {
           "send_link_to_phone": "Wyślij lub prześlij link na swój telefon"
         },
-        "attempted_delivery_local_description_html": "Nie mogliśmy dostarczyć Twojego zamówienia. Aby umówić się na kolejną dostawę, %{contact_us}."
+        "gift_card_confirmation_by_email": "Jeśli ich nie otrzymałeś, wyślij e-maila ponownie lub skontaktuj się z nami.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Zeskanuj swoim telefonem komórkowym"
+          }
+        },
+        "contact_information_title": "Kontaktinformation"
       }
     }
   },

@@ -272,7 +272,14 @@
         "qr_code": {
           "send_link_to_phone": "Invia un link al tuo telefono"
         },
-        "attempted_delivery_local_title": "Consegna mancata"
+        "gift_card_confirmation_by_email": "Se non l'hai ricevuta, invia nuovamente l'email o contattaci.",
+        "cancelled_page_title": "Ordine annullato",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Con il tuo telefono cellulare scansiona"
+          }
+        },
+        "contact_information_title": "Informazioni di contatto"
       }
     }
   },

@@ -297,7 +297,14 @@
         "order_updates_submit_subscription": "Введення",
         "ready_for_pickup_description": "Твоє замовлення готове до отримання. Будь ласка, принеси підтвердження замовлення для отримання замовлення.",
         "return_to_store_link_label": "Повернутися до магазину",
-        "out_for_delivery_local_title": "Доставлення для твоєї замовлення триває"
+        "out_for_delivery_local_title": "Доставлення для твоєї замовлення триває",
+        "gift_card_confirmation_by_email": "Якщо ти їх не отримав, надішли електронну пошту знову або зв'яжись з нами.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Ви здійснили платіж за ваше замовлення %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Зі свого мобільного телефону скануйте"
+          }
+        }
       }
     }
   },

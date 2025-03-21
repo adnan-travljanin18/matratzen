@@ -256,7 +256,15 @@
         "order_updates_submit_subscription": "Bejegyzés",
         "ready_for_pickup_description": "A rendelésed készen áll a személyes átvételre. Kérlek, hozd magaddal a rendelés visszaigazolását a rendelés átvételéhez.",
         "return_to_store_link_label": "Visszatérés a boltba",
-        "out_for_delivery_local_title": "A rendelésed kézbesítése folyamatban"
+        "out_for_delivery_local_title": "A rendelésed kézbesítése folyamatban",
+        "gift_card_confirmation_by_email": "Ha nem kaptad meg, küldd el újra az e-mailt, vagy lépj velünk kapcsolatba.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "A %{date} dátummal teljesítetted a rendelésed kifizetését.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Mit dein Mobiltelefon scannen"
+          }
+        },
+        "shipping_address_map_title": "Egy Google-térkép, amely megjeleníti a szállítási címet: %{address}"
       }
     }
   },

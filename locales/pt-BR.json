@@ -254,7 +254,14 @@
         "order_updates_submit_subscription": "Entrada",
         "ready_for_delivery_title": "Sua encomenda está pronta para entrega",
         "payment_information_title": "Dados de pagamento",
-        "out_for_delivery_local_description_html": "Sua ordem chegará em breve."
+        "out_for_delivery_local_description_html": "Sua ordem chegará em breve.",
+        "gift_card_confirmation_by_email": "Se você não a recebeu, reenvie o e-mail ou entre em contato conosco.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Você fez um pagamento pelo seu pedido %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Escanear com seu celular"
+          }
+        }
       }
     }
   },

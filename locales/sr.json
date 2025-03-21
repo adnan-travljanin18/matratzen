@@ -264,7 +264,14 @@
         "order_updates_submit_subscription": "Унос",
         "ready_for_pickup_description": "Твоја поруџбина је спремна за преузимање. Молим те, понеси своје потврду поруџбине за преузимање поруџбине.",
         "payment_information_title": "Подаци о плаћању",
-        "out_for_delivery_local_description_html": "Tvoja porudžbina će uskoro stići."
+        "out_for_delivery_local_description_html": "Tvoja porudžbina će uskoro stići.",
+        "gift_card_confirmation_by_email": "Ako je nisi primila, pošalji e-mail ponovo ili nas kontaktiraj.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Napravili ste uplatu za svoju narudžbinu %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Mit vašim mobilnim telefonom skenirajte"
+          }
+        }
       }
     }
   },

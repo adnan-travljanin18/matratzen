@@ -270,7 +270,10 @@
         "qr_code": {
           "send_link_to_phone": "Envoyez un lien à votre téléphone"
         },
-        "gift_card_confirmation_by_email": "Si vous ne l'avez pas reçu, renvoyez l'e-mail ou contactez-nous."
+        "gift_card_confirmation_by_email": "Si vous ne l'avez pas reçu, renvoyez l'e-mail ou contactez-nous.",
+        "cancelled_page_title": "Commande annulée",
+        "thank_you_confirmed_order_with_draft": "Nous te tiendrons informé si nous avons besoin de plus d'informations ou lorsque ta commande sera confirmée.",
+        "contact_information_title": "'Contact Information'"
       }
     }
   },

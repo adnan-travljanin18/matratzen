@@ -270,7 +270,14 @@
         "qr_code": {
           "send_link_to_phone": "Send en lenke til telefonen din"
         },
-        "gift_card_confirmation_by_text": "Hvis du ikke har mottatt dem, send tekstmeldingen på nytt eller kontakt oss."
+        "gift_card_confirmation_by_email": "Hvis du ikke har mottatt dem, send e-posten på nytt eller kontakt oss.",
+        "cancelled_page_title": "Bestillingen er kansellert",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Mit ditt mobiltelefon skanne"
+          }
+        },
+        "contact_information_title": "Kontaktinformasjon"
       }
     }
   },

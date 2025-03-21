@@ -265,7 +265,14 @@
         "ready_for_pickup_description": "Din ordre er klar til afhentning. Venligst tag din ordrebekræftelse med til afhentning af ordren.",
         "shipping_information_title": "Versandinformationer",
         "out_for_delivery_local_title": "Levering af din bestilling er i gang",
-        "gift_card_confirmation_by_email": "Hvis du ikke har modtaget dem, så send e-mailen igen eller kontakt os."
+        "gift_card_confirmation_by_email": "Hvis du ikke har modtaget dem, så send e-mailen igen eller kontakt os.",
+        "cancelled_page_title": "Bestilling annulleret",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Mit dit mobiltelefon scanne"
+          }
+        },
+        "contact_information_title": "Kontaktinformation"
       }
     }
   },

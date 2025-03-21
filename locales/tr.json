@@ -296,7 +296,15 @@
         "return_to_store_link_label": "Zurükkereşün tıu Şop",
         "qr_code": {
           "send_link_to_phone": "Telefonuna bir bağlantı gönder"
-        }
+        },
+        "gift_card_confirmation_by_email": "Eğer bunu almadıysanız, e-postayı yeniden gönderin veya bizimle iletişime geçin.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Du, %{date} tarihinde siparişin için bir ödeme yaptın.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Telefonunuzu tarayın"
+          }
+        },
+        "shipping_address_title": "Teslimat adresi"
       }
     }
   },

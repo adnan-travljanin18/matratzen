@@ -294,7 +294,15 @@
         "return_to_store_link_label": "Återvända till butiken",
         "qr_code": {
           "send_link_to_phone": "Skicka eller skicka en länk till din telefon"
-        }
+        },
+        "gift_card_confirmation_by_email": "Om du inte har fått dem, skicka mejlet igen eller kontakta oss.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Du har gjort en betalning för din beställning %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Med din mobiltelefon skanna"
+          }
+        },
+        "payment_method_title": "Betalningsmetod"
       }
     }
   },

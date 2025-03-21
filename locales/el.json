@@ -254,7 +254,14 @@
         "order_updates_submit_subscription": "Είσοδος",
         "ready_for_pickup_description": "Η παραγγελία σας είναι έτοιμη προς παραλαβή. Παρακαλώ φέρετε την επιβεβαίωση παραγγελίας σας για την παραλαβή της παραγγελίας.",
         "payment_information_title": "Δεδομένα πληρωμής",
-        "out_for_delivery_local_description_html": "Η παραγγελία σας θα φτάσει σύντομα."
+        "out_for_delivery_local_description_html": "Η παραγγελία σας θα φτάσει σύντομα.",
+        "gift_card_confirmation_by_email": "Αν δεν την έχεις λάβει, στείλε ξανά το email ή επικοινώνησε μαζί μας.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Έχεις πραγματοποιήσει μια πληρωμή για την παραγγελία σου %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Σάρωσε με το κινητό σου"
+          }
+        }
       }
     }
   },
