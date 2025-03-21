@@ -64,6 +64,9 @@
           },
           "discount": {
             "additional_requested_discount_code_discarded": "Запитаний додатковий код знижки був скасований."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "Запропоновані умови є несумісними в поточному контексті переговорів."
           }
         },
         "complete_purchase_button_label": "Купити",
@@ -106,7 +109,9 @@
         "state_and_territory_placeholder": "Держава/Територія"
       },
       "delivery_options": {
-        "subscription_pickup_information": "Цей спосіб доставки стосується всіх товарів у цьому замовленні та всіх майбутніх замовлень для цього підписки."
+        "subscription_pickup_information": "Цей спосіб доставки стосується всіх товарів у цьому замовленні та всіх майбутніх замовлень для цього підписки.",
+        "pick_up_in_two_hours": "Зазвичай готово за 2 години",
+        "pick_up_in_one_hour": "Зазвичай готовий за 1 годину"
       },
       "customer_account": {
         "incomplete_address": "Вибрана адреса неповна. %{update_address_link} або виберіть іншу адресу.",

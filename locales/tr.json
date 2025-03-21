@@ -61,6 +61,9 @@
             "email_required": "Bir e-posta gereklidir, eğer ürün, bir abonelik kapsamında satın alınıyorsa.",
             "checkout_completion_target_is_invalid_proc": "Geçersiz ödeme tamamlama hedefi.",
             "personal_order_not_allowed": "Özel siparişler bu mağaza için mümkün değildir."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "Önerilen şartlar mevcut müzakere bağlamında uyumsuzdur."
           }
         },
         "complete_purchase_button_label": "Satın Al",
@@ -98,7 +101,9 @@
         "prefecture_label": "Präfektür"
       },
       "delivery_options": {
-        "subscription_pickup_information": "Bu teslimat yöntemi, bu siparişteki tüm ürünler ve bu abonelik için tüm gelecekteki siparişler için geçerlidir."
+        "subscription_pickup_information": "Bu teslimat yöntemi, bu siparişteki tüm ürünler ve bu abonelik için tüm gelecekteki siparişler için geçerlidir.",
+        "pick_up_in_two_hours": "Genellikle 2 saatte hazır",
+        "pick_up_in_one_hour": "Genellikle 1 saatte hazır"
       },
       "customer_account": {
         "incomplete_address": "Seçilen adres eksik. %{update_address_link} veya başka bir adres seçin.",

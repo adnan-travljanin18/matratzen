@@ -61,6 +61,9 @@
           "buyer_identity": {
             "checkout_completion_target_is_invalid_proc": "Érvénytelen cél a pénztár befejezéséhez.",
             "personal_order_not_allowed": "A magánrendelések nem lehetségesek ebben a boltban."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "A javasolt feltételek a jelenlegi tárgyalási kontextusban összeegyeztethetetlenek."
           }
         },
         "complete_purchase_button_label": "Vásárol",
@@ -83,6 +86,10 @@
         "taxes_label": "Adók",
         "vat_label_html": "inkl. %{amount} ÁFA",
         "description_label": "Leírás"
+      },
+      "delivery_options": {
+        "pick_up_in_two_hours": "Általában 2 órán belül kész",
+        "pick_up_in_one_hour": "Szokásosan 1 órán belül kész"
       }
     }
   },

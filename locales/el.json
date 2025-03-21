@@ -64,6 +64,9 @@
           },
           "discount": {
             "custom_discount_not_honoured": "Ο παρασχεθείς πελάτης εκπτωση δεν χορηγήθηκε."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "Οι προτεινόμενοι όροι είναι ασυμβίβαστοι στο σημερινό πλαίσιο διαπραγμάτευσης."
           }
         },
         "complete_purchase_button_label": "Αγορά",
@@ -81,6 +84,10 @@
         "taxes_label": "Φόροι",
         "vat_label_html": "inkl. %{amount} ΦΠΑ",
         "description_label": "Περιγραφή"
+      },
+      "delivery_options": {
+        "pick_up_in_two_hours": "Συνήθως έτοιμο σε 2 ώρες",
+        "pick_up_in_one_hour": "Συνήθως έτοιμο σε 1 ώρα"
       }
     }
   },

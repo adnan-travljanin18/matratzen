@@ -73,7 +73,12 @@
         "discount_has_been_applied": "Sleva byla využita",
         "taxes_label": "Daně",
         "vat_label_html": "inkl. %{amount} DPH",
-        "product_change_label": "Změnit"
+        "product_change_label": "Změnit",
+        "expand_order_summary": "Zobrazit přehled objednávek",
+        "total_already_paid_label": "Zaplaceno"
+      },
+      "delivery_options": {
+        "pick_up_immediately": "Nyní připraveno k vyzvednutí"
       }
     }
   },

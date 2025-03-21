@@ -57,6 +57,9 @@
           "buyer_identity": {
             "checkout_completion_target_is_invalid_proc": "Cible invalide pour la finalisation du paiement.",
             "personal_order_not_allowed": "Les commandes privées ne sont pas possibles dans cette boutique."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "Les conditions proposées sont incompatibles dans le contexte de négociation actuel."
           }
         },
         "complete_purchase_button_label": "Acheter",
@@ -75,7 +78,11 @@
         "discount_has_been_applied": "Le rabais a été utilisé",
         "taxes_label": "Impôts",
         "vat_label_html": "inkl. %{amount} MwSt",
-        "description_label": "Description"
+        "description_label": "Description",
+        "total_already_paid_label": "Payé"
+      },
+      "delivery_options": {
+        "pick_up_in_one_hour": "Habituellement prêt en 1 heure"
       }
     }
   },

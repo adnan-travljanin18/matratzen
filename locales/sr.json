@@ -55,6 +55,9 @@
           },
           "discount": {
             "custom_discount_not_honoured": "Pruženi popust za kupce nije odobren."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "Predloženi uslovi su u trenutnom pregovaračkom kontekstu nekompatibilni."
           }
         },
         "complete_purchase_button_label": "Kupovina",
@@ -80,7 +83,9 @@
         "state_and_territory_placeholder": "Država/Territorija"
       },
       "delivery_options": {
-        "subscription_pickup_information": "Ova metoda isporuke važi za sve artikle u ovoj narudžbini i za sve buduće narudžbine za ovu pretplatu."
+        "subscription_pickup_information": "Ova metoda isporuke važi za sve artikle u ovoj narudžbini i za sve buduće narudžbine za ovu pretplatu.",
+        "pick_up_in_two_hours": "Obično završeno za 2 sata",
+        "pick_up_in_one_hour": "Obično završeno za 1 sat"
       },
       "customer_account": {
         "incomplete_address": "Izabrana adresa je nepotpuna. %{update_address_link} ili izaberi drugu adresu."

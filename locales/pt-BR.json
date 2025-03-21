@@ -65,6 +65,9 @@
           },
           "discount": {
             "unsupported_expectation": "A série de descontos especificada continha um valor esperado que não pôde ser interpretado pela diretriz."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "As condições propostas são incompatíveis no contexto atual de negociações."
           }
         },
         "complete_purchase_button_label": "Comprar",
@@ -81,6 +84,10 @@
         "taxes_label": "Impostos",
         "vat_label_html": "inkl. %{amount} MwSt",
         "description_label": "Descrição"
+      },
+      "delivery_options": {
+        "pick_up_in_two_hours": "Normalmente pronto em 2 horas",
+        "pick_up_in_one_hour": "Normalmente pronto em 1 hora"
       }
     }
   },

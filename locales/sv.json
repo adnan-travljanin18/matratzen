@@ -61,6 +61,9 @@
             "email_required": "En e-postadress krävs när merchandisevaran köps som en del av en prenumeration.",
             "checkout_completion_target_is_invalid_proc": "Ogiltigt mål för kassaavslut.",
             "personal_order_not_allowed": "Privatbeställningar är inte möjliga för denna butik."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "De föreslagna villkoren är oförenliga i det nuvarande förhandlingssammanhanget."
           }
         },
         "complete_purchase_button_label": "Köpa",
@@ -98,7 +101,9 @@
         "prefecture_label": "Präfektur"
       },
       "delivery_options": {
-        "subscription_pickup_information": "Denna leveransmetod gäller för alla artiklar i denna beställning och för alla framtida beställningar för denna prenumeration."
+        "subscription_pickup_information": "Denna leveransmetod gäller för alla artiklar i denna beställning och för alla framtida beställningar för denna prenumeration.",
+        "pick_up_in_two_hours": "Vanligtvis färdigt om 2 timmar",
+        "pick_up_in_one_hour": "Vanligtvis klart inom 1 timme"
       },
       "customer_account": {
         "sign_in_link_label": "Anmäla",

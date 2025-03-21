@@ -57,6 +57,9 @@
           "buyer_identity": {
             "checkout_completion_target_is_invalid_proc": "Virheellinen kohde loppuunsaattamiselle.",
             "personal_order_not_allowed": "Privattilaukset eivät ole mahdollisia tässä kaupasta."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "Ehdotetut ehdot ovat nykyisessä neuvotteluyhteydessä keskenään ristiriitaisia."
           }
         },
         "complete_purchase_button_label": "Ostaa",
@@ -75,7 +78,11 @@
         "discount_has_been_applied": "Alennus käytettiin",
         "taxes_label": "Verot",
         "vat_label_html": "inkl. %{amount} MwSt",
-        "product_change_label": "Muuttaa"
+        "product_change_label": "Muuttaa",
+        "total_already_paid_label": "Maksettu"
+      },
+      "delivery_options": {
+        "pick_up_in_one_hour": "Tavallisesti valmis 1 tunnissa"
       }
     }
   },

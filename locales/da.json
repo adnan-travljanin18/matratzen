@@ -58,6 +58,9 @@
           "buyer_identity": {
             "checkout_completion_target_is_invalid_proc": "Ungyldig mål for checkout-afslutning.",
             "personal_order_not_allowed": "Privatbestillinger er ikke mulige for denne butik."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "De foreslåede betingelser er uforenelige i den nuværende forhandlingskontekst."
           }
         },
         "complete_purchase_button_label": "Køb",
@@ -78,7 +81,11 @@
         "shipping_default_value": "Beregnes i næste trin",
         "taxes_label": "Skatter",
         "vat_label_html": "inkl. %{amount} MwSt",
-        "product_change_label": "Ændre"
+        "product_change_label": "Ændre",
+        "total_already_paid_label": "Betalt"
+      },
+      "delivery_options": {
+        "pick_up_in_five_or_more_days": "Almindeligvis færdig på 5 dage eller mere"
       }
     }
   },

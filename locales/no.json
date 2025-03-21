@@ -58,6 +58,9 @@
           "buyer_identity": {
             "checkout_completion_target_is_invalid_proc": "Ugyldig mål for utsjekking fullføring.",
             "personal_order_not_allowed": "Privatbestillinger er ikke mulig for denne butikken."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "De foreslåtte betingelsene er uforenlige i den nåværende forhandlingskonteksten."
           }
         },
         "complete_purchase_button_label": "Kjøpe",
@@ -75,7 +78,11 @@
         "discount_has_been_applied": "Rabatten ble brukt",
         "taxes_label": "Skatter",
         "vat_label_html": "inkl. %{amount} MwSt",
-        "description_label": "Beskrivelse"
+        "description_label": "Beskrivelse",
+        "total_already_paid_label": "Betalt"
+      },
+      "delivery_options": {
+        "pick_up_in_one_hour": "Vanligvis ferdig på 1 time"
       }
     }
   },
