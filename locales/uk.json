@@ -257,7 +257,10 @@
         "credit_card_name_blank": "Введіть своє ім'я точно так, як воно написано на вашій картці",
         "credit_card_month_invalid": "Введіть дійсний місяць завершення",
         "reduction_code_gift_card_code_invalid": "Введіть дійсний купон",
-        "gift_card_already_applied": "Цей купон вже було додано до твого замовлення"
+        "gift_card_already_applied": "Цей купон вже було додано до твого замовлення",
+        "address_last_name_contains_html_tags": "Прізвище не повинно містити HTML-теги.",
+        "address_company_contains_html_tags": "Підприємство не повинно містити HTML-теги.",
+        "address_zip_contains_emojis": "Поштовий індекс не може містити емодзі"
       }
     }
   },

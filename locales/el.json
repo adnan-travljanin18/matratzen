@@ -214,7 +214,10 @@
         "credit_card_name_blank": "Γράψε το όνομά σου ακριβώς όπως είναι στην κάρτα σου",
         "credit_card_month_invalid": "Εισαγάγετε έναν έγκυρο μήνα λήξης",
         "reduction_code_gift_card_code_invalid": "Εισάγετε έναν έγκυρο κωδικό κουπονιού",
-        "gift_card_currency_mismatch": "Μόνο κουπόνια δώρων σε %{checkout_currency} μπορούν να χρησιμοποιηθούν για αυτήν την παραγγελία"
+        "gift_card_currency_mismatch": "Μόνο κουπόνια δώρων σε %{checkout_currency} μπορούν να χρησιμοποιηθούν για αυτήν την παραγγελία",
+        "address_last_name_contains_html_tags": "Ο επώνυμος δεν επιτρέπεται να περιέχει HTML-tags.",
+        "address_company_contains_html_tags": "Η επιχείρηση δεν επιτρέπεται να περιέχει HTML tags.",
+        "address_zip_contains_emojis": "Η ταχυδρομικός κώδικας δεν επιτρέπεται να περιέχει emoji"
       }
     }
   },

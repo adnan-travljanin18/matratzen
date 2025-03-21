@@ -212,7 +212,8 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Bruke",
         "card_expiry_placeholder": "Giltig til (MM/ÅÅ)",
-        "card_verification_value_explanation": "Ein tredelt sikkerhetskode, som vanligvis finnes på baksiden av kortet ditt. American Express-kort har en fire-sifret kode på forsiden."
+        "card_verification_value_explanation": "Ein tredelt sikkerhetskode, som vanligvis finnes på baksiden av kortet ditt. American Express-kort har en fire-sifret kode på forsiden.",
+        "card_verification_value_explanation_other": "3-sifret sikkerhetskode på baksiden av kortet"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuelt saldo: %{amount}"
@@ -223,7 +224,9 @@
         "credit_card_name_blank": "Skriv inn navnet ditt akkurat slik det står på kortet ditt",
         "credit_card_month_invalid": "Angi en gyldig løpetid måned",
         "delivery_line_detail_changed": "Noen leveringsdetaljer kan ha endret seg. Sjekk fraktmetoden din og prøv igjen.",
-        "gift_card_already_applied": "Denne kupongen har allerede blitt lagt til bestillingen din"
+        "gift_card_already_applied": "Denne kupongen har allerede blitt lagt til bestillingen din",
+        "address_last_name_contains_html_tags": "Etternavnet kan ikke inneholde HTML-tagger.",
+        "address_address2_contains_emojis": "Adresse 2 kan ikke inneholde emojier"
       }
     }
   },

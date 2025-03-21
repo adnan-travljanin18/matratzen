@@ -211,7 +211,8 @@
         "amount_left_to_pay_label": "Montant",
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Appliquer",
-        "card_expiry_placeholder": "Valide jusqu'au (MM/AA)"
+        "card_expiry_placeholder": "Valide jusqu'au (MM/AA)",
+        "card_verification_value_explanation_other": "3-digit security code on the back of your card"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Solde actuel : %{amount}"
@@ -223,7 +224,9 @@
         "credit_card_month_invalid": "Entrez un mois d'expiration valide",
         "delivery_line_detail_changed": "Quelques détails de livraison ont peut-être changé. Vérifie ton mode d'expédition et réessaie.",
         "gift_card_already_applied": "Ce bon a déjà été ajouté à votre commande",
-        "physical_gift_card_invalid_code": "Le code du bon est invalide."
+        "physical_gift_card_invalid_code": "Le code du bon est invalide.",
+        "address_last_name_contains_html_tags": "Le nom de famille ne doit pas contenir de balises HTML.",
+        "address_phone_contains_emojis": "Le numéro de téléphone ne doit pas contenir d'émojis"
       }
     }
   },

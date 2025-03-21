@@ -237,7 +237,8 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Tillämpa",
         "card_expiry_placeholder": "Giltig till (MM/ÅÅ)",
-        "card_verification_value_explanation": "En tre-siffrig säkerhetskod som vanligtvis finns på baksidan av ditt kort. American Express-kort har en fyra-siffrig kod på framsidan."
+        "card_verification_value_explanation": "En tre-siffrig säkerhetskod som vanligtvis finns på baksidan av ditt kort. American Express-kort har en fyra-siffrig kod på framsidan.",
+        "card_verification_value_explanation_other": "3-siffrig säkerhetskod på baksidan av ditt kort"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuellt saldo: %{amount}"
@@ -248,7 +249,9 @@
         "credit_card_name_blank": "Skriv ditt namn exakt som det står på ditt kort",
         "credit_card_month_invalid": "Ange en giltig månad för genomförande",
         "reduction_code_gift_card_code_invalid": "Ange ett giltigt kupongkod",
-        "gift_card_already_applied": "Den här kupongen har redan lagts till i din beställning"
+        "gift_card_already_applied": "Den här kupongen har redan lagts till i din beställning",
+        "address_last_name_contains_html_tags": "Efternamnet får inte innehålla HTML-taggar.",
+        "address_address2_contains_emojis": "Adress 2 får inte innehålla emojis"
       }
     }
   },

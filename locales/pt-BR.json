@@ -214,7 +214,10 @@
         "address_zip_invalid_for_country_and_province": "Insira um CEP válido para %{province}, %{country}",
         "credit_card_month_invalid": "Digite um mês de validade válido",
         "reduction_code_gift_card_code_invalid": "Insira um cupom válido",
-        "gift_card_currency_mismatch": "Apenas vale gift vouchers em %{checkout_currency} para este pedido"
+        "gift_card_currency_mismatch": "Apenas vale gift vouchers em %{checkout_currency} para este pedido",
+        "address_last_name_contains_html_tags": "O sobrenome não pode conter tags HTML.",
+        "address_company_contains_html_tags": "A empresa não pode conter tags HTML.",
+        "address_company_contains_emojis": "A empresa não deve conter Emojis"
       }
     }
   },

@@ -213,7 +213,8 @@
         "amount_left_to_pay_label": "Importo",
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Applicare",
-        "card_expiry_placeholder": "Valido fino a (MM/AA)"
+        "card_expiry_placeholder": "Valido fino a (MM/AA)",
+        "card_verification_value_explanation_other": "Codice di sicurezza a 3 cifre sul retro della tua carta"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Saldo attuale: %{amount}"
@@ -225,7 +226,9 @@
         "credit_card_month_invalid": "Inserire un mese di scadenza valido",
         "delivery_line_detail_changed": "Alcuni dettagli di consegna potrebbero essere cambiati. Controlla il tuo metodo di spedizione e riprova.",
         "gift_card_already_applied": "Questo coupon è stato già aggiunto al tuo ordine",
-        "physical_gift_card_invalid_code": "Il codice del coupon non è valido."
+        "physical_gift_card_invalid_code": "Il codice del coupon non è valido.",
+        "address_last_name_contains_html_tags": "Il cognome non deve contenere tag HTML.",
+        "address_phone_contains_emojis": "Il numero di telefono non deve contenere emoji"
       }
     }
   },

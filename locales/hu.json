@@ -216,7 +216,10 @@
         "credit_card_name_blank": "Írd be a neved pontosan úgy, ahogy a kártyádon szerepel",
         "credit_card_month_invalid": "Érvényes lebonyolítási hónapot adjon meg",
         "reduction_code_gift_card_code_invalid": "Írj be egy érvényes kuponkódot",
-        "gift_card_already_applied": "Ez a kupon már hozzá lett adva a rendelésedhez"
+        "gift_card_already_applied": "Ez a kupon már hozzá lett adva a rendelésedhez",
+        "address_last_name_contains_html_tags": "A vezetéknév nem tartalmazhat HTML-címkéket.",
+        "address_company_contains_html_tags": "A vállalkozásnak nem szabad HTML-címkéket tartalmaznia.",
+        "address_city_contains_emojis": "A városnak nem szabad emotikonokat tartalmaznia"
       }
     }
   },

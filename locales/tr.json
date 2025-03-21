@@ -239,7 +239,8 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Uygula",
         "card_expiry_placeholder": "Gültü tarihe kadar (AA/YY)",
-        "card_verification_value_explanation": "Bir üç haneli güvenlik kodu genellikle kartının arkasında bulunur. American Express kartlarının ön yüzünde dört haneli bir kod vardır."
+        "card_verification_value_explanation": "Bir üç haneli güvenlik kodu genellikle kartının arkasında bulunur. American Express kartlarının ön yüzünde dört haneli bir kod vardır.",
+        "card_verification_value_explanation_other": "3 haneli güvenlik kodu kartının arkasında"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktif Bakiyeniz: %{amount}"
@@ -250,7 +251,9 @@
         "credit_card_name_blank": "Gib adını tam olarak kartında yazıldığı gibi gir",
         "credit_card_month_invalid": "Geçerli bir işlem ayı girin",
         "reduction_code_gift_card_code_invalid": "Geçerli bir kupon girin",
-        "gift_card_already_applied": "Bu hediye çeki zaten siparişinize eklenmiştir"
+        "gift_card_already_applied": "Bu hediye çeki zaten siparişinize eklenmiştir",
+        "address_last_name_contains_html_tags": "Soyadı HTML etiketleri içermemelidir.",
+        "address_address2_contains_emojis": "Adresse 2 emoji içermemelidir"
       }
     }
   },

@@ -211,7 +211,8 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Anvende",
         "card_expiry_placeholder": "Giltig til (MM/ÅÅ)",
-        "card_verification_value_explanation_amex": "4-stellig sikkerhedskode på forsiden af dit kort"
+        "card_verification_value_explanation_amex": "4-stellig sikkerhedskode på forsiden af dit kort",
+        "card_verification_value_explanation_other": "3-cifret sikkerhedskode på bagsiden af dit kort"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuelt saldo: %{amount}"
@@ -222,7 +223,9 @@
         "address_zip_invalid_for_country": "Indtast et gyldigt postnummer for %{country}",
         "credit_card_month_invalid": "Indtast en gyldig forløbs måned",
         "delivery_line_detail_changed": "Nogle leveringsoplysninger kan være ændret. Tjek din forsendelsesmetode og prøv igen.",
-        "gift_card_already_applied": "Denne kupon er allerede tilføjet til din bestilling"
+        "gift_card_already_applied": "Denne kupon er allerede tilføjet til din bestilling",
+        "address_last_name_contains_html_tags": "Efternavnet må ikke indeholde HTML-tags.",
+        "address_phone_contains_emojis": "Telefonnummer må ikke indeholde emojis"
       }
     }
   },

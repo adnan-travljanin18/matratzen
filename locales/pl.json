@@ -212,7 +212,8 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Zastosować",
         "card_expiry_placeholder": "Ważne do (MM/RR)",
-        "card_verification_value_explanation": "Kod bezpieczeństwa składający się z trzech cyfr, który zazwyczaj znajduje się na odwrocie twojej karty. Karty American Express mają czterocyfrowy kod z przodu."
+        "card_verification_value_explanation": "Kod bezpieczeństwa składający się z trzech cyfr, który zazwyczaj znajduje się na odwrocie twojej karty. Karty American Express mają czterocyfrowy kod z przodu.",
+        "card_verification_value_explanation_other": "3-cyfrowy kod zabezpieczający na odwrocie twojej karty"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktualne saldo: %{amount}"
@@ -223,7 +224,9 @@
         "credit_card_name_blank": "Wprowadź swoje imię dokładnie tak, jak jest napisane na twojej karcie",
         "credit_card_month_invalid": "Wprowadź ważny miesiąc zakończenia",
         "reduction_code_gift_card_code_invalid": "Wprowadź ważny kupon",
-        "gift_card_already_applied": "Ten kupon został już dodany do Twojego zamówienia"
+        "gift_card_already_applied": "Ten kupon został już dodany do Twojego zamówienia",
+        "address_last_name_contains_html_tags": "Nazwisko nie może zawierać znaczników HTML.",
+        "address_address2_contains_emojis": "Adres 2 nie może zawierać emotikonów"
       }
     }
   },

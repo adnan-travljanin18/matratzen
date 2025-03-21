@@ -206,7 +206,8 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Käyttää",
         "card_expiry_placeholder": "Voimassa kuni (KK/VV)",
-        "card_verification_value_explanation_amex": "4-numeroinen turvakoodi korttisi etupuolella"
+        "card_verification_value_explanation_amex": "4-numeroinen turvakoodi korttisi etupuolella",
+        "card_verification_value_explanation_other": "3-stelliger turvallisuusnumero korttisi takana"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktiivinen saldo: %{amount}"
@@ -217,7 +218,9 @@
         "address_zip_invalid_for_country": "Anna voimassa oleva postinumero alueelle %{country}",
         "credit_card_month_invalid": "Anna voimassa oleva kuukausi",
         "delivery_line_detail_changed": "Joitakin toimitustietoja on saattanut muuttua. Tarkista toimitustapasi ja yritä uudelleen.",
-        "gift_card_already_applied": "Tämä lahjakortti on jo lisätty tilauksesi mukaan"
+        "gift_card_already_applied": "Tämä lahjakortti on jo lisätty tilauksesi mukaan",
+        "address_last_name_contains_html_tags": "Sukunimi ei saa sisältää HTML-tageja.",
+        "address_phone_contains_emojis": "Puhelinnumerossa ei saa olla emojeja"
       }
     }
   },
