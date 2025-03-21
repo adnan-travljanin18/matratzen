@@ -78,7 +78,14 @@
         "total_already_paid_label": "Zaplaceno",
         "pickup_label": "Abholung im Shop",
         "estimated_taxes_label": "Odhadované daně",
-        "estimated_taxes_finalization_tooltip_content": "Die konečná daň a celková částka budou potvrzeny e-mailem nebo SMS poté, co uskutečníte objednávku."
+        "estimated_taxes_finalization_tooltip_content": "Die konečná daň a celková částka budou potvrzeny e-mailem nebo SMS poté, co uskutečníte objednávku.",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "Platba ve výši %{amount_due} je splatná při obdržení"
+        },
+        "payment_terms_totals": {
+          "due_later": "Celková částka je splatná dne %{due_at}"
+        },
+        "order_total_label": "Celková objednávková hodnota"
       },
       "delivery_options": {
         "pick_up_immediately": "Nyní připraveno k vyzvednutí"

@@ -82,7 +82,14 @@
         "total_already_paid_label": "Zapłacono",
         "pickup_label": "Abholung w sklepie",
         "information_estimated_taxes_label": "Steuern (szacowane)",
-        "estimated_taxes_finalization_tooltip_content": "Die ostateczny podatek i całkowita kwota zostaną potwierdzone za pomocą e-maila lub SMS-a po złożeniu zamówienia."
+        "estimated_taxes_finalization_tooltip_content": "Die ostateczny podatek i całkowita kwota zostaną potwierdzone za pomocą e-maila lub SMS-a po złożeniu zamówienia.",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "Płatność w wysokości %{amount_due} jest wymagana przy odbiorze"
+        },
+        "payment_terms_totals": {
+          "due_later": "Gesamtbetrag am %{due_at} fällig"
+        },
+        "order_total_label": "Całkowita wartość zamówienia"
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Zwykle gotowe w 1 godzinę"

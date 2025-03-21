@@ -86,7 +86,14 @@
         "description_label": "Περιγραφή",
         "pickup_label": "Abholung im Shop",
         "information_estimated_taxes_label": "Φόροι (εκτιμώμενοι)",
-        "estimated_taxes_finalization_tooltip_content": "Η τελική φορολογική και το συνολικό ποσό θα επιβεβαιωθούν μέσω email ή SMS, αφού υποβάλεις την παραγγελία σου."
+        "estimated_taxes_finalization_tooltip_content": "Η τελική φορολογική και το συνολικό ποσό θα επιβεβαιωθούν μέσω email ή SMS, αφού υποβάλεις την παραγγελία σου.",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "Η πληρωμή των %{amount_due} είναι ληξιπρόθεσμη κατά την παραλαβή"
+        },
+        "payment_terms_totals": {
+          "due_later": "Το συνολικό ποσό είναι ληξιπρόθεσμο την %{due_at}"
+        },
+        "maximum_discount_code_limit_reached": "Du έχεις φτάσει τον μέγιστο αριθμό κουπονιών έκπτωσης. Αφαίρεσε έναν υπάρχοντα κωδικό για να χρησιμοποιήσεις <strong style=\"text-transform:uppercase\">%{code}</strong>."
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Συνήθως έτοιμο σε 2 ώρες",

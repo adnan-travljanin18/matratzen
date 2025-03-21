@@ -85,7 +85,14 @@
         "total_already_paid_label": "Betalt",
         "pickup_label": "Abholung i butikken",
         "estimated_taxes_label": "Skattestimater",
-        "estimated_taxes_finalization_tooltip_content": "Die endelige skat og det samlede beløb bekræftes via e-mail eller SMS, efter at du har afgivet din bestilling."
+        "estimated_taxes_finalization_tooltip_content": "Die endelige skat og det samlede beløb bekræftes via e-mail eller SMS, efter at du har afgivet din bestilling.",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "Betaling af %{amount_due} forfalder ved modtagelse"
+        },
+        "payment_terms_totals": {
+          "total_paid": "Betalt samlet beløb"
+        },
+        "order_total_label": "Gesamtbestillingsværdi"
       },
       "delivery_options": {
         "pick_up_in_five_or_more_days": "Almindeligvis færdig på 5 dage eller mere"

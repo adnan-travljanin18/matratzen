@@ -66,7 +66,8 @@
             "additional_requested_discount_code_discarded": "Запитаний додатковий код знижки був скасований."
           },
           "tax": {
-            "unresolvable_tax_terms": "Запропоновані умови є несумісними в поточному контексті переговорів."
+            "unresolvable_tax_terms": "Запропоновані умови є несумісними в поточному контексті переговорів.",
+            "allocated_required": "Поле \"Призначено\" відсутнє."
           }
         },
         "complete_purchase_button_label": "Купити",
@@ -129,7 +130,13 @@
         "description_label": "Опис",
         "pickup_label": "Забрати в магазині",
         "information_estimated_taxes_label": "Податки (оцінка)",
-        "estimated_taxes_finalization_tooltip_content": "Остаточний податок та загальна сума будуть підтверджені електронною поштою або SMS після того, як ви оформите замовлення."
+        "estimated_taxes_finalization_tooltip_content": "Остаточний податок та загальна сума будуть підтверджені електронною поштою або SMS після того, як ви оформите замовлення.",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "Оплата %{amount_due} повинна бути здійснена при отриманні"
+        },
+        "payment_terms_totals": {
+          "due_later": "Загальна сума до сплати %{due_at}"
+        }
       }
     }
   },

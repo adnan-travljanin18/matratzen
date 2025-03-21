@@ -82,7 +82,14 @@
         "total_already_paid_label": "Maksettu",
         "pickup_label": "Nouto myymälästä",
         "estimated_taxes_label": "Arvioidut verot",
-        "estimated_taxes_finalization_tooltip_content": "Die endgültige Steuer und der Gesamtbetrag werden per E-Mail oder SMS bestätigt, nachdem du die Bestellung aufgegeben hast."
+        "estimated_taxes_finalization_tooltip_content": "Die endgültige Steuer und der Gesamtbetrag werden per E-Mail oder SMS bestätigt, nachdem du die Bestellung aufgegeben hast.",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "Maksu %{amount_due} erääntyy vastaanottamisen yhteydessä"
+        },
+        "payment_terms_totals": {
+          "total_paid": "Maksettu kokonaismäärä"
+        },
+        "order_total_label": "Kokonaiskokonaissumma"
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Tavallisesti valmis 1 tunnissa"

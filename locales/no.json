@@ -82,7 +82,14 @@
         "total_already_paid_label": "Betalt",
         "pickup_label": "Abhenting i butikk",
         "information_estimated_taxes_label": "Skatter (anslått)",
-        "estimated_taxes_finalization_tooltip_content": "Die endelige skatt og det totale beløpet vil bli bekreftet via e-post eller SMS etter at du har lagt inn bestillingen."
+        "estimated_taxes_finalization_tooltip_content": "Die endelige skatt og det totale beløpet vil bli bekreftet via e-post eller SMS etter at du har lagt inn bestillingen.",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "Betaling av %{amount_due} forfaller ved mottak"
+        },
+        "payment_terms_totals": {
+          "total_paid": "Betalt totalsum"
+        },
+        "order_total_label": "Total bestillingsverdi"
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Vanligvis ferdig på 1 time"

@@ -86,7 +86,13 @@
         "description_label": "Descrição",
         "pickup_label": "Ab pickup in the shop",
         "information_estimated_taxes_label": "Impostos (estimados)",
-        "recurring_total_label": "Soma total recorrente"
+        "recurring_total_label": "Soma total recorrente",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "O pagamento de %{amount_due} é devido ao receber"
+        },
+        "payment_terms_totals": {
+          "due_later": "Total a ser pago em %{due_at}"
+        }
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Normalmente pronto em 2 horas",

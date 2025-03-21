@@ -118,7 +118,14 @@
         "description_label": "Beskrivning",
         "pickup_label": "Abholung i butik",
         "information_estimated_taxes_label": "Skatter (beräknade)",
-        "estimated_taxes_finalization_tooltip_content": "Die slutgiltiga skatten och det totala beloppet bekräftas via e-post eller SMS efter att du har lagt din beställning."
+        "estimated_taxes_finalization_tooltip_content": "Die slutgiltiga skatten och det totala beloppet bekräftas via e-post eller SMS efter att du har lagt din beställning.",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "Betalning av %{amount_due} förfaller vid mottagande"
+        },
+        "payment_terms_totals": {
+          "total_paid": "Betald totalsumma"
+        },
+        "order_total_label": "Total beställningsvärde"
       }
     }
   },

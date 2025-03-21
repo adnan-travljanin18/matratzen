@@ -82,7 +82,14 @@
         "total_already_paid_label": "Pagato",
         "pickup_label": "Ritiro in negozio",
         "information_estimated_taxes_label": "Tasse (stimata)",
-        "estimated_taxes_finalization_tooltip_content": "La tassa finale e l'importo totale verranno confermati via e-mail o SMS dopo aver effettuato l'ordine."
+        "estimated_taxes_finalization_tooltip_content": "La tassa finale e l'importo totale verranno confermati via e-mail o SMS dopo aver effettuato l'ordine.",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "Il pagamento di %{amount_due} è dovuto al ricevimento"
+        },
+        "payment_terms_totals": {
+          "total_paid": "Somma totale pagata"
+        },
+        "order_total_label": "Valore totale dell'ordine"
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Normalmente pronto in 1 ora"

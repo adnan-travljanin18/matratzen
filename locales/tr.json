@@ -118,7 +118,14 @@
         "description_label": "Tanım",
         "pickup_label": "Abholung im Shop",
         "information_estimated_taxes_label": "Vergi (tahmini)",
-        "estimated_taxes_finalization_tooltip_content": "Die nihai vergi ve toplam tutar, siparişi verdikten sonra e-posta veya SMS ile onaylanacaktır."
+        "estimated_taxes_finalization_tooltip_content": "Die nihai vergi ve toplam tutar, siparişi verdikten sonra e-posta veya SMS ile onaylanacaktır.",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "Ödeme %{amount_due} alındığında vadelidir"
+        },
+        "payment_terms_totals": {
+          "due_later": "Gesamtbetrag am %{due_at} fällig"
+        },
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> şu anda çalışmıyor. Yardım almak için lütfen bizimle iletişime geçin."
       }
     }
   },

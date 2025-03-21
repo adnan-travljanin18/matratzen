@@ -100,7 +100,14 @@
         "description_label": "Opis",
         "pickup_label": "Preuzimanje u prodavnici",
         "information_estimated_taxes_label": "Porezi (procena)",
-        "recurring_total_label": "Ponovljeni ukupni iznos"
+        "recurring_total_label": "Ponovljeni ukupni iznos",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "Уплата од %{amount_due} дужна је при пријему"
+        },
+        "payment_terms_totals": {
+          "due_later": "Ukupan iznos dospjela na %{due_at}"
+        },
+        "duties_label": "Carinski troškovi"
       }
     }
   },

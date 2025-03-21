@@ -88,7 +88,14 @@
         "description_label": "Leírás",
         "pickup_label": "Abholung im Shop",
         "information_estimated_taxes_label": "Adók (becsült)",
-        "estimated_taxes_finalization_tooltip_content": "A végső adó és a teljes összeg megerősítésre kerül e-mailben vagy SMS-ben, miután a rendelésedet leadtad."
+        "estimated_taxes_finalization_tooltip_content": "A végső adó és a teljes összeg megerősítésre kerül e-mailben vagy SMS-ben, miután a rendelésedet leadtad.",
+        "deferred_payment_info": {
+          "due_on_receipt_title": "A %{amount_due} összeg kifizetése a kézhezvételt követően esedékes."
+        },
+        "payment_terms_totals": {
+          "due_later": "A teljes összeg %{due_at} esedékes"
+        },
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> jelenleg nem működik. Kérjük, lépj kapcsolatba velünk, hogy segítséget kapj."
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Általában 2 órán belül kész",
