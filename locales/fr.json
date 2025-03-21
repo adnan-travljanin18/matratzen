@@ -439,6 +439,11 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Adresse de livraison"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Le bon a déjà été ajouté à votre commande"
+        }
       }
     },
     "pagination": {
@@ -543,6 +548,10 @@
       "order_list": {
         "items": {
           "one": "{{count}} Articles"
+        },
+        "order_link": "Commande {{name}} à consulter",
+        "pagination": {
+          "next": "Continuer"
         }
       }
     }

@@ -543,7 +543,16 @@
         "column_headers": {
           "items": "Artigo"
         },
-        "estimated_delivery": "Esperado em {{date}}"
+        "estimated_delivery": "Esperado em {{date}}",
+        "order_link": "Pedido de {{name}} visualizar",
+        "pagination": {
+          "next": "Continuar"
+        },
+        "sort": {
+          "date": {
+            "oldest": "Mais Antigo–Mais Novo"
+          }
+        }
       }
     }
   }

@@ -547,7 +547,16 @@
         "column_headers": {
           "items": "Άρθρο"
         },
-        "estimated_delivery": "Αναμένεται στις {{date}}"
+        "estimated_delivery": "Αναμένεται στις {{date}}",
+        "order_link": "Παραγγελία {{name}} να την δεις",
+        "pagination": {
+          "next": "Συνεχίστε"
+        },
+        "sort": {
+          "date": {
+            "newest": "Νεότερη–Παλαιότερη"
+          }
+        }
       }
     }
   }

@@ -570,7 +570,12 @@
         "column_headers": {
           "items": "Стаття"
         },
-        "estimated_delivery": "Очікується {{date}}"
+        "estimated_delivery": "Очікується {{date}}",
+        "order_link": "Замовлення {{name}} переглянути",
+        "pagination": {
+          "next": "Продовжувати"
+        },
+        "sort_show_options_accessibility_label": "Показати параметри сортування для підтверджених замовлень."
       }
     }
   }

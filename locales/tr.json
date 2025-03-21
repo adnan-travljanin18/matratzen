@@ -569,7 +569,16 @@
         "column_headers": {
           "items": "Makale"
         },
-        "empty_state_title": "Henüz sipariş yok"
+        "empty_state_title": "Henüz sipariş yok",
+        "order_link": "Bestellung {{name}} ansehen",
+        "pagination": {
+          "next": "Devam"
+        },
+        "sort": {
+          "location": {
+            "descending": "Standort (Z–A)"
+          }
+        }
       }
     }
   }

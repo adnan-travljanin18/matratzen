@@ -569,6 +569,15 @@
         },
         "items": {
           "one": "{{count}} Artiklar"
+        },
+        "order_link": "Beställning {{name}} visa",
+        "pagination": {
+          "next": "Fortsätta"
+        },
+        "sort": {
+          "location": {
+            "ascending": "Standort (A–Z)"
+          }
         }
       }
     }

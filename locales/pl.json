@@ -437,6 +437,11 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Adres dostawy"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Kupon został już dodany do twojego zamówienia"
+        }
       }
     },
     "pagination": {
@@ -542,6 +547,10 @@
         },
         "items": {
           "one": "{{count}} Artykuł"
+        },
+        "order_link": "Zamówienie {{name}} wyświetl",
+        "pagination": {
+          "next": "Kontynuuj"
         }
       }
     }

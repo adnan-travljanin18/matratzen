@@ -443,6 +443,11 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Indirizzo di consegna"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Il voucher è già stato aggiunto al tuo ordine"
+        }
       }
     },
     "pagination": {
@@ -548,6 +553,10 @@
         },
         "items": {
           "one": "{{count}} Articolo"
+        },
+        "order_link": "Ordine {{name}} da visualizzare",
+        "pagination": {
+          "next": "Continuare"
         }
       }
     }

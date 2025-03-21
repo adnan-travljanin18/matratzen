@@ -441,6 +441,11 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Leveringsadresse"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Gavekortet er allerede tilføjet til din ordre"
+        }
       }
     },
     "pagination": {
@@ -546,7 +551,11 @@
     "orders": {
       "list_layout_accessibility_label": "Layout-muligheder",
       "order_list": {
-        "empty_state_title": "Ingen ordrer endnu"
+        "empty_state_title": "Ingen ordrer endnu",
+        "order_link": "Bestellung {{name}} se",
+        "pagination": {
+          "next": "Fortsæt"
+        }
       }
     }
   }

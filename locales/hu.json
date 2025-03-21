@@ -549,7 +549,12 @@
         "column_headers": {
           "items": "Cikk"
         },
-        "empty_state_title": "Még nincsenek megrendelések"
+        "empty_state_title": "Még nincsenek megrendelések",
+        "order_link": "Bestellung {{name}} ansehen",
+        "pagination": {
+          "next": "Tovább"
+        },
+        "sort_title": "Rendezés"
       }
     }
   }

@@ -555,7 +555,16 @@
         "column_headers": {
           "items": "Članak"
         },
-        "estimated_delivery": "Očekuje se {{date}}"
+        "estimated_delivery": "Očekuje se {{date}}",
+        "order_link": "Погледајте наруџбину {{name}}",
+        "pagination": {
+          "next": "Dalje"
+        },
+        "sort": {
+          "date": {
+            "oldest": "Najstarije–Najnovije"
+          }
+        }
       }
     }
   }

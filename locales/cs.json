@@ -527,7 +527,12 @@
     "orders": {
       "list_layout_accessibility_label": "Možnosti rozložení",
       "order_list": {
-        "empty_state_title": "Noch keine Bestellungen"
+        "empty_state_title": "Noch keine Bestellungen",
+        "order_link": "Zobrazit objednávku {{name}}",
+        "pagination": {
+          "next": "Pokračovat"
+        },
+        "sort_title": "Seřadit"
       }
     }
   }

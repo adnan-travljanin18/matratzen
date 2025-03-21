@@ -429,6 +429,11 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Toimitusosoite"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Alennuskoodi on jo lisätty tilaukseesi"
+        }
       }
     },
     "pagination": {
@@ -539,6 +544,10 @@
         },
         "items": {
           "one": "{{count}} Artikkeli"
+        },
+        "order_link": "Bestellung {{name}} ansehen",
+        "pagination": {
+          "next": "Jatkaa"
         }
       }
     }

@@ -439,6 +439,11 @@
         "all_stores_far_away": {
           "ship_to_address_link": "Leveringsadresse"
         }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Gavekortet har allerede blitt lagt til bestillingen din"
+        }
       }
     },
     "pagination": {
@@ -544,6 +549,10 @@
         },
         "items": {
           "one": "{{count}} Artikkel"
+        },
+        "order_link": "Bestilling {{name}} se",
+        "pagination": {
+          "next": "Videre"
         }
       }
     }
