@@ -244,7 +244,8 @@
       "payment_gateway": {
         "credit_card_label": "Karta kredytowa",
         "deferred_payment_label": "Metoda płatności do wybrania później",
-        "order_due_on_fulfillment_payment": "Twoja karta zostanie obciążona, gdy tylko twoje zamówienie zostanie zrealizowane."
+        "order_due_on_fulfillment_payment": "Twoja karta zostanie obciążona, gdy tylko twoje zamówienie zostanie zrealizowane.",
+        "order_deposit_due_now": "{{depositAmount}} jest dzisiaj wymagalna. Na pozostałą kwotę obowiązują warunki \"{{translatedName}}\" i jest ona wymagalna w dniu {{dueDate}}."
       },
       "shipping_errors": {
         "shipping_method_not_available": "Dein koszyk został zaktualizowany, a dodane przez Ciebie przedmioty nie mogą zostać dostarczone na Twój adres. Usuń przedmioty, aby zakończyć zamówienie.",
@@ -252,7 +253,14 @@
       },
       "processing": {
         "redirecting_page_title": "Przekierowanie…",
-        "continue_to_payment_gateway_notice_error": "Twoje informacje płatnicze nie mogły zostać zweryfikowane."
+        "continue_to_payment_gateway_notice_error": "Twoje informacje płatnicze nie mogły zostać zweryfikowane.",
+        "page_title": "Zamówienie jest przetwarzane",
+        "wait": {
+          "no_auto_refresh_html": "Jeśli nie zostaniesz automatycznie przekierowany, %{link}."
+        }
+      },
+      "thank_you": {
+        "order_updates_description_missing": "Otrzymasz brak aktualizacji dotyczących wysyłki."
       }
     }
   },

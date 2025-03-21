@@ -237,7 +237,8 @@
       "payment_gateway": {
         "credit_card_label": "Kreditkarte",
         "deferred_payment_label": "Később válassza ki a fizetési módot",
-        "order_due_on_fulfillment_choose_later": "A fizetésed esedékessé válik, amint a rendelésed teljesítésre kerül."
+        "order_due_on_fulfillment_choose_later": "A fizetésed esedékessé válik, amint a rendelésed teljesítésre kerül.",
+        "order_deposit_due_now": "{{depositAmount}} ma esedékes. A fennmaradó összegre a \"{{translatedName}}\" feltételei vonatkoznak, és a {{dueDate}} esedékes."
       },
       "shipping_errors": {
         "shipping_method_not_available": "A kosarad frissítve lett, és a hozzáadott termékek nem szállíthatók az általad megadott címre. Távolítsd el a termékeket, hogy befejezd a rendelést.",
@@ -245,7 +246,14 @@
       },
       "processing": {
         "redirecting_page_title": "Továbbítás…",
-        "continue_to_payment_gateway_notice_error": "A külföldi fizetési információid nem igazolhatóak."
+        "continue_to_payment_gateway_notice_error": "A külföldi fizetési információid nem igazolhatóak.",
+        "title": "A megrendelés feldolgozás alatt",
+        "redirecting_to_bank": "Du wirst zu {{bank}} weitergeleitet"
+      },
+      "thank_you": {
+        "fulfillment": {
+          "quantity_label": "Szám"
+        }
       }
     }
   },

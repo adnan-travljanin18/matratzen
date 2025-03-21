@@ -245,7 +245,8 @@
       "payment_gateway": {
         "credit_card_label": "Kreditna karta",
         "deferred_payment_label": "Metoda plaćanja može se odabrati kasnije",
-        "order_due_on_fulfillment_choose_later": "Tvoja uplata dospeva čim je tvoja narudžbina izvršena."
+        "order_due_on_fulfillment_choose_later": "Tvoja uplata dospeva čim je tvoja narudžbina izvršena.",
+        "order_deposit_due_now": "{{depositAmount}} su danas dospjeli. Za preostali iznos važe uslovi \"{{translatedName}}\" i dospjela je na {{dueDate}}."
       },
       "shipping_errors": {
         "shipping_method_not_available": "Ваша корпа је ажурирана и предмети које сте додали не могу бити испоручени на вашу адресу. Уклоните предмете да бисте завршили вашу наруџбину.",
@@ -253,7 +254,9 @@
       },
       "processing": {
         "redirecting_page_title": "Preusmeravanje…",
-        "continue_to_payment_gateway_notice_error": "Informacije o vašem plaćanju nisu mogle biti verifikovane."
+        "continue_to_payment_gateway_notice_error": "Informacije o vašem plaćanju nisu mogle biti verifikovane.",
+        "title": "Narudžbina se obrađuje",
+        "redirecting_to_bank": "Du ćete biti preusmereni na {{bank}}"
       }
     }
   },

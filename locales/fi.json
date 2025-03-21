@@ -243,11 +243,14 @@
       },
       "payment_gateway": {
         "order_due_on_fulfillment_payment": "Sinun korttisi veloitetaan heti, kun tilauksesi on käsitelty.",
-        "draft_order_payment_due_later_no_terms_payment_selected": "Sinun korttiasi veloitetaan heti, kun tilauksesi on vahvistettu."
+        "draft_order_payment_due_later_no_terms_payment_selected": "Sinun korttiasi veloitetaan heti, kun tilauksesi on vahvistettu.",
+        "order_deposit_due_now": "{{depositAmount}} on tänään erääntynyt. Jäljellä olevaan summaan applyt ehdot \"{{translatedName}}\" ja se erääntyy {{dueDate}}.",
+        "order_due_on_receipt_choose_later": "Sinun maksusi erääntyy määräaikana vastaanotettaessa."
       },
       "processing": {
         "continue_to_payment_gateway_notice": "Jatka maksamista lisätäksesi maksutietosi.",
-        "your_order_has_been_received_title": "Kiitos tilauksestasi"
+        "page_title": "Tilauksesi käsitellään",
+        "redirecting_to_bank": "Du wird {{bank}} →> redirected <<"
       }
     }
   },

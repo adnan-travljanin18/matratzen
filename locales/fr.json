@@ -246,14 +246,21 @@
         "deferred_payment_label": "Méthode de paiement à sélectionner plus tard",
         "order_due_on_fulfillment_payment": "Votre carte sera débitée dès que votre commande aura été exécutée.",
         "draft_order_payment_due_later_no_terms_payment_selected": "Votre carte sera débitée une fois votre commande confirmée.",
-        "fixed_payment_label": "Votre paiement est dû le {{dueDate}}."
+        "order_deposit_due_now": "{{depositAmount}} est dû aujourd'hui. Pour le montant restant, les conditions de \"{{translatedName}}\" s'appliquent et il est dû le {{dueDate}}."
       },
       "shipping_errors": {
         "shipping_method_not_available": "Votre panier a été mis à jour, et les articles que vous avez ajoutés ne peuvent pas être livrés à votre adresse. Retirez les articles pour finaliser votre commande.",
         "invalid_selected_address_with_update_link": "L'adresse de livraison sélectionnée est invalide. %{update_address_link} ou choisissez une autre adresse"
       },
       "processing": {
-        "continue_to_payment_gateway_notice": "Poursuivez le paiement pour ajouter vos informations de paiement."
+        "continue_to_payment_gateway_notice": "Poursuivez le paiement pour ajouter vos informations de paiement.",
+        "page_title": "La commande est en cours de traitement",
+        "redirecting_to_bank": "Du wirst zu {{bank}} weitergeleitet"
+      },
+      "thank_you": {
+        "fulfillment": {
+          "product_image_label": "Image du produit"
+        }
       }
     }
   },

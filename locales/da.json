@@ -248,11 +248,14 @@
       },
       "payment_gateway": {
         "order_due_on_fulfillment_payment": "Din kort vil blive opkrævet, så snart din bestilling er blevet gennemført.",
-        "draft_order_payment_due_later_no_terms_payment_selected": "Din kort vil blive opkrævet, så snart din bestilling er bekræftet."
+        "draft_order_payment_due_later_no_terms_payment_selected": "Din kort vil blive opkrævet, så snart din bestilling er bekræftet.",
+        "order_deposit_due_now": "{{depositAmount}} er forfaldne i dag. For det resterende beløb gælder betingelserne \"{{translatedName}}\" og det forfalder den {{dueDate}}.",
+        "order_due_on_receipt_choose_later": "Din betaling forfalder ved modtagelse."
       },
       "processing": {
         "continue_to_payment_gateway_notice": "Fortsæt med betalingen for at tilføje dine betalingsoplysninger.",
-        "title": "Bestilling bliver behandlet"
+        "page_title": "Bestilling bliver behandlet",
+        "redirecting_to_bank": "Du vil blive omdirigeret til {{bank}}"
       }
     }
   },

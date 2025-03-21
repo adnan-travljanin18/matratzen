@@ -235,7 +235,8 @@
       "payment_gateway": {
         "credit_card_label": "Κάρτα Πιστωτική",
         "deferred_payment_label": "Η μέθοδος πληρωμής θα επιλεγεί αργότερα",
-        "order_due_on_fulfillment_choose_later": "Η πληρωμή σου είναι ληξιπρόθεσμη μόλις ολοκληρωθεί η παραγγελία σου."
+        "order_due_on_fulfillment_choose_later": "Η πληρωμή σου είναι ληξιπρόθεσμη μόλις ολοκληρωθεί η παραγγελία σου.",
+        "order_deposit_due_now": "{{depositAmount}} είναι σήμερα ληξιπρόθεσμο. Για το υπόλοιπο ποσό ισχύουν οι όροι \"{{translatedName}}\" και είναι ληξιπρόθεσμο στις {{dueDate}}."
       },
       "shipping_errors": {
         "shipping_method_not_available": "Ο κάδος αγορών σας έχει ενημερωθεί και τα είδη που προσθέσατε δεν μπορούν να παραληφθούν στη διεύθυνσή σας. Αφαιρέστε τα είδη για να ολοκληρώσετε την παραγγελία σας.",
@@ -243,7 +244,9 @@
       },
       "processing": {
         "redirecting_page_title": "Μεταφορά…",
-        "continue_to_payment_gateway_notice_error": "Οι πληροφορίες πληρωμής σας δεν μπόρεσαν να επιβεβαιωθούν."
+        "continue_to_payment_gateway_notice_error": "Οι πληροφορίες πληρωμής σας δεν μπόρεσαν να επιβεβαιωθούν.",
+        "title": "Η παραγγελία επεξεργάζεται",
+        "redirecting_to_bank": "Du θα μεταφερθείτε στο {{bank}}"
       }
     }
   },

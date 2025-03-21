@@ -278,7 +278,8 @@
       "payment_gateway": {
         "credit_card_label": "Кредитна картка",
         "deferred_payment_label": "Спосіб оплати вибрати пізніше",
-        "order_due_on_fulfillment_choose_later": "Твій платіж має бути сплачений, щойно твоє замовлення буде виконано."
+        "order_due_on_fulfillment_choose_later": "Твій платіж має бути сплачений, щойно твоє замовлення буде виконано.",
+        "order_deposit_due_now": "{{depositAmount}} сьогодні підлягає оплаті. Для залишкової суми діють умови \"{{translatedName}}\" і вона підлягає оплаті {{dueDate}}."
       },
       "shipping_errors": {
         "shipping_method_not_available": "Ваш кошик було оновлено, і додані вами товари не можуть бути доставлені за вашою адресою. Видаліть товари, щоб завершити своє замовлення.",
@@ -286,7 +287,14 @@
       },
       "processing": {
         "redirecting_page_title": "Перенаправлення…",
-        "continue_to_payment_gateway_notice_error": "Вашу інформацію про оплату не вдалося перевірити."
+        "continue_to_payment_gateway_notice_error": "Вашу інформацію про оплату не вдалося перевірити.",
+        "title": "Замовлення обробляється",
+        "redirecting_to_bank": "Ви будете перенаправлені до {{bank}}"
+      },
+      "thank_you": {
+        "fulfillment": {
+          "quantity_label": "Кількість"
+        }
       }
     }
   },

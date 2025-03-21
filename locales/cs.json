@@ -237,11 +237,14 @@
       },
       "payment_gateway": {
         "draft_order_payment_due_later_no_terms": "Tvá platba je splatná, jakmile bude tvoje objednávka potvrzena.",
-        "draft_order_payment_due_later_no_terms_payment_selected": "Tvá karta bude zpoplatněna, jakmile bude tvoje objednávka potvrzena."
+        "draft_order_payment_due_later_no_terms_payment_selected": "Tvá karta bude zpoplatněna, jakmile bude tvoje objednávka potvrzena.",
+        "order_deposit_due_now": "{{depositAmount}} jsou dnes splatné. Pro zbývající částku platí podmínky \"{{translatedName}}\" a je splatná dne {{dueDate}}.",
+        "order_due_on_receipt_choose_later": "Tvá platba je splatná při převzetí."
       },
       "processing": {
         "continue_to_payment_gateway_notice": "Pokračujte v platbě a přidejte své platební údaje.",
-        "page_title": "Objednávka je zpracovávána"
+        "page_title": "Objednávka je zpracovávána",
+        "redirecting_to_bank": "Du wirst zu {{bank}} weitergeleitet"
       }
     }
   },

@@ -235,7 +235,8 @@
       "payment_gateway": {
         "credit_card_label": "Cartão de Crédito",
         "deferred_payment_label": "Método de pagamento a ser selecionado mais tarde",
-        "order_due_on_fulfillment_choose_later": "Sua pagamento é devido assim que seu pedido for executado."
+        "order_due_on_fulfillment_choose_later": "Sua pagamento é devido assim que seu pedido for executado.",
+        "order_deposit_due_now": "{{depositAmount}} está vencido hoje. Para o valor remanescente, aplicam-se as condições \"{{translatedName}}\" e ele é devido em {{dueDate}}."
       },
       "shipping_errors": {
         "shipping_method_not_available": "Seu carrinho foi atualizado e os itens que você adicionou não podem ser entregues no seu endereço. Remova os itens para concluir seu pedido.",
@@ -243,7 +244,9 @@
       },
       "processing": {
         "redirecting_page_title": "Redirecionamento…",
-        "continue_to_payment_gateway_notice_error": "Suas informações de pagamento não puderam ser verificadas."
+        "continue_to_payment_gateway_notice_error": "Suas informações de pagamento não puderam ser verificadas.",
+        "title": "O pedido está sendo processado",
+        "redirecting_to_bank": "Du wirst zu {{bank}} weitergeleitet"
       }
     }
   },
