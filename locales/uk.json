@@ -871,5 +871,16 @@
       "new_window": "Відкриває в новому вікні."
     },
     "loading": "Завантаження..."
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Додати до списку бажань",
+      "quantity": {
+        "increase": "Підвищити кількість для {{ product }}"
+      },
+      "price": {
+        "unit_price": "Ціна за одиницю"
+      }
+    }
   }
 }

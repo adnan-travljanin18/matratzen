@@ -872,5 +872,14 @@
     "article": {
       "name": "Namn"
     }
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Lägga till i önskelistan",
+      "quantity": {
+        "increase": "Menge för {{ product }} öka"
+      },
+      "sold_out": "Utförsäljning"
+    }
   }
 }

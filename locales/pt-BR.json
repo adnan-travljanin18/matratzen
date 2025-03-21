@@ -846,5 +846,14 @@
       "new_window": "Abre em uma nova janela."
     },
     "loading": "Carregando..."
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Adicionar à lista de desejos",
+      "quantity": {
+        "increase": "Aumentar a quantidade de {{ product }}"
+      },
+      "share": "Compartilhar:"
+    }
   }
 }

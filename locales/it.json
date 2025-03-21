@@ -859,5 +859,14 @@
       },
       "name": "Nome"
     }
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Aggiungi alla lista dei desideri",
+      "price_range": "Da {{ min }} a {{ max }}",
+      "price": {
+        "sale_price": "Prezzo di vendita"
+      }
+    }
   }
 }

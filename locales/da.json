@@ -762,6 +762,9 @@
                 "due_on_receipt": "Du modtager en faktura for det resterende beløb."
               }
             }
+          },
+          "paid": {
+            "title_with_date": "Betalt den {{date}}"
           }
         }
       }
@@ -854,6 +857,12 @@
         "one": "{{ count }} Kommentar"
       },
       "name": "Navn"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Tilføj til ønskeliste",
+      "price_range": "Von {{ min }} til {{ max }}"
     }
   }
 }

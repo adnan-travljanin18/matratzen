@@ -854,5 +854,14 @@
       "new_window": "Otvara u novom prozoru."
     },
     "loading": "Učitavanje..."
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Dodati na listu želja",
+      "quantity": {
+        "increase": "Menge za {{ product }} povećati"
+      },
+      "share": "Podeli:"
+    }
   }
 }

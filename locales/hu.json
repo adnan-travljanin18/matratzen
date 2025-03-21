@@ -848,5 +848,16 @@
       "new_window": "Megnyit egy új ablakban."
     },
     "loading": "Betöltés..."
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Kívánságlistához hozzáadni",
+      "quantity": {
+        "increase": "Menge a {{ product }} növelése"
+      },
+      "price": {
+        "regular_price": "Normál ár"
+      }
+    }
   }
 }

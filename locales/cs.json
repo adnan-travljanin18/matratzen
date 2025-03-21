@@ -745,6 +745,9 @@
                 "due_on_receipt": "Obdržíte fakturu za zbývající částku."
               }
             }
+          },
+          "paid": {
+            "title_with_date": "Bezahlt dne {{date}}"
           }
         }
       }
@@ -839,6 +842,12 @@
         "one": "{{ count }} Komentář"
       },
       "name": "Název"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Přidat do seznamu přání",
+      "price_range": "Von {{ min }} bis {{ max }}"
     }
   }
 }

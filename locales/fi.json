@@ -753,6 +753,9 @@
                 "due_on_receipt": "Saat laskun jäljellä olevasta määrästä."
               }
             }
+          },
+          "paid": {
+            "title_with_date": "Maksettu {{date}}"
           }
         }
       }
@@ -840,6 +843,12 @@
         "one": "{{ count }} Kommenttia"
       },
       "name": "Nimi"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Lisää toivelistalle",
+      "price_range": "'Von {{ min }} bis {{ max }}'"
     }
   }
 }

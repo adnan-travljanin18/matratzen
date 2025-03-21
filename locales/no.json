@@ -847,5 +847,16 @@
       },
       "name": "Navn"
     }
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Legg til i ønskelisten",
+      "quantity": {
+        "increase": "Mengde for {{ product }} øke"
+      },
+      "price": {
+        "sale_price": "Salgspris"
+      }
+    }
   }
 }

@@ -843,5 +843,16 @@
       "read_more_title": "Mehr lesen: {{ title }}",
       "name": "Nazwa"
     }
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Dodać do listy życzeń",
+      "quantity": {
+        "increase": "Zwiększyć ilość dla {{ product }}"
+      },
+      "price": {
+        "sale_price": "Cena sprzedaży"
+      }
+    }
   }
 }

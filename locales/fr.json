@@ -758,6 +758,9 @@
                 "due_on_receipt": "Vous recevrez une facture pour le solde restant."
               }
             }
+          },
+          "paid": {
+            "title_with_date": "Payé le {{date}}"
           }
         }
       }
@@ -848,6 +851,12 @@
         "one": "{{ count }} Commentaire"
       },
       "name": "Nom"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Ajouter à la liste de souhaits",
+      "price_range": "Von {{ min }} bis {{ max }}"
     }
   }
 }

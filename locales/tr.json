@@ -784,7 +784,8 @@
             "deposit": {
               "due_on_date": "{{depositAmount}} ödendiğinde, siparişin onaylandığında fatura edilir. Tutar {{dueDate}} tarihinde ödenmelidir."
             }
-          }
+          },
+          "pay_now": "Hemen öde"
         }
       }
     },
@@ -868,5 +869,13 @@
       "new_window": "Bir yeni pencerede açılır."
     },
     "loading": "Yükleniyor..."
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Dilek Listesine Ekle",
+      "quantity": {
+        "increase": "Mengeyi {{ product }} artırmak"
+      }
+    }
   }
 }

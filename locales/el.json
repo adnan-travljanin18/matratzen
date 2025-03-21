@@ -848,5 +848,14 @@
       "new_window": "Ανοίγει σε νέο παράθυρο."
     },
     "loading": "Φορτώνει..."
+  },
+  "products": {
+    "product": {
+      "add_to_wishlist": "Προσθήκη στη λίστα επιθυμιών",
+      "quantity": {
+        "increase": "Η ποσότητα για {{ product }} αυξάνεται"
+      },
+      "share": "Μερίδιο:"
+    }
   }
 }
