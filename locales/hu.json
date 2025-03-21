@@ -481,7 +481,9 @@
       "cart": {
         "empty_update": "nem tudja frissíteni az üres kosarat",
         "variant_not_found": "Nem találom a változatot",
-        "selling_plan_not_applicable": "A értékesítési terv nem alkalmazható a variánsra"
+        "less_than_minimum": "Ez a cikk minimum %{min}.",
+        "gift_card_price_must_be_greater_than_zero": "A \"%{name}\" nevű csomagtermék nem adható hozzá a kosárhoz.",
+        "cart_too_large": "A kosár túl nagy."
       }
     }
   },

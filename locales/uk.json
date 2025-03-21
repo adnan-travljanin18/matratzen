@@ -522,7 +522,9 @@
       "cart": {
         "empty_update": "Не вдалося оновити порожній кошик",
         "variant_not_found": "Не можу знайти варіант",
-        "selling_plan_not_applicable": "План продажу не можна застосувати до варіанту"
+        "more_than_maximum": "Ця стаття має максимум %{max}.",
+        "gift_card_price_must_be_greater_than_zero": "Продукт пакету \"%{name}\" не може бути доданий до кошика.",
+        "cart_too_large": "Кошик надто великий."
       }
     }
   },

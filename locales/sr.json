@@ -487,7 +487,9 @@
       "cart": {
         "only_n_items_available": "Možeš dodati samo %{count} %{name} u korpu.",
         "variant_not_found": "Ne mogu pronaći varijantu",
-        "selling_plan_not_available_for_company_locations": "Samo jednokratne kupovine su dostupne za B2B narudžbine"
+        "more_than_maximum": "Ovaj članak ima maksimum od %{max}.",
+        "gift_card_price_must_be_greater_than_zero": "Proizvod paketa \"%{name}\" se ne može dodati u korpu.",
+        "cart_too_large": "Korpa je prevelika."
       }
     }
   },

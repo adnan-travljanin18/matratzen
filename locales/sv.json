@@ -519,7 +519,9 @@
       "cart": {
         "link_expired": "Länken har löpt ut",
         "variant_not_found": "Kan inte hitta variant",
-        "less_than_minimum": "Denna artikel har ett minimum av %{min}."
+        "less_than_minimum": "Denna artikel har ett minimum av %{min}.",
+        "gift_card_price_must_be_greater_than_zero": "Bundle-produkten \"%{name}\" kan inte läggas till i kundvagnen.",
+        "cart_too_large": "Varukorgen är för stor."
       }
     }
   },

@@ -492,7 +492,9 @@
       "cart": {
         "link_expired": "Link wygasł",
         "variant_not_found": "Nie można znaleźć wariantu",
-        "less_than_minimum": "Ten artykuł ma minimum %{min}."
+        "less_than_minimum": "Ten artykuł ma minimum %{min}.",
+        "gift_card_price_must_be_greater_than_zero": "Produkt pakietowy \"%{name}\" nie może zostać dodany do koszyka.",
+        "cart_too_large": "Koszyk jest za duży."
       }
     }
   },

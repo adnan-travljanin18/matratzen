@@ -496,7 +496,9 @@
       },
       "cart": {
         "empty_update": "kan ikke opdatere den tomme indkøbskurv",
-        "less_than_minimum": "Denne artikel har et minimum på %{min}."
+        "less_than_minimum": "Denne artikel har et minimum på %{min}.",
+        "gift_card_price_must_be_greater_than_zero": "Bundlet produktet \"%{name}\" kan ikke tilføjes til indkøbskurven.",
+        "buyer_cannot_purchase_for_company_locations": "Ingen køb muligt for denne placering"
       }
     }
   },

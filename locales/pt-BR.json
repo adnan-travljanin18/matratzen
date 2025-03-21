@@ -475,7 +475,9 @@
       "cart": {
         "only_n_items_available": "Você só pode adicionar %{count} %{name} ao carrinho.",
         "variant_not_found": "Não foi possível encontrar a variante",
-        "shipping_address_not_required": "Este carrinho não requer envio"
+        "less_than_minimum": "Este artigo tem um mínimo de %{min}.",
+        "gift_card_price_must_be_greater_than_zero": "O produto em pacote \"%{name}\" não pode ser adicionado ao carrinho.",
+        "cart_too_large": "O carrinho está muito cheio."
       }
     }
   },

@@ -521,7 +521,9 @@
       "cart": {
         "link_expired": "Bağlantı süresi dolmuş",
         "variant_not_found": "Variante bulunamıyor",
-        "less_than_minimum": "Bu makale, %{min} kadar minimuma sahiptir."
+        "less_than_minimum": "Bu makale, %{min} kadar minimuma sahiptir.",
+        "gift_card_price_must_be_greater_than_zero": "\"%{name}\" bundle ürünü sepete eklenemez.",
+        "cart_too_large": "Sepet çok büyük."
       }
     }
   },

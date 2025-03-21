@@ -485,7 +485,9 @@
       "cart": {
         "link_expired": "Link vanhentunut",
         "link_no_longer_exists": "Link ei enää ole olemassa.",
-        "less_than_minimum": "Tämä artikkeli sisältää vähintään %{min}."
+        "less_than_minimum": "Tämä artikkeli sisältää vähintään %{min}.",
+        "gift_card_price_must_be_greater_than_zero": "Tuotepakettia \"%{name}\" ei voida lisätä ostoskoriin.",
+        "cart_too_large": "Ostoskori on liian suuri."
       }
     }
   },

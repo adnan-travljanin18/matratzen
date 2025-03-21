@@ -495,7 +495,9 @@
       "cart": {
         "link_expired": "Le lien a expiré",
         "link_no_longer_exists": "Le lien n'existe plus.",
-        "less_than_minimum": "Cet article a un minimum de %{min}."
+        "less_than_minimum": "Cet article a un minimum de %{min}.",
+        "gift_card_price_must_be_greater_than_zero": "Le produit en bundle \"%{name}\" ne peut pas être ajouté au panier.",
+        "cart_too_large": "Le panier est trop grand."
       }
     }
   },
