@@ -454,6 +454,11 @@
       },
       "company_location": {
         "location_title": "Beliggenhed"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Bekræft betalingen i appen for at afslutte dette køb."
+        }
       }
     },
     "pagination": {
@@ -608,6 +613,14 @@
         "delivery_promise": {
           "details_modal": {
             "title": "Levering understøttet af"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Garantirit leveringsfrist udløbet"
+          },
+          "details_modal": {
+            "title": "Garantet levering"
           }
         }
       }

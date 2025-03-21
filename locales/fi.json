@@ -442,6 +442,11 @@
       },
       "company_location": {
         "location_title": "Sijainti"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Vahvista maksusi sovelluksessa, jotta voit tehdä tämän oston."
+        }
       }
     },
     "pagination": {
@@ -599,6 +604,12 @@
         "delivery_promise": {
           "details_modal": {
             "title": "Toimitus tukemana"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Takuuajan toimitusaika on umpeutunut",
+            "download_shop_app_button_label": "Liitän Seurantakauppa"
           }
         }
       }

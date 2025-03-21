@@ -435,6 +435,11 @@
       },
       "company_location": {
         "location_title": "Místo"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Potvrďte platbu v aplikaci, abyste dokončili tento nákup."
+        }
       }
     },
     "pagination": {
@@ -591,6 +596,14 @@
           },
           "details_modal": {
             "title": "Dodání podpořené"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Garantovaná dodací doba vypršela"
+          },
+          "details_modal": {
+            "title": "Garantovaná doručení"
           }
         }
       }

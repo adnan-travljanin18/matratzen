@@ -445,6 +445,11 @@
       },
       "clipboard": {
         "failed_to_copy": "Nije moglo biti kopirano"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Potvrdi uplatu u aplikaciji kako bi završio ovu kupovinu."
+        }
       }
     },
     "pagination": {
@@ -618,7 +623,12 @@
             "not_delivered_by_label": "Ништа није достављено до {{date}}"
           },
           "details_modal": {
-            "modal_accessiblity_label": "Detalji isporučene obaveze"
+            "title": "Dostavljanje podržano kroz"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Vreme isporuke je isteklo"
           }
         }
       }

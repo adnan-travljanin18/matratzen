@@ -439,6 +439,11 @@
       },
       "company_location": {
         "location_title": "Helyszín"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Erősítse meg a vásárlást az alkalmazásban a vásárlás befejezéséhez."
+        }
       }
     },
     "pagination": {
@@ -607,8 +612,15 @@
         "delivered": "Angekommen am {{date}}",
         "delivery_promise": {
           "promise_line": {
-            "not_delivered_by_label": "Nem szállítva {{date}}-ig",
-            "modal_accessibility_button_label": "Részletek a szállítási kötelezettségről"
+            "not_delivered_by_label": "Nem szállítva {{date}}-ig"
+          },
+          "details_modal": {
+            "title": "Zustellung gestützt durch"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "A garantált szállítási idő lejárt"
           }
         }
       }

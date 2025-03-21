@@ -452,6 +452,11 @@
       },
       "company_location": {
         "location_title": "Beliggenhet"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Bekreft betalingen i appen for å fullføre dette kjøpet."
+        }
       }
     },
     "pagination": {
@@ -604,6 +609,14 @@
         "delivery_promise": {
           "details_modal": {
             "title": "Levering støttet av"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Garantert leveringstid utløpt"
+          },
+          "details_modal": {
+            "active_delivery_guarantee_label": "Zustellung bis {{date}}"
           }
         }
       }

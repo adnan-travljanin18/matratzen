@@ -436,6 +436,11 @@
       },
       "clipboard": {
         "failed_to_copy": "Não pôde ser copiado"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Confirme o pagamento no aplicativo para concluir esta compra."
+        }
       }
     },
     "pagination": {
@@ -606,7 +611,12 @@
             "not_delivered_by_label": "Não entregue até {{date}}"
           },
           "details_modal": {
-            "delivery_guaranteed_by_label": "Garantia de entrega até {{date}}"
+            "title": "Entrega apoiada por"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Prazo de entrega garantido expirou"
           }
         }
       }

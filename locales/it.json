@@ -456,6 +456,11 @@
       },
       "company_location": {
         "location_title": "Luogo"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Conferma il pagamento nell'app per completare questo acquisto."
+        }
       }
     },
     "pagination": {
@@ -608,6 +613,14 @@
         "delivery_promise": {
           "details_modal": {
             "title": "Consegna supportata da"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Tempo di consegna garantito scaduto"
+          },
+          "details_modal": {
+            "active_delivery_guarantee_label": "Zustellung entro {{date}}"
           }
         }
       }

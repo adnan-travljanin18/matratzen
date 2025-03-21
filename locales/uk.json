@@ -480,6 +480,11 @@
       },
       "company_location": {
         "location_title": "Місцезнаходження"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Підтвердіть платіж у додатку, щоб завершити цю покупку."
+        }
       }
     },
     "pagination": {
@@ -628,8 +633,15 @@
         "delivered": "Angekommen am {{date}}",
         "delivery_promise": {
           "promise_line": {
-            "not_delivered_by_label": "Не доставлено до {{date}}",
-            "modal_accessibility_button_label": "Деталі доставки"
+            "not_delivered_by_label": "Не доставлено до {{date}}"
+          },
+          "details_modal": {
+            "title": "Доставка, підтримувана"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Гарантований термін доставки минув"
           }
         }
       }

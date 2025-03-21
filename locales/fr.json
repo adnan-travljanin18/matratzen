@@ -452,6 +452,11 @@
       },
       "company_location": {
         "location_title": "Lieu"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Confirmez le paiement dans l'application pour finaliser cet achat."
+        }
       }
     },
     "pagination": {
@@ -603,6 +608,14 @@
         "delivery_promise": {
           "details_modal": {
             "title": "Livraison soutenue par"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Temps de livraison garanti écoulé"
+          },
+          "details_modal": {
+            "title": "Livraison garantie"
           }
         }
       }

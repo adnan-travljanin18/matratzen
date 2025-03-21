@@ -450,6 +450,11 @@
       },
       "company_location": {
         "location_title": "Lokalizacja"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Potwierdź płatność w aplikacji, aby zakończyć ten zakup."
+        }
       }
     },
     "pagination": {
@@ -602,6 +607,12 @@
         "delivery_promise": {
           "details_modal": {
             "title": "Dostarczanie wspierane przez"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Czas dostawy gwarantowany upłynął",
+            "track_with_shop_button_label": "Śledź z Sklepem"
           }
         }
       }

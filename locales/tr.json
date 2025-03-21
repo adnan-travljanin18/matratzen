@@ -480,6 +480,14 @@
       },
       "company_location": {
         "location_title": "Lokasyon"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Ödemeyi tamamlamak için uygulamada onaylayın."
+        }
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Die Anweisung für den Merchandise-Artikel %{position} %{name} enthält eine leere stabile ID."
       }
     },
     "pagination": {
@@ -628,7 +636,12 @@
             "not_delivered_by_label": "Nicht geliefert bis {{date}}"
           },
           "details_modal": {
-            "modal_accessiblity_label": "Teslimat Taahhüdü ile İlgili Ayrıntılar"
+            "title": "Teslimat desteklenmektedir"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Garantili teslimat süresi sona erdi"
           }
         }
       }

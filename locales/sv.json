@@ -477,6 +477,11 @@
       },
       "company_location": {
         "location_title": "Plats"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Bekräfta betalningen i appen för att slutföra detta köp."
+        }
       }
     },
     "pagination": {
@@ -629,6 +634,12 @@
         "delivery_promise": {
           "details_modal": {
             "title": "Leverans stödd av"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Garantit leveranstid har gått ut",
+            "modal_accessibility_button_label": "Detaljer om leveransåtagandet"
           }
         }
       }

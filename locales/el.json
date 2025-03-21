@@ -437,6 +437,11 @@
       },
       "company_location": {
         "location_title": "Τοποθεσία"
+      },
+      "payment_challenge_modal": {
+        "external": {
+          "instructions": "Επιβεβαίωσε την πληρωμή στην εφαρμογή για να ολοκληρώσεις αυτήν την αγορά."
+        }
       }
     },
     "pagination": {
@@ -605,8 +610,15 @@
         "delivered": "Angekommen am {{date}}",
         "delivery_promise": {
           "promise_line": {
-            "not_delivered_by_label": "'Δεν παραδόθηκε μέχρι {{date}}",
-            "modal_accessibility_button_label": "Λεπτομέρειες της δέσμευσης παράδοσης"
+            "not_delivered_by_label": "'Δεν παραδόθηκε μέχρι {{date}}"
+          },
+          "details_modal": {
+            "title": "Η παράδοση υποστηρίζεται από"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "delivery_guarantee_expired_label": "Η εγγυημένη προθεσμία παράδοσης έχει λήξει"
           }
         }
       }
