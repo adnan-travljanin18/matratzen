@@ -450,7 +450,9 @@
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
-          "some_products_one": "Ez a termék nem elérhető szállításra %{location_name} területére."
+          "some_products_one": "Ez a termék nem elérhető szállításra %{location_name} területére.",
+          "some_products_other": "Ezek a termékek nem állnak rendelkezésre a %{location_name} helyszínre történő szállításhoz.",
+          "all_products_one": "A termék a kosaradban nem elérhető a(z) %{location_name} helyszínre történő szállításhoz."
         }
       }
     },
@@ -642,7 +644,9 @@
     },
     "order_details": {
       "addresses_section_title": "Számlázás és szállítás",
-      "loading_finished_accessibility_message": "A megrendelési részletek betöltődtek"
+      "payment": {
+        "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
+      }
     }
   }
 }

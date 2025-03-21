@@ -491,7 +491,9 @@
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
-          "some_products_one": "Це продукт недоступний для доставки до %{location_name}."
+          "some_products_one": "Це продукт недоступний для доставки до %{location_name}.",
+          "some_products_other": "Ці продукти не доступні для доставки до %{location_name}.",
+          "all_products_one": "Продукт у твоєму кошику не доступний для доставки до %{location_name}."
         }
       }
     },
@@ -662,7 +664,7 @@
     "order_details": {
       "addresses_section_title": "Рахунки та доставка",
       "payment": {
-        "status_in_review": "Оплата підлягає перевірці"
+        "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
       }
     }
   }

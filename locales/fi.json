@@ -453,7 +453,8 @@
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
-          "some_products_one": "Tämä tuote ei ole saatavilla toimitettavaksi kohteeseen %{location_name}."
+          "some_products_one": "Tämä tuote ei ole saatavilla toimitettavaksi kohteeseen %{location_name}.",
+          "all_products_one": "Tuote, joka on ostoskorissasi, ei ole saatavilla toimitettavaksi %{location_name}"
         }
       }
     },
@@ -630,7 +631,10 @@
     },
     "order_details": {
       "addresses_section_title": "Rechningslähtö ja toimitus",
-      "loading_finished_accessibility_message": "Bestelldetails on ladattu"
+      "loading_finished_accessibility_message": "Bestelldetails on ladattu",
+      "payment": {
+        "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
+      }
     }
   }
 }

@@ -446,7 +446,8 @@
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
-          "some_products_one": "Tento produkt není k dispozici pro dodání do %{location_name}."
+          "some_products_one": "Tento produkt není k dispozici pro dodání do %{location_name}.",
+          "all_products_one": "Produkt ve tvém košíku není k dispozici pro doručení do %{location_name}."
         }
       }
     },
@@ -624,7 +625,10 @@
     },
     "order_details": {
       "addresses_section_title": "Fakturace a doprava",
-      "loading_finished_accessibility_message": "Bestelldetails byly načteny"
+      "loading_finished_accessibility_message": "Bestelldetails byly načteny",
+      "payment": {
+        "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
+      }
     }
   }
 }

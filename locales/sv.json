@@ -486,7 +486,8 @@
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
           "some_products_one": "Detta produkt är inte tillgänglig för leverans till %{location_name}.",
-          "some_products_other": "Dessa produkter är inte tillgängliga för leverans till %{location_name}."
+          "some_products_other": "Dessa produkter är inte tillgängliga för leverans till %{location_name}.",
+          "all_products_one": "Produkten i din varukorg är inte tillgängligt för leverans till %{location_name}."
         }
       }
     },
@@ -658,7 +659,10 @@
       }
     },
     "order_details": {
-      "addresses_section_title": "Fakturering och frakt"
+      "addresses_section_title": "Fakturering och frakt",
+      "payment": {
+        "gift_card_payment_details": "endet med {{lastDigits}} – {{formattedTransactionAmount}}"
+      }
     }
   }
 }

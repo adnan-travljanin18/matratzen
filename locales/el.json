@@ -448,7 +448,9 @@
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
-          "some_products_one": "Αυτό το προϊόν δεν είναι διαθέσιμο για αποστολή στη %{location_name}."
+          "some_products_one": "Αυτό το προϊόν δεν είναι διαθέσιμο για αποστολή στη %{location_name}.",
+          "some_products_other": "Αυτά τα προϊόντα δεν είναι διαθέσιμα για αποστολή προς %{location_name}.",
+          "all_products_one": "Το προϊόν στο καλάθι σας δεν είναι διαθέσιμο για αποστολή στη %{location_name}."
         }
       }
     },
@@ -639,7 +641,7 @@
     "order_details": {
       "addresses_section_title": "Η τιμολόγηση και αποστολή",
       "payment": {
-        "status_in_review": "Η πληρωμή είναι ληξιπρόθεσμη μετά την επαλήθευση"
+        "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
       }
     }
   }

@@ -444,7 +444,9 @@
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
-          "some_products_one": "Este produto não está disponível para entrega em %{location_name}."
+          "some_products_one": "Este produto não está disponível para entrega em %{location_name}.",
+          "some_products_other": "Esses produtos não estão disponíveis para entrega em %{location_name}.",
+          "all_products_one": "O produto no seu carrinho não está disponível para entrega em %{location_name}."
         }
       }
     },
@@ -634,7 +636,9 @@
     },
     "order_details": {
       "addresses_section_title": "Faturamento e Envio",
-      "card_ending_with": "endet mit {{lastDigits}}"
+      "payment": {
+        "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
+      }
     }
   }
 }
