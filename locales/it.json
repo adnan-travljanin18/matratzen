@@ -453,6 +453,9 @@
       },
       "shop_pay_external": {
         "title": "Shop Pay-Checkout"
+      },
+      "company_location": {
+        "location_title": "Luogo"
       }
     },
     "pagination": {
@@ -589,7 +592,10 @@
       "order_status": {
         "confirmed_label": "Confermato",
         "attempted_delivery_description": "Il tentativo di consegna non è andato a buon fine.",
-        "on_its_way_description": "Questa consegna è in viaggio."
+        "picked_up_description": "Questi articoli sono stati ritirati.",
+        "delivered_description_gift_card": {
+          "other": "I buoni regalo sono stati inviati via e-mail."
+        }
       }
     }
   }

@@ -477,6 +477,9 @@
       },
       "shop_pay_external": {
         "title": "Магазин Pay-Checkout"
+      },
+      "company_location": {
+        "location_title": "Місцезнаходження"
       }
     },
     "pagination": {
@@ -612,7 +615,11 @@
       },
       "order_status": {
         "confirmed_label": "Підтверджено",
-        "attempted_delivery_description": "Спроба доставки не була успішною."
+        "attempted_delivery_description": "Спроба доставки не була успішною.",
+        "picked_up_description": "Ці статті були забрані.",
+        "delivered_description_gift_card": {
+          "other": "Подарункові сертифікати були надіслані електронною поштою."
+        }
       }
     }
   }

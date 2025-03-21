@@ -589,7 +589,11 @@
       },
       "order_status": {
         "confirmed_label": "Bekræftet",
-        "resume_tracking": "Fortsæt med at spore"
+        "resume_tracking": "Fortsæt med at spore",
+        "picked_up_description": "Disse artikler blev afhentet.",
+        "delivered_description_gift_card": {
+          "other": "Geschenkgutscheiner blev sendt via e-mail."
+        }
       }
     }
   }

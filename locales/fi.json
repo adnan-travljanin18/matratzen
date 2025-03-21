@@ -582,7 +582,11 @@
       },
       "order_status": {
         "confirmed_label": "Vahvistettu",
-        "resume_tracking": "Seurannan jatkaminen"
+        "resume_tracking": "Seurannan jatkaminen",
+        "picked_up_description": "Nämä artikkelit on noudettu.",
+        "delivered_description_gift_card": {
+          "other": "Lahjakortit lähetettiin sähköpostitse."
+        }
       }
     }
   }

@@ -434,6 +434,9 @@
       },
       "shop_pay_external": {
         "title": "Shop Pay-Checkout"
+      },
+      "company_location": {
+        "location_title": "Τοποθεσία"
       }
     },
     "pagination": {
@@ -589,7 +592,11 @@
       },
       "order_status": {
         "confirmed_label": "Επιβεβαιωμένο",
-        "attempted_delivery_description": "Η προσπάθεια παράδοσης δεν ήταν επιτυχής."
+        "attempted_delivery_description": "Η προσπάθεια παράδοσης δεν ήταν επιτυχής.",
+        "picked_up_description": "Αυτά τα άρθρα παραλήφθηκαν.",
+        "delivered_description_gift_card": {
+          "other": "Οι επιταγές δώρων εστάλησαν μέσω ηλεκτρονικού ταχυδρομείου."
+        }
       }
     }
   }

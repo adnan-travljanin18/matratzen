@@ -478,12 +478,8 @@
       "shop_pay_external": {
         "title": "Shop Pay-Checkout"
       },
-      "one": {
-        "errors": {
-          "merchandise": {
-            "gift_card_price_must_be_greater_than_zero": "Gü gift kartı için fiyat 0'dan yüksek olmalıdır."
-          }
-        }
+      "company_location": {
+        "location_title": "Lokasyon"
       }
     },
     "pagination": {
@@ -616,7 +612,11 @@
       },
       "order_status": {
         "delivered_description": "Bu teslimat yapılmıştır.",
-        "attempted_delivery_description": "Teslimat denemesi başarılı olmadı."
+        "attempted_delivery_description": "Teslimat denemesi başarılı olmadı.",
+        "last_updated": "Zuletzt güncellenme tarihi {{date}}",
+        "delivered_description_gift_card": {
+          "other": "Hediye kartları e-posta ile gönderildi."
+        }
       }
     }
   }

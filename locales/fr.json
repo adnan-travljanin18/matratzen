@@ -586,7 +586,11 @@
       },
       "order_status": {
         "confirmed_label": "Confirmé",
-        "attempted_delivery_description": "La tentative de livraison n'a pas réussi."
+        "attempted_delivery_description": "La tentative de livraison n'a pas réussi.",
+        "picked_up_description": "Ces articles ont été récupérés.",
+        "delivered_description_gift_card": {
+          "other": "Les bons cadeaux ont été envoyés par e-mail."
+        }
       }
     }
   }

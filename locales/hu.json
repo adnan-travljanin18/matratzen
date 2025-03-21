@@ -436,6 +436,9 @@
       },
       "shop_pay_external": {
         "title": "Shop Pay-Pénztár"
+      },
+      "company_location": {
+        "location_title": "Helyszín"
       }
     },
     "pagination": {
@@ -591,7 +594,11 @@
       },
       "order_status": {
         "delivered_description": "Ez a szállítmány kézbesítve lett.",
-        "attempted_delivery_description": "A kézbesítési kísérlet nem volt sikeres."
+        "attempted_delivery_description": "A kézbesítési kísérlet nem volt sikeres.",
+        "picked_up_description": "Ezek a cikkek átvételre kerültek.",
+        "delivered_description_gift_card": {
+          "other": "Ajándékutalványokat e-mailben küldtünk."
+        }
       }
     }
   }

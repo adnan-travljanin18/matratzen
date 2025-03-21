@@ -430,6 +430,9 @@
       },
       "shop_pay_external": {
         "title": "Shop Pay-Checkout"
+      },
+      "company_location": {
+        "location_title": "Localização"
       }
     },
     "pagination": {
@@ -585,7 +588,11 @@
       },
       "order_status": {
         "confirmed_label": "Confirmado",
-        "attempted_delivery_description": "O esforço de entrega não foi bem-sucedido."
+        "attempted_delivery_description": "O esforço de entrega não foi bem-sucedido.",
+        "picked_up_description": "Esses artigos foram retirados.",
+        "delivered_description_gift_card": {
+          "other": "Os vouchers de presente foram enviados por e-mail."
+        }
       }
     }
   }

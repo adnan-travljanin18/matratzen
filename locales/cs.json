@@ -572,7 +572,14 @@
       },
       "order_status": {
         "confirmed_label": "Potvrzeno",
-        "resume_tracking": "Pokračovat v sledování"
+        "resume_tracking": "Pokračovat v sledování",
+        "picked_up_description": "Tyto články byly vyzvednuty.",
+        "delivered_description_gift_card": {
+          "other": "Dárkové poukázky byly odeslány e-mailem."
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "Voucher bude zaslán v samostatném e-mailu."
+        }
       }
     }
   }

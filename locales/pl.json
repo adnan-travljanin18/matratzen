@@ -447,6 +447,9 @@
       },
       "shop_pay_external": {
         "title": "Sklep Pay-Checkout"
+      },
+      "company_location": {
+        "location_title": "Lokalizacja"
       }
     },
     "pagination": {
@@ -583,7 +586,10 @@
       "order_status": {
         "confirmed_label": "Potwierdzone",
         "attempted_delivery_description": "Próba dostarczenia była nieudana.",
-        "confirmed_description": "Otrzymaliśmy twoje zamówienie."
+        "last_updated": "Zuletzt aktualizowane {{date}}",
+        "delivered_description_gift_card": {
+          "other": "Kupony upominkowe zostały wysłane e-mailem."
+        }
       }
     }
   }

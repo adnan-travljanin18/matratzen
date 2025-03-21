@@ -449,6 +449,9 @@
       },
       "shop_pay_external": {
         "title": "Shop Pay-Kasse"
+      },
+      "company_location": {
+        "location_title": "Beliggenhet"
       }
     },
     "pagination": {
@@ -585,7 +588,10 @@
       "order_status": {
         "confirmed_label": "Bekreftet",
         "attempted_delivery_description": "Leveringsforsøket var ikke vellykket.",
-        "on_its_way_description": "Denne leveransen er på vei."
+        "picked_up_description": "Disse artiklene ble hentet.",
+        "delivered_description_gift_card": {
+          "other": "Gavekortene ble sendt via e-post."
+        }
       }
     }
   }

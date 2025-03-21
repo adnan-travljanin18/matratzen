@@ -475,12 +475,8 @@
       "shop_pay_external": {
         "title": "Shop Pay-Kassa"
       },
-      "one": {
-        "errors": {
-          "merchandise": {
-            "gift_card_price_must_be_greater_than_zero": "Priset för presentkortet måste vara högre än 0."
-          }
-        }
+      "company_location": {
+        "location_title": "Plats"
       }
     },
     "pagination": {
@@ -616,7 +612,11 @@
       },
       "order_status": {
         "delivered_description": "Denna leverans har levererats.",
-        "attempted_delivery_description": "Leveransförsöket var inte framgångsrikt."
+        "attempted_delivery_description": "Leveransförsöket var inte framgångsrikt.",
+        "last_updated": "Senast uppdaterad den {{date}}",
+        "delivered_description_gift_card": {
+          "other": "Presentkort har skickats via e-post."
+        }
       }
     }
   }

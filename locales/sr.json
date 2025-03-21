@@ -439,6 +439,9 @@
       },
       "shop_pay_external": {
         "title": "Shop Pay-Checkout"
+      },
+      "company_location": {
+        "location_title": "Mesto"
       }
     },
     "pagination": {
@@ -597,7 +600,11 @@
       },
       "order_status": {
         "confirmed_label": "Potvrđeno",
-        "attempted_delivery_description": "Pokušaj dostave nije bio uspešan."
+        "attempted_delivery_description": "Pokušaj dostave nije bio uspešan.",
+        "picked_up_description": "Ovi članci su preuzeti.",
+        "delivered_description_gift_card": {
+          "other": "Poklon vaučeri su poslati putem e-maila."
+        }
       }
     }
   }
