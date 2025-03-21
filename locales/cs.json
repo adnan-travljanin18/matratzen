@@ -749,7 +749,12 @@
       "refund_policy": "Právo na odstoupení od smlouvy"
     },
     "payment_method_brands": {
-      "applepay": "Apple Pay"
+      "applepay": "Apple Pay",
+      "elo": "Elo",
+      "bogus": "Bogus"
+    },
+    "ui_components": {
+      "submit": "Odeslat"
     }
   }
 }

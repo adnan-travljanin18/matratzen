@@ -768,7 +768,12 @@
       "refund_policy": "Diritto di recesso"
     },
     "payment_method_brands": {
-      "googlepay": "Google Pay"
+      "googlepay": "Google Pay",
+      "elo": "Elo"
+    },
+    "ui_components": {
+      "closeModal": "Chiudere",
+      "decrease": "'{{type}} abbassare"
     }
   }
 }

@@ -784,7 +784,9 @@
       "refund_policy": "Право на відмову"
     },
     "payment_method_brands": {
-      "googlepay": "Google Pay"
+      "googlepay": "Google Pay",
+      "elo": "Ело",
+      "storecredit": "Shop-Guthaben"
     }
   }
 }

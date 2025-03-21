@@ -771,7 +771,9 @@
       "refund_policy": "Право на одустанак"
     },
     "payment_method_brands": {
-      "googlepay": "Google Pay"
+      "googlepay": "Google Pay",
+      "elo": "Elo",
+      "storecredit": "Shop-Guthaben"
     }
   }
 }

@@ -787,7 +787,12 @@
       "refund_policy": "Ångerrätt"
     },
     "payment_method_brands": {
-      "googlepay": "Google Pay"
+      "googlepay": "Google Pay",
+      "elo": "Elo"
+    },
+    "ui_components": {
+      "closeModal": "Stänga",
+      "increase": "{{typ}} öka"
     }
   }
 }

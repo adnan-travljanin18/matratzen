@@ -766,7 +766,12 @@
       "refund_policy": "Fortrydelsesret"
     },
     "payment_method_brands": {
-      "applepay": "Apple Pay"
+      "applepay": "Apple Pay",
+      "elo": "Elo",
+      "bogus": "Bogus"
+    },
+    "ui_components": {
+      "submit": "Sende"
     }
   }
 }

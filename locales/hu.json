@@ -765,7 +765,11 @@
       "refund_policy": "Elállási jog"
     },
     "payment_method_brands": {
-      "googlepay": "Google Pay"
+      "googlepay": "Google Pay",
+      "elo": "Elő"
+    },
+    "ui_components": {
+      "closeModal": "Zárás"
     }
   }
 }

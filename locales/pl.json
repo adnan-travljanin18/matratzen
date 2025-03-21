@@ -758,7 +758,12 @@
       "refund_policy": "Prawo do odstąpienia od umowy"
     },
     "payment_method_brands": {
-      "googlepay": "Google Pay"
+      "googlepay": "Google Pay",
+      "elo": "Elo"
+    },
+    "ui_components": {
+      "closeModal": "Zamknij",
+      "february": "Luty"
     }
   }
 }

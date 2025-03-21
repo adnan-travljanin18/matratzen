@@ -761,7 +761,9 @@
       "refund_policy": "Direito de Rescisão"
     },
     "payment_method_brands": {
-      "googlepay": "Google Pay"
+      "googlepay": "Google Pay",
+      "elo": "Elo",
+      "storecredit": "Shop-Guthaben"
     }
   }
 }

@@ -763,7 +763,9 @@
       "refund_policy": "Δικαίωμα Ανάκλησης"
     },
     "payment_method_brands": {
-      "googlepay": "Google Pay"
+      "googlepay": "Google Pay",
+      "elo": "Έλο",
+      "storecredit": "Shop-Guthaben"
     }
   }
 }
