@@ -611,6 +611,15 @@
         "confirmed_description_gift_card_text": "Du ćete dobiti SMS čim vaša narudžbina bude spremna.",
         "gift_resend_failure": {
           "one": "При поновном слању твојег ваучера дошло је до проблема. Премаши поново или се обратите нама."
+        },
+        "delivered": "Angekommen am {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "not_delivered_by_label": "Ништа није достављено до {{date}}"
+          },
+          "details_modal": {
+            "modal_accessiblity_label": "Detalji isporučene obaveze"
+          }
         }
       }
     }

@@ -583,6 +583,15 @@
         },
         "gift_resend_failure": {
           "one": "Při opětovném odesílání vašeho voucheru došlo k problému. Zkuste to znovu nebo se obraťte na nás."
+        },
+        "delivered": "Angekommen am {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "mixed_brands_label": "Dodání zaručeno"
+          },
+          "details_modal": {
+            "title": "Dodání podpořené"
+          }
         }
       }
     }

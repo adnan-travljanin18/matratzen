@@ -600,6 +600,15 @@
         "confirmed_description_gift_card_text": "Riceverai un SMS non appena il tuo ordine sarà pronto.",
         "gift_resend_failure": {
           "one": "Si è verificato un problema durante l'invio del tuo coupon. Riprova oppure contattaci."
+        },
+        "delivered": "Angekommen il {{date}}",
+        "delivered_description_digital": {
+          "other": "Questi articoli sono stati completati."
+        },
+        "delivery_promise": {
+          "details_modal": {
+            "title": "Consegna supportata da"
+          }
         }
       }
     }

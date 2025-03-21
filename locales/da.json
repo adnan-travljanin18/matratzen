@@ -600,6 +600,15 @@
         },
         "gift_resend_failure": {
           "one": "Der opstod et problem, da du din voucher blev sendt igen. Prøv venligst igen eller kontakt os."
+        },
+        "delivered": "Angekommen den {{date}}",
+        "delivered_description_digital": {
+          "other": "Disse artikler er afsluttet."
+        },
+        "delivery_promise": {
+          "details_modal": {
+            "title": "Levering understøttet af"
+          }
         }
       }
     }

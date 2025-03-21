@@ -599,6 +599,15 @@
         "confirmed_description_gift_card_text": "Você receberá um SMS assim que seu pedido estiver pronto.",
         "gift_resend_failure": {
           "one": "Ocorreu um problema ao reenviarem seu voucher. Tente novamente ou entre em contato conosco."
+        },
+        "delivered": "Chegado em {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "not_delivered_by_label": "Não entregue até {{date}}"
+          },
+          "details_modal": {
+            "delivery_guaranteed_by_label": "Garantia de entrega até {{date}}"
+          }
         }
       }
     }

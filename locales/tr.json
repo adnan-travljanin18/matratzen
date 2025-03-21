@@ -621,6 +621,15 @@
         "confirmed_description_gift_card_text": "Du, bir SMS alacaksın, siparişin hazır olduğunda.",
         "gift_resend_failure": {
           "one": "Bir kez daha kuponunu gönderirken bir sorun oluştu. Lütfen tekrar dene veya bizimle iletişime geç."
+        },
+        "delivered": "Angekommen am {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "not_delivered_by_label": "Nicht geliefert bis {{date}}"
+          },
+          "details_modal": {
+            "modal_accessiblity_label": "Teslimat Taahhüdü ile İlgili Ayrıntılar"
+          }
         }
       }
     }

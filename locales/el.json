@@ -601,6 +601,13 @@
         "confirmed_description_gift_card_text": "Θα λάβεις ένα SMS μόλις η παραγγελία σου είναι έτοιμη.",
         "gift_resend_failure": {
           "one": "Υπήρξε ένα πρόβλημα κατά την επαναποστολή του κουπονιού σου. Προσπάθησε ξανά ή επικοινώνησε μαζί μας."
+        },
+        "delivered": "Angekommen am {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "not_delivered_by_label": "'Δεν παραδόθηκε μέχρι {{date}}",
+            "modal_accessibility_button_label": "Λεπτομέρειες της δέσμευσης παράδοσης"
+          }
         }
       }
     }

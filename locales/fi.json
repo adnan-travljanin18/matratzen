@@ -591,6 +591,15 @@
         "confirmed_description_gift_card_text": "Saat SMS-viestin, kun tilauksesi on valmis.",
         "gift_resend_failure": {
           "one": "Läpipääsyäsi uudelleen lähettämisessä on tapahtunut ongelma. Yritä uudelleen tai ota meihin yhteyttä."
+        },
+        "delivered": "Saapunut {{date}}",
+        "delivered_description_digital": {
+          "other": "Nämä artikkelit on saatu päätökseen."
+        },
+        "delivery_promise": {
+          "details_modal": {
+            "title": "Toimitus tukemana"
+          }
         }
       }
     }

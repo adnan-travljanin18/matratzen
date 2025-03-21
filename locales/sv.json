@@ -621,6 +621,15 @@
         "confirmed_description_gift_card_text": "Du får ett SMS så fort din beställning är klar.",
         "gift_resend_failure": {
           "one": "Ett problem uppstod vid återutsändning av din kupong. Försök igen eller kontakta oss."
+        },
+        "delivered": "Angekommen den {{date}}",
+        "delivered_description_digital": {
+          "other": "Dessa artiklar har slutförts."
+        },
+        "delivery_promise": {
+          "details_modal": {
+            "title": "Leverans stödd av"
+          }
         }
       }
     }

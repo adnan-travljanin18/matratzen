@@ -595,6 +595,15 @@
         "confirmed_description_gift_card_text": "Vous recevrez un SMS dès que votre commande sera prête.",
         "gift_resend_failure": {
           "one": "Un problème est survenu lors de l'envoi de votre bon. Veuillez réessayer ou contactez-nous."
+        },
+        "delivered": "Angekommen le {{date}}",
+        "delivered_description_digital": {
+          "other": "Ces articles ont été complétés."
+        },
+        "delivery_promise": {
+          "details_modal": {
+            "title": "Livraison soutenue par"
+          }
         }
       }
     }
