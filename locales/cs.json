@@ -261,7 +261,10 @@
             "title": "Naskenovat s tvým mobilním telefonem"
           }
         },
-        "shipping_method_title": "Způsob doručení"
+        "shipping_method_title": "Způsob doručení",
+        "thank_you_title": "Tvá objednávka byla potvrzena",
+        "breadcrumbs_submitted": "Odesláno",
+        "breadcrumbs_confirmed": "Potvrzeno"
       }
     }
   },

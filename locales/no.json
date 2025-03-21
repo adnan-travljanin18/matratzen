@@ -277,7 +277,9 @@
             "title": "Mit ditt mobiltelefon skanne"
           }
         },
-        "contact_information_title": "Kontaktinformasjon"
+        "contact_information_title": "Kontaktinformasjon",
+        "thank_you_title": "Din bestilling er bekreftet",
+        "order_status_updates_with_email": "Du får oppdateringer om frakt og levering på e-post."
       }
     }
   },

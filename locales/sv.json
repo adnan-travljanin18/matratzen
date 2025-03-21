@@ -302,7 +302,9 @@
             "title": "Med din mobiltelefon skanna"
           }
         },
-        "payment_method_title": "Betalningsmetod"
+        "contact_information_title": "Kontaktinformation",
+        "thank_you_title": "Din beställning har bekräftats",
+        "order_status_updates_with_email": "Du får uppdateringar om frakt och leverans via e-post."
       }
     }
   },

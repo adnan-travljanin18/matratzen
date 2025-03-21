@@ -271,7 +271,10 @@
           "qr_code": {
             "title": "Mit vašim mobilnim telefonom skenirajte"
           }
-        }
+        },
+        "shipping_method_title": "Način isporuke",
+        "thank_you_title": "Tvoja narudžbina je potvrđena",
+        "order_status_updates_with_email": "Dobijaćeš ažuriranja o isporuci i dostavi putem e-pošte."
       }
     }
   },

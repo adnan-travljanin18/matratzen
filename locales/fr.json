@@ -273,7 +273,9 @@
         "gift_card_confirmation_by_email": "Si vous ne l'avez pas reçu, renvoyez l'e-mail ou contactez-nous.",
         "cancelled_page_title": "Commande annulée",
         "thank_you_confirmed_order_with_draft": "Nous te tiendrons informé si nous avons besoin de plus d'informations ou lorsque ta commande sera confirmée.",
-        "contact_information_title": "'Contact Information'"
+        "contact_information_title": "'Contact Information'",
+        "thank_you_title": "Votre commande a été confirmée",
+        "breadcrumbs_submitted": "Envoyé"
       }
     }
   },

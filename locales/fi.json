@@ -263,7 +263,9 @@
         "gift_card_confirmation_by_email": "Jos et ole saanut niitä, lähetä sähköposti uudelleen tai ota meihin yhteyttä.",
         "cancelled_page_title": "Tilauksen peruutus",
         "thank_you_confirmed_order_with_draft": "Me ilmoitamme sinulle, jos tarvitsemme lisätietoja tai kun tilauksesi on vahvistettu.",
-        "contact_information_title": "Yhteystiedot"
+        "contact_information_title": "Yhteystiedot",
+        "thank_you_title": "Tilauksesi on vahvistettu",
+        "breadcrumbs_submitted": "Lähetetty"
       }
     }
   },

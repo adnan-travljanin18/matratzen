@@ -304,7 +304,9 @@
             "title": "Telefonunuzu tarayın"
           }
         },
-        "shipping_address_title": "Teslimat adresi"
+        "contact_information_title": "İletişim Bilgileri",
+        "thank_you_title": "Siparişiniz onaylandı",
+        "order_status_updates_with_email": "Du, e-posta ile gönderim ve teslimat güncellemeleri alacaksın."
       }
     }
   },

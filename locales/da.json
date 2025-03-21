@@ -272,7 +272,10 @@
             "title": "Mit dit mobiltelefon scanne"
           }
         },
-        "contact_information_title": "Kontaktinformation"
+        "contact_information_title": "Kontaktinformation",
+        "thank_you_title": "Din ordre er bekræftet",
+        "breadcrumbs_submitted": "Sendt",
+        "first_payment_complete": "Første betaling gennemført"
       }
     }
   },

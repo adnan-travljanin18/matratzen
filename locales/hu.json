@@ -264,7 +264,9 @@
             "title": "Mit dein Mobiltelefon scannen"
           }
         },
-        "shipping_address_map_title": "Egy Google-térkép, amely megjeleníti a szállítási címet: %{address}"
+        "contact_information_title": "Kontaktinformáció",
+        "thank_you_title": "A rendelésed meg lett erősítve",
+        "order_status_updates_with_email": "A szállítással és kézbesítéssel kapcsolatos frissítéseket e-mailben kapsz."
       }
     }
   },

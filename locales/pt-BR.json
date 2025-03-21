@@ -261,7 +261,10 @@
           "qr_code": {
             "title": "Escanear com seu celular"
           }
-        }
+        },
+        "shipping_method_title": "Modalidade de envio",
+        "thank_you_title": "Sua encomenda foi confirmada",
+        "order_status_updates_with_email": "Você receberá atualizações sobre envio e entrega por e-mail."
       }
     }
   },

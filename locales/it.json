@@ -279,7 +279,9 @@
             "title": "Con il tuo telefono cellulare scansiona"
           }
         },
-        "contact_information_title": "Informazioni di contatto"
+        "contact_information_title": "Informazioni di contatto",
+        "thank_you_title": "La tua ordinazione è stata confermata",
+        "order_status_updates_with_email": "Riceverai aggiornamenti su spedizione e consegna via email."
       }
     }
   },
