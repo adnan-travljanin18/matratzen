@@ -339,6 +339,15 @@
           "change_delivery_method_link_label": "Teslimat yöntemini değiştir"
         },
         "checkout_a_different_way": "Diğer ödeme seçeneğini kullanın"
+      },
+      "marketing": {
+        "unsubscribe": {
+          "title": "Du hast dich abgemeldet"
+        },
+        "post_accept_marketing_checkbox_label": "Sen e-posta ile haberler ve teklifler için bir abonelik aldın"
+      },
+      "shop_policies": {
+        "purchase_options_policy": "Richtlinie için satın alma seçenekleri"
       }
     }
   },

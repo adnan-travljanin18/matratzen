@@ -312,6 +312,17 @@
           "change_delivery_method_link_label": "Cambiare metodo di consegna"
         },
         "checkout_a_different_way": "Utilizzare un'altra opzione di pagamento"
+      },
+      "marketing": {
+        "unsubscribe": {
+          "title": "Ti sei disiscritto"
+        },
+        "sms": {
+          "get_offers_by_text": "Ricevi offerte tramite messaggio di testo"
+        }
+      },
+      "shop_policies": {
+        "purchase_options_policy": "Richtlinie per le opzioni di acquisto"
       }
     }
   },

@@ -297,7 +297,20 @@
       },
       "marketing": {
         "unsubscribe": {
-          "description": "Nebudete od nás dostávat žádné připomínky k nákupnímu košíku."
+          "title": "Odhlásil/a jsi se"
+        },
+        "sms": {
+          "get_offers_by_text": "Získání nabídek prostřednictvím textových zpráv"
+        }
+      },
+      "shop_policies": {
+        "privacy_policy": "Ochrana osobních údajů"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "Přidáno"
+          }
         }
       }
     }

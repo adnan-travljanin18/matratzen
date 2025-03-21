@@ -305,6 +305,15 @@
           "change_payment_method_link_label": "Promena načina plaćanja"
         },
         "checkout_a_different_way": "Koristite drugu opciju za naplatu"
+      },
+      "marketing": {
+        "unsubscribe": {
+          "title": "Izlogovao si se"
+        },
+        "pending_accept_marketing_checkbox_label": "Proverite svoju e-poštu da biste potvrdili svoju pretplatu za vesti i ponude"
+      },
+      "shop_policies": {
+        "purchase_options_policy": "Richtlinie za kupovne opcije"
       }
     }
   },

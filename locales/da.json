@@ -307,9 +307,20 @@
         "checkout_a_different_way": "Brug en anden betalingsmulighed"
       },
       "marketing": {
+        "unsubscribe": {
+          "title": "Du har afmeldt dig"
+        },
         "sms": {
-          "disclaimer": {
-            "terms_of_service": "Generelle vilkår"
+          "get_offers_by_text": "Modtag tilbud via tekstbesked"
+        }
+      },
+      "shop_policies": {
+        "privacy_policy": "Databeskyttelseserklæring"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "other": "%{count} tilføjet"
           }
         }
       }

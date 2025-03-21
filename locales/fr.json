@@ -306,6 +306,20 @@
           "change_delivery_method_link_label": "Changer la méthode de livraison"
         },
         "checkout_a_different_way": "Utiliser une autre option de paiement"
+      },
+      "marketing": {
+        "unsubscribe": {
+          "title": "Vous vous êtes déconnecté"
+        },
+        "sms": {
+          "get_offers_by_text": "Recevez des offres par message texte"
+        }
+      },
+      "shop_policies": {
+        "purchase_options_policy": "Richtlinie pour les options d'achat"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Pour la commande %{order_name}, montant à payer"
       }
     }
   },

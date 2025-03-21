@@ -312,6 +312,17 @@
           "change_delivery_method_link_label": "Endre leveringsmetode"
         },
         "checkout_a_different_way": "Bruk en annen utbetalingsmetode"
+      },
+      "marketing": {
+        "unsubscribe": {
+          "title": "Du har meldt deg av"
+        },
+        "sms": {
+          "get_offers_by_text": "Motta tilbud via tekstmelding"
+        }
+      },
+      "shop_policies": {
+        "purchase_options_policy": "Retningslinje for kjøpealternativer"
       }
     }
   },

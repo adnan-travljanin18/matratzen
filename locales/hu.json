@@ -299,6 +299,15 @@
           "change_delivery_method_link_label": "Zustellmódszert módosítani"
         },
         "checkout_a_different_way": "Másik fizetési lehetőség használata"
+      },
+      "marketing": {
+        "unsubscribe": {
+          "title": "Leiratkoztál"
+        },
+        "post_accept_marketing_checkbox_label": "Előfizettél a hírlevelekre és az ajánlatokra e-mailben"
+      },
+      "shop_policies": {
+        "purchase_options_policy": "Richtlinie für Kaufoptionen"
       }
     }
   },

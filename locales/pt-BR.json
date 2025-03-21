@@ -295,6 +295,15 @@
           "change_payment_method_link_label": "Alterar método de pagamento"
         },
         "checkout_a_different_way": "Usar outra opção de checkout"
+      },
+      "marketing": {
+        "unsubscribe": {
+          "title": "Você se deslogou"
+        },
+        "pending_accept_marketing_checkbox_label": "Verifique seu e-mail para confirmar sua assinatura de novidades e ofertas"
+      },
+      "shop_policies": {
+        "refund_policy": "Direito de revogação"
       }
     }
   },

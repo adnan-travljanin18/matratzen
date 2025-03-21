@@ -338,6 +338,15 @@
           "change_payment_method_link_label": "Змінити спосіб оплати"
         },
         "checkout_a_different_way": "Використовувати інший варіант оформлення замовлення"
+      },
+      "marketing": {
+        "unsubscribe": {
+          "title": "Ви вийшли з системи"
+        },
+        "pending_accept_marketing_checkbox_label": "Перевірте вашу електронну пошту, щоб підтвердити підписку на новини та пропозиції"
+      },
+      "shop_policies": {
+        "purchase_options_policy": "Richtlinie для купівельних опцій"
       }
     }
   },
