@@ -571,8 +571,15 @@
         },
         "plus_more_products": "{{numberOfAdditionalProducts}} Produits",
         "filter": {
-          "clear_all": "Tout effacer"
+          "clear_all": "Tout effacer",
+          "date": {
+            "today": "Aujourd'hui",
+            "last_365_days": "Derniers 12 mois"
+          }
         }
+      },
+      "order_status": {
+        "delivered_description": "Cette livraison a été livrée."
       }
     }
   }

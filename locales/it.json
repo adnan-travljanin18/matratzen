@@ -575,7 +575,13 @@
           "next": "Continuare"
         },
         "plus_more_products": "{{numberOfAdditionalProducts}} Prodotti",
-        "plus_more": "{{numberOfAdditionalProducts}}"
+        "plus_more": "{{numberOfAdditionalProducts}}",
+        "filter": {
+          "date": {
+            "today": "Oggi",
+            "last_365_days": "Ultimi 12 mesi"
+          }
+        }
       }
     }
   }

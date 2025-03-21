@@ -599,9 +599,11 @@
           "four_products_accessibility_label": "Bestellung містить {{lineItemName1}} кількість {{lineItemQuantity1}}, {{lineItemName2}} кількість {{lineItemQuantity2}}, {{lineItemName3}} кількість {{lineItemQuantity3}}, {{lineItemName4}} кількість {{lineItemQuantity4}}"
         },
         "plus_more_products": "+{{numberOfAdditionalProducts}} Продукти",
-        "order_status_message": {
-          "table_view": {
-            "last_updated": "{{date}}"
+        "more_than_three_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}}, {{lineItemName2}} und {{numberOfAdditionalProducts}} weitere Produkte",
+        "filter": {
+          "date": {
+            "last_30_days": "Останні 30 днів",
+            "last_365_days": "Останні 12 місяців"
           }
         }
       }

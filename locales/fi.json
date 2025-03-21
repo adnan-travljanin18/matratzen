@@ -567,8 +567,15 @@
         },
         "plus_more_products": "{{numberOfAdditionalProducts}} Tuotteet",
         "filter": {
-          "clear_all": "Poista kaikki"
+          "clear_all": "Poista kaikki",
+          "date": {
+            "today": "Tänään",
+            "last_365_days": "Viimeiset 12 kuukautta"
+          }
         }
+      },
+      "order_status": {
+        "confirmed_title": "Tilauksesi on vahvistettu"
       }
     }
   }

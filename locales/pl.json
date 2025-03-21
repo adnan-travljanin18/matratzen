@@ -569,7 +569,13 @@
           "next": "Kontynuuj"
         },
         "plus_more_products": "{{numberOfAdditionalProducts}} Produkty",
-        "more_than_three_products_accessibility_label": "Zamówienie obejmuje {{lineItemName1}}, {{lineItemName2}} oraz {{numberOfAdditionalProducts}} dodatkowe produkty"
+        "plus_more": "{{numberOfAdditionalProducts}}",
+        "filter": {
+          "date": {
+            "last_30_days": "Ostatnie 30 dni",
+            "last_365_days": "Ostatnie 12 miesięcy"
+          }
+        }
       }
     }
   }

@@ -571,7 +571,14 @@
         "carousel": {
           "four_products_accessibility_label": "Bestellung contém {{lineItemName1}} quantidade {{lineItemQuantity1}}, {{lineItemName2}} quantidade {{lineItemQuantity2}}, {{lineItemName3}} quantidade {{lineItemQuantity3}}, {{lineItemName4}} quantidade {{lineItemQuantity4}}"
         },
-        "plus_more_products": "{{numberOfAdditionalProducts}} Produtos"
+        "plus_more_products": "{{numberOfAdditionalProducts}} Produtos",
+        "more_than_three_products_accessibility_label": "A pedido inclui {{lineItemName1}}, {{lineItemName2}} e {{numberOfAdditionalProducts}} produtos adicionais",
+        "filter": {
+          "date": {
+            "last_30_days": "Últimos 30 Dias",
+            "last_365_days": "Últimos 12 meses"
+          }
+        }
       }
     }
   }

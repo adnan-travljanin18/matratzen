@@ -574,8 +574,15 @@
         },
         "plus_more_products": "+{{numberOfAdditionalProducts}} Produkter",
         "filter": {
-          "clear_all": "Alt slette"
+          "clear_all": "Alt slette",
+          "date": {
+            "today": "I dag",
+            "last_365_days": "De sidste 12 måneder"
+          }
         }
+      },
+      "order_status": {
+        "confirmed_label": "Bekræftet"
       }
     }
   }

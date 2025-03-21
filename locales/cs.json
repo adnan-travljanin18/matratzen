@@ -557,8 +557,15 @@
         },
         "plus_more_products": "+{{numberOfAdditionalProducts}} Produkty",
         "filter": {
-          "clear_all": "Smazat vše"
+          "clear_all": "Smazat vše",
+          "date": {
+            "today": "Dnes",
+            "last_365_days": "Posledních 12 měsíců"
+          }
         }
+      },
+      "order_status": {
+        "confirmed_label": "Potvrzeno"
       }
     }
   }

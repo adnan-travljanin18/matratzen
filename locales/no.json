@@ -572,7 +572,11 @@
         },
         "plus_more_products": "{{numberOfAdditionalProducts}} Produkter",
         "filter": {
-          "apply": "Bruke"
+          "apply": "Bruke",
+          "date": {
+            "last_30_days": "De siste 30 dagene",
+            "last_365_days": "De siste 12 månedene"
+          }
         }
       }
     }

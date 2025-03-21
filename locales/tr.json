@@ -596,9 +596,11 @@
           "four_products_accessibility_label": "Bestellung enthält {{lineItemName1}} Menge {{lineItemQuantity1}}, {{lineItemName2}} Menge {{lineItemQuantity2}}, {{lineItemName3}} Menge {{lineItemQuantity3}}, {{lineItemName4}} Menge {{lineItemQuantity4}}"
         },
         "plus_more_products": "+{{numberOfAdditionalProducts}} Ürün",
-        "order_status_message": {
-          "table_view": {
-            "last_updated": "{{tarih}}"
+        "plus_more": "{{numberOfAdditionalProducts}}",
+        "filter": {
+          "date": {
+            "last_30_days": "Son 30 Gün",
+            "last_365_days": "Son 12 Ay"
           }
         }
       }

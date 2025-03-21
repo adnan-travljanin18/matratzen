@@ -576,9 +576,11 @@
           "four_products_accessibility_label": "Βεβαίωση παραγγελίας περιέχει {{lineItemName1}} Ποσότητα {{lineItemQuantity1}}, {{lineItemName2}} Ποσότητα {{lineItemQuantity2}}, {{lineItemName3}} Ποσότητα {{lineItemQuantity3}}, {{lineItemName4}} Ποσότητα {{lineItemQuantity4}}"
         },
         "plus_more_products": "+{{numberOfAdditionalProducts}} Προϊόντα",
-        "order_status_message": {
-          "table_view": {
-            "last_updated": "{{date}}"
+        "more_than_three_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}}, {{lineItemName2}} und {{numberOfAdditionalProducts}} weitere Produkte",
+        "filter": {
+          "date": {
+            "last_30_days": "Τελευταίες 30 ημέρες",
+            "last_365_days": "Τελευταίοι 12 μήνες"
           }
         }
       }

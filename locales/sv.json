@@ -596,9 +596,11 @@
           "next": "Fortsätta"
         },
         "plus_more_products": "{{numberOfAdditionalProducts}} Produkter",
-        "order_status_message": {
-          "table_view": {
-            "last_updated": "{{datum}}"
+        "plus_more": "{{numberOfAdditionalProducts}}",
+        "filter": {
+          "date": {
+            "last_30_days": "Senaste 30 dagarna",
+            "last_365_days": "Senaste 12 månader"
           }
         }
       }

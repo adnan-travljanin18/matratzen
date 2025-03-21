@@ -578,9 +578,11 @@
           "four_products_accessibility_label": "Bestellung enthält {{lineItemName1}} mennyiség {{lineItemQuantity1}}, {{lineItemName2}} mennyiség {{lineItemQuantity2}}, {{lineItemName3}} mennyiség {{lineItemQuantity3}}, {{lineItemName4}} mennyiség {{lineItemQuantity4}}"
         },
         "plus_more_products": "{{numberOfAdditionalProducts}} Termék",
-        "order_status_message": {
-          "table_view": {
-            "last_updated": "{{date}}"
+        "more_than_three_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}}, {{lineItemName2}} und {{numberOfAdditionalProducts}} weitere Produkte",
+        "filter": {
+          "date": {
+            "last_30_days": "Az utolsó 30 nap",
+            "last_365_days": "Utolsó 12 hónap"
           }
         }
       }
