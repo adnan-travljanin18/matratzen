@@ -265,7 +265,12 @@
         "pick_up_in_store_marker": {
           "shipping": "Point de collecte"
         },
-        "ready_for_delivery_description": "Nous avons préparé ta commande."
+        "ready_for_pickup_description": "Votre commande est prête à être récupérée. Veuillez apporter votre confirmation de commande pour récupérer la commande.",
+        "shipping_information_title": "Informations d'expédition",
+        "qr_code": {
+          "send_link_to_phone": "Envoyez un lien à votre téléphone"
+        },
+        "gift_card_confirmation_by_email": "Si vous ne l'avez pas reçu, renvoyez l'e-mail ou contactez-nous."
       }
     }
   },

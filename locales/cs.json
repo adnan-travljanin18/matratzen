@@ -251,7 +251,10 @@
         "pick_up_in_store_marker": {
           "shipping": "Místo vyzvednutí"
         },
-        "ready_for_pickup_description": "Tvoje objednávka je připravena k vyzvednutí. Prosím, přines si potvrzení o objednávce při vyzvednutí objednávky."
+        "ready_for_pickup_description": "Tvoje objednávka je připravena k vyzvednutí. Prosím, přines si potvrzení o objednávce při vyzvednutí objednávky.",
+        "confirmation_email_sent_text": "Potvrzovací e-mail byl odeslán na %{email}",
+        "out_for_delivery_local_title": "Zustavení pro vaši objednávku probíhá",
+        "gift_card_confirmation_by_email": "Pokud jsi je neobdržel, zkus e-mail poslat znovu nebo nás kontaktuj."
       }
     }
   },

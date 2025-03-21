@@ -294,7 +294,10 @@
         "redirecting_to_bank": "Ви будете перенаправлені до {{bank}}"
       },
       "thank_you": {
-        "order_updates_submit_subscription": "Введення"
+        "order_updates_submit_subscription": "Введення",
+        "ready_for_pickup_description": "Твоє замовлення готове до отримання. Будь ласка, принеси підтвердження замовлення для отримання замовлення.",
+        "return_to_store_link_label": "Повернутися до магазину",
+        "out_for_delivery_local_title": "Доставлення для твоєї замовлення триває"
       }
     }
   },

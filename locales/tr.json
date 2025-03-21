@@ -291,7 +291,12 @@
         "fulfillment": {
           "product_image_label": "Ürün resmi"
         },
-        "order_updates_submit_subscription": "Girdi"
+        "order_updates_submit_subscription": "Girdi",
+        "ready_for_pickup_description": "Siparişiniz alınmaya hazır. Lütfen siparişinizi almak için sipariş onayınızı yanınızda getirin.",
+        "return_to_store_link_label": "Zurükkereşün tıu Şop",
+        "qr_code": {
+          "send_link_to_phone": "Telefonuna bir bağlantı gönder"
+        }
       }
     }
   },

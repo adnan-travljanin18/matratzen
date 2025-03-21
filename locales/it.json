@@ -267,7 +267,12 @@
         "pick_up_in_store_marker": {
           "shipping": "Luogo di raccolta"
         },
-        "ready_for_delivery_description": "Abbiamo preparato il tuo ordine."
+        "ready_for_pickup_description": "La tua ordine è pronta per il ritiro. Ti preghiamo di portare la tua conferma d'ordine per il ritiro dell'ordine.",
+        "return_to_store_link_label": "Torna al negozio",
+        "qr_code": {
+          "send_link_to_phone": "Invia un link al tuo telefono"
+        },
+        "attempted_delivery_local_title": "Consegna mancata"
       }
     }
   },

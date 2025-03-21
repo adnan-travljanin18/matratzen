@@ -265,7 +265,12 @@
         "pick_up_in_store_marker": {
           "shipping": "Abholsted"
         },
-        "order_status_confirmed_order_local": "Vi forbereder bestillingen din for levering."
+        "ready_for_pickup_description": "Din bestilling er klar for henting. Vennligst ta med din bestillingsbekreftelse for henting av bestillingen.",
+        "return_to_store_link_label": "Tilbake til butikken",
+        "qr_code": {
+          "send_link_to_phone": "Send en lenke til telefonen din"
+        },
+        "gift_card_confirmation_by_text": "Hvis du ikke har mottatt dem, send tekstmeldingen på nytt eller kontakt oss."
       }
     }
   },

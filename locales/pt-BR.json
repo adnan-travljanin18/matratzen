@@ -251,7 +251,10 @@
         "redirecting_to_bank": "Du wirst zu {{bank}} weitergeleitet"
       },
       "thank_you": {
-        "order_updates_submit_subscription": "Entrada"
+        "order_updates_submit_subscription": "Entrada",
+        "ready_for_delivery_title": "Sua encomenda está pronta para entrega",
+        "payment_information_title": "Dados de pagamento",
+        "out_for_delivery_local_description_html": "Sua ordem chegará em breve."
       }
     }
   },

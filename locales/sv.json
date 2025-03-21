@@ -289,7 +289,12 @@
         "fulfillment": {
           "product_image_label": "Produktbild"
         },
-        "order_updates_submit_subscription": "Inmatning"
+        "order_updates_submit_subscription": "Inmatning",
+        "ready_for_pickup_description": "Din beställning är redo för hämtning. Vänligen ta med din beställningsbekräftelse för att hämta beställningen.",
+        "return_to_store_link_label": "Återvända till butiken",
+        "qr_code": {
+          "send_link_to_phone": "Skicka eller skicka en länk till din telefon"
+        }
       }
     }
   },

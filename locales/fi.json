@@ -257,7 +257,10 @@
         "pick_up_in_store_marker": {
           "shipping": "Noutopaikka"
         },
-        "ready_for_delivery_title": "Tilauksesi on valmis toimitettavaksi"
+        "ready_for_pickup_description": "Tilauksesi on noudettavissa. Ole hyvä ja ota mukaasi tilausvahvistus tilauksen noutoa varten.",
+        "return_to_store_link_label": "Palata kauppaan",
+        "out_for_delivery_local_title": "Zustellung für deine Bestellung läuft",
+        "gift_card_confirmation_by_email": "Jos et ole saanut niitä, lähetä sähköposti uudelleen tai ota meihin yhteyttä."
       }
     }
   },

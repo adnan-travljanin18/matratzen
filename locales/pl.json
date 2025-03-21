@@ -264,7 +264,13 @@
         "fulfillment": {
           "product_image_label": "Produktbild"
         },
-        "order_updates_submit_subscription": "Wprowadzenie"
+        "order_updates_submit_subscription": "Wprowadzenie",
+        "ready_for_pickup_description": "Twoje zamówienie jest gotowe do odbioru. Proszę przynieść potwierdzenie zamówienia do odbioru zamówienia.",
+        "return_to_store_link_label": "Powrócić do sklepu",
+        "qr_code": {
+          "send_link_to_phone": "Wyślij lub prześlij link na swój telefon"
+        },
+        "attempted_delivery_local_description_html": "Nie mogliśmy dostarczyć Twojego zamówienia. Aby umówić się na kolejną dostawę, %{contact_us}."
       }
     }
   },
