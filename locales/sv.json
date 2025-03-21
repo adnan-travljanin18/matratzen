@@ -432,7 +432,8 @@
             "currency_change": "Du kan inte använda en annan adress med {{walletName}}. Använd den ursprungliga adressen eller försök med en annan betalningsmetod."
           },
           "missing": {
-            "city": "Ange en stad"
+            "city": "Ange en stad",
+            "billing_city": "Ange geb en stad för denna fakturaadress"
           }
         }
       },
@@ -490,8 +491,19 @@
         "ctas": {
           "sell_in_person": {
             "header": "Personligt sälja"
+          },
+          "editions": {
+            "caption": "Mit över 100 produktuppdateringar kan du agera mer produktivt, kreativt och kraftfullt som handlar än du någonsin har föreställt dig."
+          },
+          "store_owner": {
+            "header": "Är du butikens ägare?"
           }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "signup_disabled": "Skapande av kundkonton har inaktiverats."
       }
     }
   },

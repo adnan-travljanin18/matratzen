@@ -394,7 +394,8 @@
             "currency_change": "Du kannst a {{walletName}} nem használhatsz másik címet. Használj az eredeti címet, vagy próbálkozz egy másik fizetési móddal."
           },
           "missing": {
-            "city": "Írj be egy várost"
+            "city": "Írj be egy várost",
+            "billing_city": "Adj meg egy várost ehhez a számlázási címhez"
           }
         }
       },
@@ -452,8 +453,19 @@
         "ctas": {
           "sell_in_person": {
             "header": "Személyesen eladni"
+          },
+          "editions": {
+            "caption": "Mit über 100 Produktaktualisierungen kannst du produktiver, kreativer und leistungsstärker als Händler agieren, als du es dir jemals vorgestellt hast."
+          },
+          "store_owner": {
+            "header": "Te vagy a bolt tulajdonosa?"
           }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "signup_disabled": "A vásárlói fiókok létrehozása letiltva."
       }
     }
   },

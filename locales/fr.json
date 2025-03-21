@@ -465,6 +465,25 @@
         },
         "owner_ctas": {
           "header": "Êtes-vous le propriétaire de la boutique ?"
+        },
+        "ctas": {
+          "editions": {
+            "header": "Voir les éditions de Shopify"
+          },
+          "store_owner": {
+            "shopify_support_link_text": "Support de Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "signup_disabled": "La création de comptes clients a été désactivée."
+      },
+      "order": {
+        "not_available": "Cette commande n'est pas disponible",
+        "financial_status": {
+          "voided": "Annulé"
         }
       }
     }

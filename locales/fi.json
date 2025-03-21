@@ -455,6 +455,25 @@
         },
         "owner_ctas": {
           "header": "Oletko kauppias?"
+        },
+        "ctas": {
+          "editions": {
+            "header": "Shopify Editions nähdä"
+          },
+          "store_owner": {
+            "caption": "Hastatko ongelmia kirjautumisessa kauppaasi? Kokeile %{forgot_your_store_link} -toimintoa. Jos haluat aktivoida kauppasi uudelleen, ota yhteyttä %{shopify_support_link}."
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "signup_disabled": "Asiakastilien luominen on poistettu käytöstä."
+      },
+      "order": {
+        "not_available": "Tämä tilaus ei ole saatavilla",
+        "financial_status": {
+          "partially_paid": "Osittain maksettu"
         }
       }
     }

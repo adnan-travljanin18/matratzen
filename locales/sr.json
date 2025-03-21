@@ -405,7 +405,8 @@
             "stock_problems": "Neki članci više nisu dostupni. Zatvori {{walletName}} i pokušaj ponovo."
           },
           "missing": {
-            "city": "Unesi grad"
+            "city": "Unesi grad",
+            "billing_city": "Unesite grad za ovu adresu za fakturiranje"
           }
         }
       },
@@ -458,8 +459,19 @@
         "ctas": {
           "sell_in_person": {
             "header": "Lično prodavati"
+          },
+          "editions": {
+            "caption": "Mit više od 100 ažuriranja proizvoda možete delovati produktivnije, kreativnije i efikasnije kao trgovac nego što ste to ikada mogli zamisliti."
+          },
+          "store_owner": {
+            "header": "Da li si vlasnik prodavnice?"
           }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "signup_disabled": "Kreiranje korisničkih naloga je onemogućeno."
       }
     }
   },

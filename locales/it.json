@@ -410,7 +410,8 @@
             "currency_change": "Du puoi utilizzare solo l'indirizzo originale con {{walletName}}. Usa l'indirizzo originale o prova con un altro metodo di pagamento."
           },
           "missing": {
-            "city": "Inserisci una città"
+            "city": "Inserisci una città",
+            "billing_city": "Inserisci una città per questo indirizzo di fatturazione"
           }
         },
         "payment_in_progress_title": "Il pagamento è in fase di elaborazione"
@@ -468,6 +469,24 @@
         },
         "owner_ctas": {
           "header": "Sei tu il proprietario del negozio?"
+        },
+        "ctas": {
+          "editions": {
+            "header": "Vedi Shopify Editions"
+          },
+          "store_owner": {
+            "shopify_support_link_text": "Shopify Support"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "signup_disabled": "Creazione di account clienti è stata disabilitata."
+      },
+      "order": {
+        "financial_status": {
+          "paid": "Pagato"
         }
       }
     }

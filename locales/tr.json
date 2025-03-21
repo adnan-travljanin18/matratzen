@@ -434,7 +434,8 @@
             "currency_change": "Du kannst mit {{walletName}} başka bir adres kullanamazsın. Orijinal adresi kullan veya başka bir ödeme yöntemiyle dene."
           },
           "missing": {
-            "city": "Bir şehir girin"
+            "city": "Bir şehir girin",
+            "billing_city": "Gib eine Stadt für diese Rechnungsadresse ein"
           }
         }
       },
@@ -492,8 +493,19 @@
         "ctas": {
           "sell_in_person": {
             "header": "Kişisel satış"
+          },
+          "editions": {
+            "caption": "Mit over 100 ürün güncellemeleri sayesinde, bir satıcı olarak, kendini her zamankinden daha üretken, yaratıcı ve güçlü hissedebilirsin."
+          },
+          "store_owner": {
+            "header": "Bist du der Shop-Inhaber?"
           }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "signup_disabled": "Kunden hesapları oluşturma devre dışı bırakıldı."
       }
     }
   },

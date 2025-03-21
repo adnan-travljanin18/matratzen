@@ -397,6 +397,9 @@
           },
           "missing": {
             "city": "Zadej město"
+          },
+          "formatting": {
+            "first_name_too_long": "Vorname obsahuje příliš mnoho písmen"
           }
         }
       },
@@ -447,7 +450,23 @@
       "shop_404": {
         "owner_ctas": {
           "header": "Jste majitelem obchodu?"
+        },
+        "ctas": {
+          "editions": {
+            "link_text": "Podívejte se na poslední edice"
+          },
+          "store_owner": {
+            "caption": "Hast du Probleme beim Anmelden in deinem obchodě? Vyzkoušejte funkci %{forgot_your_store_link}. Pokud chcete svůj obchod znovu aktivovat, obraťte se na %{shopify_support_link}."
+          }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "signup_disabled": "Vytvoření zákaznických účtů bylo deaktivováno."
+      },
+      "order": {
+        "not_available": "Tato objednávka není k dispozici"
       }
     }
   },

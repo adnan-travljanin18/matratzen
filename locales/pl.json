@@ -404,7 +404,8 @@
             "currency_change": "Du nie możesz używać innego adresu z {{walletName}}. Użyj oryginalnego adresu lub spróbuj z inną metodą płatności."
           },
           "missing": {
-            "city": "Wprowadź miasto"
+            "city": "Wprowadź miasto",
+            "billing_city": "Wpisz miasto dla tego adresu rozliczeniowego"
           }
         },
         "payment_in_progress_title": "Płatność jest przetwarzana"
@@ -463,7 +464,23 @@
         "ctas": {
           "sell_in_person": {
             "header": "Osobista sprzedaż"
+          },
+          "editions": {
+            "caption": "Mit ponad 100 aktualizacjami produktów możesz działać jako sprzedawca wydajniej, kreatywniej i mocniej, niż kiedykolwiek sobie wyobrażałeś."
+          },
+          "store_owner": {
+            "header": "Czy jesteś właścicielem sklepu?"
           }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "signup_disabled": "Utworzenie konta klienta zostało wyłączone."
+      },
+      "order": {
+        "financial_status": {
+          "unpaid": "Nieopłacony"
         }
       }
     }

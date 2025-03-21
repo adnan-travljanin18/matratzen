@@ -466,6 +466,25 @@
         },
         "owner_ctas": {
           "header": "Er du butiksindehaveren?"
+        },
+        "ctas": {
+          "editions": {
+            "header": "Shopify Editions se"
+          },
+          "store_owner": {
+            "caption": "Hast du problemer med at logge ind på din butik? Prøv %{forgot_your_store_link} funktionen. Hvis du vil aktivere din butik igen, kontakt venligst %{shopify_support_link}."
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "signup_disabled": "Oprettelse af kundeconti er blevet deaktiveret."
+      },
+      "order": {
+        "not_available": "Denne ordre er ikke tilgængelig",
+        "financial_status": {
+          "partially_paid": "Delvist betalt"
         }
       }
     }

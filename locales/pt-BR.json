@@ -395,7 +395,8 @@
             "stock_problems": "Alguns itens não estão mais disponíveis. Feche {{walletName}} e tente novamente."
           },
           "missing": {
-            "city": "Insira uma cidade"
+            "city": "Insira uma cidade",
+            "billing_city": "Digite uma cidade para este endereço de cobrança"
           }
         }
       },
@@ -446,8 +447,19 @@
         "ctas": {
           "sell_in_person": {
             "header": "Vender pessoalmente"
+          },
+          "editions": {
+            "caption": "Mit über 100 atualizações de produtos, você pode agir de forma mais produtiva, criativa e poderosa como comerciante do que jamais imaginou."
+          },
+          "store_owner": {
+            "caption": "Hast du Probleme beim Anmelden in deinem Shop? Probiere die Funktion %{forgot_your_store_link} aus. Wenn du deinen Shop erneut aktivieren möchtest, wende dich an den %{shopify_support_link}."
           }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "signup_disabled": "A criação de contas de clientes foi desativada."
       }
     }
   },
