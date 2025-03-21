@@ -303,12 +303,15 @@
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Du vil snart motta en e-post med din bestillingsnummer til bekreftelse.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Etter at betalingen din er fullført, vil du motta en bekreftelsesepost med bestillingsnummeret ditt.",
         "delivered_description_html": "Deine bestilling er levert til adressen du oppga. %{contact_us}, hvis du ikke har mottatt bestillingen eller har noen andre problemer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Etter at betalingen din er fullført, vil du motta en bekreftelsesmelding med bestillingsnummeret ditt."
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Etter at betalingen din er fullført, vil du motta en bekreftelsesmelding med bestillingsnummeret ditt.",
+        "contact_us_html": "Trenger du hjelp? %{contact_us}"
       },
       "review": {
         "blocks": {
-          "change_link_label": "Endre"
-        }
+          "change_link_label": "Endre",
+          "change_delivery_method_link_label": "Endre leveringsmetode"
+        },
+        "checkout_a_different_way": "Bruk en annen utbetalingsmetode"
       }
     }
   },

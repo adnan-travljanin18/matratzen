@@ -328,13 +328,16 @@
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Ви отримаєте підтвердження на електронну пошту з вашим номером замовлення найближчим часом.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Ви отримаєте підтвердження на електронну пошту з вашим номером замовлення найближчим часом.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Після завершення вашого платежу ви отримаєте електронний лист із підтвердженням з вашим номером замовлення.",
-        "delivered_description_html": "Твоє замовлення було доставлене за вказаною адресою. %{contact_us}, якщо ти не отримав замовлення або якщо у тебе є інші проблеми."
+        "delivered_description_html": "Твоє замовлення було доставлене за вказаною адресою. %{contact_us}, якщо ти не отримав замовлення або якщо у тебе є інші проблеми.",
+        "contact_us_html": "Потребуєш допомоги? %{contact_us}"
       },
       "review": {
         "title": "Перевірити",
         "blocks": {
-          "change_link_label": "Змінити"
-        }
+          "change_link_label": "Змінити",
+          "change_payment_method_link_label": "Змінити спосіб оплати"
+        },
+        "checkout_a_different_way": "Використовувати інший варіант оформлення замовлення"
       }
     }
   },

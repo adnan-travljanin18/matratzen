@@ -297,11 +297,20 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Efter afslutningen af din betaling vil du modtage en bekræftelses-e-mail med dit bestillingsnummer.",
         "delivered_description_html": "Deine ordre er blevet leveret til den adresse, du angav. %{contact_us}, hvis du ikke har modtaget ordren eller hvis du har andre problemer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Efter afslutningen af din betaling modtager du en bekræftelsesbesked med dit ordre nummer.",
-        "failure": "Ikke leveret"
+        "contact_us_html": "Har du brug for hjælp? %{contact_us}"
       },
       "review": {
         "blocks": {
-          "change_link_label": "Ændre"
+          "change_link_label": "Ændre",
+          "no_address": "(Ingen adresse)"
+        },
+        "checkout_a_different_way": "Brug en anden betalingsmulighed"
+      },
+      "marketing": {
+        "sms": {
+          "disclaimer": {
+            "terms_of_service": "Generelle vilkår"
+          }
         }
       }
     }

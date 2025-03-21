@@ -303,12 +303,15 @@
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Otrzymasz wkrótce e-mail z potwierdzeniem z twoim numerem zamówienia.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Po zakończeniu swojej płatności otrzymasz e-mail potwierdzający z numerem zamówienia.",
         "delivered_description_html": "Twoje zamówienie zostało dostarczone na adres, który podałeś. %{contact_us}, jeśli nie otrzymałeś zamówienia lub masz jakiekolwiek inne problemy.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Po zakończeniu płatności otrzymasz wiadomość potwierdzającą z numerem zamówienia."
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Po zakończeniu płatności otrzymasz wiadomość potwierdzającą z numerem zamówienia.",
+        "contact_us_html": "Potrzebujesz pomocy? %{contact_us}"
       },
       "review": {
         "blocks": {
-          "change_link_label": "Zmiany"
-        }
+          "change_link_label": "Zmiany",
+          "change_delivery_method_link_label": "Zmiana metody dostawy"
+        },
+        "checkout_a_different_way": "Użyć innej opcji płatności"
       }
     }
   },

@@ -285,13 +285,16 @@
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Θα λάβεις σύντομα ένα email επιβεβαίωσης με τον αριθμό παραγγελίας σου.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Θα λάβεις σύντομα ένα email επιβεβαίωσης με τον αριθμό παραγγελίας σου.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Μετά την ολοκλήρωση της πληρωμής σου, θα λάβεις ένα e-mail επιβεβαίωσης με τον αριθμό παραγγελίας σου.",
-        "delivered_description_html": "Η παραγγελία σας έχει παραδοθεί στη διεύθυνση που υποδείξατε. %{contact_us}, αν δεν έχετε παραλάβει την παραγγελία ή αν έχετε οποιοδήποτε άλλο πρόβλημα."
+        "delivered_description_html": "Η παραγγελία σας έχει παραδοθεί στη διεύθυνση που υποδείξατε. %{contact_us}, αν δεν έχετε παραλάβει την παραγγελία ή αν έχετε οποιοδήποτε άλλο πρόβλημα.",
+        "contact_us_html": "Χρειάζεσαι βοήθεια; %{contact_us}"
       },
       "review": {
         "title": "Επιβεβαιώστε",
         "blocks": {
-          "change_link_label": "Αλλαγή"
-        }
+          "change_link_label": "Αλλαγή",
+          "change_payment_method_link_label": "Αλλαγή μεθόδου πληρωμής"
+        },
+        "checkout_a_different_way": "Χρησιμοποιήστε άλλη επιλογή πληρωμής"
       }
     }
   },

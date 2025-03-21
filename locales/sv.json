@@ -328,12 +328,15 @@
         "delivered_description_html": "Deine beställning har levererats till den adress du angav. %{contact_us}, om du inte har mottagit beställningen eller om du har några andra problem.",
         "vat_invoices": {
           "title": "MwSt.-Rechningar"
-        }
+        },
+        "contact_us_html": "Ben behöver du hjälp? %{contact_us}"
       },
       "review": {
         "blocks": {
-          "change_link_label": "Ändra"
-        }
+          "change_link_label": "Ändra",
+          "change_delivery_method_link_label": "Ändra leveransmetod"
+        },
+        "checkout_a_different_way": "Använda en annan utcheckningsalternativ"
       }
     }
   },

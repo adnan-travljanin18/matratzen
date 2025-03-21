@@ -290,12 +290,15 @@
         "delivered_description_html": "A rendelésedet a megadott címre szállítottuk. %{contact_us}, ha nem kaptad meg a rendelést, vagy bármilyen egyéb problémád van.",
         "vat_invoices": {
           "title": "MwSt.-Rechnungen"
-        }
+        },
+        "contact_us_html": "Szükséged van segítségre? %{contact_us}"
       },
       "review": {
         "blocks": {
-          "change_link_label": "Változtat"
-        }
+          "change_link_label": "Változtat",
+          "change_delivery_method_link_label": "Zustellmódszert módosítani"
+        },
+        "checkout_a_different_way": "Másik fizetési lehetőség használata"
       }
     }
   },

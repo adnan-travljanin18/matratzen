@@ -290,7 +290,14 @@
       "review": {
         "blocks": {
           "change_link_label": "Změnit",
-          "change_shipping_address_link_label": "Změnit dodací adresu"
+          "change_shipping_address_link_label": "Změnit dodací adresu",
+          "no_address": "(Žádná adresa)"
+        },
+        "checkout_a_different_way": "Použít jinou možnost plateb"
+      },
+      "marketing": {
+        "unsubscribe": {
+          "description": "Nebudete od nás dostávat žádné připomínky k nákupnímu košíku."
         }
       }
     }

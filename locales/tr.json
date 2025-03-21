@@ -330,12 +330,15 @@
         "delivered_description_html": "Deine Bestellung wurde an die von dir angegebene Adresse zugestellt. %{contact_us}, falls du die Bestellung nicht erhalten hast oder du irgendwelche anderen Probleme hast.",
         "vat_invoices": {
           "title": "MwSt.-Rechnungen"
-        }
+        },
+        "contact_us_html": "Yardıma mı ihtiyacın var? %{contact_us}"
       },
       "review": {
         "blocks": {
-          "change_link_label": "Değiştirmek"
-        }
+          "change_link_label": "Değiştirmek",
+          "change_delivery_method_link_label": "Teslimat yöntemini değiştir"
+        },
+        "checkout_a_different_way": "Diğer ödeme seçeneğini kullanın"
       }
     }
   },
