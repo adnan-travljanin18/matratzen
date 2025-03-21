@@ -279,7 +279,9 @@
         "thank_you_payments_app_failed_pending_payment": "Σου δεν έχει χρεωθεί τίποτα για την παραγγελία σου. Επιστρέφεις στο καλάθι σου για να ελέγξεις την παραγγελία σου και να πληρώσεις ξανά.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Μετά την ολοκλήρωση της πληρωμής σου, θα λάβεις ένα e-mail επιβεβαίωσης. Παρακολούθησε την παραγγελία σου με την εφαρμογή καταστήματος.",
         "thank_you_payments_app_failed_pending_payment_payment": "Σου δεν έχει χρεωθεί τίποτα για την παραγγελία σου. Επιστρέφεις στο καλάθι σου για να ελέγξεις την παραγγελία σου και να πληρώσεις ξανά.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Επικοινωνήστε μαζί μας μέσω email ή τηλεφώνου για να λάβετε μια επιβεβαίωση παραγγελίας."
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Θα λάβεις σύντομα ένα μήνυμα επιβεβαίωσης μέσω ηλεκτρονικού ταχυδρομείου. Παρακολούθησε την παραγγελία σου με την εφαρμογή του καταστήματος.",
+        "in_transit_title": "Η παραγγελία σας είναι καθ' οδόν",
+        "order_status_payments_app_failed_pending_payment_payment": "Σου δεν έχει χρεωθεί τίποτα για την παραγγελία σου. Επιστρέφεις στο καλάθι σου για να ελέγξεις την παραγγελία σου και να πληρώσεις ξανά."
       }
     }
   },

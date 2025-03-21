@@ -288,7 +288,10 @@
         },
         "order_status_payments_app_pending_payment_description_default_with_email": "Uskoro ćeš primiti potvrdu putem e-pošte. Prati svoju narudžbu putem aplikacije za kupovinu.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Nakon što izvršiš uplatu, dobijaš e-mail sa potvrdom. Prati svoju narudžbinu putem Shop aplikacije.",
-        "thank_you_payments_app_failed_pending_payment_payment": "Dir nije naplaćeno ništa za vašu narudžbinu. Vratite se u svoju korpu da proverite svoju narudžbinu i ponovo platite."
+        "thank_you_payments_app_failed_pending_payment_payment": "Dir nije naplaćeno ništa za vašu narudžbinu. Vratite se u svoju korpu da proverite svoju narudžbinu i ponovo platite.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Uskoro ćeš primiti potvrdu putem e-pošte. Prati svoju narudžbu putem aplikacije za kupovinu.",
+        "in_transit_title": "Tvoja narudžbina je na putu",
+        "order_status_payments_app_failed_pending_payment_payment": "Dir nije naplaćeno ništa za vašu narudžbinu. Vratite se u svoju korpu da proverite svoju narudžbinu i ponovo platite."
       }
     }
   },

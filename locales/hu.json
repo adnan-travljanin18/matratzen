@@ -281,7 +281,9 @@
         "thank_you_payments_app_failed_pending_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "A fizetésed befejezése után egy megerősítő e-mailt kapsz. Kövesd nyomon a rendelésed a bolt appal.",
         "thank_you_payments_app_failed_pending_payment_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Kontaktiere uns e-mailen vagy telefonon, hogy megkapd a rendelés megerősítését."
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Hamarosan megkapod a megerősítő e-mailt. Kövesd nyomon a rendelésed a bolt alkalmazásával.",
+        "in_transit_title": "A rendelésed úton van",
+        "order_status_payments_app_failed_pending_payment_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen."
       }
     }
   },

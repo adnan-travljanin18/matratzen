@@ -278,7 +278,10 @@
         },
         "order_status_payments_app_pending_payment_description_default_with_email": "Você receberá em breve um e-mail de confirmação. Acompanhe seu pedido pelo aplicativo da loja.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Após a conclusão do seu pagamento, você receberá um e-mail de confirmação. Acompanhe seu pedido com o aplicativo da loja.",
-        "thank_you_payments_app_failed_pending_payment_payment": "Dir foi cobrado nada pela sua compra. Volte ao seu carrinho para revisar seu pedido e pagar novamente."
+        "thank_you_payments_app_failed_pending_payment_payment": "Dir foi cobrado nada pela sua compra. Volte ao seu carrinho para revisar seu pedido e pagar novamente.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Você receberá em breve um e-mail de confirmação. Acompanhe seu pedido pelo aplicativo da loja.",
+        "in_transit_title": "Sua encomenda está a caminho",
+        "order_status_payments_app_failed_pending_payment_payment": "Dir foi cobrado nada pela sua compra. Volte ao seu carrinho para revisar seu pedido e pagar novamente."
       }
     }
   },

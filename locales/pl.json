@@ -296,7 +296,9 @@
         "thank_you_payments_app_failed_pending_payment": "Dir wird für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Po zakończeniu płatności otrzymasz e-mail potwierdzający. Śledź swoje zamówienie za pomocą aplikacji sklepu.",
         "thank_you_confirmed_order_with_draft_payment": "Informujemy Cię, jeśli będziemy potrzebować dodatkowych informacji lub gdy Twoje zamówienie zostanie potwierdzone.",
-        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Otrzymasz wkrótce e-mail z potwierdzeniem. Śledź swoje zamówienie za pomocą aplikacji sklepu."
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Otrzymasz wkrótce e-mail z potwierdzeniem. Śledź swoje zamówienie za pomocą aplikacji sklepu.",
+        "in_transit_title": "Twoje zamówienie jest w drodze",
+        "order_status_payments_app_failed_pending_payment_payment": "Dir wird für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen."
       }
     }
   },
