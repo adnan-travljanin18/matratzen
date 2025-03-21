@@ -579,7 +579,9 @@
         "payment_method_updated_toast": "Метод оплати оновлено"
       },
       "payment_details": {
-        "total_amount_of_subscription_line_items_left": "und {{total}} ще"
+        "total_amount_of_subscription_line_items_left": "und {{total}} ще",
+        "edit_payment_method_button_accessibility_label": "Метод оплати редагувати, який закінчується на {{lastDigits}}",
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
       }
     },
     "navigation_and_structure": {

@@ -579,7 +579,9 @@
         "payment_method_updated_toast": "Ödeme yöntemi güncellendi"
       },
       "payment_details": {
-        "total_amount_of_subscription_line_items_left": "und {{total}} daha"
+        "total_amount_of_subscription_line_items_left": "und {{total}} daha",
+        "edit_payment_method_button_accessibility_label": "Zahlungsmethode düzenleme, {{lastDigits}} ile biten",
+        "credit_card_details": "{{ krediKartıMarkası }} •••• {{ sonHaneler }}"
       }
     },
     "navigation_and_structure": {

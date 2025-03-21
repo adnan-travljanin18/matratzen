@@ -536,8 +536,11 @@
         "cancel_edit_payment_method_button": "Zrušit"
       },
       "payment_details": {
-        "total_amount_of_subscription_line_items_left": "und {{total}} další"
-      }
+        "total_amount_of_subscription_line_items_left": "und {{total}} další",
+        "edit_payment_method_button": "Upravte",
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
+      },
+      "generic_card": "Karte"
     },
     "navigation_and_structure": {
       "action_menu_accessibility_label": "Další akce",

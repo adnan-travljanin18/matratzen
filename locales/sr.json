@@ -564,7 +564,9 @@
         "payment_method_updated_toast": "Metoda plaćanja ažurirana"
       },
       "payment_details": {
-        "close_payment_modal": "Zatvoriti"
+        "close_payment_modal": "Zatvoriti",
+        "edit_payment_method_button_accessibility_label": "Метод плаћања за измену, који се завршава на {{lastDigits}}",
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
       }
     },
     "navigation_and_structure": {

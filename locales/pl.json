@@ -549,7 +549,9 @@
         "payment_method_updated_toast": "Metoda płatności zaktualizowana"
       },
       "payment_details": {
-        "total_amount_of_subscription_line_items_left": "und {{total}} weitere"
+        "total_amount_of_subscription_line_items_left": "und {{total}} weitere",
+        "edit_payment_method_button": "Edytować",
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
       }
     },
     "navigation_and_structure": {
