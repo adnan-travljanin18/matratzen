@@ -26,11 +26,13 @@
             "shop_cash_unsupported_shipping": "Sklep Cash nie wspiera artykułów merchandisowych bez wysyłki.",
             "wallet_content_missing": "Brakuje zawartości portfela.",
             "saved_payment_methods_not_enabled": "Zapisane metody płatności nie są aktywowane w tym sklepie."
-          }
+          },
+          "session_identifier_not_unique_error": "Mit twoją zamówieniem coś poszło nie tak, spróbuj ponownie przejść do kasy."
         },
         "complete_purchase_button_label": "Kupować",
         "close_modal_label": "Zamknij",
-        "continue_to_shipping_method": "Kontynuuj do wysyłki"
+        "continue_to_shipping_method": "Kontynuuj do wysyłki",
+        "autocomplete_selection": "{{numer}} von {{całkowity}}"
       }
     }
   },

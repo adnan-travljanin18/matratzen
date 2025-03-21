@@ -30,7 +30,11 @@
         },
         "complete_purchase_button_label": "Kupovina",
         "close_modal_label": "Zatvoriti",
-        "back_to_shipping_method": "Povratak na isporuku"
+        "continue_to_shipping_method": "Nastavite ka isporuci",
+        "autocomplete_selection": "{{number}} von {{total}}",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Plaćanje"
+        }
       }
     }
   },

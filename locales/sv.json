@@ -26,11 +26,13 @@
             "shop_cash_unsupported_checkout_source": "Shop Cash stöder inte denna kassa.",
             "wallet_content_missing": "Det saknas innehåll i plånboken.",
             "saved_payment_methods_not_enabled": "Sparade betalningsmetoder är inte aktiverade för den här butiken."
-          }
+          },
+          "session_identifier_not_unique_error": "Med din beställning gick något fel, vänligen försök att kolla ut igen."
         },
         "complete_purchase_button_label": "Köpa",
         "close_modal_label": "Stänga",
-        "continue_to_shipping_method": "Fortsätt till frakt"
+        "continue_to_shipping_method": "Fortsätt till frakt",
+        "autocomplete_selection": "{{number}} av {{total}}"
       }
     }
   },

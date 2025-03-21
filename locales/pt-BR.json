@@ -26,10 +26,13 @@
             "shop_cash_unsupported_checkout_source": "A Shop Cash não suporta este checkout.",
             "wallet_content_missing": "Falta o conteúdo da carteira.",
             "saved_payment_methods_not_enabled": "Métodos de pagamento salvos não estão ativados para esta loja."
-          }
+          },
+          "line_item_limit_reached": "A quantidade máxima de posições foi atingida."
         },
         "complete_purchase_button_label": "Comprar",
-        "close_modal_label": "Fechar"
+        "close_modal_label": "Fechar",
+        "continue_to_shipping_method": "Continuar para o envio",
+        "autocomplete_selection": "{{number}} de {{total}}"
       }
     }
   },

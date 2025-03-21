@@ -30,7 +30,9 @@
         },
         "complete_purchase_button_label": "Køb",
         "close_modal_label": "Luk",
-        "expand_notice_label": "Vis mere"
+        "expand_notice_label": "Vis mere",
+        "choose_payment_method": "Vælg en betalingsmetode",
+        "autocomplete_close": "Forslag lukker"
       }
     }
   },

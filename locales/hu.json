@@ -30,7 +30,11 @@
         },
         "complete_purchase_button_label": "Vásárol",
         "close_modal_label": "Zárás",
-        "back_to_payment_method": "Vissza a fizetéshez"
+        "continue_to_shipping_method": "Tovább a szállításhoz",
+        "autocomplete_selection": "{{number}} von {{total}}",
+        "forwarding_indicator": {
+          "external_and_new_window": "A külső weboldal új ablakban nyílik meg."
+        }
       }
     }
   },

@@ -30,7 +30,9 @@
         },
         "complete_purchase_button_label": "Comprare",
         "close_modal_label": "Chiudere",
-        "expand_notice_label": "Mostra di più"
+        "expand_notice_label": "Mostra di più",
+        "autocomplete_selection": "{{number}} di {{total}}",
+        "autocomplete_close": "Suggerimenti chiusi"
       }
     }
   },

@@ -30,7 +30,9 @@
         },
         "complete_purchase_button_label": "Koupit",
         "close_modal_label": "Zavřít",
-        "back_to_payment_method": "Návrat k platbě"
+        "back_to_payment_method": "Návrat k platbě",
+        "choose_payment_method": "Vyberte způsob platby",
+        "autocomplete_close": "Návrhy uzavřít"
       }
     }
   },

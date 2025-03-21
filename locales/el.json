@@ -30,7 +30,11 @@
         },
         "complete_purchase_button_label": "Αγορά",
         "close_modal_label": "Κλείσιμο",
-        "continue_to_payment_method": "Μετάβαση στην πληρωμή"
+        "continue_to_shipping_method": "Μετάβαση στην αποστολή",
+        "autocomplete_selection": "{{αριθμός}} von {{σύνολο}}",
+        "forwarding_indicator": {
+          "new_window": "Ανοίγει ένα νέο παράθυρο."
+        }
       }
     }
   },

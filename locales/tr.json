@@ -30,7 +30,9 @@
         },
         "complete_purchase_button_label": "Satın Al",
         "close_modal_label": "Kapat",
-        "continue_to_shipping_method": "Devam et gönderime"
+        "continue_to_shipping_method": "Devam et gönderime",
+        "autocomplete_selection": "{{number}} üzerinde {{total}}",
+        "autocomplete_close": "Öneriler kapat"
       }
     }
   },

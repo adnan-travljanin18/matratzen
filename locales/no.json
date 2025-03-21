@@ -26,11 +26,13 @@
             "shop_cash_unsupported_shipping": "Butikk Cash støtter ikke merchandise-artikler uten frakt.",
             "wallet_content_missing": "Det mangler innholdet i lommeboken.",
             "saved_payment_methods_not_enabled": "Lagrede betalingsmetoder er ikke aktivert for denne butikken."
-          }
+          },
+          "session_identifier_not_unique_error": "Det har skjedd en feil med bestillingen din, vær vennlig å prøve å sjekke ut igjen."
         },
         "complete_purchase_button_label": "Kjøpe",
         "close_modal_label": "Lukk",
-        "expand_notice_label": "Vis flere"
+        "expand_notice_label": "Vis flere",
+        "autocomplete_selection": "{{number}} av {{total}}"
       }
     }
   },

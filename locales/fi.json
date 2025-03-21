@@ -30,7 +30,9 @@
         },
         "complete_purchase_button_label": "Ostaa",
         "close_modal_label": "Sulje",
-        "expand_notice_label": "Näytä lisää"
+        "expand_notice_label": "Näytä lisää",
+        "choose_payment_method": "Valitse maksutapa",
+        "autocomplete_close": "Ehdotukset sulkevat"
       }
     }
   },

@@ -30,7 +30,9 @@
         },
         "complete_purchase_button_label": "Acheter",
         "close_modal_label": "Fermer",
-        "expand_notice_label": "Voir plus"
+        "expand_notice_label": "Voir plus",
+        "choose_payment_method": "Choisissez un mode de paiement",
+        "autocomplete_close": "Suggestions fermées"
       }
     }
   },

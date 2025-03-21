@@ -30,7 +30,9 @@
         },
         "complete_purchase_button_label": "Купити",
         "close_modal_label": "Закрити",
-        "continue_to_review": "Перевірка замовлення"
+        "continue_to_shipping_method": "Продовжити до відправки",
+        "autocomplete_selection": "{{number}} з {{total}}",
+        "tooltip_accessibility_label": "Більше інформації"
       }
     }
   },
