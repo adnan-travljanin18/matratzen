@@ -82,7 +82,10 @@
         "taxes_label": "Skatter",
         "vat_label_html": "inkl. %{amount} MwSt",
         "product_change_label": "Ændre",
-        "total_already_paid_label": "Betalt"
+        "total_already_paid_label": "Betalt",
+        "pickup_label": "Abholung i butikken",
+        "estimated_taxes_label": "Skattestimater",
+        "estimated_taxes_finalization_tooltip_content": "Die endelige skat og det samlede beløb bekræftes via e-mail eller SMS, efter at du har afgivet din bestilling."
       },
       "delivery_options": {
         "pick_up_in_five_or_more_days": "Almindeligvis færdig på 5 dage eller mere"

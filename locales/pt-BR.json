@@ -83,7 +83,10 @@
         "shipping_policy_link": "Veja os custos de envio",
         "taxes_label": "Impostos",
         "vat_label_html": "inkl. %{amount} MwSt",
-        "description_label": "Descrição"
+        "description_label": "Descrição",
+        "pickup_label": "Ab pickup in the shop",
+        "information_estimated_taxes_label": "Impostos (estimados)",
+        "recurring_total_label": "Soma total recorrente"
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Normalmente pronto em 2 horas",

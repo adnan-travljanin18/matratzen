@@ -79,7 +79,10 @@
         "taxes_label": "Verot",
         "vat_label_html": "inkl. %{amount} MwSt",
         "product_change_label": "Muuttaa",
-        "total_already_paid_label": "Maksettu"
+        "total_already_paid_label": "Maksettu",
+        "pickup_label": "Nouto myymälästä",
+        "estimated_taxes_label": "Arvioidut verot",
+        "estimated_taxes_finalization_tooltip_content": "Die endgültige Steuer und der Gesamtbetrag werden per E-Mail oder SMS bestätigt, nachdem du die Bestellung aufgegeben hast."
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Tavallisesti valmis 1 tunnissa"

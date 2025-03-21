@@ -75,7 +75,10 @@
         "vat_label_html": "inkl. %{amount} DPH",
         "product_change_label": "Změnit",
         "expand_order_summary": "Zobrazit přehled objednávek",
-        "total_already_paid_label": "Zaplaceno"
+        "total_already_paid_label": "Zaplaceno",
+        "pickup_label": "Abholung im Shop",
+        "estimated_taxes_label": "Odhadované daně",
+        "estimated_taxes_finalization_tooltip_content": "Die konečná daň a celková částka budou potvrzeny e-mailem nebo SMS poté, co uskutečníte objednávku."
       },
       "delivery_options": {
         "pick_up_immediately": "Nyní připraveno k vyzvednutí"

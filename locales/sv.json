@@ -115,7 +115,10 @@
         "discount_has_been_applied": "Rabatten utnyttjades",
         "taxes_label": "Skatter",
         "vat_label_html": "inkl. %{amount} MwSt",
-        "description_label": "Beskrivning"
+        "description_label": "Beskrivning",
+        "pickup_label": "Abholung i butik",
+        "information_estimated_taxes_label": "Skatter (beräknade)",
+        "estimated_taxes_finalization_tooltip_content": "Die slutgiltiga skatten och det totala beloppet bekräftas via e-post eller SMS efter att du har lagt din beställning."
       }
     }
   },

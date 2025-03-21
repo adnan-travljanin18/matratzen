@@ -85,7 +85,10 @@
         "shipping_policy_link": "Szállítási költségek",
         "taxes_label": "Adók",
         "vat_label_html": "inkl. %{amount} ÁFA",
-        "description_label": "Leírás"
+        "description_label": "Leírás",
+        "pickup_label": "Abholung im Shop",
+        "information_estimated_taxes_label": "Adók (becsült)",
+        "estimated_taxes_finalization_tooltip_content": "A végső adó és a teljes összeg megerősítésre kerül e-mailben vagy SMS-ben, miután a rendelésedet leadtad."
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Általában 2 órán belül kész",

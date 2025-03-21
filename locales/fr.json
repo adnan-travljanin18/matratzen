@@ -79,7 +79,10 @@
         "taxes_label": "Impôts",
         "vat_label_html": "inkl. %{amount} MwSt",
         "description_label": "Description",
-        "total_already_paid_label": "Payé"
+        "total_already_paid_label": "Payé",
+        "pickup_label": "Abholung im Shop",
+        "estimated_taxes_label": "Estimations fiscales",
+        "estimated_taxes_finalization_tooltip_content": "Le montant final de la taxe et le montant total seront confirmés par e-mail ou SMS après que vous aurez passé votre commande."
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Habituellement prêt en 1 heure"

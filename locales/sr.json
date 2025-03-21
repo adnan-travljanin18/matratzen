@@ -97,7 +97,10 @@
         "cart_does_not_meet_discount_requirements_notice": "Der Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> nije važeći za artikle u tvom korpusu.",
         "taxes_label": "Porezi",
         "vat_label_html": "inkl. %{amount} ПДВ",
-        "description_label": "Opis"
+        "description_label": "Opis",
+        "pickup_label": "Preuzimanje u prodavnici",
+        "information_estimated_taxes_label": "Porezi (procena)",
+        "recurring_total_label": "Ponovljeni ukupni iznos"
       }
     }
   },

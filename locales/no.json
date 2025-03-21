@@ -79,7 +79,10 @@
         "taxes_label": "Skatter",
         "vat_label_html": "inkl. %{amount} MwSt",
         "description_label": "Beskrivelse",
-        "total_already_paid_label": "Betalt"
+        "total_already_paid_label": "Betalt",
+        "pickup_label": "Abhenting i butikk",
+        "information_estimated_taxes_label": "Skatter (anslått)",
+        "estimated_taxes_finalization_tooltip_content": "Die endelige skatt og det totale beløpet vil bli bekreftet via e-post eller SMS etter at du har lagt inn bestillingen."
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Vanligvis ferdig på 1 time"

@@ -126,7 +126,10 @@
         "gift_card_has_been_removed": "Подарунковий сертифікат був анульований",
         "shipping_policy_link": "Вартість доставки",
         "vat_label_html": "inkl. %{amount} MwSt",
-        "description_label": "Опис"
+        "description_label": "Опис",
+        "pickup_label": "Забрати в магазині",
+        "information_estimated_taxes_label": "Податки (оцінка)",
+        "estimated_taxes_finalization_tooltip_content": "Остаточний податок та загальна сума будуть підтверджені електронною поштою або SMS після того, як ви оформите замовлення."
       }
     }
   },

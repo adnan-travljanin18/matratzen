@@ -115,7 +115,10 @@
         "discount_has_been_applied": "İndirim kullanıldı",
         "taxes_label": "Vergiler",
         "vat_label_html": "inkl. %{amount} MwSt",
-        "description_label": "Tanım"
+        "description_label": "Tanım",
+        "pickup_label": "Abholung im Shop",
+        "information_estimated_taxes_label": "Vergi (tahmini)",
+        "estimated_taxes_finalization_tooltip_content": "Die nihai vergi ve toplam tutar, siparişi verdikten sonra e-posta veya SMS ile onaylanacaktır."
       }
     }
   },
