@@ -386,6 +386,15 @@
             "payment_terms": "As condições de pagamento mudaram. Por favor, verifique seu pedido."
           }
         }
+      },
+      "notice_banner": {
+        "company_location_changed": "Seu carrinho foi atualizado. Verifique seu pedido antes de finalizá-lo.",
+        "editable_shipping_address_violations_email_link": "Entre em contato conosco"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Existem %{count} lojas com estoque disponível perto de %{address}"
+        }
       }
     }
   },

@@ -410,6 +410,12 @@
       "notice_banner": {
         "individual_violations_title": {
           "OtherViolations": "Informations de commande"
+        },
+        "editable_shipping_address_violations_email_link": "Contactez-nous"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Il y a %{count} magasins avec des stocks disponibles à proximité de %{address}"
         }
       }
     }

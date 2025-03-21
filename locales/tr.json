@@ -432,7 +432,15 @@
         }
       },
       "notice_banner": {
-        "violations_title": "{{ihlal}} eksik veya geçersiz"
+        "individual_violations_title": {
+          "OtherViolations": "Sipariş Bilgileri"
+        },
+        "editable_shipping_address_violations_email_link": "Bize ulaşın"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Es verfügbar %{count} mağaza, %{address} yakınında stok bulunmaktadır."
+        }
       }
     }
   },

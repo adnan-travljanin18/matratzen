@@ -396,6 +396,17 @@
             "payment_terms": "Услови плаћања су се променили. Молимо вас да проверите вашу поруџбину."
           }
         }
+      },
+      "notice_banner": {
+        "individual_violations_title": {
+          "OtherViolations": "Informacije o narudžbini"
+        },
+        "editable_shipping_address_violations_email_link": "Kontaktirajte nas"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Es ist %{count} Shop sa dostupnim zalihama u blizini %{address}"
+        }
       }
     }
   },

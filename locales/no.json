@@ -408,7 +408,13 @@
       },
       "notice_banner": {
         "individual_violations_title": {
-          "PaymentViolations": "Fakturaadresse"
+          "OtherViolations": "Bestillingsinformasjon"
+        },
+        "editable_shipping_address_violations_email_link": "Kontakt oss"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Det er %{count} butikker med tilgjengelig lager i nærheten av %{address}"
         }
       }
     }

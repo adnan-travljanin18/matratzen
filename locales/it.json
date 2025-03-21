@@ -411,7 +411,15 @@
         }
       },
       "notice_banner": {
-        "company_location_changed": "Il tuo carrello è stato aggiornato. Controlla il tuo ordine prima di effettuare il pagamento."
+        "individual_violations_title": {
+          "OtherViolations": "Informazioni sull'ordine"
+        },
+        "editable_shipping_address_violations_email_link": "Contattaci"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Ci sono %{count} negozi con disponibilità di inventario nelle vicinanze di %{address}"
+        }
       }
     }
   },

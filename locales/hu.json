@@ -392,7 +392,15 @@
         }
       },
       "notice_banner": {
-        "violations_title": "{{a megsértés}} hiányzik vagy érvénytelen"
+        "individual_violations_title": {
+          "OtherViolations": "Megrendelési információk"
+        },
+        "editable_shipping_address_violations_email_link": "Fordulj hozzánk"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Az %{count} bolt áll rendelkezésre raktárkészlettel a(z) %{address} közelében"
+        }
       }
     }
   },

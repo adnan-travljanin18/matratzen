@@ -394,6 +394,12 @@
         "return_to_cart_to_update_quantities": "%{return_to_cart_link_text}, pro aktualizaci množství",
         "individual_violations_title": {
           "OtherViolations": "Bestellinformationen"
+        },
+        "editable_shipping_address_violations_email_link": "Kontaktujte nás"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Je %{count} obchod s dostupnými zásobami v blízkosti %{address}"
         }
       }
     }

@@ -411,6 +411,12 @@
       "notice_banner": {
         "individual_violations_title": {
           "OtherViolations": "Bestillingsoplysninger"
+        },
+        "editable_shipping_address_violations_email_link": "Kontakt os"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Det er %{count} butik med tilgængeligt lager i nærheden af %{address}"
         }
       }
     }

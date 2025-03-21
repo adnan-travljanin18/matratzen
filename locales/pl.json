@@ -406,7 +406,13 @@
       },
       "notice_banner": {
         "individual_violations_title": {
-          "UnhandledViolations": "Informacje dotyczące zamówienia"
+          "OtherViolations": "Informacje dotyczące zamówienia"
+        },
+        "editable_shipping_address_violations_email_link": "Skontaktuj się z nami"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Jest %{count} sklepów z dostępnym zapasem w pobliżu %{address}"
         }
       }
     }

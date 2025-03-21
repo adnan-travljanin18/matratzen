@@ -388,6 +388,17 @@
             "payment_terms": "Οι όροι πληρωμής έχουν αλλάξει. Παρακαλούμε ελέγξτε την παραγγελία σας."
           }
         }
+      },
+      "notice_banner": {
+        "individual_violations_title": {
+          "OtherViolations": "Πληροφορίες παραγγελίας"
+        },
+        "editable_shipping_address_violations_email_link": "Επικοινώνησε μαζί μας"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Είναι %{count} καταστήματα με διαθέσιμες αποθέσεις κοντά στο %{address}"
+        }
       }
     }
   },

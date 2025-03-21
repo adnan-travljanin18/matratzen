@@ -431,6 +431,17 @@
         "terminal": {
           "message": "Оновіть цю сторінку або спробуйте ще раз через кілька хвилин"
         }
+      },
+      "notice_banner": {
+        "individual_violations_title": {
+          "OtherViolations": "Найкраща інформація про замовлення"
+        },
+        "editable_shipping_address_violations_email_link": "Зв'яжіться з нами"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Це %{count} магазин(и) з доступним запасом поруч з %{address}"
+        }
       }
     }
   },

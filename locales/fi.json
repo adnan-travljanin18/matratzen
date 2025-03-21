@@ -400,6 +400,12 @@
       "notice_banner": {
         "individual_violations_title": {
           "OtherViolations": "Tilausehdot"
+        },
+        "editable_shipping_address_violations_email_link": "Ota meihin yhteyttä"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "On %{count} kauppaa, joilla on saatavilla olevaa varastoa lähellä %{address}"
         }
       }
     }

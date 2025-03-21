@@ -431,7 +431,13 @@
       },
       "notice_banner": {
         "individual_violations_title": {
-          "DeliveryViolations": "Leveransadress"
+          "OtherViolations": "Beställningsinformation"
+        },
+        "editable_shipping_address_violations_email_link": "Kontakta oss"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Det finns %{count} butik med tillgängligt lager i närheten av %{address}"
         }
       }
     }
