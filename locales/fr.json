@@ -149,7 +149,8 @@
         },
         "local_pickup": {
           "search_address": "Chercher par adresse"
-        }
+        },
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} autres"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Entrez l'adresse associée à votre carte ou méthode de paiement.",
@@ -171,8 +172,9 @@
         },
         "purchase_options_agreement_label_html": "Ich comprends que les articles, qu'il s'agisse d'un ou de plusieurs, dans mon panier représentent un achat en attente ou récurrent. En continuant, j'accepte la \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">politique d'annulation</a>\net j'autorise le prélèvement de ma méthode de paiement selon les prix, fréquences et dates indiqués sur cette page, jusqu'à ce que ma commande soit exécutée ou jusqu'à ce que j'annule la commande, si possible.",
         "store_credit": {
-          "manage_label": "Gérer le solde boutique"
-        }
+          "buying_gift_card": "Vous ne pouvez pas utiliser le crédit de boutique pour acheter un bon de réduction"
+        },
+        "no_working_method_error": "Ce magasin ne peut actuellement pas accepter de paiements. Veuillez actualiser cette page ou réessayer plus tard."
       }
     }
   },

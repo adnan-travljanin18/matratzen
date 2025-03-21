@@ -151,7 +151,8 @@
         "local_pickup": {
           "search_address": "Cím keresése"
         },
-        "delivery_title": "Szállítás"
+        "delivery_title": "Szállítás",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} további"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -174,8 +175,9 @@
         },
         "purchase_options_agreement_label_html": "Ich értem, hogy a kosaramban lévő egy vagy több termék egy függőben lévő vagy ismétlődő vásárlásra vonatkozik. A folytatással egyetértek a <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">lemondási irányelvekkel</a>, és engedélyezem a fizetési módom terhelését az ezen az oldalon megadott árakon, gyakoriságokon és dátumokon, amíg a rendelésemet teljesítik, vagy amíg a rendelést, ha lehetséges, lemondom.",
         "store_credit": {
-          "no_fixed_selling_plans": "Nem használhatod a bolt egyenlegét a halasztott fizetési lehetőségek vásárlásához"
-        }
+          "buying_gift_card": "Nem használhatsz boltban lévő egyenleget ajándékkártya vásárlására."
+        },
+        "no_working_method_error": "Ez a bolt jelenleg nem tudja elfogadni a kifizetéseket. Frissítsd ezt az oldalt, vagy próbáld meg később újra."
       }
     }
   },

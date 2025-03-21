@@ -177,7 +177,8 @@
         "local_pickup": {
           "search_address": "Adres Ara"
         },
-        "delivery_title": "Teslimat"
+        "delivery_title": "Teslimat",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} daha"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -200,8 +201,9 @@
         },
         "purchase_options_agreement_label_html": "Ich anlıyorum ki, sepetime eklediğim bir veya birden fazla ürün, bekleyen veya tekrarlanan bir satın alma işlemine tabidir. Devam ederek, \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">iptal politikası</a>\n ile aynı zamanda bu sayfada belirtilen fiyatlar, sıklıklar ve tarihler üzerinden ödeme yöntemimin ücretlendirilmesini yetkilendiriyorum, siparişim yerine getirilene kadar veya siparişi, mümkünse, iptal edene kadar.",
         "store_credit": {
-          "no_fixed_selling_plans": "Du kannst Shop-Guthaben nicht für seçenekler satın almak için ödeme ertelemesiyle kullanamazsınız"
-        }
+          "buying_gift_card": "Sen bir kupon satın almak için mağaza kredisi kullanamazsın"
+        },
+        "no_working_method_error": "Bu mağaza şu anda ödeme kabul edemiyor. Bu sayfayı güncelleyin veya daha sonra tekrar deneyin."
       }
     }
   },

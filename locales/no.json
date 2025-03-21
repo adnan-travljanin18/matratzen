@@ -147,7 +147,8 @@
         "local_pickup": {
           "search_address": "Søk etter adresse"
         },
-        "delivery_title": "Levering"
+        "delivery_title": "Levering",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} flere"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Skriv inn adressen som er knyttet til kortet ditt eller betalingsmetoden.",
@@ -169,8 +170,9 @@
         },
         "purchase_options_agreement_label_html": "<p>Jeg forstår at det er en eller flere varer i handlekurven min som gjelder et utestående eller gjentatte kjøp. Ved å fortsette godtar jeg <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbestillingsreglene</a> og autoriserer belastningen av betalingsmetoden min til prisene, frekvensene og datoene som er angitt på denne siden, inntil bestillingen min er fullført, eller inntil jeg avbestiller ordren, dersom det er mulig.</p>",
         "store_credit": {
-          "manage_label": "Administrere butikkpenger"
-        }
+          "buying_gift_card": "Du kan ikke bruke butikkutgifter for å kjøpe et gavekort"
+        },
+        "no_working_method_error": "Denne butikken kan for øyeblikket ikke akseptere betalinger. Oppdater denne siden eller prøv igjen senere."
       }
     }
   },

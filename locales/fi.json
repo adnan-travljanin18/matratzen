@@ -147,7 +147,8 @@
         },
         "method_summary": {
           "incomplete_address_selected": "Valitse täydellinen toimitusosoite nähdäksesi käytettävissä olevat toimitustavat."
-        }
+        },
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} lisää"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Syötä kortillesi tai maksutavallesi liitetty osoite.",
@@ -166,7 +167,8 @@
         "purchase_options_agreement_label_html": "Ich ymmärrän, että ostoskorissani oleva tuote tai useat tuotteet ovat odottavia tai toistuvia ostoja. Jatkamalla hyväksyn \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">peruutuskäytännön</a>\nja annan valtuutuksen maksutapani veloittamiseen tällä sivulla ilmoitettujen hintojen, aikataulujen ja päivämäärien mukaan, kunnes tilaukseni on suoritettu tai kunnes peruutan tilauksen, jos se on mahdollista.",
         "store_credit": {
           "buying_gift_card": "Et voi käyttää kaupan saldoa ostaaksesi lahjakortin"
-        }
+        },
+        "no_working_method_error": "Tämä kauppa ei voi tällä hetkellä hyväksyä maksuja. Päivitä tämä sivu tai yritä myöhemmin uudelleen."
       }
     }
   },

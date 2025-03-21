@@ -144,7 +144,8 @@
         "method_summary": {
           "incomplete_address_selected": "Vyberte úplnou dodací adresu, abyste zobrazili dostupné způsoby dopravy."
         },
-        "missing_shipping_address": "Chybí dodací adresa"
+        "missing_shipping_address": "Chybí dodací adresa",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} dalších"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Zadej adresu spojenou s tvou kartou nebo platební metodou.",
@@ -160,7 +161,8 @@
         "purchase_options_agreement_label_html": "Ich rozumím, že se jedná o jeden nebo více položek v mém nákupním košíku, které představují neuhrazený nebo opakovaný nákup. Pokračováním souhlasím s \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">podmínkami zrušení</a>\na povoluji zpracování mé platební metody podle cen, frekvencí a dat uvedených na této stránce, dokud nebude moje objednávka zpracována nebo dokud neodvolám objednávku, pokud to bude možné.",
         "store_credit": {
           "buying_gift_card": "Nemůžeš použít kredit obchodu k zakoupení dárkového poukazu"
-        }
+        },
+        "no_working_method_error": "Tento obchod momentálně nemůže přijímat platby. Aktualizujte tuto stránku nebo to zkuste znovu později."
       }
     }
   },

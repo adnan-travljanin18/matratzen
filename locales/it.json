@@ -148,7 +148,8 @@
         "delivery_tomorrow": "Consegna il giorno successivo alle %{time}",
         "local_pickup": {
           "search_address": "Cerca indirizzi"
-        }
+        },
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ulteriori"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Inserisci l'indirizzo associato alla tua carta o metodo di pagamento.",
@@ -171,8 +172,9 @@
         },
         "purchase_options_agreement_label_html": "Ich capisco che un articolo o più articoli nel mio carrello rappresentano un acquisto in sospeso o ricorrente. Continuando, accetto la \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">politica di cancellazione</a>\ne autorizzo il caricamento del mio metodo di pagamento ai prezzi, frequenze e date specificati in questa pagina, fino a quando il mio ordine non sarà elaborato o fino a quando non cancello l'ordine, se possibile.",
         "store_credit": {
-          "manage_label": "Gestire il credito del negozio"
-        }
+          "buying_gift_card": "Non puoi utilizzare il saldo del negozio per acquistare un coupon"
+        },
+        "no_working_method_error": "Questo negozio non può accettare pagamenti al momento. Aggiorna questa pagina o riprova più tardi."
       }
     }
   },

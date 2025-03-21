@@ -158,7 +158,8 @@
             "other": "%{shipping_price} za %{count} isporuke (%{per_delivery_cost}), nakon toga %{recurring_order_shipping_price}"
           }
         },
-        "delivery_title": "Isporuka"
+        "delivery_title": "Isporuka",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} još"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -175,7 +176,10 @@
         "ftd_vault_credit_card_label": "Čuvanje ove kreditne kartice u mom nalogu kako bih ubrzao proces plaćanja.",
         "receiver_payment_experience_hint": "Nakon što postavite svoju narudžbinu, dobićete detalje o plaćanju. izvršite uplatu unutar %{due_days} dana putem Multibanco ili online.",
         "purchase_options_agreement_label_html": "<p>Razumem da se radi o jednom ili više artikala u mom korpi koji predstavljaju neizmirenu ili ponavljajuću kupovinu. Nastavljanjem, slažem se sa\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Politikom otkazivanja</a>\ni ovlašćujem naplatu moje metode plaćanja po cenama, učestalostima i datumima navedenim na ovoj stranici, sve do izvršenja moje narudžbe ili dok ne otkažem narudžbinu, ukoliko je to moguće.</p>",
-        "order_covered_by_store_credit_notice": "Tvoja narudžbina će biti pokrivena tvojim Shop-balom."
+        "store_credit": {
+          "buying_gift_card": "Ne možete koristiti kredit u trgovini da kupite vaučer"
+        },
+        "no_working_method_error": "Ova prodavnica trenutno ne može da prihvati uplate. Ažurirajte ovu stranicu ili pokušajte ponovo kasnije."
       }
     }
   },

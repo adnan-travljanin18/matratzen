@@ -187,7 +187,8 @@
             "other": "%{shipping_price} для %{count} доставок (%{per_delivery_cost}), після цього %{recurring_order_shipping_price}"
           }
         },
-        "delivery_title": "Доставка"
+        "delivery_title": "Доставка",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ще"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -211,8 +212,9 @@
         },
         "purchase_options_agreement_label_html": "Ich розумію, що товар або кілька товарів у моїй кошику є незавершеною чи періодичною покупкою. Продовжуючи, я погоджуюсь з \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Політикою скасування</a>\nі авторизую стягнення з мого платіжного способу за цінами, частотами та датами, вказаними на цій сторінці, поки моє замовлення не буде виконано або поки я не скасую замовлення, якщо це можливо.",
         "store_credit": {
-          "no_fixed_selling_plans": "Ви не можете використовувати кредит магазину для варіантів покупки з відстроченням платежу"
-        }
+          "buying_gift_card": "Ви не можете використовувати кредит магазину для покупки купона"
+        },
+        "no_working_method_error": "Цей магазин наразі не може приймати платежі. Оновіть цю сторінку або спробуйте пізніше ще раз."
       }
     }
   },

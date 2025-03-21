@@ -148,7 +148,8 @@
             "other": "%{shipping_price} για %{count} παραδόσεις (%{per_delivery_cost}), μετά %{recurring_order_shipping_price}"
           }
         },
-        "delivery_title": "Παράδοση"
+        "delivery_title": "Παράδοση",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} επιπλέον"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -168,8 +169,9 @@
         "receiver_payment_experience_hint": "Μετά την υποβολή της παραγγελίας σας, θα λάβετε τις λεπτομέρειες πληρωμής. Εκτελέστε την πληρωμή εντός των %{due_days} ημερών μέσω Multibanco ή online.",
         "purchase_options_agreement_label_html": "<p>Κατανοώ ότι ένα ή περισσότερα είδη στο καλάθι αγορών μου αφορούν μια εκκρεμή ή επαναλαμβανόμενη αγορά. Συνεχίζοντας, συμφωνώ με την\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">πολιτική ακύρωσης</a>\nκαι εξουσιοδοτώ τη χρέωση της μεθόδου πληρωμής μου με τις τιμές, τις συχνότητες και τις ημερομηνίες που αναφέρονται σε αυτή τη σελίδα, μέχρι να ολοκληρωθεί η παραγγελία μου ή μέχρι να ακυρώσω την παραγγελία, εφόσον είναι δυνατό.</p>",
         "store_credit": {
-          "no_fixed_selling_plans": "Δεν μπορείς να χρησιμοποιήσεις το πιστωτικό υπόλοιπο καταστήματος για επιλογές αγοράς με αναβολή πληρωμής"
-        }
+          "buying_gift_card": "Δεν μπορείς να χρησιμοποιήσεις το υπόλοιπο καταστήματος για να αγοράσεις μια δωροκάρτα"
+        },
+        "no_working_method_error": "Αυτό το κατάστημα δεν μπορεί να αποδεχτεί πληρωμές αυτή τη στιγμή. Ανανεώστε αυτή τη σελίδα ή προσπαθήστε ξανά αργότερα."
       }
     }
   },

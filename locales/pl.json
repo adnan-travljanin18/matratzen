@@ -147,7 +147,8 @@
         "local_pickup": {
           "search_address": "Szukaj pod adresem"
         },
-        "delivery_title": "Dostawa"
+        "delivery_title": "Dostawa",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} dodatkowe"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Wprowadź adres powiązany z twoją kartą lub metodą płatności.",
@@ -169,8 +170,9 @@
         },
         "purchase_options_agreement_label_html": "Ich rozumiem, że artykuł lub artykuły w moim koszyku stanowią oczekującą lub powtarzającą się transakcję zakupu. Kontynuując, zgadzam się z\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Polityką anulowania</a>\ni autoryzuję obciążenie mojej metody płatności według cen, częstotliwości i dat podanych na tej stronie, aż do zrealizowania mojego zamówienia lub do momentu, w którym anuluję zamówienie, jeśli to możliwe.",
         "store_credit": {
-          "manage_label": "Zarządzaj saldo sklepu"
-        }
+          "buying_gift_card": "Nie możesz używać salda sklepu, aby kupić kupon"
+        },
+        "no_working_method_error": "Ten sklep obecnie nie może akceptować płatności. Zaktualizuj tę stronę lub spróbuj ponownie później."
       }
     }
   },

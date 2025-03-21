@@ -178,7 +178,8 @@
         "local_pickup": {
           "search_address": "Sök efter adress"
         },
-        "delivery_title": "Leverans"
+        "delivery_title": "Leverans",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} ytterligare"
       },
       "payment": {
         "billing_address_description_no_shipping_address": "Ange din adress kopplad till ditt kort eller betalningsmetod.",
@@ -200,8 +201,9 @@
         },
         "purchase_options_agreement_label_html": "Ich förstår att en artikel eller flera artiklar i min kundvagn utgör ett utestående eller återkommande köp. Genom att fortsätta godkänner jag \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbeställningspolicy</a>\noch auktoriserar belastningen av min betalningsmetod enligt de priser, frekvenser och datum som anges på denna sida, tills min beställning har genomförts eller tills jag avbryter beställningen, om möjligt.",
         "store_credit": {
-          "manage_label": "Hantera butikskrediten"
-        }
+          "buying_gift_card": "Du kan inte använda butiksinkredit för att köpa ett presentkort"
+        },
+        "no_working_method_error": "Denna butik kan för närvarande inte ta emot betalningar. Uppdatera denna sida eller försök igen senare."
       }
     }
   },
