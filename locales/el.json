@@ -451,7 +451,8 @@
           "some_products_one": "Αυτό το προϊόν δεν είναι διαθέσιμο για αποστολή στη %{location_name}.",
           "some_products_other": "Αυτά τα προϊόντα δεν είναι διαθέσιμα για αποστολή προς %{location_name}.",
           "all_products_one": "Το προϊόν στο καλάθι σας δεν είναι διαθέσιμο για αποστολή στη %{location_name}."
-        }
+        },
+        "cart_updated": "Ο κάδος αγορών σας έχει ενημερωθεί."
       }
     },
     "pagination": {
@@ -642,6 +643,10 @@
       "addresses_section_title": "Η τιμολόγηση και αποστολή",
       "payment": {
         "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
+      },
+      "shipping": {
+        "address": "Παράδοση διεύθυνσης",
+        "free_shipping_discount": "Δωρεάν αποστολή"
       }
     }
   }

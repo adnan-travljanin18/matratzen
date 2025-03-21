@@ -470,7 +470,8 @@
           "some_products_one": "Questo prodotto non è disponibile per la consegna a %{location_name}.",
           "some_products_other": "Questi prodotti non sono disponibili per la spedizione a %{location_name}.",
           "all_products_one": "Il prodotto nel tuo carrello non è disponibile per la consegna a %{location_name}."
-        }
+        },
+        "change_address_only": "Cambia l'indirizzo di consegna per continuare."
       }
     },
     "pagination": {
@@ -643,6 +644,10 @@
       "addresses_section_title": "Fatturazione e Spedizione",
       "payment": {
         "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
+      },
+      "shipping": {
+        "address": "Indirizzo di consegna",
+        "method": "Modalità di spedizione"
       }
     }
   }

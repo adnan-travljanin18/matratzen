@@ -453,7 +453,8 @@
           "some_products_one": "Ez a termék nem elérhető szállításra %{location_name} területére.",
           "some_products_other": "Ezek a termékek nem állnak rendelkezésre a %{location_name} helyszínre történő szállításhoz.",
           "all_products_one": "A termék a kosaradban nem elérhető a(z) %{location_name} helyszínre történő szállításhoz."
-        }
+        },
+        "change_address_only": "Változtasd meg a szállítási címet a folytatáshoz."
       }
     },
     "pagination": {
@@ -646,7 +647,11 @@
       "addresses_section_title": "Számlázás és szállítás",
       "payment": {
         "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
-      }
+      },
+      "shipping": {
+        "address": "Szállítási cím"
+      },
+      "show_items": "Cikk megjelenítése"
     }
   }
 }

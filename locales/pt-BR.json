@@ -447,7 +447,8 @@
           "some_products_one": "Este produto não está disponível para entrega em %{location_name}.",
           "some_products_other": "Esses produtos não estão disponíveis para entrega em %{location_name}.",
           "all_products_one": "O produto no seu carrinho não está disponível para entrega em %{location_name}."
-        }
+        },
+        "cart_updated": "Seu carrinho foi atualizado."
       }
     },
     "pagination": {
@@ -638,6 +639,10 @@
       "addresses_section_title": "Faturamento e Envio",
       "payment": {
         "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
+      },
+      "shipping": {
+        "address": "Endereço de entrega",
+        "one_time": "Envio único"
       }
     }
   }

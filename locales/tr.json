@@ -494,7 +494,8 @@
           "some_products_one": "Bu ürün %{location_name} adresine teslimat için mevcut değildir.",
           "some_products_other": "Bu ürünler %{location_name} adresine teslimat için mevcut değildir.",
           "all_products_one": "Das Produkt in deinem Warenkorb ist nicht für die Lieferung nach %{location_name} verfügbar."
-        }
+        },
+        "change_address_only": "Teslimat adresini değiştirin, devam etmek için."
       }
     },
     "pagination": {
@@ -664,7 +665,11 @@
       "addresses_section_title": "Faturalama ve Gönderim",
       "payment": {
         "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
-      }
+      },
+      "shipping": {
+        "address": "Teslimat adresi"
+      },
+      "show_items": "Makaleyi göster"
     }
   }
 }

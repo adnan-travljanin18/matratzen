@@ -467,7 +467,8 @@
         "banner_title": {
           "some_products_one": "Dette produkt er ikke tilgængeligt for levering til %{location_name}.",
           "all_products_one": "Produktet i din indkøbskurv er ikke tilgængeligt for levering til %{location_name}."
-        }
+        },
+        "change_address_only": "Ændre leveringsadressen for at fortsætte."
       }
     },
     "pagination": {
@@ -645,6 +646,10 @@
       "loading_finished_accessibility_message": "Bestelldetaljer blev indlæst",
       "payment": {
         "gift_card_payment_details": "ended with {{lastDigits}} – {{formattedTransactionAmount}}"
+      },
+      "shipping": {
+        "address": "Leveringsadresse",
+        "subscription": "Abonnement-Forsendelsesomkostninger"
       }
     }
   }

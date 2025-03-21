@@ -494,7 +494,8 @@
           "some_products_one": "Це продукт недоступний для доставки до %{location_name}.",
           "some_products_other": "Ці продукти не доступні для доставки до %{location_name}.",
           "all_products_one": "Продукт у твоєму кошику не доступний для доставки до %{location_name}."
-        }
+        },
+        "cart_updated": "Ваш кошик було оновлено."
       }
     },
     "pagination": {
@@ -665,6 +666,10 @@
       "addresses_section_title": "Рахунки та доставка",
       "payment": {
         "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
+      },
+      "shipping": {
+        "address": "Доставка адреси",
+        "summary": "Відправка"
       }
     }
   }

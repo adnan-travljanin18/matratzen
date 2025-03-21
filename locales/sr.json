@@ -456,7 +456,8 @@
           "some_products_one": "Ovaj proizvod nije dostupan za isporuku u %{location_name}.",
           "some_products_other": "Ovi proizvodi nisu dostupni za isporuku u %{location_name}.",
           "all_products_one": "Proizvod u tvojoj korpi nije dostupan za isporuku na %{location_name}."
-        }
+        },
+        "cart_updated": "Tvoja korpa je ažurirana."
       }
     },
     "pagination": {
@@ -650,6 +651,10 @@
       "addresses_section_title": "Fakturisanje i isporuka",
       "payment": {
         "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
+      },
+      "shipping": {
+        "address": "Isporuka adresa",
+        "free_shipping_discount": "Besplatna dostava"
       }
     }
   }

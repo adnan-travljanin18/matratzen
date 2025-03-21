@@ -466,7 +466,8 @@
           "some_products_one": "Ce produit n'est pas disponible pour la livraison à %{location_name}.",
           "some_products_other": "Ces produits ne sont pas disponibles pour la livraison à %{location_name}.",
           "all_products_one": "Le produit dans votre panier n'est pas disponible pour la livraison à %{location_name}."
-        }
+        },
+        "change_address_only": "Changez l'adresse de livraison pour continuer."
       }
     },
     "pagination": {
@@ -640,6 +641,10 @@
       "addresses_section_title": "Facturation et expédition",
       "payment": {
         "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
+      },
+      "shipping": {
+        "address": "Adresse de livraison",
+        "subscription": "Abonnement-Frais de port"
       }
     }
   }

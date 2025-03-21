@@ -488,7 +488,8 @@
           "some_products_one": "Detta produkt är inte tillgänglig för leverans till %{location_name}.",
           "some_products_other": "Dessa produkter är inte tillgängliga för leverans till %{location_name}.",
           "all_products_one": "Produkten i din varukorg är inte tillgängligt för leverans till %{location_name}."
-        }
+        },
+        "change_address_only": "Ändra leveransadressen för att fortsätta."
       }
     },
     "pagination": {
@@ -662,7 +663,11 @@
       "addresses_section_title": "Fakturering och frakt",
       "payment": {
         "gift_card_payment_details": "endet med {{lastDigits}} – {{formattedTransactionAmount}}"
-      }
+      },
+      "shipping": {
+        "address": "Leveransadress"
+      },
+      "show_items": "Artikel visa"
     }
   }
 }

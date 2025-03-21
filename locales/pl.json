@@ -464,7 +464,8 @@
           "some_products_one": "To produkt nie jest dostępny do dostawy do %{location_name}.",
           "some_products_other": "Te produkty nie są dostępne do dostawy do %{location_name}.",
           "all_products_one": "Produkt w twoim koszyku nie jest dostępny do dostawy do %{location_name}."
-        }
+        },
+        "change_address_only": "Zmień adres dostawy, aby kontynuować."
       }
     },
     "pagination": {
@@ -637,7 +638,11 @@
       "addresses_section_title": "Fakturowanie i wysyłka",
       "payment": {
         "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
-      }
+      },
+      "shipping": {
+        "address": "Adres dostawy"
+      },
+      "show_items": "Wyświetl artykuł"
     }
   }
 }

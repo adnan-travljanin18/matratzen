@@ -466,7 +466,8 @@
           "some_products_one": "Dette produktet er ikke tilgjengelig for levering til %{location_name}.",
           "some_products_other": "Disse produktene er ikke tilgjengelige for levering til %{location_name}.",
           "all_products_one": "Produktet i handlekurven din er ikke tilgjengelig for levering til %{location_name}."
-        }
+        },
+        "change_address_only": "Endre leveringsadressen for å fortsette."
       }
     },
     "pagination": {
@@ -639,7 +640,11 @@
       "addresses_section_title": "Fakturering og frakt",
       "payment": {
         "gift_card_payment_details": "endet med {{lastDigits}} – {{formattedTransactionAmount}}"
-      }
+      },
+      "shipping": {
+        "address": "Leveringsadresse"
+      },
+      "show_items": "Vis artikkel"
     }
   }
 }

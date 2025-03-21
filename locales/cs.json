@@ -448,7 +448,8 @@
         "banner_title": {
           "some_products_one": "Tento produkt není k dispozici pro dodání do %{location_name}.",
           "all_products_one": "Produkt ve tvém košíku není k dispozici pro doručení do %{location_name}."
-        }
+        },
+        "missing_country_fallback": "tvá zem"
       }
     },
     "pagination": {
@@ -628,6 +629,10 @@
       "loading_finished_accessibility_message": "Bestelldetails byly načteny",
       "payment": {
         "gift_card_payment_details": "endet mit {{lastDigits}} – {{formattedTransactionAmount}}"
+      },
+      "shipping": {
+        "address": "Dodací adresa",
+        "subscription": "Abonnement-Versandkosten"
       }
     }
   }
