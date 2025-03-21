@@ -302,6 +302,10 @@
         "login_description_phone": "Din ordrenummer finder du på kvitteringen, som du har modtaget via sms.",
         "login_reorder_link_text": {
           "one": "køb også dette produkt"
+        },
+        "unfulfilled_items_title": "Forberedelse til forsendelse",
+        "marker": {
+          "shipping": "Leveringsadresse"
         }
       },
       "review": {
@@ -372,6 +376,13 @@
         },
         "too_many_attempts": {
           "description": "Prøv det venligst igen om et par minutter"
+        }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "other": "Disse artikler fjernes fra din kurv, da der ikke er tilgængelige leveringsmetoder for din adresse."
+          }
         }
       }
     }

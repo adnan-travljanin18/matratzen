@@ -364,8 +364,18 @@
           "other": "Očekivano vreme čekanja je {{count}} minuta"
         }
       },
-      "cart_checkout_validation": {
-        "runtime_error": "Došlo je do problema prilikom obrade vašeg zahteva. Molimo vas da se obratite vlasniku prodavnice."
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "За %{count} чланака није доступна достава"
+          }
+        }
+      },
+      "no_address_location": {
+        "title": "Lokacija bez adrese"
+      },
+      "order_errors": {
+        "creation_failure": "Bilo je problema prilikom kreiranja vaše narudžbine. Pokušajte ponovo ili kontaktirajte nas za dodatne detalje."
       }
     }
   },

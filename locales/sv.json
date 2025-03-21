@@ -334,6 +334,10 @@
         "login_description_phone": "Din beställningsnummer hittar du i kvittot som du fått via textmeddelande.",
         "login_reorder_link_text": {
           "one": "Köp också denna produkt"
+        },
+        "login": "Anmäla",
+        "marker": {
+          "current": "Nuvarande plats för försändelsen"
         }
       },
       "review": {
@@ -392,9 +396,16 @@
         },
         "estimated_wait_time": {
           "other": "Den uppskattade väntetiden är {{count}} minuter"
-        },
-        "too_many_attempts": {
-          "description": "Snälla försök igen om några minuter"
+        }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "För %{count} artiklar är ingen leverans tillgänglig"
+          },
+          "message": {
+            "other": "Dessa artiklar har tagits bort från din kundvagn eftersom det inte finns några leveransmetoder tillgängliga för din adress."
+          }
         }
       }
     }

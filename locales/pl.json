@@ -309,7 +309,8 @@
         "login_description_phone": "Twoje numer zamówienia znajdziesz w paragonie, który otrzymałeś w wiadomości tekstowej.",
         "login_reorder_link_text": {
           "one": "kup również ten produkt"
-        }
+        },
+        "login": "Zaloguj się"
       },
       "review": {
         "blocks": {
@@ -373,8 +374,14 @@
         "not_deliverable": {
           "title": {
             "one": "Dla %{count} artykułów brak dostawy dostępnej"
+          },
+          "message": {
+            "other": "Te artykuły zostały usunięte z twojego koszyka, ponieważ dla twojego adresu nie są dostępne metody dostawy."
           }
         }
+      },
+      "session_errors": {
+        "session_not_unique": "Przy przetwarzaniu Twojego zamówienia wystąpił problem. Zaktualizuj tę stronę, aby wrócić do sklepu."
       }
     }
   },

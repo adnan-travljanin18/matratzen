@@ -375,8 +375,17 @@
         "not_deliverable": {
           "title": {
             "one": "Per %{count} articoli non è disponibile la consegna"
+          },
+          "message": {
+            "other": "Questi articoli sono stati rimossi dal tuo carrello, poiché non sono disponibili metodi di consegna per il tuo indirizzo."
           }
         }
+      },
+      "order_errors": {
+        "inventory_reservation_failure": "Alcuni articoli non sono più disponibili."
+      },
+      "session_errors": {
+        "session_already_finished": "Questa ordinazione è già stata inviata. Puoi tornare al negozio per effettuare un nuovo ordine."
       }
     }
   },

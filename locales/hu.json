@@ -354,10 +354,20 @@
         },
         "estimated_wait_time": {
           "other": "A várható várakozási idő {{count}} perc"
-        },
-        "too_many_attempts": {
-          "description": "Kérlek, próbáld meg újra pár perc múlva"
         }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Nincs szállítás elérhető %{count} cikkre"
+          },
+          "message": {
+            "other": "Ezeket a cikkeket eltávolítjuk a kosaradból, mivel a címedhez nincs elérhető szállítási módszer."
+          }
+        }
+      },
+      "order_errors": {
+        "network_failure": "Deine Bestellung konnte aufgrund eines Netzwerkfehlers nicht eingereicht werden. Überprüfe deine Verbindung und versuche es erneut."
       }
     }
   },

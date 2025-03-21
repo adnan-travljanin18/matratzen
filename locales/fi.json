@@ -293,6 +293,9 @@
         "login_description_phone": "Sinun tilausnumerosi löytyy kuitista, jonka olet saanut tekstiviestinä.",
         "login_reorder_link_text": {
           "one": "osta myös tämä tuote"
+        },
+        "marker": {
+          "shipping": "Toimitusosoite"
         }
       },
       "review": {
@@ -360,6 +363,16 @@
         "too_many_attempts": {
           "description": "Yritä uudelleen muutaman minuutin kuluttua"
         }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "other": "Nämä artikkelit poistetaan ostos koristasi, koska osoitteesi ei mahdollista toimitusmenetelmiä."
+          }
+        }
+      },
+      "order_errors": {
+        "inventory_reservation_failure": "Joitakin tuotteita ei ole enää saatavilla."
       }
     }
   },

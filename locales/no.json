@@ -309,7 +309,8 @@
         "login_description_phone": "Din bestillingsnummer finner du i kvitteringen som du har mottatt via tekstmelding.",
         "login_reorder_link_text": {
           "one": "kjøp også dette produktet"
-        }
+        },
+        "login": "Registrere"
       },
       "review": {
         "blocks": {
@@ -377,6 +378,12 @@
             "one": "For %{count} artikler er ingen levering tilgjengelig"
           }
         }
+      },
+      "no_address_location": {
+        "title": "Standort uten adresse"
+      },
+      "pickup_point": {
+        "or": "ODER"
       }
     }
   },

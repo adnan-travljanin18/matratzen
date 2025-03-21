@@ -303,6 +303,9 @@
         "login_description_phone": "Votre numéro de commande se trouve sur le reçu que vous avez reçu par SMS.",
         "login_reorder_link_text": {
           "one": "achetez aussi ce produit"
+        },
+        "marker": {
+          "shipping": "Adresse de livraison"
         }
       },
       "review": {
@@ -370,6 +373,16 @@
         "too_many_attempts": {
           "description": "Veuillez réessayer dans quelques minutes"
         }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "other": "Ces articles ont été retirés de votre panier car aucune méthode de livraison n'est disponible pour votre adresse."
+          }
+        }
+      },
+      "order_errors": {
+        "inventory_reservation_failure": "Certains articles ne sont plus disponibles."
       }
     }
   },

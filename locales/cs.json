@@ -287,7 +287,11 @@
         "delivered_description_html": "Tvá objednávka byla doručena na adresu, kterou jsi uvedl. %{contact_us}, pokud jsi objednávku neobdržel nebo máš jakékoli jiné problémy.",
         "verify_shop_account_cta": "Ověřte svůj účet",
         "failed_contact_merchant_no_company": "Kontakujte nás, abyste si domluvili doručení.",
-        "login_description_phone": "Tvou objednávkovou číslo najdeš na dokladu, který jsi obdržel prostřednictvím textové zprávy."
+        "login_description_phone": "Tvou objednávkovou číslo najdeš na dokladu, který jsi obdržel prostřednictvím textové zprávy.",
+        "unfulfilled_items_title": "Příprava na odeslání",
+        "marker": {
+          "shipping": "Dodací adresa"
+        }
       },
       "review": {
         "blocks": {
@@ -359,6 +363,13 @@
         },
         "too_many_attempts": {
           "description": "Prosím, zkuste to znovu za pár minut"
+        }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "other": "Tyto položky byly odstraněny z tvého nákupního košíku, protože pro tvoji adresu nejsou k dispozici žádné možnosti doručení."
+          }
         }
       }
     }

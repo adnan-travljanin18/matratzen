@@ -336,6 +336,9 @@
         "login_description_phone": "Sipariş numaranı, kısa mesaj ile aldığın belgeden bulabilirsin.",
         "login_reorder_link_text": {
           "one": "bu ürünü de satın al"
+        },
+        "marker": {
+          "current": "Mevcut Gönderi Konumu"
         }
       },
       "review": {
@@ -394,10 +397,20 @@
         },
         "estimated_wait_time": {
           "other": "Die geschätzte Wartezeit beträgt {{count}} dakika"
-        },
-        "too_many_attempts": {
-          "description": "Lütfen birkaç dakika içinde tekrar deneyin"
         }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Für %{count} Artikel için teslimat mevcut değil"
+          }
+        }
+      },
+      "no_address_location": {
+        "title": "Lokasyon adres olmadan"
+      },
+      "order_errors": {
+        "network_failure": "Deine Bestellung konnte aufgrund eines Netzwerkfehlers nicht eingereicht werden. Überprüfe deine Verbindung und versuche es erneut."
       }
     }
   },
