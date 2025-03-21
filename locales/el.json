@@ -1,0 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "page_title": "Προβλήματα αποθεμάτων",
+        "title": "Εξαντλημένο"
+      },
+      "general": {
+        "errors": {
+          "delivery": {
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Οι όροι εκπλήρωσης δεν πληρούνται, καθώς τα αντικείμενα δεν μπορούν να εκτελούνται στον ίδιο τόπο."
+          }
+        }
+      }
+    }
+  }
+}

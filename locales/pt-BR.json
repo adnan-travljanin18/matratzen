@@ -1,0 +1,34 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "page_title": "Problemas de armazenamento"
+      },
+      "general": {
+        "errors": {
+          "delivery": {
+            "must_fulfill_from_same_location_constraint_not_satisfied": "As condições de cumprimento não foram atendidas, pois os itens não podem ser realizados na mesma localidade."
+          }
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "payment_methods": {
+      "payment_delete": {
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Quando você excluir este método de pagamento, isso afetará os pagamentos pré-autorizados. Este método de pagamento ainda será cobrado para valores pendentes de pedidos existentes, no entanto, você não receberá mais pedidos de assinatura. Adicione um método de pagamento alternativo para continuar recebendo pedidos de assinatura."
+        }
+      }
+    }
+  }
+}
