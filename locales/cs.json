@@ -866,7 +866,14 @@
       "quantity": {
         "decrease": "Menge pro {{ product }} snížit"
       },
-      "back_to_shop": "Zobrazit všechny články"
+      "back_to_shop": "Zobrazit všechny články",
+      "shipping_at_checkout": "Užije při pokladně"
+    },
+    "contact": {
+      "form": {
+        "phone": "Telefonní číslo",
+        "post_success": "Děkujeme za váš kontakt. Ozveme se vám co nejdříve."
+      }
     }
   }
 }

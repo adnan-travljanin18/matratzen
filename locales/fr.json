@@ -875,7 +875,18 @@
       "quantity": {
         "decrease": "Menge pour {{ product }} verringern"
       },
-      "back_to_shop": "Afficher tous les articles"
+      "back_to_shop": "Afficher tous les articles",
+      "total": "Global"
+    },
+    "contact": {
+      "form": {
+        "email": "Adresse e-mail"
+      }
+    },
+    "blogs": {
+      "article": {
+        "author_on_date_html": "Publié par {{ author }} le {{ date }}"
+      }
     }
   }
 }

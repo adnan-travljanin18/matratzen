@@ -881,7 +881,14 @@
       "quantity": {
         "decrease": "Menge for {{ product }} reducere"
       },
-      "back_to_shop": "Vis alle artikler"
+      "back_to_shop": "Vis alle artikler",
+      "total": "Samlet"
+    },
+    "contact": {
+      "form": {
+        "phone": "Telefonnummer",
+        "post_success": "Tak for din henvendelse. Vi vender tilbage til dig så hurtigt som muligt."
+      }
     }
   }
 }

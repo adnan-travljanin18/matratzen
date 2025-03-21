@@ -885,7 +885,14 @@
       "quantity": {
         "decrease": "Menge per {{ product }} ridurre"
       },
-      "back_to_shop": "Mostra tutti gli articoli"
+      "back_to_shop": "Mostra tutti gli articoli",
+      "total": "Totale"
+    },
+    "contact": {
+      "form": {
+        "email": "Indirizzo E-Mail",
+        "error_heading": "Per favore controlla quanto segue:"
+      }
     }
   }
 }

@@ -871,7 +871,13 @@
       "quantity": {
         "decrease": "Menge dla {{ product }} zmniejszyć"
       },
-      "back_to_shop": "Wyświetl wszystkie artykuły"
+      "back_to_shop": "Wyświetl wszystkie artykuły",
+      "total": "Całkowity"
+    },
+    "contact": {
+      "form": {
+        "email": "Adres e-mail"
+      }
     }
   }
 }

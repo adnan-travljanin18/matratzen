@@ -875,7 +875,18 @@
       "quantity": {
         "decrease": "Menge for {{ product }} redusere"
       },
-      "back_to_shop": "Alle artikler vises"
+      "back_to_shop": "Alle artikler vises",
+      "total": "Total"
+    },
+    "contact": {
+      "form": {
+        "email": "E-postadresse"
+      }
+    },
+    "blogs": {
+      "article": {
+        "comment_meta_html": "{{ author }} er {{ date }}"
+      }
     }
   }
 }

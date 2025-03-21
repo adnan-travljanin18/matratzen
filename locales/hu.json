@@ -880,7 +880,11 @@
       "quantity": {
         "decrease": "Menge csökkentése a {{ product }} esetében"
       },
-      "back_to_shop": "Minden cikk megjelenítése"
+      "back_to_shop": "Minden cikk megjelenítése",
+      "total": "Összesen"
+    },
+    "contact": {
+      "subtitle": "Töltse ki a űrlapot, és csapatunk 24 órán belül felveszi Önnel a kapcsolatot."
     }
   }
 }

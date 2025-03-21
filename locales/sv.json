@@ -900,7 +900,13 @@
       "quantity": {
         "decrease": "Minska mängden för {{ product }}"
       },
-      "back_to_shop": "Visa alla artiklar"
+      "back_to_shop": "Visa alla artiklar",
+      "total": "Total"
+    },
+    "contact": {
+      "form": {
+        "email": "E-postadress"
+      }
     }
   }
 }

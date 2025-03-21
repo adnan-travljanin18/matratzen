@@ -884,7 +884,11 @@
       }
     },
     "cart": {
-      "back_to_shop": "Prikaži sve članke"
+      "back_to_shop": "Prikaži sve članke",
+      "total": "Ukupno"
+    },
+    "contact": {
+      "subtitle": "Ispunite obrazac, a naš tim će vas kontaktirati u roku od 24 sata."
     }
   }
 }

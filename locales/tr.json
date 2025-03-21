@@ -900,7 +900,11 @@
       "quantity": {
         "decrease": "Mengeyi {{ product }} azalt"
       },
-      "back_to_shop": "Tüm makaleleri göster"
+      "back_to_shop": "Tüm makaleleri göster",
+      "total": "Toplam"
+    },
+    "contact": {
+      "subtitle": "Formu doldurun ve ekibimiz sizinle 24 saat içinde iletişime geçecektir."
     }
   }
 }

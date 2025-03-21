@@ -867,7 +867,14 @@
       "quantity": {
         "decrease": "Menge für {{ product }} verringern"
       },
-      "back_to_shop": "Näytä kaikki artikkelit"
+      "back_to_shop": "Näytä kaikki artikkelit",
+      "total": "Kokonaisuus"
+    },
+    "contact": {
+      "form": {
+        "phone": "Puhelinnumero",
+        "post_success": "Kiitos yhteydenotostanne. Olemme yhteydessä teihin mahdollisimman pian."
+      }
     }
   }
 }

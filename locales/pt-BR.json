@@ -876,7 +876,11 @@
       }
     },
     "cart": {
-      "back_to_shop": "Exibir todos os artigos"
+      "back_to_shop": "Exibir todos os artigos",
+      "total": "Total"
+    },
+    "contact": {
+      "subtitle": "Preencha o formulário e nossa equipe entrará em contato com você dentro de 24 horas."
     }
   }
 }
