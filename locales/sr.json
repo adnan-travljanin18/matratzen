@@ -279,7 +279,14 @@
         "location_title": "Mesto",
         "gift_card_confirmation_by_text_typ": {
           "one": "U nekoliko minuta ćeš dobiti tekstualnu poruku sa svojim vaučerom."
-        }
+        },
+        "gift_card_text_title": {
+          "other": "Poklon vaučeri su poslati putem tekstualne poruke"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Gutschein je ponovo poslat."
+        },
+        "order_status_payments_app_pending_payment_description_default_with_email": "Uskoro ćeš primiti potvrdu putem e-pošte. Prati svoju narudžbu putem aplikacije za kupovinu."
       }
     }
   },

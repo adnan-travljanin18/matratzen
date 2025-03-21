@@ -286,7 +286,14 @@
         "location_title": "Beliggenhet",
         "gift_card_confirmation_by_text_typ": {
           "one": "Du vil motta en tekstmelding med kupongen din om noen minutter."
-        }
+        },
+        "gift_card_text_title": {
+          "other": "Gavekort ble sendt via tekstmelding"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Gutscheinen ble sendt på nytt."
+        },
+        "thank_you_payments_app_failed_pending_payment": "Du ble ble ikke belastet for bestillingen din. Gå tilbake til handlekurven din for å sjekke bestillingen din og betale på nytt."
       }
     }
   },

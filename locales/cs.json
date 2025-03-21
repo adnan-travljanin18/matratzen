@@ -270,7 +270,12 @@
         "location_title": "Místo",
         "gift_card_confirmation_by_text_typ": {
           "one": "Dostaneš během několika minut textovou zprávu se svým voucherem."
-        }
+        },
+        "confirmed_description": "Wir haben deine Bestellung angenommen und bereiten diese vor. Besuche diese stránku, abys zjistil aktuální stav doručení tvé zásilky.",
+        "gift_card_resend_failure": {
+          "one": "Při opětovném odesílání vašeho voucheru došlo k problému. Zkuste to znovu nebo se obraťte na nás."
+        },
+        "thank_you_payments_app_failed_pending_payment": "Dir byla za tvou objednávku nic neúčtováno. Vrať se do svého nákupního košíku, abys zkontroloval svou objednávku a znovu zaplatil."
       }
     }
   },

@@ -288,7 +288,12 @@
         "location_title": "Luogo",
         "gift_card_confirmation_by_text_typ": {
           "one": "Riceverai un messaggio di testo con il tuo coupon tra pochi minuti."
-        }
+        },
+        "resend_gift_cards_by_email": "Invia nuovamente l'E-Mail",
+        "gift_card_resent_confirmation": {
+          "one": "Il voucher è stato inviato nuovamente."
+        },
+        "thank_you_payments_app_failed_pending_payment": "Dir non è stato addebitato nulla per il tuo ordine. Torna al tuo carrello per verificare il tuo ordine e effettuare nuovamente il pagamento."
       }
     }
   },

@@ -269,7 +269,14 @@
         "location_title": "Localização",
         "gift_card_confirmation_by_text_typ": {
           "one": "Você receberá em alguns minutos uma mensagem de texto com seu cupom."
-        }
+        },
+        "gift_card_text_title": {
+          "other": "Os vales-presente foram enviados por mensagem de texto"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "O voucher foi enviado novamente."
+        },
+        "thank_you_payments_app_failed_pending_payment": "Dir foi cobrado nada pela sua compra. Volte ao seu carrinho para revisar seu pedido e pagar novamente."
       }
     }
   },

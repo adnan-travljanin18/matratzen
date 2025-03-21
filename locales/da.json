@@ -281,7 +281,12 @@
         "location_title": "Beliggenhed",
         "gift_card_confirmation_by_text_typ": {
           "one": "Du vil modtage en tekstbesked med din voucher om nogle minutter."
-        }
+        },
+        "confirmed_description": "Vi har modtaget din bestilling og forbereder den. Besøg denne side for at få oplysninger om den aktuelle leveringsstatus for din forsendelse.",
+        "gift_card_resent_confirmation": {
+          "one": "Gutscheinen blev sendt igen."
+        },
+        "thank_you_payments_app_failed_pending_payment": "Dir blev der ikke opkrævet noget for din bestilling. Gå tilbage til din indkøbskurv for at gennemgå din bestilling og betale igen."
       }
     }
   },

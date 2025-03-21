@@ -309,7 +309,14 @@
         "location_title": "Plats",
         "gift_card_confirmation_by_text_typ": {
           "one": "Du får ett sms med din kupong om några minuter."
-        }
+        },
+        "gift_card_text_title": {
+          "other": "Presentkort skickades via textmeddelande"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Gutschein har skickats igen."
+        },
+        "thank_you_payments_app_failed_pending_payment": "Dir blev inget debiterat för din beställning. Återgå till din varukorg för att granska din beställning och betala igen."
       }
     }
   },

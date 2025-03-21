@@ -286,7 +286,14 @@
         "location_title": "Lokalizacja",
         "gift_card_confirmation_by_text_typ": {
           "one": "Otrzymasz za kilka minut wiadomość tekstową z twoim bonem."
-        }
+        },
+        "gift_card_text_title": {
+          "other": "Bony podarunkowe zostały wysłane przez wiadomość tekstową"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Kupon został ponownie wysłany."
+        },
+        "thank_you_payments_app_failed_pending_payment": "Dir wird für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen."
       }
     }
   },

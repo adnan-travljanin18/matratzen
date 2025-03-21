@@ -272,7 +272,12 @@
         "location_title": "Sijainti",
         "gift_card_confirmation_by_text_typ": {
           "one": "Saat tekstiviestin alennuskoodistasi muutaman minuutin kuluttua."
-        }
+        },
+        "resend_gift_cards_by_email": "Sähköposti lähetetään uudelleen",
+        "gift_card_resent_confirmation": {
+          "one": "Gutscheinin on jälleen lähetetty."
+        },
+        "thank_you_payments_app_failed_pending_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen."
       }
     }
   },

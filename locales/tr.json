@@ -311,7 +311,14 @@
         "location_title": "Lokasyon",
         "gift_card_confirmation_by_text_typ": {
           "one": "Birkaç dakika içinde kuponunla ilgili bir metin mesajı alacaksın."
-        }
+        },
+        "gift_card_text_title": {
+          "other": "Hediye kuponları SMS ile gönderildi"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Gutschein yeniden gönderildi."
+        },
+        "thank_you_payments_app_failed_pending_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen."
       }
     }
   },

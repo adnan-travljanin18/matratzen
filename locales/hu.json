@@ -271,7 +271,14 @@
         "location_title": "Helyszín",
         "gift_card_confirmation_by_text_typ": {
           "one": "A következő néhány percben kapsz egy szöveges üzenetet a kuponoddal."
-        }
+        },
+        "gift_card_text_title": {
+          "other": "Ajándékutalványokat SMS-en küldtek"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "A kupon újra elküldve."
+        },
+        "thank_you_payments_app_failed_pending_payment": "Dir wurde für deine Bestellung nichts berechnet. Kehre zu deinem Warenkorb zurück, um deine Bestellung zu überprüfen und erneut zu zahlen."
       }
     }
   },

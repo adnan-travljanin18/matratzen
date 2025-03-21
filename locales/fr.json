@@ -282,7 +282,12 @@
         "location_title": "Lieu",
         "gift_card_confirmation_by_text_typ": {
           "one": "Vous recevrez dans quelques minutes un message texte avec votre bon."
-        }
+        },
+        "resend_gift_cards_by_email": "E-Mail renvoyer",
+        "gift_card_resent_confirmation": {
+          "one": "Le bon a été renvoyé."
+        },
+        "thank_you_payments_app_failed_pending_payment": "Dir ne sera rien facturé pour ta commande. Retourne à ton panier pour vérifier ta commande et effectuer le paiement à nouveau."
       }
     }
   },
