@@ -95,7 +95,11 @@
           "due_later": "Total a ser pago em %{due_at}"
         },
         "order_total_label": "Valor total do pedido",
-        "component_quantity_title": "%{quantity} × %{product_title}"
+        "discount_discovery": {
+          "add_code": "Adicionar desconto"
+        },
+        "group_title_label": "Parte de \"%{group_title}\"",
+        "shipping_discount_title": "Desconto de envio"
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Normalmente pronto em 2 horas",

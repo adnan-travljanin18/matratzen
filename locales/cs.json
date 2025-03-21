@@ -88,7 +88,12 @@
         "order_total_label": "Celková objednávková hodnota",
         "recurring_total_multiple_label": "Tento poplatek má opakující se poplatky za několik položek.",
         "deferred_total_due_date_label": "Celková částka je splatná {{date}}",
-        "alternative_payment_currency_total": "Berechnet jako %{amount_due}"
+        "alternative_payment_currency_total": "Berechnet jako %{amount_due}",
+        "group_title_label": "Část \"%{group_title}\"",
+        "return_restocking_fee_label": "Wiedereinlagerungsgebühr",
+        "deferred_balance_info": {
+          "title": "Das Guthaben von {{amount_due}} je splatné dne {{due_at}}"
+        }
       },
       "delivery_options": {
         "pick_up_immediately": "Nyní připraveno k vyzvednutí"

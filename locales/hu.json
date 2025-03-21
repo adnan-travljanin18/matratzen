@@ -98,10 +98,10 @@
         "order_total_label": "Összes megrendelési érték",
         "recurring_total_multiple_label": "Ez az összeg ismétlődő díjakat tartalmaz több tételre.",
         "discount_discovery": {
-          "merchandise_quantity_label": {
-            "other": "%{count} Cikk"
-          }
-        }
+          "add_code": "Rabatt hozzáadása"
+        },
+        "group_title_label": "A \"%{group_title}\" része",
+        "shipping_discount_title": "Szállítási kedvezmény"
       },
       "delivery_options": {
         "pick_up_in_two_hours": "Általában 2 órán belül kész",

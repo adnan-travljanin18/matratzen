@@ -94,6 +94,11 @@
         "deferred_total_due_date_label": "Totalbeløp forfallsdato {{date}}",
         "discount_discovery": {
           "add_code": "Legge til rabatt"
+        },
+        "group_title_label": "Del av \"%{group_title}\"",
+        "shipping_discount_title": "Frakt Rabatt",
+        "deferred_balance_info": {
+          "title": "Das kredittet {{amount_due}} er forfalt den {{due_at}}"
         }
       },
       "delivery_options": {

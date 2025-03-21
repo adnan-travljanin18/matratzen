@@ -94,10 +94,15 @@
         "deferred_total_due_date_label": "Montant total dû le {{date}}",
         "discount_discovery": {
           "add_code": "Ajouter une remise"
-        }
+        },
+        "group_title_label": "Partie de \"%{group_title}\"",
+        "shipping_discount_title": "Remise sur l'expédition"
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Habituellement prêt en 1 heure"
+      },
+      "shipping": {
+        "delivery": "Livraison à %{time}"
       }
     }
   },

@@ -139,9 +139,11 @@
         },
         "order_total_label": "Загальна сума замовлення",
         "recurring_total_multiple_label": "Ця сума має повторювальні збори за кілька статей.",
-        "collapse_component_information": {
-          "other": "%{count} Сховати статті"
-        }
+        "discount_discovery": {
+          "add_code": "Додати знижку"
+        },
+        "group_title_label": "Час від \"%{group_title}\"",
+        "shipping_discount_title": "Відправлення знижки"
       }
     }
   },

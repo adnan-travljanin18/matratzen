@@ -95,7 +95,12 @@
         "order_total_label": "Gesamtbestillingsværdi",
         "recurring_total_multiple_label": "Denne betaling har tilbagevendende gebyrer for flere artikler.",
         "deferred_total_due_date_label": "Gesamtbetrag am {{date}} fällig",
-        "alternative_payment_currency_total": "Beregnet som %{amount_due}"
+        "alternative_payment_currency_total": "Beregnet som %{amount_due}",
+        "group_title_label": "Del af \"%{group_title}\"",
+        "return_restocking_fee_label": "Wiedereinlageringsgebyr",
+        "deferred_balance_info": {
+          "title": "Saldoet på {{amount_due}} forfalder den {{due_at}}"
+        }
       },
       "delivery_options": {
         "pick_up_in_five_or_more_days": "Almindeligvis færdig på 5 dage eller mere"

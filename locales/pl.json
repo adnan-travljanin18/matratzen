@@ -94,7 +94,10 @@
         "deferred_total_due_date_label": "Całkowita kwota do zapłaty w dniu {{date}}",
         "discount_discovery": {
           "add_code": "Dodaj rabat"
-        }
+        },
+        "group_title_label": "Część \"%{group_title}\"",
+        "shipping_discount_title": "Rabat wysyłkowy",
+        "duties_included_label": "Całkowita kwota zawiera podatki i opłaty celne. Brak dodatkowych opłat przy dostawie."
       },
       "delivery_options": {
         "pick_up_in_one_hour": "Zwykle gotowe w 1 godzinę"

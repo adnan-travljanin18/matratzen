@@ -129,9 +129,12 @@
         "order_total_label": "Toplam Sipariş Tutarı",
         "recurring_total_multiple_label": "Bu miktar, birden fazla ürün için tekrarlayan ücretler içerir.",
         "discount_discovery": {
-          "merchandise_quantity_label": {
-            "other": "%{count} Makale"
-          }
+          "add_code": "İndirim ekle"
+        },
+        "group_title_label": "Teil von \"%{group_title}\"",
+        "shipping_discount_title": "İade İndirimi",
+        "deferred_balance_info": {
+          "due_on_fulfillment_title": "Das Guthaben von {{amount_due}} ist bei Fulfillment fällig"
         }
       }
     }

@@ -94,6 +94,11 @@
         "deferred_total_due_date_label": "Importo totale dovuto il {{date}}",
         "discount_discovery": {
           "add_code": "Aggiungi sconto"
+        },
+        "group_title_label": "Parte di \"%{group_title}\"",
+        "shipping_discount_title": "Sconto sulla spedizione",
+        "deferred_balance_info": {
+          "title": "Il saldo di {{amount_due}} è dovuto il {{due_at}}"
         }
       },
       "delivery_options": {

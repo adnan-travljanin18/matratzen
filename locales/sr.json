@@ -110,7 +110,11 @@
           "due_later": "Ukupan iznos dospjela na %{due_at}"
         },
         "order_total_label": "Ukupna vrednost narudžbine",
-        "component_quantity_title": "%{quantity} × %{product_title}"
+        "discount_discovery": {
+          "add_code": "Dodati popust"
+        },
+        "group_title_label": "Deo od \"%{group_title}\"",
+        "shipping_discount_title": "Попуст на доставу"
       }
     }
   },

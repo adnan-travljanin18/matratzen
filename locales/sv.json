@@ -128,7 +128,14 @@
         },
         "order_total_label": "Total beställningsvärde",
         "recurring_total_multiple_label": "Denna summa har återkommande avgifter för flera artiklar.",
-        "alternative_payment_currency_total": "Beräknat som %{amount_due}"
+        "discount_discovery": {
+          "add_code": "Rabatt lägga till"
+        },
+        "group_title_label": "Del av \"%{group_title}\"",
+        "shipping_discount_title": "Fraktavdrag"
+      },
+      "shipping": {
+        "duties_and_taxes_title": "Zollavgifter och skatter"
       }
     }
   },
