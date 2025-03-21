@@ -240,7 +240,12 @@
         "order_due_on_fulfillment_choose_later": "A fizetésed esedékessé válik, amint a rendelésed teljesítésre kerül."
       },
       "shipping_errors": {
-        "shipping_method_not_available": "A kosarad frissítve lett, és a hozzáadott termékek nem szállíthatók az általad megadott címre. Távolítsd el a termékeket, hogy befejezd a rendelést."
+        "shipping_method_not_available": "A kosarad frissítve lett, és a hozzáadott termékek nem szállíthatók az általad megadott címre. Távolítsd el a termékeket, hogy befejezd a rendelést.",
+        "invalid_selected_address_with_update_link": "A kiválasztott szállítási cím érvénytelen. %{update_address_link} vagy válasszon egy másik címet"
+      },
+      "processing": {
+        "redirecting_page_title": "Továbbítás…",
+        "continue_to_payment_gateway_notice_error": "A külföldi fizetési információid nem igazolhatóak."
       }
     }
   },

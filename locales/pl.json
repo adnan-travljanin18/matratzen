@@ -247,7 +247,12 @@
         "order_due_on_fulfillment_payment": "Twoja karta zostanie obciążona, gdy tylko twoje zamówienie zostanie zrealizowane."
       },
       "shipping_errors": {
-        "shipping_method_not_available": "Dein koszyk został zaktualizowany, a dodane przez Ciebie przedmioty nie mogą zostać dostarczone na Twój adres. Usuń przedmioty, aby zakończyć zamówienie."
+        "shipping_method_not_available": "Dein koszyk został zaktualizowany, a dodane przez Ciebie przedmioty nie mogą zostać dostarczone na Twój adres. Usuń przedmioty, aby zakończyć zamówienie.",
+        "invalid_selected_address_with_update_link": "Wybrany adres dostawy jest nieprawidłowy. %{update_address_link} lub wybierz inny adres"
+      },
+      "processing": {
+        "redirecting_page_title": "Przekierowanie…",
+        "continue_to_payment_gateway_notice_error": "Twoje informacje płatnicze nie mogły zostać zweryfikowane."
       }
     }
   },

@@ -272,7 +272,12 @@
         "order_due_on_fulfillment_choose_later": "Din betalning förfaller så snart din beställning har utförts."
       },
       "shipping_errors": {
-        "shipping_method_not_available": "Dein varukorg har uppdaterats och de artiklar du har lagt till kan inte levereras till din adress. Ta bort artiklarna för att slutföra din beställning."
+        "shipping_method_not_available": "Dein varukorg har uppdaterats och de artiklar du har lagt till kan inte levereras till din adress. Ta bort artiklarna för att slutföra din beställning.",
+        "invalid_selected_address_with_update_link": "Den valda leveransadressen är ogiltig. %{update_address_link} eller välj en annan adress"
+      },
+      "processing": {
+        "redirecting_page_title": "Omdirigering…",
+        "continue_to_payment_gateway_notice_error": "Dina betalningsuppgifter kunde inte verifieras."
       }
     }
   },

@@ -247,7 +247,12 @@
         "invalid_selected_address_with_update_link": "Den valgte leveringsadresse er ugyldig. %{update_address_link} eller vælg en anden adresse"
       },
       "payment_gateway": {
-        "order_due_on_fulfillment_payment": "Din kort vil blive opkrævet, så snart din bestilling er blevet gennemført."
+        "order_due_on_fulfillment_payment": "Din kort vil blive opkrævet, så snart din bestilling er blevet gennemført.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Din kort vil blive opkrævet, så snart din bestilling er bekræftet."
+      },
+      "processing": {
+        "continue_to_payment_gateway_notice": "Fortsæt med betalingen for at tilføje dine betalingsoplysninger.",
+        "title": "Bestilling bliver behandlet"
       }
     }
   },

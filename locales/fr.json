@@ -244,11 +244,16 @@
       },
       "payment_gateway": {
         "deferred_payment_label": "Méthode de paiement à sélectionner plus tard",
-        "order_due_on_fulfillment_payment": "Votre carte sera débitée dès que votre commande aura été exécutée."
+        "order_due_on_fulfillment_payment": "Votre carte sera débitée dès que votre commande aura été exécutée.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Votre carte sera débitée une fois votre commande confirmée.",
+        "fixed_payment_label": "Votre paiement est dû le {{dueDate}}."
       },
       "shipping_errors": {
         "shipping_method_not_available": "Votre panier a été mis à jour, et les articles que vous avez ajoutés ne peuvent pas être livrés à votre adresse. Retirez les articles pour finaliser votre commande.",
-        "shipping_method_not_available_due_to_unsatisfied_conditions": "Artikel dans le panier ne répondent pas aux exigences de prix ou de poids pour être éligibles à l'expédition. Mettez à jour votre panier et réessayez."
+        "invalid_selected_address_with_update_link": "L'adresse de livraison sélectionnée est invalide. %{update_address_link} ou choisissez une autre adresse"
+      },
+      "processing": {
+        "continue_to_payment_gateway_notice": "Poursuivez le paiement pour ajouter vos informations de paiement."
       }
     }
   },

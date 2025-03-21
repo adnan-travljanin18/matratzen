@@ -248,7 +248,12 @@
         "order_due_on_fulfillment_choose_later": "Tvoja uplata dospeva čim je tvoja narudžbina izvršena."
       },
       "shipping_errors": {
-        "shipping_method_not_available": "Ваша корпа је ажурирана и предмети које сте додали не могу бити испоручени на вашу адресу. Уклоните предмете да бисте завршили вашу наруџбину."
+        "shipping_method_not_available": "Ваша корпа је ажурирана и предмети које сте додали не могу бити испоручени на вашу адресу. Уклоните предмете да бисте завршили вашу наруџбину.",
+        "invalid_selected_address_with_update_link": "Izabrana adresa za isporuku je nevažeća. %{update_address_link} ili izaberite drugu adresu"
+      },
+      "processing": {
+        "redirecting_page_title": "Preusmeravanje…",
+        "continue_to_payment_gateway_notice_error": "Informacije o vašem plaćanju nisu mogle biti verifikovane."
       }
     }
   },

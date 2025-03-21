@@ -236,7 +236,12 @@
         "invalid_selected_address_with_update_link": "Vybranou dodací adresu je neplatná. %{update_address_link} nebo vyberte jinou adresu."
       },
       "payment_gateway": {
-        "draft_order_payment_due_later_no_terms": "Tvá platba je splatná, jakmile bude tvoje objednávka potvrzena."
+        "draft_order_payment_due_later_no_terms": "Tvá platba je splatná, jakmile bude tvoje objednávka potvrzena.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Tvá karta bude zpoplatněna, jakmile bude tvoje objednávka potvrzena."
+      },
+      "processing": {
+        "continue_to_payment_gateway_notice": "Pokračujte v platbě a přidejte své platební údaje.",
+        "page_title": "Objednávka je zpracovávána"
       }
     }
   },

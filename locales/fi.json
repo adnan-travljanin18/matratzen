@@ -239,10 +239,15 @@
       },
       "shipping_errors": {
         "shipping_method_not_available": "Dein ostoskori on päivitetty, ja lisäämäsi tuotteet eivät voi toimitettavaksi osoitteeseesi. Poista tuotteet, jotta voit viimeistellä tilauksesi.",
-        "invalid_selected_address": "Valittu toimitusosoite on virheellinen"
+        "invalid_selected_address_with_update_link": "Valittu toimitusosoite on virheellinen. %{update_address_link} tai valitse toinen osoite"
       },
       "payment_gateway": {
-        "order_due_on_fulfillment_payment": "Sinun korttisi veloitetaan heti, kun tilauksesi on käsitelty."
+        "order_due_on_fulfillment_payment": "Sinun korttisi veloitetaan heti, kun tilauksesi on käsitelty.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Sinun korttiasi veloitetaan heti, kun tilauksesi on vahvistettu."
+      },
+      "processing": {
+        "continue_to_payment_gateway_notice": "Jatka maksamista lisätäksesi maksutietosi.",
+        "your_order_has_been_received_title": "Kiitos tilauksestasi"
       }
     }
   },
