@@ -145,7 +145,10 @@
       "payment": {
         "billing_address_description_no_shipping_address": "Zadej adresu spojenou s tvou kartou nebo platební metodou.",
         "klarna_pay_now_label": "Okamžitě platit s Klarna",
-        "klarna_slice_it_label": "Financování s Klarna"
+        "klarna_slice_it_label": "Financování s Klarna",
+        "subscription_agreement_label_html": "Ich rozumím, že souhlasím s odběrem. Bude obnovován za uvedenou cenu a v určené frekvenci, dokud nevyprší nebo <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">nebude zrušen</a>.",
+        "subscription_agreement_label": "Ein nebo více položek ve tvém nákupním košíku je nevyřízený nákup nebo nákup na základě předplatného. Pokračováním v platbě souhlasíš s tím, že tvá platební metoda bude automaticky zatížena částkou a s frekvencí uvedenou na této stránce, dokud platnost platební metody neskončí, nebo ji nezrušíš. Všechna zrušení podléhají %{cancelled}.",
+        "subscription_agreement_cancelled": "Stornovací politika"
       }
     }
   },

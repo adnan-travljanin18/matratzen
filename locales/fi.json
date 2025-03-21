@@ -149,7 +149,10 @@
       "payment": {
         "billing_address_description_no_shipping_address": "Syötä kortillesi tai maksutavallesi liitetty osoite.",
         "klarna_pay_now_label": "Sofort maksaminen Klarna kanssa",
-        "klarna_slice_it_label": "Rahoitus Klarna kanssa"
+        "klarna_slice_it_label": "Rahoitus Klarna kanssa",
+        "apple_pay_payment_error": "Maksuasi ei onnistunut. Yritä uudelleen tai käytä toista maksutapaa.",
+        "subscription_agreement_label": "Ein oder mehrere Artikel in deinem Warenkorb sind ein ausstehender Kauf oder ein Abonnementkauf. Indem du mit deiner Zahlung fortfährst, stimmst du zu, dass deine Zahlungsmethode automatisch zu dem Preis und mit der Häufigkeit, die auf dieser Seite aufgeführt sind, belastet wird, bis die Zahlungsmethode endet oder du sie kündigst. Alle Kündigungen unterliegen der %{cancelled}.",
+        "different_credit_card_label": "Käytä toista luottokorttia"
       }
     }
   },

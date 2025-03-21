@@ -151,7 +151,12 @@
       "payment": {
         "billing_address_description_no_shipping_address": "Entrez l'adresse associée à votre carte ou méthode de paiement.",
         "klarna_pay_now_label": "Payer immédiatement avec Klarna",
-        "klarna_slice_it_label": "Finanzierung avec Klarna"
+        "klarna_slice_it_label": "Finanzierung avec Klarna",
+        "billing_address_not_supported_for_payment_method_error": "Cette méthode de paiement n'est pas disponible pour votre adresse de facturation et votre monnaie. Veuillez essayer une autre méthode de paiement.",
+        "subscription_agreement_label": "Un ou plusieurs articles dans votre panier sont un achat en attente ou un achat par abonnement. En poursuivant votre paiement, vous acceptez que votre mode de paiement soit automatiquement facturé au prix et à la fréquence indiqués sur cette page, jusqu'à ce que le mode de paiement prenne fin ou que vous l'annuliez. Toutes les annulations sont soumises à la %{cancelled}.",
+        "apple": {
+          "not_available": "Apple Pay n'est pas disponible dans ce navigateur. Si vous souhaitez connecter votre compte Apple Pay, veuillez utiliser Safari sur un appareil Apple."
+        }
       }
     }
   },

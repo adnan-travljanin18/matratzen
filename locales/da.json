@@ -152,7 +152,10 @@
       "payment": {
         "billing_address_description_no_shipping_address": "Indtast den adresse, der er knyttet til dit kort eller betalingsmetode.",
         "klarna_pay_now_label": "Sofort betale med Klarna",
-        "klarna_slice_it_label": "Finanzierung med Klarna"
+        "klarna_slice_it_label": "Finanzierung med Klarna",
+        "apple_pay_payment_error": "Din betaling kunne ikke afsluttes. Prøv igen eller med en anden betalingsmetode.",
+        "subscription_agreement_label": "Ein eller flere varer i din indkøbskurv er et udestående køb eller et abonnementkøb. Ved at fortsætte med din betaling accepterer du, at din betalingsmetode automatisk belastes til den pris og med den hyppighed, der er angivet på denne side, indtil betalingsmetoden ophører eller du opsiger den. Alle opsigelser er underlagt %{cancelled}.",
+        "subscription_agreement_cancelled": "Stornierungsrichtlinie"
       }
     }
   },

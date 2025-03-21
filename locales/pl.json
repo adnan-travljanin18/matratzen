@@ -149,7 +149,12 @@
         "billing_address_description_no_shipping_address": "Wprowadź adres powiązany z twoją kartą lub metodą płatności.",
         "no_method_error": "Ten sklep obecnie nie może akceptować płatności.",
         "generic_incorrect_card_info": "Twoje dane płatności nie mogły zostać zweryfikowane. Sprawdź dane swojej karty i spróbuj ponownie.",
-        "credit_card_start_month": "Miesiąc wystawy"
+        "klarna_slice_it_label": "Finansowanie z Klarna",
+        "apple_pay_payment_error": "Twoja płatność nie mogła zostać zrealizowana. Spróbuj ponownie lub użyj innej metody płatności.",
+        "subscription_agreement_label": "Ein oder mehrere Artikel w twoim koszyku są oczekującym zakupem lub zakupem subskrypcyjnym. Kontynuując płatność, zgadzasz się, że twoja metoda płatności będzie automatycznie obciążana kwotą i z częstotliwością podaną na tej stronie, dopóki metoda płatności nie wygaśnie lub jej nie anulujesz. Wszystkie anulacje podlegają %{cancelled}.",
+        "apple": {
+          "not_available": "Apple Pay nie jest dostępny w tej przeglądarce. Jeśli chcesz połączyć swoje konto Apple Pay, użyj proszę Safari na urządzeniu Apple."
+        }
       }
     }
   },

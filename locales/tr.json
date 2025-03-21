@@ -182,7 +182,12 @@
         "billing_address_description_no_shipping_address": "Gib, verknüpft deinen Karte ya da ödeme yöntemine bağlı olan adresi gir.",
         "no_method_error": "Bu mağaza şu anda ödeme kabul edemiyor.",
         "klarna_pay_later_label": "Rechnung mit Klarna",
-        "card_expiration_year_label": "Ablauf yılı"
+        "klarna_slice_it_label": "Finanzierung mit Klarna",
+        "apple_pay_payment_error": "Ödemeniz tamamlanamadı. Lütfen tekrar deneyin veya başka bir ödeme yöntemi kullanın.",
+        "subscription_agreement_label": "Ein veya daha fazla öğe sepetinde bekleyen bir satın alma veya abonelik satın almasıdır. Ödemenize devam ederek, bu sayfada belirtilen fiyat ve sıklıkla otomatik olarak ödemenizden tahsilat yapılmasına onay verdiğinizi beyan etmiş olursunuz, ta ki ödeme yöntemi sona erene veya iptal edilene kadar. Tüm iptaller %{cancelled} şartlarına tabidir.",
+        "apple": {
+          "not_available": "Apple Pay bu tarayıcıda mevcut değil. Apple Pay hesabını bağlamak istiyorsan, lütfen bir Apple cihazında Safari'yi kullan."
+        }
       }
     }
   },

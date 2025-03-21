@@ -149,7 +149,12 @@
         "billing_address_description_no_shipping_address": "Skriv inn adressen som er knyttet til kortet ditt eller betalingsmetoden.",
         "no_method_error": "Denne butikken kan for øyeblikket ikke godta betalinger.",
         "klarna_pay_now_label": "Sofort betale med Klarna",
-        "klarna_slice_it_label": "Financing with Klarna"
+        "klarna_slice_it_label": "Financing with Klarna",
+        "apple_pay_payment_error": "Din betaling kunne ikke fullføres. Prøv igjen eller med en annen betalingsmetode.",
+        "subscription_agreement_label": "Ein eller flere artikler i handlekurven din er et utestående kjøp eller et abonnementskjøp. Ved å fortsette med betalingen godtar du at betalingsmetoden din automatisk belastes til den prisen og med den frekvensen som er oppgitt på denne siden, inntil betalingsmetoden avsluttes eller du sier den opp. Alle oppsigelser er underlagt %{cancelled}.",
+        "apple": {
+          "not_available": "Apple Pay er ikke tilgjengelig i denne nettleseren. Hvis du vil koble til Apple Pay-kontoen din, vennligst bruk Safari på en Apple-enhet."
+        }
       }
     }
   },

@@ -151,7 +151,12 @@
         "billing_address_description_no_shipping_address": "Inserisci l'indirizzo associato alla tua carta o metodo di pagamento.",
         "no_method_error": "Questo negozio non può attualmente accettare pagamenti.",
         "klarna_pay_now_label": "Pagare subito con Klarna",
-        "klarna_slice_it_label": "Finanzamento con Klarna"
+        "klarna_slice_it_label": "Finanzamento con Klarna",
+        "apple_pay_payment_error": "La tua pagamento non è riuscito. Riprova o usa un altro metodo di pagamento.",
+        "subscription_agreement_label": "Ein o più articoli nel tuo carrello sono un acquisto in sospeso o un acquisto in abbonamento. Procedendo con il pagamento, acconsenti a che il tuo metodo di pagamento venga addebitato automaticamente al prezzo e con la frequenza indicati in questa pagina, fino a quando il metodo di pagamento non termina o tu non lo cancelli. Tutte le cancellazioni sono soggette al %{cancelled}.",
+        "apple": {
+          "not_available": "Apple Pay non è disponibile in questo browser. Se desideri collegare il tuo account Apple Pay, utilizza Safari su un dispositivo Apple."
+        }
       }
     }
   },

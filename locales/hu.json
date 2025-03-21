@@ -156,7 +156,12 @@
         "billing_address_description_no_shipping_address": "Írd be a kártyáddal vagy a választott fizetési móddal összekapcsolt címet.",
         "no_method_error": "Ez a bolt jelenleg nem tud fizetéseket elfogadni.",
         "klarna_pay_later_label": "Számla Klarna-val",
-        "card_expiration_year_label": "Ablaufjahr"
+        "klarna_slice_it_label": "Finanszírozás Klarna-val",
+        "apple_pay_payment_error": "A tranzakciós kifizetésed nem fejeződött be. Kérlek, próbáld meg újra, vagy válassz egy másik fizetési módot.",
+        "subscription_agreement_label": "Ein vagy több cikk a bevásárlókosaradban várakozó vásárlás vagy előfizetés vásárlás. A pénzügyi folyamat folytatásával egyetértesz azzal, hogy a fizetési módodat automatikusan terhelni fogják az ezen az oldalon feltüntetett ár szerint és a megadott gyakorisággal, amíg a fizetési mód véget nem ér, vagy amíg le nem mondod. Minden lemondás a %{cancelled} feltételeknek van alávetve.",
+        "apple": {
+          "connect": "Kattints ide az Apple Pay-fiókod összekapcsolásához"
+        }
       }
     }
   },

@@ -180,7 +180,12 @@
         "billing_address_description_no_shipping_address": "Ange din adress kopplad till ditt kort eller betalningsmetod.",
         "not_configured_error": "Denna butik kan för närvarande inte acceptera betalningar.",
         "generic_incorrect_card_info": "Dine betalningsuppgifter kunde inte verifieras. Kontrollera dina kortuppgifter och försök igen.",
-        "credit_card_start_month": "Utställningsmånad"
+        "klarna_slice_it_label": "Finanzierung med Klarna",
+        "apple_pay_payment_error": "Din betalning kunde inte slutföras. Försök igen eller med en annan betalningsmetod.",
+        "subscription_agreement_label": "Ein eller flera artiklar i din varukorg är ett utestående köp eller ett abonnemangsköp. Genom att fortsätta med din betalning godkänner du att din betalningsmetod automatiskt debiteras till det pris och med den frekvens som anges på denna sida, tills betalningsmetoden upphör eller du säger upp den. Alla uppsägningar omfattas av %{cancelled}.",
+        "apple": {
+          "not_available": "Apple Pay är inte tillgängligt i den här webbläsaren. Om du vill koppla ditt Apple Pay-konto, vänligen använd Safari på en Apple-enhet."
+        }
       }
     }
   },

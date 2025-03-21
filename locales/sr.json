@@ -165,7 +165,11 @@
         },
         "billing_address_description_no_shipping_address": "Unesite adresu povezanu sa vašom karticom ili načinom plaćanja.",
         "no_method_error": "Ova prodavnica trenutno ne može da prihvati uplate.",
-        "klarna_pay_later_label": "Račun sa Klarna"
+        "klarna_pay_later_label": "Račun sa Klarna",
+        "klarna_slice_it_label": "Finansiranje sa Klarna",
+        "subscription_agreement_label_html": "Ich razumem da pristajem na pretplatu. Ona će se obnavljati po navedenoj ceni i u utvrđenoj učestalosti, sve dok ne istekne ili <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">nije otkazana</a>.",
+        "subscription_agreement_label": "Ein ili više artikala u vašoj korpi su predmet očekivane kupovine ili kupovine na pretplatu. Nastavljanjem s vašom uplatom, slažete se da će vaša metoda plaćanja biti automatski teretjena po ceni i s učestalosti navedenom na ovoj stranici, sve dok metoda plaćanja ne istekne ili dok je ne otkažete. Sva otkazivanja podložna su %{cancelled}.",
+        "card_expired": "Isteklo"
       }
     }
   },
