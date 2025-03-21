@@ -837,5 +837,11 @@
     "link_messages": {
       "new_window": "Otwiera w nowym oknie."
     }
+  },
+  "blogs": {
+    "article": {
+      "read_more_title": "Mehr lesen: {{ title }}",
+      "name": "Nazwa"
+    }
   }
 }

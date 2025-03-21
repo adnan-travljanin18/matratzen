@@ -750,6 +750,9 @@
           "draft": {
             "in_review": {
               "title": "Plaćanje još nije dospjelo"
+            },
+            "deposit": {
+              "due_on_date": "{{depositAmount}} je dospjela kada se tvoja narudžba potvrdi. Iznos je dospjela  {{dueDate}}."
             }
           }
         }
@@ -847,6 +850,9 @@
   },
   "accessibility": {
     "skip_to_text": "Preskoči na sledeći element",
-    "error": "Greška"
+    "link_messages": {
+      "new_window": "Otvara u novom prozoru."
+    },
+    "loading": "Učitavanje..."
   }
 }

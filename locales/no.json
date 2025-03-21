@@ -839,5 +839,13 @@
     "link_messages": {
       "new_window": "Åpner i et nytt vindu."
     }
+  },
+  "blogs": {
+    "article": {
+      "comments": {
+        "one": "{{ count }} Kommentar"
+      },
+      "name": "Navn"
+    }
   }
 }

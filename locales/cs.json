@@ -832,5 +832,13 @@
     "link_messages": {
       "new_window": "Otevírá se v novém okně."
     }
+  },
+  "blogs": {
+    "article": {
+      "comments": {
+        "one": "{{ count }} Komentář"
+      },
+      "name": "Název"
+    }
   }
 }

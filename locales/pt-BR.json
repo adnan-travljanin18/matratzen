@@ -740,6 +740,9 @@
           "draft": {
             "in_review": {
               "title": "O pagamento ainda não está vencido"
+            },
+            "deposit": {
+              "due_on_date": "{{depositAmount}} é devido quando seu pedido é confirmado. O valor é devido em {{dueDate}}."
             }
           }
         }
@@ -839,6 +842,9 @@
   },
   "accessibility": {
     "skip_to_text": "Pular para o próximo elemento",
-    "error": "Erro"
+    "link_messages": {
+      "new_window": "Abre em uma nova janela."
+    },
+    "loading": "Carregando..."
   }
 }

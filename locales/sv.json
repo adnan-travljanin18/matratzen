@@ -865,6 +865,12 @@
     "skip_to_product_info": "Gå till produktinformation",
     "link_messages": {
       "new_window": "Öppnas i ett nytt fönster."
+    },
+    "loading": "Laddar..."
+  },
+  "blogs": {
+    "article": {
+      "name": "Namn"
     }
   }
 }

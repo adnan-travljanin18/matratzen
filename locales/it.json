@@ -851,5 +851,13 @@
     "link_messages": {
       "new_window": "Si apre in una nuova finestra."
     }
+  },
+  "blogs": {
+    "article": {
+      "comments": {
+        "one": "{{ count }} Commento"
+      },
+      "name": "Nome"
+    }
   }
 }

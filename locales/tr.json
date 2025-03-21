@@ -780,6 +780,9 @@
           "draft": {
             "in_review": {
               "title": "Ödeme henüz vadesi gelmedi"
+            },
+            "deposit": {
+              "due_on_date": "{{depositAmount}} ödendiğinde, siparişin onaylandığında fatura edilir. Tutar {{dueDate}} tarihinde ödenmelidir."
             }
           }
         }
@@ -863,6 +866,7 @@
     "skip_to_product_info": "Ürün bilgilerine atla",
     "link_messages": {
       "new_window": "Bir yeni pencerede açılır."
-    }
+    },
+    "loading": "Yükleniyor..."
   }
 }

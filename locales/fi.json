@@ -833,5 +833,13 @@
     "link_messages": {
       "new_window": "Avautuu uudessa ikkunassa."
     }
+  },
+  "blogs": {
+    "article": {
+      "comments": {
+        "one": "{{ count }} Kommenttia"
+      },
+      "name": "Nimi"
+    }
   }
 }

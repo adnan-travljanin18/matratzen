@@ -758,6 +758,9 @@
           "draft": {
             "in_review": {
               "title": "A kifizetés még nem esedékes"
+            },
+            "deposit": {
+              "due_on_date": "{{depositAmount}} esedékes, amikor a rendelésed megerősítésre kerül. Az összeg {{dueDate}}-ig esedékes."
             }
           }
         }
@@ -843,6 +846,7 @@
     "skip_to_product_info": "Ugrás a termékinformációra",
     "link_messages": {
       "new_window": "Megnyit egy új ablakban."
-    }
+    },
+    "loading": "Betöltés..."
   }
 }
