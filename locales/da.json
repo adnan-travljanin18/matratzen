@@ -210,6 +210,13 @@
         "paypal_wallet_label": "PayPal-Wallet",
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Anvende"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktuelt saldo: %{amount}"
+      },
+      "field_errors": {
+        "address_first_name_blank": "Indtast et fornavn",
+        "address_city_blank": "Indtast en by"
       }
     }
   },

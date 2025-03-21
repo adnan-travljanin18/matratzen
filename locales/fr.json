@@ -211,6 +211,13 @@
         "amount_left_to_pay_label": "Montant",
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Appliquer"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Solde actuel : %{amount}"
+      },
+      "field_errors": {
+        "address_first_name_blank": "Entrez un prénom",
+        "address_city_blank": "Entrez une ville"
       }
     }
   },

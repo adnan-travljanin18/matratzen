@@ -203,7 +203,12 @@
         "shop_pay_ideal_unavailable_error": "iDEAL δεν είναι διαθέσιμο για αυτήν την παραγγελία. Επίλεξε μια άλλη μέθοδο πληρωμής.",
         "gift_cards_unavailable": "Ο δωροεπιταγές σας δεν μπορεί να χρησιμοποιηθεί πλέον για αυτήν την παραγγελία και έχει αφαιρεθεί.",
         "przelewy24_label": "Przelewy24",
-        "gift_card_code_label": "Κωδικός κουπονιού"
+        "apply_gift_card_button_label": "Εφαρμόστε",
+        "swish_label": "Swish",
+        "detected_card_brand": "Αναγνωρισμένη μάρκα χάρτη: {brand}"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Δώστε έναν έγκυρο αριθμό τηλεφώνου"
       }
     }
   },

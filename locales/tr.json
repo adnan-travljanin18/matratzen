@@ -237,7 +237,14 @@
         "shop_pay_ideal_unavailable_error": "iDEAL bu sipariş için mevcut değil. Başka bir ödeme yöntemi seçin.",
         "gift_cards_unavailable": "Dein hediye çeki artık bu sipariş için kullanılamaz ve kaldırılmıştır.",
         "przelewy24_label": "Przelewy24",
-        "simulated_express_checkout": "Cüzdanlar, bölgeniz veya tarayıcınız nedeniyle önizlemede mevcut değildir"
+        "apply_gift_card_button_label": "Uygula"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktif Bakiyeniz: %{amount}"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Geçerli bir telefon numarası girin",
+        "address_country_blank": "Bir ülke/bölge seçin"
       }
     }
   },

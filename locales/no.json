@@ -211,6 +211,13 @@
         "amount_left_to_pay_label": "Beløp",
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Bruke"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktuelt saldo: %{amount}"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Skriv inn et gyldig telefonnummer",
+        "address_city_blank": "Skriv inn en by"
       }
     }
   },

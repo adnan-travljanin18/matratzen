@@ -236,6 +236,13 @@
         "paypal_wallet_label": "PayPal-Wallet",
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Tillämpa"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktuellt saldo: %{amount}"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Ange en giltig telefonnummer",
+        "address_city_blank": "Ange en stad"
       }
     }
   },

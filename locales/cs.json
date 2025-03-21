@@ -199,6 +199,13 @@
         "paypal_wallet_label": "PayPal-Wallet",
         "mobilepay_label": "MobilePay",
         "apply_gift_card_button_label": "Použít"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktuální zůstatek: %{amount}"
+      },
+      "field_errors": {
+        "address_first_name_blank": "Zadejte křestní jméno",
+        "address_last_name_blank": "Zadejte příjmení"
       }
     }
   },

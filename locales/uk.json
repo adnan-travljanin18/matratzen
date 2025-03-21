@@ -246,7 +246,12 @@
         "shop_pay_ideal_unavailable_error": "iDEAL недоступний для цього замовлення. Виберіть інший метод оплати.",
         "gift_cards_unavailable": "Ваш подарунковий сертифікат більше не може бути використаний для цього замовлення і був видалений.",
         "przelewy24_label": "Przelewy24",
-        "vipps_label": "Vipps"
+        "apply_gift_card_button_label": "Застосувати",
+        "swish_label": "Swish",
+        "detected_card_brand": "Визнаний бренд карт: {brand}"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Введіть дійсний номер телефону"
       }
     }
   },

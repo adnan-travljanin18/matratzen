@@ -213,7 +213,12 @@
         },
         "gift_cards_unavailable": "Tvoj poklon vaučer više ne može da se koristi za ovu narudžbinu i je uklonjen.",
         "przelewy24_label": "Przelewy24",
-        "discount_button_action_label": "Iskoristite kod za popust"
+        "apply_gift_card_button_label": "Primeniti",
+        "swish_label": "Swish"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Unesite važeći broj telefona",
+        "address_address2_blank": "Unesi stan, sobu itd."
       }
     }
   },

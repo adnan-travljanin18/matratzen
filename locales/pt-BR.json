@@ -203,7 +203,12 @@
         },
         "amount_left_to_pay_label": "Montante",
         "przelewy24_label": "Przelewy24",
-        "grabpay_label": "GrabPay"
+        "apply_gift_card_button_label": "Aplicar",
+        "swish_label": "Swish",
+        "card_number_label": "Número do cartão"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Digite um número de telefone válido"
       }
     }
   },

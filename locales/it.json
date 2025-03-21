@@ -213,6 +213,13 @@
         "amount_left_to_pay_label": "Importo",
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Applicare"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Saldo attuale: %{amount}"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Inserisci un numero di telefono valido",
+        "address_city_blank": "Inserisci una città"
       }
     }
   },

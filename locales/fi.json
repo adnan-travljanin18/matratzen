@@ -205,6 +205,13 @@
         "paypal_wallet_label": "PayPal-lompakko",
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Käyttää"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktiivinen saldo: %{amount}"
+      },
+      "field_errors": {
+        "address_first_name_blank": "Anna etunimi",
+        "address_city_blank": "Anna kaupunki"
       }
     }
   },
