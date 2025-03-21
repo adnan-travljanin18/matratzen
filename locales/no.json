@@ -25,9 +25,14 @@
             "installments_amount_invalid": "Ugyldig beløp for avdragsbetaling.",
             "shop_cash_unsupported_shipping": "Butikk Cash støtter ikke merchandise-artikler uten frakt.",
             "wallet_content_missing": "Det mangler innholdet i lommeboken.",
-            "saved_payment_methods_not_enabled": "Lagrede betalingsmetoder er ikke aktivert for denne butikken."
+            "saved_payment_methods_not_enabled": "Lagrede betalingsmetoder er ikke aktivert for denne butikken.",
+            "store_credit_account_not_found": "Butikkbalanse-konto ble ikke funnet.",
+            "gift_cards_not_allowed_for_b2b": "Geschenkgutscheine er ikke tillatt i B2B-butikker."
           },
-          "session_identifier_not_unique_error": "Det har skjedd en feil med bestillingen din, vær vennlig å prøve å sjekke ut igjen."
+          "session_identifier_not_unique_error": "Det har skjedd en feil med bestillingen din, vær vennlig å prøve å sjekke ut igjen.",
+          "merchandise": {
+            "merchandise_variant_not_found": "Produktvarianten ble ikke funnet."
+          }
         },
         "complete_purchase_button_label": "Kjøpe",
         "close_modal_label": "Lukk",

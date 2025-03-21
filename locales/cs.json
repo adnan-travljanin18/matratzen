@@ -25,7 +25,12 @@
             "installments_amount_invalid": "Neplatná částka pro transakci v splátkách.",
             "shop_cash_unsupported_shipping": "Shop Cash nepodporuje žádné zboží bez dopravy.",
             "payment_instrument_not_found": "Metoda platby nebyla nalezena.",
-            "saved_payment_methods_not_enabled": "Uložené platební metody nejsou pro tento obchod aktivovány."
+            "saved_payment_methods_not_enabled": "Uložené platební metody nejsou pro tento obchod aktivovány.",
+            "store_credit_buying_gift_card": "Nemůžeš použít kredit obchodu k nákupu voucheru."
+          },
+          "only_empty_terms_accepted": "Pro tuto podmínku jsou platné pouze prázdné vstupy.",
+          "merchandise": {
+            "gift_card_invalid": "Kód poukazu na dárky {{code}} je neplatný."
           }
         },
         "complete_purchase_button_label": "Koupit",

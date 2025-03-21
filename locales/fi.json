@@ -25,7 +25,12 @@
             "installments_test_mode_not_allowed": "Testitila ei ole sallittu.",
             "shop_cash_unsupported_shipping": "Shop Cash ei tue merchandise-tuotteita ilman toimitusta.",
             "payment_instrument_not_found": "Maksutapaa ei löytynyt.",
-            "saved_payment_methods_not_enabled": "Tallennetut maksutavat eivät ole käytössä tässä kaupassa."
+            "saved_payment_methods_not_enabled": "Tallennetut maksutavat eivät ole käytössä tässä kaupassa.",
+            "store_credit_buying_gift_card": "Et voi käyttää kaupan saldoa ostonhakemisen maksamiseen."
+          },
+          "merchandise": {
+            "merchandise_variant_not_found": "Tuotemuunnosta ei löytynyt.",
+            "gift_card_invalid": "Lahjakorttikoodi {{code}} ei ole voimassa."
           }
         },
         "complete_purchase_button_label": "Ostaa",

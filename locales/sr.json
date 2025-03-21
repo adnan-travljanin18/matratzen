@@ -26,15 +26,17 @@
             "shop_cash_unsupported_checkout_source": "Prodavnica Cash ne podržava ovu naplatu.",
             "wallet_content_missing": "Nedostaje sadržaj novčanika.",
             "saved_payment_methods_not_enabled": "Sačuvane metode plaćanja nisu aktivirane za ovu prodavnicu."
+          },
+          "session_identifier_not_unique_error": "Nešto nije u redu s vašom narudžbom, molimo pokušajte ponovo da izvršite plaćanje.",
+          "only_empty_terms_accepted": "Za ovaj uslov samo prazni unosi su validni.",
+          "merchandise": {
+            "gift_card_invalid": "Код за поклон-вукан {{code}} је неважећи."
           }
         },
         "complete_purchase_button_label": "Kupovina",
         "close_modal_label": "Zatvoriti",
         "continue_to_shipping_method": "Nastavite ka isporuci",
-        "autocomplete_selection": "{{number}} von {{total}}",
-        "checkout_context": {
-          "step_one": "%{shop_name} - Plaćanje"
-        }
+        "autocomplete_selection": "{{number}} von {{total}}"
       }
     }
   },

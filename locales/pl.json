@@ -25,9 +25,14 @@
             "installments_amount_invalid": "Nieprawidłowa kwota dla transakcji ratalnej.",
             "shop_cash_unsupported_shipping": "Sklep Cash nie wspiera artykułów merchandisowych bez wysyłki.",
             "wallet_content_missing": "Brakuje zawartości portfela.",
-            "saved_payment_methods_not_enabled": "Zapisane metody płatności nie są aktywowane w tym sklepie."
+            "saved_payment_methods_not_enabled": "Zapisane metody płatności nie są aktywowane w tym sklepie.",
+            "method_required": "Należy zaproponować metodę płatności."
           },
-          "session_identifier_not_unique_error": "Mit twoją zamówieniem coś poszło nie tak, spróbuj ponownie przejść do kasy."
+          "session_identifier_not_unique_error": "Mit twoją zamówieniem coś poszło nie tak, spróbuj ponownie przejść do kasy.",
+          "merchandise": {
+            "merchandise_variant_not_found": "Produktvariante nie została znaleziona.",
+            "gift_card_invalid": "Kod kuponu prezentowego {{code}} jest nieprawidłowy."
+          }
         },
         "complete_purchase_button_label": "Kupować",
         "close_modal_label": "Zamknij",

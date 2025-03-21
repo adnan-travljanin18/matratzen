@@ -25,7 +25,12 @@
             "installments_amount_invalid": "Montant invalide pour la transaction par versements.",
             "shop_cash_unsupported_shipping": "La boutique Cash ne prend pas en charge les articles de marchandises sans expédition.",
             "payment_instrument_not_found": "Le mode de paiement n'a pas pu être trouvé.",
-            "saved_payment_methods_not_enabled": "Les méthodes de paiement enregistrées ne sont pas activées pour ce magasin."
+            "saved_payment_methods_not_enabled": "Les méthodes de paiement enregistrées ne sont pas activées pour ce magasin.",
+            "store_credit_account_not_found": "Le compte de crédit boutique n'a pas été trouvé.",
+            "store_credit_buying_gift_card": "Vous ne pouvez pas utiliser un crédit de boutique pour acheter un bon."
+          },
+          "merchandise": {
+            "merchandise_variant_not_found": "La variante de produit n'a pas été trouvée."
           }
         },
         "complete_purchase_button_label": "Acheter",

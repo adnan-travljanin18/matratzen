@@ -25,7 +25,12 @@
             "installments_test_mode_not_allowed": "Testtilstand er ikke tilladt.",
             "shop_cash_unsupported_shipping": "Butik Cash understøtter ikke merchandiseartikler uden forsendelse.",
             "missing_retail_attributions": "For manuelt indtastede kreditkortbetalinger er detailallokeringer nødvendige.",
-            "saved_payment_methods_not_enabled": "Gemte betalingsmetoder er ikke aktiveret for denne butik."
+            "saved_payment_methods_not_enabled": "Gemte betalingsmetoder er ikke aktiveret for denne butik.",
+            "store_credit_buying_gift_card": "Du kan ikke bruge butiksbeløb til at købe et gavekort."
+          },
+          "only_empty_terms_accepted": "For denne betingelse er kun tomme indtastninger gyldige.",
+          "merchandise": {
+            "gift_card_invalid": "Gavegavekoden {{code}} er ugyldig."
           }
         },
         "complete_purchase_button_label": "Køb",

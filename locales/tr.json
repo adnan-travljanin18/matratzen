@@ -25,14 +25,19 @@
             "installments_test_mode_not_allowed": "Test modu kullanılamaz.",
             "shop_cash_unsupported_checkout_source": "Shop Cash bu ödeme yöntemini desteklemiyor.",
             "wallet_content_missing": "Cüzdan içeriği eksik.",
-            "saved_payment_methods_not_enabled": "Kayıtlı ödeme yöntemleri bu mağaza için etkinleştirilmemiştir."
+            "saved_payment_methods_not_enabled": "Kayıtlı ödeme yöntemleri bu mağaza için etkinleştirilmemiştir.",
+            "method_required": "Bir ödeme yöntemi önerilmelidir."
+          },
+          "session_identifier_not_unique_error": "Siparişinle ilgili bir sorun oluştu, lütfen tekrar çıkış yapmayı dene.",
+          "merchandise": {
+            "merchandise_variant_not_found": "Ürün varyasyonu bulunamadı.",
+            "gift_card_invalid": "Der Geschenkgutschein kodu {{code}} geçersiz."
           }
         },
         "complete_purchase_button_label": "Satın Al",
         "close_modal_label": "Kapat",
         "continue_to_shipping_method": "Devam et gönderime",
-        "autocomplete_selection": "{{number}} üzerinde {{total}}",
-        "autocomplete_close": "Öneriler kapat"
+        "autocomplete_selection": "{{number}} üzerinde {{total}}"
       }
     }
   },

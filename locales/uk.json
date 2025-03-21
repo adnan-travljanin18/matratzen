@@ -25,14 +25,19 @@
             "installments_test_mode_not_allowed": "Тестовий режим не дозволений.",
             "shop_cash_unsupported_checkout_source": "Магазин Cash не підтримує цей метод оплати.",
             "wallet_content_missing": "Відсутній вміст гаманця.",
-            "saved_payment_methods_not_enabled": "Збережені методи оплати не активовані для цього магазину."
+            "saved_payment_methods_not_enabled": "Збережені методи оплати не активовані для цього магазину.",
+            "store_credit_account_mismatch": "Магазинний кредитний рахунок не відповідає особі покупця."
+          },
+          "session_identifier_not_unique_error": "З твоїм замовленням сталася помилка, будь ласка, спробуй ще раз оформити замовлення.",
+          "merchandise": {
+            "merchandise_variant_not_found": "Варіант продукту не знайдено.",
+            "gift_card_invalid": "Код подарочного ваучера {{code}} недействителен."
           }
         },
         "complete_purchase_button_label": "Купити",
         "close_modal_label": "Закрити",
         "continue_to_shipping_method": "Продовжити до відправки",
-        "autocomplete_selection": "{{number}} з {{total}}",
-        "tooltip_accessibility_label": "Більше інформації"
+        "autocomplete_selection": "{{number}} з {{total}}"
       }
     }
   },

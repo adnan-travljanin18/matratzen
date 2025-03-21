@@ -26,15 +26,17 @@
             "shop_cash_unsupported_checkout_source": "Το Shop Cash δεν υποστηρίζει αυτήν τη διαδικασία ολοκλήρωσης της παραγγελίας.",
             "wallet_content_missing": "Λείπει το περιεχόμενο του πορτοφολιού.",
             "saved_payment_methods_not_enabled": "Οι αποθηκευμένες μέθοδοι πληρωμής δεν είναι ενεργοποιημένες για αυτό το κατάστημα."
+          },
+          "session_identifier_not_unique_error": "Με την παραγγελία σου έχει γίνει κάτι λάθος, παρακαλώ προσπάθησε ξανά να ολοκληρώσεις την παραγγελία.",
+          "merchandise": {
+            "merchandise_variant_not_found": "Η παραλλαγή προϊόντος δεν βρέθηκε.",
+            "gift_card_invalid": "Ο κωδικός δώρου {{code}} είναι άκυρος."
           }
         },
         "complete_purchase_button_label": "Αγορά",
         "close_modal_label": "Κλείσιμο",
         "continue_to_shipping_method": "Μετάβαση στην αποστολή",
-        "autocomplete_selection": "{{αριθμός}} von {{σύνολο}}",
-        "forwarding_indicator": {
-          "new_window": "Ανοίγει ένα νέο παράθυρο."
-        }
+        "autocomplete_selection": "{{αριθμός}} von {{σύνολο}}"
       }
     }
   },

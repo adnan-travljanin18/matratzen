@@ -25,9 +25,14 @@
             "installments_test_mode_not_allowed": "Testläge är inte tillåtet.",
             "shop_cash_unsupported_checkout_source": "Shop Cash stöder inte denna kassa.",
             "wallet_content_missing": "Det saknas innehåll i plånboken.",
-            "saved_payment_methods_not_enabled": "Sparade betalningsmetoder är inte aktiverade för den här butiken."
+            "saved_payment_methods_not_enabled": "Sparade betalningsmetoder är inte aktiverade för den här butiken.",
+            "method_required": "Det måste föreslås en betalningsmetod."
           },
-          "session_identifier_not_unique_error": "Med din beställning gick något fel, vänligen försök att kolla ut igen."
+          "session_identifier_not_unique_error": "Med din beställning gick något fel, vänligen försök att kolla ut igen.",
+          "merchandise": {
+            "merchandise_variant_not_found": "Produktvarianten hittades inte.",
+            "gift_card_invalid": "Der presentkortskoden {{code}} är ogiltig."
+          }
         },
         "complete_purchase_button_label": "Köpa",
         "close_modal_label": "Stänga",
