@@ -61,6 +61,9 @@
           "buyer_identity": {
             "email_domain_is_invalid": "Αυτή η καθορισμένη τομέας δεν μπορεί να επιλυθεί.",
             "personal_order_not_allowed": "Η ιδιωτική παραγγελία δεν είναι δυνατή σε αυτό το κατάστημα."
+          },
+          "discount": {
+            "custom_discount_not_honoured": "Ο παρασχεθείς πελάτης εκπτωση δεν χορηγήθηκε."
           }
         },
         "complete_purchase_button_label": "Αγορά",
@@ -72,7 +75,9 @@
       "order_summary": {
         "discount_label": "Κωδικός έκπτωσης",
         "gift_card_placeholder": "Κάρτα Δώρου",
-        "discount_has_been_applied": "Η έκπτωση χρησιμοποιήθηκε"
+        "discount_has_been_applied": "Η έκπτωση χρησιμοποιήθηκε",
+        "cart_does_not_meet_discount_requirements_notice": "Ο κωδικός έκπτωσης <strong style=\"text-transform:uppercase\">%{code}</strong> δεν είναι έγκυρος για τα προϊόντα στο καλάθι σας",
+        "shipping_policy_link": "Δείτε τα έξοδα αποστολής"
       }
     }
   },

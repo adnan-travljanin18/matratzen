@@ -30,7 +30,8 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Betalingsbetingelserne blev ikke opfyldt, da varerne ikke kan udføres fra den samme placering.",
-            "wrong_number_of_delivery_lines": "For hver merchandise-artikelgruppe skal der angives en leveringsrækkefølge."
+            "wrong_number_of_delivery_lines": "For hver merchandise-artikelgruppe skal der angives en leveringsrækkefølge.",
+            "prefetch_shipping_rates_used": "Forudbestilte forsendelsespriser må ikke have returomkostninger."
           },
           "payment": {
             "subscription_terms_not_accepted": "Abonnementsbetingelserne blev ikke accepteret.",
@@ -72,7 +73,9 @@
       "order_summary": {
         "discount_label": "Rabattkode",
         "discount_placeholder": "Rabattkode",
-        "discount_has_been_applied": "Rabatten blev brugt"
+        "discount_has_been_applied": "Rabatten blev brugt",
+        "subtotal_label": "Delbeløb",
+        "shipping_default_value": "Beregnes i næste trin"
       }
     }
   },

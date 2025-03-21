@@ -31,7 +31,8 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "Умови виконання не були виконані, оскільки товари не можуть бути виконані в одному і тому ж місці.",
-            "wrong_number_of_delivery_lines": "Для кожної групи товарів мерчандайзингу має бути вказано рядок доставки."
+            "wrong_number_of_delivery_lines": "Для кожної групи товарів мерчандайзингу має бути вказано рядок доставки.",
+            "auto_fulfill_required": "Автоматичне виконання є обов'язковим, коли спосіб доставки ЗДОБУТТЯ запитується."
           },
           "payment": {
             "subscription_terms_not_accepted": "Умови підписки не були прийняті.",
@@ -113,7 +114,9 @@
       "order_summary": {
         "discount_label": "Код знижки",
         "gift_card_placeholder": "Подарункова картка",
-        "discount_has_been_applied": "Знижка була використана"
+        "discount_has_been_applied": "Знижка була використана",
+        "gift_card_has_been_removed": "Подарунковий сертифікат був анульований",
+        "shipping_policy_link": "Вартість доставки"
       }
     }
   },

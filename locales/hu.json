@@ -30,7 +30,8 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "A teljesítési feltételek nem teljesültek, mivel az áruk nem ugyanazon a helyszínen hajthatók végre.",
-            "wrong_number_of_delivery_lines": "Minden egyes áru csoporthoz meg kell adni egy szállítási sort."
+            "wrong_number_of_delivery_lines": "Minden egyes áru csoporthoz meg kell adni egy szállítási sort.",
+            "auto_fulfill_required": "Az automatikus végrehajtás szükséges, ha a kézbesítési módszer KISKERESKEDELEM van megadva."
           },
           "payment": {
             "subscription_terms_not_accepted": "A szolgáltatási feltételek nem lettek elfogadva.",
@@ -76,7 +77,9 @@
       "order_summary": {
         "discount_label": "Rabattkód",
         "gift_card_placeholder": "Ajándék kártya",
-        "discount_has_been_applied": "A kedvezményt felhasználták"
+        "discount_has_been_applied": "A kedvezményt felhasználták",
+        "gift_card_has_been_removed": "A kupon törlésre került",
+        "shipping_policy_link": "Szállítási költségek"
       }
     }
   },

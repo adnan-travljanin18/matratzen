@@ -31,7 +31,8 @@
         "errors": {
           "delivery": {
             "must_fulfill_from_same_location_constraint_not_satisfied": "uslovi ispunjenja nisu ispunjeni, jer se artikli ne mogu izvršiti na istoj lokaciji.",
-            "wrong_number_of_delivery_lines": "Za svaku grupu artikala izmerchandisinga mora biti navedena redosled isporuke."
+            "wrong_number_of_delivery_lines": "Za svaku grupu artikala izmerchandisinga mora biti navedena redosled isporuke.",
+            "auto_fulfill_not_allowed": "Ova sesija nije autorizovana da prepravlja ponašanje ispunjenja."
           },
           "payment": {
             "subscription_terms_not_accepted": "Услови претплате нису прихваћени.",
@@ -51,6 +52,9 @@
             "email_required": "Potrebna je e-pošta kada se robni predmet kupuje u okviru pretplate.",
             "email_domain_is_invalid": "Ova navedena domena ne može da se reši.",
             "personal_order_not_allowed": "Privatne narudžbine nisu moguće za ovu prodavnicu."
+          },
+          "discount": {
+            "custom_discount_not_honoured": "Pruženi popust za kupce nije odobren."
           }
         },
         "complete_purchase_button_label": "Kupovina",
@@ -84,7 +88,8 @@
       "order_summary": {
         "discount_label": "Rabattcode",
         "gift_card_placeholder": "Poklon kartica",
-        "discount_has_been_applied": "Popust je iskorišćen"
+        "discount_has_been_applied": "Popust je iskorišćen",
+        "cart_does_not_meet_discount_requirements_notice": "Der Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> nije važeći za artikle u tvom korpusu."
       }
     }
   },

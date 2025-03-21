@@ -62,6 +62,9 @@
           "buyer_identity": {
             "email_domain_is_invalid": "Esta domínio especificado não pode ser resolvido.",
             "personal_order_not_allowed": "Pedidos privados não são possíveis para esta loja."
+          },
+          "discount": {
+            "unsupported_expectation": "A série de descontos especificada continha um valor esperado que não pôde ser interpretado pela diretriz."
           }
         },
         "complete_purchase_button_label": "Comprar",
@@ -72,7 +75,9 @@
       "order_summary": {
         "discount_label": "Código de desconto",
         "gift_card_placeholder": "Cartão Presente",
-        "applied_discount_message": "%{amount} de desconto sobre o preço total"
+        "discount_has_been_applied": "O desconto foi utilizado",
+        "cart_does_not_meet_discount_requirements_notice": "Der Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> não é válido para os itens no seu carrinho",
+        "shipping_policy_link": "Veja os custos de envio"
       }
     }
   },
