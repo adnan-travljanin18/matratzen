@@ -942,6 +942,10 @@
     },
     "orders": {
       "fulfillment_status": "Статус виконання"
+    },
+    "register": {
+      "email": "E-Mail",
+      "password_confirm": "Підтвердіть пароль"
     }
   }
 }

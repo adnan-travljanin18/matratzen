@@ -939,6 +939,10 @@
     },
     "orders": {
       "fulfillment_status": "Erfüllungs durumu"
+    },
+    "register": {
+      "email": "E-Posta",
+      "password_confirm": "Şifreyi onayla"
     }
   }
 }

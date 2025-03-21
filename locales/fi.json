@@ -760,6 +760,9 @@
           "pending": {
             "description_due_on_receipt": "Saat laskun heti, kun maksuaika on vanhentunut.",
             "description_waiting_for_manual_payment": "Tämän tilauksen maksua odotetaan. Saldo päivitetään maksun vastaanottamisen jälkeen."
+          },
+          "refund": {
+            "description_single_refund": "Sinulle on myönnetty osittainen palautus tästä tilauksesta."
           }
         }
       }
@@ -912,6 +915,10 @@
     },
     "orders": {
       "fulfillment_status": "Täyttämisstatus"
+    },
+    "register": {
+      "last_name": "Sukunimi",
+      "password_confirm": "Vahvista salasana"
     }
   }
 }

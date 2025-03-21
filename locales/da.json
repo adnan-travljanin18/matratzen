@@ -769,6 +769,9 @@
           "pending": {
             "description_due_on_receipt": "Du modtager en faktura, så snart betalingen er forfalden.",
             "description_waiting_for_manual_payment": "For this order, a payment is outstanding. The balance will be updated upon receipt of payment."
+          },
+          "refund": {
+            "description_multiple_refunds": "Du har modtaget en delvis refusion for denne bestilling."
           }
         }
       }
@@ -924,6 +927,10 @@
     },
     "orders": {
       "fulfillment_status": "Erfüllingsstatus"
+    },
+    "register": {
+      "last_name": "Efternavn",
+      "password_confirm": "Bekræft adgangskode"
     }
   }
 }

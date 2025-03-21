@@ -764,7 +764,8 @@
           },
           "pending": {
             "description_due_on_receipt": "Vous recevrez une facture dès que le paiement sera dû.",
-            "description_waiting_for_manual_payment": "Pour cette commande, un paiement est en attente. Le solde sera mis à jour après réception du paiement."
+            "description_waiting_for_manual_payment": "Pour cette commande, un paiement est en attente. Le solde sera mis à jour après réception du paiement.",
+            "description_due_on_fulfillment_partially_paid": "Cette commande a été partiellement payée. Vous avez encore un solde restant. Le paiement sera dû dès que tous les articles de cette commande auront été exécutés."
           }
         }
       }
@@ -918,6 +919,10 @@
     },
     "orders": {
       "fulfillment_status": "État d'exécution"
+    },
+    "register": {
+      "last_name": "Nom de famille",
+      "password_confirm": "Confirmer le mot de passe"
     }
   }
 }

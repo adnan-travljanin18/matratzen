@@ -919,6 +919,10 @@
     },
     "orders": {
       "fulfillment_status": "Teljesítési állapot"
+    },
+    "register": {
+      "email": "E-Mail",
+      "password_confirm": "Jelszó megerősítése"
     }
   }
 }

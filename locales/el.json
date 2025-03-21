@@ -917,6 +917,10 @@
     },
     "orders": {
       "fulfillment_status": "Κατάσταση εκπλήρωσης"
+    },
+    "register": {
+      "email": "E-Mail",
+      "password_confirm": "Επιβεβαίωση κωδικού πρόσβασης"
     }
   }
 }

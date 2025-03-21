@@ -923,6 +923,10 @@
     },
     "orders": {
       "fulfillment_status": "Status izvršenja"
+    },
+    "register": {
+      "email": "E-pošta",
+      "password_confirm": "Potvrdite lozinku"
     }
   }
 }

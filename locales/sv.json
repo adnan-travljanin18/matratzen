@@ -943,6 +943,10 @@
     },
     "orders": {
       "fulfillment_status": "Uppfyllandestatus"
+    },
+    "register": {
+      "email": "E-post",
+      "password_confirm": "Bekräfta lösenord"
     }
   }
 }

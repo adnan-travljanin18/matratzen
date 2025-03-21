@@ -771,6 +771,9 @@
           "pending": {
             "description_due_on_receipt": "Riceverai una fattura non appena il pagamento sarà dovuto.",
             "description_waiting_for_manual_payment": "Per questo ordine è in attesa un pagamento. Il saldo verrà aggiornato dopo la ricezione del pagamento."
+          },
+          "refund": {
+            "title_with_date": "Restituito il {{date}}"
           }
         }
       }
@@ -928,6 +931,10 @@
     },
     "orders": {
       "fulfillment_status": "Stato di adempimento"
+    },
+    "register": {
+      "email": "E-Mail",
+      "password_confirm": "Conferma password"
     }
   }
 }

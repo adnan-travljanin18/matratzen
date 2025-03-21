@@ -915,6 +915,10 @@
     },
     "orders": {
       "order_number_link": "Bestellnummer {{ number }}"
+    },
+    "register": {
+      "email": "E-mail",
+      "password_confirm": "Confirmar senha"
     }
   }
 }

@@ -761,6 +761,9 @@
           "pending": {
             "description_due_on_receipt": "Du vil motta en faktura så snart betalingen forfaller.",
             "description_waiting_for_manual_payment": "For denne bestillingen står det et utestående beløp. Saldoen vil bli oppdatert etter mottak av betalingen."
+          },
+          "canceled": {
+            "title": "Betaling kansellert"
           }
         }
       }
@@ -918,6 +921,10 @@
     },
     "orders": {
       "fulfillment_status": "Erfullingsstatus"
+    },
+    "register": {
+      "email": "E-post",
+      "password_confirm": "Bekreft passord"
     }
   }
 }

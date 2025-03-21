@@ -752,6 +752,9 @@
           "pending": {
             "description_due_on_receipt": "Dostanete fakturu, jakmile bude platba splatná.",
             "description_waiting_for_manual_payment": "Pro tuto objednávku je čekající platba. Zůstatek bude aktualizován po obdržení platby."
+          },
+          "refund": {
+            "description_multiple_refunds": "Dostali jste částečnou refundaci za tuto objednávku."
           }
         }
       }
@@ -909,6 +912,11 @@
     },
     "orders": {
       "fulfillment_status": "Stav plnění"
+    },
+    "register": {
+      "title": "Vytvořit účet",
+      "first_name": "Přední jméno",
+      "password_confirm": "Potvrdit heslo"
     }
   }
 }

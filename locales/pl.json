@@ -914,6 +914,10 @@
     },
     "orders": {
       "fulfillment_status": "Status realizacji"
+    },
+    "register": {
+      "email": "E-Mail",
+      "password_confirm": "Potwierdź hasło"
     }
   }
 }
