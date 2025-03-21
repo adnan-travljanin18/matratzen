@@ -674,7 +674,10 @@
       }
     },
     "addresses": {
-      "add_button": "Προσθήκη διεύθυνσης"
+      "add_button": "Προσθήκη διεύθυνσης",
+      "delete_confirmation_button_accessibility_label": "{{address}} διαγραφή",
+      "loading_accessibility_message": "Η διεύθυνση φορτώνεται",
+      "delete_confirmation_description": "Οι υπάρχουσες παραγγελίες δεν επηρεάζονται."
     }
   }
 }

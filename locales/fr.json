@@ -672,7 +672,10 @@
       }
     },
     "addresses": {
-      "add_button": "Ajouter une adresse"
+      "add_button": "Ajouter une adresse",
+      "delete_confirmation_button_accessibility_label": "{{address}} supprimer",
+      "loading_accessibility_message": "Adresse est en cours de chargement",
+      "delete_confirmation_description": "Les commandes existantes ne sont pas affectées."
     }
   }
 }

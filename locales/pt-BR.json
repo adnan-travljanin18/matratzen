@@ -672,7 +672,10 @@
       }
     },
     "addresses": {
-      "add_button": "Adicionar Endereço"
+      "add_button": "Adicionar Endereço",
+      "delete_confirmation_message": "Remover endereço? Pedidos existentes não são afetados.",
+      "loading_accessibility_message": "Endereço está sendo carregado",
+      "delete_confirmation_description": "Pedidos existentes não estão afetados."
     }
   }
 }

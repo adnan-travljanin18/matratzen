@@ -697,7 +697,10 @@
       }
     },
     "addresses": {
-      "add_button": "Додати адресу"
+      "add_button": "Додати адресу",
+      "delete_confirmation_button_accessibility_label": "{{address}} видалити",
+      "edit_button": "Редагувати",
+      "delete_confirmation_description": "Існуючі замовлення не підлягають змінам."
     }
   }
 }

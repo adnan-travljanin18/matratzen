@@ -666,7 +666,10 @@
       }
     },
     "addresses": {
-      "add_button": "Osoite lisätä"
+      "add_button": "Osoite lisätä",
+      "delete_confirmation_button_accessibility_label": "{{address}} poista",
+      "loading_accessibility_message": "Osoitetta ladataan",
+      "delete_confirmation_description": "Nykyiset tilaukset eivät ole vaikuttaneet."
     }
   }
 }

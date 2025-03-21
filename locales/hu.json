@@ -678,7 +678,10 @@
       }
     },
     "addresses": {
-      "add_button": "Cím hozzáadása"
+      "add_button": "Cím hozzáadása",
+      "delete_confirmation_button_accessibility_label": "{{address}} törlése",
+      "edit_button": "Szerkesztés",
+      "delete_confirmation_description": "A meglévő rendelések nincsenek hatással."
     }
   }
 }

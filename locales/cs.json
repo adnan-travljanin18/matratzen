@@ -660,7 +660,12 @@
       }
     },
     "addresses": {
-      "add_button": "Přidat adresu"
+      "add_button": "Přidat adresu",
+      "delete_confirmation_button_accessibility_label": "' {{address}} smazat",
+      "loading_accessibility_message": "Adresa se načítá",
+      "pagination": {
+        "load_more_accessibility_label": "Další adresy načíst"
+      }
     }
   }
 }

@@ -671,7 +671,10 @@
       }
     },
     "addresses": {
-      "add_button": "Dodaj adres"
+      "add_button": "Dodaj adres",
+      "delete_button_accessibility_label": "{{address}} usuń",
+      "loading_accessibility_message": "Adres jest wczytywany",
+      "delete_confirmation_description": "Istniejące zamówienia nie są dotknięte."
     }
   }
 }

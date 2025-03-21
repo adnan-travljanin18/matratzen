@@ -696,7 +696,10 @@
       }
     },
     "addresses": {
-      "add_button": "Adres ekle"
+      "add_button": "Adres ekle",
+      "delete_button_accessibility_label": "{{address}} silmek",
+      "edit_button": "Düzenle",
+      "delete_confirmation_description": "Mevcut siparişler etkilenmemektedir."
     }
   }
 }

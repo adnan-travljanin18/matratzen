@@ -675,7 +675,10 @@
       }
     },
     "addresses": {
-      "add_button": "Adresse legge til"
+      "add_button": "Adresse legge til",
+      "delete_confirmation_button_accessibility_label": "{{address}} slette",
+      "loading_accessibility_message": "Adressen lastes",
+      "delete_confirmation_description": "Nåværende bestillinger blir ikke påvirket."
     }
   }
 }

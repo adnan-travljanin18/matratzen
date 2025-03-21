@@ -679,7 +679,10 @@
       }
     },
     "addresses": {
-      "add_button": "Aggiungi indirizzo"
+      "add_button": "Aggiungi indirizzo",
+      "delete_confirmation_button_accessibility_label": "{{address}} eliminare",
+      "loading_accessibility_message": "L'indirizzo viene caricato",
+      "delete_confirmation_description": "Gli ordini esistenti non sono interessati."
     }
   }
 }

@@ -696,7 +696,10 @@
       }
     },
     "addresses": {
-      "add_button": "Lägg till adress"
+      "add_button": "Lägg till adress",
+      "delete_button_accessibility_label": "{{address}} radera",
+      "edit_button": "Redigera",
+      "delete_confirmation_description": "Befintliga beställningar påverkas inte."
     }
   }
 }

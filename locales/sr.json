@@ -682,7 +682,10 @@
       }
     },
     "addresses": {
-      "add_button": "Dodaj adresu"
+      "add_button": "Dodaj adresu",
+      "delete_confirmation_button_accessibility_label": "{{address}} обрисати",
+      "loading_accessibility_message": "Адреса се учитава",
+      "delete_confirmation_description": "Postojeće narudžbe nisu pogođene."
     }
   }
 }
