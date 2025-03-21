@@ -209,7 +209,9 @@
         "payment_method_not_available_for_shipping_address_error": "Betalingsmetoden er ikke tilgængelig for den valgte leveringsadresse. Vælg en anden betalingsmetode.",
         "paypal_wallet_label": "PayPal-Wallet",
         "przelewy24_label": "Przelewy24",
-        "apply_gift_card_button_label": "Anvende"
+        "apply_gift_card_button_label": "Anvende",
+        "card_expiry_placeholder": "Giltig til (MM/ÅÅ)",
+        "card_verification_value_explanation_amex": "4-stellig sikkerhedskode på forsiden af dit kort"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuelt saldo: %{amount}"
@@ -219,7 +221,8 @@
         "address_city_blank": "Indtast en by",
         "address_zip_invalid_for_country": "Indtast et gyldigt postnummer for %{country}",
         "credit_card_month_invalid": "Indtast en gyldig forløbs måned",
-        "delivery_line_detail_changed": "Nogle leveringsoplysninger kan være ændret. Tjek din forsendelsesmetode og prøv igen."
+        "delivery_line_detail_changed": "Nogle leveringsoplysninger kan være ændret. Tjek din forsendelsesmetode og prøv igen.",
+        "gift_card_already_applied": "Denne kupon er allerede tilføjet til din bestilling"
       }
     }
   },

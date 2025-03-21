@@ -212,7 +212,8 @@
         "amazon_payments_abandoned_mfa_challenge": "La tua pagamento non è stato completato. Prova con un altro metodo di pagamento o contatta la tua banca o l'emittente della tua carta.",
         "amount_left_to_pay_label": "Importo",
         "przelewy24_label": "Przelewy24",
-        "apply_gift_card_button_label": "Applicare"
+        "apply_gift_card_button_label": "Applicare",
+        "card_expiry_placeholder": "Valido fino a (MM/AA)"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Saldo attuale: %{amount}"
@@ -222,7 +223,9 @@
         "address_city_blank": "Inserisci una città",
         "address_zip_invalid_for_country": "Inserisci un codice postale valido per %{country}",
         "credit_card_month_invalid": "Inserire un mese di scadenza valido",
-        "delivery_line_detail_changed": "Alcuni dettagli di consegna potrebbero essere cambiati. Controlla il tuo metodo di spedizione e riprova."
+        "delivery_line_detail_changed": "Alcuni dettagli di consegna potrebbero essere cambiati. Controlla il tuo metodo di spedizione e riprova.",
+        "gift_card_already_applied": "Questo coupon è stato già aggiunto al tuo ordine",
+        "physical_gift_card_invalid_code": "Il codice del coupon non è valido."
       }
     }
   },

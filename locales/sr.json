@@ -215,12 +215,16 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Primeniti",
         "swish_label": "Swish",
-        "card_number_placeholder": "Kartennummer"
+        "card_number_placeholder": "Kartennummer",
+        "card_expiry_placeholder": "Važi do (MM/GG)",
+        "card_verification_value_explanation": "Tristavni sigurnosni kod, koji se obično nalazi na poleđini tvoje kartice. American Express kartice imaju četvorcifreni kod na prednjoj strani."
       },
       "field_errors": {
         "handle_phone_invalid": "Unesite važeći broj telefona",
         "credit_card_name_blank": "Unesite svoje ime tačno onako kako stoji na vašoj kartici",
-        "credit_card_month_invalid": "Unesite važeći mesec završetka"
+        "credit_card_month_invalid": "Unesite važeći mesec završetka",
+        "reduction_code_gift_card_code_invalid": "Unesite važeći kupon",
+        "gift_card_currency_mismatch": "Samo poklon vaučeri u %{checkout_currency} mogu se koristiti za ovu narudžbinu"
       }
     }
   },

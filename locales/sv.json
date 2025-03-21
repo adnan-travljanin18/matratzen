@@ -235,7 +235,9 @@
         "shop_pay_ideal_unavailable_error": "iDEAL är inte tillgänglig för denna beställning. Vänligen välj en annan betalningsmetod.",
         "paypal_wallet_label": "PayPal-Wallet",
         "przelewy24_label": "Przelewy24",
-        "apply_gift_card_button_label": "Tillämpa"
+        "apply_gift_card_button_label": "Tillämpa",
+        "card_expiry_placeholder": "Giltig till (MM/ÅÅ)",
+        "card_verification_value_explanation": "En tre-siffrig säkerhetskod som vanligtvis finns på baksidan av ditt kort. American Express-kort har en fyra-siffrig kod på framsidan."
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuellt saldo: %{amount}"
@@ -245,7 +247,8 @@
         "address_city_blank": "Ange en stad",
         "credit_card_name_blank": "Skriv ditt namn exakt som det står på ditt kort",
         "credit_card_month_invalid": "Ange en giltig månad för genomförande",
-        "credit_card_verification_value_blank": "Ange CVV- eller säkerhetskoden på ditt kort"
+        "reduction_code_gift_card_code_invalid": "Ange ett giltigt kupongkod",
+        "gift_card_already_applied": "Den här kupongen har redan lagts till i din beställning"
       }
     }
   },

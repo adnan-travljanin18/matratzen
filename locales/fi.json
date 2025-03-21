@@ -204,7 +204,9 @@
         "payment_method_not_available_for_shipping_address_error": "Maksutapa ei ole käytettävissä valitulle toimitusosoitteelle. Valitse toinen maksutapa.",
         "paypal_wallet_label": "PayPal-lompakko",
         "przelewy24_label": "Przelewy24",
-        "apply_gift_card_button_label": "Käyttää"
+        "apply_gift_card_button_label": "Käyttää",
+        "card_expiry_placeholder": "Voimassa kuni (KK/VV)",
+        "card_verification_value_explanation_amex": "4-numeroinen turvakoodi korttisi etupuolella"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktiivinen saldo: %{amount}"
@@ -214,7 +216,8 @@
         "address_city_blank": "Anna kaupunki",
         "address_zip_invalid_for_country": "Anna voimassa oleva postinumero alueelle %{country}",
         "credit_card_month_invalid": "Anna voimassa oleva kuukausi",
-        "delivery_line_detail_changed": "Joitakin toimitustietoja on saattanut muuttua. Tarkista toimitustapasi ja yritä uudelleen."
+        "delivery_line_detail_changed": "Joitakin toimitustietoja on saattanut muuttua. Tarkista toimitustapasi ja yritä uudelleen.",
+        "gift_card_already_applied": "Tämä lahjakortti on jo lisätty tilauksesi mukaan"
       }
     }
   },

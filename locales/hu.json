@@ -203,7 +203,9 @@
         "shop_pay_ideal_unavailable_error": "iDEAL nem elérhető ehhez a megrendeléshez. Válassz egy másik fizetési módszert.",
         "gift_cards_unavailable": "A pénzárványod már nem használható erre a megrendelésre, és eltávolításra került.",
         "przelewy24_label": "Przelewy24",
-        "apply_gift_card_button_label": "Alkalmazás"
+        "apply_gift_card_button_label": "Alkalmazás",
+        "card_expiry_placeholder": "Érvényes: (HH/ÉÉ)",
+        "card_verification_value_explanation": "Egy háromjegyű biztonsági kód, amely általában a kártyád hátoldalán található. Az American Express kártyákon egy négyjegyű kód található az elülső oldalán."
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuális egyenleg: %{amount}"
@@ -213,7 +215,8 @@
         "address_city_blank": "Írj be egy várost",
         "credit_card_name_blank": "Írd be a neved pontosan úgy, ahogy a kártyádon szerepel",
         "credit_card_month_invalid": "Érvényes lebonyolítási hónapot adjon meg",
-        "reduction_code_discount_not_found": "Adjon meg egy érvényes kedvezménykódot"
+        "reduction_code_gift_card_code_invalid": "Írj be egy érvényes kuponkódot",
+        "gift_card_already_applied": "Ez a kupon már hozzá lett adva a rendelésedhez"
       }
     }
   },

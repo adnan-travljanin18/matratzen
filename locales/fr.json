@@ -210,7 +210,8 @@
         "payment_method_not_available_for_shipping_address_error": "La méthode de paiement n'est pas disponible pour l'adresse de livraison sélectionnée. Veuillez choisir une autre méthode de paiement.",
         "amount_left_to_pay_label": "Montant",
         "przelewy24_label": "Przelewy24",
-        "apply_gift_card_button_label": "Appliquer"
+        "apply_gift_card_button_label": "Appliquer",
+        "card_expiry_placeholder": "Valide jusqu'au (MM/AA)"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Solde actuel : %{amount}"
@@ -220,7 +221,9 @@
         "address_city_blank": "Entrez une ville",
         "address_zip_invalid_for_country": "Entrez un code postal valide pour %{country}",
         "credit_card_month_invalid": "Entrez un mois d'expiration valide",
-        "delivery_line_detail_changed": "Quelques détails de livraison ont peut-être changé. Vérifie ton mode d'expédition et réessaie."
+        "delivery_line_detail_changed": "Quelques détails de livraison ont peut-être changé. Vérifie ton mode d'expédition et réessaie.",
+        "gift_card_already_applied": "Ce bon a déjà été ajouté à votre commande",
+        "physical_gift_card_invalid_code": "Le code du bon est invalide."
       }
     }
   },

@@ -198,7 +198,9 @@
         "payment_method_not_available_for_shipping_address_error": "Způsob platby není pro vybranou dodací adresu k dispozici. Vyberte jiný způsob platby.",
         "paypal_wallet_label": "PayPal-Wallet",
         "mobilepay_label": "MobilePay",
-        "apply_gift_card_button_label": "Použít"
+        "apply_gift_card_button_label": "Použít",
+        "card_expiry_placeholder": "Platnost do (MM/RRRR)",
+        "card_verification_value_explanation_amex": "4-ciferný bezpečnostní kód na přední straně tvé karty"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuální zůstatek: %{amount}"
@@ -208,7 +210,8 @@
         "address_last_name_blank": "Zadejte příjmení",
         "address_zip_invalid_for_country": "Zadejte platné PSČ pro %{country}",
         "credit_card_start_invalid": "Zadejte platné datum zahájení karty",
-        "delivery_line_detail_changed": "Některé podrobnosti o dodání se mohly změnit. Zkontrolujte svůj způsob doručení a zkuste to znovu."
+        "delivery_line_detail_changed": "Některé podrobnosti o dodání se mohly změnit. Zkontrolujte svůj způsob doručení a zkuste to znovu.",
+        "gift_card_disabled": "Tento voucher již není k dispozici"
       }
     }
   },

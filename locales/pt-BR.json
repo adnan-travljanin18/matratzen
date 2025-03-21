@@ -205,12 +205,16 @@
         "przelewy24_label": "Przelewy24",
         "apply_gift_card_button_label": "Aplicar",
         "swish_label": "Swish",
-        "card_number_placeholder": "Número do cartão"
+        "card_number_placeholder": "Número do cartão",
+        "card_expiry_placeholder": "Válido até (MM/AA)",
+        "card_verification_value_explanation": "Um código de segurança de três dígitos, que geralmente se encontra na parte de trás do seu cartão. Cartões American Express têm um código de quatro dígitos na parte da frente."
       },
       "field_errors": {
         "handle_phone_invalid": "Digite um número de telefone válido",
         "address_zip_invalid_for_country_and_province": "Insira um CEP válido para %{province}, %{country}",
-        "credit_card_month_invalid": "Digite um mês de validade válido"
+        "credit_card_month_invalid": "Digite um mês de validade válido",
+        "reduction_code_gift_card_code_invalid": "Insira um cupom válido",
+        "gift_card_currency_mismatch": "Apenas vale gift vouchers em %{checkout_currency} para este pedido"
       }
     }
   },
