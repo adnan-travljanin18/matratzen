@@ -583,8 +583,14 @@
       "store_credit": {
         "details_modal": {
           "balance_label": "Jótállás",
-          "expirable_amounts_button": "Hirdetések"
+          "expirable_amounts_button": "Hirdetések",
+          "events": {
+            "payment_failure": "Fizetési hiba"
+          }
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "navigation_and_structure": {
@@ -757,6 +763,9 @@
     },
     "shop_policies": {
       "refund_policy": "Elállási jog"
+    },
+    "payment_method_brands": {
+      "googlepay": "Google Pay"
     }
   }
 }

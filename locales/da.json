@@ -583,8 +583,14 @@
       "store_credit": {
         "details_modal": {
           "balance_label": "Guthaben",
-          "expirable_amounts_button": "Annoncer"
+          "expirable_amounts_button": "Annoncer",
+          "events": {
+            "payment_failure": "Betalingsfejl"
+          }
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "navigation_and_structure": {
@@ -758,6 +764,9 @@
     },
     "shop_policies": {
       "refund_policy": "Fortrydelsesret"
+    },
+    "payment_method_brands": {
+      "applepay": "Apple Pay"
     }
   }
 }

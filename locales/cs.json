@@ -559,8 +559,14 @@
       "store_credit": {
         "details_modal": {
           "balance_label": "Guthaben",
-          "expirable_amounts_button": "Oznámení"
+          "expirable_amounts_button": "Oznámení",
+          "events": {
+            "payment_failure": "Chyba platby"
+          }
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "navigation_and_structure": {
@@ -741,6 +747,9 @@
     },
     "shop_policies": {
       "refund_policy": "Právo na odstoupení od smlouvy"
+    },
+    "payment_method_brands": {
+      "applepay": "Apple Pay"
     }
   }
 }

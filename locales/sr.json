@@ -592,8 +592,14 @@
       "store_credit": {
         "details_modal": {
           "balance_label": "stanje",
-          "expirable_amounts_button": "Prikazivanje"
+          "expirable_amounts_button": "Prikazivanje",
+          "events": {
+            "payment_failure": "Ошибка плаћања"
+          }
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "navigation_and_structure": {
@@ -763,6 +769,9 @@
     },
     "shop_policies": {
       "refund_policy": "Право на одустанак"
+    },
+    "payment_method_brands": {
+      "googlepay": "Google Pay"
     }
   }
 }

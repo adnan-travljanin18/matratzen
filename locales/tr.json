@@ -609,8 +609,14 @@
       "store_credit": {
         "details_modal": {
           "balance_label": "Guthaben",
-          "expirable_amounts_button": "İlanlar"
+          "expirable_amounts_button": "İlanlar",
+          "events": {
+            "payment_failure": "Ödeme Hatası"
+          }
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "navigation_and_structure": {
@@ -779,6 +785,9 @@
     },
     "shop_policies": {
       "refund_policy": "İptal Hakkı"
+    },
+    "payment_method_brands": {
+      "googlepay": "Google Pay"
     }
   }
 }

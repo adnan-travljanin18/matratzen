@@ -572,8 +572,14 @@
       "store_credit": {
         "details_modal": {
           "balance_label": "Guthaben",
-          "expirable_amounts_button": "Ilmoitukset"
+          "expirable_amounts_button": "Ilmoitukset",
+          "events": {
+            "payment_failure": "Maksuvirhe"
+          }
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "navigation_and_structure": {
@@ -746,6 +752,9 @@
     },
     "shop_policies": {
       "refund_policy": "Peruuttamisoikeus"
+    },
+    "payment_method_brands": {
+      "applepay": "Apple Pay"
     }
   }
 }

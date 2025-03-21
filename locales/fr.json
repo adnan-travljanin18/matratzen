@@ -578,8 +578,14 @@
       "store_credit": {
         "details_modal": {
           "balance_label": "Crédit",
-          "expirable_amounts_button": "Annonces"
+          "expirable_amounts_button": "Annonces",
+          "events": {
+            "payment_failure": "Erreur de paiement"
+          }
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "navigation_and_structure": {
@@ -754,6 +760,9 @@
     },
     "shop_policies": {
       "refund_policy": "Droit de rétractation"
+    },
+    "payment_method_brands": {
+      "googlepay": "Google Pay"
     }
   }
 }

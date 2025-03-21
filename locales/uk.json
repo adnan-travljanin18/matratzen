@@ -604,8 +604,14 @@
       "store_credit": {
         "details_modal": {
           "balance_label": "Гутен",
-          "expirable_amounts_button": "Оголошення"
+          "expirable_amounts_button": "Оголошення",
+          "events": {
+            "payment_failure": "Помилка оплати"
+          }
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "navigation_and_structure": {
@@ -776,6 +782,9 @@
     },
     "shop_policies": {
       "refund_policy": "Право на відмову"
+    },
+    "payment_method_brands": {
+      "googlepay": "Google Pay"
     }
   }
 }

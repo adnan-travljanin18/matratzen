@@ -584,8 +584,14 @@
       "store_credit": {
         "details_modal": {
           "balance_label": "Πίστωση",
-          "expirable_amounts_button": "Ανακοινώσεις"
+          "expirable_amounts_button": "Ανακοινώσεις",
+          "events": {
+            "payment_failure": "Σφάλμα πληρωμής"
+          }
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "navigation_and_structure": {
@@ -755,6 +761,9 @@
     },
     "shop_policies": {
       "refund_policy": "Δικαίωμα Ανάκλησης"
+    },
+    "payment_method_brands": {
+      "googlepay": "Google Pay"
     }
   }
 }

@@ -603,8 +603,14 @@
       "store_credit": {
         "details_modal": {
           "balance_label": "Guthaben",
-          "expirable_amounts_button": "Annonser"
+          "expirable_amounts_button": "Annonser",
+          "events": {
+            "payment_failure": "Betalningsfel"
+          }
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "navigation_and_structure": {
@@ -779,6 +785,9 @@
     },
     "shop_policies": {
       "refund_policy": "Ångerrätt"
+    },
+    "payment_method_brands": {
+      "googlepay": "Google Pay"
     }
   }
 }

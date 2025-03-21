@@ -574,8 +574,14 @@
       "store_credit": {
         "details_modal": {
           "balance_label": "Guthaben",
-          "expirable_amounts_button": "Ogłoszenia"
+          "expirable_amounts_button": "Ogłoszenia",
+          "events": {
+            "payment_failure": "Błąd płatności"
+          }
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "navigation_and_structure": {
@@ -750,6 +756,9 @@
     },
     "shop_policies": {
       "refund_policy": "Prawo do odstąpienia od umowy"
+    },
+    "payment_method_brands": {
+      "googlepay": "Google Pay"
     }
   }
 }
