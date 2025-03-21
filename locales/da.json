@@ -575,7 +575,11 @@
           "credit_card_verification_value_blank": "Indtast CVV- eller sikkerhedskoden fra dit kort"
         }
       },
-      "credit_or_debit_card_title": "Kredit- eller Debitkort"
+      "credit_or_debit_card_title": "Kredit- eller Debitkort",
+      "google_pay": {
+        "loading": "Google Pay bliver indlæst"
+      },
+      "default": "Standard"
     },
     "navigation_and_structure": {
       "action_menu_accessibility_label": "Yderligere handlinger",
@@ -728,6 +732,11 @@
       },
       "addresses": {
         "save_new_shipping_address_accessibility_label": "Gemme leveringsadresse"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Alle bestillinger skjules, som skal kontrolleres"
+        }
       }
     },
     "errors": {

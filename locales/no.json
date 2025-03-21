@@ -569,7 +569,8 @@
           "credit_card_verification_value_blank": "Skriv inn CVV- eller sikkerhetskoden på kortet ditt"
         }
       },
-      "credit_or_debit_card_title": "Kredit- eller debetkort"
+      "credit_or_debit_card_title": "Kredit- eller debetkort",
+      "default": "Standard"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -727,6 +728,12 @@
       },
       "addresses": {
         "save_new_shipping_address_accessibility_label": "Lagre leveringsadresse"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Alle skjule",
+          "hide_all_accessibility_label": "Alle bestillinger som skal skjules, som skal godkjennes"
+        }
       }
     },
     "errors": {

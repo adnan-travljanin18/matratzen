@@ -570,7 +570,11 @@
           "credit_card_verification_value_blank": "Entrez le code CVV ou de sécurité de votre carte"
         }
       },
-      "credit_or_debit_card_title": "Carte de crédit ou de débit"
+      "credit_or_debit_card_title": "Carte de crédit ou de débit",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Ajouter un mode de paiement Google Pay"
+      },
+      "default": "Standard"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -724,6 +728,11 @@
       },
       "addresses": {
         "save_new_shipping_address_accessibility_label": "Enregistrer l'adresse de livraison"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Masquer toutes les commandes qui doivent être vérifiées"
+        }
       }
     },
     "errors": {

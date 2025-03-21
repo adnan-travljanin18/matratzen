@@ -564,7 +564,11 @@
           "credit_card_verification_value_blank": "Syötä korttisi CVV- tai turvallisuusnumero"
         }
       },
-      "credit_or_debit_card_title": "Kredit- tai debit-kortti"
+      "credit_or_debit_card_title": "Kredit- tai debit-kortti",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Lisää Google Pay -maksutapa"
+      },
+      "default": "Vakiovarusteet"
     },
     "navigation_and_structure": {
       "action_menu_accessibility_label": "Lisätietoja",
@@ -719,6 +723,11 @@
       },
       "addresses": {
         "save_new_shipping_address_accessibility_label": "Toimitusosoitteen tallentaminen"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Poista näyttöön kaikki tilaukset, jotka tarkistetaan"
+        }
       }
     },
     "errors": {

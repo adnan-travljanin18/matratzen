@@ -554,7 +554,8 @@
           "credit_card_verification_value_blank": "Zadej CVV nebo bezpečnostní kód na své kartě"
         }
       },
-      "credit_or_debit_card_title": "Kreditní nebo debetní karta"
+      "credit_or_debit_card_title": "Kreditní nebo debetní karta",
+      "no_payment_methods_banner": "Žádné platební metody nebyly přidány"
     },
     "navigation_and_structure": {
       "action_menu_accessibility_label": "Další akce",
@@ -713,6 +714,12 @@
       },
       "addresses": {
         "save_new_shipping_address_accessibility_label": "Uložit dodací adresu"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Skrýt vše",
+          "hide_all_accessibility_label": "Skrýt všechny objednávky, které mají být zkontrolovány"
+        }
       }
     },
     "errors": {

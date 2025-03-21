@@ -575,7 +575,11 @@
           "credit_card_verification_value_blank": "Írd be a kártyád CVV- vagy biztonsági kódját"
         }
       },
-      "credit_or_debit_card_title": "Kredit- vagy Betéti Kártya"
+      "credit_or_debit_card_title": "Kredit- vagy Betéti Kártya",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Google Pay - Fizetési mód hozzáadása"
+      },
+      "no_payment_methods_banner": "Nincsenek hozzáadva fizetési módok"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -730,6 +734,13 @@
         "add_billing_address_button": "Rechnungsadresse hozzáadása",
         "cancel_adding_billing_address_accessibility_label": "A számlázási cím hozzáadásának megszakítása",
         "save_new_shipping_address_accessibility_label": "Szállítási cím mentése"
+      },
+      "orders": {
+        "draft_order_list": {
+          "pagination": {
+            "nav_accessibility_label": "Navigációs gombok a rendelés ellenőrzéséhez"
+          }
+        }
       }
     },
     "errors": {

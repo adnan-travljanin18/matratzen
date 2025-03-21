@@ -576,7 +576,11 @@
           "credit_card_verification_value_blank": "Εισάγετε το CVV ή τον κωδικό ασφαλείας στην κάρτα σας"
         }
       },
-      "credit_or_debit_card_title": "Κάρτα πίστης ή χρεωστική"
+      "credit_or_debit_card_title": "Κάρτα πίστης ή χρεωστική",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Προσθήκη μεθόδου πληρωμής Google Pay"
+      },
+      "no_payment_methods_banner": "Δεν έχουν προστεθεί μέθοδοι πληρωμής"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -728,6 +732,11 @@
       "addresses": {
         "add_billing_address_button": "Προσθήκη διεύθυνσης τιμολόγησης",
         "save_new_shipping_address_accessibility_label": "Αποθήκευση διεύθυνσης αποστολής"
+      },
+      "orders": {
+        "draft_order_list": {
+          "show_all_orders_in_review": "Εμφάνιση όλων των παραγγελιών που ελέγχθηκαν"
+        }
       }
     },
     "errors": {

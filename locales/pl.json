@@ -569,7 +569,8 @@
           "credit_card_verification_value_blank": "Wprowadź kod CVV lub kod zabezpieczający z twojej karty"
         }
       },
-      "credit_or_debit_card_title": "Kredit- lub Debetowa Karta"
+      "credit_or_debit_card_title": "Kredit- lub Debetowa Karta",
+      "default": "Standard"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -725,6 +726,12 @@
       },
       "addresses": {
         "save_new_shipping_address_accessibility_label": "Zapisz adres dostawy"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Ukryj wszystko",
+          "hide_all_accessibility_label": "Ukryj wszystkie zamówienia, które mają być sprawdzone"
+        }
       }
     },
     "errors": {

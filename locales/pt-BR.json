@@ -572,7 +572,11 @@
           "credit_card_verification_value_blank": "Insira o CVV ou código de segurança do seu cartão"
         }
       },
-      "credit_or_debit_card_title": "Cartão de crédito ou débito"
+      "credit_or_debit_card_title": "Cartão de crédito ou débito",
+      "apple_pay": {
+        "loading": "Apple Pay está sendo carregado"
+      },
+      "no_payment_methods_banner": "Nenhum método de pagamento adicionado"
     },
     "navigation_and_structure": {
       "account_menu": {

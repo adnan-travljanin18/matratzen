@@ -593,7 +593,16 @@
           "credit_card_verification_value_blank": "Ange CVV- eller säkerhetskoden på ditt kort"
         }
       },
-      "credit_or_debit_card_title": "Kredit- eller betalkort"
+      "credit_or_debit_card_title": "Kredit- eller betalkort",
+      "apple_pay": {
+        "errors": {
+          "not_available": "Apple Pay är inte tillgängligt på den här enheten."
+        }
+      },
+      "default": "Standard",
+      "store_credit": {
+        "accesibility_label": "Shop-Guthaben – {{formattedBalance}}"
+      }
     },
     "navigation_and_structure": {
       "account_menu": {

@@ -599,7 +599,13 @@
           "credit_card_verification_value_blank": "CVV veya kartınızdaki güvenlik kodunu girin"
         }
       },
-      "credit_or_debit_card_title": "Kredit veya Debit Kartı"
+      "credit_or_debit_card_title": "Kredit veya Debit Kartı",
+      "apple_pay": {
+        "errors": {
+          "not_available": "Apple Pay bu cihazda kullanılamıyor."
+        }
+      },
+      "no_payment_methods_banner": "Hiçbir ödeme yöntemi eklenmedi"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -750,6 +756,13 @@
       },
       "addresses": {
         "save_new_shipping_address_accessibility_label": "Teslimat adresini kaydet"
+      },
+      "orders": {
+        "draft_order_list": {
+          "pagination": {
+            "nav_accessibility_label": "Navigasyon düğmeleri için inceleme siparişleri"
+          }
+        }
       }
     },
     "errors": {

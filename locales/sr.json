@@ -584,7 +584,11 @@
           "credit_card_verification_value_blank": "Unesite CVV ili sigurnosni kod sa vaše kartice"
         }
       },
-      "credit_or_debit_card_title": "Kreditna ili Debitna Kartica"
+      "credit_or_debit_card_title": "Kreditna ili Debitna Kartica",
+      "apple_pay": {
+        "loading": "Apple Pay се учитава"
+      },
+      "no_payment_methods_banner": "Nisu dodate metode plaćanja"
     },
     "navigation_and_structure": {
       "account_menu": {

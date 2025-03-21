@@ -596,7 +596,11 @@
           "credit_card_verification_value_blank": "Введіть CVV або код безпеки на вашій карті"
         }
       },
-      "credit_or_debit_card_title": "Кредитна або дебетова картка"
+      "credit_or_debit_card_title": "Кредитна або дебетова картка",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Додати метод оплати Google Pay"
+      },
+      "no_payment_methods_banner": "Жодні методи оплати не додані"
     },
     "navigation_and_structure": {
       "account_menu": {
@@ -749,6 +753,11 @@
         "add_billing_address_button": "Додати адресу рахунку",
         "cancel_adding_billing_address_accessibility_label": "Скасувати додавання рахункової адреси",
         "save_new_shipping_address_accessibility_label": "Зберегти адресу доставки"
+      },
+      "orders": {
+        "draft_order_list": {
+          "show_all_accessibility_label": "Показати всі замовлення, які потрібно перевірити"
+        }
       }
     },
     "errors": {
