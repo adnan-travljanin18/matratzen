@@ -450,6 +450,11 @@
         "external": {
           "instructions": "Potvrdi uplatu u aplikaciji kako bi završio ovu kupovinu."
         }
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Ovaj proizvod nije dostupan za isporuku u %{location_name}."
+        }
       }
     },
     "pagination": {
@@ -636,7 +641,12 @@
             "eligible_to_claim_shop_cash_description": "Da je vaša narudžbina stigla sa zakašnjenjem, imate pravo na {{amount}} Shop Cash."
           }
         }
-      }
+      },
+      "buy_again_accessibility_label": "За наруџбу {{orderId}} поново купити"
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturisanje i isporuka",
+      "hide_items": "Sakrijte članak"
     }
   }
 }

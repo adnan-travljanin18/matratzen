@@ -441,6 +441,11 @@
         "external": {
           "instructions": "Confirme o pagamento no aplicativo para concluir esta compra."
         }
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Este produto não está disponível para entrega em %{location_name}."
+        }
       }
     },
     "pagination": {
@@ -624,7 +629,12 @@
             "eligible_to_claim_shop_cash_description": "Como seu pedido chegou atrasado, você tem direito a {{amount}} Shop Cash."
           }
         }
-      }
+      },
+      "buy_again_accessibility_label": "Para a compra do pedido {{orderId}} novamente"
+    },
+    "order_details": {
+      "addresses_section_title": "Faturamento e Envio",
+      "card_ending_with": "endet mit {{lastDigits}}"
     }
   }
 }

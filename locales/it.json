@@ -464,6 +464,12 @@
       },
       "merchant_instruction_errors": {
         "invalid_stable_id_target": "La dichiarazione per l'articolo di merchandising %{position} %{name} si riferisce all'ID stabile %{stable_id}, che però non fa parte della serie di articoli di merchandising."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Questo prodotto non è disponibile per la consegna a %{location_name}.",
+          "some_products_other": "Questi prodotti non sono disponibili per la spedizione a %{location_name}."
+        }
       }
     },
     "pagination": {
@@ -626,8 +632,14 @@
           "details_modal": {
             "view_balance_in_shop_button_label": "Mostra il saldo nel negozio"
           }
+        },
+        "gift_card_resend_button": {
+          "one": "Gutschein nuovamente inviato"
         }
       }
+    },
+    "order_details": {
+      "addresses_section_title": "Fatturazione e Spedizione"
     }
   }
 }

@@ -488,6 +488,11 @@
       },
       "merchant_instruction_errors": {
         "invalid_stable_id_target": "Die інструкція для товару мерчандайзингу %{position} %{name} стосується стабільного ID %{stable_id}, який проте не входить до асортименту товарів мерчандайзингу."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Це продукт недоступний для доставки до %{location_name}."
+        }
       }
     },
     "pagination": {
@@ -651,6 +656,13 @@
             "view_balance_in_shop_button_label": "Показати баланс у магазині"
           }
         }
+      },
+      "buy_again_accessibility_label": "Для замовлення {{orderId}} повторно купити"
+    },
+    "order_details": {
+      "addresses_section_title": "Рахунки та доставка",
+      "payment": {
+        "status_in_review": "Оплата підлягає перевірці"
       }
     }
   }

@@ -460,6 +460,12 @@
       },
       "merchant_instruction_errors": {
         "invalid_stable_id_target": "Die instruksjonen for merchandise-artikkelen %{position} %{name} gjelder den stabile ID %{stable_id}, som imidlertid ikke er i merchandise-artikkelserien."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Dette produktet er ikke tilgjengelig for levering til %{location_name}.",
+          "some_products_other": "Disse produktene er ikke tilgjengelige for levering til %{location_name}."
+        }
       }
     },
     "pagination": {
@@ -622,8 +628,14 @@
           "details_modal": {
             "view_balance_in_shop_button_label": "Vis saldo i butikken"
           }
+        },
+        "gift_card_resend_button": {
+          "one": "Gutschein sende på nytt"
         }
       }
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturering og frakt"
     }
   }
 }

@@ -488,6 +488,11 @@
       },
       "merchant_instruction_errors": {
         "invalid_stable_id_target": "Die talimatın ürün için %{position} %{name} sabit ID %{stable_id} ile ilgili olup, ancak ürünler arasında yer almamaktadır."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Bu ürün %{location_name} adresine teslimat için mevcut değildir."
+        }
       }
     },
     "pagination": {
@@ -647,8 +652,15 @@
           "details_modal": {
             "view_balance_in_shop_button_label": "Guthabeyi mağazada göster"
           }
+        },
+        "tracking_number": {
+          "other": "Takip numaraları"
         }
       }
+    },
+    "order_details": {
+      "addresses_section_title": "Faturalama ve Gönderim",
+      "loading_finished_accessibility_message": "Sipariş detayları yüklendi"
     }
   }
 }

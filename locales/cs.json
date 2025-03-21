@@ -443,6 +443,11 @@
       },
       "merchant_instruction_errors": {
         "invalid_stable_id_target": "Die Anweisung für den Merchandise-Artikel %{position} %{name} se vztahuje na stabilní ID %{stable_id}, které však není v řadě merchandise článků."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Tento produkt není k dispozici pro dodání do %{location_name}."
+        }
       }
     },
     "pagination": {
@@ -616,6 +621,10 @@
           "one": "Gutschein znovu odeslat"
         }
       }
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturace a doprava",
+      "loading_finished_accessibility_message": "Bestelldetails byly načteny"
     }
   }
 }

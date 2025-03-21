@@ -460,6 +460,12 @@
       },
       "merchant_instruction_errors": {
         "invalid_stable_id_target": "Die instruction pour l'article de marchandises %{position} %{name} se réfère à l'ID stable %{stable_id}, qui ne figure cependant pas dans la série des articles de marchandises."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Ce produit n'est pas disponible pour la livraison à %{location_name}.",
+          "some_products_other": "Ces produits ne sont pas disponibles pour la livraison à %{location_name}."
+        }
       }
     },
     "pagination": {
@@ -623,9 +629,14 @@
         },
         "tracking_number": {
           "one": "Numéro de suivi"
+        },
+        "gift_card_resend_button": {
+          "one": "Gutschein à renvoyer"
         }
-      },
-      "manage_accessiblity_label": "Commande {{orderId}} à gérer"
+      }
+    },
+    "order_details": {
+      "addresses_section_title": "Facturation et expédition"
     }
   }
 }

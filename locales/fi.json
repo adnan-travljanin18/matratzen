@@ -450,6 +450,11 @@
       },
       "merchant_instruction_errors": {
         "invalid_stable_id_target": "Die Anweisung für den Merchandise-Artikel %{position} %{name} bezieht sich auf die stabile ID %{stable_id}, die jedoch nicht in der Merchandise-Artikel-Reihe steht."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Tämä tuote ei ole saatavilla toimitettavaksi kohteeseen %{location_name}."
+        }
       }
     },
     "pagination": {
@@ -617,9 +622,15 @@
         },
         "tracking_number": {
           "one": "Seurantanumero"
+        },
+        "gift_card_resend_button": {
+          "one": "Gutschein erneut senden"
         }
-      },
-      "buy_again": "Osta uudelleen"
+      }
+    },
+    "order_details": {
+      "addresses_section_title": "Rechningslähtö ja toimitus",
+      "loading_finished_accessibility_message": "Bestelldetails on ladattu"
     }
   }
 }

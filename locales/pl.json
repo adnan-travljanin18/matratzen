@@ -458,6 +458,12 @@
       },
       "merchant_instruction_errors": {
         "invalid_stable_id_target": "Die instrukcja dotycząca artykułu towarowego %{position} %{name} odnosi się do stabilnego ID %{stable_id}, które jednak nie znajduje się w serii artykułów towarowych."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "To produkt nie jest dostępny do dostawy do %{location_name}.",
+          "some_products_other": "Te produkty nie są dostępne do dostawy do %{location_name}."
+        }
       }
     },
     "pagination": {
@@ -620,8 +626,14 @@
           "details_modal": {
             "view_balance_in_shop_button_label": "Pokaż saldo w sklepie"
           }
+        },
+        "tracking_number": {
+          "other": "Numer przesyłki"
         }
       }
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturowanie i wysyłka"
     }
   }
 }

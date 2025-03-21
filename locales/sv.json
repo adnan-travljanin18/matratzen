@@ -482,6 +482,12 @@
         "external": {
           "instructions": "Bekräfta betalningen i appen för att slutföra detta köp."
         }
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Detta produkt är inte tillgänglig för leverans till %{location_name}.",
+          "some_products_other": "Dessa produkter är inte tillgängliga för leverans till %{location_name}."
+        }
       }
     },
     "pagination": {
@@ -645,8 +651,14 @@
             "expired_badge_label": "Utgången",
             "view_balance_in_shop_button_label": "Visa saldo i butik"
           }
+        },
+        "tracking_number": {
+          "other": "Spårningsnummer"
         }
       }
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturering och frakt"
     }
   }
 }

@@ -447,6 +447,11 @@
       },
       "merchant_instruction_errors": {
         "invalid_stable_id_target": "Die Anweisung für den Merchandise-Artikel %{position} %{name} bezieht sich a a stabil ID %{stable_id}, amely azonban nem szerepel a Merchandise-Artikel sorozatban."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Ez a termék nem elérhető szállításra %{location_name} területére."
+        }
       }
     },
     "pagination": {
@@ -629,8 +634,15 @@
           "details_modal": {
             "view_balance_in_shop_button_label": "Guthaben a boltban megjelenítése"
           }
+        },
+        "tracking_number": {
+          "other": "Nyomkövetési számok"
         }
       }
+    },
+    "order_details": {
+      "addresses_section_title": "Számlázás és szállítás",
+      "loading_finished_accessibility_message": "A megrendelési részletek betöltődtek"
     }
   }
 }

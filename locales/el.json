@@ -445,6 +445,11 @@
       },
       "merchant_instruction_errors": {
         "invalid_stable_id_target": "Η εντολή για το εμπορεύσιμο προϊόν %{position} %{name} αναφέρεται στην σταθερή ταυτότητα %{stable_id}, η οποία όμως δεν ανήκει στη σειρά εμπορευμάτων."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Αυτό το προϊόν δεν είναι διαθέσιμο για αποστολή στη %{location_name}."
+        }
       }
     },
     "pagination": {
@@ -628,6 +633,13 @@
             "eligible_to_claim_shop_cash_description": "Δεδομένου ότι η παραγγελία σου έφτασε καθυστερημένα, έχεις δικαίωμα σε {{amount}} Shop Cash."
           }
         }
+      },
+      "buy_again_accessibility_label": "Για παραγγελία {{orderId}} ξαναγοράστε"
+    },
+    "order_details": {
+      "addresses_section_title": "Η τιμολόγηση και αποστολή",
+      "payment": {
+        "status_in_review": "Η πληρωμή είναι ληξιπρόθεσμη μετά την επαλήθευση"
       }
     }
   }
