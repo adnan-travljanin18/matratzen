@@ -44,12 +44,13 @@
     "global_testimonial_nTncWA": {
       "type": "global-testimonial",
       "custom_css": [
-        "p {font-size: 12px; text-align: left;}"
+        "p {font-size: 12px; text-align: left;}",
+        ".section-content {padding-top: 0 !important; padding-bottom: 0 !important;}"
       ],
       "settings": {
         "fluid_layout": false,
         "heading_txt": "",
-        "lead_txt": "<p>Serenity Bett steht in keinerlei Verbindung zu den auf dieser Website genannten Marken, Herstellern oder Produkten und wird von diesen weder unterstützt noch gesponsert. Die Nennung von Markennamen und Produktbezeichnungen erfolgt ausschließlich zu Informationszwecken. Serenity Bett vertreibt ausschließlich Produkte der eigenen Marke (Serenity Bett).</p>",
+        "lead_txt": "<p>*Serenity Bett steht in keinerlei Verbindung zu den auf dieser Website genannten Marken, Herstellern oder Produkten und wird von diesen weder unterstützt noch gesponsert. Die Nennung von Markennamen und Produktbezeichnungen erfolgt ausschließlich zu Informationszwecken. Serenity Bett vertreibt ausschließlich Produkte der eigenen Marke (Serenity Bett).</p>",
         "section_bg_color": "#FFFFFF",
         "section_text_color": "#858585",
         "enable": false,
