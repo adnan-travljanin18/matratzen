@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -31,9 +40,28 @@
         "enable_article_navigation": false,
         "navigation_type": "simple"
       }
+    },
+    "global_testimonial_nTncWA": {
+      "type": "global-testimonial",
+      "custom_css": [
+        "p {font-size: 12px; text-align: left;}"
+      ],
+      "settings": {
+        "fluid_layout": false,
+        "heading_txt": "",
+        "lead_txt": "<p>Serenity Bett steht in keinerlei Verbindung zu den auf dieser Website genannten Marken, Herstellern oder Produkten und wird von diesen weder unterstützt noch gesponsert. Die Nennung von Markennamen und Produktbezeichnungen erfolgt ausschließlich zu Informationszwecken. Serenity Bett vertreibt ausschließlich Produkte der eigenen Marke (Serenity Bett).</p>",
+        "section_bg_color": "#FFFFFF",
+        "section_text_color": "#858585",
+        "enable": false,
+        "overlay_color": "#000",
+        "opacity": 0.5,
+        "nav_arrows": false,
+        "nav_dots": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "global_testimonial_nTncWA"
   ]
 }
