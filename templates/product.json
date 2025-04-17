@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -11,10 +20,6 @@
         },
         "fcbf423b-3c83-4097-901c-ca70b8b80e5c": {
           "type": "description",
-          "settings": {}
-        },
-        "hulk_product_reviews_average_review_wmKVTQ": {
-          "type": "shopify:\/\/apps\/hulk-product-reviews\/blocks\/average-review\/34006358-52bd-4ec7-8c78-200fe58b77ba",
           "settings": {}
         },
         "3b316236-d91e-4dd0-953a-173c1f40bfcf": {
@@ -60,21 +65,22 @@
             "tab_1_title": "Reviews",
             "enable_custom_tab_2": false,
             "tab_2_title": "Spezifikationen",
-            "tab_2_content": "<p>Test tes test<\/p>"
+            "tab_2_content": "<p>Test tes test</p>"
           }
         },
         "badge_slider_pUJP8J": {
           "type": "badge-slider",
+          "disabled": true,
           "settings": {
             "enable_badge_slider": true,
             "badge_heading": "Anerkannt und bewährt in der Industrie",
             "badge_paragraph": "Sicherheit, Vertrauen und Schutz von innen.",
-            "image1": "shopify:\/\/shop_images\/1_70de0509-d432-4190-9269-7090441d8085.png",
-            "image2": "shopify:\/\/shop_images\/2_e0f190d0-4c85-4b93-b10d-fb161feefa36.png",
-            "image3": "shopify:\/\/shop_images\/3_88db4a41-031f-496f-b5c8-345624704c7a.png",
-            "image4": "shopify:\/\/shop_images\/4_cafe5739-698b-4aae-8042-9871b32b4022.png",
-            "image5": "shopify:\/\/shop_images\/5_dda8b859-8d87-4b71-b32a-9d006b72a24e.png",
-            "image6": "shopify:\/\/shop_images\/6_26f5d414-8b97-4262-8206-d4bc8a2587bc.png"
+            "image1": "shopify://shop_images/1_70de0509-d432-4190-9269-7090441d8085.png",
+            "image2": "shopify://shop_images/2_e0f190d0-4c85-4b93-b10d-fb161feefa36.png",
+            "image3": "shopify://shop_images/3_88db4a41-031f-496f-b5c8-345624704c7a.png",
+            "image4": "shopify://shop_images/4_cafe5739-698b-4aae-8042-9871b32b4022.png",
+            "image5": "shopify://shop_images/5_dda8b859-8d87-4b71-b32a-9d006b72a24e.png",
+            "image6": "shopify://shop_images/6_26f5d414-8b97-4262-8206-d4bc8a2587bc.png"
           }
         },
         "related-products": {
@@ -94,7 +100,6 @@
       "block_order": [
         "f74187b8-c891-42b8-9a6b-2c67a497b018",
         "fcbf423b-3c83-4097-901c-ca70b8b80e5c",
-        "hulk_product_reviews_average_review_wmKVTQ",
         "3b316236-d91e-4dd0-953a-173c1f40bfcf",
         "b253ffff-d04d-43a0-9d68-fabdd77b595a",
         "e53b8574-dd34-4eca-8c40-ac20d2e38598",
