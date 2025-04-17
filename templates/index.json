@@ -251,7 +251,6 @@
         },
         "featured_collection_G6jDxt": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/5_dda8b859-8d87-4b71-b32a-9d006b72a24e.png"
           }
