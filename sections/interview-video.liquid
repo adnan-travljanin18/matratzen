@@ -1,85 +1,100 @@
-<section class="section-content position-relative">
+{% if section.settings.interview_text or section.settings.review_text %}
+  <section class="section-content position-relative">
     <div class="container">
-        <div class="text-center col-12 col-md-6 mx-auto mb-4">
-            <h2>{{ section.settings.review_heading }}</h2>
-            <p>{{ section.settings.review_text }}</p>
-        </div>
-        <div class="hulk-reviews-widget" data-id="21321"></div>
+      <div class="text-center col-12 col-md-6 mx-auto mb-4">
+        {% if section.settings.review_heading %}
+          <h2>{{ section.settings.review_heading }}</h2>
+        {% endif %}
+        {% if section.settings.review_text %}
+          <p>{{ section.settings.review_text }}</p>
+        {% endif %}
+      </div>
+      <div class="hulk-reviews-widget" data-id="21321"></div>
     </div>
-</section>
-<section class="pb-9 position-relative">
-    <div class="container">
-        <div class="row">
-            <div class="col-10 col-lg-4 mx-auto text-center text-lg-start pb-5 pb-lg-0 interview-text">
-                <h2 class="interview-heading">{{ section.settings.interview_heading }}</h2>
-                <p class="interview-paragraph">{{ section.settings.interview_text }}</p>
-            </div>
-            <div class="col-12 col-lg-8 interview-video">
-                <video class="w-100" src="{{ section.settings.interview_video.sources[1].url }}" type="video/mp4" controls></video>
-            </div>
-        </div>
+  </section>
+{% endif %}
+
+<section class="pb-9 position-relative {% unless section.settings.interview_text or section.settings.review_text %} section-content custom-bg{% endunless %}">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 col-lg-4 mx-auto text-center text-lg-start pb-5 pb-lg-0 interview-text">
+        <h2 class="interview-heading">{{ section.settings.interview_heading }}</h2>
+        <p class="interview-paragraph">{{ section.settings.interview_text }}</p>
+      </div>
+      <div class="col-12 col-lg-8 interview-video">
+        <video
+          class="w-100"
+          src="{{ section.settings.interview_video.sources[1].url }}"
+          type="video/mp4"
+          controls
+        ></video>
+      </div>
     </div>
+  </div>
 </section>
 
 <style>
-    .interview-video-section {
-        position: relative;
-        z-index: 1;
-    }
-    .interview-video-section::before {
-        content: "";
-        position: absolute;
-        height: 70%;
-        width: 100%;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        background: #39546A;
-        z-index: 0;
-    }
-    .interview-video-section video {
-        border-radius: 24px;
-    }
-    .interview-video-section .interview-text, .interview-video-section .interview-heading {
-        color: #fff;
-    }
+   .interview-video-section {
+       position: relative;
+       z-index: 1;
+   }
+   .interview-video-section::before {
+       content: "";
+       position: absolute;
+       height: 70%;
+       width: 100%;
+       bottom: 0;
+       right: 0;
+       left: 0;
+       background: #39546A;
+       z-index: 0;
+   }
+  .interview-video-section:has(.custom-bg)::before {
+     height: 100%;
+   }
+   .interview-video-section video {
+       border-radius: 24px;
+   }
+   .interview-video-section .interview-text, .interview-video-section .interview-heading {
+       color: #fff;
+   }
 </style>
 
 {% schema %}
-    {
-        "name": "Interview Video",
-        "class": "interview-video-section",
-        "settings": [
-            {
-                "type": "text",
-                "id": "review_heading",
-                "label": "Review Heading"
-            },
-            {
-                "type": "text",
-                "id": "review_text",
-                "label": "Review Text"
-            },
-            {
-                "type": "text",
-                "id": "interview_heading",
-                "label": "Write Interview Heading Here"
-            },
-            {
-                "type": "text",
-                "id": "interview_text",
-                "label": "Write Interview Text Here"
-            },
-            {
-                "type": "video",
-                "id": "interview_video",
-                "label": "Insert Video here"
-            }
-        ],
-        "presets": [
-            {
-                "name": "Interview Video"
-            }
-        ]
-    }
+{
+    "name": "Interview Video",
+    "class": "interview-video-section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "review_heading",
+            "label": "Review Heading"
+        },
+        {
+            "type": "text",
+            "id": "review_text",
+            "label": "Review Text"
+        },
+        {
+            "type": "text",
+            "id": "interview_heading",
+            "label": "Write Interview Heading Here"
+        },
+        {
+            "type": "text",
+            "id": "interview_text",
+            "label": "Write Interview Text Here"
+        },
+        {
+            "type": "video",
+            "id": "interview_video",
+            "label": "Insert Video here"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Interview Video"
+        }
+    ]
+}
 {% endschema %}
