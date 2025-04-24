@@ -337,8 +337,8 @@
     "interview_video_mAHyVn": {
       "type": "interview-video",
       "settings": {
-        "review_heading": "Was unsere Kunden sagen",
-        "review_text": "Entdecken Sie, warum unsere Kunden unsere Produkte und Dienstleistungen lieben. Lesen Sie ihre Erfahrungsberichte und erfahren Sie, wie wir ihr Leben verändert haben.",
+        "review_heading": "",
+        "review_text": "",
         "interview_heading": "Das Interview ansehen",
         "interview_text": "Entdecken Sie einzigartige Einblicke von Ajla Jusic, CEO @Serenity Bett GmbH, in diesem spannenden Interview über Serenity.",
         "interview_video": "shopify://files/videos/Serenity_intervju_captions.mp4"

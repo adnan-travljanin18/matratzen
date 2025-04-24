@@ -1,11 +1,11 @@
-{% if section.settings.interview_text or section.settings.review_text %}
+{% if section.settings.interview_text != blank or section.settings.review_text != blank %}
   <section class="section-content position-relative">
     <div class="container">
       <div class="text-center col-12 col-md-6 mx-auto mb-4">
-        {% if section.settings.review_heading %}
+        {% if section.settings.review_heading != blank %}
           <h2>{{ section.settings.review_heading }}</h2>
         {% endif %}
-        {% if section.settings.review_text %}
+        {% if section.settings.review_text != blank %}
           <p>{{ section.settings.review_text }}</p>
         {% endif %}
       </div>
